@@ -1,5 +1,10 @@
 # Credit
-This is my own notes from [Kent C. Dodds](https://kentcdodds.com/) courses at [https://testingjavascript.com/](https://testingjavascript.com/) and [https://epicreact.dev/](https://epicreact.dev/).
+This repo includes the following:
+
+* My own notes from [Kent C. Dodds](https://kentcdodds.com/) course [https://epicreact.dev/](https://epicreact.dev/).
+* My own notes from [Kent C. Dodds](https://kentcdodds.com/) course [EpicReact](https://testingjavascript.com/)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg2Mjg2NzcsMjA1NzMyMTg3NV19
+eyJoaXN0b3J5IjpbLTE1ODcxMzAwODEsLTEzNTg2Mjg2NzcsMj
+A1NzMyMTg3NV19
 -->

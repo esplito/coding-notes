@@ -7,7 +7,8 @@ This is from Kent's "Example Runthrough".
 3. Then open the exercise on an isolated page, next to your editor.
 4. Switch the test from final to your exercise.
 5. Open up the exercise-file in VS Code.
-6. Have the devtools opened in your browser.
+6. Have the DevTools opened in your browser.
+7. Before you watch the solution, work through the exercise.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk0MzkzNjNdfQ==
+eyJoaXN0b3J5IjpbMTYwMzcxMzY4XX0=
 -->

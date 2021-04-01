@@ -10,11 +10,12 @@ You need to know the following areas of javascript ([Dodds: Javascript to Know f
 * ESModules
 * Ternaries
 * Array methods
+* Nullish coales
 
 ## System Requirements
 -   [git](https://git-scm.com/)  v2.13 or greater
 -   [NodeJS](https://nodejs.org/)  `12 || 14 || 15`
 -   [npm](https://www.npmjs.com/)  v6 or greater
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTg5OTMzM119
+eyJoaXN0b3J5IjpbMTA3Mzk0NDk0M119
 -->

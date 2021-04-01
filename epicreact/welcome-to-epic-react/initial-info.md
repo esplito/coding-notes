@@ -7,11 +7,14 @@ You need to know the following areas of javascript ([Dodds: Javascript to Know f
 * Destructuring
 * Parameter defaults
 * Rest/Spread
+* ESModules
+* Ternaries
+* Array methods
 
 ## System Requirements
 -   [git](https://git-scm.com/)  v2.13 or greater
 -   [NodeJS](https://nodejs.org/)  `12 || 14 || 15`
 -   [npm](https://www.npmjs.com/)  v6 or greater
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MjM1MzEyNl19
+eyJoaXN0b3J5IjpbMTUxNTg5OTMzM119
 -->

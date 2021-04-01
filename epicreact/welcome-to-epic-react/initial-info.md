@@ -10,12 +10,13 @@ You need to know the following areas of javascript ([Dodds: Javascript to Know f
 * ESModules
 * Ternaries
 * Array methods
-* Nullish coales
+* Nullish coalescing operator
+* Optional chaining
 
 ## System Requirements
 -   [git](https://git-scm.com/)  v2.13 or greater
 -   [NodeJS](https://nodejs.org/)  `12 || 14 || 15`
 -   [npm](https://www.npmjs.com/)  v6 or greater
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3Mzk0NDk0M119
+eyJoaXN0b3J5IjpbMTMwNzIxNjEyM119
 -->

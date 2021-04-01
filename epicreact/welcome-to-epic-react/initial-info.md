@@ -12,11 +12,13 @@ You need to know the following areas of javascript ([Dodds: Javascript to Know f
 * Array methods
 * Nullish coalescing operator
 * Optional chaining
+* Promises and async/await
+* 
 
 ## System Requirements
 -   [git](https://git-scm.com/)  v2.13 or greater
 -   [NodeJS](https://nodejs.org/)  `12 || 14 || 15`
 -   [npm](https://www.npmjs.com/)  v6 or greater
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzIxNjEyM119
+eyJoaXN0b3J5IjpbMTI4OTc3NjU2OV19
 -->

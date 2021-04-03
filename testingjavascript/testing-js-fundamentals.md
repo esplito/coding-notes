@@ -168,13 +168,14 @@ function expect(actual) {
 global.test = test;
 global.expect = expect;
 ```
-Then we could require this file when we run our code:
+Then we could require this file when we run our code and the tests will run just like before:
 ```terminal
-??
+node --require ./setup-globals lessons/globals.js
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDk5NTYwNSwxMzg3MzAzMzQ3LC0yNz
+eyJoaXN0b3J5IjpbMTAxMTk4ODAyOCwxMzg3MzAzMzQ3LC0yNz
 gwNjc5NzksMTU4NzM2ODcyMiwzNjc5MTc1OTcsODM3Njg1Njk3
 XX0=
 -->

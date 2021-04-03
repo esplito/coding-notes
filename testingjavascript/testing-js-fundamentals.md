@@ -22,6 +22,7 @@ if(result !== expected) {
 }
 
 // Test subtract-function
+// This is the most fundamental form of a test in JavaScript.
 result = subtract(7, 3);
 expected = 4;
 if(result !== expected) {
@@ -30,8 +31,9 @@ if(result !== expected) {
 
 ```
 
+## 3 Abstract Test
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODIwMzMwMiwxNTg3MzY4NzIyLDM2Nz
+eyJoaXN0b3J5IjpbLTcwMzg1NTU2NCwxNTg3MzY4NzIyLDM2Nz
 kxNzU5Nyw4Mzc2ODU2OTddfQ==
 -->

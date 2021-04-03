@@ -180,11 +180,11 @@ Run:
 ```terminal
 npx jest
 ```
-and we will see the same result but with a bit clearer info.
+and we will see the same result but with a bit clearer error messages.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDEyNTEyMiwxMzg3MzAzMzQ3LC0yNz
+eyJoaXN0b3J5IjpbLTM1MjQ2NDc3NiwxMzg3MzAzMzQ3LC0yNz
 gwNjc5NzksMTU4NzM2ODcyMiwzNjc5MTc1OTcsODM3Njg1Njk3
 XX0=
 -->

@@ -99,8 +99,47 @@ function expect(actual) {
 	}
 }
 ```
+
+## Support Async Tests - Promises through async await
+
+```js
+test('sum adds numbers asynchronously', async () => {
+	const result = await sumAsync(3, 7);
+	const expected = 10;
+	expect(result).toBe(expected);
+});
+
+test('subtract subtracts number', () => {
+	const result = subtract(7, 3);
+	const expected = 4;
+	expect(result).toBe(expected);
+});
+
+function test(title, callback) {
+	try {
+		callback();
+		console.log(`✓ ${title}`);
+	} catch (error) {
+		console.error(`X ${title}`);
+		console.error(error);
+	}
+}
+
+// Expect is like an assertion library
+function expect(actual) {
+	return {
+		toBe(expected) {
+			if (actual !== expected) {
+				throw new Error(`${actual} is not equal to ${expected}`)
+			}
+		},
+	}
+}
+```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzMwMzM0NywtMjc4MDY3OTc5LDE1OD
-czNjg3MjIsMzY3OTE3NTk3LDgzNzY4NTY5N119
+eyJoaXN0b3J5IjpbLTgzNTk5Njc3MywxMzg3MzAzMzQ3LC0yNz
+gwNjc5NzksMTU4NzM2ODcyMiwzNjc5MTc1OTcsODM3Njg1Njk3
+XX0=
 -->

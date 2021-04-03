@@ -68,15 +68,19 @@ function expect(actual) {
 ```js
 let result, expected;
 
-result = sum(3, 7);
-expected = 10;
+function sumTest() {
+	result = sum(3, 7);
+	expected = 10;
+	expect(result).toBe(expected);
+}
+test('sum adds numbers', sumTest);
 
-expect(result).toBe(expected);
-
-result = subtract(7, 3);
-expected = 4;
-
-expect(result).toBe(expected);
+function subtractTest() {
+	result = subtract(7, 3);
+	expected = 4;
+	expect(result).toBe(expected);
+}
+test('');
 
 function test(title, callback) {
 	try {
@@ -101,6 +105,6 @@ function expect(actual) {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzA1MzE5MywtMjc4MDY3OTc5LDE1OD
+eyJoaXN0b3J5IjpbMjA5Mzg5NDU0OCwtMjc4MDY3OTc5LDE1OD
 czNjg3MjIsMzY3OTE3NTk3LDgzNzY4NTY5N119
 -->

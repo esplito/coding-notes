@@ -66,21 +66,17 @@ function expect(actual) {
 
 `testing-framework.js`
 ```js
-let result, expected;
-
-function sumTest() {
-	result = sum(3, 7);
-	expected = 10;
+test('sum adds numbers', () => {
+	const result = sum(3, 7);
+	const expected = 10;
 	expect(result).toBe(expected);
-}
-test('sum adds numbers', sumTest);
+});
 
-function subtractTest() {
-	result = subtract(7, 3);
-	expected = 4;
+test('subtract subtracts number', () => {
+	const result = subtract(7, 3);
+	const expected = 4;
 	expect(result).toBe(expected);
-}
-test('');
+});
 
 function test(title, callback) {
 	try {
@@ -105,6 +101,6 @@ function expect(actual) {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Mzg5NDU0OCwtMjc4MDY3OTc5LDE1OD
+eyJoaXN0b3J5IjpbMTM4NzMwMzM0NywtMjc4MDY3OTc5LDE1OD
 czNjg3MjIsMzY3OTE3NTk3LDgzNzY4NTY5N119
 -->

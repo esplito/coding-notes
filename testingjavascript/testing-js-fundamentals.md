@@ -81,7 +81,9 @@ expect(result).toBe(expected);
 function test(title, callback) {
 	try {
 		callback();
-		console.log(` ${title}`);
+		console.log(`✓ ${title}`);
+	} catch (error) {
+		console.error(``);
 	}
 }
 
@@ -98,6 +100,6 @@ function expect(actual) {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNzQ3NTU2NiwtMjc4MDY3OTc5LDE1OD
-czNjg3MjIsMzY3OTE3NTk3LDgzNzY4NTY5N119
+eyJoaXN0b3J5IjpbLTExODUxNjQxNDgsLTI3ODA2Nzk3OSwxNT
+g3MzY4NzIyLDM2NzkxNzU5Nyw4Mzc2ODU2OTddfQ==
 -->

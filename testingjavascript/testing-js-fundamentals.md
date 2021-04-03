@@ -1,9 +1,9 @@
 # Fundamentals of Testing in Javascript
 
-## 1 Intro
+## Intro
 - We are going to create our own "mini"-jest. 
 
-## 2 Throw Error with a Simple Test
+## Throw Error with a Simple Test
 
 ```js
 /*
@@ -32,7 +32,7 @@ if(result !== expected) {
 
 ```
 
-## 3 Abstract Test Assertions -> JavaScript Assertion Library
+## Abstract Test Assertions -> JavaScript Assertion Library
 
 ```js
 let result, expected;
@@ -55,13 +55,17 @@ function expect(actual) {
 			throw new Error(`${actual} is not equal to ${expected}`)
 		}
 	},
+	// We can add more assertions
 	toEqual(expected) {},
 	toBeGreaterThan(expected) {}
 	}
 }
 ```
+
+## 4 Encapsulate & Isolate Tests -> Build a Javascript Testing Framework
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzU2MjMzOTksMTU4NzM2ODcyMiwzNj
-c5MTc1OTcsODM3Njg1Njk3XX0=
+eyJoaXN0b3J5IjpbLTYwODgzNjY1MiwxNTg3MzY4NzIyLDM2Nz
+kxNzU5Nyw4Mzc2ODU2OTddfQ==
 -->

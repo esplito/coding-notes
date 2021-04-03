@@ -140,11 +140,41 @@ function expect(actual) {
 
 ## Provide Testing Helper Functions as Globals
 
-We could take the following code and put into 
+We could take the following code and put into a `setup-globals.js`-file:
+
+```js
+// this will work for both synchronous and asynchronous tests
+async function test(title, callback) {
+  try {
+    await callback(); // this will work for both synchronous and asynchronous tests
+    console.log(`✓ ${title}`);
+  } catch (error) {
+    console.error(`X ${title}`);
+    console.error(error);
+  }
+}
+
+// Expect is like an assertion library
+function expect(actual) {
+  return {
+    toBe(expected) {
+      if (actual !== expected) {
+        throw new Error(`${actual} is not equal to ${expected}`)
+      }
+    },
+  }
+}
+
+global.test = test;
+global.expect = expect;
+```
+Then we could require this file when we run our code:
+```terminal
+??
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxOTE4NzQ5OSwxMzg3MzAzMzQ3LC0yNz
+eyJoaXN0b3J5IjpbMTQwNDk5NTYwNSwxMzg3MzAzMzQ3LC0yNz
 gwNjc5NzksMTU4NzM2ODcyMiwzNjc5MTc1OTcsODM3Njg1Njk3
 XX0=
 -->

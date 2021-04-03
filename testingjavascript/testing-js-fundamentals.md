@@ -36,6 +36,7 @@ if(result !== expected) {
 
 ```js
 let result,expected;
+
 result = sum(3, 7);
 expected = 10;
 
@@ -61,6 +62,6 @@ function expect(actual) {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDQwNjEzLDE1ODczNjg3MjIsMzY3OT
-E3NTk3LDgzNzY4NTY5N119
+eyJoaXN0b3J5IjpbLTE3ODI3MTQ5MjUsMTU4NzM2ODcyMiwzNj
+c5MTc1OTcsODM3Njg1Njk3XX0=
 -->

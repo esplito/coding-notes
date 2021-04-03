@@ -44,7 +44,8 @@ result = subtract(7, 3);
 expected = 4;
 
 expect(result).toBe(expected);
-// Expecte like an assertion library
+
+// Expect is like an assertion library
 function expect(actual) {
 	return {
 	toBe(expected) {
@@ -53,12 +54,12 @@ function expect(actual) {
 		}
 	},
 	toEqual(expected) {},
-	toBeGreaterThan()
+	toBeGreaterThan(expected) {}
 	}
 }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTcwNjYwOCwxNTg3MzY4NzIyLDM2Nz
+eyJoaXN0b3J5IjpbLTc0MDkwNjkyNSwxNTg3MzY4NzIyLDM2Nz
 kxNzU5Nyw4Mzc2ODU2OTddfQ==
 -->

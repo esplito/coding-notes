@@ -13,16 +13,25 @@ working properly so we write a simple test.
 const sum = (a, b) => a - b;
 const subtract (a, b) => a - b; 
 
-const result = sum(3, 7);
-const expected = 10;
+let result = sum(3, 7);
+let expected = 10;
 
+// Test sum-function
 if(result !== expected) {
 	throw new Error(`${result} is not equal to ${expected}`)
 }
+
+// Test subtract-function
+result = subtract(7, 3);
+expected = 4;
+if(result !== expected) {
+	throw new Error(`${result} is not equal to ${expected}`)
+}
+
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4NDAyNDU3LDE1ODczNjg3MjIsMzY3OT
-E3NTk3LDgzNzY4NTY5N119
+eyJoaXN0b3J5IjpbMTYyODIwMzMwMiwxNTg3MzY4NzIyLDM2Nz
+kxNzU5Nyw4Mzc2ODU2OTddfQ==
 -->

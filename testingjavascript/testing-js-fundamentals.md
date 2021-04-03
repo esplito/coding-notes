@@ -35,7 +35,7 @@ if(result !== expected) {
 ## 3 Abstract Test Assertions -> JavaScript Assertion Library
 
 ```js
-let result,expected;
+let result, expected;
 
 result = sum(3, 7);
 expected = 10;
@@ -62,6 +62,6 @@ function expect(actual) {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODI3MTQ5MjUsMTU4NzM2ODcyMiwzNj
+eyJoaXN0b3J5IjpbLTE2NzU2MjMzOTksMTU4NzM2ODcyMiwzNj
 c5MTc1OTcsODM3Njg1Njk3XX0=
 -->

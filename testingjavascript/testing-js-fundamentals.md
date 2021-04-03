@@ -25,6 +25,7 @@ if(result !== expected) {
 // This is the most fundamental form of a test in JavaScript.
 result = subtract(7, 3);
 expected = 4;
+
 if(result !== expected) {
 	throw new Error(`${result} is not equal to ${expected}`)
 }
@@ -60,6 +61,6 @@ function expect(actual) {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDkwNjkyNSwxNTg3MzY4NzIyLDM2Nz
-kxNzU5Nyw4Mzc2ODU2OTddfQ==
+eyJoaXN0b3J5IjpbMjAwMDQwNjEzLDE1ODczNjg3MjIsMzY3OT
+E3NTk3LDgzNzY4NTY5N119
 -->

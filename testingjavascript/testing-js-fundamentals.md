@@ -31,9 +31,17 @@ if(result !== expected) {
 
 ```
 
-## 3 Abstract Test
+## 3 Abstract Test Assertions -> JavaScript Assertion Library
+
+```js
+function expect(actual) {
+	return {
+	toBe(expected) 
+	}
+}
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzg1NTU2NCwxNTg3MzY4NzIyLDM2Nz
+eyJoaXN0b3J5IjpbLTk3Mjc2NzAxNCwxNTg3MzY4NzIyLDM2Nz
 kxNzU5Nyw4Mzc2ODU2OTddfQ==
 -->

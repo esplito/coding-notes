@@ -18,7 +18,7 @@ let expected = 10;
 
 // Test sum-function
 if(result !== expected) {
-	throw new Error(`${result} is not equal to ${expected}`)
+  throw new Error(`${result} is not equal to ${expected}`)
 }
 
 // Test subtract-function
@@ -27,7 +27,7 @@ result = subtract(7, 3);
 expected = 4;
 
 if(result !== expected) {
-	throw new Error(`${result} is not equal to ${expected}`)
+  throw new Error(`${result} is not equal to ${expected}`)
 }
 
 ```
@@ -49,11 +49,11 @@ expect(result).toBe(expected);
 
 // Expect is like an assertion library
 function expect(actual) {
-	return {
-	toBe(expected) {
-		if (actual !== expected) {
-			throw new Error(`${actual} is not equal to ${expected}`)
-		}
+  return {
+    toBe(expected) {
+        if (actual !== expected) {
+            throw new Error(`${actual} is not equal to ${expected}`)
+        }
 	},
 	// We can add more assertions
 	toEqual(expected) {},
@@ -143,7 +143,7 @@ function expect(actual) {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzA3NDc2ODgsMTM4NzMwMzM0NywtMj
+eyJoaXN0b3J5IjpbLTE4NTAzMzI4ODAsMTM4NzMwMzM0NywtMj
 c4MDY3OTc5LDE1ODczNjg3MjIsMzY3OTE3NTk3LDgzNzY4NTY5
 N119
 -->

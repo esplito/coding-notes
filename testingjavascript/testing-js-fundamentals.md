@@ -115,6 +115,7 @@ test('subtract subtracts number asynchronously', async () => {
 	expect(result).toBe(expected);
 });
 
+// this will work for both synchronous and asynchronous tests
 async function test(title, callback) {
 	try {
 		await callback(); // this will work for both synchronous and asynchronous tests
@@ -137,9 +138,12 @@ function expect(actual) {
 }
 ```
 
+## Provide Testing Helper Functions as Globals
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MjUxOTY1NCwxMzg3MzAzMzQ3LC0yNz
+eyJoaXN0b3J5IjpbMTA1NDgxMTUwNCwxMzg3MzAzMzQ3LC0yNz
 gwNjc5NzksMTU4NzM2ODcyMiwzNjc5MTc1OTcsODM3Njg1Njk3
 XX0=
 -->

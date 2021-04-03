@@ -94,9 +94,9 @@ function expect(actual) {
     toBe(expected) {
       if (actual !== expected) {
         throw new Error(`${actual} is not equal to ${expected}`)
-        }
-		},
-	}
+      }
+    },
+  }
 }
 ```
 
@@ -104,37 +104,37 @@ function expect(actual) {
 
 ```js
 test('sum adds numbers asynchronously', async () => {
-	const result = await sumAsync(3, 7);
-	const expected = 10;
-	expect(result).toBe(expected);
+  const result = await sumAsync(3, 7);
+  const expected = 10;
+  expect(result).toBe(expected);
 });
 
 test('subtract subtracts number asynchronously', async () => {
-	const result = await subtractAsync(7, 3);
-	const expected = 4;
-	expect(result).toBe(expected);
+  const result = await subtractAsync(7, 3);
+  const expected = 4;
+  expect(result).toBe(expected);
 });
 
 // this will work for both synchronous and asynchronous tests
 async function test(title, callback) {
-	try {
-		await callback(); // this will work for both synchronous and asynchronous tests
-		console.log(`✓ ${title}`);
-	} catch (error) {
-		console.error(`X ${title}`);
-		console.error(error);
-	}
+  try {
+    await callback(); // this will work for both synchronous and asynchronous tests
+    console.log(`✓ ${title}`);
+  } catch (error) {
+    console.error(`X ${title}`);
+    console.error(error);
+  }
 }
 
 // Expect is like an assertion library
 function expect(actual) {
-	return {
-		toBe(expected) {
-			if (actual !== expected) {
-				throw new Error(`${actual} is not equal to ${expected}`)
-			}
-		},
-	}
+  return {
+    toBe(expected) {
+      if (actual !== expected) {
+        throw new Error(`${actual} is not equal to ${expected}`)
+      }
+    },
+  }
 }
 ```
 
@@ -143,7 +143,7 @@ function expect(actual) {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwODEzMTQyNCwxMzg3MzAzMzQ3LC0yNz
-gwNjc5NzksMTU4NzM2ODcyMiwzNjc5MTc1OTcsODM3Njg1Njk3
-XX0=
+eyJoaXN0b3J5IjpbNDQ4MTE2ODAsMTM4NzMwMzM0NywtMjc4MD
+Y3OTc5LDE1ODczNjg3MjIsMzY3OTE3NTk3LDgzNzY4NTY5N119
+
 -->

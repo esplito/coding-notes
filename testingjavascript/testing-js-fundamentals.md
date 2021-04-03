@@ -79,13 +79,13 @@ test('subtract subtracts number', () => {
 });
 
 function test(title, callback) {
-	try {
-		callback();
-		console.log(`✓ ${title}`);
-	} catch (error) {
-		console.error(`X ${title}`);
-		console.error(error);
-	}
+  try {
+    callback();
+    console.log(`✓ ${title}`);
+  } catch (error) {
+    console.error(`X ${title}`);
+    console.error(error);
+  }
 }
 
 // Expect is like an assertion library
@@ -143,7 +143,7 @@ function expect(actual) {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDgxMTUwNCwxMzg3MzAzMzQ3LC0yNz
-gwNjc5NzksMTU4NzM2ODcyMiwzNjc5MTc1OTcsODM3Njg1Njk3
-XX0=
+eyJoaXN0b3J5IjpbLTEzMzA3NDc2ODgsMTM4NzMwMzM0NywtMj
+c4MDY3OTc5LDE1ODczNjg3MjIsMzY3OTE3NTk3LDgzNzY4NTY5
+N119
 -->

@@ -34,34 +34,31 @@ if(result !== expected) {
 ## 3 Abstract Test Assertions -> JavaScript Assertion Library
 
 ```js
-let result,ex = sum(3, 7);
-let expected = 10;
+let result,expected;
+result = sum(3, 7);
+expected = 10;
 
-// Test sum-function
-if(result !== expected) {
-	throw new Error(`${result} is not equal to ${expected}`)
-}
+expect(result).toBe(expected);
 
-// Test subtract-function
-// This is the most fundamental form of a test in JavaScript.
 result = subtract(7, 3);
 expected = 4;
-if(result !== expected) {
-	throw new Error(`${result} is not equal to ${expected}`)
-}
 
+expect(result).toBe(expected);
+// Expecte like an assertion library
 function expect(actual) {
 	return {
 	toBe(expected) {
 		if (actual !== expected) {
 			throw new Error(`${actual} is not equal to ${expected}`)
 		}
-	}
+	},
+	toEqual(expected) {},
+	toBeGreaterThan()
 	}
 }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzMwNDc1OSwxNTg3MzY4NzIyLDM2Nz
+eyJoaXN0b3J5IjpbMTAxOTcwNjYwOCwxNTg3MzY4NzIyLDM2Nz
 kxNzU5Nyw4Mzc2ODU2OTddfQ==
 -->

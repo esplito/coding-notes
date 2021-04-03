@@ -140,10 +140,11 @@ function expect(actual) {
 
 ## Provide Testing Helper Functions as Globals
 
+We could take the following code and put into 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4MTE2ODAsMTM4NzMwMzM0NywtMjc4MD
-Y3OTc5LDE1ODczNjg3MjIsMzY3OTE3NTk3LDgzNzY4NTY5N119
-
+eyJoaXN0b3J5IjpbLTMxOTE4NzQ5OSwxMzg3MzAzMzQ3LC0yNz
+gwNjc5NzksMTU4NzM2ODcyMiwzNjc5MTc1OTcsODM3Njg1Njk3
+XX0=
 -->

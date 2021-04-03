@@ -83,7 +83,8 @@ function test(title, callback) {
 		callback();
 		console.log(`✓ ${title}`);
 	} catch (error) {
-		console.error(``);
+		console.error(`X ${title}`);
+		console.error(error);
 	}
 }
 
@@ -100,6 +101,6 @@ function expect(actual) {
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODUxNjQxNDgsLTI3ODA2Nzk3OSwxNT
-g3MzY4NzIyLDM2NzkxNzU5Nyw4Mzc2ODU2OTddfQ==
+eyJoaXN0b3J5IjpbLTY1NzA1MzE5MywtMjc4MDY3OTc5LDE1OD
+czNjg3MjIsMzY3OTE3NTk3LDgzNzY4NTY5N119
 -->

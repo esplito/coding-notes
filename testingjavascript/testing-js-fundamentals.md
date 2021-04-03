@@ -109,15 +109,15 @@ test('sum adds numbers asynchronously', async () => {
 	expect(result).toBe(expected);
 });
 
-test('subtract subtracts number', () => {
-	const result = subtract(7, 3);
+test('subtract subtracts number asynchronously', async () => {
+	const result = await subtractAsync(7, 3);
 	const expected = 4;
 	expect(result).toBe(expected);
 });
 
-function test(title, callback) {
+async function test(title, callback) {
 	try {
-		callback();
+		await callback(); // this will work for both synchronous and asynchronous tests
 		console.log(`✓ ${title}`);
 	} catch (error) {
 		console.error(`X ${title}`);
@@ -139,7 +139,7 @@ function expect(actual) {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTk5Njc3MywxMzg3MzAzMzQ3LC0yNz
+eyJoaXN0b3J5IjpbMTM0MjUxOTY1NCwxMzg3MzAzMzQ3LC0yNz
 gwNjc5NzksMTU4NzM2ODcyMiwzNjc5MTc1OTcsODM3Njg1Njk3
 XX0=
 -->

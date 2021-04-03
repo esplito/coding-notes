@@ -54,11 +54,11 @@ function expect(actual) {
         if (actual !== expected) {
             throw new Error(`${actual} is not equal to ${expected}`)
         }
-	},
-	// We can add more assertions
-	toEqual(expected) {},
-	toBeGreaterThan(expected) {}
-	}
+    },
+    // We can add more assertions
+    toEqual(expected) {},
+    toBeGreaterThan(expected) {}
+  }
 }
 ```
 
@@ -67,15 +67,15 @@ function expect(actual) {
 `testing-framework.js`
 ```js
 test('sum adds numbers', () => {
-	const result = sum(3, 7);
-	const expected = 10;
-	expect(result).toBe(expected);
+  const result = sum(3, 7);
+  const expected = 10;
+  expect(result).toBe(expected);
 });
 
 test('subtract subtracts number', () => {
-	const result = subtract(7, 3);
-	const expected = 4;
-	expect(result).toBe(expected);
+  const result = subtract(7, 3);
+  const expected = 4;
+  expect(result).toBe(expected);
 });
 
 function test(title, callback) {
@@ -90,11 +90,11 @@ function test(title, callback) {
 
 // Expect is like an assertion library
 function expect(actual) {
-	return {
-		toBe(expected) {
-			if (actual !== expected) {
-				throw new Error(`${actual} is not equal to ${expected}`)
-			}
+  return {
+    toBe(expected) {
+      if (actual !== expected) {
+        throw new Error(`${actual} is not equal to ${expected}`)
+        }
 		},
 	}
 }
@@ -143,7 +143,7 @@ function expect(actual) {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTAzMzI4ODAsMTM4NzMwMzM0NywtMj
-c4MDY3OTc5LDE1ODczNjg3MjIsMzY3OTE3NTk3LDgzNzY4NTY5
-N119
+eyJoaXN0b3J5IjpbMTAwODEzMTQyNCwxMzg3MzAzMzQ3LC0yNz
+gwNjc5NzksMTU4NzM2ODcyMiwzNjc5MTc1OTcsODM3Njg1Njk3
+XX0=
 -->

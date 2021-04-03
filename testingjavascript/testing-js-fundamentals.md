@@ -62,10 +62,35 @@ function expect(actual) {
 }
 ```
 
-## 4 Encapsulate & Isolate Tests -> Build a Javascript Testing Framework
+## Encapsulate & Isolate Tests -> Build a Javascript Testing Framework
 
+`testing-framework.js`
+```js
+let result, expected;
+
+result = sum(3, 7);
+expected = 10;
+
+expect(result).toBe(expected);
+
+result = subtract(7, 3);
+expected = 4;
+
+expect(result).toBe(expected);
+
+// Expect is like an assertion library
+function expect(actual) {
+	return {
+	toBe(expected) {
+		if (actual !== expected) {
+			throw new Error(`${actual} is not equal to ${expected}`)
+		}
+	},
+	}
+}
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODgzNjY1MiwxNTg3MzY4NzIyLDM2Nz
-kxNzU5Nyw4Mzc2ODU2OTddfQ==
+eyJoaXN0b3J5IjpbLTE0ODgyMTM4NzUsMTU4NzM2ODcyMiwzNj
+c5MTc1OTcsODM3Njg1Njk3XX0=
 -->

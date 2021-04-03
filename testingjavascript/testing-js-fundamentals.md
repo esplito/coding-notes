@@ -173,9 +173,12 @@ Then we could require this file when we run our code and the tests will run just
 node --require ./setup-globals lessons/globals.js
 ```
 
+## Verify Custom JavaScript Tests with Jest
+The utils that we have created mirror the utilities provided by Jest!
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTk4ODAyOCwxMzg3MzAzMzQ3LC0yNz
-gwNjc5NzksMTU4NzM2ODcyMiwzNjc5MTc1OTcsODM3Njg1Njk3
-XX0=
+eyJoaXN0b3J5IjpbMzY2NDAyNTcwLDEzODczMDMzNDcsLTI3OD
+A2Nzk3OSwxNTg3MzY4NzIyLDM2NzkxNzU5Nyw4Mzc2ODU2OTdd
+fQ==
 -->

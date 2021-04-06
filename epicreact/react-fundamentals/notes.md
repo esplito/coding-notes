@@ -29,9 +29,11 @@ Relevant resources:
 
 ### Intro to Raw React APIs
 
-
+Useful resources:
+* [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDQ4Njk0OSw2MDQ5OTk2MjUsMTMwMD
-I4MjI0MiwtMTUxNjAyMzM3NiwxMjIyMDI1MTY4LDYxOTExNjYy
-MSwxNTMzNTY4MDk1XX0=
+eyJoaXN0b3J5IjpbMjEwMTAxNTgwOCwxNjMwNDg2OTQ5LDYwND
+k5OTYyNSwxMzAwMjgyMjQyLC0xNTE2MDIzMzc2LDEyMjIwMjUx
+NjgsNjE5MTE2NjIxLDE1MzM1NjgwOTVdfQ==
 -->

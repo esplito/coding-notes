@@ -10,6 +10,7 @@ This is from Kent's "Example Runthrough".
 6. Open up the exercise-file in VS Code.
 7. Have the DevTools opened in your browser.
 8. Before you watch the solution, work through the exercise.
+9. At the end of each exercise -> fill in the elaboration & feedback-form
 
 **Read all the notes!**
 
@@ -19,6 +20,6 @@ This is from Kent's "Example Runthrough".
 	* Recommended: Do one exercise, then take a break.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTEwOTI3MSwtMTQ1NzM5MjAxMCwxNj
+eyJoaXN0b3J5IjpbMTExNTQxNjk4NSwtMTQ1NzM5MjAxMCwxNj
 AzNzEzNjhdfQ==
 -->

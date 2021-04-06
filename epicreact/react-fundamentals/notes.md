@@ -29,11 +29,13 @@ Relevant resources:
 
 ### Intro to Raw React APIs
 
+Core React can be used for both Native and DOM.
+
 Useful resources:
 * [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTAxNTgwOCwxNjMwNDg2OTQ5LDYwND
-k5OTYyNSwxMzAwMjgyMjQyLC0xNTE2MDIzMzc2LDEyMjIwMjUx
-NjgsNjE5MTE2NjIxLDE1MzM1NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbLTg4MzkxMTgzMiwyMTAxMDE1ODA4LDE2Mz
+A0ODY5NDksNjA0OTk5NjI1LDEzMDAyODIyNDIsLTE1MTYwMjMz
+NzYsMTIyMjAyNTE2OCw2MTkxMTY2MjEsMTUzMzU2ODA5NV19
 -->

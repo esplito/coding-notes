@@ -23,7 +23,8 @@ Each exercise has comments in it to help you get through the exercise. These fun
 
 ### Basic JS "Hello World"
 
+Relevant resource: [MDN - ParentNode append](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjAyNTE2OCw2MTkxMTY2MjEsMTUzMz
-U2ODA5NV19
+eyJoaXN0b3J5IjpbLTE1MTYwMjMzNzYsMTIyMjAyNTE2OCw2MT
+kxMTY2MjEsMTUzMzU2ODA5NV19
 -->

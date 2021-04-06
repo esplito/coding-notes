@@ -61,9 +61,15 @@ const element = (
   </div>
 );
 ```
+
+The order of attributes on an element matters:
+```jsx
+const element = <div id="my-th
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjQ0MDI3MiwxNjkwMjY1NTk2LDUyMD
-AyOTgxNiwtODgzOTExODMyLDIxMDEwMTU4MDgsMTYzMDQ4Njk0
-OSw2MDQ5OTk2MjUsMTMwMDI4MjI0MiwtMTUxNjAyMzM3NiwxMj
-IyMDI1MTY4LDYxOTExNjYyMSwxNTMzNTY4MDk1XX0=
+eyJoaXN0b3J5IjpbLTQ3OTI0OTU2OCwxNTE2NDQwMjcyLDE2OT
+AyNjU1OTYsNTIwMDI5ODE2LC04ODM5MTE4MzIsMjEwMTAxNTgw
+OCwxNjMwNDg2OTQ5LDYwNDk5OTYyNSwxMzAwMjgyMjQyLC0xNT
+E2MDIzMzc2LDEyMjIwMjUxNjgsNjE5MTE2NjIxLDE1MzM1Njgw
+OTVdfQ==
 -->

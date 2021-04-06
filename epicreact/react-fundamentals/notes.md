@@ -64,10 +64,18 @@ const element = (
 
 The order of attributes on an element matters:
 ```jsx
-const element = <div id="my-th
+const className = 'container';
+const children = 'Hello World';
+const props = {children, className};
+
+// className will be overriden to "container"
+const element = <div id="something" className="default" {...props}/>;
+
+// className will be overriden to "default"
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTI0OTU2OCwxNTE2NDQwMjcyLDE2OT
+eyJoaXN0b3J5IjpbLTg4MDkzMjA3OCwxNTE2NDQwMjcyLDE2OT
 AyNjU1OTYsNTIwMDI5ODE2LC04ODM5MTE4MzIsMjEwMTAxNTgw
 OCwxNjMwNDg2OTQ5LDYwNDk5OTYyNSwxMzAwMjgyMjQyLC0xNT
 E2MDIzMzc2LDEyMjIwMjUxNjgsNjE5MTE2NjIxLDE1MzM1Njgw

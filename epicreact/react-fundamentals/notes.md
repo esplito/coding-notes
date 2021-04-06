@@ -1,5 +1,5 @@
 
-## React Fundamentals Welcome
+## React Fundamentals
 
 ### Prerequisites
 - Read through [https://kentcdodds.com/blog/javascript-to-know-for-react](https://kentcdodds.com/blog/javascript-to-know-for-react)
@@ -75,9 +75,9 @@ const element = <div id="something" className="default" {...props}/>;
 const element = <div id="something" {...props} className="default"/>;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MjEwNzk0LDE1MTY0NDAyNzIsMTY5MD
-I2NTU5Niw1MjAwMjk4MTYsLTg4MzkxMTgzMiwyMTAxMDE1ODA4
-LDE2MzA0ODY5NDksNjA0OTk5NjI1LDEzMDAyODIyNDIsLTE1MT
-YwMjMzNzYsMTIyMjAyNTE2OCw2MTkxMTY2MjEsMTUzMzU2ODA5
-NV19
+eyJoaXN0b3J5IjpbMTc2MjkxMDY2NCwxNTE2NDQwMjcyLDE2OT
+AyNjU1OTYsNTIwMDI5ODE2LC04ODM5MTE4MzIsMjEwMTAxNTgw
+OCwxNjMwNDg2OTQ5LDYwNDk5OTYyNSwxMzAwMjgyMjQyLC0xNT
+E2MDIzMzc2LDEyMjIwMjUxNjgsNjE5MTE2NjIxLDE1MzM1Njgw
+OTVdfQ==
 -->

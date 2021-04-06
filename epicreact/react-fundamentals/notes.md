@@ -35,10 +35,12 @@ Useful resources:
 * [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
 
 ### Using JSX
-You can play around here with how [JSX gets compiled into Javascript](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=usage&spec=false&loose=false&code_lz=MYewdgzgLgBArgSxgXhgHgCYIG4D40QAOAhmLgBICmANtSGgPRGm7rNkDqIATtRo-3wMseAFBA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=react&prettier=true&targets=&version=7.13.14&externalPlugins=)
+You can play around here with how [JSX gets compiled into Javascript](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=usage&spec=false&loose=false&code_lz=MYewdgzgLgBArgSxgXhgHgCYIG4D40QAOAhmLgBICmANtSGgPRGm7rNkDqIATtRo-3wMseAFBA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=react&prettier=true&targets=&version=7.13.14&externalPlugins=).
+
+You can find the differences between JSX and HTML syntax in the [React Docs](https://reactjs.org/docs/dom-elements.html#differences-in-attributes).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwMDI5ODE2LC04ODM5MTE4MzIsMjEwMT
-AxNTgwOCwxNjMwNDg2OTQ5LDYwNDk5OTYyNSwxMzAwMjgyMjQy
-LC0xNTE2MDIzMzc2LDEyMjIwMjUxNjgsNjE5MTE2NjIxLDE1Mz
-M1NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbMTY5MDI2NTU5Niw1MjAwMjk4MTYsLTg4Mz
+kxMTgzMiwyMTAxMDE1ODA4LDE2MzA0ODY5NDksNjA0OTk5NjI1
+LDEzMDAyODIyNDIsLTE1MTYwMjMzNzYsMTIyMjAyNTE2OCw2MT
+kxMTY2MjEsMTUzMzU2ODA5NV19
 -->

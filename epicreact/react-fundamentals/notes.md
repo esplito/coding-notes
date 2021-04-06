@@ -26,8 +26,12 @@ Relevant resources:
  
 [MDN - ParentNode append](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/append)
 [MDN - Intro to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+
+### Intro to Raw React APIs
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0OTk5NjI1LDEzMDAyODIyNDIsLTE1MT
-YwMjMzNzYsMTIyMjAyNTE2OCw2MTkxMTY2MjEsMTUzMzU2ODA5
-NV19
+eyJoaXN0b3J5IjpbMTYzMDQ4Njk0OSw2MDQ5OTk2MjUsMTMwMD
+I4MjI0MiwtMTUxNjAyMzM3NiwxMjIyMDI1MTY4LDYxOTExNjYy
+MSwxNTMzNTY4MDk1XX0=
 -->

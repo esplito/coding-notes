@@ -44,13 +44,24 @@ Keep in mind that you can't do statements inside the curly braces like this:
 ```jsx
 const element = (
 	<div id="string" className={myClassName.toUppercase()}>
-	if
+	if(greeting !== 'hello'){
+		// do something
+	}
+	</div>
+);
+```
+
+You can do ternaries however:
+```jsx
+const element = (
+	<div id="string" className={myClassName.toUppercase()}>
+		{greeting !== 'hello' ? greeting : '';}
 	</div>
 );
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0MzcxMjQyLDE2OTAyNjU1OTYsNTIwMD
-I5ODE2LC04ODM5MTE4MzIsMjEwMTAxNTgwOCwxNjMwNDg2OTQ5
-LDYwNDk5OTYyNSwxMzAwMjgyMjQyLC0xNTE2MDIzMzc2LDEyMj
-IwMjUxNjgsNjE5MTE2NjIxLDE1MzM1NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbLTEyNDUzOTU4NzAsMTY5MDI2NTU5Niw1Mj
+AwMjk4MTYsLTg4MzkxMTgzMiwyMTAxMDE1ODA4LDE2MzA0ODY5
+NDksNjA0OTk5NjI1LDEzMDAyODIyNDIsLTE1MTYwMjMzNzYsMT
+IyMjAyNTE2OCw2MTkxMTY2MjEsMTUzMzU2ODA5NV19
 -->

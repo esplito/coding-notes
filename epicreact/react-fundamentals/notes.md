@@ -43,27 +43,27 @@ Keep in mind that you can't do statements inside the curly braces like this:
 
 ```jsx
 const element = (
-	<div id="string" className={myClassName.toUppercase()}>
-	{
-		if(greeting !== 'hello'){
-			// do something
-		}
-	}
-	</div>
+  <div id="string" className={myClassName.toUppercase()}>
+    {
+      if(greeting !== 'hello'){
+        // do something
+      }
+    }
+  </div>
 );
 ```
 
 You can do ternaries however:
 ```jsx
 const element = (
-	<div id="string" className={myClassName.toUppercase()}>
-		{greeting !== 'hello' ? greeting : '';}
-	</div>
+  <div id="string" className={myClassName.toUppercase()}>
+      {greeting !== 'hello' ? greeting : '';}
+  </div>
 );
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTQzNTE5NDQsMTY5MDI2NTU5Niw1Mj
-AwMjk4MTYsLTg4MzkxMTgzMiwyMTAxMDE1ODA4LDE2MzA0ODY5
-NDksNjA0OTk5NjI1LDEzMDAyODIyNDIsLTE1MTYwMjMzNzYsMT
-IyMjAyNTE2OCw2MTkxMTY2MjEsMTUzMzU2ODA5NV19
+eyJoaXN0b3J5IjpbMTUxNjQ0MDI3MiwxNjkwMjY1NTk2LDUyMD
+AyOTgxNiwtODgzOTExODMyLDIxMDEwMTU4MDgsMTYzMDQ4Njk0
+OSw2MDQ5OTk2MjUsMTMwMDI4MjI0MiwtMTUxNjAyMzM3NiwxMj
+IyMDI1MTY4LDYxOTExNjYyMSwxNTMzNTY4MDk1XX0=
 -->

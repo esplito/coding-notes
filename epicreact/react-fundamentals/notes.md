@@ -38,9 +38,19 @@ Useful resources:
 You can play around here with how [JSX gets compiled into Javascript](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=usage&spec=false&loose=false&code_lz=MYewdgzgLgBArgSxgXhgHgCYIG4D40QAOAhmLgBICmANtSGgPRGm7rNkDqIATtRo-3wMseAFBA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=react&prettier=true&targets=&version=7.13.14&externalPlugins=).
 
 You can find the differences between JSX and HTML syntax in the [React Docs](https://reactjs.org/docs/dom-elements.html#differences-in-attributes).
+
+Keep in mind that you can't do statements inside the curly braces like this:
+
+```jsx
+const element = (
+	<div id="string" className={myClassName.toUppercase()}>
+	if
+	</div>
+);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDI2NTU5Niw1MjAwMjk4MTYsLTg4Mz
-kxMTgzMiwyMTAxMDE1ODA4LDE2MzA0ODY5NDksNjA0OTk5NjI1
-LDEzMDAyODIyNDIsLTE1MTYwMjMzNzYsMTIyMjAyNTE2OCw2MT
-kxMTY2MjEsMTUzMzU2ODA5NV19
+eyJoaXN0b3J5IjpbOTY0MzcxMjQyLDE2OTAyNjU1OTYsNTIwMD
+I5ODE2LC04ODM5MTE4MzIsMjEwMTAxNTgwOCwxNjMwNDg2OTQ5
+LDYwNDk5OTYyNSwxMzAwMjgyMjQyLC0xNTE2MDIzMzc2LDEyMj
+IwMjUxNjgsNjE5MTE2NjIxLDE1MzM1NjgwOTVdfQ==
 -->

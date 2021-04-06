@@ -36,10 +36,10 @@ Useful resources:
 
 ### Using JSX
 
-
+You can see here how [JSX gets compiled into Javascript](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=usage&spec=false&loose=false&code_lz=MYewdgzgLgBArgSxgXhgHgCYIG4D40QAOAhmLgBICmANtSGgPRGm7rNkDqIATtRo-3wMseAFBA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=react&prettier=true&targets=&version=7.13.14&externalPlugins=)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDc0ODUzMCwtODgzOTExODMyLDIxMD
-EwMTU4MDgsMTYzMDQ4Njk0OSw2MDQ5OTk2MjUsMTMwMDI4MjI0
-MiwtMTUxNjAyMzM3NiwxMjIyMDI1MTY4LDYxOTExNjYyMSwxNT
-MzNTY4MDk1XX0=
+eyJoaXN0b3J5IjpbLTE3NDk1NDk4NDIsLTg4MzkxMTgzMiwyMT
+AxMDE1ODA4LDE2MzA0ODY5NDksNjA0OTk5NjI1LDEzMDAyODIy
+NDIsLTE1MTYwMjMzNzYsMTIyMjAyNTE2OCw2MTkxMTY2MjEsMT
+UzMzU2ODA5NV19
 -->

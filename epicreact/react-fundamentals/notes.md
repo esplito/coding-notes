@@ -33,9 +33,13 @@ Core React can be used for both Native and DOM.
 
 Useful resources:
 * [Imperative vs Declarative Programming](https://ui.dev/imperative-vs-declarative-programming/)
-* 
+
+### Using JSX
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzkxMTgzMiwyMTAxMDE1ODA4LDE2Mz
-A0ODY5NDksNjA0OTk5NjI1LDEzMDAyODIyNDIsLTE1MTYwMjMz
-NzYsMTIyMjAyNTE2OCw2MTkxMTY2MjEsMTUzMzU2ODA5NV19
+eyJoaXN0b3J5IjpbLTY5MDc0ODUzMCwtODgzOTExODMyLDIxMD
+EwMTU4MDgsMTYzMDQ4Njk0OSw2MDQ5OTk2MjUsMTMwMDI4MjI0
+MiwtMTUxNjAyMzM3NiwxMjIyMDI1MTY4LDYxOTExNjYyMSwxNT
+MzNTY4MDk1XX0=
 -->

@@ -17,9 +17,10 @@ This is from Kent's "Example Runthrough".
 * Extra credits have less "hand-holding". 
 * There's DevTools built-in that you can use to simulate stuff when doing api-requests.  Just press the tool-icon in the bottom left.
 * Each workshop takes around 4 hours when Kent does them live, so make sure that you take breaks.
-	* Recommended: Do one exercise, then take a break.
+	* Recommended: Do one exercise, then take a break and read some jokes at [https://icanhazdadjoke.com/](https://icanhazdadjoke.com/)
+* When you finish each workshop you can also fill in the feedback form for that.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTQxNjk4NSwtMTQ1NzM5MjAxMCwxNj
+eyJoaXN0b3J5IjpbMjA0MzY3MDI2NCwtMTQ1NzM5MjAxMCwxNj
 AzNzEzNjhdfQ==
 -->

@@ -72,12 +72,12 @@ const props = {children, className};
 const element = <div id="something" className="default" {...props}/>;
 
 // className will be overriden to "default"
-
+const element = <div id="something" {...props} className="default"/>;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDkzMjA3OCwxNTE2NDQwMjcyLDE2OT
-AyNjU1OTYsNTIwMDI5ODE2LC04ODM5MTE4MzIsMjEwMTAxNTgw
-OCwxNjMwNDg2OTQ5LDYwNDk5OTYyNSwxMzAwMjgyMjQyLC0xNT
-E2MDIzMzc2LDEyMjIwMjUxNjgsNjE5MTE2NjIxLDE1MzM1Njgw
-OTVdfQ==
+eyJoaXN0b3J5IjpbMzQ4MjEwNzk0LDE1MTY0NDAyNzIsMTY5MD
+I2NTU5Niw1MjAwMjk4MTYsLTg4MzkxMTgzMiwyMTAxMDE1ODA4
+LDE2MzA0ODY5NDksNjA0OTk5NjI1LDEzMDAyODIyNDIsLTE1MT
+YwMjMzNzYsMTIyMjAyNTE2OCw2MTkxMTY2MjEsMTUzMzU2ODA5
+NV19
 -->

@@ -11,12 +11,13 @@ This is from Kent's "Example Runthrough".
 7. Have the DevTools opened in your browser.
 8. Before you watch the solution, work through the exercise.
 
-Extra credits have less "hand-holding". 
-
 **Read all the notes!**
 
-There's DevTools built-in 
+* Extra credits have less "hand-holding". 
+* There's DevTools built-in that you can use to simulate stuff when doing api-requests.  Just press the tool-icon in the bottom left.
+* Each wo
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2NDYyMzIwLC0xNDU3MzkyMDEwLDE2MD
-M3MTM2OF19
+eyJoaXN0b3J5IjpbLTE4Njc2NjcxMTUsLTE0NTczOTIwMTAsMT
+YwMzcxMzY4XX0=
 -->

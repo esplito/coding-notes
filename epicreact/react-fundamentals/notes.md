@@ -78,11 +78,14 @@ const element = <div id="something" {...props} className="default"/>;
 ### Creating custom components
 
 Useful links: 
-* [](https://kentcdodds.com/blog/what-is-jsx)
+* [Dodds - What is JSX?](https://kentcdodds.com/blog/what-is-jsx)
+* [JSX in Depth - React](https://reactjs.org/docs/jsx-in-depth.html)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwOTMxMDg2MSwxNzYyOTEwNjY0LDE1MT
-Y0NDAyNzIsMTY5MDI2NTU5Niw1MjAwMjk4MTYsLTg4MzkxMTgz
-MiwyMTAxMDE1ODA4LDE2MzA0ODY5NDksNjA0OTk5NjI1LDEzMD
-AyODIyNDIsLTE1MTYwMjMzNzYsMTIyMjAyNTE2OCw2MTkxMTY2
-MjEsMTUzMzU2ODA5NV19
+eyJoaXN0b3J5IjpbMzQ3NTQzNzcwLDE3NjI5MTA2NjQsMTUxNj
+Q0MDI3MiwxNjkwMjY1NTk2LDUyMDAyOTgxNiwtODgzOTExODMy
+LDIxMDEwMTU4MDgsMTYzMDQ4Njk0OSw2MDQ5OTk2MjUsMTMwMD
+I4MjI0MiwtMTUxNjAyMzM3NiwxMjIyMDI1MTY4LDYxOTExNjYy
+MSwxNTMzNTY4MDk1XX0=
 -->

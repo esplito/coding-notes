@@ -117,13 +117,18 @@ When disabling a button where we have the following state:
 ```js
 const [error, setError] = useState(null);
 ```
-and were we use `setError` to set an error message, we can 
+and were we use `setError` to set an error message, we can do the following on the button to always get true or false in the disabled prop:
+```jsx
+<button disabled={Boolean(error)} type="submit">
+Submit
+</button>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODQxNDQ2LDIwMTQ3Nzg4MzgsMTk0Nz
-Q4Nzk2NSw1Mjc3NjkwNDcsLTE4NzczMzgzNTEsLTIwNTQ2NTMz
-MjIsMzQ3NTQzNzcwLDE3NjI5MTA2NjQsMTUxNjQ0MDI3MiwxNj
-kwMjY1NTk2LDUyMDAyOTgxNiwtODgzOTExODMyLDIxMDEwMTU4
-MDgsMTYzMDQ4Njk0OSw2MDQ5OTk2MjUsMTMwMDI4MjI0MiwtMT
-UxNjAyMzM3NiwxMjIyMDI1MTY4LDYxOTExNjYyMSwxNTMzNTY4
-MDk1XX0=
+eyJoaXN0b3J5IjpbMTQ0MzMwOTA4OSwyMDE0Nzc4ODM4LDE5ND
+c0ODc5NjUsNTI3NzY5MDQ3LC0xODc3MzM4MzUxLC0yMDU0NjUz
+MzIyLDM0NzU0Mzc3MCwxNzYyOTEwNjY0LDE1MTY0NDAyNzIsMT
+Y5MDI2NTU5Niw1MjAwMjk4MTYsLTg4MzkxMTgzMiwyMTAxMDE1
+ODA4LDE2MzA0ODY5NDksNjA0OTk5NjI1LDEzMDAyODIyNDIsLT
+E1MTYwMjMzNzYsMTIyMjAyNTE2OCw2MTkxMTY2MjEsMTUzMzU2
+ODA5NV19
 -->

@@ -82,11 +82,13 @@ Useful links:
 * [JSX in Depth - React](https://reactjs.org/docs/jsx-in-depth.html)
 * [Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
 
+propTypes is nice because it's runtime, but if you're using TypeScript you don't really need it.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQ2NTMzMjIsMzQ3NTQzNzcwLDE3Nj
-I5MTA2NjQsMTUxNjQ0MDI3MiwxNjkwMjY1NTk2LDUyMDAyOTgx
-NiwtODgzOTExODMyLDIxMDEwMTU4MDgsMTYzMDQ4Njk0OSw2MD
-Q5OTk2MjUsMTMwMDI4MjI0MiwtMTUxNjAyMzM3NiwxMjIyMDI1
-MTY4LDYxOTExNjYyMSwxNTMzNTY4MDk1XX0=
+eyJoaXN0b3J5IjpbLTE4NzczMzgzNTEsLTIwNTQ2NTMzMjIsMz
+Q3NTQzNzcwLDE3NjI5MTA2NjQsMTUxNjQ0MDI3MiwxNjkwMjY1
+NTk2LDUyMDAyOTgxNiwtODgzOTExODMyLDIxMDEwMTU4MDgsMT
+YzMDQ4Njk0OSw2MDQ5OTk2MjUsMTMwMDI4MjI0MiwtMTUxNjAy
+MzM3NiwxMjIyMDI1MTY4LDYxOTExNjYyMSwxNTMzNTY4MDk1XX
+0=
 -->

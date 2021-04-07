@@ -74,10 +74,15 @@ const element = <div id="something" className="default" {...props}/>;
 // className will be overriden to "default"
 const element = <div id="something" {...props} className="default"/>;
 ```
+
+### Creating custom components
+
+Useful links: 
+* [](https://kentcdodds.com/blog/what-is-jsx)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjkxMDY2NCwxNTE2NDQwMjcyLDE2OT
-AyNjU1OTYsNTIwMDI5ODE2LC04ODM5MTE4MzIsMjEwMTAxNTgw
-OCwxNjMwNDg2OTQ5LDYwNDk5OTYyNSwxMzAwMjgyMjQyLC0xNT
-E2MDIzMzc2LDEyMjIwMjUxNjgsNjE5MTE2NjIxLDE1MzM1Njgw
-OTVdfQ==
+eyJoaXN0b3J5IjpbMTgwOTMxMDg2MSwxNzYyOTEwNjY0LDE1MT
+Y0NDAyNzIsMTY5MDI2NTU5Niw1MjAwMjk4MTYsLTg4MzkxMTgz
+MiwyMTAxMDE1ODA4LDE2MzA0ODY5NDksNjA0OTk5NjI1LDEzMD
+AyODIyNDIsLTE1MTYwMjMzNzYsMTIyMjAyNTE2OCw2MTkxMTY2
+MjEsMTUzMzU2ODA5NV19
 -->

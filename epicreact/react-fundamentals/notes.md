@@ -87,8 +87,12 @@ propTypes is nice because it's runtime, but if you're using TypeScript you don't
 ### Styling
 > Note also that the property names are `camelCased` rather than `kebab-cased`. This matches the `style` property of DOM nodes (which is a [`CSSStyleDeclaration`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration) object).
 
+If you inspect an element in the HTML, you can then write 
+```js
+$0.st
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTczODUyMywtMTg3NzMzODM1MSwtMj
+eyJoaXN0b3J5IjpbMjAxODg2NzczNCwtMTg3NzMzODM1MSwtMj
 A1NDY1MzMyMiwzNDc1NDM3NzAsMTc2MjkxMDY2NCwxNTE2NDQw
 MjcyLDE2OTAyNjU1OTYsNTIwMDI5ODE2LC04ODM5MTE4MzIsMj
 EwMTAxNTgwOCwxNjMwNDg2OTQ5LDYwNDk5OTYyNSwxMzAwMjgy

@@ -84,11 +84,14 @@ Useful links:
 
 propTypes is nice because it's runtime, but if you're using TypeScript you don't really need it.
 
+### Styling
+> Note also that the property names are `camelCased` rather than `kebab-cased`. This matches the `style` property of DOM nodes (which is a [`CSSStyleDeclaration`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration) object).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzczMzgzNTEsLTIwNTQ2NTMzMjIsMz
-Q3NTQzNzcwLDE3NjI5MTA2NjQsMTUxNjQ0MDI3MiwxNjkwMjY1
-NTk2LDUyMDAyOTgxNiwtODgzOTExODMyLDIxMDEwMTU4MDgsMT
-YzMDQ4Njk0OSw2MDQ5OTk2MjUsMTMwMDI4MjI0MiwtMTUxNjAy
-MzM3NiwxMjIyMDI1MTY4LDYxOTExNjYyMSwxNTMzNTY4MDk1XX
-0=
+eyJoaXN0b3J5IjpbLTMxMTczODUyMywtMTg3NzMzODM1MSwtMj
+A1NDY1MzMyMiwzNDc1NDM3NzAsMTc2MjkxMDY2NCwxNTE2NDQw
+MjcyLDE2OTAyNjU1OTYsNTIwMDI5ODE2LC04ODM5MTE4MzIsMj
+EwMTAxNTgwOCwxNjMwNDg2OTQ5LDYwNDk5OTYyNSwxMzAwMjgy
+MjQyLC0xNTE2MDIzMzc2LDEyMjIwMjUxNjgsNjE5MTE2NjIxLD
+E1MzM1NjgwOTVdfQ==
 -->

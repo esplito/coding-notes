@@ -87,15 +87,20 @@ propTypes is nice because it's runtime, but if you're using TypeScript you don't
 ### Styling
 > Note also that the property names are `camelCased` rather than `kebab-cased`. This matches the `style` property of DOM nodes (which is a [`CSSStyleDeclaration`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration) object).
 
-If you inspect an element in the HTML, you can then write 
+If you inspect an element in the HTML, you can then write the following in the console:
 ```js
-$0.st
-``
+$0.style
+```
+to access the CSSStyleDeclaration of that element and 
+```js
+$0.className
+```
+to access its classes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODg2NzczNCwtMTg3NzMzODM1MSwtMj
-A1NDY1MzMyMiwzNDc1NDM3NzAsMTc2MjkxMDY2NCwxNTE2NDQw
-MjcyLDE2OTAyNjU1OTYsNTIwMDI5ODE2LC04ODM5MTE4MzIsMj
-EwMTAxNTgwOCwxNjMwNDg2OTQ5LDYwNDk5OTYyNSwxMzAwMjgy
-MjQyLC0xNTE2MDIzMzc2LDEyMjIwMjUxNjgsNjE5MTE2NjIxLD
-E1MzM1NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbNTI3NzY5MDQ3LC0xODc3MzM4MzUxLC0yMD
+U0NjUzMzIyLDM0NzU0Mzc3MCwxNzYyOTEwNjY0LDE1MTY0NDAy
+NzIsMTY5MDI2NTU5Niw1MjAwMjk4MTYsLTg4MzkxMTgzMiwyMT
+AxMDE1ODA4LDE2MzA0ODY5NDksNjA0OTk5NjI1LDEzMDAyODIy
+NDIsLTE1MTYwMjMzNzYsMTIyMjAyNTE2OCw2MTkxMTY2MjEsMT
+UzMzU2ODA5NV19
 -->

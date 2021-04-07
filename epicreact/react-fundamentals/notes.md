@@ -108,8 +108,10 @@ Useful resources:
 >**What is a Hook?** A Hook is a special function that lets you “hook into” React features. For example, `useState` is a Hook that lets you add React state to function components.
 >
 >**What does calling  `useState`  do?** It declares a “state variable”. Our variable is called `count` but we could call it anything else, like `banana`. This is a way to “preserve” some values between the function calls — `useState` is a new way to use the exact same capabilities that `this.state` provides in a class. Normally, variables “disappear” when the function exits but state variables are preserved by React.
+>
+>**What does  `useState`  return?** It returns a pair of values: the current state and a function that updates it. This is why we write `const [count, setCount] = useState()`. This is similar to `this.state.count` and `this.setState` in a class, except you get them in a pair.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQxNzc3NjUsMTk0NzQ4Nzk2NSw1Mj
+eyJoaXN0b3J5IjpbLTE4MzMwNzgxMDQsMTk0NzQ4Nzk2NSw1Mj
 c3NjkwNDcsLTE4NzczMzgzNTEsLTIwNTQ2NTMzMjIsMzQ3NTQz
 NzcwLDE3NjI5MTA2NjQsMTUxNjQ0MDI3MiwxNjkwMjY1NTk2LD
 UyMDAyOTgxNiwtODgzOTExODMyLDIxMDEwMTU4MDgsMTYzMDQ4

@@ -103,11 +103,16 @@ to access its classes.
 
 Useful resources:
 * [useRef - React](https://reactjs.org/docs/hooks-reference.html#useref)
+* [useState - React](https://reactjs.org/docs/hooks-state.html)
+
+>**What is a Hook?** A Hook is a special function that lets you “hook into” React features. For example, `useState` is a Hook that lets you add React state to function components.
+>
+>**What does calling  `useState`  do?** It declares a “state variable”. Our variable is called `count` but we could call it anything else, like `banana`. This is a way to “preserve” some values between the function calls — `useState` is a new way to use the exact same capabilities that `this.state` provides in a class. Normally, variables “disappear” when the function exits but state variables are preserved by React.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzQ4Nzk2NSw1Mjc3NjkwNDcsLTE4Nz
-czMzgzNTEsLTIwNTQ2NTMzMjIsMzQ3NTQzNzcwLDE3NjI5MTA2
-NjQsMTUxNjQ0MDI3MiwxNjkwMjY1NTk2LDUyMDAyOTgxNiwtOD
-gzOTExODMyLDIxMDEwMTU4MDgsMTYzMDQ4Njk0OSw2MDQ5OTk2
-MjUsMTMwMDI4MjI0MiwtMTUxNjAyMzM3NiwxMjIyMDI1MTY4LD
-YxOTExNjYyMSwxNTMzNTY4MDk1XX0=
+eyJoaXN0b3J5IjpbLTE2NDQxNzc3NjUsMTk0NzQ4Nzk2NSw1Mj
+c3NjkwNDcsLTE4NzczMzgzNTEsLTIwNTQ2NTMzMjIsMzQ3NTQz
+NzcwLDE3NjI5MTA2NjQsMTUxNjQ0MDI3MiwxNjkwMjY1NTk2LD
+UyMDAyOTgxNiwtODgzOTExODMyLDIxMDEwMTU4MDgsMTYzMDQ4
+Njk0OSw2MDQ5OTk2MjUsMTMwMDI4MjI0MiwtMTUxNjAyMzM3Ni
+wxMjIyMDI1MTY4LDYxOTExNjYyMSwxNTMzNTY4MDk1XX0=
 -->

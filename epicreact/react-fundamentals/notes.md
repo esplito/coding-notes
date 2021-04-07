@@ -98,11 +98,16 @@ $0.className
 to access its classes.
 
 ### Forms
+
+> A `ref` is an object that stays consistent between renders of your React component.
+
+Useful resources:
+* [useRef - React](https://reactjs.org/docs/hooks-reference.html#useref)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4MTk0ODk1LDUyNzc2OTA0NywtMTg3Nz
-MzODM1MSwtMjA1NDY1MzMyMiwzNDc1NDM3NzAsMTc2MjkxMDY2
-NCwxNTE2NDQwMjcyLDE2OTAyNjU1OTYsNTIwMDI5ODE2LC04OD
-M5MTE4MzIsMjEwMTAxNTgwOCwxNjMwNDg2OTQ5LDYwNDk5OTYy
-NSwxMzAwMjgyMjQyLC0xNTE2MDIzMzc2LDEyMjIwMjUxNjgsNj
-E5MTE2NjIxLDE1MzM1NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbMTk0NzQ4Nzk2NSw1Mjc3NjkwNDcsLTE4Nz
+czMzgzNTEsLTIwNTQ2NTMzMjIsMzQ3NTQzNzcwLDE3NjI5MTA2
+NjQsMTUxNjQ0MDI3MiwxNjkwMjY1NTk2LDUyMDAyOTgxNiwtOD
+gzOTExODMyLDIxMDEwMTU4MDgsMTYzMDQ4Njk0OSw2MDQ5OTk2
+MjUsMTMwMDI4MjI0MiwtMTUxNjAyMzM3NiwxMjIyMDI1MTY4LD
+YxOTExNjYyMSwxNTMzNTY4MDk1XX0=
 -->

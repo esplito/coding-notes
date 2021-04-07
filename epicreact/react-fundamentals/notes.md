@@ -112,11 +112,18 @@ Useful resources:
 >**What does  `useState`  return?** It returns a pair of values: the current state and a function that updates it. This is why we write `const [count, setCount] = useState()`. This is similar to `this.state.count` and `this.setState` in a class, except you get them in a pair.
 >
 >You **don’t have to** use many state variables. State variables can hold objects and arrays just fine, so you can still group related data together. However, unlike `this.setState` in a class, updating a state variable always _replaces_ it instead of merging it.
+
+When disabling a button where we have the following state:
+```js
+const [error, setError] = useState(null);
+```
+and were we use `setError` to set an error message, we can 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDc3ODgzOCwxOTQ3NDg3OTY1LDUyNz
-c2OTA0NywtMTg3NzMzODM1MSwtMjA1NDY1MzMyMiwzNDc1NDM3
-NzAsMTc2MjkxMDY2NCwxNTE2NDQwMjcyLDE2OTAyNjU1OTYsNT
-IwMDI5ODE2LC04ODM5MTE4MzIsMjEwMTAxNTgwOCwxNjMwNDg2
-OTQ5LDYwNDk5OTYyNSwxMzAwMjgyMjQyLC0xNTE2MDIzMzc2LD
-EyMjIwMjUxNjgsNjE5MTE2NjIxLDE1MzM1NjgwOTVdfQ==
+eyJoaXN0b3J5IjpbLTkwODQxNDQ2LDIwMTQ3Nzg4MzgsMTk0Nz
+Q4Nzk2NSw1Mjc3NjkwNDcsLTE4NzczMzgzNTEsLTIwNTQ2NTMz
+MjIsMzQ3NTQzNzcwLDE3NjI5MTA2NjQsMTUxNjQ0MDI3MiwxNj
+kwMjY1NTk2LDUyMDAyOTgxNiwtODgzOTExODMyLDIxMDEwMTU4
+MDgsMTYzMDQ4Njk0OSw2MDQ5OTk2MjUsMTMwMDI4MjI0MiwtMT
+UxNjAyMzM3NiwxMjIyMDI1MTY4LDYxOTExNjYyMSwxNTMzNTY4
+MDk1XX0=
 -->

@@ -14,12 +14,14 @@ Watch [Why React Hooks](https://www.youtube.com/watch?v=zWsZcBiwgVE&list=PLV5CVI
 * Demo of a Geo-chat app in both Class Components and Hooks
 
 ### React Hooks Welcome
-The backend is mocked with 
+The backend is mocked with MSW, but you can uncomment code in backend.js if you want to use the live endpoint.
+
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA0NDU3MjYsLTEzNjgyOTI4MiwtNj
+eyJoaXN0b3J5IjpbLTE5NDY4MzY5MDIsLTEzNjgyOTI4MiwtNj
 EwNTU1ODYzLC0zNDIxMzkxODNdfQ==
 -->

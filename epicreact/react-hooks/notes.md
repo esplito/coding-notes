@@ -43,12 +43,19 @@ Each hook has a unique api:
 The entire component function is re-run (component re-render) when we update the state. This continues until the component is unmounted (removed from the app) or the user closes the app.
 
 ### useEffect: persistent state
-`React.useEffect` is a built-in hook that makes it possible to run some custom code after Re
+`React.useEffect` is a built-in hook that makes it possible to run some custom code after React renders (and re-renders) the component to the DOM. It accepts a callback which React will call after the DOM has been updated.
+
+```js
+React.useEffect(() => {
+  // your side-effect code here.
+  // this is where you can make HTTP requests or interact with browser APIs.
+})
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjY1NTYxOSwtNDY5Njc0NjU2LC0zNz
+eyJoaXN0b3J5IjpbMTE5NDQ1OTczMSwtNDY5Njc0NjU2LC0zNz
 QyMzk4MzgsLTEzNjgyOTI4MiwtNjEwNTU1ODYzLC0zNDIxMzkx
 ODNdfQ==
 -->

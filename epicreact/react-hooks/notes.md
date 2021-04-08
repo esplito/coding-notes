@@ -54,13 +54,17 @@ React.useEffect(() => {
 
 [Hook flow](https://github.com/donavon/hook-flow) can be checked by inspecting the console here: `http://localhost:3000/isolated/examples/hook-flow.js`
 
-Reading from localStorage every time a component function is run, can be a performance bottleneck (because reading from localStorage can be slow). We only need to read the value from localStorage one time.
+Reading from localStorage every time a component function is run, can be a performance bottleneck (because reading from localStorage can be slow). We only need to read the value from localStorage the first time the component is rendered! 
+
+> To avoid this problem, React’s useState hook allows you to pass a function instead of the actual value, and then it will only call that function to get the state value when the component is rendered the first time. So you can go from this:  `React.useState(someExpensiveComputation())`  To this:  `React.useState(() => someExpensiveComputation())`
+> 
+>And the  `someExpensiveComputation`  function will only be called when it’s needed!
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTEzNDQ5NzcsOTg0NTI2Njc4LDIxMD
-k4NzAzNzEsMTE5NDQ1OTczMSwtNDY5Njc0NjU2LC0zNzQyMzk4
-MzgsLTEzNjgyOTI4MiwtNjEwNTU1ODYzLC0zNDIxMzkxODNdfQ
-==
+eyJoaXN0b3J5IjpbLTMxMTczNjQ5Miw5ODQ1MjY2NzgsMjEwOT
+g3MDM3MSwxMTk0NDU5NzMxLC00Njk2NzQ2NTYsLTM3NDIzOTgz
+OCwtMTM2ODI5MjgyLC02MTA1NTU4NjMsLTM0MjEzOTE4M119
 -->

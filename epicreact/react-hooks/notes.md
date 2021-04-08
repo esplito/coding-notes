@@ -7,7 +7,7 @@ Watch [Why React Hooks](https://www.youtube.com/watch?v=zWsZcBiwgVE&list=PLV5CVI
 **Notes - Why React Hooks**
 * Intro to Hooks
 * What makes React so hard?
-	* JavaScript (Have to learn intracacies of 
+	* JavaScript (Have to learn intricacies of javascript)
 	* Lifecycles
 	* Logic Reuse (patterns)
 * RenderProps are powerful, but leads to a "pyramid of doom".
@@ -16,6 +16,6 @@ Watch [Why React Hooks](https://www.youtube.com/watch?v=zWsZcBiwgVE&list=PLV5CVI
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzEwNzEzLC02MTA1NTU4NjMsLTM0Mj
-EzOTE4M119
+eyJoaXN0b3J5IjpbMjAyOTM5NzY2NSwtNjEwNTU1ODYzLC0zND
+IxMzkxODNdfQ==
 -->

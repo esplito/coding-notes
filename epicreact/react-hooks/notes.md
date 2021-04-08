@@ -54,12 +54,12 @@ React.useEffect(() => {
 
 [Hook flow](https://github.com/donavon/hook-flow) can be checked by inspecting the console here: `http://localhost:3000/isolated/examples/hook-flow.js`
 
-Reading from localStorage every time a component function is run, can be a performance bottleneck (because reading from localStorage can be slow). We only need to read the value from 
+Reading from localStorage every time a component function is run, can be a performance bottleneck (because reading from localStorage can be slow). We only need to read the value from localStorage one time.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODcxMjM4MzQsOTg0NTI2Njc4LDIxMD
+eyJoaXN0b3J5IjpbLTEzNTEzNDQ5NzcsOTg0NTI2Njc4LDIxMD
 k4NzAzNzEsMTE5NDQ1OTczMSwtNDY5Njc0NjU2LC0zNzQyMzk4
 MzgsLTEzNjgyOTI4MiwtNjEwNTU1ODYzLC0zNDIxMzkxODNdfQ
 ==

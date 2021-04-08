@@ -62,12 +62,18 @@ Reading from localStorage every time a component function is run, can be a perfo
 
 If you put an object in the dependency array it will always be shallow compared because React sees it as a new object, even though it looks exactly the same.
 
-### Hooks 
+### Hooks Flow
+
+LayoutEffects are very similar to useEffect.
+
+
+### Lifting state
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzQ2Mjc0MSwtNzgyMTE2MzkyLC0zMT
-E3MzY0OTIsOTg0NTI2Njc4LDIxMDk4NzAzNzEsMTE5NDQ1OTcz
-MSwtNDY5Njc0NjU2LC0zNzQyMzk4MzgsLTEzNjgyOTI4MiwtNj
-EwNTU1ODYzLC0zNDIxMzkxODNdfQ==
+eyJoaXN0b3J5IjpbNDY4ODYwNDAsLTc4MjExNjM5MiwtMzExNz
+M2NDkyLDk4NDUyNjY3OCwyMTA5ODcwMzcxLDExOTQ0NTk3MzEs
+LTQ2OTY3NDY1NiwtMzc0MjM5ODM4LC0xMzY4MjkyODIsLTYxMD
+U1NTg2MywtMzQyMTM5MTgzXX0=
 -->

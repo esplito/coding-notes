@@ -13,10 +13,13 @@ Watch [Why React Hooks](https://www.youtube.com/watch?v=zWsZcBiwgVE&list=PLV5CVI
 * RenderProps are powerful, but leads to a "pyramid of doom".
 * Demo of a Geo-chat app in both Class Components and Hooks
 
+### React Hooks Welcome
+The backend is mocked with 
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjgyOTI4MiwtNjEwNTU1ODYzLC0zND
-IxMzkxODNdfQ==
+eyJoaXN0b3J5IjpbLTE0ODA0NDU3MjYsLTEzNjgyOTI4MiwtNj
+EwNTU1ODYzLC0zNDIxMzkxODNdfQ==
 -->

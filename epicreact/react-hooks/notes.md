@@ -62,12 +62,12 @@ Reading from localStorage every time a component function is run, can be a perfo
 
 If you put an object in the dependency array it will always be shallow compared because React sees it as a new object, even though it looks exactly the same.
 
-
+### Hooks 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjExNjM5MiwtMzExNzM2NDkyLDk4ND
-UyNjY3OCwyMTA5ODcwMzcxLDExOTQ0NTk3MzEsLTQ2OTY3NDY1
-NiwtMzc0MjM5ODM4LC0xMzY4MjkyODIsLTYxMDU1NTg2MywtMz
-QyMTM5MTgzXX0=
+eyJoaXN0b3J5IjpbLTM3MzQ2Mjc0MSwtNzgyMTE2MzkyLC0zMT
+E3MzY0OTIsOTg0NTI2Njc4LDIxMDk4NzAzNzEsMTE5NDQ1OTcz
+MSwtNDY5Njc0NjU2LC0zNzQyMzk4MzgsLTEzNjgyOTI4MiwtNj
+EwNTU1ODYzLC0zNDIxMzkxODNdfQ==
 -->

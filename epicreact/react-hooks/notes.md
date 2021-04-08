@@ -88,12 +88,14 @@ This example is lifted from React's official tutorial, but that one still uses C
 -   **Managed State:**  State that you need to explicitly manage
 -   **Derived State:**  State that you can calculate based on other state
 
+US
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzNzkxMTQyLDExNjA0NzY4NjMsLTExMz
-I4NDAzMTQsMTUyMDM4MTEsLTYyMTE5NjIxOCw0Njg4NjA0MCwt
-NzgyMTE2MzkyLC0zMTE3MzY0OTIsOTg0NTI2Njc4LDIxMDk4Nz
-AzNzEsMTE5NDQ1OTczMSwtNDY5Njc0NjU2LC0zNzQyMzk4Mzgs
-LTEzNjgyOTI4MiwtNjEwNTU1ODYzLC0zNDIxMzkxODNdfQ==
+eyJoaXN0b3J5IjpbLTU0NzE4ODIzNCw2MzM3OTExNDIsMTE2MD
+Q3Njg2MywtMTEzMjg0MDMxNCwxNTIwMzgxMSwtNjIxMTk2MjE4
+LDQ2ODg2MDQwLC03ODIxMTYzOTIsLTMxMTczNjQ5Miw5ODQ1Mj
+Y2NzgsMjEwOTg3MDM3MSwxMTk0NDU5NzMxLC00Njk2NzQ2NTYs
+LTM3NDIzOTgzOCwtMTM2ODI5MjgyLC02MTA1NTU4NjMsLTM0Mj
+EzOTE4M119
 -->

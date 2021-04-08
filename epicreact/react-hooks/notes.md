@@ -18,11 +18,19 @@ The backend is mocked with MSW, but you can uncomment code in backend.js if you 
 
 ### useState: greeting
 
+Common built-in hooks:
+-   `React.useState`
+-   `React.useEffect`
+-   `React.useContext`
+-   `React.useRef`
+-   `React.useReducer`
 
+Each hook has a unique api. 
+*
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDIzOTgzOCwtMTM2ODI5MjgyLC02MT
-A1NTU4NjMsLTM0MjEzOTE4M119
+eyJoaXN0b3J5IjpbLTE1NzUxNzgwODQsLTM3NDIzOTgzOCwtMT
+M2ODI5MjgyLC02MTA1NTU4NjMsLTM0MjEzOTE4M119
 -->

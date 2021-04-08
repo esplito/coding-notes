@@ -77,14 +77,16 @@ Useful resources: [Lifting State up - React](https://reactjs.org/docs/lifting-st
 > There should be a single “source of truth” for any data that changes in a React application. 
 > Source: [Lessons Learned - Lifting State up - React](https://reactjs.org/docs/lifting-state-up.html#lessons-learned)
 
+> Whenever I'm looking at some state that's being managed, I like to determine what components are using the state, or what elements in this component are using the state. - Kent C. Dodds
 
+Always think about where the state should be managed. **Colocation of state** can lead to po
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI4NDAzMTQsMTUyMDM4MTEsLTYyMT
-E5NjIxOCw0Njg4NjA0MCwtNzgyMTE2MzkyLC0zMTE3MzY0OTIs
-OTg0NTI2Njc4LDIxMDk4NzAzNzEsMTE5NDQ1OTczMSwtNDY5Nj
-c0NjU2LC0zNzQyMzk4MzgsLTEzNjgyOTI4MiwtNjEwNTU1ODYz
-LC0zNDIxMzkxODNdfQ==
+eyJoaXN0b3J5IjpbNTI0MjQxMTMwLC0xMTMyODQwMzE0LDE1Mj
+AzODExLC02MjExOTYyMTgsNDY4ODYwNDAsLTc4MjExNjM5Miwt
+MzExNzM2NDkyLDk4NDUyNjY3OCwyMTA5ODcwMzcxLDExOTQ0NT
+k3MzEsLTQ2OTY3NDY1NiwtMzc0MjM5ODM4LC0xMzY4MjkyODIs
+LTYxMDU1NTg2MywtMzQyMTM5MTgzXX0=
 -->

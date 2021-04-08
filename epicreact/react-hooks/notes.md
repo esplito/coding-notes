@@ -90,11 +90,12 @@ This example is lifted from React's official tutorial, but that one still uses C
 
 Useful resources: [Don't sync state. Derive it! - Dodds](https://kentcdodds.com/blog/dont-sync-state-derive-it)
 
+When you're maintaining the state of your app and trying to solve a synchronization bug, think about how you could change it to make it derived on the fly instead.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTgzMzU3ODAsMTU0NDM1MzUzNiw2Mz
+eyJoaXN0b3J5IjpbLTEwOTk1OTM4MjgsMTU0NDM1MzUzNiw2Mz
 M3OTExNDIsMTE2MDQ3Njg2MywtMTEzMjg0MDMxNCwxNTIwMzgx
 MSwtNjIxMTk2MjE4LDQ2ODg2MDQwLC03ODIxMTYzOTIsLTMxMT
 czNjQ5Miw5ODQ1MjY2NzgsMjEwOTg3MDM3MSwxMTk0NDU5NzMx

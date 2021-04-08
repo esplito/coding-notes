@@ -88,11 +88,11 @@ This example is lifted from React's official tutorial, but that one still uses C
 -   **Managed State:**  State that you need to explicitly manage
 -   **Derived State:**  State that you can calculate based on other state
 
-US
+Useful resources: [Don't sync state. Derive it! - Dodds](https://kentcdodds.com/blog/dont-sync-state-derive-it)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzE4ODIzNCw2MzM3OTExNDIsMTE2MD
+eyJoaXN0b3J5IjpbMTU0NDM1MzUzNiw2MzM3OTExNDIsMTE2MD
 Q3Njg2MywtMTEzMjg0MDMxNCwxNTIwMzgxMSwtNjIxMTk2MjE4
 LDQ2ODg2MDQwLC03ODIxMTYzOTIsLTMxMTczNjQ5Miw5ODQ1Mj
 Y2NzgsMjEwOTg3MDM3MSwxMTk0NDU5NzMxLC00Njk2NzQ2NTYs

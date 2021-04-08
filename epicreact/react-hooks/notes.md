@@ -68,13 +68,15 @@ LayoutEffects are very similar to useEffect.
 
 React doesn't call the `function Child()` until it knows that it needs to render it. That's why the parent component (`function App()`) finishes rendering before it renders the child component.
 
+`useEffect` cleanups needs to re-run before it re-runs any of the `useEffect`s.
+
 ### Lifting state
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDIxMDk2MjksNDY4ODYwNDAsLTc4Mj
-ExNjM5MiwtMzExNzM2NDkyLDk4NDUyNjY3OCwyMTA5ODcwMzcx
-LDExOTQ0NTk3MzEsLTQ2OTY3NDY1NiwtMzc0MjM5ODM4LC0xMz
-Y4MjkyODIsLTYxMDU1NTg2MywtMzQyMTM5MTgzXX0=
+eyJoaXN0b3J5IjpbLTYyMTE5NjIxOCw0Njg4NjA0MCwtNzgyMT
+E2MzkyLC0zMTE3MzY0OTIsOTg0NTI2Njc4LDIxMDk4NzAzNzEs
+MTE5NDQ1OTczMSwtNDY5Njc0NjU2LC0zNzQyMzk4MzgsLTEzNj
+gyOTI4MiwtNjEwNTU1ODYzLC0zNDIxMzkxODNdfQ==
 -->

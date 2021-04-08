@@ -40,12 +40,12 @@ Each hook has a unique api:
 **State** can be defined as:
 >data that changes over time.
 
-The
+The entire component function is re-run (component re-render) when we update the state. This continues until the component is unmounted (removed from the app) or the user closes the app.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTI0MTY4MzAsLTM3NDIzOTgzOCwtMT
-M2ODI5MjgyLC02MTA1NTU4NjMsLTM0MjEzOTE4M119
+eyJoaXN0b3J5IjpbLTQ2OTY3NDY1NiwtMzc0MjM5ODM4LC0xMz
+Y4MjkyODIsLTYxMDU1NTg2MywtMzQyMTM5MTgzXX0=
 -->

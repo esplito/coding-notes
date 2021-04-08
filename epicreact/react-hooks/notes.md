@@ -25,12 +25,17 @@ Common built-in hooks:
 -   `React.useRef`
 -   `React.useReducer`
 
-Each hook has a unique api. 
-*
+Each hook has a unique api:
+- Some return a value
+	- `React.useRef` and `React.useContext`
+- Others return a pair of values
+	- `React.useState` and `React.useContext`
+- And some return nothing
+	- 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzUxNzgwODQsLTM3NDIzOTgzOCwtMT
-M2ODI5MjgyLC02MTA1NTU4NjMsLTM0MjEzOTE4M119
+eyJoaXN0b3J5IjpbNDI2NTA3NDgzLC0zNzQyMzk4MzgsLTEzNj
+gyOTI4MiwtNjEwNTU1ODYzLC0zNDIxMzkxODNdfQ==
 -->

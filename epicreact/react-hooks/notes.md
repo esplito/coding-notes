@@ -35,12 +35,17 @@ Each hook has a unique api:
 
 `React.useState` accepts a **single argument**, that is the initial state for the instance of the component.
 
-`React.useState` returns a pair of values by returning an array with two
+`React.useState` returns a pair of values by returning an array with two elements. The first of the pair is the state value and the second is a function we can call to update the state.
+
+**State** can be defined as:
+>data that changes over time.
+
+The
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTUwOTk4MDUsLTM3NDIzOTgzOCwtMT
+eyJoaXN0b3J5IjpbLTEwMTI0MTY4MzAsLTM3NDIzOTgzOCwtMT
 M2ODI5MjgyLC02MTA1NTU4NjMsLTM0MjEzOTE4M119
 -->

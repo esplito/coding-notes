@@ -42,10 +42,13 @@ Each hook has a unique api:
 
 The entire component function is re-run (component re-render) when we update the state. This continues until the component is unmounted (removed from the app) or the user closes the app.
 
+### useEffect: persistent state
+`React.useEffect`
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTY3NDY1NiwtMzc0MjM5ODM4LC0xMz
-Y4MjkyODIsLTYxMDU1NTg2MywtMzQyMTM5MTgzXX0=
+eyJoaXN0b3J5IjpbLTE5NTExMjM2NiwtNDY5Njc0NjU2LC0zNz
+QyMzk4MzgsLTEzNjgyOTI4MiwtNjEwNTU1ODYzLC0zNDIxMzkx
+ODNdfQ==
 -->

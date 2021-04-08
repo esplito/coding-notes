@@ -72,13 +72,15 @@ React doesn't call the `function Child()` until it knows that it needs to render
 
 ### Lifting state
 
-U
+Useful resources: [Lifting State up - React](https://reactjs.org/docs/lifting-state-up.html)
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjIwMDU3NSwtNjIxMTk2MjE4LDQ2OD
-g2MDQwLC03ODIxMTYzOTIsLTMxMTczNjQ5Miw5ODQ1MjY2Nzgs
-MjEwOTg3MDM3MSwxMTk0NDU5NzMxLC00Njk2NzQ2NTYsLTM3ND
-IzOTgzOCwtMTM2ODI5MjgyLC02MTA1NTU4NjMsLTM0MjEzOTE4
-M119
+eyJoaXN0b3J5IjpbMTUyMDM4MTEsLTYyMTE5NjIxOCw0Njg4Nj
+A0MCwtNzgyMTE2MzkyLC0zMTE3MzY0OTIsOTg0NTI2Njc4LDIx
+MDk4NzAzNzEsMTE5NDQ1OTczMSwtNDY5Njc0NjU2LC0zNzQyMz
+k4MzgsLTEzNjgyOTI4MiwtNjEwNTU1ODYzLC0zNDIxMzkxODNd
+fQ==
 -->

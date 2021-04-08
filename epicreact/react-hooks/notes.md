@@ -79,14 +79,14 @@ Useful resources: [Lifting State up - React](https://reactjs.org/docs/lifting-st
 
 > Whenever I'm looking at some state that's being managed, I like to determine what components are using the state, or what elements in this component are using the state. - Kent C. Dodds
 
-Always think about where the state should be managed. **Colocation of state** can lead to po
+Always think about where the state should be managed. **Colocation of state** can lead to performance benefits and makes maintenance easier.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0MjQxMTMwLC0xMTMyODQwMzE0LDE1Mj
-AzODExLC02MjExOTYyMTgsNDY4ODYwNDAsLTc4MjExNjM5Miwt
-MzExNzM2NDkyLDk4NDUyNjY3OCwyMTA5ODcwMzcxLDExOTQ0NT
-k3MzEsLTQ2OTY3NDY1NiwtMzc0MjM5ODM4LC0xMzY4MjkyODIs
-LTYxMDU1NTg2MywtMzQyMTM5MTgzXX0=
+eyJoaXN0b3J5IjpbMTE2MDQ3Njg2MywtMTEzMjg0MDMxNCwxNT
+IwMzgxMSwtNjIxMTk2MjE4LDQ2ODg2MDQwLC03ODIxMTYzOTIs
+LTMxMTczNjQ5Miw5ODQ1MjY2NzgsMjEwOTg3MDM3MSwxMTk0ND
+U5NzMxLC00Njk2NzQ2NTYsLTM3NDIzOTgzOCwtMTM2ODI5Mjgy
+LC02MTA1NTU4NjMsLTM0MjEzOTE4M119
 -->

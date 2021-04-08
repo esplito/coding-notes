@@ -52,10 +52,13 @@ React.useEffect(() => {
 })
 ```
 
+Hook flow can be checked by inspecting the console here: `http://localhost:3000/isolated/examples/hook-flow.js`
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDQ1OTczMSwtNDY5Njc0NjU2LC0zNz
-QyMzk4MzgsLTEzNjgyOTI4MiwtNjEwNTU1ODYzLC0zNDIxMzkx
-ODNdfQ==
+eyJoaXN0b3J5IjpbMjEwOTg3MDM3MSwxMTk0NDU5NzMxLC00Nj
+k2NzQ2NTYsLTM3NDIzOTgzOCwtMTM2ODI5MjgyLC02MTA1NTU4
+NjMsLTM0MjEzOTE4M119
 -->

@@ -6,11 +6,11 @@ Watch [Why React Hooks](https://www.youtube.com/watch?v=zWsZcBiwgVE&list=PLV5CVI
 
 **Notes - Why React Hooks**
 * Intro to Hooks
-* 
+* What makes R
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTI3NTE0OSwtMzQyMTM5MTgzXX0=
+eyJoaXN0b3J5IjpbLTgwMTczNjY1NCwtMzQyMTM5MTgzXX0=
 -->

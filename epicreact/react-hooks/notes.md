@@ -81,12 +81,16 @@ Useful resources: [Lifting State up - React](https://reactjs.org/docs/lifting-st
 
 Always think about where the state should be managed. **Colocation of state** can lead to performance benefits and makes maintenance easier.
 
+### useState: tic tac toe
+
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDQ3Njg2MywtMTEzMjg0MDMxNCwxNT
-IwMzgxMSwtNjIxMTk2MjE4LDQ2ODg2MDQwLC03ODIxMTYzOTIs
-LTMxMTczNjQ5Miw5ODQ1MjY2NzgsMjEwOTg3MDM3MSwxMTk0ND
-U5NzMxLC00Njk2NzQ2NTYsLTM3NDIzOTgzOCwtMTM2ODI5Mjgy
-LC02MTA1NTU4NjMsLTM0MjEzOTE4M119
+eyJoaXN0b3J5IjpbOTI1OTE4MjQ0LDExNjA0NzY4NjMsLTExMz
+I4NDAzMTQsMTUyMDM4MTEsLTYyMTE5NjIxOCw0Njg4NjA0MCwt
+NzgyMTE2MzkyLC0zMTE3MzY0OTIsOTg0NTI2Njc4LDIxMDk4Nz
+AzNzEsMTE5NDQ1OTczMSwtNDY5Njc0NjU2LC0zNzQyMzk4Mzgs
+LTEzNjgyOTI4MiwtNjEwNTU1ODYzLC0zNDIxMzkxODNdfQ==
 -->

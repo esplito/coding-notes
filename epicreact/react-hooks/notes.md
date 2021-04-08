@@ -66,14 +66,15 @@ If you put an object in the dependency array it will always be shallow compared 
 
 LayoutEffects are very similar to useEffect.
 
+React doesn't call the `function Child()` until it knows that it needs to render it. That's why the parent component (`function App()`) finishes rendering before it renders the child component.
 
 ### Lifting state
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4ODYwNDAsLTc4MjExNjM5MiwtMzExNz
-M2NDkyLDk4NDUyNjY3OCwyMTA5ODcwMzcxLDExOTQ0NTk3MzEs
-LTQ2OTY3NDY1NiwtMzc0MjM5ODM4LC0xMzY4MjkyODIsLTYxMD
-U1NTg2MywtMzQyMTM5MTgzXX0=
+eyJoaXN0b3J5IjpbLTE4MDIxMDk2MjksNDY4ODYwNDAsLTc4Mj
+ExNjM5MiwtMzExNzM2NDkyLDk4NDUyNjY3OCwyMTA5ODcwMzcx
+LDExOTQ0NTk3MzEsLTQ2OTY3NDY1NiwtMzc0MjM5ODM4LC0xMz
+Y4MjkyODIsLTYxMDU1NTg2MywtMzQyMTM5MTgzXX0=
 -->

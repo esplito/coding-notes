@@ -74,13 +74,17 @@ React doesn't call the `function Child()` until it knows that it needs to render
 
 Useful resources: [Lifting State up - React](https://reactjs.org/docs/lifting-state-up.html)
 
+> There should be a single “source of truth” for any data that changes in a React application. 
+> Source: [Lessons Learned - Lifting State up - React](https://reactjs.org/docs/lifting-state-up.html#lessons-learned)
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDM4MTEsLTYyMTE5NjIxOCw0Njg4Nj
-A0MCwtNzgyMTE2MzkyLC0zMTE3MzY0OTIsOTg0NTI2Njc4LDIx
-MDk4NzAzNzEsMTE5NDQ1OTczMSwtNDY5Njc0NjU2LC0zNzQyMz
-k4MzgsLTEzNjgyOTI4MiwtNjEwNTU1ODYzLC0zNDIxMzkxODNd
-fQ==
+eyJoaXN0b3J5IjpbLTExMzI4NDAzMTQsMTUyMDM4MTEsLTYyMT
+E5NjIxOCw0Njg4NjA0MCwtNzgyMTE2MzkyLC0zMTE3MzY0OTIs
+OTg0NTI2Njc4LDIxMDk4NzAzNzEsMTE5NDQ1OTczMSwtNDY5Nj
+c0NjU2LC0zNzQyMzk4MzgsLTEzNjgyOTI4MiwtNjEwNTU1ODYz
+LC0zNDIxMzkxODNdfQ==
 -->

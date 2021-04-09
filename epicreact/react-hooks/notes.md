@@ -153,15 +153,32 @@ Kent C. Dodds preference:
 >    // do something with the result
 >  })
 >})
-```
+>```
 
-
+**Error handling**
+>```javascript
+>// option 1: using .catch
+>fetchPokemon(pokemonName)
+>  .then(pokemon => setPokemon(pokemon))
+>  .catch(error => setError(error))
+>
+>// option 2: using the second argument to .then
+>fetchPokemon(pokemonName).then(
+>  pokemon => setPokemon(pokemon),
+>  error => setError(error),
+>)
+>```
+>These are functionally equivalent for our purposes, but they are semantically different in general.
+>
+>Using  `.catch`  means that you’ll handle an error in the  `fetchPokemon`  promise, but you’ll  _also_  handle an error in the  `setPokemon(pokemon)`  call as well. This is due to the semantics of how promises work.
+>
+>Using the second argument to  `.then`  means that you will catch an error that happens in  `fetchPokemon`  only.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTM5OTExMSwyOTE1MjcwMDUsLTEwMD
-cyOTg3MjIsNjU4NzMzMzYyLDI2NDQ1NjQ2NSwxODgxNzUwOTEs
-LTEwOTk1OTM4MjgsMTU0NDM1MzUzNiw2MzM3OTExNDIsMTE2MD
-Q3Njg2MywtMTEzMjg0MDMxNCwxNTIwMzgxMSwtNjIxMTk2MjE4
-LDQ2ODg2MDQwLC03ODIxMTYzOTIsLTMxMTczNjQ5Miw5ODQ1Mj
-Y2NzgsMjEwOTg3MDM3MSwxMTk0NDU5NzMxLC00Njk2NzQ2NTZd
-fQ==
+eyJoaXN0b3J5IjpbNDA4MTE3MzI3LDI5MTUyNzAwNSwtMTAwNz
+I5ODcyMiw2NTg3MzMzNjIsMjY0NDU2NDY1LDE4ODE3NTA5MSwt
+MTA5OTU5MzgyOCwxNTQ0MzUzNTM2LDYzMzc5MTE0MiwxMTYwND
+c2ODYzLC0xMTMyODQwMzE0LDE1MjAzODExLC02MjExOTYyMTgs
+NDY4ODYwNDAsLTc4MjExNjM5MiwtMzExNzM2NDkyLDk4NDUyNj
+Y3OCwyMTA5ODcwMzcxLDExOTQ0NTk3MzEsLTQ2OTY3NDY1Nl19
+
 -->

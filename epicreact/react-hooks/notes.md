@@ -103,15 +103,22 @@ state = {
 Functional Component with `useState`:
 ```js
 // without lazy initialization
-const [squares, 
+const [squares, setSquares] = React.useState(
+  JSON.parse(window.localStorage.getItem('squares') || Array(9).fill(null)
+);
+
+// with lazy initialization
+const [squares, setSquares] = React.useState(
+  JSON.parse(window.localStorage.getItem('squares') || Array(9).fill(null)
+);
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc2MjcyOTEsLTEwOTk1OTM4MjgsMT
-U0NDM1MzUzNiw2MzM3OTExNDIsMTE2MDQ3Njg2MywtMTEzMjg0
-MDMxNCwxNTIwMzgxMSwtNjIxMTk2MjE4LDQ2ODg2MDQwLC03OD
-IxMTYzOTIsLTMxMTczNjQ5Miw5ODQ1MjY2NzgsMjEwOTg3MDM3
-MSwxMTk0NDU5NzMxLC00Njk2NzQ2NTYsLTM3NDIzOTgzOCwtMT
-M2ODI5MjgyLC02MTA1NTU4NjMsLTM0MjEzOTE4M119
+eyJoaXN0b3J5IjpbMTIyOTAzMjQzNSwtMTA5OTU5MzgyOCwxNT
+Q0MzUzNTM2LDYzMzc5MTE0MiwxMTYwNDc2ODYzLC0xMTMyODQw
+MzE0LDE1MjAzODExLC02MjExOTYyMTgsNDY4ODYwNDAsLTc4Mj
+ExNjM5MiwtMzExNzM2NDkyLDk4NDUyNjY3OCwyMTA5ODcwMzcx
+LDExOTQ0NTk3MzEsLTQ2OTY3NDY1NiwtMzc0MjM5ODM4LC0xMz
+Y4MjkyODIsLTYxMDU1NTg2MywtMzQyMTM5MTgzXX0=
 -->

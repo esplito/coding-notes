@@ -179,8 +179,11 @@ Instead of using a `isLoading`-state it's better to use a status that has one of
 -   `pending`: request started
 -   `resolved`: request successful
 -   `rejected`: request failed
+
+You could put them together like this if you want:
+* ```const isLoading = status === 'idle' || status === 'pending```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODcxNjQwOCw0MDgxMTczMjcsMjkxNT
+eyJoaXN0b3J5IjpbLTg3NTA3MjU0OCw0MDgxMTczMjcsMjkxNT
 I3MDA1LC0xMDA3Mjk4NzIyLDY1ODczMzM2MiwyNjQ0NTY0NjUs
 MTg4MTc1MDkxLC0xMDk5NTkzODI4LDE1NDQzNTM1MzYsNjMzNz
 kxMTQyLDExNjA0NzY4NjMsLTExMzI4NDAzMTQsMTUyMDM4MTEs

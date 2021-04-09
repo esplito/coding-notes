@@ -97,15 +97,21 @@ One thing to note about state is that Class Component do lazy initialization by 
 Class Component example:
 ```js
 state = {
-  squares: JSON.parse(window.localStorage.getItem('squares') || Array(9).f
+  squares: JSON.parse(window.localStorage.getItem('squares') || Array(9).fill(null)
+}
+```
+Functional Component with `useState`:
+```js
+// without lazy initialization
+const [squares, 
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDAwMTEzNiwtMTA5OTU5MzgyOCwxNT
-Q0MzUzNTM2LDYzMzc5MTE0MiwxMTYwNDc2ODYzLC0xMTMyODQw
-MzE0LDE1MjAzODExLC02MjExOTYyMTgsNDY4ODYwNDAsLTc4Mj
-ExNjM5MiwtMzExNzM2NDkyLDk4NDUyNjY3OCwyMTA5ODcwMzcx
-LDExOTQ0NTk3MzEsLTQ2OTY3NDY1NiwtMzc0MjM5ODM4LC0xMz
-Y4MjkyODIsLTYxMDU1NTg2MywtMzQyMTM5MTgzXX0=
+eyJoaXN0b3J5IjpbLTEwMTc2MjcyOTEsLTEwOTk1OTM4MjgsMT
+U0NDM1MzUzNiw2MzM3OTExNDIsMTE2MDQ3Njg2MywtMTEzMjg0
+MDMxNCwxNTIwMzgxMSwtNjIxMTk2MjE4LDQ2ODg2MDQwLC03OD
+IxMTYzOTIsLTMxMTczNjQ5Miw5ODQ1MjY2NzgsMjEwOTg3MDM3
+MSwxMTk0NDU5NzMxLC00Njk2NzQ2NTYsLTM3NDIzOTgzOCwtMT
+M2ODI5MjgyLC02MTA1NTU4NjMsLTM0MjEzOTE4M119
 -->

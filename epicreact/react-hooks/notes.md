@@ -189,12 +189,26 @@ const isRejected = status === 'rejected'
 
 Resource: [Stop using isLoading booleans - Dodds](https://kentcdodds.com/blog/stop-using-isloading-booleans)
 
+**Potential Problem (extra credit 3)**
+>You’ll notice that we’re calling a bunch of state updaters in a row. This is normally not a problem, but each call to our state updater can result in a re-render of our component. React normally batches these calls so you only get a single re-render, but it’s unable to do this in an asynchronous callback (like our promise success and error handlers).
+>
+>So you might notice that if you do this:
+>```javascript
+>setStatus('resolved')
+>setPokemon(pokemon)
+>```
+>You’ll get an error indicating that you cannot read  `image`  of  `null`. This is because the  `setStatus`  call results in a re-render that happens before the  `setPokemon`  happens.
+>
+>In the future, you’ll learn about how  `useReducer`  can solve this problem really elegantly, but we can still accomplish this by storing our state as an object that has all the properties of state we’re managing. 
+>- Kent C. Dodds
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzA5OTk0NywtMjEyOTgzMDg0Nyw0MD
-gxMTczMjcsMjkxNTI3MDA1LC0xMDA3Mjk4NzIyLDY1ODczMzM2
-MiwyNjQ0NTY0NjUsMTg4MTc1MDkxLC0xMDk5NTkzODI4LDE1ND
-QzNTM1MzYsNjMzNzkxMTQyLDExNjA0NzY4NjMsLTExMzI4NDAz
-MTQsMTUyMDM4MTEsLTYyMTE5NjIxOCw0Njg4NjA0MCwtNzgyMT
-E2MzkyLC0zMTE3MzY0OTIsOTg0NTI2Njc4LDIxMDk4NzAzNzFd
+eyJoaXN0b3J5IjpbLTgwNzk1MjcwNSwxOTQzMDk5OTQ3LC0yMT
+I5ODMwODQ3LDQwODExNzMyNywyOTE1MjcwMDUsLTEwMDcyOTg3
+MjIsNjU4NzMzMzYyLDI2NDQ1NjQ2NSwxODgxNzUwOTEsLTEwOT
+k1OTM4MjgsMTU0NDM1MzUzNiw2MzM3OTExNDIsMTE2MDQ3Njg2
+MywtMTEzMjg0MDMxNCwxNTIwMzgxMSwtNjIxMTk2MjE4LDQ2OD
+g2MDQwLC03ODIxMTYzOTIsLTMxMTczNjQ5Miw5ODQ1MjY2Nzhd
 fQ==
 -->

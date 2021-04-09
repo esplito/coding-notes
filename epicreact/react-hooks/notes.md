@@ -132,9 +132,11 @@ HTTP requests are a common side-effect that we need to do in our applications an
 >})
 >```
 
+Why doesn't this work? Because when you make the function async it will automatically return a promise, regardless of if you return anything. This happens because of the semantics of async/await syntax. If you want to use
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzExOTkxLC0xMDA3Mjk4NzIyLDY1OD
+eyJoaXN0b3J5IjpbODQ4NDA0Nzc5LC0xMDA3Mjk4NzIyLDY1OD
 czMzM2MiwyNjQ0NTY0NjUsMTg4MTc1MDkxLC0xMDk5NTkzODI4
 LDE1NDQzNTM1MzYsNjMzNzkxMTQyLDExNjA0NzY4NjMsLTExMz
 I4NDAzMTQsMTUyMDM4MTEsLTYyMTE5NjIxOCw0Njg4NjA0MCwt

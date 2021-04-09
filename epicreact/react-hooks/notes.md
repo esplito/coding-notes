@@ -92,11 +92,17 @@ Useful resources: [Don't sync state. Derive it! - Dodds](https://kentcdodds.com/
 
 When you're maintaining the state of your app and trying to solve a synchronization bug, think about how you could change it to make it derived on the fly instead.
 
-One thing to note about state is that Class Component do lazy initialization by default, but if you refactor it to a Functional Component with `useState` then you have to make sure that you are 
+One thing to note about state is that Class Component do lazy initialization by default, but if you refactor it to a Functional Component with `useState` then you have to make sure that you are lazy initializing.
+
+Class Component example:
+```js
+state = {
+  squares: JSON.parse(window.localStorage.getItem('squares') || Array(9).f
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTI4MjgzOCwtMTA5OTU5MzgyOCwxNT
+eyJoaXN0b3J5IjpbLTczNDAwMTEzNiwtMTA5OTU5MzgyOCwxNT
 Q0MzUzNTM2LDYzMzc5MTE0MiwxMTYwNDc2ODYzLC0xMTMyODQw
 MzE0LDE1MjAzODExLC02MjExOTYyMTgsNDY4ODYwNDAsLTc4Mj
 ExNjM5MiwtMzExNzM2NDkyLDk4NDUyNjY3OCwyMTA5ODcwMzcx

@@ -132,15 +132,24 @@ HTTP requests are a common side-effect that we need to do in our applications an
 >})
 >```
 
-Why doesn't this work? Because when you make the function async it will automatically return a promise, regardless of if you return anything. This happens because of the semantics of async/await syntax. If you want to use
+Why doesn't this work? Because when you make the function async it will automatically return a promise, regardless of if you return anything. This happens because of the semantics of async/await syntax. If you want to use async/await do like this:
 
-> Written with [StackEdit](https://stackedit.io/).
+>```javascript
+>React.useEffect(() => {
+>  async function effect() {
+>    const result = await doSomeAsyncThing()
+>    // do something with the result
+>  }
+>  effect()
+>})
+>```
+>This ensures that you don’t return anything but a cleanup function.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4NDA0Nzc5LC0xMDA3Mjk4NzIyLDY1OD
-czMzM2MiwyNjQ0NTY0NjUsMTg4MTc1MDkxLC0xMDk5NTkzODI4
-LDE1NDQzNTM1MzYsNjMzNzkxMTQyLDExNjA0NzY4NjMsLTExMz
-I4NDAzMTQsMTUyMDM4MTEsLTYyMTE5NjIxOCw0Njg4NjA0MCwt
-NzgyMTE2MzkyLC0zMTE3MzY0OTIsOTg0NTI2Njc4LDIxMDk4Nz
-AzNzEsMTE5NDQ1OTczMSwtNDY5Njc0NjU2LC0zNzQyMzk4Mzhd
-fQ==
+eyJoaXN0b3J5IjpbMTQ5NjIxMjY3NiwtMTAwNzI5ODcyMiw2NT
+g3MzMzNjIsMjY0NDU2NDY1LDE4ODE3NTA5MSwtMTA5OTU5Mzgy
+OCwxNTQ0MzUzNTM2LDYzMzc5MTE0MiwxMTYwNDc2ODYzLC0xMT
+MyODQwMzE0LDE1MjAzODExLC02MjExOTYyMTgsNDY4ODYwNDAs
+LTc4MjExNjM5MiwtMzExNzM2NDkyLDk4NDUyNjY3OCwyMTA5OD
+cwMzcxLDExOTQ0NTk3MzEsLTQ2OTY3NDY1NiwtMzc0MjM5ODM4
+XX0=
 -->

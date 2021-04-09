@@ -115,14 +115,17 @@ const [squares, setSquares] = React.useState(
 
 ### useRef and useEffect: DOM interaction
 
+>After the component has been rendered, it’s considered “mounted.” That’s when the React.useEffect callback is called and so by that point, the ref should have its `current` property set to the DOM node. So often you’ll do direct DOM interactions/manipulations in the `useEffect` callback. - Kent C. Dodds
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0NDU2NDY1LDE4ODE3NTA5MSwtMTA5OT
-U5MzgyOCwxNTQ0MzUzNTM2LDYzMzc5MTE0MiwxMTYwNDc2ODYz
-LC0xMTMyODQwMzE0LDE1MjAzODExLC02MjExOTYyMTgsNDY4OD
-YwNDAsLTc4MjExNjM5MiwtMzExNzM2NDkyLDk4NDUyNjY3OCwy
-MTA5ODcwMzcxLDExOTQ0NTk3MzEsLTQ2OTY3NDY1NiwtMzc0Mj
-M5ODM4LC0xMzY4MjkyODIsLTYxMDU1NTg2MywtMzQyMTM5MTgz
-XX0=
+eyJoaXN0b3J5IjpbNjU4NzMzMzYyLDI2NDQ1NjQ2NSwxODgxNz
+UwOTEsLTEwOTk1OTM4MjgsMTU0NDM1MzUzNiw2MzM3OTExNDIs
+MTE2MDQ3Njg2MywtMTEzMjg0MDMxNCwxNTIwMzgxMSwtNjIxMT
+k2MjE4LDQ2ODg2MDQwLC03ODIxMTYzOTIsLTMxMTczNjQ5Miw5
+ODQ1MjY2NzgsMjEwOTg3MDM3MSwxMTk0NDU5NzMxLC00Njk2Nz
+Q2NTYsLTM3NDIzOTgzOCwtMTM2ODI5MjgyLC02MTA1NTU4NjNd
+fQ==
 -->

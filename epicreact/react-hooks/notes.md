@@ -109,16 +109,16 @@ const [squares, setSquares] = React.useState(
 
 // with lazy initialization
 const [squares, setSquares] = React.useState(
-  JSON.parse(window.localStorage.getItem('squares') || Array(9).fill(null)
+  () => JSON.parse(window.localStorage.getItem('squares') || Array(9).fill(null)
 );
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTAzMjQzNSwtMTA5OTU5MzgyOCwxNT
-Q0MzUzNTM2LDYzMzc5MTE0MiwxMTYwNDc2ODYzLC0xMTMyODQw
-MzE0LDE1MjAzODExLC02MjExOTYyMTgsNDY4ODYwNDAsLTc4Mj
-ExNjM5MiwtMzExNzM2NDkyLDk4NDUyNjY3OCwyMTA5ODcwMzcx
-LDExOTQ0NTk3MzEsLTQ2OTY3NDY1NiwtMzc0MjM5ODM4LC0xMz
-Y4MjkyODIsLTYxMDU1NTg2MywtMzQyMTM5MTgzXX0=
+eyJoaXN0b3J5IjpbMTg4MTc1MDkxLC0xMDk5NTkzODI4LDE1ND
+QzNTM1MzYsNjMzNzkxMTQyLDExNjA0NzY4NjMsLTExMzI4NDAz
+MTQsMTUyMDM4MTEsLTYyMTE5NjIxOCw0Njg4NjA0MCwtNzgyMT
+E2MzkyLC0zMTE3MzY0OTIsOTg0NTI2Njc4LDIxMDk4NzAzNzEs
+MTE5NDQ1OTczMSwtNDY5Njc0NjU2LC0zNzQyMzk4MzgsLTEzNj
+gyOTI4MiwtNjEwNTU1ODYzLC0zNDIxMzkxODNdfQ==
 -->

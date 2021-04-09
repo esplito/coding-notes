@@ -200,11 +200,11 @@ Resource: [Stop using isLoading booleans - Dodds](https://kentcdodds.com/blog/st
 >You’ll get an error indicating that you cannot read  `image`  of  `null`. This is because the  `setStatus`  call results in a re-render that happens before the  `setPokemon`  happens.
 >
 >In the future, you’ll learn about how  `useReducer`  can solve this problem really elegantly, but we can still accomplish this by storing our state as an object that has all the properties of state we’re managing. 
->- Kent C. Dodds
+>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzk1MjcwNSwxOTQzMDk5OTQ3LC0yMT
+eyJoaXN0b3J5IjpbLTcxNzA5MDM4NywxOTQzMDk5OTQ3LC0yMT
 I5ODMwODQ3LDQwODExNzMyNywyOTE1MjcwMDUsLTEwMDcyOTg3
 MjIsNjU4NzMzMzYyLDI2NDQ1NjQ2NSwxODgxNzUwOTEsLTEwOT
 k1OTM4MjgsMTU0NDM1MzUzNiw2MzM3OTExNDIsMTE2MDQ3Njg2

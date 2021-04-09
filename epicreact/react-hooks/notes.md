@@ -186,12 +186,15 @@ const isLoading = status === 'idle' || status === 'pending
 const isResolved = status === 'resolved'
 const isRejected = status === 'rejected'
 ```
+
+Resource: [Stop using isLoading booleans - Dodds](https://kentcdodds.com/blog/stop-using-isloading-booleans)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk4MzA4NDcsNDA4MTE3MzI3LDI5MT
-UyNzAwNSwtMTAwNzI5ODcyMiw2NTg3MzMzNjIsMjY0NDU2NDY1
-LDE4ODE3NTA5MSwtMTA5OTU5MzgyOCwxNTQ0MzUzNTM2LDYzMz
-c5MTE0MiwxMTYwNDc2ODYzLC0xMTMyODQwMzE0LDE1MjAzODEx
-LC02MjExOTYyMTgsNDY4ODYwNDAsLTc4MjExNjM5MiwtMzExNz
-M2NDkyLDk4NDUyNjY3OCwyMTA5ODcwMzcxLDExOTQ0NTk3MzFd
+eyJoaXN0b3J5IjpbMTk0MzA5OTk0NywtMjEyOTgzMDg0Nyw0MD
+gxMTczMjcsMjkxNTI3MDA1LC0xMDA3Mjk4NzIyLDY1ODczMzM2
+MiwyNjQ0NTY0NjUsMTg4MTc1MDkxLC0xMDk5NTkzODI4LDE1ND
+QzNTM1MzYsNjMzNzkxMTQyLDExNjA0NzY4NjMsLTExMzI4NDAz
+MTQsMTUyMDM4MTEsLTYyMTE5NjIxOCw0Njg4NjA0MCwtNzgyMT
+E2MzkyLC0zMTE3MzY0OTIsOTg0NTI2Njc4LDIxMDk4NzAzNzFd
 fQ==
 -->

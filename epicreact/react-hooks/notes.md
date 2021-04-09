@@ -202,13 +202,16 @@ Resource: [Stop using isLoading booleans - Dodds](https://kentcdodds.com/blog/st
 >In the future, you’ll learn about how  `useReducer`  can solve this problem really elegantly, but we can still accomplish this by storing our state as an object that has all the properties of state we’re managing. 
 >
 
+**Error Boundaries**
+Only available as Cl
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzA5MDM4NywxOTQzMDk5OTQ3LC0yMT
-I5ODMwODQ3LDQwODExNzMyNywyOTE1MjcwMDUsLTEwMDcyOTg3
-MjIsNjU4NzMzMzYyLDI2NDQ1NjQ2NSwxODgxNzUwOTEsLTEwOT
-k1OTM4MjgsMTU0NDM1MzUzNiw2MzM3OTExNDIsMTE2MDQ3Njg2
-MywtMTEzMjg0MDMxNCwxNTIwMzgxMSwtNjIxMTk2MjE4LDQ2OD
-g2MDQwLC03ODIxMTYzOTIsLTMxMTczNjQ5Miw5ODQ1MjY2Nzhd
-fQ==
+eyJoaXN0b3J5IjpbMTIwMDE4NDk3MSwtNzE3MDkwMzg3LDE5ND
+MwOTk5NDcsLTIxMjk4MzA4NDcsNDA4MTE3MzI3LDI5MTUyNzAw
+NSwtMTAwNzI5ODcyMiw2NTg3MzMzNjIsMjY0NDU2NDY1LDE4OD
+E3NTA5MSwtMTA5OTU5MzgyOCwxNTQ0MzUzNTM2LDYzMzc5MTE0
+MiwxMTYwNDc2ODYzLC0xMTMyODQwMzE0LDE1MjAzODExLC02Mj
+ExOTYyMTgsNDY4ODYwNDAsLTc4MjExNjM5MiwtMzExNzM2NDky
+XX0=
 -->

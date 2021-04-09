@@ -181,13 +181,17 @@ Instead of using a `isLoading`-state it's better to use a status that has one of
 -   `rejected`: request failed
 
 You could put them together like this if you want:
-* ```const isLoading = status === 'idle' || status === 'pending```
+ ```js
+const isLoading = status === 'idle' || status === 'pending
+const isResolved = status === 'resolved'
+const isRejected = status === 'rejected'
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTA3MjU0OCw0MDgxMTczMjcsMjkxNT
-I3MDA1LC0xMDA3Mjk4NzIyLDY1ODczMzM2MiwyNjQ0NTY0NjUs
-MTg4MTc1MDkxLC0xMDk5NTkzODI4LDE1NDQzNTM1MzYsNjMzNz
-kxMTQyLDExNjA0NzY4NjMsLTExMzI4NDAzMTQsMTUyMDM4MTEs
-LTYyMTE5NjIxOCw0Njg4NjA0MCwtNzgyMTE2MzkyLC0zMTE3Mz
-Y0OTIsOTg0NTI2Njc4LDIxMDk4NzAzNzEsMTE5NDQ1OTczMV19
-
+eyJoaXN0b3J5IjpbLTIxMjk4MzA4NDcsNDA4MTE3MzI3LDI5MT
+UyNzAwNSwtMTAwNzI5ODcyMiw2NTg3MzMzNjIsMjY0NDU2NDY1
+LDE4ODE3NTA5MSwtMTA5OTU5MzgyOCwxNTQ0MzUzNTM2LDYzMz
+c5MTE0MiwxMTYwNDc2ODYzLC0xMTMyODQwMzE0LDE1MjAzODEx
+LC02MjExOTYyMTgsNDY4ODYwNDAsLTc4MjExNjM5MiwtMzExNz
+M2NDkyLDk4NDUyNjY3OCwyMTA5ODcwMzcxLDExOTQ0NTk3MzFd
+fQ==
 -->

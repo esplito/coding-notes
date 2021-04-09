@@ -173,12 +173,18 @@ Kent C. Dodds preference:
 >Using  `.catch`  means that you’ll handle an error in the  `fetchPokemon`  promise, but you’ll  _also_  handle an error in the  `setPokemon(pokemon)`  call as well. This is due to the semantics of how promises work.
 >
 >Using the second argument to  `.then`  means that you will catch an error that happens in  `fetchPokemon`  only.
+
+Instead of using a `isLoading`-state it's better to use a status that has one of the following values depending on how the request pan out:
+-   `idle`: no request made yet
+-   `pending`: request started
+-   `resolved`: request successful
+-   `rejected`: request failed
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4MTE3MzI3LDI5MTUyNzAwNSwtMTAwNz
-I5ODcyMiw2NTg3MzMzNjIsMjY0NDU2NDY1LDE4ODE3NTA5MSwt
-MTA5OTU5MzgyOCwxNTQ0MzUzNTM2LDYzMzc5MTE0MiwxMTYwND
-c2ODYzLC0xMTMyODQwMzE0LDE1MjAzODExLC02MjExOTYyMTgs
-NDY4ODYwNDAsLTc4MjExNjM5MiwtMzExNzM2NDkyLDk4NDUyNj
-Y3OCwyMTA5ODcwMzcxLDExOTQ0NTk3MzEsLTQ2OTY3NDY1Nl19
+eyJoaXN0b3J5IjpbLTM0ODcxNjQwOCw0MDgxMTczMjcsMjkxNT
+I3MDA1LC0xMDA3Mjk4NzIyLDY1ODczMzM2MiwyNjQ0NTY0NjUs
+MTg4MTc1MDkxLC0xMDk5NTkzODI4LDE1NDQzNTM1MzYsNjMzNz
+kxMTQyLDExNjA0NzY4NjMsLTExMzI4NDAzMTQsMTUyMDM4MTEs
+LTYyMTE5NjIxOCw0Njg4NjA0MCwtNzgyMTE2MzkyLC0zMTE3Mz
+Y0OTIsOTg0NTI2Njc4LDIxMDk4NzAzNzEsMTE5NDQ1OTczMV19
 
 -->

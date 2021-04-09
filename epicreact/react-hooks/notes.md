@@ -92,13 +92,14 @@ Useful resources: [Don't sync state. Derive it! - Dodds](https://kentcdodds.com/
 
 When you're maintaining the state of your app and trying to solve a synchronization bug, think about how you could change it to make it derived on the fly instead.
 
+One thing to note about state is that Class Component do lazy initialization by default, but if you refactor it to a Functional Component with `useState` then you have to make sure that you are 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTk1OTM4MjgsMTU0NDM1MzUzNiw2Mz
-M3OTExNDIsMTE2MDQ3Njg2MywtMTEzMjg0MDMxNCwxNTIwMzgx
-MSwtNjIxMTk2MjE4LDQ2ODg2MDQwLC03ODIxMTYzOTIsLTMxMT
-czNjQ5Miw5ODQ1MjY2NzgsMjEwOTg3MDM3MSwxMTk0NDU5NzMx
-LC00Njk2NzQ2NTYsLTM3NDIzOTgzOCwtMTM2ODI5MjgyLC02MT
-A1NTU4NjMsLTM0MjEzOTE4M119
+eyJoaXN0b3J5IjpbMjEyNTI4MjgzOCwtMTA5OTU5MzgyOCwxNT
+Q0MzUzNTM2LDYzMzc5MTE0MiwxMTYwNDc2ODYzLC0xMTMyODQw
+MzE0LDE1MjAzODExLC02MjExOTYyMTgsNDY4ODYwNDAsLTc4Mj
+ExNjM5MiwtMzExNzM2NDkyLDk4NDUyNjY3OCwyMTA5ODcwMzcx
+LDExOTQ0NTk3MzEsLTQ2OTY3NDY1NiwtMzc0MjM5ODM4LC0xMz
+Y4MjkyODIsLTYxMDU1NTg2MywtMzQyMTM5MTgzXX0=
 -->

@@ -207,14 +207,16 @@ Only available as a Class Component. Can be used to handle errors when a compone
 
 This enables you see exactly where in the component tree that the fail happened. You can also see the filenames and line numbers in the component stack trace.
 
+If you don't want to be forced to maintain your own `ErrorBoundary`, you can just install and use the [react-error-boundary](https://github.com/bvaughn/react-error-boundary).
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTQ4NzkwMCwtNzE3MDkwMzg3LDE5ND
-MwOTk5NDcsLTIxMjk4MzA4NDcsNDA4MTE3MzI3LDI5MTUyNzAw
-NSwtMTAwNzI5ODcyMiw2NTg3MzMzNjIsMjY0NDU2NDY1LDE4OD
-E3NTA5MSwtMTA5OTU5MzgyOCwxNTQ0MzUzNTM2LDYzMzc5MTE0
-MiwxMTYwNDc2ODYzLC0xMTMyODQwMzE0LDE1MjAzODExLC02Mj
-ExOTYyMTgsNDY4ODYwNDAsLTc4MjExNjM5MiwtMzExNzM2NDky
+eyJoaXN0b3J5IjpbLTE5MTEwNzczNCwxNzMxNDg3OTAwLC03MT
+cwOTAzODcsMTk0MzA5OTk0NywtMjEyOTgzMDg0Nyw0MDgxMTcz
+MjcsMjkxNTI3MDA1LC0xMDA3Mjk4NzIyLDY1ODczMzM2MiwyNj
+Q0NTY0NjUsMTg4MTc1MDkxLC0xMDk5NTkzODI4LDE1NDQzNTM1
+MzYsNjMzNzkxMTQyLDExNjA0NzY4NjMsLTExMzI4NDAzMTQsMT
+UyMDM4MTEsLTYyMTE5NjIxOCw0Njg4NjA0MCwtNzgyMTE2Mzky
 XX0=
 -->

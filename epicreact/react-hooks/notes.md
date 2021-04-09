@@ -203,15 +203,16 @@ Resource: [Stop using isLoading booleans - Dodds](https://kentcdodds.com/blog/st
 >
 
 **Error Boundaries**
-Only available as Cl
+Only available as a Class Component. Can be used to handle errors when a component crashes. 
+If you haven't installed React with `create-react-app` you can install [# @babel/plugin-transform-react-jsx-source](https://www.npmjs.com/package/@babel/plugin-transform-react-jsx-source)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDE4NDk3MSwtNzE3MDkwMzg3LDE5ND
-MwOTk5NDcsLTIxMjk4MzA4NDcsNDA4MTE3MzI3LDI5MTUyNzAw
-NSwtMTAwNzI5ODcyMiw2NTg3MzMzNjIsMjY0NDU2NDY1LDE4OD
-E3NTA5MSwtMTA5OTU5MzgyOCwxNTQ0MzUzNTM2LDYzMzc5MTE0
-MiwxMTYwNDc2ODYzLC0xMTMyODQwMzE0LDE1MjAzODExLC02Mj
-ExOTYyMTgsNDY4ODYwNDAsLTc4MjExNjM5MiwtMzExNzM2NDky
-XX0=
+eyJoaXN0b3J5IjpbLTE3ODM4NDgwOTQsLTcxNzA5MDM4NywxOT
+QzMDk5OTQ3LC0yMTI5ODMwODQ3LDQwODExNzMyNywyOTE1Mjcw
+MDUsLTEwMDcyOTg3MjIsNjU4NzMzMzYyLDI2NDQ1NjQ2NSwxOD
+gxNzUwOTEsLTEwOTk1OTM4MjgsMTU0NDM1MzUzNiw2MzM3OTEx
+NDIsMTE2MDQ3Njg2MywtMTEzMjg0MDMxNCwxNTIwMzgxMSwtNj
+IxMTk2MjE4LDQ2ODg2MDQwLC03ODIxMTYzOTIsLTMxMTczNjQ5
+Ml19
 -->

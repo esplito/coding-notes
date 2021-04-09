@@ -123,15 +123,22 @@ const [squares, setSquares] = React.useState(
 
 HTTP requests are a common side-effect that we need to do in our applications and this is no different from the side-effects we need to apply to a rendered DOM or when interacting with browser APIs lik localStorage. We do all of these within `useEffect`. It ensures that whenever certain changes take place, we apply the side-effects based on those changes.
 
-
+>One important thing to note about the `useEffect` hook is that you cannot return anything other than the cleanup function. This has interesting implications with regard to async/await syntax:
+>```js
+>// this does not work, don't do this:
+>React.useEffect(async () => {
+>  const result = await doSomeAsyncThing()
+>  // do something with the result
+>})
+>```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDc0MDE2MDcsLTEwMDcyOTg3MjIsNj
-U4NzMzMzYyLDI2NDQ1NjQ2NSwxODgxNzUwOTEsLTEwOTk1OTM4
-MjgsMTU0NDM1MzUzNiw2MzM3OTExNDIsMTE2MDQ3Njg2MywtMT
-EzMjg0MDMxNCwxNTIwMzgxMSwtNjIxMTk2MjE4LDQ2ODg2MDQw
-LC03ODIxMTYzOTIsLTMxMTczNjQ5Miw5ODQ1MjY2NzgsMjEwOT
-g3MDM3MSwxMTk0NDU5NzMxLC00Njk2NzQ2NTYsLTM3NDIzOTgz
-OF19
+eyJoaXN0b3J5IjpbLTIzMzExOTkxLC0xMDA3Mjk4NzIyLDY1OD
+czMzM2MiwyNjQ0NTY0NjUsMTg4MTc1MDkxLC0xMDk5NTkzODI4
+LDE1NDQzNTM1MzYsNjMzNzkxMTQyLDExNjA0NzY4NjMsLTExMz
+I4NDAzMTQsMTUyMDM4MTEsLTYyMTE5NjIxOCw0Njg4NjA0MCwt
+NzgyMTE2MzkyLC0zMTE3MzY0OTIsOTg0NTI2Njc4LDIxMDk4Nz
+AzNzEsMTE5NDQ1OTczMSwtNDY5Njc0NjU2LC0zNzQyMzk4Mzhd
+fQ==
 -->

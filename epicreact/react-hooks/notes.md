@@ -121,11 +121,13 @@ const [squares, setSquares] = React.useState(
 
 ### useEffect: HTTP Requests
 
-HTTP requests are a common side-effect that we need to do in our applications
+HTTP requests are a common side-effect that we need to do in our applications and this is no different from the side-effects we need to apply to a rendered DOM or when interacting with browser APIs lik localStorage. We do all of these within `useEffect`. It ensures that whenever certain changes take place, we apply the side-effects based on those changes.
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njk1NjA4MzksLTEwMDcyOTg3MjIsNj
+eyJoaXN0b3J5IjpbLTE2NDc0MDE2MDcsLTEwMDcyOTg3MjIsNj
 U4NzMzMzYyLDI2NDQ1NjQ2NSwxODgxNzUwOTEsLTEwOTk1OTM4
 MjgsMTU0NDM1MzUzNiw2MzM3OTExNDIsMTE2MDQ3Njg2MywtMT
 EzMjg0MDMxNCwxNTIwMzgxMSwtNjIxMTk2MjE4LDQ2ODg2MDQw

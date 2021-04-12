@@ -57,9 +57,13 @@ Resources:
 >}, [])
 > ```
 
+Kent C. Dodds also talks about the issue with using useCallback and the fact that we have to put di
+
+> "This is the reason why I don't suggest that you use useCallback for every function you define in your application because as you can see, it spiders all over your code base when you start memoizing things. While it is valuable to do in some instances, only do it when you're deriving the value." - Dodds
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyNzg0ODUzLDE0NzU4NTI2MSwtMzU0MD
-g0MjUyLDE4MTYwNDUwNTIsNTYyMzAxNzE1LC04NTgwMjc4NTld
-fQ==
+eyJoaXN0b3J5IjpbMjEwOTQ4OTUwMywyMjI3ODQ4NTMsMTQ3NT
+g1MjYxLC0zNTQwODQyNTIsMTgxNjA0NTA1Miw1NjIzMDE3MTUs
+LTg1ODAyNzg1OV19
 -->

@@ -29,7 +29,10 @@ Important to note in the code above is that we call the reducer with two argumen
 2. Whatever that you call the dispatch function (`setName` above) with. Often called an "action"
 
 When you have single piece of state to manage, you're almost certainly better off using `useState` rather than `useReducer`.
+
+Wh
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMzAxNzE1LC04NTgwMjc4NTldfQ==
+eyJoaXN0b3J5IjpbLTYwNTE3OTgxMCw1NjIzMDE3MTUsLTg1OD
+AyNzg1OV19
 -->

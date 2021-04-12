@@ -37,10 +37,12 @@ When you have single piece of state to manage, you're almost certainly better of
 
 **General rule**: When one element of your state relies on the value of another  state to update itself, they should be in a reducer.
 
-### 
+### useCallback: custom hooks
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjYyOTQxOTUsMTgxNjA0NTA1Miw1Nj
-IzMDE3MTUsLTg1ODAyNzg1OV19
+eyJoaXN0b3J5IjpbLTM1NDA4NDI1MiwxODE2MDQ1MDUyLDU2Mj
+MwMTcxNSwtODU4MDI3ODU5XX0=
 -->

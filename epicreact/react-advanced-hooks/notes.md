@@ -28,7 +28,8 @@ Important to note in the code above is that we call the reducer with two argumen
 1. Current state
 2. Whatever that you call the dispatch function (`setName` above) with. Often called an "action"
 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTg5NDYyNDFdfQ==
+eyJoaXN0b3J5IjpbLTg1ODAyNzg1OV19
 -->

@@ -57,13 +57,13 @@ Resources:
 >}, [])
 > ```
 
-Kent C. Dodds also talks about the issue with using useCallback and the fact that we have to put dispatch in our dependencies in the `run`-function and in the useSafeDispatch
+Kent C. Dodds also talks about the issue with using useCallback and the fact that we have to put dispatch in our dependencies in the `run`-function and in the `useSafeDispatch`:
 
 > "This is the reason why I don't suggest that you use useCallback for every function you define in your application because as you can see, it spiders all over your code base when you start memoizing things. While it is valuable to do in some instances, only do it when you're deriving the value." - Dodds
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Nzc0NTgzNSwyMjI3ODQ4NTMsMTQ3NT
-g1MjYxLC0zNTQwODQyNTIsMTgxNjA0NTA1Miw1NjIzMDE3MTUs
-LTg1ODAyNzg1OV19
+eyJoaXN0b3J5IjpbNjUwNDUyNzUxLDIyMjc4NDg1MywxNDc1OD
+UyNjEsLTM1NDA4NDI1MiwxODE2MDQ1MDUyLDU2MjMwMTcxNSwt
+ODU4MDI3ODU5XX0=
 -->

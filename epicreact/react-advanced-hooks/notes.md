@@ -41,9 +41,10 @@ When you have single piece of state to manage, you're almost certainly better of
 
 Resources:
 * [Memoization and React](https://epicreact.dev/memoization-and-react/)
+* [When to useMemo and useCallback](https://kentcdodds.com/blog/usememo-and-usecallback)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTM3NDYsLTM1NDA4NDI1MiwxODE2MD
-Q1MDUyLDU2MjMwMTcxNSwtODU4MDI3ODU5XX0=
+eyJoaXN0b3J5IjpbMTQ3NTg1MjYxLC0zNTQwODQyNTIsMTgxNj
+A0NTA1Miw1NjIzMDE3MTUsLTg1ODAyNzg1OV19
 -->

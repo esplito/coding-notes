@@ -43,8 +43,14 @@ Resources:
 * [Memoization and React](https://epicreact.dev/memoization-and-react/)
 * [When to useMemo and useCallback](https://kentcdodds.com/blog/usememo-and-usecallback)
 
+**Note regarding the use of useLayoutEffect in exercise 2, extra credit 3**
+> `useLayoutEffect`: This will ensure that this function is going to be called as soon as we're mounted without waiting for the browser to paint the screen and it will also ensure that this cleanup is called as soon as we're unmounted without waiting for anything either.
+> Code:
+> 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTg1MjYxLC0zNTQwODQyNTIsMTgxNj
-A0NTA1Miw1NjIzMDE3MTUsLTg1ODAyNzg1OV19
+eyJoaXN0b3J5IjpbOTMyMDYwNDc1LDE0NzU4NTI2MSwtMzU0MD
+g0MjUyLDE4MTYwNDUwNTIsNTYyMzAxNzE1LC04NTgwMjc4NTld
+fQ==
 -->

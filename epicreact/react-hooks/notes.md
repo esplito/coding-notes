@@ -203,6 +203,7 @@ Resource: [Stop using isLoading booleans - Dodds](https://kentcdodds.com/blog/st
 >
 
 **Error Boundaries**
+
 Only available as a Class Component. Can be used to handle errors when a component crashes. If you haven't installed React with `create-react-app` you can install [# @babel/plugin-transform-react-jsx-source](https://www.npmjs.com/package/@babel/plugin-transform-react-jsx-source)
 
 This enables you see exactly where in the component tree that the fail happened. You can also see the filenames and line numbers in the component stack trace.
@@ -212,11 +213,11 @@ If you don't want to be forced to maintain your own `ErrorBoundary`, you can jus
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTEwNzczNCwxNzMxNDg3OTAwLC03MT
-cwOTAzODcsMTk0MzA5OTk0NywtMjEyOTgzMDg0Nyw0MDgxMTcz
-MjcsMjkxNTI3MDA1LC0xMDA3Mjk4NzIyLDY1ODczMzM2MiwyNj
-Q0NTY0NjUsMTg4MTc1MDkxLC0xMDk5NTkzODI4LDE1NDQzNTM1
-MzYsNjMzNzkxMTQyLDExNjA0NzY4NjMsLTExMzI4NDAzMTQsMT
-UyMDM4MTEsLTYyMTE5NjIxOCw0Njg4NjA0MCwtNzgyMTE2Mzky
+eyJoaXN0b3J5IjpbMTE2ODU5Nzk0OCwtMTkxMTA3NzM0LDE3Mz
+E0ODc5MDAsLTcxNzA5MDM4NywxOTQzMDk5OTQ3LC0yMTI5ODMw
+ODQ3LDQwODExNzMyNywyOTE1MjcwMDUsLTEwMDcyOTg3MjIsNj
+U4NzMzMzYyLDI2NDQ1NjQ2NSwxODgxNzUwOTEsLTEwOTk1OTM4
+MjgsMTU0NDM1MzUzNiw2MzM3OTExNDIsMTE2MDQ3Njg2MywtMT
+EzMjg0MDMxNCwxNTIwMzgxMSwtNjIxMTk2MjE4LDQ2ODg2MDQw
 XX0=
 -->

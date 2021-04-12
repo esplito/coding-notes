@@ -39,10 +39,11 @@ When you have single piece of state to manage, you're almost certainly better of
 
 ### useCallback: custom hooks
 
-
+Resources:
+* [Memoization and React](https://epicreact.dev/memoization-and-react/)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDA4NDI1MiwxODE2MDQ1MDUyLDU2Mj
-MwMTcxNSwtODU4MDI3ODU5XX0=
+eyJoaXN0b3J5IjpbLTg5NTM3NDYsLTM1NDA4NDI1MiwxODE2MD
+Q1MDUyLDU2MjMwMTcxNSwtODU4MDI3ODU5XX0=
 -->

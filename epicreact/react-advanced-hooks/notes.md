@@ -62,11 +62,16 @@ Kent C. Dodds also talks about the issue with using useCallback and the fact tha
 > "This is the reason why I don't suggest that you use useCallback for every function you define in your application because as you can see, it spiders all over your code base when you start memoizing things. While it is valuable to do in some instances, only do it when you're deriving the value." - Dodds
 
 ### useContext: simple Counter
-Sometimes, to avoid prop drilling, you can use useContext. It enables us to insert som state into a part of our react tree and then extract that anywhere within that tree, without having to explicitly pass it everywh
+Sometimes, to avoid prop drilling, you can use useContext. It enables us to insert som state into a part of our react tree and then extract that anywhere within that tree, without having to explicitly pass it everywhere.
+
+Kent's recommendations:
+>Most of the time, I don’t recommend using a default value because it’s probably a mistake to try and use context outside a provider, so in our exercise I’ll show you how to avoid that from happening.
+>
+>🦉 Keep in mind that while context makes sharing state easy, it’s not the only solution to Prop Drilling pains and it’s not necessarily the best solution either. React’s composition model is powerful and can be used to avoid issues with prop drilling as well. Learn more about this from  [Michael Jackson on Twitter](https://twitter.com/mjackson/status/1195495535483817984) 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTkyMTE0OSw2NTA0NTI3NTEsMjIyNz
+eyJoaXN0b3J5IjpbMTczNDA1Njk0Nyw2NTA0NTI3NTEsMjIyNz
 g0ODUzLDE0NzU4NTI2MSwtMzU0MDg0MjUyLDE4MTYwNDUwNTIs
 NTYyMzAxNzE1LC04NTgwMjc4NTldfQ==
 -->

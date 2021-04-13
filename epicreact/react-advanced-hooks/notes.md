@@ -89,12 +89,13 @@ TLDR of that article:
 > -   **useLayoutEffect:**  If you need to mutate the DOM and/or  **do need**  to perform measurements
 >-   **useEffect:**  If you don't need to interact with the DOM at all or your DOM changes are unobservable (seriously, most of the time you should use this).
 
+In the example exercise. If you switch `useEffect` to `useLayoutEffect` in the `SloooowSibling`-component the interactivity will become janky again. My guess is that this is because the browser will have to wait for th
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjU4NzYxMywtMTc0NDU3NjgwNiwtNz
-c4MzMwMjY0LC04NTE4NjM4MzksMjEzNDEzMjAzLC03MjY1NjEy
-NDMsNjUwNDUyNzUxLDIyMjc4NDg1MywxNDc1ODUyNjEsLTM1ND
-A4NDI1MiwxODE2MDQ1MDUyLDU2MjMwMTcxNSwtODU4MDI3ODU5
-XX0=
+eyJoaXN0b3J5IjpbMTY4OTg0NTE0LC01NDY1ODc2MTMsLTE3ND
+Q1NzY4MDYsLTc3ODMzMDI2NCwtODUxODYzODM5LDIxMzQxMzIw
+MywtNzI2NTYxMjQzLDY1MDQ1Mjc1MSwyMjI3ODQ4NTMsMTQ3NT
+g1MjYxLC0zNTQwODQyNTIsMTgxNjA0NTA1Miw1NjIzMDE3MTUs
+LTg1ODAyNzg1OV19
 -->

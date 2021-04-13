@@ -85,12 +85,16 @@ The simple rule for when you should use `useLayoutEffect` according to Kent:
 
 More here: https://kentcdodds.com/blog/useeffect-vs-uselayouteffect
 
+TLDR of that article:
+> -   **useLayoutEffect:**  If you need to mutate the DOM and/or  **do need**  to perform measurements
+>-   **useEffect:**  If you don't need to interact with the DOM at all or your DOM changes are unobservable (seriously, most of the time you should use this).
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ1NzY4MDYsLTc3ODMzMDI2NCwtOD
-UxODYzODM5LDIxMzQxMzIwMywtNzI2NTYxMjQzLDY1MDQ1Mjc1
-MSwyMjI3ODQ4NTMsMTQ3NTg1MjYxLC0zNTQwODQyNTIsMTgxNj
-A0NTA1Miw1NjIzMDE3MTUsLTg1ODAyNzg1OV19
+eyJoaXN0b3J5IjpbLTU0NjU4NzYxMywtMTc0NDU3NjgwNiwtNz
+c4MzMwMjY0LC04NTE4NjM4MzksMjEzNDEzMjAzLC03MjY1NjEy
+NDMsNjUwNDUyNzUxLDIyMjc4NDg1MywxNDc1ODUyNjEsLTM1ND
+A4NDI1MiwxODE2MDQ1MDUyLDU2MjMwMTcxNSwtODU4MDI3ODU5
+XX0=
 -->

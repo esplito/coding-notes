@@ -61,11 +61,12 @@ Kent C. Dodds also talks about the issue with using useCallback and the fact tha
 
 > "This is the reason why I don't suggest that you use useCallback for every function you define in your application because as you can see, it spiders all over your code base when you start memoizing things. While it is valuable to do in some instances, only do it when you're deriving the value." - Dodds
 
-
+### useContext: simple Counter
+Sometimes, to avoid prop drilling, you can use useContext. It enables us to insert som state into a part of our react tree and then extract that anywhere within that tree, without having to explicitly pass it everywh
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDEyMzU2MDUsNjUwNDUyNzUxLDIyMj
-c4NDg1MywxNDc1ODUyNjEsLTM1NDA4NDI1MiwxODE2MDQ1MDUy
-LDU2MjMwMTcxNSwtODU4MDI3ODU5XX0=
+eyJoaXN0b3J5IjpbMTY2OTkyMTE0OSw2NTA0NTI3NTEsMjIyNz
+g0ODUzLDE0NzU4NTI2MSwtMzU0MDg0MjUyLDE4MTYwNDUwNTIs
+NTYyMzAxNzE1LC04NTgwMjc4NTldfQ==
 -->

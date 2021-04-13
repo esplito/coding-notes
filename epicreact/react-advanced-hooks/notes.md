@@ -104,12 +104,14 @@ Other resources:
 
 > "`useDebugValue`, this is useful only for your custom hooks, you can't really use this inside of components directly. What this is for is for the React DevTools browser extension."
 
+When writing custom hooks and when you want to differentiate different usages of that 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTE5MTcsLTExNDExMTg1ODIsLTgzOD
-E0MzUyLC0xODEzNjY3ODQ1LDQzMTY3MzUyMSwtNTQ2NTg3NjEz
-LC0xNzQ0NTc2ODA2LC03NzgzMzAyNjQsLTg1MTg2MzgzOSwyMT
-M0MTMyMDMsLTcyNjU2MTI0Myw2NTA0NTI3NTEsMjIyNzg0ODUz
-LDE0NzU4NTI2MSwtMzU0MDg0MjUyLDE4MTYwNDUwNTIsNTYyMz
-AxNzE1LC04NTgwMjc4NTldfQ==
+eyJoaXN0b3J5IjpbNjM1ODAyMjIyLC0xMTQxMTE4NTgyLC04Mz
+gxNDM1MiwtMTgxMzY2Nzg0NSw0MzE2NzM1MjEsLTU0NjU4NzYx
+MywtMTc0NDU3NjgwNiwtNzc4MzMwMjY0LC04NTE4NjM4MzksMj
+EzNDEzMjAzLC03MjY1NjEyNDMsNjUwNDUyNzUxLDIyMjc4NDg1
+MywxNDc1ODUyNjEsLTM1NDA4NDI1MiwxODE2MDQ1MDUyLDU2Mj
+MwMTcxNSwtODU4MDI3ODU5XX0=
 -->

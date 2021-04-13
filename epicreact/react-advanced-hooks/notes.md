@@ -130,13 +130,16 @@ Screenshots of the difference when using `useDebugValue` in the exercise with th
 
 It's just for labelling within custom hooks. It **doesn't work** in components!
 
+Dodds comments regarding the format function that you can pass as a second argument to `useDebugValue`:
+>"The only time you would ever actually use this is if calculating that DebugValue is somehow expensive, and you want to optimize that away."
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzMTc5NDQ0LC0xMjEyNTcxMzMyLC0xMT
-E4NTA1ODY2LC0xMTQxMTE4NTgyLC04MzgxNDM1MiwtMTgxMzY2
-Nzg0NSw0MzE2NzM1MjEsLTU0NjU4NzYxMywtMTc0NDU3NjgwNi
-wtNzc4MzMwMjY0LC04NTE4NjM4MzksMjEzNDEzMjAzLC03MjY1
-NjEyNDMsNjUwNDUyNzUxLDIyMjc4NDg1MywxNDc1ODUyNjEsLT
-M1NDA4NDI1MiwxODE2MDQ1MDUyLDU2MjMwMTcxNSwtODU4MDI3
-ODU5XX0=
+eyJoaXN0b3J5IjpbLTEwNjQwNDc1NjMsODMzMTc5NDQ0LC0xMj
+EyNTcxMzMyLC0xMTE4NTA1ODY2LC0xMTQxMTE4NTgyLC04Mzgx
+NDM1MiwtMTgxMzY2Nzg0NSw0MzE2NzM1MjEsLTU0NjU4NzYxMy
+wtMTc0NDU3NjgwNiwtNzc4MzMwMjY0LC04NTE4NjM4MzksMjEz
+NDEzMjAzLC03MjY1NjEyNDMsNjUwNDUyNzUxLDIyMjc4NDg1My
+wxNDc1ODUyNjEsLTM1NDA4NDI1MiwxODE2MDQ1MDUyLDU2MjMw
+MTcxNV19
 -->

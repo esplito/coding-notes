@@ -128,15 +128,15 @@ Screenshots of the difference when using `useDebugValue` in the exercise with th
 
 ![After useDebugValue](https://github.com/esplito/coding-notes/blob/master/after_useDebugValue.png?raw=true)
 
-It's just for 
+It's just for labelling within custom hooks. It **doesn't work** in components!
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzA1ODc3NCwtMTIxMjU3MTMzMiwtMT
-ExODUwNTg2NiwtMTE0MTExODU4MiwtODM4MTQzNTIsLTE4MTM2
-Njc4NDUsNDMxNjczNTIxLC01NDY1ODc2MTMsLTE3NDQ1NzY4MD
-YsLTc3ODMzMDI2NCwtODUxODYzODM5LDIxMzQxMzIwMywtNzI2
-NTYxMjQzLDY1MDQ1Mjc1MSwyMjI3ODQ4NTMsMTQ3NTg1MjYxLC
-0zNTQwODQyNTIsMTgxNjA0NTA1Miw1NjIzMDE3MTUsLTg1ODAy
-Nzg1OV19
+eyJoaXN0b3J5IjpbODMzMTc5NDQ0LC0xMjEyNTcxMzMyLC0xMT
+E4NTA1ODY2LC0xMTQxMTE4NTgyLC04MzgxNDM1MiwtMTgxMzY2
+Nzg0NSw0MzE2NzM1MjEsLTU0NjU4NzYxMywtMTc0NDU3NjgwNi
+wtNzc4MzMwMjY0LC04NTE4NjM4MzksMjEzNDEzMjAzLC03MjY1
+NjEyNDMsNjUwNDUyNzUxLDIyMjc4NDg1MywxNDc1ODUyNjEsLT
+M1NDA4NDI1MiwxODE2MDQ1MDUyLDU2MjMwMTcxNSwtODU4MDI3
+ODU5XX0=
 -->

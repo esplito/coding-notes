@@ -91,11 +91,17 @@ TLDR of that article:
 
 In the example exercise. If you switch `useEffect` to `useLayoutEffect` in the `SloooowSibling`-component the interactivity will become janky again. My guess is that this is because the browser will have to wait for this slow component before it paints the content. 
 
+### useImperativeHandle: scroll to top/bottom
+
+> You are not going to be using this hook very often, and anytime you do, you should probably document exactly why it's necessary because normally it's not.
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxNjczNTIxLC01NDY1ODc2MTMsLTE3ND
-Q1NzY4MDYsLTc3ODMzMDI2NCwtODUxODYzODM5LDIxMzQxMzIw
-MywtNzI2NTYxMjQzLDY1MDQ1Mjc1MSwyMjI3ODQ4NTMsMTQ3NT
-g1MjYxLC0zNTQwODQyNTIsMTgxNjA0NTA1Miw1NjIzMDE3MTUs
-LTg1ODAyNzg1OV19
+eyJoaXN0b3J5IjpbLTE4MTM2Njc4NDUsNDMxNjczNTIxLC01ND
+Y1ODc2MTMsLTE3NDQ1NzY4MDYsLTc3ODMzMDI2NCwtODUxODYz
+ODM5LDIxMzQxMzIwMywtNzI2NTYxMjQzLDY1MDQ1Mjc1MSwyMj
+I3ODQ4NTMsMTQ3NTg1MjYxLC0zNTQwODQyNTIsMTgxNjA0NTA1
+Miw1NjIzMDE3MTUsLTg1ODAyNzg1OV19
 -->

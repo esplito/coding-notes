@@ -134,10 +134,8 @@ Dodds comments regarding the format function that you can pass as a second argum
 >"The only time you would ever actually use this is if calculating that DebugValue is somehow expensive, and you want to optimize that away."
 
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NzM0NTEzNSw4MzMxNzk0NDQsLTEyMT
+eyJoaXN0b3J5IjpbLTE2MTU3NzU2MSw4MzMxNzk0NDQsLTEyMT
 I1NzEzMzIsLTExMTg1MDU4NjYsLTExNDExMTg1ODIsLTgzODE0
 MzUyLC0xODEzNjY3ODQ1LDQzMTY3MzUyMSwtNTQ2NTg3NjEzLC
 0xNzQ0NTc2ODA2LC03NzgzMzAyNjQsLTg1MTg2MzgzOSwyMTM0

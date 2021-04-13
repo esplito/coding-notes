@@ -128,12 +128,15 @@ Screenshots of the difference when using `useDebugValue` in the exercise with th
 
 ![After useDebugValue](https://github.com/esplito/coding-notes/blob/master/after_useDebugValue.png?raw=true)
 
+It's just for 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI1NzEzMzIsLTExMTg1MDU4NjYsLT
-ExNDExMTg1ODIsLTgzODE0MzUyLC0xODEzNjY3ODQ1LDQzMTY3
-MzUyMSwtNTQ2NTg3NjEzLC0xNzQ0NTc2ODA2LC03NzgzMzAyNj
-QsLTg1MTg2MzgzOSwyMTM0MTMyMDMsLTcyNjU2MTI0Myw2NTA0
-NTI3NTEsMjIyNzg0ODUzLDE0NzU4NTI2MSwtMzU0MDg0MjUyLD
-E4MTYwNDUwNTIsNTYyMzAxNzE1LC04NTgwMjc4NTldfQ==
+eyJoaXN0b3J5IjpbMTUxMzA1ODc3NCwtMTIxMjU3MTMzMiwtMT
+ExODUwNTg2NiwtMTE0MTExODU4MiwtODM4MTQzNTIsLTE4MTM2
+Njc4NDUsNDMxNjczNTIxLC01NDY1ODc2MTMsLTE3NDQ1NzY4MD
+YsLTc3ODMzMDI2NCwtODUxODYzODM5LDIxMzQxMzIwMywtNzI2
+NTYxMjQzLDY1MDQ1Mjc1MSwyMjI3ODQ4NTMsMTQ3NTg1MjYxLC
+0zNTQwODQyNTIsMTgxNjA0NTA1Miw1NjIzMDE3MTUsLTg1ODAy
+Nzg1OV19
 -->

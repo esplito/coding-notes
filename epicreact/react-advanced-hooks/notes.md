@@ -97,13 +97,17 @@ In the example exercise. If you switch `useEffect` to `useLayoutEffect` in the `
 >  
 >  **NOTE**: most of the time you should not need  `useImperativeHandle`. Before you reach for it, really ask yourself whether there’s ANY other way to accomplish what you’re trying to do. Imperative code can sometimes be really hard to follow and it’s much better to make your APIs declarative if possible. For more on this, read  [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/)
 
+Other resources:
+* https://reactjs.org/docs/hooks-reference.html#useimperativehandle
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODE0MzUyLC0xODEzNjY3ODQ1LDQzMT
-Y3MzUyMSwtNTQ2NTg3NjEzLC0xNzQ0NTc2ODA2LC03NzgzMzAy
-NjQsLTg1MTg2MzgzOSwyMTM0MTMyMDMsLTcyNjU2MTI0Myw2NT
-A0NTI3NTEsMjIyNzg0ODUzLDE0NzU4NTI2MSwtMzU0MDg0MjUy
-LDE4MTYwNDUwNTIsNTYyMzAxNzE1LC04NTgwMjc4NTldfQ==
+eyJoaXN0b3J5IjpbLTExNDExMTg1ODIsLTgzODE0MzUyLC0xOD
+EzNjY3ODQ1LDQzMTY3MzUyMSwtNTQ2NTg3NjEzLC0xNzQ0NTc2
+ODA2LC03NzgzMzAyNjQsLTg1MTg2MzgzOSwyMTM0MTMyMDMsLT
+cyNjU2MTI0Myw2NTA0NTI3NTEsMjIyNzg0ODUzLDE0NzU4NTI2
+MSwtMzU0MDg0MjUyLDE4MTYwNDUwNTIsNTYyMzAxNzE1LC04NT
+gwMjc4NTldfQ==
 -->

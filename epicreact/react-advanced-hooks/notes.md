@@ -75,10 +75,13 @@ Kent's recommendations:
 
 Creating a custom hook for consumers of a context is recommended. With the custom hook you can specify a more meaningful error that for example tells you `useCount must be used within a CountProvider`, when you have missed to wrap the relevant components with a `<CountProvider></CountProvider>`.
 
+Other resources:
+* [Using Composition in React to avoid "Prop Drilling"](https://www.youtube.com/watch?v=3XaXKiXtNjw)
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTg2MzgzOSwyMTM0MTMyMDMsLTcyNj
-U2MTI0Myw2NTA0NTI3NTEsMjIyNzg0ODUzLDE0NzU4NTI2MSwt
-MzU0MDg0MjUyLDE4MTYwNDUwNTIsNTYyMzAxNzE1LC04NTgwMj
-c4NTldfQ==
+eyJoaXN0b3J5IjpbLTc3ODMzMDI2NCwtODUxODYzODM5LDIxMz
+QxMzIwMywtNzI2NTYxMjQzLDY1MDQ1Mjc1MSwyMjI3ODQ4NTMs
+MTQ3NTg1MjYxLC0zNTQwODQyNTIsMTgxNjA0NTA1Miw1NjIzMD
+E3MTUsLTg1ODAyNzg1OV19
 -->

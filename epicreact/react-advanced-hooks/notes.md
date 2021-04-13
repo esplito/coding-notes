@@ -80,13 +80,16 @@ Other resources:
 
 ### useLayoutEffect: auto-scrolling textarea
 
-The sim
->
+The simple rule for when you should use `useLayoutEffect` according to Kent:
+> If you are making observable changes to the DOM, then it should happen in `useLayoutEffect`, otherwise `useEffect`.
+
+More here: https://kentcdodds.com/blog/useeffect-vs-uselayouteffect
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQwNTMxODAsLTc3ODMzMDI2NCwtOD
-UxODYzODM5LDIxMzQxMzIwMywtNzI2NTYxMjQzLDY1MDQ1Mjc1
-MSwyMjI3ODQ4NTMsMTQ3NTg1MjYxLC0zNTQwODQyNTIsMTgxNj
-A0NTA1Miw1NjIzMDE3MTUsLTg1ODAyNzg1OV19
+eyJoaXN0b3J5IjpbMjA2MjQ3MzEzMiwtNzc4MzMwMjY0LC04NT
+E4NjM4MzksMjEzNDEzMjAzLC03MjY1NjEyNDMsNjUwNDUyNzUx
+LDIyMjc4NDg1MywxNDc1ODUyNjEsLTM1NDA4NDI1MiwxODE2MD
+Q1MDUyLDU2MjMwMTcxNSwtODU4MDI3ODU5XX0=
 -->

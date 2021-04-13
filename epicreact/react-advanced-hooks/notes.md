@@ -70,10 +70,12 @@ Kent's recommendations:
 >🦉 Keep in mind that while context makes sharing state easy, it’s not the only solution to Prop Drilling pains and it’s not necessarily the best solution either. React’s composition model is powerful and can be used to avoid issues with prop drilling as well. Learn more about this from  [Michael Jackson on Twitter](https://twitter.com/mjackson/status/1195495535483817984) 
 >
 >We’re putting everything in one file to keep things simple, but I’ve labeled things a bit so you know that typically your context provider will be placed in a different file and expose the provider component itself as well as the custom hook to access the context value.
+>
+>A common mistake of context (and generally any “application” state) is to make it globally available anywhere in your application when it’s actually only needed to be available in a part of the app (like a single page). Keeping a context value scoped to the area that needs it most has improved performance and maintainability characteristics.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjU2MTI0Myw2NTA0NTI3NTEsMjIyNz
-g0ODUzLDE0NzU4NTI2MSwtMzU0MDg0MjUyLDE4MTYwNDUwNTIs
-NTYyMzAxNzE1LC04NTgwMjc4NTldfQ==
+eyJoaXN0b3J5IjpbMjEzNDEzMjAzLC03MjY1NjEyNDMsNjUwND
+UyNzUxLDIyMjc4NDg1MywxNDc1ODUyNjEsLTM1NDA4NDI1Miwx
+ODE2MDQ1MDUyLDU2MjMwMTcxNSwtODU4MDI3ODU5XX0=
 -->

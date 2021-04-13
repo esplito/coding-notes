@@ -78,10 +78,15 @@ Creating a custom hook for consumers of a context is recommended. With the custo
 Other resources:
 * [Using Composition in React to avoid "Prop Drilling"](https://www.youtube.com/watch?v=3XaXKiXtNjw)
 
+### useLayoutEffect: auto-scrolling textarea
+
+The sim
+>
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODMzMDI2NCwtODUxODYzODM5LDIxMz
-QxMzIwMywtNzI2NTYxMjQzLDY1MDQ1Mjc1MSwyMjI3ODQ4NTMs
-MTQ3NTg1MjYxLC0zNTQwODQyNTIsMTgxNjA0NTA1Miw1NjIzMD
-E3MTUsLTg1ODAyNzg1OV19
+eyJoaXN0b3J5IjpbLTE2NzQwNTMxODAsLTc3ODMzMDI2NCwtOD
+UxODYzODM5LDIxMzQxMzIwMywtNzI2NTYxMjQzLDY1MDQ1Mjc1
+MSwyMjI3ODQ4NTMsMTQ3NTg1MjYxLC0zNTQwODQyNTIsMTgxNj
+A0NTA1Miw1NjIzMDE3MTUsLTg1ODAyNzg1OV19
 -->

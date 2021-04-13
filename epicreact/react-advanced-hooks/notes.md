@@ -68,10 +68,12 @@ Kent's recommendations:
 >Most of the time, I don’t recommend using a default value because it’s probably a mistake to try and use context outside a provider, so in our exercise I’ll show you how to avoid that from happening.
 >
 >🦉 Keep in mind that while context makes sharing state easy, it’s not the only solution to Prop Drilling pains and it’s not necessarily the best solution either. React’s composition model is powerful and can be used to avoid issues with prop drilling as well. Learn more about this from  [Michael Jackson on Twitter](https://twitter.com/mjackson/status/1195495535483817984) 
+>
+>We’re putting everything in one file to keep things simple, but I’ve labeled things a bit so you know that typically your context provider will be placed in a different file and expose the provider component itself as well as the custom hook to access the context value.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDA1Njk0Nyw2NTA0NTI3NTEsMjIyNz
+eyJoaXN0b3J5IjpbLTcyNjU2MTI0Myw2NTA0NTI3NTEsMjIyNz
 g0ODUzLDE0NzU4NTI2MSwtMzU0MDg0MjUyLDE4MTYwNDUwNTIs
 NTYyMzAxNzE1LC04NTgwMjc4NTldfQ==
 -->

@@ -94,14 +94,16 @@ In the example exercise. If you switch `useEffect` to `useLayoutEffect` in the `
 ### useImperativeHandle: scroll to top/bottom
 
 > You are not going to be using this hook very often, and anytime you do, you should probably document exactly why it's necessary because normally it's not.
+>  
+>  **NOTE**: most of the time you should not need  `useImperativeHandle`. Before you reach for it, really ask yourself whether there’s ANY other way to accomplish what you’re trying to do. Imperative code can sometimes be really hard to follow and it’s much better to make your APIs declarative if possible. For more on this, read  [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/)
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM2Njc4NDUsNDMxNjczNTIxLC01ND
-Y1ODc2MTMsLTE3NDQ1NzY4MDYsLTc3ODMzMDI2NCwtODUxODYz
-ODM5LDIxMzQxMzIwMywtNzI2NTYxMjQzLDY1MDQ1Mjc1MSwyMj
-I3ODQ4NTMsMTQ3NTg1MjYxLC0zNTQwODQyNTIsMTgxNjA0NTA1
-Miw1NjIzMDE3MTUsLTg1ODAyNzg1OV19
+eyJoaXN0b3J5IjpbLTgzODE0MzUyLC0xODEzNjY3ODQ1LDQzMT
+Y3MzUyMSwtNTQ2NTg3NjEzLC0xNzQ0NTc2ODA2LC03NzgzMzAy
+NjQsLTg1MTg2MzgzOSwyMTM0MTMyMDMsLTcyNjU2MTI0Myw2NT
+A0NTI3NTEsMjIyNzg0ODUzLDE0NzU4NTI2MSwtMzU0MDg0MjUy
+LDE4MTYwNDUwNTIsNTYyMzAxNzE1LC04NTgwMjc4NTldfQ==
 -->

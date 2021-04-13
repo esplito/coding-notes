@@ -116,14 +116,14 @@ You can use it like this:
 >}
 >```
 
-When they use `useCount` they'll see `initialC`
+When they use `useCount` they'll see `initialCount` and `step` values in the devTools.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTY5MDI4NSwtMTE0MTExODU4MiwtOD
-M4MTQzNTIsLTE4MTM2Njc4NDUsNDMxNjczNTIxLC01NDY1ODc2
-MTMsLTE3NDQ1NzY4MDYsLTc3ODMzMDI2NCwtODUxODYzODM5LD
-IxMzQxMzIwMywtNzI2NTYxMjQzLDY1MDQ1Mjc1MSwyMjI3ODQ4
-NTMsMTQ3NTg1MjYxLC0zNTQwODQyNTIsMTgxNjA0NTA1Miw1Nj
-IzMDE3MTUsLTg1ODAyNzg1OV19
+eyJoaXN0b3J5IjpbLTExMTg1MDU4NjYsLTExNDExMTg1ODIsLT
+gzODE0MzUyLC0xODEzNjY3ODQ1LDQzMTY3MzUyMSwtNTQ2NTg3
+NjEzLC0xNzQ0NTc2ODA2LC03NzgzMzAyNjQsLTg1MTg2MzgzOS
+wyMTM0MTMyMDMsLTcyNjU2MTI0Myw2NTA0NTI3NTEsMjIyNzg0
+ODUzLDE0NzU4NTI2MSwtMzU0MDg0MjUyLDE4MTYwNDUwNTIsNT
+YyMzAxNzE1LC04NTgwMjc4NTldfQ==
 -->

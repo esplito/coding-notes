@@ -104,14 +104,26 @@ Other resources:
 
 > "`useDebugValue`, this is useful only for your custom hooks, you can't really use this inside of components directly. What this is for is for the React DevTools browser extension."
 
-When writing custom hooks and when you want to differentiate different usages of that 
+When writing custom hooks and when you want to differentiate different usages of a custom hook in a given component, then useDebugValue is handy.
+
+You can use it like this:
+>```javascript
+>function useCount({initialCount = 0, step = 1} = {}) {
+>  React.useDebugValue({initialCount, step})
+>  const [count, setCount] = React.useState(0)
+>  const increment = () => setCount(c => c + 1)
+>  return [count, increment]
+>}
+>```
+
+When they use `useCount` they'll see `initialC`
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1ODAyMjIyLC0xMTQxMTE4NTgyLC04Mz
-gxNDM1MiwtMTgxMzY2Nzg0NSw0MzE2NzM1MjEsLTU0NjU4NzYx
-MywtMTc0NDU3NjgwNiwtNzc4MzMwMjY0LC04NTE4NjM4MzksMj
-EzNDEzMjAzLC03MjY1NjEyNDMsNjUwNDUyNzUxLDIyMjc4NDg1
-MywxNDc1ODUyNjEsLTM1NDA4NDI1MiwxODE2MDQ1MDUyLDU2Mj
-MwMTcxNSwtODU4MDI3ODU5XX0=
+eyJoaXN0b3J5IjpbMTU1MTY5MDI4NSwtMTE0MTExODU4MiwtOD
+M4MTQzNTIsLTE4MTM2Njc4NDUsNDMxNjczNTIxLC01NDY1ODc2
+MTMsLTE3NDQ1NzY4MDYsLTc3ODMzMDI2NCwtODUxODYzODM5LD
+IxMzQxMzIwMywtNzI2NTYxMjQzLDY1MDQ1Mjc1MSwyMjI3ODQ4
+NTMsMTQ3NTg1MjYxLC0zNTQwODQyNTIsMTgxNjA0NTA1Miw1Nj
+IzMDE3MTUsLTg1ODAyNzg1OV19
 -->

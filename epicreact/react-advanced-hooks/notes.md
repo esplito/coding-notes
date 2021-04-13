@@ -100,14 +100,16 @@ In the example exercise. If you switch `useEffect` to `useLayoutEffect` in the `
 Other resources:
 * https://reactjs.org/docs/hooks-reference.html#useimperativehandle
 
-### us
+### useDebugValue: useMedia
+
+> "`useDebugValue`, this is useful only for your custom hooks, you can't really use this inside of components directly. What this is for is for the React DevTools browser extension."
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjM1MzcxMzcsLTExNDExMTg1ODIsLT
-gzODE0MzUyLC0xODEzNjY3ODQ1LDQzMTY3MzUyMSwtNTQ2NTg3
-NjEzLC0xNzQ0NTc2ODA2LC03NzgzMzAyNjQsLTg1MTg2MzgzOS
-wyMTM0MTMyMDMsLTcyNjU2MTI0Myw2NTA0NTI3NTEsMjIyNzg0
-ODUzLDE0NzU4NTI2MSwtMzU0MDg0MjUyLDE4MTYwNDUwNTIsNT
-YyMzAxNzE1LC04NTgwMjc4NTldfQ==
+eyJoaXN0b3J5IjpbMTE4MTE5MTcsLTExNDExMTg1ODIsLTgzOD
+E0MzUyLC0xODEzNjY3ODQ1LDQzMTY3MzUyMSwtNTQ2NTg3NjEz
+LC0xNzQ0NTc2ODA2LC03NzgzMzAyNjQsLTg1MTg2MzgzOSwyMT
+M0MTMyMDMsLTcyNjU2MTI0Myw2NTA0NTI3NTEsMjIyNzg0ODUz
+LDE0NzU4NTI2MSwtMzU0MDg0MjUyLDE4MTYwNDUwNTIsNTYyMz
+AxNzE1LC04NTgwMjc4NTldfQ==
 -->

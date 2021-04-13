@@ -121,16 +121,17 @@ When they use `useCount` they'll see `initialCount` and `step` values in the dev
 Screenshots of the difference when using `useDebugValue` in the exercise with the `useMedia`-hook.
 
 **Before**
-![Before](https://github.com/esplito/coding-notes/blob/master/before_useDebugValue.png?raw=true)
+![Before useDebugValue](https://github.com/esplito/coding-notes/blob/master/before_useDebugValue.png?raw=true)
 
-
+**After**
+![After useDebugValue](https://github.com/esplito/coding-notes/blob/master/after_useDebugValue.png?raw=true)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzMyMDg5MzAsLTExMTg1MDU4NjYsLT
-ExNDExMTg1ODIsLTgzODE0MzUyLC0xODEzNjY3ODQ1LDQzMTY3
-MzUyMSwtNTQ2NTg3NjEzLC0xNzQ0NTc2ODA2LC03NzgzMzAyNj
-QsLTg1MTg2MzgzOSwyMTM0MTMyMDMsLTcyNjU2MTI0Myw2NTA0
-NTI3NTEsMjIyNzg0ODUzLDE0NzU4NTI2MSwtMzU0MDg0MjUyLD
-E4MTYwNDUwNTIsNTYyMzAxNzE1LC04NTgwMjc4NTldfQ==
+eyJoaXN0b3J5IjpbLTExMTYyMDkzMiwtMTExODUwNTg2NiwtMT
+E0MTExODU4MiwtODM4MTQzNTIsLTE4MTM2Njc4NDUsNDMxNjcz
+NTIxLC01NDY1ODc2MTMsLTE3NDQ1NzY4MDYsLTc3ODMzMDI2NC
+wtODUxODYzODM5LDIxMzQxMzIwMywtNzI2NTYxMjQzLDY1MDQ1
+Mjc1MSwyMjI3ODQ4NTMsMTQ3NTg1MjYxLC0zNTQwODQyNTIsMT
+gxNjA0NTA1Miw1NjIzMDE3MTUsLTg1ODAyNzg1OV19
 -->

@@ -61,9 +61,11 @@ Kent C. Dodds also talks about the issue with using useCallback and the fact tha
 
 > "This is the reason why I don't suggest that you use useCallback for every function you define in your application because as you can see, it spiders all over your code base when you start memoizing things. While it is valuable to do in some instances, only do it when you're deriving the value." - Dodds
 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwNDUyNzUxLDIyMjc4NDg1MywxNDc1OD
-UyNjEsLTM1NDA4NDI1MiwxODE2MDQ1MDUyLDU2MjMwMTcxNSwt
-ODU4MDI3ODU5XX0=
+eyJoaXN0b3J5IjpbLTIxMDEyMzU2MDUsNjUwNDUyNzUxLDIyMj
+c4NDg1MywxNDc1ODUyNjEsLTM1NDA4NDI1MiwxODE2MDQ1MDUy
+LDU2MjMwMTcxNSwtODU4MDI3ODU5XX0=
 -->

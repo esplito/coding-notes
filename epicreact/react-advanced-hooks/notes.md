@@ -73,12 +73,12 @@ Kent's recommendations:
 >
 >A common mistake of context (and generally any “application” state) is to make it globally available anywhere in your application when it’s actually only needed to be available in a part of the app (like a single page). Keeping a context value scoped to the area that needs it most has improved performance and maintainability characteristics.
 
-Creating a custom hook for consumers of a context is recommended. With the custom hook you can specify a more meaningful error that for example tells you `useCount must be used within a CountProvider`.
+Creating a custom hook for consumers of a context is recommended. With the custom hook you can specify a more meaningful error that for example tells you `useCount must be used within a CountProvider`, when you have missed to wrap the relevant components with a `<CountProvider></CountProvider>`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTIxNTg2LDIxMzQxMzIwMywtNzI2NT
-YxMjQzLDY1MDQ1Mjc1MSwyMjI3ODQ4NTMsMTQ3NTg1MjYxLC0z
-NTQwODQyNTIsMTgxNjA0NTA1Miw1NjIzMDE3MTUsLTg1ODAyNz
-g1OV19
+eyJoaXN0b3J5IjpbLTg1MTg2MzgzOSwyMTM0MTMyMDMsLTcyNj
+U2MTI0Myw2NTA0NTI3NTEsMjIyNzg0ODUzLDE0NzU4NTI2MSwt
+MzU0MDg0MjUyLDE4MTYwNDUwNTIsNTYyMzAxNzE1LC04NTgwMj
+c4NTldfQ==
 -->

@@ -133,13 +133,14 @@ It's just for labelling within custom hooks. It **doesn't work** in components!
 Dodds comments regarding the format function that you can pass as a second argument to `useDebugValue`:
 >"The only time you would ever actually use this is if calculating that DebugValue is somehow expensive, and you want to optimize that away."
 
+## Advanced React Patterns
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTU3NzU2MSw4MzMxNzk0NDQsLTEyMT
-I1NzEzMzIsLTExMTg1MDU4NjYsLTExNDExMTg1ODIsLTgzODE0
-MzUyLC0xODEzNjY3ODQ1LDQzMTY3MzUyMSwtNTQ2NTg3NjEzLC
-0xNzQ0NTc2ODA2LC03NzgzMzAyNjQsLTg1MTg2MzgzOSwyMTM0
-MTMyMDMsLTcyNjU2MTI0Myw2NTA0NTI3NTEsMjIyNzg0ODUzLD
-E0NzU4NTI2MSwtMzU0MDg0MjUyLDE4MTYwNDUwNTIsNTYyMzAx
-NzE1XX0=
+eyJoaXN0b3J5IjpbLTE0MDc4MDAwNDUsLTE2MTU3NzU2MSw4Mz
+MxNzk0NDQsLTEyMTI1NzEzMzIsLTExMTg1MDU4NjYsLTExNDEx
+MTg1ODIsLTgzODE0MzUyLC0xODEzNjY3ODQ1LDQzMTY3MzUyMS
+wtNTQ2NTg3NjEzLC0xNzQ0NTc2ODA2LC03NzgzMzAyNjQsLTg1
+MTg2MzgzOSwyMTM0MTMyMDMsLTcyNjU2MTI0Myw2NTA0NTI3NT
+EsMjIyNzg0ODUzLDE0NzU4NTI2MSwtMzU0MDg0MjUyLDE4MTYw
+NDUwNTJdfQ==
 -->

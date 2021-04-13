@@ -118,12 +118,16 @@ You can use it like this:
 
 When they use `useCount` they'll see `initialCount` and `step` values in the devTools.
 
+Screenshots of the difference when using `useDebugValue` in the exercise with the `useMedia`-hook.
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTg1MDU4NjYsLTExNDExMTg1ODIsLT
-gzODE0MzUyLC0xODEzNjY3ODQ1LDQzMTY3MzUyMSwtNTQ2NTg3
-NjEzLC0xNzQ0NTc2ODA2LC03NzgzMzAyNjQsLTg1MTg2MzgzOS
-wyMTM0MTMyMDMsLTcyNjU2MTI0Myw2NTA0NTI3NTEsMjIyNzg0
-ODUzLDE0NzU4NTI2MSwtMzU0MDg0MjUyLDE4MTYwNDUwNTIsNT
-YyMzAxNzE1LC04NTgwMjc4NTldfQ==
+eyJoaXN0b3J5IjpbMTE4NDMzMzQ1MSwtMTExODUwNTg2NiwtMT
+E0MTExODU4MiwtODM4MTQzNTIsLTE4MTM2Njc4NDUsNDMxNjcz
+NTIxLC01NDY1ODc2MTMsLTE3NDQ1NzY4MDYsLTc3ODMzMDI2NC
+wtODUxODYzODM5LDIxMzQxMzIwMywtNzI2NTYxMjQzLDY1MDQ1
+Mjc1MSwyMjI3ODQ4NTMsMTQ3NTg1MjYxLC0zNTQwODQyNTIsMT
+gxNjA0NTA1Miw1NjIzMDE3MTUsLTg1ODAyNzg1OV19
 -->

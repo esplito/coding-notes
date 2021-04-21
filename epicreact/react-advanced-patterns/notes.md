@@ -20,13 +20,14 @@ Think of it like how `<select>` and `option` works. They're useless by themselve
 
 >The `<select>` is the element responsible for managing the state of the UI, and the `<option>` elements are essentially more configuration for how the select should operate (specifically, which options are available and their values).
 
-
 This pattern is used in [Reach UI](https://reach.tech/) and @reach/tooltip.
+
+Used in this exercise: [React.cloneElement](https://reactjs.org/docs/react-api.html#cloneelement)
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDUzOTI5MzgsLTE2NTk2ODU0NiwtNz
-A5Mjg1MzA3LDE1NzU2ODgwMzUsLTEyNTk5NDAyNDYsNjQyNDQx
-ODYxLC00MjEzMjA2Ml19
+eyJoaXN0b3J5IjpbLTg4ODk1NDEzNiwtMTIwNTM5MjkzOCwtMT
+Y1OTY4NTQ2LC03MDkyODUzMDcsMTU3NTY4ODAzNSwtMTI1OTk0
+MDI0Niw2NDI0NDE4NjEsLTQyMTMyMDYyXX0=
 -->

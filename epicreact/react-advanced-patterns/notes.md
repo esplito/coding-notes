@@ -14,9 +14,10 @@ Dodds:
 > 
 > **The benefit** of doing things this way is that **when we have multiple dispatches** that we're going to be calling, if we just leave that up to the user of our context, it's very **possible that they might miss a dispatch call**. It's better to pass that user dispatch to this context module function, so it can ensure that we're calling the dispatch in the right order.
 
+##
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTY4ODAzNSwtMTI1OTk0MDI0Niw2ND
-I0NDE4NjEsLTQyMTMyMDYyXX0=
+eyJoaXN0b3J5IjpbLTEwNzMyODg5MTEsMTU3NTY4ODAzNSwtMT
+I1OTk0MDI0Niw2NDI0NDE4NjEsLTQyMTMyMDYyXX0=
 -->

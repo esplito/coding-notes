@@ -22,12 +22,15 @@ Think of it like how `<select>` and `option` works. They're useless by themselve
 
 This pattern is used in [Reach UI](https://reach.tech/) and @reach/tooltip.
 
-Used in this exercise: [React.cloneElement](https://reactjs.org/docs/react-api.html#cloneelement)
+Used in this exercise: 
+- [React.cloneElement](https://reactjs.org/docs/react-api.html#cloneelement)
+- [React.Children.map](https://reactjs.org/docs/react-api.html#reactchildren)
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODk1NDEzNiwtMTIwNTM5MjkzOCwtMT
-Y1OTY4NTQ2LC03MDkyODUzMDcsMTU3NTY4ODAzNSwtMTI1OTk0
-MDI0Niw2NDI0NDE4NjEsLTQyMTMyMDYyXX0=
+eyJoaXN0b3J5IjpbNjkzOTA4MzI1LC0xMjA1MzkyOTM4LC0xNj
+U5Njg1NDYsLTcwOTI4NTMwNywxNTc1Njg4MDM1LC0xMjU5OTQw
+MjQ2LDY0MjQ0MTg2MSwtNDIxMzIwNjJdfQ==
 -->

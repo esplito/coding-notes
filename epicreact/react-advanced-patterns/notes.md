@@ -18,11 +18,15 @@ Dodds:
 
 Think of it like how `<select>` and `option` works. They're useless by themselves, but great together. That's how Compound Components works.
 
+>The `<select>` is the element responsible for managing the state of the UI, and the `<option>` elements are essentially more configuration for how the select should operate (specifically, which options are available and their values).
+
+
 This pattern is used in [Reach UI](https://reach.tech/) and @reach/tooltip.
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk2ODU0NiwtNzA5Mjg1MzA3LDE1Nz
-U2ODgwMzUsLTEyNTk5NDAyNDYsNjQyNDQxODYxLC00MjEzMjA2
-Ml19
+eyJoaXN0b3J5IjpbLTEyMDUzOTI5MzgsLTE2NTk2ODU0NiwtNz
+A5Mjg1MzA3LDE1NzU2ODgwMzUsLTEyNTk5NDAyNDYsNjQyNDQx
+ODYxLC00MjEzMjA2Ml19
 -->

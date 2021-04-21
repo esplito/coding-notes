@@ -10,13 +10,13 @@ This is overkill, but it can in some situations help you reduce duplication, imp
 Dodds:
 > We pretty much just moved something into another function. Why is this even a pattern?
 > 
-> The benefit of this pattern is that we can take all of this stuff and put it into a separate function, and then pass the things that are required. Each one of these is going to require the dispatch function.
+> **The benefit** of this pattern is that **we can take all of this stuff and put it into a separate function**, and then pass the things that are required. Each one of these is going to require the dispatch function.
 > 
-> The benefit of doing things this way is that when we have multiple dispatches that we're going to be calling, if we just leave that up to the user of our context, it's very possible that they might miss a dispatch call. It's better to pass that user dispatch to this context module function, so it can ensure that we're calling the dispatch in the right order.
+> **The benefit** of doing things this way is that **when we have multiple dispatches** that we're going to be calling, if we just leave that up to the user of our context, it's very **possible that they might miss a dispatch call**. It's better to pass that user dispatch to this context module function, so it can ensure that we're calling the dispatch in the right order.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTc4ODgyOSwtMTI1OTk0MDI0Niw2ND
+eyJoaXN0b3J5IjpbMTU3NTY4ODAzNSwtMTI1OTk0MDI0Niw2ND
 I0NDE4NjEsLTQyMTMyMDYyXX0=
 -->

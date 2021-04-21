@@ -26,11 +26,13 @@ Used in this exercise:
 - [React.cloneElement](https://reactjs.org/docs/react-api.html#cloneelement)
 - [React.Children.map](https://reactjs.org/docs/react-api.html#reactchildren)
 
+> You can think of React.Children.map as basically an array.map, except it works especially for React.Children because the children prop can be a single element, or it can be an array of elements.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzOTA4MzI1LC0xMjA1MzkyOTM4LC0xNj
-U5Njg1NDYsLTcwOTI4NTMwNywxNTc1Njg4MDM1LC0xMjU5OTQw
-MjQ2LDY0MjQ0MTg2MSwtNDIxMzIwNjJdfQ==
+eyJoaXN0b3J5IjpbLTExNzQ1OTI3MzksNjkzOTA4MzI1LC0xMj
+A1MzkyOTM4LC0xNjU5Njg1NDYsLTcwOTI4NTMwNywxNTc1Njg4
+MDM1LC0xMjU5OTQwMjQ2LDY0MjQ0MTg2MSwtNDIxMzIwNjJdfQ
+==
 -->

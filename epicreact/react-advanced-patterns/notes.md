@@ -30,10 +30,21 @@ Used in this exercise:
 
 The exercise shows how you share implicit state for compound components.
 
+You can restrict which type of children you want to allow in your compound component by specifying allowed types and then only use `React.cloneElement()` on those:
+
+```js
+return  React.Children.map(children, child  => {
+  if(allowedTypes.includes(child.type)){
+    return  React.cloneElement(child, {on, toggle})
+  }
+  return  child;
+})
+```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA2NDYwODQsLTExNzQ1OTI3MzksNj
-kzOTA4MzI1LC0xMjA1MzkyOTM4LC0xNjU5Njg1NDYsLTcwOTI4
-NTMwNywxNTc1Njg4MDM1LC0xMjU5OTQwMjQ2LDY0MjQ0MTg2MS
-wtNDIxMzIwNjJdfQ==
+eyJoaXN0b3J5IjpbLTExODY4ODAwNDQsLTE5NjA2NDYwODQsLT
+ExNzQ1OTI3MzksNjkzOTA4MzI1LC0xMjA1MzkyOTM4LC0xNjU5
+Njg1NDYsLTcwOTI4NTMwNywxNTc1Njg4MDM1LC0xMjU5OTQwMj
+Q2LDY0MjQ0MTg2MSwtNDIxMzIwNjJdfQ==
 -->

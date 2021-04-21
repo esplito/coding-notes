@@ -18,11 +18,11 @@ Dodds:
 
 Think of it like how `<select>` and `option` works. They're useless by themselves, but great together. That's how Compound Components works.
 
-This pattern is used in Reach UI and @reach/tooltip
+This pattern is used in [Reach UI](https://reach.tech/) and @reach/tooltip.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA4MDYzNTQsLTcwOTI4NTMwNywxNT
-c1Njg4MDM1LC0xMjU5OTQwMjQ2LDY0MjQ0MTg2MSwtNDIxMzIw
-NjJdfQ==
+eyJoaXN0b3J5IjpbLTE2NTk2ODU0NiwtNzA5Mjg1MzA3LDE1Nz
+U2ODgwMzUsLTEyNTk5NDAyNDYsNjQyNDQxODYxLC00MjEzMjA2
+Ml19
 -->

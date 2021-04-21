@@ -2,10 +2,10 @@
 
 ### Context Module Functions
 
-This is overkill, but it can in some 
+This is overkill, but it can in some situations help you reduce duplication, improve performance and help you avoid mistakes in the dependency lists.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxNTkzOTcyLDY0MjQ0MTg2MSwtNDIxMz
-IwNjJdfQ==
+eyJoaXN0b3J5IjpbMTcyMTQwMTc3OCw2NDI0NDE4NjEsLTQyMT
+MyMDYyXX0=
 -->

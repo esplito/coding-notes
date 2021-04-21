@@ -28,11 +28,12 @@ Used in this exercise:
 
 > You can think of React.Children.map as basically an array.map, except it works especially for React.Children because the children prop can be a single element, or it can be an array of elements.
 
+The exercise shows how you share implicit state for compound components.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ1OTI3MzksNjkzOTA4MzI1LC0xMj
-A1MzkyOTM4LC0xNjU5Njg1NDYsLTcwOTI4NTMwNywxNTc1Njg4
-MDM1LC0xMjU5OTQwMjQ2LDY0MjQ0MTg2MSwtNDIxMzIwNjJdfQ
-==
+eyJoaXN0b3J5IjpbLTE5NjA2NDYwODQsLTExNzQ1OTI3MzksNj
+kzOTA4MzI1LC0xMjA1MzkyOTM4LC0xNjU5Njg1NDYsLTcwOTI4
+NTMwNywxNTc1Njg4MDM1LC0xMjU5OTQwMjQ2LDY0MjQ0MTg2MS
+wtNDIxMzIwNjJdfQ==
 -->

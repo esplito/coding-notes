@@ -47,12 +47,14 @@ return  React.Children.map(children, child  => {
 
 ### Flexible Compound Components
 
-The compound component that we created in the previous exercise doesn't w
+The compound component that we created in the previous exercise doesn't work with nested children. So we need to make that possible.
+
+We can make this poss
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxODQ3ODY4LC0zMTYyMTQzMTEsLTE5Nj
-A2NDYwODQsLTExNzQ1OTI3MzksNjkzOTA4MzI1LC0xMjA1Mzky
-OTM4LC0xNjU5Njg1NDYsLTcwOTI4NTMwNywxNTc1Njg4MDM1LC
-0xMjU5OTQwMjQ2LDY0MjQ0MTg2MSwtNDIxMzIwNjJdfQ==
+eyJoaXN0b3J5IjpbMjA4ODMwNjM3MiwtMzE2MjE0MzExLC0xOT
+YwNjQ2MDg0LC0xMTc0NTkyNzM5LDY5MzkwODMyNSwtMTIwNTM5
+MjkzOCwtMTY1OTY4NTQ2LC03MDkyODUzMDcsMTU3NTY4ODAzNS
+wtMTI1OTk0MDI0Niw2NDI0NDE4NjEsLTQyMTMyMDYyXX0=
 -->

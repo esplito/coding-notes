@@ -45,12 +45,14 @@ return  React.Children.map(children, child  => {
 })
 ```
 
+### Flexible Compound Components
 
+The compound component that we created in the previous exercise doesn't w
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjIxNDMxMSwtMTk2MDY0NjA4NCwtMT
-E3NDU5MjczOSw2OTM5MDgzMjUsLTEyMDUzOTI5MzgsLTE2NTk2
-ODU0NiwtNzA5Mjg1MzA3LDE1NzU2ODgwMzUsLTEyNTk5NDAyND
-YsNjQyNDQxODYxLC00MjEzMjA2Ml19
+eyJoaXN0b3J5IjpbMjUxODQ3ODY4LC0zMTYyMTQzMTEsLTE5Nj
+A2NDYwODQsLTExNzQ1OTI3MzksNjkzOTA4MzI1LC0xMjA1Mzky
+OTM4LC0xNjU5Njg1NDYsLTcwOTI4NTMwNywxNTc1Njg4MDM1LC
+0xMjU5OTQwMjQ2LDY0MjQ0MTg2MSwtNDIxMzIwNjJdfQ==
 -->

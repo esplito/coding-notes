@@ -49,11 +49,11 @@ return  React.Children.map(children, child  => {
 
 The compound component that we created in the previous exercise doesn't work with nested children. So we need to make that possible.
 
-We can make this poss
+We can make this possible with `React.createContext`
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODMwNjM3MiwtMzE2MjE0MzExLC0xOT
+eyJoaXN0b3J5IjpbLTY1OTY2MDA0NCwtMzE2MjE0MzExLC0xOT
 YwNjQ2MDg0LC0xMTc0NTkyNzM5LDY5MzkwODMyNSwtMTIwNTM5
 MjkzOCwtMTY1OTY4NTQ2LC03MDkyODUzMDcsMTU3NTY4ODAzNS
 wtMTI1OTk0MDI0Niw2NDI0NDE4NjEsLTQyMTMyMDYyXX0=

@@ -79,7 +79,14 @@ Prop getters are more flexible. Dodds prefers using prop getters over prop colle
 
 In the extra credit a function called callAll is used and it looks like this:
 ```js
-
+// Extra credit 1: prop getters
+function  callAll(...functions) {
+  return (...args) => {
+    functions.forEach(fn  => {
+      fn  &&  fn(...args)
+    })
+  }
+}
 ````
 Here's how it is explained:
 >What I'm going to do is I'm going to make this fancy function called callAll(). This is going to take any number of functions, and then it's going to return a function that takes any number of arguments. I don't care what those arguments are. We'll take those functions. For each of those, we'll take that function.
@@ -89,13 +96,15 @@ Here's how it is explained:
 >What it allows me to do here now is I can say, "Give me a function that will call all of the functions I pass you onClick and toggle." It'll call onClick, and then it'll call toggle. It'll only call onClick if that function actually exists.
 
 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjAyNzg5LC0yMTQ2MTM0MDI3LDE2Mz
-c3Mjc3ODgsMTEzODgzMzY2MSwtMTk3NDQ5NDAwNCwxODg1NTc2
-NTYyLDExMjI3MjMzMjcsLTY1OTY2MDA0NCwtMzE2MjE0MzExLC
-0xOTYwNjQ2MDg0LC0xMTc0NTkyNzM5LDY5MzkwODMyNSwtMTIw
-NTM5MjkzOCwtMTY1OTY4NTQ2LC03MDkyODUzMDcsMTU3NTY4OD
-AzNSwtMTI1OTk0MDI0Niw2NDI0NDE4NjEsLTQyMTMyMDYyXX0=
+eyJoaXN0b3J5IjpbLTI5NzM2NTEyMywtMjE0NjEzNDAyNywxNj
+M3NzI3Nzg4LDExMzg4MzM2NjEsLTE5NzQ0OTQwMDQsMTg4NTU3
+NjU2MiwxMTIyNzIzMzI3LC02NTk2NjAwNDQsLTMxNjIxNDMxMS
+wtMTk2MDY0NjA4NCwtMTE3NDU5MjczOSw2OTM5MDgzMjUsLTEy
+MDUzOTI5MzgsLTE2NTk2ODU0NiwtNzA5Mjg1MzA3LDE1NzU2OD
+gwMzUsLTEyNTk5NDAyNDYsNjQyNDQxODYxLC00MjEzMjA2Ml19
 
 -->

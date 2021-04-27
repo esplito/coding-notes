@@ -73,14 +73,14 @@ These two patterns are used in:
 * [react-table](https://github.com/tannerlinsley/react-table) (prop getters)
 * [@reach/tooltip](https://reacttraining.com/reach-ui/tooltip) (prop collections)
 
-
+F
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODgzMzY2MSwtMTk3NDQ5NDAwNCwxOD
-g1NTc2NTYyLDExMjI3MjMzMjcsLTY1OTY2MDA0NCwtMzE2MjE0
-MzExLC0xOTYwNjQ2MDg0LC0xMTc0NTkyNzM5LDY5MzkwODMyNS
-wtMTIwNTM5MjkzOCwtMTY1OTY4NTQ2LC03MDkyODUzMDcsMTU3
-NTY4ODAzNSwtMTI1OTk0MDI0Niw2NDI0NDE4NjEsLTQyMTMyMD
-YyXX0=
+eyJoaXN0b3J5IjpbLTE2NzM1NjE1NSwxMTM4ODMzNjYxLC0xOT
+c0NDk0MDA0LDE4ODU1NzY1NjIsMTEyMjcyMzMyNywtNjU5NjYw
+MDQ0LC0zMTYyMTQzMTEsLTE5NjA2NDYwODQsLTExNzQ1OTI3Mz
+ksNjkzOTA4MzI1LC0xMjA1MzkyOTM4LC0xNjU5Njg1NDYsLTcw
+OTI4NTMwNywxNTc1Njg4MDM1LC0xMjU5OTQwMjQ2LDY0MjQ0MT
+g2MSwtNDIxMzIwNjJdfQ==
 -->

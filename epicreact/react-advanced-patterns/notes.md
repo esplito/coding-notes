@@ -54,13 +54,29 @@ We can make this possible with `React.createContext`.
 This is probably the most important use case of `useContext` according to Dodds:
 >This is probably the most important use case for context where we can share this implicit state for components that we expose to people for their use without them having to worry about the state that's being managed to make these things work together.
 
+If you want to add custom hook validation that gives a better error when a component isn't used in within the required provider, you can do this:
+```js
+// example custom hook with validation
+function  useToggle() {
+  const context = React.useContext(ToggleContext);
+  if (context === undefined) {
+
+throw  new  Error('useToggle must be used within a <Toggle /> component')
+
+}
+
+return  context
+
+}
+```
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMjcyMzMyNywtNjU5NjYwMDQ0LC0zMT
-YyMTQzMTEsLTE5NjA2NDYwODQsLTExNzQ1OTI3MzksNjkzOTA4
-MzI1LC0xMjA1MzkyOTM4LC0xNjU5Njg1NDYsLTcwOTI4NTMwNy
-wxNTc1Njg4MDM1LC0xMjU5OTQwMjQ2LDY0MjQ0MTg2MSwtNDIx
-MzIwNjJdfQ==
+eyJoaXN0b3J5IjpbMzE2MTg4Nzc4LDExMjI3MjMzMjcsLTY1OT
+Y2MDA0NCwtMzE2MjE0MzExLC0xOTYwNjQ2MDg0LC0xMTc0NTky
+NzM5LDY5MzkwODMyNSwtMTIwNTM5MjkzOCwtMTY1OTY4NTQ2LC
+03MDkyODUzMDcsMTU3NTY4ODAzNSwtMTI1OTk0MDI0Niw2NDI0
+NDE4NjEsLTQyMTMyMDYyXX0=
 -->

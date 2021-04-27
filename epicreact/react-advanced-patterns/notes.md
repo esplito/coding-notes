@@ -69,14 +69,15 @@ function useToggle() {
 ### Prop Collections and Getters
 
 These two patterns are used in:
-* 
+* [downshift](https://github.com/downshift-js/downshift) (prop getters)
+* [react-table](https://github.com/tannerlinsley/react-table) (prop getter
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2Njk5NzA4LC0xOTc0NDk0MDA0LDE4OD
-U1NzY1NjIsMTEyMjcyMzMyNywtNjU5NjYwMDQ0LC0zMTYyMTQz
-MTEsLTE5NjA2NDYwODQsLTExNzQ1OTI3MzksNjkzOTA4MzI1LC
-0xMjA1MzkyOTM4LC0xNjU5Njg1NDYsLTcwOTI4NTMwNywxNTc1
-Njg4MDM1LC0xMjU5OTQwMjQ2LDY0MjQ0MTg2MSwtNDIxMzIwNj
-JdfQ==
+eyJoaXN0b3J5IjpbLTE0MDMwODMxMDAsLTE5NzQ0OTQwMDQsMT
+g4NTU3NjU2MiwxMTIyNzIzMzI3LC02NTk2NjAwNDQsLTMxNjIx
+NDMxMSwtMTk2MDY0NjA4NCwtMTE3NDU5MjczOSw2OTM5MDgzMj
+UsLTEyMDUzOTI5MzgsLTE2NTk2ODU0NiwtNzA5Mjg1MzA3LDE1
+NzU2ODgwMzUsLTEyNTk5NDAyNDYsNjQyNDQxODYxLC00MjEzMj
+A2Ml19
 -->

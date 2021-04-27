@@ -73,11 +73,13 @@ These two patterns are used in:
 * [react-table](https://github.com/tannerlinsley/react-table) (prop getters)
 * [@reach/tooltip](https://reacttraining.com/reach-ui/tooltip) (prop collections)
 
-F
+First part of the exercise uses Prop Collections and the extra credit uses Prop Getters.
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzM1NjE1NSwxMTM4ODMzNjYxLC0xOT
+eyJoaXN0b3J5IjpbMTYzNzcyNzc4OCwxMTM4ODMzNjYxLC0xOT
 c0NDk0MDA0LDE4ODU1NzY1NjIsMTEyMjcyMzMyNywtNjU5NjYw
 MDQ0LC0zMTYyMTQzMTEsLTE5NjA2NDYwODQsLTExNzQ1OTI3Mz
 ksNjkzOTA4MzI1LC0xMjA1MzkyOTM4LC0xNjU5Njg1NDYsLTcw

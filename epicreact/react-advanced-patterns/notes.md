@@ -77,12 +77,25 @@ First part of the exercise uses Prop Collections and the extra credit uses Prop 
 
 Prop getters are more flexible. Dodds prefers using prop getters over prop collections.
 
+In the extra credit a function called callAll is used and it looks like this:
+```js
+
+````
+Here's how it is explained:
+>What I'm going to do is I'm going to make this fancy function called callAll(). This is going to take any number of functions, and then it's going to return a function that takes any number of arguments. I don't care what those arguments are. We'll take those functions. For each of those, we'll take that function.
+>
+>If that function exists, then we'll call that function with all the args. Basically, it's a function that I can call passing any number of functions that will return a function that calls all those functions. Definitely, you play around with this a little bit if it's a little confusing to you, but it's pretty fantastic.
+>
+>What it allows me to do here now is I can say, "Give me a function that will call all of the functions I pass you onClick and toggle." It'll call onClick, and then it'll call toggle. It'll only call onClick if that function actually exists.
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDYxMzQwMjcsMTYzNzcyNzc4OCwxMT
-M4ODMzNjYxLC0xOTc0NDk0MDA0LDE4ODU1NzY1NjIsMTEyMjcy
-MzMyNywtNjU5NjYwMDQ0LC0zMTYyMTQzMTEsLTE5NjA2NDYwOD
-QsLTExNzQ1OTI3MzksNjkzOTA4MzI1LC0xMjA1MzkyOTM4LC0x
-NjU5Njg1NDYsLTcwOTI4NTMwNywxNTc1Njg4MDM1LC0xMjU5OT
-QwMjQ2LDY0MjQ0MTg2MSwtNDIxMzIwNjJdfQ==
+eyJoaXN0b3J5IjpbMTYwMjAyNzg5LC0yMTQ2MTM0MDI3LDE2Mz
+c3Mjc3ODgsMTEzODgzMzY2MSwtMTk3NDQ5NDAwNCwxODg1NTc2
+NTYyLDExMjI3MjMzMjcsLTY1OTY2MDA0NCwtMzE2MjE0MzExLC
+0xOTYwNjQ2MDg0LC0xMTc0NTkyNzM5LDY5MzkwODMyNSwtMTIw
+NTM5MjkzOCwtMTY1OTY4NTQ2LC03MDkyODUzMDcsMTU3NTY4OD
+AzNSwtMTI1OTk0MDI0Niw2NDI0NDE4NjEsLTQyMTMyMDYyXX0=
+
 -->

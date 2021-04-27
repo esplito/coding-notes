@@ -70,14 +70,17 @@ function useToggle() {
 
 These two patterns are used in:
 * [downshift](https://github.com/downshift-js/downshift) (prop getters)
-* [react-table](https://github.com/tannerlinsley/react-table) (prop getter
+* [react-table](https://github.com/tannerlinsley/react-table) (prop getters)
+* [@reach/tooltip](https://reacttraining.com/reach-ui/tooltip) (prop collections)
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDMwODMxMDAsLTE5NzQ0OTQwMDQsMT
-g4NTU3NjU2MiwxMTIyNzIzMzI3LC02NTk2NjAwNDQsLTMxNjIx
-NDMxMSwtMTk2MDY0NjA4NCwtMTE3NDU5MjczOSw2OTM5MDgzMj
-UsLTEyMDUzOTI5MzgsLTE2NTk2ODU0NiwtNzA5Mjg1MzA3LDE1
-NzU2ODgwMzUsLTEyNTk5NDAyNDYsNjQyNDQxODYxLC00MjEzMj
-A2Ml19
+eyJoaXN0b3J5IjpbMTEzODgzMzY2MSwtMTk3NDQ5NDAwNCwxOD
+g1NTc2NTYyLDExMjI3MjMzMjcsLTY1OTY2MDA0NCwtMzE2MjE0
+MzExLC0xOTYwNjQ2MDg0LC0xMTc0NTkyNzM5LDY5MzkwODMyNS
+wtMTIwNTM5MjkzOCwtMTY1OTY4NTQ2LC03MDkyODUzMDcsMTU3
+NTY4ODAzNSwtMTI1OTk0MDI0Niw2NDI0NDE4NjEsLTQyMTMyMD
+YyXX0=
 -->

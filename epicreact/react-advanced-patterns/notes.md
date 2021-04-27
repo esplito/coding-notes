@@ -96,12 +96,12 @@ Here's how it is explained:
 >What it allows me to do here now is I can say, "Give me a function that will call all of the functions I pass you onClick and toggle." It'll call onClick, and then it'll call toggle. It'll only call onClick if that function actually exists.
 
 ### State Reducer
-The state reducer pattern is an implementation of the computer science principle "inversion of control". This pa
+The state reducer pattern is an implementation of the computer science principle "inversion of control". This pattern translates even better to hooks than it did to regular components.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDU5OTgxMSwtMjk3MzY1MTIzLC0yMT
+eyJoaXN0b3J5IjpbMTY1NDg0ODc0NCwtMjk3MzY1MTIzLC0yMT
 Q2MTM0MDI3LDE2Mzc3Mjc3ODgsMTEzODgzMzY2MSwtMTk3NDQ5
 NDAwNCwxODg1NTc2NTYyLDExMjI3MjMzMjcsLTY1OTY2MDA0NC
 wtMzE2MjE0MzExLC0xOTYwNjQ2MDg0LC0xMTc0NTkyNzM5LDY5

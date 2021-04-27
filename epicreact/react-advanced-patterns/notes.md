@@ -75,14 +75,14 @@ These two patterns are used in:
 
 First part of the exercise uses Prop Collections and the extra credit uses Prop Getters.
 
-P
+Prop getters are more flexible. Dodds prefers using prop getters over prop collections.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2NzA5OTk2LDE2Mzc3Mjc3ODgsMTEzOD
-gzMzY2MSwtMTk3NDQ5NDAwNCwxODg1NTc2NTYyLDExMjI3MjMz
-MjcsLTY1OTY2MDA0NCwtMzE2MjE0MzExLC0xOTYwNjQ2MDg0LC
-0xMTc0NTkyNzM5LDY5MzkwODMyNSwtMTIwNTM5MjkzOCwtMTY1
-OTY4NTQ2LC03MDkyODUzMDcsMTU3NTY4ODAzNSwtMTI1OTk0MD
-I0Niw2NDI0NDE4NjEsLTQyMTMyMDYyXX0=
+eyJoaXN0b3J5IjpbLTIxNDYxMzQwMjcsMTYzNzcyNzc4OCwxMT
+M4ODMzNjYxLC0xOTc0NDk0MDA0LDE4ODU1NzY1NjIsMTEyMjcy
+MzMyNywtNjU5NjYwMDQ0LC0zMTYyMTQzMTEsLTE5NjA2NDYwOD
+QsLTExNzQ1OTI3MzksNjkzOTA4MzI1LC0xMjA1MzkyOTM4LC0x
+NjU5Njg1NDYsLTcwOTI4NTMwNywxNTc1Njg4MDM1LC0xMjU5OT
+QwMjQ2LDY0MjQ0MTg2MSwtNDIxMzIwNjJdfQ==
 -->

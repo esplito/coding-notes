@@ -57,16 +57,12 @@ This is probably the most important use case of `useContext` according to Dodds:
 If you want to add custom hook validation that gives a better error when a component isn't used in within the required provider, you can do this:
 ```js
 // example custom hook with validation
-function  useToggle() {
+function useToggle() {
   const context = React.useContext(ToggleContext);
   if (context === undefined) {
-
-throw  new  Error('useToggle must be used within a <Toggle /> component')
-
-}
-
-return  context
-
+    throw  new  Error('useToggle must be used within a <Toggle /> component');
+  }
+  return context;
 }
 ```
 
@@ -74,9 +70,9 @@ return  context
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE2MTg4Nzc4LDExMjI3MjMzMjcsLTY1OT
-Y2MDA0NCwtMzE2MjE0MzExLC0xOTYwNjQ2MDg0LC0xMTc0NTky
-NzM5LDY5MzkwODMyNSwtMTIwNTM5MjkzOCwtMTY1OTY4NTQ2LC
-03MDkyODUzMDcsMTU3NTY4ODAzNSwtMTI1OTk0MDI0Niw2NDI0
-NDE4NjEsLTQyMTMyMDYyXX0=
+eyJoaXN0b3J5IjpbMTg4NTU3NjU2MiwxMTIyNzIzMzI3LC02NT
+k2NjAwNDQsLTMxNjIxNDMxMSwtMTk2MDY0NjA4NCwtMTE3NDU5
+MjczOSw2OTM5MDgzMjUsLTEyMDUzOTI5MzgsLTE2NTk2ODU0Ni
+wtNzA5Mjg1MzA3LDE1NzU2ODgwMzUsLTEyNTk5NDAyNDYsNjQy
+NDQxODYxLC00MjEzMjA2Ml19
 -->

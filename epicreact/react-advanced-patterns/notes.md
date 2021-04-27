@@ -95,16 +95,17 @@ Here's how it is explained:
 >
 >What it allows me to do here now is I can say, "Give me a function that will call all of the functions I pass you onClick and toggle." It'll call onClick, and then it'll call toggle. It'll only call onClick if that function actually exists.
 
-
+### State Reducer
+The state reducer pattern is an implementation of the computer science principle "inversion of control". This pa
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzM2NTEyMywtMjE0NjEzNDAyNywxNj
-M3NzI3Nzg4LDExMzg4MzM2NjEsLTE5NzQ0OTQwMDQsMTg4NTU3
-NjU2MiwxMTIyNzIzMzI3LC02NTk2NjAwNDQsLTMxNjIxNDMxMS
-wtMTk2MDY0NjA4NCwtMTE3NDU5MjczOSw2OTM5MDgzMjUsLTEy
-MDUzOTI5MzgsLTE2NTk2ODU0NiwtNzA5Mjg1MzA3LDE1NzU2OD
-gwMzUsLTEyNTk5NDAyNDYsNjQyNDQxODYxLC00MjEzMjA2Ml19
-
+eyJoaXN0b3J5IjpbLTE2MDU5OTgxMSwtMjk3MzY1MTIzLC0yMT
+Q2MTM0MDI3LDE2Mzc3Mjc3ODgsMTEzODgzMzY2MSwtMTk3NDQ5
+NDAwNCwxODg1NTc2NTYyLDExMjI3MjMzMjcsLTY1OTY2MDA0NC
+wtMzE2MjE0MzExLC0xOTYwNjQ2MDg0LC0xMTc0NTkyNzM5LDY5
+MzkwODMyNSwtMTIwNTM5MjkzOCwtMTY1OTY4NTQ2LC03MDkyOD
+UzMDcsMTU3NTY4ODAzNSwtMTI1OTk0MDI0Niw2NDI0NDE4NjEs
+LTQyMTMyMDYyXX0=
 -->

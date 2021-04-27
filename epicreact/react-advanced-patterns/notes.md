@@ -49,12 +49,18 @@ return  React.Children.map(children, child  => {
 
 The compound component that we created in the previous exercise doesn't work with nested children. So we need to make that possible.
 
-We can make this possible with `React.createContext`
+We can make this possible with `React.createContext`.
+
+This is probably the most important use case of `useContext` according to Dodds:
+>This is probably the most important use case for context where we can share this implicit state for components that we expose to people for their use without them having to worry about the state that's being managed to make these things work together.
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTY2MDA0NCwtMzE2MjE0MzExLC0xOT
-YwNjQ2MDg0LC0xMTc0NTkyNzM5LDY5MzkwODMyNSwtMTIwNTM5
-MjkzOCwtMTY1OTY4NTQ2LC03MDkyODUzMDcsMTU3NTY4ODAzNS
-wtMTI1OTk0MDI0Niw2NDI0NDE4NjEsLTQyMTMyMDYyXX0=
+eyJoaXN0b3J5IjpbMTEyMjcyMzMyNywtNjU5NjYwMDQ0LC0zMT
+YyMTQzMTEsLTE5NjA2NDYwODQsLTExNzQ1OTI3MzksNjkzOTA4
+MzI1LC0xMjA1MzkyOTM4LC0xNjU5Njg1NDYsLTcwOTI4NTMwNy
+wxNTc1Njg4MDM1LC0xMjU5OTQwMjQ2LDY0MjQ0MTg2MSwtNDIx
+MzIwNjJdfQ==
 -->

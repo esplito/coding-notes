@@ -109,12 +109,10 @@ Simple example of how a warning can be written:
 warning(false, 'this will be logged');
 ```
 
-Code example within our custom hook `useToggle`:
+Code example for extra credit 1 within our custom hook `useToggle`:
 ```js
 // Extra credit 1: add read only warning
 // Passing on without onChange
-// Passing a value for on and later passing undefined or null
-// Passing undefined or null for on and later passing a value
 const  hasOnChange  =  Boolean(onChange)
 React.useEffect(() => {
   warning(
@@ -128,11 +126,11 @@ React.useEffect(() => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDg3MTg4OSwxNzY3MDAzNzM3LC0xNz
-cwOTcwMDAxLC03NTY4MDQ5NTcsLTI5NzM2NTEyMywtMjE0NjEz
-NDAyNywxNjM3NzI3Nzg4LDExMzg4MzM2NjEsLTE5NzQ0OTQwMD
-QsMTg4NTU3NjU2MiwxMTIyNzIzMzI3LC02NTk2NjAwNDQsLTMx
-NjIxNDMxMSwtMTk2MDY0NjA4NCwtMTE3NDU5MjczOSw2OTM5MD
-gzMjUsLTEyMDUzOTI5MzgsLTE2NTk2ODU0NiwtNzA5Mjg1MzA3
-LDE1NzU2ODgwMzVdfQ==
+eyJoaXN0b3J5IjpbLTkwMjg0MzQ5OCwxNzQ0ODcxODg5LDE3Nj
+cwMDM3MzcsLTE3NzA5NzAwMDEsLTc1NjgwNDk1NywtMjk3MzY1
+MTIzLC0yMTQ2MTM0MDI3LDE2Mzc3Mjc3ODgsMTEzODgzMzY2MS
+wtMTk3NDQ5NDAwNCwxODg1NTc2NTYyLDExMjI3MjMzMjcsLTY1
+OTY2MDA0NCwtMzE2MjE0MzExLC0xOTYwNjQ2MDg0LC0xMTc0NT
+kyNzM5LDY5MzkwODMyNSwtMTIwNTM5MjkzOCwtMTY1OTY4NTQ2
+LC03MDkyODUzMDddfQ==
 -->

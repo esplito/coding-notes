@@ -174,15 +174,17 @@ function  handleToggleChange(state, action) {
 }
 ```
 
-
+Extra credit 3: extract warnings to a custom hook
+> Both of those warnings could be useful anywhere so let’s go ahead and make a custom hook for them.
+> Shout out to the Reach UI team for  [the implementation of the  `useControlledSwitchWarning`](https://github.com/reach/reach-ui/blob/a376daec462ccb53d33f4471306dff35383a03a5/packages/utils/src/index.tsx#L407-L443)  
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxMzg2NTkyLC05MDI4NDM0OTgsMTc0ND
-g3MTg4OSwxNzY3MDAzNzM3LC0xNzcwOTcwMDAxLC03NTY4MDQ5
-NTcsLTI5NzM2NTEyMywtMjE0NjEzNDAyNywxNjM3NzI3Nzg4LD
-ExMzg4MzM2NjEsLTE5NzQ0OTQwMDQsMTg4NTU3NjU2MiwxMTIy
-NzIzMzI3LC02NTk2NjAwNDQsLTMxNjIxNDMxMSwtMTk2MDY0Nj
-A4NCwtMTE3NDU5MjczOSw2OTM5MDgzMjUsLTEyMDUzOTI5Mzgs
-LTE2NTk2ODU0Nl19
+eyJoaXN0b3J5IjpbLTgxMDQ2NjY2Miw0NjEzODY1OTIsLTkwMj
+g0MzQ5OCwxNzQ0ODcxODg5LDE3NjcwMDM3MzcsLTE3NzA5NzAw
+MDEsLTc1NjgwNDk1NywtMjk3MzY1MTIzLC0yMTQ2MTM0MDI3LD
+E2Mzc3Mjc3ODgsMTEzODgzMzY2MSwtMTk3NDQ5NDAwNCwxODg1
+NTc2NTYyLDExMjI3MjMzMjcsLTY1OTY2MDA0NCwtMzE2MjE0Mz
+ExLC0xOTYwNjQ2MDg0LC0xMTc0NTkyNzM5LDY5MzkwODMyNSwt
+MTIwNTM5MjkzOF19
 -->

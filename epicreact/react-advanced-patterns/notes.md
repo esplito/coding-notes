@@ -181,32 +181,33 @@ Extra credit 3: extract warnings to a custom hook
 Extra credit 4: don’t warn in production
 ```js
 // Extra credit 4: don’t warn in production
-// process.env.NODE_ENV will never change when running the app so it is okay to ignore the rules of hooks .
+// process.env.NODE_ENV will never change when running the app so it is okay to ignore the rules of hooks that we shouldn't run hooks conditionally.
 if (process.env.NODE_ENV  !==  'production') {
-// eslint-disable-next-line react-hooks/rules-of-hooks
-useControlledSwitchWarning(controlledOn, 'on', 'useToggle')
-// eslint-disable-next-line react-hooks/rules-of-hooks
-useOnChangeReadOnlyWarning(
-controlledOn,
-'on',
-'useToggle',
-Boolean(onChange),
-readOnly,
-'readOnly',
-'initialOn',
-'onChange',
-)
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useControlledSwitchWarning(controlledOn, 'on', 'useToggle')
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useOnChangeReadOnlyWarning(
+    controlledOn,
+    'on',
+    'useToggle',
+    Boolean(onChange),
+    readOnly,
+    'readOnly',
+    'initialOn',
+    'onChange',
+  )
 }
 ```
->Depending on the situation, there could actually be bugs, so that's why it's important for people to listen to our warnings. The nice thing here is that when we build for production, not only do we not call those warnings but thanks to Dead Code Elimination, the entire function definition for all of this code is actually going to get wiped away. We're not even sending this code to production.
+>Depending on the situation, there could actually be bugs, so that's why it's important for people to listen to our warnings. The nice thing here is that when we build for production, not only do we not call those warnings but thanks to Dead Code Elimination, the entire function definition for all of this code is actually going to get wiped away. We're not even sending this code to production. - Dodds
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTgwMjk2LC0xNDU4NDAyOTcxLDQ2MT
-M4NjU5MiwtOTAyODQzNDk4LDE3NDQ4NzE4ODksMTc2NzAwMzcz
-NywtMTc3MDk3MDAwMSwtNzU2ODA0OTU3LC0yOTczNjUxMjMsLT
-IxNDYxMzQwMjcsMTYzNzcyNzc4OCwxMTM4ODMzNjYxLC0xOTc0
-NDk0MDA0LDE4ODU1NzY1NjIsMTEyMjcyMzMyNywtNjU5NjYwMD
-Q0LC0zMTYyMTQzMTEsLTE5NjA2NDYwODQsLTExNzQ1OTI3Mzks
-NjkzOTA4MzI1XX0=
+eyJoaXN0b3J5IjpbLTc3MjI2MDI2NiwtMTQ1ODQwMjk3MSw0Nj
+EzODY1OTIsLTkwMjg0MzQ5OCwxNzQ0ODcxODg5LDE3NjcwMDM3
+MzcsLTE3NzA5NzAwMDEsLTc1NjgwNDk1NywtMjk3MzY1MTIzLC
+0yMTQ2MTM0MDI3LDE2Mzc3Mjc3ODgsMTEzODgzMzY2MSwtMTk3
+NDQ5NDAwNCwxODg1NTc2NTYyLDExMjI3MjMzMjcsLTY1OTY2MD
+A0NCwtMzE2MjE0MzExLC0xOTYwNjQ2MDg0LC0xMTc0NTkyNzM5
+LDY5MzkwODMyNV19
 -->

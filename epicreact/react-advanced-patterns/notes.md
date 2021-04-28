@@ -139,6 +139,10 @@ const {current: onWasControlled} =  React.useRef(onIsControlled)
       `\`useToggle\` is changing from uncontrolled to be controlled. Components should not switch from uncontrolled to controlled (or vice versa). Decide between using a controlled or uncontrolled \`useToggle\` for the lifetime of the component. Check the \`on\` prop.`,
     )
     // case 2: controlled to uncontrolled
+    warning(
+      !(!onIsControlled  &&  onWasControlled),
+      `\`useToggle\` is changing from controlled to be uncontrolled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled \`useToggle\` for the lifetime of the component. Check the \`on\` prop.`,
+    )
 }, [onIsControlled, onWasControlled])
 ```
 
@@ -174,11 +178,11 @@ function  handleToggleChange(state, action) {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTgxMTU4OSwtOTAyODQzNDk4LDE3ND
-Q4NzE4ODksMTc2NzAwMzczNywtMTc3MDk3MDAwMSwtNzU2ODA0
-OTU3LC0yOTczNjUxMjMsLTIxNDYxMzQwMjcsMTYzNzcyNzc4OC
-wxMTM4ODMzNjYxLC0xOTc0NDk0MDA0LDE4ODU1NzY1NjIsMTEy
-MjcyMzMyNywtNjU5NjYwMDQ0LC0zMTYyMTQzMTEsLTE5NjA2ND
-YwODQsLTExNzQ1OTI3MzksNjkzOTA4MzI1LC0xMjA1MzkyOTM4
-LC0xNjU5Njg1NDZdfQ==
+eyJoaXN0b3J5IjpbNDYxMzg2NTkyLC05MDI4NDM0OTgsMTc0ND
+g3MTg4OSwxNzY3MDAzNzM3LC0xNzcwOTcwMDAxLC03NTY4MDQ5
+NTcsLTI5NzM2NTEyMywtMjE0NjEzNDAyNywxNjM3NzI3Nzg4LD
+ExMzg4MzM2NjEsLTE5NzQ0OTQwMDQsMTg4NTU3NjU2MiwxMTIy
+NzIzMzI3LC02NTk2NjAwNDQsLTMxNjIxNDMxMSwtMTk2MDY0Nj
+A4NCwtMTE3NDU5MjczOSw2OTM5MDgzMjUsLTEyMDUzOTI5Mzgs
+LTE2NTk2ODU0Nl19
 -->

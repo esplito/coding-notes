@@ -109,14 +109,17 @@ Simple example of how a warning can be written:
 warning(false, 'this will be logged');
 ```
 
+Code example within our custom hook `useToggle`:
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzAwMzczNywtMTc3MDk3MDAwMSwtNz
-U2ODA0OTU3LC0yOTczNjUxMjMsLTIxNDYxMzQwMjcsMTYzNzcy
-Nzc4OCwxMTM4ODMzNjYxLC0xOTc0NDk0MDA0LDE4ODU1NzY1Nj
-IsMTEyMjcyMzMyNywtNjU5NjYwMDQ0LC0zMTYyMTQzMTEsLTE5
-NjA2NDYwODQsLTExNzQ1OTI3MzksNjkzOTA4MzI1LC0xMjA1Mz
-kyOTM4LC0xNjU5Njg1NDYsLTcwOTI4NTMwNywxNTc1Njg4MDM1
-LC0xMjU5OTQwMjQ2XX0=
+eyJoaXN0b3J5IjpbLTYxODUxMzA4OCwxNzY3MDAzNzM3LC0xNz
+cwOTcwMDAxLC03NTY4MDQ5NTcsLTI5NzM2NTEyMywtMjE0NjEz
+NDAyNywxNjM3NzI3Nzg4LDExMzg4MzM2NjEsLTE5NzQ0OTQwMD
+QsMTg4NTU3NjU2MiwxMTIyNzIzMzI3LC02NTk2NjAwNDQsLTMx
+NjIxNDMxMSwtMTk2MDY0NjA4NCwtMTE3NDU5MjczOSw2OTM5MD
+gzMjUsLTEyMDUzOTI5MzgsLTE2NTk2ODU0NiwtNzA5Mjg1MzA3
+LDE1NzU2ODgwMzVdfQ==
 -->

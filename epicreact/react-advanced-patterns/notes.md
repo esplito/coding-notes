@@ -102,16 +102,16 @@ The state reducer pattern is an implementation of the computer science principle
 
 >Control props is an implementation of something that's supported in React by default for form elements. That is the idea of controlled components. - Kent C. Dodds
 
-
+If you want to add warnings to your custom hook that
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA5NzAwMDEsLTc1NjgwNDk1NywtMj
-k3MzY1MTIzLC0yMTQ2MTM0MDI3LDE2Mzc3Mjc3ODgsMTEzODgz
-MzY2MSwtMTk3NDQ5NDAwNCwxODg1NTc2NTYyLDExMjI3MjMzMj
-csLTY1OTY2MDA0NCwtMzE2MjE0MzExLC0xOTYwNjQ2MDg0LC0x
-MTc0NTkyNzM5LDY5MzkwODMyNSwtMTIwNTM5MjkzOCwtMTY1OT
-Y4NTQ2LC03MDkyODUzMDcsMTU3NTY4ODAzNSwtMTI1OTk0MDI0
-Niw2NDI0NDE4NjFdfQ==
+eyJoaXN0b3J5IjpbLTE1NzIxNzc0MDcsLTE3NzA5NzAwMDEsLT
+c1NjgwNDk1NywtMjk3MzY1MTIzLC0yMTQ2MTM0MDI3LDE2Mzc3
+Mjc3ODgsMTEzODgzMzY2MSwtMTk3NDQ5NDAwNCwxODg1NTc2NT
+YyLDExMjI3MjMzMjcsLTY1OTY2MDA0NCwtMzE2MjE0MzExLC0x
+OTYwNjQ2MDg0LC0xMTc0NTkyNzM5LDY5MzkwODMyNSwtMTIwNT
+M5MjkzOCwtMTY1OTY4NTQ2LC03MDkyODUzMDcsMTU3NTY4ODAz
+NSwtMTI1OTk0MDI0Nl19
 -->

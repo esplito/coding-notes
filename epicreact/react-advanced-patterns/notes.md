@@ -123,28 +123,33 @@ React.useEffect(() => {
 ```
 >Now at any time if the user of our hook forgets to pass an onChange but is controlling it, then they're going to get a nice helpful warning indicating to them that they've got a readOnly toggle value. - Dodds
 
-Extra credit 2: add a controlled state warning
+Extra credit 2: add a controlled state warning.
+This one has two cases:
+* Uncontrolled -> controlled
+* Controlled -> uncontrolled
+
 Example:
 ```js
 // Extra credit 2: add a controlled state warning
 const {current: onWasControlled} =  React.useRef(onIsControlled)
   React.useEffect(() => {
-  
+	// case 1: uncontrolled to controlled
     warning(
       !(onIsControlled  &&  !onWasControlled),
       `\`useToggle\` is changing from uncontrolled to be controlled. Components should not switch from uncontrolled to controlled (or vice versa). Decide between using a controlled or uncontrolled \`useToggle\` for the lifetime of the component. Check the \`on\` prop.`,
     )
+    // case 2: controlled to uncontrolled
 }, [onIsControlled, onWasControlled])
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjAzNTA1MDEsLTkwMjg0MzQ5OCwxNz
-Q0ODcxODg5LDE3NjcwMDM3MzcsLTE3NzA5NzAwMDEsLTc1Njgw
-NDk1NywtMjk3MzY1MTIzLC0yMTQ2MTM0MDI3LDE2Mzc3Mjc3OD
-gsMTEzODgzMzY2MSwtMTk3NDQ5NDAwNCwxODg1NTc2NTYyLDEx
-MjI3MjMzMjcsLTY1OTY2MDA0NCwtMzE2MjE0MzExLC0xOTYwNj
-Q2MDg0LC0xMTc0NTkyNzM5LDY5MzkwODMyNSwtMTIwNTM5Mjkz
-OCwtMTY1OTY4NTQ2XX0=
+eyJoaXN0b3J5IjpbLTQ1NTA4OTg4NywtOTAyODQzNDk4LDE3ND
+Q4NzE4ODksMTc2NzAwMzczNywtMTc3MDk3MDAwMSwtNzU2ODA0
+OTU3LC0yOTczNjUxMjMsLTIxNDYxMzQwMjcsMTYzNzcyNzc4OC
+wxMTM4ODMzNjYxLC0xOTc0NDk0MDA0LDE4ODU1NzY1NjIsMTEy
+MjcyMzMyNywtNjU5NjYwMDQ0LC0zMTYyMTQzMTEsLTE5NjA2ND
+YwODQsLTExNzQ1OTI3MzksNjkzOTA4MzI1LC0xMjA1MzkyOTM4
+LC0xNjU5Njg1NDZdfQ==
 -->

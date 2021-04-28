@@ -98,16 +98,20 @@ Here's how it is explained:
 ### State Reducer
 The state reducer pattern is an implementation of the computer science principle "inversion of control". This pattern translates even better to hooks than it did to regular components. [Source: Kent C. Dodds - The State Reducer Pattern with React Hooks](https://kentcdodds.com/blog/the-state-reducer-pattern-with-react-hooks)
 
+### Control Props
+
+>Control props is an implementation of something that's supported in React by default for form elements. That is the idea of controlled components. - Kent C. Dodds
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjgwNDk1NywtMjk3MzY1MTIzLC0yMT
-Q2MTM0MDI3LDE2Mzc3Mjc3ODgsMTEzODgzMzY2MSwtMTk3NDQ5
-NDAwNCwxODg1NTc2NTYyLDExMjI3MjMzMjcsLTY1OTY2MDA0NC
-wtMzE2MjE0MzExLC0xOTYwNjQ2MDg0LC0xMTc0NTkyNzM5LDY5
-MzkwODMyNSwtMTIwNTM5MjkzOCwtMTY1OTY4NTQ2LC03MDkyOD
-UzMDcsMTU3NTY4ODAzNSwtMTI1OTk0MDI0Niw2NDI0NDE4NjEs
-LTQyMTMyMDYyXX0=
+eyJoaXN0b3J5IjpbLTE3NzA5NzAwMDEsLTc1NjgwNDk1NywtMj
+k3MzY1MTIzLC0yMTQ2MTM0MDI3LDE2Mzc3Mjc3ODgsMTEzODgz
+MzY2MSwtMTk3NDQ5NDAwNCwxODg1NTc2NTYyLDExMjI3MjMzMj
+csLTY1OTY2MDA0NCwtMzE2MjE0MzExLC0xOTYwNjQ2MDg0LC0x
+MTc0NTkyNzM5LDY5MzkwODMyNSwtMTIwNTM5MjkzOCwtMTY1OT
+Y4NTQ2LC03MDkyODUzMDcsMTU3NTY4ODAzNSwtMTI1OTk0MDI0
+Niw2NDI0NDE4NjFdfQ==
 -->

@@ -178,13 +178,35 @@ Extra credit 3: extract warnings to a custom hook
 > Both of those warnings could be useful anywhere so let’s go ahead and make a custom hook for them.
 > Shout out to the Reach UI team for  [the implementation of the  `useControlledSwitchWarning`](https://github.com/reach/reach-ui/blob/a376daec462ccb53d33f4471306dff35383a03a5/packages/utils/src/index.tsx#L407-L443) - Dodds
 
+Extra credit 4: don’t warn in production
+```js
+// Extra credit 4: don’t warn in production
+// process.env.NODE_ENV will never change when running the app so it is okay to ignore the rules of hooks .
+if (process.env.NODE_ENV  !==  'production') {
+// eslint-disable-next-line react-hooks/rules-of-hooks
+useControlledSwitchWarning(controlledOn, 'on', 'useToggle')
+// eslint-disable-next-line react-hooks/rules-of-hooks
+useOnChangeReadOnlyWarning(
+controlledOn,
+'on',
+'useToggle',
+Boolean(onChange),
+readOnly,
+'readOnly',
+'initialOn',
+'onChange',
+)
+}
+```
+>Depending on the situation, there could actually be bugs, so that's why it's important for people to listen to our warnings. The nice thing here is that when we build for production, not only do we not call those warnings but thanks to Dead Code Elimination, the entire function definition for all of this code is actually going to get wiped away. We're not even sending this code to production.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTg0MDI5NzEsNDYxMzg2NTkyLC05MD
-I4NDM0OTgsMTc0NDg3MTg4OSwxNzY3MDAzNzM3LC0xNzcwOTcw
-MDAxLC03NTY4MDQ5NTcsLTI5NzM2NTEyMywtMjE0NjEzNDAyNy
-wxNjM3NzI3Nzg4LDExMzg4MzM2NjEsLTE5NzQ0OTQwMDQsMTg4
-NTU3NjU2MiwxMTIyNzIzMzI3LC02NTk2NjAwNDQsLTMxNjIxND
-MxMSwtMTk2MDY0NjA4NCwtMTE3NDU5MjczOSw2OTM5MDgzMjUs
-LTEyMDUzOTI5MzhdfQ==
+eyJoaXN0b3J5IjpbMTkzNTgwMjk2LC0xNDU4NDAyOTcxLDQ2MT
+M4NjU5MiwtOTAyODQzNDk4LDE3NDQ4NzE4ODksMTc2NzAwMzcz
+NywtMTc3MDk3MDAwMSwtNzU2ODA0OTU3LC0yOTczNjUxMjMsLT
+IxNDYxMzQwMjcsMTYzNzcyNzc4OCwxMTM4ODMzNjYxLC0xOTc0
+NDk0MDA0LDE4ODU1NzY1NjIsMTEyMjcyMzMyNywtNjU5NjYwMD
+Q0LC0zMTYyMTQzMTEsLTE5NjA2NDYwODQsLTExNzQ1OTI3Mzks
+NjkzOTA4MzI1XX0=
 -->

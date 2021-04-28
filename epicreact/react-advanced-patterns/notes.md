@@ -110,12 +110,25 @@ warning(false, 'this will be logged');
 ```
 
 Code example within our custom hook `useToggle`:
-
+```js
+// Extra credit 1: add read only warning
+// Passing on without onChange
+// Passing a value for on and later passing undefined or null
+// Passing undefined or null for on and later passing a value
+const  hasOnChange  =  Boolean(onChange)
+React.useEffect(() => {
+  warning(
+  !(!hasOnChange  &&  onIsControlled  &&  !readOnly),
+  `An \`on\` prop was provided to useToggle without an \`onChange\` handler. This will render a read-only toggle. If you want it to be mutable, use \`initialOn\`. Otherwise, set either \`onChange\` or \`readOnly\`.`,
+  )
+}, [hasOnChange, onIsControlled, readOnly])
+```
+>Now at any time if the user of our hook forgets to pass an onChange but is controlling it, then they're going to get a nice helpful warning indicating to them that they've got a readOnly toggle value. - Dodds
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODUxMzA4OCwxNzY3MDAzNzM3LC0xNz
+eyJoaXN0b3J5IjpbMTc0NDg3MTg4OSwxNzY3MDAzNzM3LC0xNz
 cwOTcwMDAxLC03NTY4MDQ5NTcsLTI5NzM2NTEyMywtMjE0NjEz
 NDAyNywxNjM3NzI3Nzg4LDExMzg4MzM2NjEsLTE5NzQ0OTQwMD
 QsMTg4NTU3NjU2MiwxMTIyNzIzMzI3LC02NTk2NjAwNDQsLTMx

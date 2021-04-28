@@ -145,14 +145,14 @@ const {current: onWasControlled} =  React.useRef(onIsControlled)
 Differences in the app component listed below.
 Case 1:
 ```js
-const [bothOn, setBothOn] =  React.useState()
+const [bothOn, setBothOn] =  React.useState() // <- Check this!
 ..
 ..
 function  handleToggleChange(state, action) {
   if (action.type  === actionTypes.toggle  &&  timesClicked  >  4) {
     return
   }
-  setBothOn(state.on) 
+  setBothOn(state.on) // <- Check this!
   setTimesClicked(c  =>  c  +  1)
 }
 ```
@@ -161,7 +161,7 @@ function  handleToggleChange(state, action) {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MzIzMTgyMCwtOTAyODQzNDk4LDE3ND
+eyJoaXN0b3J5IjpbMTEzODk1ODEwMCwtOTAyODQzNDk4LDE3ND
 Q4NzE4ODksMTc2NzAwMzczNywtMTc3MDk3MDAwMSwtNzU2ODA0
 OTU3LC0yOTczNjUxMjMsLTIxNDYxMzQwMjcsMTYzNzcyNzc4OC
 wxMTM4ODMzNjYxLC0xOTc0NDk0MDA0LDE4ODU1NzY1NjIsMTEy

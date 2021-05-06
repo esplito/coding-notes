@@ -190,14 +190,12 @@ function App() {
 
 export default App
 ```
-  
-
-  
-
-The code after applying the "Flexible Compound Components" pattern
-
+ 
 Source: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/03.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/03.js)
 
+**Code after applying the "Flexible Compound Components" pattern**
+
+```js
 import * as React from 'react'
 import {Switch} from '../switch'
 
@@ -249,8 +247,9 @@ function App() {
 }
 
 export default App
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTk0NjIzMV19
+eyJoaXN0b3J5IjpbNzI3MDAwMDA1XX0=
 -->

@@ -249,7 +249,138 @@ function App() {
 export default App
 ```
 
+## Prop Collections & Prop Getters
+
+The **prop collections** pattern means that you return an object with the props that is needed when using a custom hook and this object (could be called **togglerProps**) can be passed into the relevant component with the [spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax). Let's say that we have a custom hook called **useToggle,** that we want to use for toggling the active state of component. The object returned from this hook will have all the props that we would typically apply for this component, e.g. **onClick**-function, **aria-pressed**-attribute etc.
+
+The **prop getters** pattern is different to the **prop collections** pattern in terms of flexibility. Instead of our users being locked to the logic that we have specified for the **togglerProps**-object in our hook, they can use their own logic and anything else that they want to have and still get the enhanced capabilities from the props in our **prop getters.**  
+  
+These two patterns are used in the following open source projects:
+
+-   [downshift](https://github.com/downshift-js/downshift) (prop getters)
+-   [react-table](https://github.com/tannerlinsley/react-table) (prop getters)
+-   [@reach/tooltip](https://reacttraining.com/reach-ui/tooltip) (prop collections)
+
+Dodds mostly use prop getters:
+
+> I don't typically use prop collections. I defer to prop getters because they're more flexible in that they allow me to compose things together. - Kent C. Dodds
+
+### Pros
+
+✅ Makes it easier to use our components and hooks the correct way without requiring the user of the components to wire things up for common use cases.
+
+✅ With **prop getters** we can also make it more flexible and let the users have their own logic, while still getting the benefits of the props provided in our **prop getter**.
+
+### Example code
+
+Here's two examples from [Kent C. Dodds course 'Advanced React Patterns'](https://github.com/kentcdodds/advanced-react-patterns).  
+  
+**Prop Collections**
+Source code: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/04.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/04.js)
+```js
+import * as React from 'react'
+import {Switch} from '../switch'
+
+function useToggle() {
+  const [on, setOn] = React.useState(false)
+  const toggle = () => setOn(!on)
+
+  return {
+    on,
+    toggle,
+    togglerProps: {
+      'aria-pressed': on,
+      onClick: toggle,
+    },
+  }
+}
+
+function App() {
+  const {on, togglerProps} = useToggle()
+  return (
+    <div>
+      <Switch on={on} {...togglerProps} />
+      <hr />
+      <button aria-label="custom-button" {...togglerProps}>
+        {on ? 'on' : 'off'}
+      </button>
+    </div>
+  )
+}
+
+export default App
+```
+**Prop Getters**
+
+Source code: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/04.extra-1.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/04.extra-1.js)
+
+import * as React from 'react'
+import {Switch} from '../switch'
+
+const callAll = (...fns) => (...args) => fns.forEach(fn => fn?.(...args))
+
+function useToggle() {
+  const [on, setOn] = React.useState(false)
+  const toggle = () => setOn(!on)
+
+  function getTogglerProps({onClick, ...props} = {}) {
+    return {
+      'aria-pressed': on,
+      onClick: callAll(onClick, toggle),
+      ...props,
+    }
+  }
+
+  return {
+    on,
+    toggle,
+    getTogglerProps,
+  }
+}
+
+function App() {
+  const {on, getTogglerProps} = useToggle()
+  return (
+    <div>
+      <Switch {...getTogglerProps({on})} />
+      <hr />
+      <button
+        {...getTogglerProps({
+          'aria-label': 'custom-button',
+          onClick: () => console.info('onButtonClick'),
+          id: 'custom-button-id',
+        })}
+      >
+        {on ? 'on' : 'off'}
+      </button>
+    </div>
+  )
+}
+
+export default App
+
+## State Reducer
+
+### Pros
+
+✅ ...
+
+### Example code
+
+...
+
+## Control Props
+
+### Pros
+
+✅ ...
+
+### Example code
+
+...
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3MDAwMDA1XX0=
+eyJoaXN0b3J5IjpbLTEzMzc1MzMyOTksNzI3MDAwMDA1XX0=
 -->

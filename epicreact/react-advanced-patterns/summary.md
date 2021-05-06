@@ -623,10 +623,11 @@ More background info can be found here: [https://advanced-react-patterns.netlify
 
 ### Example code
 
-Code before implementing the pattern can be found here: https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/exercise/06.js
+**Code before implementing the pattern can be found here:** https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/exercise/06.js
 
-Code after implementing the pattern (but not customizing warnings etc.): https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/06.js
+**Code after implementing the pattern (but not customizing warnings etc.):** https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/06.js
 
+**Code after implementing the pattern + warnings etc:** https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/06.extra-4.js
 
 If you want to add warnings to your custom hook to make sure that the control props are being used as intended, you can use the package "warning" which React uses.
 
@@ -781,7 +782,7 @@ if (process.env.NODE_ENV  !==  'production') {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDQzNTE2OCwxOTI1OTcxMzM4LDI4OT
+eyJoaXN0b3J5IjpbLTgwMDc1NDk5MCwxOTI1OTcxMzM4LDI4OT
 YxNzY4NCwxMjU1ODUyMTgwLDY5NTY3MzI3LC0xMDkyMTkxMTIx
 LDcyNzAwMDAwNV19
 -->

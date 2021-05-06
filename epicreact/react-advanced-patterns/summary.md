@@ -625,10 +625,108 @@ More background info can be found here: [https://advanced-react-patterns.netlify
 
 ...
 
+If you want to add warnings to your custom hook to make sure that the control props are being used as intended, you can use the library "warning" which React uses.
+
+Simple example of how a warning can be written:
+```js
+warning(false, 'this will be logged');
+```
+
+Code example for extra credit 1 within our custom hook `useToggle`:
+```js
+// Extra credit 1: add read only warning
+// Passing on without onChange
+const  hasOnChange  =  Boolean(onChange)
+React.useEffect(() => {
+  warning(
+  !(!hasOnChange  &&  onIsControlled  &&  !readOnly),
+  `An \`on\` prop was provided to useToggle without an \`onChange\` handler. This will render a read-only toggle. If you want it to be mutable, use \`initialOn\`. Otherwise, set either \`onChange\` or \`readOnly\`.`,
+  )
+}, [hasOnChange, onIsControlled, readOnly])
+```
+>Now at any time if the user of our hook forgets to pass an onChange but is controlling it, then they're going to get a nice helpful warning indicating to them that they've got a readOnly toggle value. - Dodds
+
+Extra credit 2: add a controlled state warning.
+This one has two cases:
+* Uncontrolled -> controlled
+* Controlled -> uncontrolled
+
+Example:
+```js
+// Extra credit 2: add a controlled state warning
+const {current: onWasControlled} =  React.useRef(onIsControlled)
+  React.useEffect(() => {
+	// case 1: uncontrolled to controlled
+    warning(
+      !(onIsControlled  &&  !onWasControlled),
+      `\`useToggle\` is changing from uncontrolled to be controlled. Components should not switch from uncontrolled to controlled (or vice versa). Decide between using a controlled or uncontrolled \`useToggle\` for the lifetime of the component. Check the \`on\` prop.`,
+    )
+    // case 2: controlled to uncontrolled
+    warning(
+      !(!onIsControlled  &&  onWasControlled),
+      `\`useToggle\` is changing from controlled to be uncontrolled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled \`useToggle\` for the lifetime of the component. Check the \`on\` prop.`,
+    )
+}, [onIsControlled, onWasControlled])
+```
+
+Differences in the app component listed below.
+Case 1:
+```js
+const [bothOn, setBothOn] =  React.useState() // <- Check this!
+..
+..
+function  handleToggleChange(state, action) {
+  if (action.type  === actionTypes.toggle  &&  timesClicked  >  4) {
+    return
+  }
+  setBothOn(state.on) // <- Check this!
+  setTimesClicked(c  =>  c  +  1)
+}
+```
+Case 2:
+```js
+const [bothOn, setBothOn] =  React.useState(false) // <- Check this!
+..
+..
+function  handleToggleChange(state, action) {
+  if (action.type  === actionTypes.toggle  &&  timesClicked  >  4) {
+    return
+  }
+  setBothOn() // <- Check this!
+  setTimesClicked(c  =>  c  +  1)
+}
+```
+
+Extra credit 3: extract warnings to a custom hook
+> Both of those warnings could be useful anywhere so let’s go ahead and make a custom hook for them.
+> Shout out to the Reach UI team for  [the implementation of the  `useControlledSwitchWarning`](https://github.com/reach/reach-ui/blob/a376daec462ccb53d33f4471306dff35383a03a5/packages/utils/src/index.tsx#L407-L443) - Dodds
+
+Extra credit 4: don’t warn in production
+```js
+// Extra credit 4: don’t warn in production
+// process.env.NODE_ENV will never change when running the app so it is okay to ignore the rules of hooks that we shouldn't run hooks conditionally.
+if (process.env.NODE_ENV  !==  'production') {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useControlledSwitchWarning(controlledOn, 'on', 'useToggle')
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useOnChangeReadOnlyWarning(
+    controlledOn,
+    'on',
+    'useToggle',
+    Boolean(onChange),
+    readOnly,
+    'readOnly',
+    'initialOn',
+    'onChange',
+  )
+}
+```
+>Depending on the situation, there could actually be bugs, so that's why it's important for people to listen to our warnings. The nice thing here is that when we build for production, not only do we not call those warnings but thanks to Dead Code Elimination, the entire function definition for all of this code is actually going to get wiped away. We're not even sending this code to production. - Dodds
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyMzg2OTQwLDI4OTYxNzY4NCwxMjU1OD
-UyMTgwLDY5NTY3MzI3LC0xMDkyMTkxMTIxLDcyNzAwMDAwNV19
-
+eyJoaXN0b3J5IjpbLTEyNTk2MTkyNjUsMjg5NjE3Njg0LDEyNT
+U4NTIxODAsNjk1NjczMjcsLTEwOTIxOTExMjEsNzI3MDAwMDA1
+XX0=
 -->

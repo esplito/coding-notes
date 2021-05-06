@@ -265,6 +265,8 @@ Dodds mostly use prop getters:
 
 > I don't typically use prop collections. I defer to prop getters because they're more flexible in that they allow me to compose things together. - Kent C. Dodds
 
+More background info can be found here: https://advanced-react-patterns.netlify.app/4
+
 ### Pros
 
 ✅ Makes it easier to use our components and hooks the correct way without requiring the user of the components to wire things up for common use cases.
@@ -385,5 +387,5 @@ The state reducer pattern is an implementation of the computer science principle
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzMwMjY1NSw3MjcwMDAwMDVdfQ==
+eyJoaXN0b3J5IjpbMTI2NTczNTk4OSw3MjcwMDAwMDVdfQ==
 -->

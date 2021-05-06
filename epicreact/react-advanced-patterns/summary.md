@@ -611,8 +611,11 @@ export default App;
 ```
 
 ## Control Props
+**Control Props** allows users of our components to handle a component's internal state from the "outside".
 
 >Control props is an implementation of something that's supported in React by default for form elements. That is the idea of controlled components. - Kent C. Dodds
+
+More background info can be found here: [https://advanced-react-patterns.netlify.app/6](https://advanced-react-patterns.netlify.app/6)
 
 ### Pros
 
@@ -625,6 +628,7 @@ export default App;
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NjE3Njg0LDEyNTU4NTIxODAsNjk1Nj
-czMjcsLTEwOTIxOTExMjEsNzI3MDAwMDA1XX0=
+eyJoaXN0b3J5IjpbNjMyMzg2OTQwLDI4OTYxNzY4NCwxMjU1OD
+UyMTgwLDY5NTY3MzI3LC0xMDkyMTkxMTIxLDcyNzAwMDAwNV19
+
 -->

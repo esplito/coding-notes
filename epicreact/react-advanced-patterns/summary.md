@@ -42,6 +42,7 @@ function handleSubmit(event) {
 ```
   
 Our importable helper function will look like this:
+
 **updateUser**
 ```js
 // inside our context-file
@@ -64,15 +65,15 @@ If you want to look at the complete files go to [https://github.com/kentcdodds/a
 ## Compound Components
 
 What do we mean with Compound Components? We mean **components that work together to form a complete UI**. Dodds mentions a simple example of a compound component in HTML, which is a select element with option elements.  
-  
-
+ 
+ **Simple Compound Component in HTML** 
+```html
 <select>
   <option value="1">Option 1</option>
   <option value="2">Option 2</option>
 </select>
-
+```
   
-
 The **select** is responsible for managing the UI state, meanwhile the **option** elements act as configuration for how the select should operate (which options are available and what are their values). We can use this pattern for our React Components as well.
 
 More background on this can be found here: [https://advanced-react-patterns.netlify.app/2](https://advanced-react-patterns.netlify.app/2)
@@ -249,5 +250,5 @@ export default App
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzAyMzE5N119
+eyJoaXN0b3J5IjpbNjgxOTIyMDg4XX0=
 -->

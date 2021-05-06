@@ -90,6 +90,8 @@ Original exercise code here: [https://github.com/kentcdodds/advanced-react-patte
 The toggle component shares some state implicitly with each one of the child components.
 
 Source code: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/02.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/02.js)
+
+**Compound Components**
 ```js
 import * as React from 'react'
 import {Switch} from '../switch'
@@ -141,10 +143,10 @@ More background info on the subject can be found here: [https://advanced-react-p
 ✅ Allows people to render the compound components wherever they like in the render tree
 
 ### Example code
-The code before the pattern is used.
 
 Source code: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/exercise/03.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/exercise/03.js)
 
+**Code before pattern is applied**
 ```js
 import * as React from 'react'
 import {Switch} from '../switch'
@@ -250,5 +252,5 @@ export default App
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxOTIyMDg4XX0=
+eyJoaXN0b3J5IjpbMTg5NTk0NjIzMV19
 -->

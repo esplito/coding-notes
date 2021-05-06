@@ -499,6 +499,9 @@ eslint
 */
 ```
 
+**Code after implementing the 'State Reducer'-pattern**
+
+Source code: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/05.extra-2.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/05.extra-2.js)
 
 ```js
 // state reducer
@@ -606,7 +609,6 @@ function App() {
 export default App;
 
 ```
-...
 
 ## Control Props
 
@@ -621,6 +623,6 @@ export default App;
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTUxMDcwMiw2OTU2NzMyNywtMTA5Mj
+eyJoaXN0b3J5IjpbMTI1NTg1MjE4MCw2OTU2NzMyNywtMTA5Mj
 E5MTEyMSw3MjcwMDAwMDVdfQ==
 -->

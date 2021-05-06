@@ -612,6 +612,8 @@ export default App;
 
 ## Control Props
 
+>Control props is an implementation of something that's supported in React by default for form elements. That is the idea of controlled components. - Kent C. Dodds
+
 ### Pros
 
 ✅ ...
@@ -623,6 +625,6 @@ export default App;
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTg1MjE4MCw2OTU2NzMyNywtMTA5Mj
-E5MTEyMSw3MjcwMDAwMDVdfQ==
+eyJoaXN0b3J5IjpbMjg5NjE3Njg0LDEyNTU4NTIxODAsNjk1Nj
+czMjcsLTEwOTIxOTExMjEsNzI3MDAwMDA1XX0=
 -->

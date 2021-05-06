@@ -1,5 +1,8 @@
 # Advanced React Patterns
 The following patterns are brought up in the "Advanced React Patterns" course module at epicreact.dev, by Kent C. Dodds.  
+
+**Please Note: This summary was written before the course was **
+
 Github repo: [https://github.com/kentcdodds/advanced-react-patterns](https://github.com/kentcdodds/advanced-react-patterns)
 
 The course content with background information for each pattern, can be found here: [https://advanced-react-patterns.netlify.app/](https://advanced-react-patterns.netlify.app/)
@@ -366,6 +369,8 @@ The state reducer pattern is an implementation of the computer science principle
 
 > All right. State reducer's probably one of my very favorite patterns. I love the state reducer pattern. It is super powerful, an excellent implementation of inversion of control. - Kent C. Dodds
 
+More background info can be found here: https://advanced-react-patterns.netlify.app/5
+
 ### Pros
 
 ✅ ...
@@ -387,5 +392,5 @@ The state reducer pattern is an implementation of the computer science principle
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTczNTk4OSw3MjcwMDAwMDVdfQ==
+eyJoaXN0b3J5IjpbNjIwOTM5NzM4LDcyNzAwMDAwNV19
 -->

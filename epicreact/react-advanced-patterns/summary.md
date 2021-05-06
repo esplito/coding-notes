@@ -649,7 +649,7 @@ React.useEffect(() => {
 ```
 >Now at any time if the user of our hook forgets to pass an onChange but is controlling it, then they're going to get a nice helpful warning indicating to them that they've got a readOnly toggle value. - Dodds
 
-Extra credit 2: add a controlled state warning.
+**Extra credit 2: add a controlled state warning.**
 This one has two cases:
 * Uncontrolled -> controlled
 * Controlled -> uncontrolled
@@ -700,11 +700,63 @@ function  handleToggleChange(state, action) {
 }
 ```
 
-Extra credit 3: extract warnings to a custom hook
+**Extra credit 3: extract warnings to a custom hook**
 > Both of those warnings could be useful anywhere so let’s go ahead and make a custom hook for them.
 > Shout out to the Reach UI team for  [the implementation of the  `useControlledSwitchWarning`](https://github.com/reach/reach-ui/blob/a376daec462ccb53d33f4471306dff35383a03a5/packages/utils/src/index.tsx#L407-L443) - Dodds
 
-Extra credit 4: don’t warn in production
+```js
+function useControlledSwitchWarning(
+  controlPropValue,
+  controlPropName,
+  componentName
+) {
+  const isControlled = controlPropValue != null;
+  const { current: wasControlled } = React.useRef(isControlled);
+
+  React.useEffect(() => {
+    warning(
+      !(isControlled && !wasControlled),
+      `\`${componentName}\` is changing from uncontrolled to be controlled. Components should not switch from uncontrolled to controlled (or vice versa). Decide between using a controlled or uncontrolled \`${componentName}\` for the lifetime of the component. Check the \`${controlPropName}\` prop.`
+    );
+    warning(
+      !(!isControlled && wasControlled),
+      `\`${componentName}\` is changing from controlled to be uncontrolled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled \`${componentName}\` for the lifetime of the component. Check the \`${controlPropName}\` prop.`
+    );
+  }, [componentName, controlPropName, isControlled, wasControlled]);
+}
+
+function useOnChangeReadOnlyWarning(
+  controlPropValue,
+  controlPropName,
+  componentName,
+  hasOnChange,
+  readOnly,
+  readOnlyProp,
+  initialValueProp,
+  onChangeProp
+) {
+  const isControlled = controlPropValue != null;
+  React.useEffect(() => {
+    warning(
+      !(!hasOnChange && isControlled && !readOnly),
+      `A \`${controlPropName}\` prop was provided to \`${componentName}\` without an \`${onChangeProp}\` handler. This will result in a read-only \`${controlPropName}\` value. If you want it to be mutable, use \`${initialValueProp}\`. Otherwise, set either \`${onChangeProp}\` or \`${readOnlyProp}\`.`
+    );
+  }, [
+    componentName,
+    controlPropName,
+    isControlled,
+    hasOnChange,
+    readOnly,
+    onChangeProp,
+    initialValueProp,
+    readOnlyProp,
+  ]);
+}
+
+```
+
+
+**Extra credit 4: don’t warn in production**
 ```js
 // Extra credit 4: don’t warn in production
 // process.env.NODE_ENV will never change when running the app so it is okay to ignore the rules of hooks that we shouldn't run hooks conditionally.
@@ -729,7 +781,7 @@ if (process.env.NODE_ENV  !==  'production') {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0Nzc0ODI1NywxOTI1OTcxMzM4LDI4OT
+eyJoaXN0b3J5IjpbMTY3MDQzNTE2OCwxOTI1OTcxMzM4LDI4OT
 YxNzY4NCwxMjU1ODUyMTgwLDY5NTY3MzI3LC0xMDkyMTkxMTIx
 LDcyNzAwMDAwNV19
 -->

@@ -376,7 +376,7 @@ More background info can be found here: https://advanced-react-patterns.netlify.
 ✅ Enhances the power and flexibility of your hooks
 
 ### Cons
-❌ If not done properly, we may end up giving
+❌ If not done properly, we may end up giving the users of our custom hook or custom component, too much control.
 
 
 ### Example code
@@ -396,6 +396,6 @@ More background info can be found here: https://advanced-react-patterns.netlify.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4OTk0NTQ2NiwtMTA5MjE5MTEyMSw3Mj
+eyJoaXN0b3J5IjpbLTM4NTk4MDMyOSwtMTA5MjE5MTEyMSw3Mj
 cwMDAwMDVdfQ==
 -->

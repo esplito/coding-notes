@@ -16,6 +16,7 @@ What does this even mean? Well, the idea with this pattern is that you **create 
 ### Example code
 Let's say that you have a form with a function, 'handleSubmit' that you call on submit. This function currently lives within our component.
 
+**Parts of the UserSettings component**
 ```js
 // Inside the UserSettings-component
 function handleSubmit(event) {
@@ -29,7 +30,7 @@ function handleSubmit(event) {
 ```
 But if we would want to follow the Context Module Functions-pattern then we have to move most of the logic that it contains, to a function that we instead will import and use in our component. We want our 'handleSubmit'-function to look like this instead:
 
-**Parts of the UserSettings component**
+**New 'handleSubmit' in UserSettings component**
 ```js
 import {updateUser} from './context/user-context'
 function handleSubmit(event) {
@@ -41,6 +42,7 @@ function handleSubmit(event) {
 ```
   
 Our importable helper function will look like this:
+**updateUser**
 ```js
 // inside our context-file
 async function updateUser(dispatch, user, updates) {
@@ -247,5 +249,5 @@ export default App
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQ4MjczMjFdfQ==
+eyJoaXN0b3J5IjpbMTExMzAyMzE5N119
 -->

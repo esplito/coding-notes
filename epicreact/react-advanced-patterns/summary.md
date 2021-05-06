@@ -360,6 +360,7 @@ function App() {
 export default App
 ```
 ## State Reducer
+The state reducer pattern is an implementation of the computer science principle "inversion of control". This pattern translates even better to hooks than it did to regular components. [Source: Kent C. Dodds - The State Reducer Pattern with React Hooks](https://kentcdodds.com/blog/the-state-reducer-pattern-with-react-hooks)
 
 ### Pros
 
@@ -382,5 +383,5 @@ export default App
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjU3Mjg2Miw3MjcwMDAwMDVdfQ==
+eyJoaXN0b3J5IjpbLTEyNjAxNTU5MTgsNzI3MDAwMDA1XX0=
 -->

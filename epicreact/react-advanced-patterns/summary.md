@@ -1,7 +1,7 @@
 # Advanced React Patterns
 The following patterns are brought up in the "Advanced React Patterns" course module at epicreact.dev, by Kent C. Dodds.  
 
-**Please Note: This summary was written before the course was **
+**Please Note: This summary was written before the course was re-written in TypeScript.**
 
 Github repo: [https://github.com/kentcdodds/advanced-react-patterns](https://github.com/kentcdodds/advanced-react-patterns)
 
@@ -392,5 +392,5 @@ More background info can be found here: https://advanced-react-patterns.netlify.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwOTM5NzM4LDcyNzAwMDAwNV19
+eyJoaXN0b3J5IjpbLTEwOTIxOTExMjEsNzI3MDAwMDA1XX0=
 -->

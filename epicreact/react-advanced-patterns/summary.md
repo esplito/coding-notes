@@ -383,6 +383,10 @@ According to Dodds, this is a pretty contrived example of just a toggle componen
 
 ***Code before implementing the pattern***
 
+```js
+
+```
+
 ...
 
 ## Control Props
@@ -398,6 +402,6 @@ According to Dodds, this is a pretty contrived example of just a toggle componen
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzk2MjE4NCwtMTA5MjE5MTEyMSw3Mj
-cwMDAwMDVdfQ==
+eyJoaXN0b3J5IjpbNjk1NjczMjcsLTEwOTIxOTExMjEsNzI3MD
+AwMDA1XX0=
 -->

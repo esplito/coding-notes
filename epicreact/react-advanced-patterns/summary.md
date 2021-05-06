@@ -619,7 +619,7 @@ More background info can be found here: [https://advanced-react-patterns.netlify
 
 ### Pros
 
-✅ ...
+✅ We can customize the different warnings that is displayed when someone uses our components incorrectly. → Easier for other developers to see what they did wrong.
 
 ### Example code
 
@@ -632,7 +632,7 @@ Simple example of how a warning can be written:
 warning(false, 'this will be logged');
 ```
 
-Code example for extra credit 1 within our custom hook `useToggle`:
+**Code example for extra credit 1 within our custom hook `useToggle`:**
 ```js
 // Extra credit 1: add read only warning
 // Passing on without onChange
@@ -726,7 +726,7 @@ if (process.env.NODE_ENV  !==  'production') {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTk3MTMzOCwyODk2MTc2ODQsMTI1NT
-g1MjE4MCw2OTU2NzMyNywtMTA5MjE5MTEyMSw3MjcwMDAwMDVd
-fQ==
+eyJoaXN0b3J5IjpbMzc3MzUwMDMzLDE5MjU5NzEzMzgsMjg5Nj
+E3Njg0LDEyNTU4NTIxODAsNjk1NjczMjcsLTEwOTIxOTExMjEs
+NzI3MDAwMDA1XX0=
 -->

@@ -29,6 +29,7 @@ function handleSubmit(event) {
 ```
 But if we would want to follow the Context Module Functions-pattern then we have to move most of the logic that it contains, to a function that we instead will import and use in our component. We want our 'handleSubmit'-function to look like this instead:
 
+**Parts of the UserSettings component**
 ```js
 import {updateUser} from './context/user-context'
 function handleSubmit(event) {
@@ -246,5 +247,5 @@ export default App
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE1NTk3OTBdfQ==
+eyJoaXN0b3J5IjpbLTE5NTQ4MjczMjFdfQ==
 -->

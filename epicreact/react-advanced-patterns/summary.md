@@ -379,7 +379,9 @@ More background info can be found here: https://advanced-react-patterns.netlify.
 ❌ If not done properly, we may end up giving the users of our custom hook or custom component, too much control.
 
 ### Example code
-According to Dodds, this 
+According to Dodds, this is a pretty contrived example of just a toggle component. You probably shouldn't use this pattern unless you have a more complicated problem to solve.
+
+
 
 ...
 
@@ -396,6 +398,6 @@ According to Dodds, this
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzUwMTQzOTIsLTEwOTIxOTExMjEsNz
-I3MDAwMDA1XX0=
+eyJoaXN0b3J5IjpbLTkyODU3NTQ2NiwtMTA5MjE5MTEyMSw3Mj
+cwMDAwMDVdfQ==
 -->

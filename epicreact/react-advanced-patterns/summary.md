@@ -381,7 +381,7 @@ More background info can be found here: https://advanced-react-patterns.netlify.
 ### Example code
 According to Dodds, this is a pretty contrived example of just a toggle component. You probably shouldn't use this pattern unless you have a more complicated problem to solve.
 
-
+***Code before implementing the pattern***
 
 ...
 
@@ -398,6 +398,6 @@ According to Dodds, this is a pretty contrived example of just a toggle componen
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODU3NTQ2NiwtMTA5MjE5MTEyMSw3Mj
+eyJoaXN0b3J5IjpbMTUwMzk2MjE4NCwtMTA5MjE5MTEyMSw3Mj
 cwMDAwMDVdfQ==
 -->

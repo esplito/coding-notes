@@ -85,6 +85,7 @@ Original exercise code here: [https://github.com/kentcdodds/advanced-react-patte
 
 The toggle component shares some state implicitly with each one of the child components.
 
+Source code: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/02.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/02.js)
 ```js
 import * as React from 'react'
 import {Switch} from '../switch'
@@ -124,10 +125,126 @@ function App() {
 export default App
 ```
 
-Source: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/02.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/02.js)
+## Flexible Compound Components
 
+As the name says, this pattern revolves around making compound components even more flexible. This is done by using the [Context API](https://reactjs.org/docs/context.html) so that we can share the state with deeply nested children.
+
+> This is probably the most important use case for context where we can share this implicit state for components that we expose to people for their use without them having to worry about the state that's being managed to make these things work together. - Kent C. Dodds
+
+More background info on the subject can be found here: [https://advanced-react-patterns.netlify.app/3](https://advanced-react-patterns.netlify.app/3)
+
+### Pros
+✅ Allows people to render the compound components wherever they like in the render tree
+
+### Example code
+The code before the pattern is used.
+
+Source code: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/exercise/03.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/exercise/03.js)
+
+```js
+import * as React from 'react'
+import {Switch} from '../switch'
+
+function Toggle({children}) {
+  const [on, setOn] = React.useState(false)
+  const toggle = () => setOn(!on)
+
+  return React.Children.map(children, child => {
+    return typeof child.type === 'string'
+      ? child
+      : React.cloneElement(child, {on, toggle})
+  })
+}
+
+function ToggleOn({on, children}) {
+  return on ? children : null
+}
+
+function ToggleOff({on, children}) {
+  return on ? null : children
+}
+
+function ToggleButton({on, toggle, ...props}) {
+  return <Switch on={on} onClick={toggle} {...props} />
+}
+
+function App() {
+  return (
+    <div>
+      <Toggle>
+        <ToggleOn>The button is on</ToggleOn>
+        <ToggleOff>The button is off</ToggleOff>
+        <div>
+          <ToggleButton />
+        </div>
+      </Toggle>
+    </div>
+  )
+}
+
+export default App
+```
+  
+
+  
+
+The code after applying the "Flexible Compound Components" pattern
+
+Source: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/03.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/03.js)
+
+import * as React from 'react'
+import {Switch} from '../switch'
+
+const ToggleContext = React.createContext()
+ToggleContext.displayName = 'ToggleContext'
+
+function Toggle({children}) {
+  const [on, setOn] = React.useState(false)
+  const toggle = () => setOn(!on)
+
+  return (
+    <ToggleContext.Provider value={{on, toggle}}>
+      {children}
+    </ToggleContext.Provider>
+  )
+}
+
+function useToggle() {
+  return React.useContext(ToggleContext)
+}
+
+function ToggleOn({children}) {
+  const {on} = useToggle()
+  return on ? children : null
+}
+
+function ToggleOff({children}) {
+  const {on} = useToggle()
+  return on ? null : children
+}
+
+function ToggleButton({...props}) {
+  const {on, toggle} = useToggle()
+  return <Switch on={on} onClick={toggle} {...props} />
+}
+
+function App() {
+  return (
+    <div>
+      <Toggle>
+        <ToggleOn>The button is on</ToggleOn>
+        <ToggleOff>The button is off</ToggleOff>
+        <div>
+          <ToggleButton />
+        </div>
+      </Toggle>
+    </div>
+  )
+}
+
+export default App
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzAwNDM4OF19
+eyJoaXN0b3J5IjpbLTE5MjE1NTk3OTBdfQ==
 -->

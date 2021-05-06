@@ -625,7 +625,7 @@ More background info can be found here: [https://advanced-react-patterns.netlify
 
 ...
 
-If you want to add warnings to your custom hook to make sure that the control props are being used as intended, you can use the library "warning" which React uses.
+If you want to add warnings to your custom hook to make sure that the control props are being used as intended, you can use the package "warning" which React uses.
 
 Simple example of how a warning can be written:
 ```js
@@ -726,7 +726,7 @@ if (process.env.NODE_ENV  !==  'production') {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTk2MTkyNjUsMjg5NjE3Njg0LDEyNT
-U4NTIxODAsNjk1NjczMjcsLTEwOTIxOTExMjEsNzI3MDAwMDA1
-XX0=
+eyJoaXN0b3J5IjpbMTkyNTk3MTMzOCwyODk2MTc2ODQsMTI1NT
+g1MjE4MCw2OTU2NzMyNywtMTA5MjE5MTEyMSw3MjcwMDAwMDVd
+fQ==
 -->

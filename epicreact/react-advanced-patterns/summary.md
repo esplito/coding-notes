@@ -384,9 +384,6 @@ According to Dodds, this is a pretty contrived example of just a toggle componen
 ***Code before implementing the pattern***
 Source code: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/exercise/05.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/exercise/05.js)
 ```js
-// state reducer
-// 💯 state reducer action types
-// http://localhost:3000/isolated/final/05.extra-2.js
 import * as React from 'react'
 import {
     Switch
@@ -394,22 +391,17 @@ import {
 
 const callAll = (...fns) => (...args) => fns.forEach(fn => fn?.(...args))
 
-const actionTypes = {
-    toggle: 'toggle',
-    reset: 'reset',
-}
-
 function toggleReducer(state, {
     type,
     initialState
 }) {
     switch (type) {
-        case actionTypes.toggle: {
+        case 'toggle': {
             return {
                 on: !state.on
             }
         }
-        case actionTypes.reset: {
+        case 'reset': {
             return initialState
         }
         default: {
@@ -418,25 +410,28 @@ function toggleReducer(state, {
     }
 }
 
+// 🐨 add a new option called `reducer` that defaults to `toggleReducer`
 function useToggle({
-    initialOn = false,
-    reducer = toggleReducer
+    initialOn = false
 } = {}) {
     const {
         current: initialState
     } = React.useRef({
         on: initialOn
     })
-    const [state, dispatch] = React.useReducer(reducer, initialState)
+    // 🐨 instead of passing `toggleReducer` here, pass the `reducer` that's
+    // provided as an option
+    // ... and that's it! Don't forget to check the 💯 extra credit!
+    const [state, dispatch] = React.useReducer(toggleReducer, initialState)
     const {
         on
     } = state
 
     const toggle = () => dispatch({
-        type: actionTypes.toggle
+        type: 'toggle'
     })
     const reset = () => dispatch({
-        type: actionTypes.reset,
+        type: 'reset',
         initialState
     })
 
@@ -469,21 +464,32 @@ function useToggle({
         getResetterProps,
     }
 }
-// export {useToggle, toggleReducer, actionTypes}
-
-// import {useToggle, toggleReducer, actionTypes} from './use-toggle'
 
 function App() {
     const [timesClicked, setTimesClicked] = React.useState(0)
     const clickedTooMuch = timesClicked >= 4
 
     function toggleStateReducer(state, action) {
-        if (action.type === actionTypes.toggle && clickedTooMuch) {
-            return {
-                on: state.on
+        switch (action.type) {
+            case 'toggle': {
+                if (clickedTooMuch) {
+                    return {
+                        on: state.on
+                    }
+                }
+                return {
+                    on: !state.on
+                }
+            }
+            case 'reset': {
+                return {
+                    on: false
+                }
+            }
+            default: {
+                throw new Error(`Unsupported type: ${action.type}`)
             }
         }
-        return toggleReducer(state, action)
     }
 
     const {
@@ -494,18 +500,16 @@ function App() {
         reducer: toggleStateReducer,
     })
 
-    return ( <
-        div >
-        <
-        Switch {
-            ...getTogglerProps({
-                disabled: clickedTooMuch,
-                on: on,
-                onClick: () => setTimesClicked(count => count + 1),
-            })
-        }
-        /> {
-            clickedTooMuch ? ( <
+    return ( <div >
+            <Switch {
+                ...getTogglerProps({
+                    disabled: clickedTooMuch,
+                    on: on,
+                    onClick: () => setTimesClicked(count => count + 1),
+                })
+            }
+            /> 
+            {  clickedTooMuch ? ( <
                 div data - testid = "notice" >
                 Whoa, you clicked too much!
                 <
@@ -517,19 +521,23 @@ function App() {
                     timesClicked
                 } < /div>
             ) : null
-        } <
-        button {
+        } <button {
             ...getResetterProps({
                 onClick: () => setTimesClicked(0)
             })
         } >
         Reset <
-        /button> <
-        /div>
-    )
+        /button> < /
+        div >
+)
 }
 
 export default App
+
+/*
+eslint
+  no-unused-vars: "off",
+*/
 ```
 
 ...
@@ -547,6 +555,6 @@ export default App
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDExNzYyOSw2OTU2NzMyNywtMTA5Mj
-E5MTEyMSw3MjcwMDAwMDVdfQ==
+eyJoaXN0b3J5IjpbNDQ0NDM3MDk0LDY5NTY3MzI3LC0xMDkyMT
+kxMTIxLDcyNzAwMDAwNV19
 -->

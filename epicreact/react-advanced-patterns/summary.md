@@ -521,14 +521,13 @@ function App() {
                     timesClicked
                 } < /div>
             ) : null
-        } <button {
-            ...getResetterProps({
+            } 
+           <button {...getResetterProps({
                 onClick: () => setTimesClicked(0)
-            })
-        } >
-        Reset <
-        /button> < /
-        div >
+            })}>
+             Reset
+           </button>
+        </div >
 )
 }
 
@@ -555,6 +554,6 @@ eslint
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0NDM3MDk0LDY5NTY3MzI3LC0xMDkyMT
+eyJoaXN0b3J5IjpbNzA2NzIzMzM2LDY5NTY3MzI3LC0xMDkyMT
 kxMTIxLDcyNzAwMDAwNV19
 -->

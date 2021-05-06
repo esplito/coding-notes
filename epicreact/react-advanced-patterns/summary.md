@@ -29,6 +29,7 @@ function handleSubmit(event) {
 ```
 But if we would want to follow the Context Module Functions-pattern then we have to move most of the logic that it contains, to a function that we instead will import and use in our component. We want our 'handleSubmit'-function to look like this instead:
 
+```js
 import {updateUser} from './context/user-context'
 function handleSubmit(event) {
   event.preventDefault()
@@ -36,11 +37,10 @@ function handleSubmit(event) {
     /* ignore the error */
   })
 }
-
+```
   
-
 Our importable helper function will look like this:
-
+```js
 // inside our context-file
 async function updateUser(dispatch, user, updates) {
   dispatch({type: 'start update', updates})
@@ -53,11 +53,9 @@ async function updateUser(dispatch, user, updates) {
     return Promise.reject(error)
   }
 }
-
 export {updateUser}
-
+```
   
-
 If you want to look at the complete files go to [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/exercise/01.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/exercise/01.js) and [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/01.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/01.js).
 
 ## Compound Components
@@ -77,19 +75,17 @@ The **select** is responsible for managing the UI state, meanwhile the **option*
 More background on this can be found here: [https://advanced-react-patterns.netlify.app/2](https://advanced-react-patterns.netlify.app/2)
 
 ### Pros
-
 ✅ Good for creating more flexible and capable components.
 
 ### Cons
-
 ❌ We can only clone and pass props to immediate children. (To be able to share the state to nested children we have to use the Context API. Check out the ["Flexible Compound Components"](#ReactPatterns-ReactPatterns-FlexibleCompoundComponents) pattern.)
 
 ### Example code
-
 Original exercise code here: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/exercise/02.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/exercise/02.js)
 
 The toggle component shares some state implicitly with each one of the child components.
 
+```js
 import * as React from 'react'
 import {Switch} from '../switch'
 
@@ -126,11 +122,12 @@ function App() {
 }
 
 export default App
+```
 
 Source: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/02.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/02.js)
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQyNzg4OTVdfQ==
+eyJoaXN0b3J5IjpbMTk0NzAwNDM4OF19
 -->

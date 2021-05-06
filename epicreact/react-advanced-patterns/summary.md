@@ -378,8 +378,8 @@ More background info can be found here: https://advanced-react-patterns.netlify.
 ### Cons
 ❌ If not done properly, we may end up giving the users of our custom hook or custom component, too much control.
 
-
 ### Example code
+According to Dodds, this 
 
 ...
 
@@ -396,6 +396,6 @@ More background info can be found here: https://advanced-react-patterns.netlify.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTk4MDMyOSwtMTA5MjE5MTEyMSw3Mj
-cwMDAwMDVdfQ==
+eyJoaXN0b3J5IjpbLTEzNzUwMTQzOTIsLTEwOTIxOTExMjEsNz
+I3MDAwMDA1XX0=
 -->

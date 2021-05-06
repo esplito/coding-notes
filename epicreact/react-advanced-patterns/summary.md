@@ -311,9 +311,9 @@ function App() {
 export default App
 ```
 **Prop Getters**
-
 Source code: [https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/04.extra-1.js](https://github.com/kentcdodds/advanced-react-patterns/blob/main/src/final/04.extra-1.js)
 
+```js
 import * as React from 'react'
 import {Switch} from '../switch'
 
@@ -358,7 +358,7 @@ function App() {
 }
 
 export default App
-
+```
 ## State Reducer
 
 ### Pros
@@ -382,5 +382,5 @@ export default App
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzc1MzMyOTksNzI3MDAwMDA1XX0=
+eyJoaXN0b3J5IjpbLTQzNjU3Mjg2Miw3MjcwMDAwMDVdfQ==
 -->

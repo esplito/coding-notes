@@ -13,7 +13,9 @@ What does this even mean? Well, the idea with this pattern is that you **create 
 
 ### Pros
 ✅ Can help reduce duplication
+
 ✅ May have performance benefits → "You only pay for what you use, where you use it." - Dan Abramov ([https://twitter.com/dan_abramov/status/1125774170154065920](https://twitter.com/dan_abramov/status/1125774170154065920))
+
 ✅ Helps avoid mistakes in dependency lists
 
 ### Example code
@@ -781,7 +783,7 @@ if (process.env.NODE_ENV  !==  'production') {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTkyMDI4NCwtODAwNzU0OTkwLDE5Mj
-U5NzEzMzgsMjg5NjE3Njg0LDEyNTU4NTIxODAsNjk1NjczMjcs
-LTEwOTIxOTExMjEsNzI3MDAwMDA1XX0=
+eyJoaXN0b3J5IjpbLTE4OTg1MzQ3NDgsLTQ1MTkyMDI4NCwtOD
+AwNzU0OTkwLDE5MjU5NzEzMzgsMjg5NjE3Njg0LDEyNTU4NTIx
+ODAsNjk1NjczMjcsLTEwOTIxOTExMjEsNzI3MDAwMDA1XX0=
 -->

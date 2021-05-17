@@ -47,14 +47,17 @@ const Globe = React.lazy(loadGlobe);
 ```
 
 **Extra credit 2: webpack magic comments**
->`webpackPrefetch`: Tells the browser that the resource is probably needed for some navigation in the future. - [](https://webpack.js.org/api/module-methods/#magic-comments)
+>`webpackPrefetch`: Tells the browser that the resource is probably needed for some navigation in the future. 
+>Source: [Webpack Docs - Module Methods](https://webpack.js.org/api/module-methods/#magic-comments)
+
+More about prefetching here: https://webpack.js.org/guides/code-splitting/#prefetchingpreloading-modules
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2Mjk4MzEwMywtNzI2MzQ2NzE3LC0xMD
+eyJoaXN0b3J5IjpbMjA4MzY4NDU5MSwtNzI2MzQ2NzE3LC0xMD
 AwNTAyMTcxLDE0NDgzNjI2MTEsLTExODY1MTU1NzMsLTk3MTI3
 ODU2OCwtMTUxOTMwMDU1MCwtMTEzMzU4MDAzMiwtMTY2OTYxMz
 Q4MCwtNTM0Njg0NTgxXX0=

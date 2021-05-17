@@ -16,12 +16,14 @@ Example: your application always loads some massive chart that uses an external 
 
 Lazy loading something can be done with "dynamic imports" which is a built-in way of lazy loading Javascript. More reading about dynamic imports: https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-the-browser
 
+When importing a javascript module using ESModules, we have to specify a path to the javascript file that we want  (with the .js-extension, unless it's on like unpkg or another external url). 
+
 > 🦉 One great way to analyze your app to determine the need/benefit of code splitting for a certain feature/page/interaction, is to use [the “Coverage” feature of the developer tools](https://developers.google.com/web/tools/chrome-devtools/coverage).
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTkzMDA1NTAsLTExMzM1ODAwMzIsLT
-E2Njk2MTM0ODAsLTUzNDY4NDU4MV19
+eyJoaXN0b3J5IjpbMTI0ODQ2NDQxLC0xNTE5MzAwNTUwLC0xMT
+MzNTgwMDMyLC0xNjY5NjEzNDgwLC01MzQ2ODQ1ODFdfQ==
 -->

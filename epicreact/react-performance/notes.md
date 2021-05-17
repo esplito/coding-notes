@@ -50,7 +50,7 @@ const Globe = React.lazy(loadGlobe);
 >`webpackPrefetch`: Tells the browser that the resource is probably needed for some navigation in the future. 
 >Source: [Webpack Docs - Module Methods](https://webpack.js.org/api/module-methods/#magic-comments)
 
-We can use `webpackPrefetch`, which is a webpack magic comment, to make the javascript file automatically load it into the browser cache when the browser is idle.
+We can use `webpackPrefetch` (which is a webpack magic comment) to make the javascript file automatically load it into the browser cache when the browser is idle.
 
 More about prefetching here: https://webpack.js.org/guides/code-splitting/#prefetchingpreloading-modules
 
@@ -59,8 +59,8 @@ More about prefetching here: https://webpack.js.org/guides/code-splitting/#prefe
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTI4ODM0MiwtNzI2MzQ2NzE3LC0xMD
-AwNTAyMTcxLDE0NDgzNjI2MTEsLTExODY1MTU1NzMsLTk3MTI3
-ODU2OCwtMTUxOTMwMDU1MCwtMTEzMzU4MDAzMiwtMTY2OTYxMz
-Q4MCwtNTM0Njg0NTgxXX0=
+eyJoaXN0b3J5IjpbLTE2MDAwOTk4ODUsLTcyNjM0NjcxNywtMT
+AwMDUwMjE3MSwxNDQ4MzYyNjExLC0xMTg2NTE1NTczLC05NzEy
+Nzg1NjgsLTE1MTkzMDA1NTAsLTExMzM1ODAwMzIsLTE2Njk2MT
+M0ODAsLTUzNDY4NDU4MV19
 -->

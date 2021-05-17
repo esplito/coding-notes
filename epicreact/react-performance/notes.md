@@ -46,14 +46,16 @@ const Globe = React.lazy(loadGlobe);
 </label>
 ```
 
+**Extra credit 2: webpack magic comments**
+>`webpackPrefetch`: Tells the browser that the resource is probably needed for some navigation in the future. - [](https://webpack.js.org/api/module-methods/#magic-comments)
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjM0NjcxNywtMTAwMDUwMjE3MSwxND
-Q4MzYyNjExLC0xMTg2NTE1NTczLC05NzEyNzg1NjgsLTE1MTkz
-MDA1NTAsLTExMzM1ODAwMzIsLTE2Njk2MTM0ODAsLTUzNDY4ND
-U4MV19
+eyJoaXN0b3J5IjpbLTU2Mjk4MzEwMywtNzI2MzQ2NzE3LC0xMD
+AwNTAyMTcxLDE0NDgzNjI2MTEsLTExODY1MTU1NzMsLTk3MTI3
+ODU2OCwtMTUxOTMwMDU1MCwtMTEzMzU4MDAzMiwtMTY2OTYxMz
+Q4MCwtNTM0Njg0NTgxXX0=
 -->

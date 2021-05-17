@@ -22,7 +22,7 @@ When importing a javascript module using ESModules, we have to specify a path to
 
 **Exercise one:** The test is passing from the beginning when it shouldn't. I created a PR to fix this: https://github.com/kentcdodds/react-performance/pull/83/commits/d0ebad574e0528ae46483a2b73560eaa1319dcf8
 
-
+We
 
 
 
@@ -30,7 +30,8 @@ When importing a javascript module using ESModules, we have to specify a path to
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDA1MDIxNzEsMTQ0ODM2MjYxMSwtMT
-E4NjUxNTU3MywtOTcxMjc4NTY4LC0xNTE5MzAwNTUwLC0xMTMz
-NTgwMDMyLC0xNjY5NjEzNDgwLC01MzQ2ODQ1ODFdfQ==
+eyJoaXN0b3J5IjpbNTUzNjM2OTgzLC0xMDAwNTAyMTcxLDE0ND
+gzNjI2MTEsLTExODY1MTU1NzMsLTk3MTI3ODU2OCwtMTUxOTMw
+MDU1MCwtMTEzMzU4MDAzMiwtMTY2OTYxMzQ4MCwtNTM0Njg0NT
+gxXX0=
 -->

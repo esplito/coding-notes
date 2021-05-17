@@ -29,6 +29,21 @@ We can do "eager loading", which in the exercise means that we will start loadin
 const loadGlobe = () => import("../globe"); 
 const Globe = React.lazy(loadGlobe);
 ```
+```jsx
+// Label and input in our React component
+<label
+  style={{marginBottom: '1rem'}}
+  onMouseEnter={loadGlobe}
+  onFocus={loadGlobe}
+>
+  <input
+    type="checkbox"
+    checked={showGlobe}
+    onChange={e => setShowGlobe(e.target.checked)}
+  />
+  {' show globe'}
+</label>
+```
 
 
 
@@ -36,8 +51,8 @@ const Globe = React.lazy(loadGlobe);
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjM4NDY1MzcsLTEwMDA1MDIxNzEsMT
-Q0ODM2MjYxMSwtMTE4NjUxNTU3MywtOTcxMjc4NTY4LC0xNTE5
-MzAwNTUwLC0xMTMzNTgwMDMyLC0xNjY5NjEzNDgwLC01MzQ2OD
-Q1ODFdfQ==
+eyJoaXN0b3J5IjpbMTQ5MzA2MjQyNywtMTAwMDUwMjE3MSwxND
+Q4MzYyNjExLC0xMTg2NTE1NTczLC05NzEyNzg1NjgsLTE1MTkz
+MDA1NTAsLTExMzM1ODAwMzIsLTE2Njk2MTM0ODAsLTUzNDY4ND
+U4MV19
 -->

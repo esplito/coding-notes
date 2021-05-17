@@ -14,7 +14,7 @@ The thinking behind code splitting is that loading less code will speed up your 
 
 Example: your application always loads some massive chart that uses an external library and this chart is only displayed on a specific page when you navigate to it. -> With code splitting this wouldn't have to be loaded on first load of the app and would instead be lazily loaded in the browser when the user navigates to the page that uses this chart.
 
-Lazy loading something can be done with "dynamic imports" which is a built-in way of lazy loading Javascript. More reading about dynamic
+Lazy loading something can be done with "dynamic imports" which is a built-in way of lazy loading Javascript. More reading about dynamic imports: https://kentcdodds.com/blog/super-simple-start-to-es-modules-in-the-browser
 
 > 🦉 One great way to analyze your app to determine the need/benefit of code splitting for a certain feature/page/interaction, is to use [the “Coverage” feature of the developer tools](https://developers.google.com/web/tools/chrome-devtools/coverage).
 
@@ -22,6 +22,6 @@ Lazy loading something can be done with "dynamic imports" which is a built-in wa
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTY3MjYxMTIsLTExMzM1ODAwMzIsLT
+eyJoaXN0b3J5IjpbLTE1MTkzMDA1NTAsLTExMzM1ODAwMzIsLT
 E2Njk2MTM0ODAsLTUzNDY4NDU4MV19
 -->

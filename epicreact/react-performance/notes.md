@@ -61,12 +61,14 @@ More about prefetching here: https://webpack.js.org/guides/code-splitting/#prefe
 
 There's a way to check the fallback UI of `React.Suspense`, by  selecting the Suspense-component in the "Components"-DevTools and pressing the stopwatch.
 
+**Coverage Tool**
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTM0NTM4MjAsLTkwNDQzMTkyMCwtMT
-YwMDA5OTg4NSwtNzI2MzQ2NzE3LC0xMDAwNTAyMTcxLDE0NDgz
-NjI2MTEsLTExODY1MTU1NzMsLTk3MTI3ODU2OCwtMTUxOTMwMD
-U1MCwtMTEzMzU4MDAzMiwtMTY2OTYxMzQ4MCwtNTM0Njg0NTgx
-XX0=
+eyJoaXN0b3J5IjpbLTE1NjgxNzI3MTYsLTEwOTM0NTM4MjAsLT
+kwNDQzMTkyMCwtMTYwMDA5OTg4NSwtNzI2MzQ2NzE3LC0xMDAw
+NTAyMTcxLDE0NDgzNjI2MTEsLTExODY1MTU1NzMsLTk3MTI3OD
+U2OCwtMTUxOTMwMDU1MCwtMTEzMzU4MDAzMiwtMTY2OTYxMzQ4
+MCwtNTM0Njg0NTgxXX0=
 -->

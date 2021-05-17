@@ -20,11 +20,13 @@ When importing a javascript module using ESModules, we have to specify a path to
 
 > 🦉 One great way to analyze your app to determine the need/benefit of code splitting for a certain feature/page/interaction, is to use [the “Coverage” feature of the developer tools](https://developers.google.com/web/tools/chrome-devtools/coverage).
 
+**Exercise one:** The test is passing from the beginning. 
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY1MTU1NzMsLTk3MTI3ODU2OCwtMT
-UxOTMwMDU1MCwtMTEzMzU4MDAzMiwtMTY2OTYxMzQ4MCwtNTM0
-Njg0NTgxXX0=
+eyJoaXN0b3J5IjpbMTQ0ODM2MjYxMSwtMTE4NjUxNTU3MywtOT
+cxMjc4NTY4LC0xNTE5MzAwNTUwLC0xMTMzNTgwMDMyLC0xNjY5
+NjEzNDgwLC01MzQ2ODQ1ODFdfQ==
 -->

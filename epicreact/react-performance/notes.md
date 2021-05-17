@@ -54,15 +54,19 @@ We can use `webpackPrefetch` (which is a webpack magic comment) to make the java
 
 More about prefetching here: https://webpack.js.org/guides/code-splitting/#prefetchingpreloading-modules
 
-**Suspense Position**
-Ther
+**Suspense Position / DevTools**
+> If you've used the error boundary before, that's exactly the same way that the error boundary behaves is the entire children is managed by that suspense-boundary.
+> 
+> The nice thing about this is that if any of these other components suspend like the globe is, they will also be managed by the same suspense-boundary. We probably want to locate that suspense-boundary closer to where it's relevant to provide a more useful fallback. - Dodds
+
+There's a way to check how the UI looks when the 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjM5OTE1MSwtOTA0NDMxOTIwLC0xNj
-AwMDk5ODg1LC03MjYzNDY3MTcsLTEwMDA1MDIxNzEsMTQ0ODM2
-MjYxMSwtMTE4NjUxNTU3MywtOTcxMjc4NTY4LC0xNTE5MzAwNT
-UwLC0xMTMzNTgwMDMyLC0xNjY5NjEzNDgwLC01MzQ2ODQ1ODFd
-fQ==
+eyJoaXN0b3J5IjpbLTE0MDE3MjI0NzQsLTkwNDQzMTkyMCwtMT
+YwMDA5OTg4NSwtNzI2MzQ2NzE3LC0xMDAwNTAyMTcxLDE0NDgz
+NjI2MTEsLTExODY1MTU1NzMsLTk3MTI3ODU2OCwtMTUxOTMwMD
+U1MCwtMTEzMzU4MDAzMiwtMTY2OTYxMzQ4MCwtNTM0Njg0NTgx
+XX0=
 -->

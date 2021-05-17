@@ -20,13 +20,17 @@ When importing a javascript module using ESModules, we have to specify a path to
 
 > 🦉 One great way to analyze your app to determine the need/benefit of code splitting for a certain feature/page/interaction, is to use [the “Coverage” feature of the developer tools](https://developers.google.com/web/tools/chrome-devtools/coverage).
 
-**Exercise one:** The test is passing from the beginning. 
+**Exercise one:** The test is passing from the beginning when it shouldn't. I created a PR to fix this: https://github.com/kentcdodds/react-performance/pull/83/commits/d0ebad574e0528ae46483a2b73560eaa1319dcf8
+
+
+
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODM2MjYxMSwtMTE4NjUxNTU3MywtOT
-cxMjc4NTY4LC0xNTE5MzAwNTUwLC0xMTMzNTgwMDMyLC0xNjY5
-NjEzNDgwLC01MzQ2ODQ1ODFdfQ==
+eyJoaXN0b3J5IjpbLTEwMDA1MDIxNzEsMTQ0ODM2MjYxMSwtMT
+E4NjUxNTU3MywtOTcxMjc4NTY4LC0xNTE5MzAwNTUwLC0xMTMz
+NTgwMDMyLC0xNjY5NjEzNDgwLC01MzQ2ODQ1ODFdfQ==
 -->

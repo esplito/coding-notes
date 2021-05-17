@@ -12,7 +12,7 @@ The thinking behind code splitting is that loading less code will speed up your 
 
 > The idea behind the code splitting is that it allows you to lazily load your code at the time that it's needed. - Dodds
 
-Example: your application always loads some massive chart that uses an external library a
+Example: your application always loads some massive chart that uses an external library and this chart is only displayed on a specific page when you navigate to it. -> With code splitting this wouldn't have to be loaded on first load of the app and would instead be lazily loaded in the browser when the user navigates to the page that uses this chart.
 
 > 🦉 One great way to analyze your app to determine the need/benefit of code splitting for a certain feature/page/interaction, is to use [the “Coverage” feature of the developer tools](https://developers.google.com/web/tools/chrome-devtools/coverage).
 
@@ -20,6 +20,6 @@ Example: your application always loads some massive chart that uses an external 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTc1NTA4MCwtMTEzMzU4MDAzMiwtMT
+eyJoaXN0b3J5IjpbLTkxNTE1MTQ5NiwtMTEzMzU4MDAzMiwtMT
 Y2OTYxMzQ4MCwtNTM0Njg0NTgxXX0=
 -->

@@ -63,13 +63,15 @@ There's a way to check the fallback UI of `React.Suspense`, by  selecting the Su
 
 **Coverage Tool**
 
-The
+You either use the command tool in Google Chrome to open up the "Coverage"-tab or open up the console and press the three dots and choose coverage.
+
+The red bar is all of the unused code that we have in the different files.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxMTY5MDc3LC0xNTY4MTcyNzE2LC0xMD
-kzNDUzODIwLC05MDQ0MzE5MjAsLTE2MDAwOTk4ODUsLTcyNjM0
-NjcxNywtMTAwMDUwMjE3MSwxNDQ4MzYyNjExLC0xMTg2NTE1NT
-czLC05NzEyNzg1NjgsLTE1MTkzMDA1NTAsLTExMzM1ODAwMzIs
-LTE2Njk2MTM0ODAsLTUzNDY4NDU4MV19
+eyJoaXN0b3J5IjpbLTE0NzQxNTEyNDEsLTE1NjgxNzI3MTYsLT
+EwOTM0NTM4MjAsLTkwNDQzMTkyMCwtMTYwMDA5OTg4NSwtNzI2
+MzQ2NzE3LC0xMDAwNTAyMTcxLDE0NDgzNjI2MTEsLTExODY1MT
+U1NzMsLTk3MTI3ODU2OCwtMTUxOTMwMDU1MCwtMTEzMzU4MDAz
+MiwtMTY2OTYxMzQ4MCwtNTM0Njg0NTgxXX0=
 -->

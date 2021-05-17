@@ -67,11 +67,16 @@ You either use the command tool in Google Chrome to open up the "Coverage"-tab o
 
 The red bar is all of the unused code that we have in the different files.
 
+> It's important when you're looking at actual numbers and trying to compare and contrast that you're doing that comparison with all of the production optimizations that you have set up. I should also note that you can do this all locally as well. There's no reason that you have to do it in production. You could run your build and then serve it locally.
+> 
+> Just try to get what you're actually testing to be as close to the end user's experience as possible so you can get more real numbers.  - Dodds
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQxNTEyNDEsLTE1NjgxNzI3MTYsLT
-EwOTM0NTM4MjAsLTkwNDQzMTkyMCwtMTYwMDA5OTg4NSwtNzI2
-MzQ2NzE3LC0xMDAwNTAyMTcxLDE0NDgzNjI2MTEsLTExODY1MT
-U1NzMsLTk3MTI3ODU2OCwtMTUxOTMwMDU1MCwtMTEzMzU4MDAz
-MiwtMTY2OTYxMzQ4MCwtNTM0Njg0NTgxXX0=
+eyJoaXN0b3J5IjpbMTAwMjc2NDg4MywtMTQ3NDE1MTI0MSwtMT
+U2ODE3MjcxNiwtMTA5MzQ1MzgyMCwtOTA0NDMxOTIwLC0xNjAw
+MDk5ODg1LC03MjYzNDY3MTcsLTEwMDA1MDIxNzEsMTQ0ODM2Mj
+YxMSwtMTE4NjUxNTU3MywtOTcxMjc4NTY4LC0xNTE5MzAwNTUw
+LC0xMTMzNTgwMDMyLC0xNjY5NjEzNDgwLC01MzQ2ODQ1ODFdfQ
+==
 -->

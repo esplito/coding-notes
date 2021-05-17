@@ -22,7 +22,7 @@ When importing a javascript module using ESModules, we have to specify a path to
 
 **Exercise one:** The test is passing from the beginning when it shouldn't. I created a PR to fix this: https://github.com/kentcdodds/react-performance/pull/83/commits/d0ebad574e0528ae46483a2b73560eaa1319dcf8
 
-We can do "eager loading", which in the exercise means that we will start loading the content even before the user has clicked the checkbox "show globe". We do this by creating a function that we can use to lazy load our
+We can do "eager loading", which in the exercise means that we will start loading the content even before the user has clicked the checkbox "show globe". We do this by creating a function that we can use to lazy load our component when a user focu
 
 
 
@@ -30,7 +30,7 @@ We can do "eager loading", which in the exercise means that we will start loadin
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzUwNzI3NywtMTAwMDUwMjE3MSwxND
+eyJoaXN0b3J5IjpbMjA4OTM1MzM0MSwtMTAwMDUwMjE3MSwxND
 Q4MzYyNjExLC0xMTg2NTE1NTczLC05NzEyNzg1NjgsLTE1MTkz
 MDA1NTAsLTExMzM1ODAwMzIsLTE2Njk2MTM0ODAsLTUzNDY4ND
 U4MV19

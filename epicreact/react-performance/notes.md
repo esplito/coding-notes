@@ -8,6 +8,7 @@
 
 ### Code Splitting
 
+The thinking behind code splitting is that loading less code will speed up your application.
 
 > 🦉 One great way to analyze your app to determine the need/benefit of code splitting for a certain feature/page/interaction, is to use [the “Coverage” feature of the developer tools](https://developers.google.com/web/tools/chrome-devtools/coverage).
 
@@ -15,6 +16,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyMzQ1MDUwLC0xNjY5NjEzNDgwLC01Mz
-Q2ODQ1ODFdfQ==
+eyJoaXN0b3J5IjpbLTExMzM1ODAwMzIsLTE2Njk2MTM0ODAsLT
+UzNDY4NDU4MV19
 -->

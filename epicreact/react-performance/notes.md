@@ -170,7 +170,7 @@ Remember that sometimes the re-rendering isn't the actual performance problem. I
 
 > Again, I want to mention that people can make the mistake of wrapping _everything_ in `React.memo` which can actually slow down your app in some cases and in all cases it makes your code more complex. - Dodds
 
-If you want to see why a component rendered, you can enable `"Record why each component rendered while profiling"` in `Profiler -> Settings -> Profiler`.
+If you want to see why a component rendered, you can enable `"Record why each component rendered while profiling"` in `Profiler -> Settings -> Profiler`. When you have profiled something and click on a component you'll see "Why did this render?" and an explanation to why it was rendered.
 
 
 
@@ -178,11 +178,11 @@ If you want to see why a component rendered, you can enable `"Record why each co
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwNjgzMDkxLDE2Njk0NzE4NzcsODM1MD
-k3NDYzLC0yMDI1NDg1MzYxLC03Mjg3OTkzMDYsLTQ1NzU1Mzky
-NSwxNTc2MTcwNjE2LC0yMTM1MTEyNzc1LC0xMTEwMDY4NDgyLC
-0xMzgyNzI3ODk3LC05NDY1NzgyMjUsLTE5MTY3MzM1NDIsLTk0
-MTYwMDkzMywxMDgyMTI4NjE3LC0xNDI1NDc5NDkxLDEwMDI3Nj
-Q4ODMsLTE0NzQxNTEyNDEsLTE1NjgxNzI3MTYsLTEwOTM0NTM4
-MjAsLTkwNDQzMTkyMF19
+eyJoaXN0b3J5IjpbLTIxMTgyMTk3MjMsMTY2OTQ3MTg3Nyw4Mz
+UwOTc0NjMsLTIwMjU0ODUzNjEsLTcyODc5OTMwNiwtNDU3NTUz
+OTI1LDE1NzYxNzA2MTYsLTIxMzUxMTI3NzUsLTExMTAwNjg0OD
+IsLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwtMTkxNjczMzU0Miwt
+OTQxNjAwOTMzLDEwODIxMjg2MTcsLTE0MjU0Nzk0OTEsMTAwMj
+c2NDg4MywtMTQ3NDE1MTI0MSwtMTU2ODE3MjcxNiwtMTA5MzQ1
+MzgyMCwtOTA0NDMxOTIwXX0=
 -->

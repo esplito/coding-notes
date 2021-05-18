@@ -80,14 +80,15 @@ We are using the "Performance"-tab in Chrome. Set the CPU to 6x slowdown -> Hit 
 
 You can see "Timings" which is executed by React.
 
-**Wrapping a function in us**
+**Wrapping a function in useMemo**
+If we have an expensive calculation inside our component, it can lead to performance bottlenecks. This is because the calculation will be triggered on every render. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyNjc5Mjg1LC0xNDI1NDc5NDkxLDEwMD
-I3NjQ4ODMsLTE0NzQxNTEyNDEsLTE1NjgxNzI3MTYsLTEwOTM0
-NTM4MjAsLTkwNDQzMTkyMCwtMTYwMDA5OTg4NSwtNzI2MzQ2Nz
-E3LC0xMDAwNTAyMTcxLDE0NDgzNjI2MTEsLTExODY1MTU1NzMs
-LTk3MTI3ODU2OCwtMTUxOTMwMDU1MCwtMTEzMzU4MDAzMiwtMT
-Y2OTYxMzQ4MCwtNTM0Njg0NTgxXX0=
+eyJoaXN0b3J5IjpbLTc2ODEzOTU4NywtMTQyNTQ3OTQ5MSwxMD
+AyNzY0ODgzLC0xNDc0MTUxMjQxLC0xNTY4MTcyNzE2LC0xMDkz
+NDUzODIwLC05MDQ0MzE5MjAsLTE2MDAwOTk4ODUsLTcyNjM0Nj
+cxNywtMTAwMDUwMjE3MSwxNDQ4MzYyNjExLC0xMTg2NTE1NTcz
+LC05NzEyNzg1NjgsLTE1MTkzMDA1NTAsLTExMzM1ODAwMzIsLT
+E2Njk2MTM0ODAsLTUzNDY4NDU4MV19
 -->

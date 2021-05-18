@@ -195,14 +195,36 @@ Sometimes you want to decide when rendering the component again is unnecessary. 
 `true` = rendering component again is **unnecessary**
 `false` = rendering component again is **necessary**
 
+Example solution from the exercise:
+```js
+ListItem = React.memo(ListItem, (prevProps, nextProps) => {
+  // true means do NOT rerender
+  // false means DO rerender
+  // these ones are easy if any of these changed, we should re-render
+  if (prevProps.getItemProps !== nextProps.getItemProps) return false;
+  if (prevProps.item !== nextProps.item) return false;
+  if (prevProps.index !== nextProps.index) return false;
+  if (prevProps.selectedItem !== nextProps.selectedItem) return false; // this is trickier. We should only re-render if this list item:
+  // 1. was highlighted before and now it's not
+  // 2. was not highlighted before and now it is
+
+  if (prevProps.highlightedIndex !== nextProps.highlightedIndex) {
+    const wasPrevHighlighted = prevProps.highlightedIndex === prevProps.index;
+    const isNowHighlighted = nextProps.highlightedIndex === nextProps.index;
+    return wasPrevHighlighted === isNowHighlighted;
+  }
+
+  return true;
+});
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjE3NjY0MSwxMTQ0NzM4NTQ2LC0xMD
-U0MTYwNTM4LDE4MTkwMjA0NDMsLTIxMTgyMTk3MjMsMTY2OTQ3
-MTg3Nyw4MzUwOTc0NjMsLTIwMjU0ODUzNjEsLTcyODc5OTMwNi
-wtNDU3NTUzOTI1LDE1NzYxNzA2MTYsLTIxMzUxMTI3NzUsLTEx
-MTAwNjg0ODIsLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwtMTkxNj
-czMzU0MiwtOTQxNjAwOTMzLDEwODIxMjg2MTcsLTE0MjU0Nzk0
-OTEsMTAwMjc2NDg4M119
+eyJoaXN0b3J5IjpbLTE4NzYyMzkxMjksMTE0NDczODU0NiwtMT
+A1NDE2MDUzOCwxODE5MDIwNDQzLC0yMTE4MjE5NzIzLDE2Njk0
+NzE4NzcsODM1MDk3NDYzLC0yMDI1NDg1MzYxLC03Mjg3OTkzMD
+YsLTQ1NzU1MzkyNSwxNTc2MTcwNjE2LC0yMTM1MTEyNzc1LC0x
+MTEwMDY4NDgyLC0xMzgyNzI3ODk3LC05NDY1NzgyMjUsLTE5MT
+Y3MzM1NDIsLTk0MTYwMDkzMywxMDgyMTI4NjE3LC0xNDI1NDc5
+NDkxLDEwMDI3NjQ4ODNdfQ==
 -->

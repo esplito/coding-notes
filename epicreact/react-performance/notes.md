@@ -250,11 +250,11 @@ This means that they now are primitive values inside `<ListItem>` and React's bu
 
 > Mostly, what I want you to get out of this exercise is the understanding that just because you have a ton of stuff that you need to display to the user doesn't mean that you have to render all of the stuff at the same time if it's not all actually in the visible space for the user to interact with. - Dodds
 
-In this exercise we use a l
+In this exercise we use a library called [react-virtual](https://github.com/tannerlinsley/react-virtual) to be able to do "windowing". This means that we will only render the items visible on the screen + some additional rows
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyNjAxNjk1LC03NzU1MDUxMTQsMTU1Nz
+eyJoaXN0b3J5IjpbOTI4MDUxNDAwLC03NzU1MDUxMTQsMTU1Nz
 E5NDE3MCwtMTM4MjI3NzU3NSw1NTIyMDI0MCwtMTc5MDcyMDE0
 NSwxMTQ0NzM4NTQ2LC0xMDU0MTYwNTM4LDE4MTkwMjA0NDMsLT
 IxMTgyMTk3MjMsMTY2OTQ3MTg3Nyw4MzUwOTc0NjMsLTIwMjU0

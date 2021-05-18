@@ -181,16 +181,17 @@ In the example above, we clicked the `CountButton` and since we had used `React.
 **Exercise**
 
 **CPU Throttling:** 6x slowdown
+Press "force rerender" while profiling.
 
 Render duration before optimization: 56.9 ms
-| | Before optimization | After |
+| Optimization -> | Before | After |
 |--|--|--|
-|Render duration | | |
+|**Render duration** | 56.9 ms | |
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDEyOTE3NTMsMTgxOTAyMDQ0MywtMj
+eyJoaXN0b3J5IjpbLTEwNTQxNjA1MzgsMTgxOTAyMDQ0MywtMj
 ExODIxOTcyMywxNjY5NDcxODc3LDgzNTA5NzQ2MywtMjAyNTQ4
 NTM2MSwtNzI4Nzk5MzA2LC00NTc1NTM5MjUsMTU3NjE3MDYxNi
 wtMjEzNTExMjc3NSwtMTExMDA2ODQ4MiwtMTM4MjcyNzg5Nywt

@@ -222,15 +222,17 @@ ListItem = React.memo(ListItem, (prevProps, nextProps) => {
 
 > You want to **be careful when you're doing these kinds of optimizations** and **ensure that you're reaping the benefits** that you're looking for out of this, which is why we're bringing up this performance profiler in production mode would be handy so you can compare the before and after and **see if it's worth the complexity that you've added to your codebase**. - Dodds
 
+**Extra credit 2: pass only primitive values**
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODY2MTUyNSwtMTc5MDcyMDE0NSwxMT
-Q0NzM4NTQ2LC0xMDU0MTYwNTM4LDE4MTkwMjA0NDMsLTIxMTgy
-MTk3MjMsMTY2OTQ3MTg3Nyw4MzUwOTc0NjMsLTIwMjU0ODUzNj
-EsLTcyODc5OTMwNiwtNDU3NTUzOTI1LDE1NzYxNzA2MTYsLTIx
-MzUxMTI3NzUsLTExMTAwNjg0ODIsLTEzODI3Mjc4OTcsLTk0Nj
-U3ODIyNSwtMTkxNjczMzU0MiwtOTQxNjAwOTMzLDEwODIxMjg2
-MTcsLTE0MjU0Nzk0OTFdfQ==
+eyJoaXN0b3J5IjpbNTUyMjAyNDAsLTE3OTA3MjAxNDUsMTE0ND
+czODU0NiwtMTA1NDE2MDUzOCwxODE5MDIwNDQzLC0yMTE4MjE5
+NzIzLDE2Njk0NzE4NzcsODM1MDk3NDYzLC0yMDI1NDg1MzYxLC
+03Mjg3OTkzMDYsLTQ1NzU1MzkyNSwxNTc2MTcwNjE2LC0yMTM1
+MTEyNzc1LC0xMTEwMDY4NDgyLC0xMzgyNzI3ODk3LC05NDY1Nz
+gyMjUsLTE5MTY3MzM1NDIsLTk0MTYwMDkzMywxMDgyMTI4NjE3
+LC0xNDI1NDc5NDkxXX0=
 -->

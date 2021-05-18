@@ -120,13 +120,14 @@ Sources:
 > That 1,000 divided by 60 frames a second. That's going to be 16 milliseconds, thereabouts, for your JavaScript to run so that the browser can keep up and not drop any frames and resulting in a janky experience. - Dodds
 
 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwtMT
-kxNjczMzU0MiwtOTQxNjAwOTMzLDEwODIxMjg2MTcsLTE0MjU0
-Nzk0OTEsMTAwMjc2NDg4MywtMTQ3NDE1MTI0MSwtMTU2ODE3Mj
-cxNiwtMTA5MzQ1MzgyMCwtOTA0NDMxOTIwLC0xNjAwMDk5ODg1
-LC03MjYzNDY3MTcsLTEwMDA1MDIxNzEsMTQ0ODM2MjYxMSwtMT
-E4NjUxNTU3MywtOTcxMjc4NTY4LC0xNTE5MzAwNTUwLC0xMTMz
-NTgwMDMyLC0xNjY5NjEzNDgwXX0=
+eyJoaXN0b3J5IjpbLTExNjI5ODA0NTksLTEzODI3Mjc4OTcsLT
+k0NjU3ODIyNSwtMTkxNjczMzU0MiwtOTQxNjAwOTMzLDEwODIx
+Mjg2MTcsLTE0MjU0Nzk0OTEsMTAwMjc2NDg4MywtMTQ3NDE1MT
+I0MSwtMTU2ODE3MjcxNiwtMTA5MzQ1MzgyMCwtOTA0NDMxOTIw
+LC0xNjAwMDk5ODg1LC03MjYzNDY3MTcsLTEwMDA1MDIxNzEsMT
+Q0ODM2MjYxMSwtMTE4NjUxNTU3MywtOTcxMjc4NTY4LC0xNTE5
+MzAwNTUwLC0xMTMzNTgwMDMyXX0=
 -->

@@ -73,14 +73,16 @@ The red bar is all of the unused code that we have in the different files.
 
 ### useMemo for Expensive Calculations
 
+> If you've got an expensive calculation to make in the function body of your component, then useMemo is the hero you need. - Dodds
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0MDc4OTA1LDEwMDI3NjQ4ODMsLTE0Nz
-QxNTEyNDEsLTE1NjgxNzI3MTYsLTEwOTM0NTM4MjAsLTkwNDQz
-MTkyMCwtMTYwMDA5OTg4NSwtNzI2MzQ2NzE3LC0xMDAwNTAyMT
-cxLDE0NDgzNjI2MTEsLTExODY1MTU1NzMsLTk3MTI3ODU2OCwt
-MTUxOTMwMDU1MCwtMTEzMzU4MDAzMiwtMTY2OTYxMzQ4MCwtNT
-M0Njg0NTgxXX0=
+eyJoaXN0b3J5IjpbLTEzMTQ3ODIxMzksMTAwMjc2NDg4MywtMT
+Q3NDE1MTI0MSwtMTU2ODE3MjcxNiwtMTA5MzQ1MzgyMCwtOTA0
+NDMxOTIwLC0xNjAwMDk5ODg1LC03MjYzNDY3MTcsLTEwMDA1MD
+IxNzEsMTQ0ODM2MjYxMSwtMTE4NjUxNTU3MywtOTcxMjc4NTY4
+LC0xNTE5MzAwNTUwLC0xMTMzNTgwMDMyLC0xNjY5NjEzNDgwLC
+01MzQ2ODQ1ODFdfQ==
 -->

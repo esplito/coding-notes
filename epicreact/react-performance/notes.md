@@ -123,6 +123,8 @@ Sources:
 
 Javascript is single-threaded. You want it on another thread? -> Use Web Workers!
 
+You can for example use the workerize-loader in webpack. Note: The communication between the main thread and web workers is **asynchronous**. 
+
 Here's a comparison of the fps and execution time when only using `useMemo` and when using a web worker. (in prod build with 6x CPU)
 
 |  | useMemo | Web Worker |
@@ -139,11 +141,11 @@ Screenshot using Web Worker:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5MzY2NzYyLDE1NzYxNzA2MTYsLTIxMz
-UxMTI3NzUsLTExMTAwNjg0ODIsLTEzODI3Mjc4OTcsLTk0NjU3
-ODIyNSwtMTkxNjczMzU0MiwtOTQxNjAwOTMzLDEwODIxMjg2MT
-csLTE0MjU0Nzk0OTEsMTAwMjc2NDg4MywtMTQ3NDE1MTI0MSwt
-MTU2ODE3MjcxNiwtMTA5MzQ1MzgyMCwtOTA0NDMxOTIwLC0xNj
-AwMDk5ODg1LC03MjYzNDY3MTcsLTEwMDA1MDIxNzEsMTQ0ODM2
-MjYxMSwtMTE4NjUxNTU3M119
+eyJoaXN0b3J5IjpbLTE1NDc1NTQzMTksMTU3NjE3MDYxNiwtMj
+EzNTExMjc3NSwtMTExMDA2ODQ4MiwtMTM4MjcyNzg5NywtOTQ2
+NTc4MjI1LC0xOTE2NzMzNTQyLC05NDE2MDA5MzMsMTA4MjEyOD
+YxNywtMTQyNTQ3OTQ5MSwxMDAyNzY0ODgzLC0xNDc0MTUxMjQx
+LC0xNTY4MTcyNzE2LC0xMDkzNDUzODIwLC05MDQ0MzE5MjAsLT
+E2MDAwOTk4ODUsLTcyNjM0NjcxNywtMTAwMDUwMjE3MSwxNDQ4
+MzYyNjExLC0xMTg2NTE1NTczXX0=
 -->

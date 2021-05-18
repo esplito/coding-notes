@@ -109,17 +109,18 @@ function Distance({x, y}) {
 }
 ```
 
-**Note: You can no longer check timings from React in the Performance tab. ** (Sources: https://stackoverflow.com/questions/52364829/no-timing-breakdown-in-user-timing-section-in-performance-tab-in-chrome-dev-tool & https://github.com/facebook/react/pull/18417)
+**Note: You can no longer check timings from React in the Performance tab. You have to use the Profiler.** (Sources: https://stackoverflow.com/questions/52364829/no-timing-breakdown-in-user-timing-section-in-performance-tab-in-chrome-dev-tool & https://github.com/facebook/react/pull/18417)
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTYwMDkzMywxMDgyMTI4NjE3LC0xND
-I1NDc5NDkxLDEwMDI3NjQ4ODMsLTE0NzQxNTEyNDEsLTE1Njgx
-NzI3MTYsLTEwOTM0NTM4MjAsLTkwNDQzMTkyMCwtMTYwMDA5OT
-g4NSwtNzI2MzQ2NzE3LC0xMDAwNTAyMTcxLDE0NDgzNjI2MTEs
-LTExODY1MTU1NzMsLTk3MTI3ODU2OCwtMTUxOTMwMDU1MCwtMT
-EzMzU4MDAzMiwtMTY2OTYxMzQ4MCwtNTM0Njg0NTgxXX0=
+eyJoaXN0b3J5IjpbLTE5MTY3MzM1NDIsLTk0MTYwMDkzMywxMD
+gyMTI4NjE3LC0xNDI1NDc5NDkxLDEwMDI3NjQ4ODMsLTE0NzQx
+NTEyNDEsLTE1NjgxNzI3MTYsLTEwOTM0NTM4MjAsLTkwNDQzMT
+kyMCwtMTYwMDA5OTg4NSwtNzI2MzQ2NzE3LC0xMDAwNTAyMTcx
+LDE0NDgzNjI2MTEsLTExODY1MTU1NzMsLTk3MTI3ODU2OCwtMT
+UxOTMwMDU1MCwtMTEzMzU4MDAzMiwtMTY2OTYxMzQ4MCwtNTM0
+Njg0NTgxXX0=
 -->

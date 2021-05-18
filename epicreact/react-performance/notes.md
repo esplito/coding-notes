@@ -223,16 +223,18 @@ ListItem = React.memo(ListItem, (prevProps, nextProps) => {
 > You want to **be careful when you're doing these kinds of optimizations** and **ensure that you're reaping the benefits** that you're looking for out of this, which is why we're bringing up this performance profiler in production mode would be handy so you can compare the before and after and **see if it's worth the complexity that you've added to your codebase**. - Dodds
 
 **Extra credit 2: pass only primitive values**
+> Wouldn’t it be even better to not have to provide our custom memoization comparator function and still get the perf gains? Definitely! - Dodds
 
+To do this we have to pass some values that are pre-computed. In the example exercise we will instead figure out `isSelected` and `isHighlighted` when we pass them as props to `<ListItem>` 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyMjAyNDAsLTE3OTA3MjAxNDUsMTE0ND
-czODU0NiwtMTA1NDE2MDUzOCwxODE5MDIwNDQzLC0yMTE4MjE5
-NzIzLDE2Njk0NzE4NzcsODM1MDk3NDYzLC0yMDI1NDg1MzYxLC
-03Mjg3OTkzMDYsLTQ1NzU1MzkyNSwxNTc2MTcwNjE2LC0yMTM1
-MTEyNzc1LC0xMTEwMDY4NDgyLC0xMzgyNzI3ODk3LC05NDY1Nz
-gyMjUsLTE5MTY3MzM1NDIsLTk0MTYwMDkzMywxMDgyMTI4NjE3
-LC0xNDI1NDc5NDkxXX0=
+eyJoaXN0b3J5IjpbLTc0MDkwMTUyOCw1NTIyMDI0MCwtMTc5MD
+cyMDE0NSwxMTQ0NzM4NTQ2LC0xMDU0MTYwNTM4LDE4MTkwMjA0
+NDMsLTIxMTgyMTk3MjMsMTY2OTQ3MTg3Nyw4MzUwOTc0NjMsLT
+IwMjU0ODUzNjEsLTcyODc5OTMwNiwtNDU3NTUzOTI1LDE1NzYx
+NzA2MTYsLTIxMzUxMTI3NzUsLTExMTAwNjg0ODIsLTEzODI3Mj
+c4OTcsLTk0NjU3ODIyNSwtMTkxNjczMzU0MiwtOTQxNjAwOTMz
+LDEwODIxMjg2MTddfQ==
 -->

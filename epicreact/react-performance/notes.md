@@ -172,17 +172,20 @@ Remember that sometimes the re-rendering isn't the actual performance problem. I
 
 If you want to see why a component rendered, you can enable `"Record why each component rendered while profiling"` in `Profiler -> Settings -> Profiler`. When you have profiled something and click on a component you'll see "Why did this render?" and an explanation to why it was rendered.
 
+When you use `React.memo` on a component it will look like this if the component wasn't re-rendered at a certain commit:
+![Screenshot of React Profiler where the NameInput component is memoized a](https://github.com/esplito/coding-notes/blob/master/react-memo_component_not_rerendering.png?raw=true)
+
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTgyMTk3MjMsMTY2OTQ3MTg3Nyw4Mz
-UwOTc0NjMsLTIwMjU0ODUzNjEsLTcyODc5OTMwNiwtNDU3NTUz
-OTI1LDE1NzYxNzA2MTYsLTIxMzUxMTI3NzUsLTExMTAwNjg0OD
-IsLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwtMTkxNjczMzU0Miwt
-OTQxNjAwOTMzLDEwODIxMjg2MTcsLTE0MjU0Nzk0OTEsMTAwMj
-c2NDg4MywtMTQ3NDE1MTI0MSwtMTU2ODE3MjcxNiwtMTA5MzQ1
-MzgyMCwtOTA0NDMxOTIwXX0=
+eyJoaXN0b3J5IjpbLTE5NTAyNzQ4MTcsLTIxMTgyMTk3MjMsMT
+Y2OTQ3MTg3Nyw4MzUwOTc0NjMsLTIwMjU0ODUzNjEsLTcyODc5
+OTMwNiwtNDU3NTUzOTI1LDE1NzYxNzA2MTYsLTIxMzUxMTI3Nz
+UsLTExMTAwNjg0ODIsLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwt
+MTkxNjczMzU0MiwtOTQxNjAwOTMzLDEwODIxMjg2MTcsLTE0Mj
+U0Nzk0OTEsMTAwMjc2NDg4MywtMTQ3NDE1MTI0MSwtMTU2ODE3
+MjcxNiwtMTA5MzQ1MzgyMF19
 -->

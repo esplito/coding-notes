@@ -109,7 +109,7 @@ function Distance({x, y}) {
 }
 ```
 
-**Note: You can no longer check timings from React in the Performance tab in prod. You have to use the Profiler.** 
+**Note: You can no longer check timings from React in the Performance tab in prod. You have to use the Profiler to see React-specific stuff.** 
 Sources:  
  - https://stackoverflow.com/questions/52364829/no-timing-breakdown-in-user-timing-section-in-performance-tab-in-chrome-dev-tool
  -  https://github.com/facebook/react/pull/18417
@@ -122,11 +122,11 @@ Sources:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTQwMDk5MywtOTQ2NTc4MjI1LC0xOT
-E2NzMzNTQyLC05NDE2MDA5MzMsMTA4MjEyODYxNywtMTQyNTQ3
-OTQ5MSwxMDAyNzY0ODgzLC0xNDc0MTUxMjQxLC0xNTY4MTcyNz
-E2LC0xMDkzNDUzODIwLC05MDQ0MzE5MjAsLTE2MDAwOTk4ODUs
-LTcyNjM0NjcxNywtMTAwMDUwMjE3MSwxNDQ4MzYyNjExLC0xMT
-g2NTE1NTczLC05NzEyNzg1NjgsLTE1MTkzMDA1NTAsLTExMzM1
-ODAwMzIsLTE2Njk2MTM0ODBdfQ==
+eyJoaXN0b3J5IjpbNDE0ODY0NjE1LC05NDY1NzgyMjUsLTE5MT
+Y3MzM1NDIsLTk0MTYwMDkzMywxMDgyMTI4NjE3LC0xNDI1NDc5
+NDkxLDEwMDI3NjQ4ODMsLTE0NzQxNTEyNDEsLTE1NjgxNzI3MT
+YsLTEwOTM0NTM4MjAsLTkwNDQzMTkyMCwtMTYwMDA5OTg4NSwt
+NzI2MzQ2NzE3LC0xMDAwNTAyMTcxLDE0NDgzNjI2MTEsLTExOD
+Y1MTU1NzMsLTk3MTI3ODU2OCwtMTUxOTMwMDU1MCwtMTEzMzU4
+MDAzMiwtMTY2OTYxMzQ4MF19
 -->

@@ -220,11 +220,13 @@ ListItem = React.memo(ListItem, (prevProps, nextProps) => {
 });
 ```
 
+> You want to **be careful when you're doing these kinds of optimizations** and **ensure that you're reaping the benefits** that you're looking for out of this, which is why we're bringing up this performance profiler in production mode would be handy so you can compare the before and after and **see if it's worth the complexity that you've added to your codebase**. - Dodds
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzAxMTc2NSwtMTc5MDcyMDE0NSwxMT
+eyJoaXN0b3J5IjpbMTg3ODY2MTUyNSwtMTc5MDcyMDE0NSwxMT
 Q0NzM4NTQ2LC0xMDU0MTYwNTM4LDE4MTkwMjA0NDMsLTIxMTgy
 MTk3MjMsMTY2OTQ3MTg3Nyw4MzUwOTc0NjMsLTIwMjU0ODUzNj
 EsLTcyODc5OTMwNiwtNDU3NTUzOTI1LDE1NzYxNzA2MTYsLTIx

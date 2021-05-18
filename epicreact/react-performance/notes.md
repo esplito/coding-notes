@@ -121,20 +121,21 @@ Sources:
 
 **Extra credit 2: Put getItems into a Web Worker**
 
-Here's a comparison of the fps and execution time when only using `useMemo` and when using a web worker.
+Here's a comparison of the fps and execution time when only using `useMemo` and when using a web worker. (in prod build with 6x CPU)
 
 |  | useMemo | Web Worker |
 |--|--|--|
+| **Execution time** | 23.5 ms | 2.2 ms |
 | **FPS** |  |  |
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzU4OTIxMiwtMTExMDA2ODQ4MiwtMT
-M4MjcyNzg5NywtOTQ2NTc4MjI1LC0xOTE2NzMzNTQyLC05NDE2
-MDA5MzMsMTA4MjEyODYxNywtMTQyNTQ3OTQ5MSwxMDAyNzY0OD
-gzLC0xNDc0MTUxMjQxLC0xNTY4MTcyNzE2LC0xMDkzNDUzODIw
-LC05MDQ0MzE5MjAsLTE2MDAwOTk4ODUsLTcyNjM0NjcxNywtMT
-AwMDUwMjE3MSwxNDQ4MzYyNjExLC0xMTg2NTE1NTczLC05NzEy
-Nzg1NjgsLTE1MTkzMDA1NTBdfQ==
+eyJoaXN0b3J5IjpbNjY5MzAyNDkwLC0xMTEwMDY4NDgyLC0xMz
+gyNzI3ODk3LC05NDY1NzgyMjUsLTE5MTY3MzM1NDIsLTk0MTYw
+MDkzMywxMDgyMTI4NjE3LC0xNDI1NDc5NDkxLDEwMDI3NjQ4OD
+MsLTE0NzQxNTEyNDEsLTE1NjgxNzI3MTYsLTEwOTM0NTM4MjAs
+LTkwNDQzMTkyMCwtMTYwMDA5OTg4NSwtNzI2MzQ2NzE3LC0xMD
+AwNTAyMTcxLDE0NDgzNjI2MTEsLTExODY1MTU1NzMsLTk3MTI3
+ODU2OCwtMTUxOTMwMDU1MF19
 -->

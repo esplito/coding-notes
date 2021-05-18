@@ -125,17 +125,17 @@ Here's a comparison of the fps and execution time when only using `useMemo` and 
 
 |  | useMemo | Web Worker |
 |--|--|--|
-| **Execution time** | 23.5 ms | 2.2 ms |
-| **FPS** |  |  |
+| **Execution time** | 23.5 ms | 12.4 ms |
+| **FPS** | 43 fps | 81 fps |
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5MzAyNDkwLC0xMTEwMDY4NDgyLC0xMz
-gyNzI3ODk3LC05NDY1NzgyMjUsLTE5MTY3MzM1NDIsLTk0MTYw
-MDkzMywxMDgyMTI4NjE3LC0xNDI1NDc5NDkxLDEwMDI3NjQ4OD
-MsLTE0NzQxNTEyNDEsLTE1NjgxNzI3MTYsLTEwOTM0NTM4MjAs
-LTkwNDQzMTkyMCwtMTYwMDA5OTg4NSwtNzI2MzQ2NzE3LC0xMD
-AwNTAyMTcxLDE0NDgzNjI2MTEsLTExODY1MTU1NzMsLTk3MTI3
-ODU2OCwtMTUxOTMwMDU1MF19
+eyJoaXN0b3J5IjpbLTIxMzUxMTI3NzUsLTExMTAwNjg0ODIsLT
+EzODI3Mjc4OTcsLTk0NjU3ODIyNSwtMTkxNjczMzU0MiwtOTQx
+NjAwOTMzLDEwODIxMjg2MTcsLTE0MjU0Nzk0OTEsMTAwMjc2ND
+g4MywtMTQ3NDE1MTI0MSwtMTU2ODE3MjcxNiwtMTA5MzQ1Mzgy
+MCwtOTA0NDMxOTIwLC0xNjAwMDk5ODg1LC03MjYzNDY3MTcsLT
+EwMDA1MDIxNzEsMTQ0ODM2MjYxMSwtMTE4NjUxNTU3MywtOTcx
+Mjc4NTY4LC0xNTE5MzAwNTUwXX0=
 -->

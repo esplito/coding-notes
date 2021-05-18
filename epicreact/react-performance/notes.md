@@ -123,11 +123,14 @@ Sources:
 
 Here's a comparison of the fps and execution time when only using `useMemo` and when using a web worker.
 
-Stats before using Web Worker:
+|  | useMemo | Web Worker |
+|--|--|--|
+| **FPS** |  |  |
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Mjc4NTgzNCwtMTExMDA2ODQ4MiwtMT
+eyJoaXN0b3J5IjpbLTU1MzU4OTIxMiwtMTExMDA2ODQ4MiwtMT
 M4MjcyNzg5NywtOTQ2NTc4MjI1LC0xOTE2NzMzNTQyLC05NDE2
 MDA5MzMsMTA4MjEyODYxNywtMTQyNTQ3OTQ5MSwxMDAyNzY0OD
 gzLC0xNDc0MTUxMjQxLC0xNTY4MTcyNzE2LC0xMDkzNDUzODIw

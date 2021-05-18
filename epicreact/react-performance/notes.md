@@ -164,7 +164,7 @@ Lifecycle of react app:
 > 
 > The reason that's necessary is that sometimes there's some state change that happens that triggers a re-render of a component when that component actually doesn't have any updates to the DOM to make. That's what we call an unnecessary re-render. - Dodds
 
-Each step in the React Profiler is a `commit`.
+Each step in the [React Profiler](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html) is a `commit`.
 
 Remember that sometimes the re-rendering isn't the actual performance problem. It can be something else that is causing the issue, so don't just throw `React.memo` on everything that you see. More about this in Kent's post here: https://kentcdodds.com/blog/fix-the-slow-render-before-you-fix-the-re-render
 
@@ -258,11 +258,11 @@ See an example here: https://react-performance.netlify.app/4
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjY0NDA5NSwtNzc1NTA1MTE0LDE1NT
-cxOTQxNzAsLTEzODIyNzc1NzUsNTUyMjAyNDAsLTE3OTA3MjAx
-NDUsMTE0NDczODU0NiwtMTA1NDE2MDUzOCwxODE5MDIwNDQzLC
-0yMTE4MjE5NzIzLDE2Njk0NzE4NzcsODM1MDk3NDYzLC0yMDI1
-NDg1MzYxLC03Mjg3OTkzMDYsLTQ1NzU1MzkyNSwxNTc2MTcwNj
-E2LC0yMTM1MTEyNzc1LC0xMTEwMDY4NDgyLC0xMzgyNzI3ODk3
-LC05NDY1NzgyMjVdfQ==
+eyJoaXN0b3J5IjpbMTQ0MTQ5Nzc4NiwtODcyNjQ0MDk1LC03Nz
+U1MDUxMTQsMTU1NzE5NDE3MCwtMTM4MjI3NzU3NSw1NTIyMDI0
+MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NTQ2LC0xMDU0MTYwNTM4LD
+E4MTkwMjA0NDMsLTIxMTgyMTk3MjMsMTY2OTQ3MTg3Nyw4MzUw
+OTc0NjMsLTIwMjU0ODUzNjEsLTcyODc5OTMwNiwtNDU3NTUzOT
+I1LDE1NzYxNzA2MTYsLTIxMzUxMTI3NzUsLTExMTAwNjg0ODIs
+LTEzODI3Mjc4OTddfQ==
 -->

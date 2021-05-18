@@ -246,15 +246,17 @@ This means that they now are primitive values inside `<ListItem>` and React's bu
 
 >The takeaway here is if you have a particular component and you're rendering a ton of instances of those, try to do calculations a little higher in the tree, so you're only passing primitive values that when changed, will trigger a DOM update. That way, you don't worry about breaking memoization or having to create a custom comparator. - Dodds
 
+### Window Large Lists with react-virtual
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzE5NDE3MCwtMTM4MjI3NzU3NSw1NT
-IyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NTQ2LC0xMDU0MTYw
-NTM4LDE4MTkwMjA0NDMsLTIxMTgyMTk3MjMsMTY2OTQ3MTg3Ny
-w4MzUwOTc0NjMsLTIwMjU0ODUzNjEsLTcyODc5OTMwNiwtNDU3
-NTUzOTI1LDE1NzYxNzA2MTYsLTIxMzUxMTI3NzUsLTExMTAwNj
-g0ODIsLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwtMTkxNjczMzU0
-MiwtOTQxNjAwOTMzXX0=
+eyJoaXN0b3J5IjpbLTQzNTc5OTg2OCwxNTU3MTk0MTcwLC0xMz
+gyMjc3NTc1LDU1MjIwMjQwLC0xNzkwNzIwMTQ1LDExNDQ3Mzg1
+NDYsLTEwNTQxNjA1MzgsMTgxOTAyMDQ0MywtMjExODIxOTcyMy
+wxNjY5NDcxODc3LDgzNTA5NzQ2MywtMjAyNTQ4NTM2MSwtNzI4
+Nzk5MzA2LC00NTc1NTM5MjUsMTU3NjE3MDYxNiwtMjEzNTExMj
+c3NSwtMTExMDA2ODQ4MiwtMTM4MjcyNzg5NywtOTQ2NTc4MjI1
+LC0xOTE2NzMzNTQyXX0=
 -->

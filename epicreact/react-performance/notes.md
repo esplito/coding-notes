@@ -200,11 +200,13 @@ Example solution from the exercise:
 ListItem = React.memo(ListItem, (prevProps, nextProps) => {
   // true means do NOT rerender
   // false means DO rerender
+  
   // these ones are easy if any of these changed, we should re-render
   if (prevProps.getItemProps !== nextProps.getItemProps) return false;
   if (prevProps.item !== nextProps.item) return false;
   if (prevProps.index !== nextProps.index) return false;
-  if (prevProps.selectedItem !== nextProps.selectedItem) return false; // this is trickier. We should only re-render if this list item:
+  if (prevProps.selectedItem !== nextProps.selectedItem) return false; 
+  // this is trickier. We should only re-render if this list item:
   // 1. was highlighted before and now it's not
   // 2. was not highlighted before and now it is
 
@@ -220,7 +222,7 @@ ListItem = React.memo(ListItem, (prevProps, nextProps) => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzYyMzkxMjksMTE0NDczODU0NiwtMT
+eyJoaXN0b3J5IjpbLTExNTkxMTIzMDksMTE0NDczODU0NiwtMT
 A1NDE2MDUzOCwxODE5MDIwNDQzLC0yMTE4MjE5NzIzLDE2Njk0
 NzE4NzcsODM1MDk3NDYzLC0yMDI1NDg1MzYxLC03Mjg3OTkzMD
 YsLTQ1NzU1MzkyNSwxNTc2MTcwNjE2LC0yMTM1MTEyNzc1LC0x

@@ -206,6 +206,7 @@ ListItem = React.memo(ListItem, (prevProps, nextProps) => {
   if (prevProps.item !== nextProps.item) return false;
   if (prevProps.index !== nextProps.index) return false;
   if (prevProps.selectedItem !== nextProps.selectedItem) return false; 
+  
   // this is trickier. We should only re-render if this list item:
   // 1. was highlighted before and now it's not
   // 2. was not highlighted before and now it is
@@ -222,11 +223,11 @@ ListItem = React.memo(ListItem, (prevProps, nextProps) => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkxMTIzMDksMTE0NDczODU0NiwtMT
-A1NDE2MDUzOCwxODE5MDIwNDQzLC0yMTE4MjE5NzIzLDE2Njk0
-NzE4NzcsODM1MDk3NDYzLC0yMDI1NDg1MzYxLC03Mjg3OTkzMD
-YsLTQ1NzU1MzkyNSwxNTc2MTcwNjE2LC0yMTM1MTEyNzc1LC0x
-MTEwMDY4NDgyLC0xMzgyNzI3ODk3LC05NDY1NzgyMjUsLTE5MT
-Y3MzM1NDIsLTk0MTYwMDkzMywxMDgyMTI4NjE3LC0xNDI1NDc5
-NDkxLDEwMDI3NjQ4ODNdfQ==
+eyJoaXN0b3J5IjpbNjkyNzc5ODA1LDExNDQ3Mzg1NDYsLTEwNT
+QxNjA1MzgsMTgxOTAyMDQ0MywtMjExODIxOTcyMywxNjY5NDcx
+ODc3LDgzNTA5NzQ2MywtMjAyNTQ4NTM2MSwtNzI4Nzk5MzA2LC
+00NTc1NTM5MjUsMTU3NjE3MDYxNiwtMjEzNTExMjc3NSwtMTEx
+MDA2ODQ4MiwtMTM4MjcyNzg5NywtOTQ2NTc4MjI1LC0xOTE2Nz
+MzNTQyLC05NDE2MDA5MzMsMTA4MjEyODYxNywtMTQyNTQ3OTQ5
+MSwxMDAyNzY0ODgzXX0=
 -->

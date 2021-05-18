@@ -142,15 +142,22 @@ Screenshot using Web Worker:
 
 ### React.memo for Reducing re-renders
 
+Lifecycle of react app:
+```
+→  render → reconciliation → commit
+         ↖                   ↙
+              state change
+```
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODc5OTMwNiwtNDU3NTUzOTI1LDE1Nz
-YxNzA2MTYsLTIxMzUxMTI3NzUsLTExMTAwNjg0ODIsLTEzODI3
-Mjc4OTcsLTk0NjU3ODIyNSwtMTkxNjczMzU0MiwtOTQxNjAwOT
-MzLDEwODIxMjg2MTcsLTE0MjU0Nzk0OTEsMTAwMjc2NDg4Mywt
-MTQ3NDE1MTI0MSwtMTU2ODE3MjcxNiwtMTA5MzQ1MzgyMCwtOT
-A0NDMxOTIwLC0xNjAwMDk5ODg1LC03MjYzNDY3MTcsLTEwMDA1
-MDIxNzEsMTQ0ODM2MjYxMV19
+eyJoaXN0b3J5IjpbLTQxMTA0MTAyNSwtNzI4Nzk5MzA2LC00NT
+c1NTM5MjUsMTU3NjE3MDYxNiwtMjEzNTExMjc3NSwtMTExMDA2
+ODQ4MiwtMTM4MjcyNzg5NywtOTQ2NTc4MjI1LC0xOTE2NzMzNT
+QyLC05NDE2MDA5MzMsMTA4MjEyODYxNywtMTQyNTQ3OTQ5MSwx
+MDAyNzY0ODgzLC0xNDc0MTUxMjQxLC0xNTY4MTcyNzE2LC0xMD
+kzNDUzODIwLC05MDQ0MzE5MjAsLTE2MDAwOTk4ODUsLTcyNjM0
+NjcxNywtMTAwMDUwMjE3MV19
 -->

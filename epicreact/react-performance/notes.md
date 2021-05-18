@@ -250,15 +250,19 @@ This means that they now are primitive values inside `<ListItem>` and React's bu
 
 > Mostly, what I want you to get out of this exercise is the understanding that just because you have a ton of stuff that you need to display to the user doesn't mean that you have to render all of the stuff at the same time if it's not all actually in the visible space for the user to interact with. - Dodds
 
-In this exercise we use a library called [react-virtual](https://github.com/tannerlinsley/react-virtual) to be able to do "windowing". This means that we will only render the items visible on the screen + some additional rows
+In this exercise we use a library called [react-virtual](https://github.com/tannerlinsley/react-virtual) to be able to do "windowing". This means that we will only render the items visible on the screen + some additional items so that when a user scrolls, they will not notice that we are loading in more items as we scroll through the list.
+
+See an example here: https://react-performance.netlify.app/4
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI4MDUxNDAwLC03NzU1MDUxMTQsMTU1Nz
-E5NDE3MCwtMTM4MjI3NzU3NSw1NTIyMDI0MCwtMTc5MDcyMDE0
-NSwxMTQ0NzM4NTQ2LC0xMDU0MTYwNTM4LDE4MTkwMjA0NDMsLT
-IxMTgyMTk3MjMsMTY2OTQ3MTg3Nyw4MzUwOTc0NjMsLTIwMjU0
-ODUzNjEsLTcyODc5OTMwNiwtNDU3NTUzOTI1LDE1NzYxNzA2MT
-YsLTIxMzUxMTI3NzUsLTExMTAwNjg0ODIsLTEzODI3Mjc4OTcs
-LTk0NjU3ODIyNV19
+eyJoaXN0b3J5IjpbLTg3MjY0NDA5NSwtNzc1NTA1MTE0LDE1NT
+cxOTQxNzAsLTEzODIyNzc1NzUsNTUyMjAyNDAsLTE3OTA3MjAx
+NDUsMTE0NDczODU0NiwtMTA1NDE2MDUzOCwxODE5MDIwNDQzLC
+0yMTE4MjE5NzIzLDE2Njk0NzE4NzcsODM1MDk3NDYzLC0yMDI1
+NDg1MzYxLC03Mjg3OTkzMDYsLTQ1NzU1MzkyNSwxNTc2MTcwNj
+E2LC0yMTM1MTEyNzc1LC0xMTEwMDY4NDgyLC0xMzgyNzI3ODk3
+LC05NDY1NzgyMjVdfQ==
 -->

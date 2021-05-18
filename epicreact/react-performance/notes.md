@@ -140,14 +140,17 @@ Screenshot useMemo:
 Screenshot using Web Worker:
 ![Screenshot of the performance tab when clicking "force re-render" in example app](https://github.com/esplito/coding-notes/blob/master/with_web_worker_6x-slowdown.png?raw=true)
 
+### React.memo for Reducing re-renders
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzU1MzkyNSwxNTc2MTcwNjE2LC0yMT
-M1MTEyNzc1LC0xMTEwMDY4NDgyLC0xMzgyNzI3ODk3LC05NDY1
-NzgyMjUsLTE5MTY3MzM1NDIsLTk0MTYwMDkzMywxMDgyMTI4Nj
-E3LC0xNDI1NDc5NDkxLDEwMDI3NjQ4ODMsLTE0NzQxNTEyNDEs
-LTE1NjgxNzI3MTYsLTEwOTM0NTM4MjAsLTkwNDQzMTkyMCwtMT
-YwMDA5OTg4NSwtNzI2MzQ2NzE3LC0xMDAwNTAyMTcxLDE0NDgz
-NjI2MTEsLTExODY1MTU1NzNdfQ==
+eyJoaXN0b3J5IjpbLTcyODc5OTMwNiwtNDU3NTUzOTI1LDE1Nz
+YxNzA2MTYsLTIxMzUxMTI3NzUsLTExMTAwNjg0ODIsLTEzODI3
+Mjc4OTcsLTk0NjU3ODIyNSwtMTkxNjczMzU0MiwtOTQxNjAwOT
+MzLDEwODIxMjg2MTcsLTE0MjU0Nzk0OTEsMTAwMjc2NDg4Mywt
+MTQ3NDE1MTI0MSwtMTU2ODE3MjcxNiwtMTA5MzQ1MzgyMCwtOT
+A0NDMxOTIwLC0xNjAwMDk5ODg1LC03MjYzNDY3MTcsLTEwMDA1
+MDIxNzEsMTQ0ODM2MjYxMV19
 -->

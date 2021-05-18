@@ -244,13 +244,15 @@ Example code:
 ```
 This means that they now are primitive values inside `<ListItem>` and React's built-in comparison function will kick in. This also means that only the selected item needs a re-render when you select an item.
 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODIyNzc1NzUsNTUyMjAyNDAsLTE3OT
-A3MjAxNDUsMTE0NDczODU0NiwtMTA1NDE2MDUzOCwxODE5MDIw
-NDQzLC0yMTE4MjE5NzIzLDE2Njk0NzE4NzcsODM1MDk3NDYzLC
-0yMDI1NDg1MzYxLC03Mjg3OTkzMDYsLTQ1NzU1MzkyNSwxNTc2
-MTcwNjE2LC0yMTM1MTEyNzc1LC0xMTEwMDY4NDgyLC0xMzgyNz
-I3ODk3LC05NDY1NzgyMjUsLTE5MTY3MzM1NDIsLTk0MTYwMDkz
-MywxMDgyMTI4NjE3XX0=
+eyJoaXN0b3J5IjpbLTExNjkwOTM5OTUsLTEzODIyNzc1NzUsNT
+UyMjAyNDAsLTE3OTA3MjAxNDUsMTE0NDczODU0NiwtMTA1NDE2
+MDUzOCwxODE5MDIwNDQzLC0yMTE4MjE5NzIzLDE2Njk0NzE4Nz
+csODM1MDk3NDYzLC0yMDI1NDg1MzYxLC03Mjg3OTkzMDYsLTQ1
+NzU1MzkyNSwxNTc2MTcwNjE2LC0yMTM1MTEyNzc1LC0xMTEwMD
+Y4NDgyLC0xMzgyNzI3ODk3LC05NDY1NzgyMjUsLTE5MTY3MzM1
+NDIsLTk0MTYwMDkzM119
 -->

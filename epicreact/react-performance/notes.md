@@ -225,16 +225,32 @@ ListItem = React.memo(ListItem, (prevProps, nextProps) => {
 **Extra credit 2: pass only primitive values**
 > Wouldn’t it be even better to not have to provide our custom memoization comparator function and still get the perf gains? Definitely! - Dodds
 
-To do this we have to pass some values that are pre-computed. In the example exercise we will instead figure out `isSelected` and `isHighlighted` when we pass them as props to `<ListItem>` 
+To do this we have to pass some values that are pre-computed. In the example exercise we will instead figure out `isSelected` and `isHighlighted` when we pass them as props to `<ListItem>`. 
 
+Example code:
+```jsx
+{items.map((item, index) => (
+  <ListItem
+    key={item.id}
+    getItemProps={getItemProps}
+    item={item}
+    index={index}
+    isSelected={selectedItem?.id === item.id} // Extra credit 2: pass only primitive values
+    isHighlighted={highlightedIndex === index} // Extra credit 2: pass only primitive values
+  >
+    {item.name}
+  </ListItem>
+))}
+```
+This means that they now are primitive values inside
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDkwMTUyOCw1NTIyMDI0MCwtMTc5MD
-cyMDE0NSwxMTQ0NzM4NTQ2LC0xMDU0MTYwNTM4LDE4MTkwMjA0
-NDMsLTIxMTgyMTk3MjMsMTY2OTQ3MTg3Nyw4MzUwOTc0NjMsLT
-IwMjU0ODUzNjEsLTcyODc5OTMwNiwtNDU3NTUzOTI1LDE1NzYx
-NzA2MTYsLTIxMzUxMTI3NzUsLTExMTAwNjg0ODIsLTEzODI3Mj
-c4OTcsLTk0NjU3ODIyNSwtMTkxNjczMzU0MiwtOTQxNjAwOTMz
-LDEwODIxMjg2MTddfQ==
+eyJoaXN0b3J5IjpbNTM0Nzc4NDQ0LDU1MjIwMjQwLC0xNzkwNz
+IwMTQ1LDExNDQ3Mzg1NDYsLTEwNTQxNjA1MzgsMTgxOTAyMDQ0
+MywtMjExODIxOTcyMywxNjY5NDcxODc3LDgzNTA5NzQ2MywtMj
+AyNTQ4NTM2MSwtNzI4Nzk5MzA2LC00NTc1NTM5MjUsMTU3NjE3
+MDYxNiwtMjEzNTExMjc3NSwtMTExMDA2ODQ4MiwtMTM4MjcyNz
+g5NywtOTQ2NTc4MjI1LC0xOTE2NzMzNTQyLC05NDE2MDA5MzMs
+MTA4MjEyODYxN119
 -->

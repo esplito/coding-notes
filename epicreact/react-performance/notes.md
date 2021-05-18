@@ -71,12 +71,16 @@ The red bar is all of the unused code that we have in the different files.
 > 
 > Just try to get what you're actually testing to be as close to the end user's experience as possible so you can get more real numbers.  - Dodds
 
+### useMemo for Expensive Calculations
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjc2NDg4MywtMTQ3NDE1MTI0MSwtMT
-U2ODE3MjcxNiwtMTA5MzQ1MzgyMCwtOTA0NDMxOTIwLC0xNjAw
-MDk5ODg1LC03MjYzNDY3MTcsLTEwMDA1MDIxNzEsMTQ0ODM2Mj
-YxMSwtMTE4NjUxNTU3MywtOTcxMjc4NTY4LC0xNTE5MzAwNTUw
-LC0xMTMzNTgwMDMyLC0xNjY5NjEzNDgwLC01MzQ2ODQ1ODFdfQ
-==
+eyJoaXN0b3J5IjpbNTE0MDc4OTA1LDEwMDI3NjQ4ODMsLTE0Nz
+QxNTEyNDEsLTE1NjgxNzI3MTYsLTEwOTM0NTM4MjAsLTkwNDQz
+MTkyMCwtMTYwMDA5OTg4NSwtNzI2MzQ2NzE3LC0xMDAwNTAyMT
+cxLDE0NDgzNjI2MTEsLTExODY1MTU1NzMsLTk3MTI3ODU2OCwt
+MTUxOTMwMDU1MCwtMTEzMzU4MDAzMiwtMTY2OTYxMzQ4MCwtNT
+M0Njg0NTgxXX0=
 -->

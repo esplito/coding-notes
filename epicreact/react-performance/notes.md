@@ -250,15 +250,15 @@ This means that they now are primitive values inside `<ListItem>` and React's bu
 
 > Mostly, what I want you to get out of this exercise is the understanding that just because you have a ton of stuff that you need to display to the user doesn't mean that you have to render all of the stuff at the same time if it's not all actually in the visible space for the user to interact with. - Dodds
 
-
+In this exercise we use a l
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTUwNTExNCwxNTU3MTk0MTcwLC0xMz
-gyMjc3NTc1LDU1MjIwMjQwLC0xNzkwNzIwMTQ1LDExNDQ3Mzg1
-NDYsLTEwNTQxNjA1MzgsMTgxOTAyMDQ0MywtMjExODIxOTcyMy
-wxNjY5NDcxODc3LDgzNTA5NzQ2MywtMjAyNTQ4NTM2MSwtNzI4
-Nzk5MzA2LC00NTc1NTM5MjUsMTU3NjE3MDYxNiwtMjEzNTExMj
-c3NSwtMTExMDA2ODQ4MiwtMTM4MjcyNzg5NywtOTQ2NTc4MjI1
-LC0xOTE2NzMzNTQyXX0=
+eyJoaXN0b3J5IjpbODMyNjAxNjk1LC03NzU1MDUxMTQsMTU1Nz
+E5NDE3MCwtMTM4MjI3NzU3NSw1NTIyMDI0MCwtMTc5MDcyMDE0
+NSwxMTQ0NzM4NTQ2LC0xMDU0MTYwNTM4LDE4MTkwMjA0NDMsLT
+IxMTgyMTk3MjMsMTY2OTQ3MTg3Nyw4MzUwOTc0NjMsLTIwMjU0
+ODUzNjEsLTcyODc5OTMwNiwtNDU3NTUzOTI1LDE1NzYxNzA2MT
+YsLTIxMzUxMTI3NzUsLTExMTAwNjg0ODIsLTEzODI3Mjc4OTcs
+LTk0NjU3ODIyNV19
 -->

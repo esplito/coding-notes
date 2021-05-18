@@ -121,6 +121,8 @@ Sources:
 
 **Extra credit 2: Put getItems into a Web Worker**
 
+Javascript is single-threaded. You want it on another thread? -> Use Web Workers!
+
 Here's a comparison of the fps and execution time when only using `useMemo` and when using a web worker. (in prod build with 6x CPU)
 
 |  | useMemo | Web Worker |
@@ -137,11 +139,11 @@ Screenshot using Web Worker:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjE3MDYxNiwtMjEzNTExMjc3NSwtMT
-ExMDA2ODQ4MiwtMTM4MjcyNzg5NywtOTQ2NTc4MjI1LC0xOTE2
-NzMzNTQyLC05NDE2MDA5MzMsMTA4MjEyODYxNywtMTQyNTQ3OT
-Q5MSwxMDAyNzY0ODgzLC0xNDc0MTUxMjQxLC0xNTY4MTcyNzE2
-LC0xMDkzNDUzODIwLC05MDQ0MzE5MjAsLTE2MDAwOTk4ODUsLT
-cyNjM0NjcxNywtMTAwMDUwMjE3MSwxNDQ4MzYyNjExLC0xMTg2
-NTE1NTczLC05NzEyNzg1NjhdfQ==
+eyJoaXN0b3J5IjpbMjY5MzY2NzYyLDE1NzYxNzA2MTYsLTIxMz
+UxMTI3NzUsLTExMTAwNjg0ODIsLTEzODI3Mjc4OTcsLTk0NjU3
+ODIyNSwtMTkxNjczMzU0MiwtOTQxNjAwOTMzLDEwODIxMjg2MT
+csLTE0MjU0Nzk0OTEsMTAwMjc2NDg4MywtMTQ3NDE1MTI0MSwt
+MTU2ODE3MjcxNiwtMTA5MzQ1MzgyMCwtOTA0NDMxOTIwLC0xNj
+AwMDk5ODg1LC03MjYzNDY3MTcsLTEwMDA1MDIxNzEsMTQ0ODM2
+MjYxMSwtMTE4NjUxNTU3M119
 -->

@@ -84,11 +84,22 @@ You can see "Timings" which is executed by React.
 If we have an expensive calculation (some kind of function) inside our component, it can lead to performance bottlenecks. This is because the calculation will be triggered on every render. So any time the component re-renders (like when a parent re-renders or some state changes) the function will be called. 
 
 Example from the course:
+```jsx
+function Distance({x, y}) {
+  const distance = calculateDistance(x, y)
+  return (
+    <div>
+      The distance between {x} and {y} is {distance}.
+    </div>
+  )
+}
+```
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwODQ4MDQ5LC0xNDI1NDc5NDkxLDEwMD
+eyJoaXN0b3J5IjpbMTUyNzM3NjM0LC0xNDI1NDc5NDkxLDEwMD
 I3NjQ4ODMsLTE0NzQxNTEyNDEsLTE1NjgxNzI3MTYsLTEwOTM0
 NTM4MjAsLTkwNDQzMTkyMCwtMTYwMDA5OTg4NSwtNzI2MzQ2Nz
 E3LC0xMDAwNTAyMTcxLDE0NDgzNjI2MTEsLTExODY1MTU1NzMs

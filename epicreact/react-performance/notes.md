@@ -176,17 +176,19 @@ When you use `React.memo` on a component it will look like this if the component
 
 ![Screenshot of React Profiler where the NameInput component is memoized and not re-rendered](https://github.com/esplito/coding-notes/blob/master/react-memo_component_not_rerendering.png?raw=true)
 
-In the example above, we clicked the `CountButton` and since we had used `React.memo` on `NameInput` this didn't re-rendered. (It re-rendered before, because the parent re-renders
+In the example above, we clicked the `CountButton` and since we had used `React.memo` on `NameInput` this didn't re-rendered. (It re-rendered before, because the parent re-renders when we press the `CountButton`)
+
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQwNTU5MzcsLTIxMTgyMTk3MjMsMT
-Y2OTQ3MTg3Nyw4MzUwOTc0NjMsLTIwMjU0ODUzNjEsLTcyODc5
-OTMwNiwtNDU3NTUzOTI1LDE1NzYxNzA2MTYsLTIxMzUxMTI3Nz
-UsLTExMTAwNjg0ODIsLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwt
-MTkxNjczMzU0MiwtOTQxNjAwOTMzLDEwODIxMjg2MTcsLTE0Mj
-U0Nzk0OTEsMTAwMjc2NDg4MywtMTQ3NDE1MTI0MSwtMTU2ODE3
-MjcxNiwtMTA5MzQ1MzgyMF19
+eyJoaXN0b3J5IjpbMTgxOTAyMDQ0MywtMjExODIxOTcyMywxNj
+Y5NDcxODc3LDgzNTA5NzQ2MywtMjAyNTQ4NTM2MSwtNzI4Nzk5
+MzA2LC00NTc1NTM5MjUsMTU3NjE3MDYxNiwtMjEzNTExMjc3NS
+wtMTExMDA2ODQ4MiwtMTM4MjcyNzg5NywtOTQ2NTc4MjI1LC0x
+OTE2NzMzNTQyLC05NDE2MDA5MzMsMTA4MjEyODYxNywtMTQyNT
+Q3OTQ5MSwxMDAyNzY0ODgzLC0xNDc0MTUxMjQxLC0xNTY4MTcy
+NzE2LC0xMDkzNDUzODIwXX0=
 -->

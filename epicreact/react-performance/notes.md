@@ -77,12 +77,14 @@ The red bar is all of the unused code that we have in the different files.
 
 We are using the "Performance"-tab in Chrome. Set the CPU to 6x slowdown -> Hit Record -> Do something -> Press "Stop". Then you can se some stats and screenshots.
 
+You can see "Timings" which is executed by React.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0NjQzNzg2LDEwMDI3NjQ4ODMsLTE0Nz
-QxNTEyNDEsLTE1NjgxNzI3MTYsLTEwOTM0NTM4MjAsLTkwNDQz
-MTkyMCwtMTYwMDA5OTg4NSwtNzI2MzQ2NzE3LC0xMDAwNTAyMT
-cxLDE0NDgzNjI2MTEsLTExODY1MTU1NzMsLTk3MTI3ODU2OCwt
-MTUxOTMwMDU1MCwtMTEzMzU4MDAzMiwtMTY2OTYxMzQ4MCwtNT
-M0Njg0NTgxXX0=
+eyJoaXN0b3J5IjpbLTE0MjU0Nzk0OTEsMTAwMjc2NDg4MywtMT
+Q3NDE1MTI0MSwtMTU2ODE3MjcxNiwtMTA5MzQ1MzgyMCwtOTA0
+NDMxOTIwLC0xNjAwMDk5ODg1LC03MjYzNDY3MTcsLTEwMDA1MD
+IxNzEsMTQ0ODM2MjYxMSwtMTE4NjUxNTU3MywtOTcxMjc4NTY4
+LC0xNTE5MzAwNTUwLC0xMTMzNTgwMDMyLC0xNjY5NjEzNDgwLC
+01MzQ2ODQ1ODFdfQ==
 -->

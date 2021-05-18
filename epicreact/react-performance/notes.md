@@ -142,12 +142,23 @@ Screenshot using Web Worker:
 
 ### React.memo for Reducing re-renders
 
-Lifecycle of react app:
 ```
+Lifecycle of react app:
+
 →  render → reconciliation → commit
          ↖                   ↙
               state change
 ```
+
+>-   The “render” phase: create React elements React.createElement
+>-   The “reconciliation” phase: compare previous elements with the new ones
+>-   The “commit” phase: update the DOM (if needed).
+
+>A React Component can re-render for any of the following reasons:
+>1.  Its props change
+>2.  Its internal state changes
+>3.  It is consuming context values which have changed
+>4.  Its parent re-renders
 
 > We want to give little hints to React to say, "Hey, I actually don't need to re-render."
 > 
@@ -158,11 +169,11 @@ Each step in the React Profiler is a `commit`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjU0ODUzNjEsLTcyODc5OTMwNiwtND
-U3NTUzOTI1LDE1NzYxNzA2MTYsLTIxMzUxMTI3NzUsLTExMTAw
-Njg0ODIsLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwtMTkxNjczMz
-U0MiwtOTQxNjAwOTMzLDEwODIxMjg2MTcsLTE0MjU0Nzk0OTEs
-MTAwMjc2NDg4MywtMTQ3NDE1MTI0MSwtMTU2ODE3MjcxNiwtMT
-A5MzQ1MzgyMCwtOTA0NDMxOTIwLC0xNjAwMDk5ODg1LC03MjYz
-NDY3MTcsLTEwMDA1MDIxNzFdfQ==
+eyJoaXN0b3J5IjpbLTk2MDc0NDQ0OCwtMjAyNTQ4NTM2MSwtNz
+I4Nzk5MzA2LC00NTc1NTM5MjUsMTU3NjE3MDYxNiwtMjEzNTEx
+Mjc3NSwtMTExMDA2ODQ4MiwtMTM4MjcyNzg5NywtOTQ2NTc4Mj
+I1LC0xOTE2NzMzNTQyLC05NDE2MDA5MzMsMTA4MjEyODYxNywt
+MTQyNTQ3OTQ5MSwxMDAyNzY0ODgzLC0xNDc0MTUxMjQxLC0xNT
+Y4MTcyNzE2LC0xMDkzNDUzODIwLC05MDQ0MzE5MjAsLTE2MDAw
+OTk4ODUsLTcyNjM0NjcxN119
 -->

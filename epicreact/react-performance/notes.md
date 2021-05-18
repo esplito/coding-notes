@@ -114,16 +114,17 @@ Sources:
  - https://stackoverflow.com/questions/52364829/no-timing-breakdown-in-user-timing-section-in-performance-tab-in-chrome-dev-tool
  -  https://github.com/facebook/react/pull/18417
 
-**Production Mode**
+**Extra credit 1: Production Mode**
 > If you want to have 60 frames a second, which is what we're going for so we can have a nice smooth experience for the human eye, then you need to nail 16 frames a second.
 > 
 > That 1,000 divided by 60 frames a second. That's going to be 16 milliseconds, thereabouts, for your JavaScript to run so that the browser can keep up and not drop any frames and resulting in a janky experience. - Dodds
 
+**Extra credit 2: Put getItems into a Web Worker**
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjI5ODA0NTksLTEzODI3Mjc4OTcsLT
+eyJoaXN0b3J5IjpbLTExMTAwNjg0ODIsLTEzODI3Mjc4OTcsLT
 k0NjU3ODIyNSwtMTkxNjczMzU0MiwtOTQxNjAwOTMzLDEwODIx
 Mjg2MTcsLTE0MjU0Nzk0OTEsMTAwMjc2NDg4MywtMTQ3NDE1MT
 I0MSwtMTU2ODE3MjcxNiwtMTA5MzQ1MzgyMCwtOTA0NDMxOTIw

@@ -168,16 +168,18 @@ Each step in the React Profiler is a `commit`.
 
 Remember that sometimes the re-rendering isn't the actual performance problem. It can be something else that is causing the issue, so don't just throw `React.memo` on everything that you see. More about this in Kent's post here: https://kentcdodds.com/blog/fix-the-slow-render-before-you-fix-the-re-render
 
+> Again, I want to mention that people can make the mistake of wrapping _everything_ in `React.memo` which can actually slow down your app in some cases and in all cases it makes your code more complex. - Dodds
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1MDk3NDYzLC0yMDI1NDg1MzYxLC03Mj
-g3OTkzMDYsLTQ1NzU1MzkyNSwxNTc2MTcwNjE2LC0yMTM1MTEy
-Nzc1LC0xMTEwMDY4NDgyLC0xMzgyNzI3ODk3LC05NDY1NzgyMj
-UsLTE5MTY3MzM1NDIsLTk0MTYwMDkzMywxMDgyMTI4NjE3LC0x
-NDI1NDc5NDkxLDEwMDI3NjQ4ODMsLTE0NzQxNTEyNDEsLTE1Nj
-gxNzI3MTYsLTEwOTM0NTM4MjAsLTkwNDQzMTkyMCwtMTYwMDA5
-OTg4NSwtNzI2MzQ2NzE3XX0=
+eyJoaXN0b3J5IjpbMTY2OTQ3MTg3Nyw4MzUwOTc0NjMsLTIwMj
+U0ODUzNjEsLTcyODc5OTMwNiwtNDU3NTUzOTI1LDE1NzYxNzA2
+MTYsLTIxMzUxMTI3NzUsLTExMTAwNjg0ODIsLTEzODI3Mjc4OT
+csLTk0NjU3ODIyNSwtMTkxNjczMzU0MiwtOTQxNjAwOTMzLDEw
+ODIxMjg2MTcsLTE0MjU0Nzk0OTEsMTAwMjc2NDg4MywtMTQ3ND
+E1MTI0MSwtMTU2ODE3MjcxNiwtMTA5MzQ1MzgyMCwtOTA0NDMx
+OTIwLC0xNjAwMDk5ODg1XX0=
 -->

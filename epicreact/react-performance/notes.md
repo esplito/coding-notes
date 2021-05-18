@@ -166,10 +166,12 @@ Lifecycle of react app:
 
 Each step in the React Profiler is a `commit`.
 
+Remember that sometimes the re-rendering isn't the actual performance problem. It can be something else that is causing the issue, so don't just throw `React.memo` 
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDc0NDQ0OCwtMjAyNTQ4NTM2MSwtNz
+eyJoaXN0b3J5IjpbLTc5MDMwMzc0MSwtMjAyNTQ4NTM2MSwtNz
 I4Nzk5MzA2LC00NTc1NTM5MjUsMTU3NjE3MDYxNiwtMjEzNTEx
 Mjc3NSwtMTExMDA2ODQ4MiwtMTM4MjcyNzg5NywtOTQ2NTc4Mj
 I1LC0xOTE2NzMzNTQyLC05NDE2MDA5MzMsMTA4MjEyODYxNywt

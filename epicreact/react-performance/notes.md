@@ -244,15 +244,17 @@ Example code:
 ```
 This means that they now are primitive values inside `<ListItem>` and React's built-in comparison function will kick in. This also means that only the selected item needs a re-render when you select an item.
 
+>The takeaway here is if you have a particular component and you're rendering a ton of instances of those, try to do calculations a little higher in the tree, so you're only passing primitive values that when changed, will trigger a DOM update. That way, you don't worry about breaking memoization or having to create a custom comparator. - Dodds
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjkwOTM5OTUsLTEzODIyNzc1NzUsNT
-UyMjAyNDAsLTE3OTA3MjAxNDUsMTE0NDczODU0NiwtMTA1NDE2
-MDUzOCwxODE5MDIwNDQzLC0yMTE4MjE5NzIzLDE2Njk0NzE4Nz
-csODM1MDk3NDYzLC0yMDI1NDg1MzYxLC03Mjg3OTkzMDYsLTQ1
-NzU1MzkyNSwxNTc2MTcwNjE2LC0yMTM1MTEyNzc1LC0xMTEwMD
-Y4NDgyLC0xMzgyNzI3ODk3LC05NDY1NzgyMjUsLTE5MTY3MzM1
-NDIsLTk0MTYwMDkzM119
+eyJoaXN0b3J5IjpbMTU1NzE5NDE3MCwtMTM4MjI3NzU3NSw1NT
+IyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NTQ2LC0xMDU0MTYw
+NTM4LDE4MTkwMjA0NDMsLTIxMTgyMTk3MjMsMTY2OTQ3MTg3Ny
+w4MzUwOTc0NjMsLTIwMjU0ODUzNjEsLTcyODc5OTMwNiwtNDU3
+NTUzOTI1LDE1NzYxNzA2MTYsLTIxMzUxMTI3NzUsLTExMTAwNj
+g0ODIsLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwtMTkxNjczMzU0
+MiwtOTQxNjAwOTMzXX0=
 -->

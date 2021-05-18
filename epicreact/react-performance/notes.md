@@ -129,18 +129,19 @@ Here's a comparison of the fps and execution time when only using `useMemo` and 
 | **FPS** | 43 fps | 81 fps |
 
 Screenshot useMemo:
-![enter image description here](https://github.com/esplito/coding-notes/blob/master/with_usememo_no_web_worker_6x-slowdown.png?raw=true)
+![Screenshot of the performance tab when clicking "force re-render" in example app](https://github.com/esplito/coding-notes/blob/master/with_usememo_no_web_worker_6x-slowdown.png?raw=true)
 
-Screenshot Web Worker:
-![Screenshot of ](https://github.com/esplito/coding-notes/blob/master/with_web_worker_6x-slowdown.png?raw=true)
+Screenshot using Web Worker:
+![Screenshot of the performance tab when clicking "force re-render" in example app](https://github.com/esplito/coding-notes/blob/master/with_web_worker_6x-slowdown.png?raw=true)
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDUzNzk3NTAsLTIxMzUxMTI3NzUsLT
-ExMTAwNjg0ODIsLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwtMTkx
-NjczMzU0MiwtOTQxNjAwOTMzLDEwODIxMjg2MTcsLTE0MjU0Nz
-k0OTEsMTAwMjc2NDg4MywtMTQ3NDE1MTI0MSwtMTU2ODE3Mjcx
-NiwtMTA5MzQ1MzgyMCwtOTA0NDMxOTIwLC0xNjAwMDk5ODg1LC
-03MjYzNDY3MTcsLTEwMDA1MDIxNzEsMTQ0ODM2MjYxMSwtMTE4
-NjUxNTU3MywtOTcxMjc4NTY4XX0=
+eyJoaXN0b3J5IjpbMTU3NjE3MDYxNiwtMjEzNTExMjc3NSwtMT
+ExMDA2ODQ4MiwtMTM4MjcyNzg5NywtOTQ2NTc4MjI1LC0xOTE2
+NzMzNTQyLC05NDE2MDA5MzMsMTA4MjEyODYxNywtMTQyNTQ3OT
+Q5MSwxMDAyNzY0ODgzLC0xNDc0MTUxMjQxLC0xNTY4MTcyNzE2
+LC0xMDkzNDUzODIwLC05MDQ0MzE5MjAsLTE2MDAwOTk4ODUsLT
+cyNjM0NjcxNywtMTAwMDUwMjE3MSwxNDQ4MzYyNjExLC0xMTg2
+NTE1NTczLC05NzEyNzg1NjhdfQ==
 -->

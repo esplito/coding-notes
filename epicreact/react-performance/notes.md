@@ -153,9 +153,12 @@ Lifecycle of react app:
 > 
 > The reason that's necessary is that sometimes there's some state change that happens that triggers a re-render of a component when that component actually doesn't have any updates to the DOM to make. That's what we call an unnecessary re-render. - Dodds
 
+Each step in the React Profiler is a `commit`.
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzgyNTE3ODYsLTcyODc5OTMwNiwtND
+eyJoaXN0b3J5IjpbLTIwMjU0ODUzNjEsLTcyODc5OTMwNiwtND
 U3NTUzOTI1LDE1NzYxNzA2MTYsLTIxMzUxMTI3NzUsLTExMTAw
 Njg0ODIsLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwtMTkxNjczMz
 U0MiwtOTQxNjAwOTMzLDEwODIxMjg2MTcsLTE0MjU0Nzk0OTEs

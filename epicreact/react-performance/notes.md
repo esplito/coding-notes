@@ -150,15 +150,16 @@ Lifecycle of react app:
 ```
 
 > We want to give little hints to React to say, "Hey, I actually don't need to re-render."
+> 
 > The reason that's necessary is that sometimes there's some state change that happens that triggers a re-render of a component when that component actually doesn't have any updates to the DOM to make. That's what we call an unnecessary re-render. - Dodds
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTQ5MjkyNiwtNzI4Nzk5MzA2LC00NT
-c1NTM5MjUsMTU3NjE3MDYxNiwtMjEzNTExMjc3NSwtMTExMDA2
-ODQ4MiwtMTM4MjcyNzg5NywtOTQ2NTc4MjI1LC0xOTE2NzMzNT
-QyLC05NDE2MDA5MzMsMTA4MjEyODYxNywtMTQyNTQ3OTQ5MSwx
-MDAyNzY0ODgzLC0xNDc0MTUxMjQxLC0xNTY4MTcyNzE2LC0xMD
-kzNDUzODIwLC05MDQ0MzE5MjAsLTE2MDAwOTk4ODUsLTcyNjM0
-NjcxNywtMTAwMDUwMjE3MV19
+eyJoaXN0b3J5IjpbLTE0MzgyNTE3ODYsLTcyODc5OTMwNiwtND
+U3NTUzOTI1LDE1NzYxNzA2MTYsLTIxMzUxMTI3NzUsLTExMTAw
+Njg0ODIsLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwtMTkxNjczMz
+U0MiwtOTQxNjAwOTMzLDEwODIxMjg2MTcsLTE0MjU0Nzk0OTEs
+MTAwMjc2NDg4MywtMTQ3NDE1MTI0MSwtMTU2ODE3MjcxNiwtMT
+A5MzQ1MzgyMCwtOTA0NDMxOTIwLC0xNjAwMDk5ODg1LC03MjYz
+NDY3MTcsLTEwMDA1MDIxNzFdfQ==
 -->

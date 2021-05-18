@@ -95,18 +95,27 @@ function Distance({x, y}) {
 }
 ```
 
-We can then wrap the function with `useMemo` so that the function only will be called when the dependencies change.
+We can then wrap the function with `useMemo` so that the function only will be called when the dependencies change. (This would be if `x` or `y` changes in the example)
 
 Example from the course:
-
+```jsx
+function Distance({x, y}) {
+  const distance = React.useMemo(() => calculateDistance(x, y), [x, y])
+  return (
+    <div>
+      The distance between {x} and {y} is {distance}.
+    </div>
+  )
+}
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTc2NjI2ODksLTE0MjU0Nzk0OTEsMT
-AwMjc2NDg4MywtMTQ3NDE1MTI0MSwtMTU2ODE3MjcxNiwtMTA5
-MzQ1MzgyMCwtOTA0NDMxOTIwLC0xNjAwMDk5ODg1LC03MjYzND
-Y3MTcsLTEwMDA1MDIxNzEsMTQ0ODM2MjYxMSwtMTE4NjUxNTU3
-MywtOTcxMjc4NTY4LC0xNTE5MzAwNTUwLC0xMTMzNTgwMDMyLC
-0xNjY5NjEzNDgwLC01MzQ2ODQ1ODFdfQ==
+eyJoaXN0b3J5IjpbMTA4MjEyODYxNywtMTQyNTQ3OTQ5MSwxMD
+AyNzY0ODgzLC0xNDc0MTUxMjQxLC0xNTY4MTcyNzE2LC0xMDkz
+NDUzODIwLC05MDQ0MzE5MjAsLTE2MDAwOTk4ODUsLTcyNjM0Nj
+cxNywtMTAwMDUwMjE3MSwxNDQ4MzYyNjExLC0xMTg2NTE1NTcz
+LC05NzEyNzg1NjgsLTE1MTkzMDA1NTAsLTExMzM1ODAwMzIsLT
+E2Njk2MTM0ODAsLTUzNDY4NDU4MV19
 -->

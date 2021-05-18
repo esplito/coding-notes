@@ -183,19 +183,20 @@ In the example above, we clicked the `CountButton` and since we had used `React.
 **CPU Throttling:** 6x slowdown
 Press "force rerender" while profiling.
 
-Render duration before optimization: 56.9 ms
+We try and optimize this by putting the `Menu`-component and the `ListItem`-component in `React.memo`.
+
 | Optimization -> | Before | After |
 |--|--|--|
-|**Render duration** | 56.9 ms | |
+|**Render duration** | 56.9 ms | 9.5 ms |
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQxNjA1MzgsMTgxOTAyMDQ0MywtMj
-ExODIxOTcyMywxNjY5NDcxODc3LDgzNTA5NzQ2MywtMjAyNTQ4
-NTM2MSwtNzI4Nzk5MzA2LC00NTc1NTM5MjUsMTU3NjE3MDYxNi
-wtMjEzNTExMjc3NSwtMTExMDA2ODQ4MiwtMTM4MjcyNzg5Nywt
-OTQ2NTc4MjI1LC0xOTE2NzMzNTQyLC05NDE2MDA5MzMsMTA4Mj
-EyODYxNywtMTQyNTQ3OTQ5MSwxMDAyNzY0ODgzLC0xNDc0MTUx
-MjQxLC0xNTY4MTcyNzE2XX0=
+eyJoaXN0b3J5IjpbLTE0MzM3ODM0NjAsLTEwNTQxNjA1MzgsMT
+gxOTAyMDQ0MywtMjExODIxOTcyMywxNjY5NDcxODc3LDgzNTA5
+NzQ2MywtMjAyNTQ4NTM2MSwtNzI4Nzk5MzA2LC00NTc1NTM5Mj
+UsMTU3NjE3MDYxNiwtMjEzNTExMjc3NSwtMTExMDA2ODQ4Miwt
+MTM4MjcyNzg5NywtOTQ2NTc4MjI1LC0xOTE2NzMzNTQyLC05ND
+E2MDA5MzMsMTA4MjEyODYxNywtMTQyNTQ3OTQ5MSwxMDAyNzY0
+ODgzLC0xNDc0MTUxMjQxXX0=
 -->

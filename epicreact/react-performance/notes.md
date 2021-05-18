@@ -179,18 +179,22 @@ When you use `React.memo` on a component it will look like this if the component
 In the example above, we clicked the `CountButton` and since we had used `React.memo` on `NameInput` this didn't re-rendered. (It re-rendered before, because the parent re-renders when we press the `CountButton`)
 
 **Exercise**
-CPU Throttling: 6x slowdown
-Render duration before optimization: 
 
+**CPU Throttling:** 6x slowdown
+
+Render duration before optimization: 56.9 ms
+| | Before optimization | After |
+|--|--|--|
+|Render duration | | |
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDc1NjY1OSwxODE5MDIwNDQzLC0yMT
-E4MjE5NzIzLDE2Njk0NzE4NzcsODM1MDk3NDYzLC0yMDI1NDg1
-MzYxLC03Mjg3OTkzMDYsLTQ1NzU1MzkyNSwxNTc2MTcwNjE2LC
-0yMTM1MTEyNzc1LC0xMTEwMDY4NDgyLC0xMzgyNzI3ODk3LC05
-NDY1NzgyMjUsLTE5MTY3MzM1NDIsLTk0MTYwMDkzMywxMDgyMT
-I4NjE3LC0xNDI1NDc5NDkxLDEwMDI3NjQ4ODMsLTE0NzQxNTEy
-NDEsLTE1NjgxNzI3MTZdfQ==
+eyJoaXN0b3J5IjpbLTE5NDEyOTE3NTMsMTgxOTAyMDQ0MywtMj
+ExODIxOTcyMywxNjY5NDcxODc3LDgzNTA5NzQ2MywtMjAyNTQ4
+NTM2MSwtNzI4Nzk5MzA2LC00NTc1NTM5MjUsMTU3NjE3MDYxNi
+wtMjEzNTExMjc3NSwtMTExMDA2ODQ4MiwtMTM4MjcyNzg5Nywt
+OTQ2NTc4MjI1LC0xOTE2NzMzNTQyLC05NDE2MDA5MzMsMTA4Mj
+EyODYxNywtMTQyNTQ3OTQ5MSwxMDAyNzY0ODgzLC0xNDc0MTUx
+MjQxLC0xNTY4MTcyNzE2XX0=
 -->

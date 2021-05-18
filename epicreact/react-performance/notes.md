@@ -189,16 +189,16 @@ We try and optimize this by putting the `Menu`-component and the `ListItem`-comp
 |--|--|--|
 |**Render duration** | 56.9 ms | 9.5 ms |
 
-** Extra credit 1**
-Yo
+** Extra credit 1: Use a custom comparator function**
+Sometimes you want to decide when rendering the component again is unnecessary. You can do this by passing a second argument 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Mzk2NTgyMCwxMTQ0NzM4NTQ2LC0xMD
-U0MTYwNTM4LDE4MTkwMjA0NDMsLTIxMTgyMTk3MjMsMTY2OTQ3
-MTg3Nyw4MzUwOTc0NjMsLTIwMjU0ODUzNjEsLTcyODc5OTMwNi
-wtNDU3NTUzOTI1LDE1NzYxNzA2MTYsLTIxMzUxMTI3NzUsLTEx
-MTAwNjg0ODIsLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwtMTkxNj
-czMzU0MiwtOTQxNjAwOTMzLDEwODIxMjg2MTcsLTE0MjU0Nzk0
-OTEsMTAwMjc2NDg4M119
+eyJoaXN0b3J5IjpbLTEzNDU3MDgyODcsMTE0NDczODU0NiwtMT
+A1NDE2MDUzOCwxODE5MDIwNDQzLC0yMTE4MjE5NzIzLDE2Njk0
+NzE4NzcsODM1MDk3NDYzLC0yMDI1NDg1MzYxLC03Mjg3OTkzMD
+YsLTQ1NzU1MzkyNSwxNTc2MTcwNjE2LC0yMTM1MTEyNzc1LC0x
+MTEwMDY4NDgyLC0xMzgyNzI3ODk3LC05NDY1NzgyMjUsLTE5MT
+Y3MzM1NDIsLTk0MTYwMDkzMywxMDgyMTI4NjE3LC0xNDI1NDc5
+NDkxLDEwMDI3NjQ4ODNdfQ==
 -->

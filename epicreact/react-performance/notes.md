@@ -95,14 +95,18 @@ function Distance({x, y}) {
 }
 ```
 
+We can then wrap the function with `useMemo` so that the function only will be called when the dependencies change.
+
+Example from the course:
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzM3NjM0LC0xNDI1NDc5NDkxLDEwMD
-I3NjQ4ODMsLTE0NzQxNTEyNDEsLTE1NjgxNzI3MTYsLTEwOTM0
-NTM4MjAsLTkwNDQzMTkyMCwtMTYwMDA5OTg4NSwtNzI2MzQ2Nz
-E3LC0xMDAwNTAyMTcxLDE0NDgzNjI2MTEsLTExODY1MTU1NzMs
-LTk3MTI3ODU2OCwtMTUxOTMwMDU1MCwtMTEzMzU4MDAzMiwtMT
-Y2OTYxMzQ4MCwtNTM0Njg0NTgxXX0=
+eyJoaXN0b3J5IjpbLTE0MTc2NjI2ODksLTE0MjU0Nzk0OTEsMT
+AwMjc2NDg4MywtMTQ3NDE1MTI0MSwtMTU2ODE3MjcxNiwtMTA5
+MzQ1MzgyMCwtOTA0NDMxOTIwLC0xNjAwMDk5ODg1LC03MjYzND
+Y3MTcsLTEwMDA1MDIxNzEsMTQ0ODM2MjYxMSwtMTE4NjUxNTU3
+MywtOTcxMjc4NTY4LC0xNTE5MzAwNTUwLC0xMTMzNTgwMDMyLC
+0xNjY5NjEzNDgwLC01MzQ2ODQ1ODFdfQ==
 -->

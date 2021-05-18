@@ -189,18 +189,20 @@ We try and optimize this by putting the `Menu`-component and the `ListItem`-comp
 |--|--|--|
 |**Render duration** | 56.9 ms | 9.5 ms |
 
-** Extra credit 1: Use a custom comparator function**
-Sometimes you want to decide when rendering the component again is unnecessary. You can do this by passing a second argument to `React.memo`. This argument is a custom compare function where we can compare props and return either `true` or `false`. 
-`true` => rendering component again is **unnecessary**
-``
+**Extra credit 1: Use a custom comparator function**
+Sometimes you want to decide when rendering the component again is unnecessary. You can do this by passing a second argument to `React.memo`. This argument is a custom compare function where we can compare props and return either `true` or `false`:
+ 
+`true` = rendering component again is **unnecessary**
+`false` = rendering component again is **necessary**
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyMTMxMDY1LDExNDQ3Mzg1NDYsLTEwNT
-QxNjA1MzgsMTgxOTAyMDQ0MywtMjExODIxOTcyMywxNjY5NDcx
-ODc3LDgzNTA5NzQ2MywtMjAyNTQ4NTM2MSwtNzI4Nzk5MzA2LC
-00NTc1NTM5MjUsMTU3NjE3MDYxNiwtMjEzNTExMjc3NSwtMTEx
-MDA2ODQ4MiwtMTM4MjcyNzg5NywtOTQ2NTc4MjI1LC0xOTE2Nz
-MzNTQyLC05NDE2MDA5MzMsMTA4MjEyODYxNywtMTQyNTQ3OTQ5
-MSwxMDAyNzY0ODgzXX0=
+eyJoaXN0b3J5IjpbMTg4NjE3NjY0MSwxMTQ0NzM4NTQ2LC0xMD
+U0MTYwNTM4LDE4MTkwMjA0NDMsLTIxMTgyMTk3MjMsMTY2OTQ3
+MTg3Nyw4MzUwOTc0NjMsLTIwMjU0ODUzNjEsLTcyODc5OTMwNi
+wtNDU3NTUzOTI1LDE1NzYxNzA2MTYsLTIxMzUxMTI3NzUsLTEx
+MTAwNjg0ODIsLTEzODI3Mjc4OTcsLTk0NjU3ODIyNSwtMTkxNj
+czMzU0MiwtOTQxNjAwOTMzLDEwODIxMjg2MTcsLTE0MjU0Nzk0
+OTEsMTAwMjc2NDg4M119
 -->

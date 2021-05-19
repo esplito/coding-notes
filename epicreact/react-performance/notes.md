@@ -349,6 +349,10 @@ About this extra credit:
 
 There's an API for monitoring the performance of a React application in production. It is called Profiler API. It also has an API for tracing interactions but it is still experimental.
 
+It isn't enabled by default because it gives our app a slight performance penalty when monitoring. 
+
+> Companies like Facebook built their application both with profilingEnabled and with profilingDisabled, and then only serve the profilingEnabled build to a small portion of their users to get this performance monitoring, and you could absolutely do something like that yourself. - Dodds
+
 More info about the api here: 
 * https://gist.github.com/bvaughn/8de925562903afd2e7a12554adcdda16 
 * https://reactjs.org/docs/profiler.html
@@ -359,12 +363,13 @@ More about this topic in Kent's blog posts:
 * [React Production Performance Monitoring](https://kentcdodds.com/blog/react-production-performance-monitoring)
 * [Profile a React App for Performance](https://kentcdodds.com/blog/profile-a-react-app-for-performance)
 > Written with [StackEdit](https://stackedit.io/).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzUzNTY1NDksLTU0MzQ2NTExNywtMT
-cyMDQ2ODkzLC00NzU3NDcyMDEsMTM2MDIwMDQ4MiwtODY4MzM5
-MjIyLC0zNzIyNTQ0MjMsODY5ODU5NDU0LC05MDM1OTk4NTIsMT
-YyNTMyNTEzMSwtOTY1MDk0MTgxLC0zNjcxMTU0MDEsLTkxMDgz
-MjAxNCwtMTkzNjA3MDUzMCwxMzE3MTE1MzM2LDIwNDQ3ODgyMj
-csLTE1OTY3ODQzMTgsMjA0Mjg5MjAyNCwxMDc1Mjk4MDQ0LDE0
-NDE0OTc3ODZdfQ==
+eyJoaXN0b3J5IjpbMjcwNzMyOTQxLC0xMDM1MzU2NTQ5LC01ND
+M0NjUxMTcsLTE3MjA0Njg5MywtNDc1NzQ3MjAxLDEzNjAyMDA0
+ODIsLTg2ODMzOTIyMiwtMzcyMjU0NDIzLDg2OTg1OTQ1NCwtOT
+AzNTk5ODUyLDE2MjUzMjUxMzEsLTk2NTA5NDE4MSwtMzY3MTE1
+NDAxLC05MTA4MzIwMTQsLTE5MzYwNzA1MzAsMTMxNzExNTMzNi
+wyMDQ0Nzg4MjI3LC0xNTk2Nzg0MzE4LDIwNDI4OTIwMjQsMTA3
+NTI5ODA0NF19
 -->

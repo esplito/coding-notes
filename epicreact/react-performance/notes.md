@@ -347,7 +347,7 @@ About this extra credit:
 
 ### Production Performance Monitoring
 
-There's an API for monitoring the performance of a React application in production. It is an experimental API called Profiler API.
+There's an API for monitoring the performance of a React application in production. It is called Profiler API. It also has an API for tracing interactions but it is still experimental.
 
 More info about the api here: 
 * https://gist.github.com/bvaughn/8de925562903afd2e7a12554adcdda16 
@@ -360,11 +360,11 @@ More about this topic in Kent's blog posts:
 * [Profile a React App for Performance](https://kentcdodds.com/blog/profile-a-react-app-for-performance)
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzQ2NTExNywtMTcyMDQ2ODkzLC00Nz
-U3NDcyMDEsMTM2MDIwMDQ4MiwtODY4MzM5MjIyLC0zNzIyNTQ0
-MjMsODY5ODU5NDU0LC05MDM1OTk4NTIsMTYyNTMyNTEzMSwtOT
-Y1MDk0MTgxLC0zNjcxMTU0MDEsLTkxMDgzMjAxNCwtMTkzNjA3
-MDUzMCwxMzE3MTE1MzM2LDIwNDQ3ODgyMjcsLTE1OTY3ODQzMT
-gsMjA0Mjg5MjAyNCwxMDc1Mjk4MDQ0LDE0NDE0OTc3ODYsLTg3
-MjY0NDA5NV19
+eyJoaXN0b3J5IjpbLTEwMzUzNTY1NDksLTU0MzQ2NTExNywtMT
+cyMDQ2ODkzLC00NzU3NDcyMDEsMTM2MDIwMDQ4MiwtODY4MzM5
+MjIyLC0zNzIyNTQ0MjMsODY5ODU5NDU0LC05MDM1OTk4NTIsMT
+YyNTMyNTEzMSwtOTY1MDk0MTgxLC0zNjcxMTU0MDEsLTkxMDgz
+MjAxNCwtMTkzNjA3MDUzMCwxMzE3MTE1MzM2LDIwNDQ3ODgyMj
+csLTE1OTY3ODQzMTgsMjA0Mjg5MjAyNCwxMDc1Mjk4MDQ0LDE0
+NDE0OTc3ODZdfQ==
 -->

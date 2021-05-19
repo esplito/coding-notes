@@ -328,14 +328,15 @@ Example code here: https://github.com/kentcdodds/react-performance/blob/main/src
 More reading about HOC and forwarding refs:
 * https://reactjs.org/docs/higher-order-components.html
 * https://reactjs.org/docs/forwarding-refs.html
+* 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5ODU5NDU0LC05MDM1OTk4NTIsMTYyNT
-MyNTEzMSwtOTY1MDk0MTgxLC0zNjcxMTU0MDEsLTkxMDgzMjAx
-NCwtMTkzNjA3MDUzMCwxMzE3MTE1MzM2LDIwNDQ3ODgyMjcsLT
-E1OTY3ODQzMTgsMjA0Mjg5MjAyNCwxMDc1Mjk4MDQ0LDE0NDE0
-OTc3ODYsLTg3MjY0NDA5NSwtNzc1NTA1MTE0LDE1NTcxOTQxNz
-AsLTEzODIyNzc1NzUsNTUyMjAyNDAsLTE3OTA3MjAxNDUsMTE0
-NDczODU0Nl19
+eyJoaXN0b3J5IjpbLTM0MDQ3NzM4Niw4Njk4NTk0NTQsLTkwMz
+U5OTg1MiwxNjI1MzI1MTMxLC05NjUwOTQxODEsLTM2NzExNTQw
+MSwtOTEwODMyMDE0LC0xOTM2MDcwNTMwLDEzMTcxMTUzMzYsMj
+A0NDc4ODIyNywtMTU5Njc4NDMxOCwyMDQyODkyMDI0LDEwNzUy
+OTgwNDQsMTQ0MTQ5Nzc4NiwtODcyNjQ0MDk1LC03NzU1MDUxMT
+QsMTU1NzE5NDE3MCwtMTM4MjI3NzU3NSw1NTIyMDI0MCwtMTc5
+MDcyMDE0NV19
 -->

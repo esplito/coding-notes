@@ -340,12 +340,17 @@ More reading about HOC and forwarding refs:
 **Extra credit 4: Use recoil**
 Situations were you need to apply these types of optimizations are rare!
 
-About this extra credit
+The state-management library, [recoil](https://recoiljs.org/) is used in this extra credit.
+
+About this extra credit:
+> The point is to teach you what’s possible with recoil and the kinds of problems it’s well suited for so you know when to reach for it in your own applications (definitely don’t use it for everything). - Dodds
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjU3NzY2NywtMzcyMjU0NDIzLDg2OT
+eyJoaXN0b3J5IjpbLTg2ODMzOTIyMiwtMzcyMjU0NDIzLDg2OT
 g1OTQ1NCwtOTAzNTk5ODUyLDE2MjUzMjUxMzEsLTk2NTA5NDE4
 MSwtMzY3MTE1NDAxLC05MTA4MzIwMTQsLTE5MzYwNzA1MzAsMT
 MxNzExNTMzNiwyMDQ0Nzg4MjI3LC0xNTk2Nzg0MzE4LDIwNDI4

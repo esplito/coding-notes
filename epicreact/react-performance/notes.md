@@ -355,11 +355,12 @@ More info about the api here:
 
 To see an example of how you could pass something to the Profiler-component's `onRender` prop, check out `reportProfile` in this file: https://github.com/kentcdodds/react-performance/blob/main/src/report-profile.js
 
-More about this topic in Kent's blog posts: [React Production Performance Monitoring](https://kentcdodds.com/blog/react-production-performance-monitoring)
-
+More about this topic in Kent's blog posts:
+* [React Production Performance Monitoring](https://kentcdodds.com/blog/react-production-performance-monitoring)
+* [Profile a React App for Performance](https://kentcdodds.com/blog/profile-a-react-app-for-performance)
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDM1MzkxNCwtMTcyMDQ2ODkzLC00Nz
+eyJoaXN0b3J5IjpbLTU0MzQ2NTExNywtMTcyMDQ2ODkzLC00Nz
 U3NDcyMDEsMTM2MDIwMDQ4MiwtODY4MzM5MjIyLC0zNzIyNTQ0
 MjMsODY5ODU5NDU0LC05MDM1OTk4NTIsMTYyNTMyNTEzMSwtOT
 Y1MDk0MTgxLC0zNjcxMTU0MDEsLTkxMDgzMjAxNCwtMTkzNjA3

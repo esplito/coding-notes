@@ -279,13 +279,16 @@ Render duration stats before/after optimization.
 | | Before | After |
 |--|--|--|
 |Render duration|61.3 ms|59.4 ms|
-  
+
+Code before: https://github.com/kentcdodds/react-performance/blob/main/src/exercise/05.js  
+
+Final solution here: https://github.com/kentcdodds/react-performance/blob/main/src/final/05.extra-1.js 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjUzNTk5NzUsMTMxNzExNTMzNiwyMD
+eyJoaXN0b3J5IjpbLTE5MzYwNzA1MzAsMTMxNzExNTMzNiwyMD
 Q0Nzg4MjI3LC0xNTk2Nzg0MzE4LDIwNDI4OTIwMjQsMTA3NTI5
 ODA0NCwxNDQxNDk3Nzg2LC04NzI2NDQwOTUsLTc3NTUwNTExNC
 wxNTU3MTk0MTcwLC0xMzgyMjc3NTc1LDU1MjIwMjQwLC0xNzkw

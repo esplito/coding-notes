@@ -349,11 +349,15 @@ About this extra credit:
 
 There's an API for monitoring the performance of a React application in production. It is an experimental API called Profiler API.
 
+More info about the api here: 
+* https://gist.github.com/bvaughn/8de925562903afd2e7a12554adcdda16 
+* https://reactjs.org/docs/profiler.html
+* 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTI2MDI3OCwxMzYwMjAwNDgyLC04Nj
+eyJoaXN0b3J5IjpbLTQ3NTc0NzIwMSwxMzYwMjAwNDgyLC04Nj
 gzMzkyMjIsLTM3MjI1NDQyMyw4Njk4NTk0NTQsLTkwMzU5OTg1
 MiwxNjI1MzI1MTMxLC05NjUwOTQxODEsLTM2NzExNTQwMSwtOT
 EwODMyMDE0LC0xOTM2MDcwNTMwLDEzMTcxMTUzMzYsMjA0NDc4

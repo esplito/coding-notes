@@ -262,13 +262,15 @@ More info about this here: https://github.com/kentcdodds/kentcdodds.com/blob/319
 
 **Exercise**
 
-Stats when clicking "force rerender"-button before and after optimization.
+Stats when clicking "force rerender"-button before and after optimization. (No throttling)
 | | Before | After |
 |--|--|--|
+|Click duration|70.7 ms||
+|Click fps|14 fps||
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA2Njg5NzYsMjA0Mjg5MjAyNCwxMD
+eyJoaXN0b3J5IjpbLTE1OTY3ODQzMTgsMjA0Mjg5MjAyNCwxMD
 c1Mjk4MDQ0LDE0NDE0OTc3ODYsLTg3MjY0NDA5NSwtNzc1NTA1
 MTE0LDE1NTcxOTQxNzAsLTEzODIyNzc1NzUsNTUyMjAyNDAsLT
 E3OTA3MjAxNDUsMTE0NDczODU0NiwtMTA1NDE2MDUzOCwxODE5

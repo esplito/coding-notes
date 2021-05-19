@@ -254,15 +254,17 @@ In this exercise we use a library called [react-virtual](https://github.com/tann
 
 See an example here: https://react-performance.netlify.app/4
 
+### Optimize context value
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTQ5Nzc4NiwtODcyNjQ0MDk1LC03Nz
-U1MDUxMTQsMTU1NzE5NDE3MCwtMTM4MjI3NzU3NSw1NTIyMDI0
-MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NTQ2LC0xMDU0MTYwNTM4LD
-E4MTkwMjA0NDMsLTIxMTgyMTk3MjMsMTY2OTQ3MTg3Nyw4MzUw
-OTc0NjMsLTIwMjU0ODUzNjEsLTcyODc5OTMwNiwtNDU3NTUzOT
-I1LDE1NzYxNzA2MTYsLTIxMzUxMTI3NzUsLTExMTAwNjg0ODIs
-LTEzODI3Mjc4OTddfQ==
+eyJoaXN0b3J5IjpbMTA3NTI5ODA0NCwxNDQxNDk3Nzg2LC04Nz
+I2NDQwOTUsLTc3NTUwNTExNCwxNTU3MTk0MTcwLC0xMzgyMjc3
+NTc1LDU1MjIwMjQwLC0xNzkwNzIwMTQ1LDExNDQ3Mzg1NDYsLT
+EwNTQxNjA1MzgsMTgxOTAyMDQ0MywtMjExODIxOTcyMywxNjY5
+NDcxODc3LDgzNTA5NzQ2MywtMjAyNTQ4NTM2MSwtNzI4Nzk5Mz
+A2LC00NTc1NTM5MjUsMTU3NjE3MDYxNiwtMjEzNTExMjc3NSwt
+MTExMDA2ODQ4Ml19
 -->

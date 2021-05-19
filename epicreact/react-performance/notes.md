@@ -326,7 +326,10 @@ This makes it easier to do the previous optimization in more places!
 Example code here: https://github.com/kentcdodds/react-performance/blob/main/src/final/06.extra-3.js 
 
 > To take this a step further, what if somebody wanted to pass a ref to this wrapper component or to the underlying cell component, and we wanted to be able to accept that ref and do something with it?
-> In that case, we're going to need to use React.forwardRef, and then we'll be able to accept that ref, and we can forward that ref right along. This is a pretty nice higher-order component for which we can apply this kind of pattern anytime we want to get a specific slice of the state, and we can take advantage of memoization. - Dodds
+> 
+> In that case, we're going to need to use React.forwardRef, and then we'll be able to accept that ref, and we can forward that ref right along. This is a pretty nice higher-order component for which we can apply this kind of pattern anytime we want to get a specific slice of the state, and we can take advantage of memoization. 
+> 
+> Now, if I hit the Profiler and go, then we're solid. We are only rendering the components that actually care about this update. - Dodds
 
 More reading about HOC and forwarding refs:
 * https://reactjs.org/docs/higher-order-components.html
@@ -335,11 +338,11 @@ More reading about HOC and forwarding refs:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjI1NDQyMyw4Njk4NTk0NTQsLTkwMz
-U5OTg1MiwxNjI1MzI1MTMxLC05NjUwOTQxODEsLTM2NzExNTQw
-MSwtOTEwODMyMDE0LC0xOTM2MDcwNTMwLDEzMTcxMTUzMzYsMj
-A0NDc4ODIyNywtMTU5Njc4NDMxOCwyMDQyODkyMDI0LDEwNzUy
-OTgwNDQsMTQ0MTQ5Nzc4NiwtODcyNjQ0MDk1LC03NzU1MDUxMT
-QsMTU1NzE5NDE3MCwtMTM4MjI3NzU3NSw1NTIyMDI0MCwtMTc5
-MDcyMDE0NV19
+eyJoaXN0b3J5IjpbMjA1NDAwMjQ0MywtMzcyMjU0NDIzLDg2OT
+g1OTQ1NCwtOTAzNTk5ODUyLDE2MjUzMjUxMzEsLTk2NTA5NDE4
+MSwtMzY3MTE1NDAxLC05MTA4MzIwMTQsLTE5MzYwNzA1MzAsMT
+MxNzExNTMzNiwyMDQ0Nzg4MjI3LC0xNTk2Nzg0MzE4LDIwNDI4
+OTIwMjQsMTA3NTI5ODA0NCwxNDQxNDk3Nzg2LC04NzI2NDQwOT
+UsLTc3NTUwNTExNCwxNTU3MTk0MTcwLC0xMzgyMjc3NTc1LDU1
+MjIwMjQwXX0=
 -->

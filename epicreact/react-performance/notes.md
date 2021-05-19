@@ -284,15 +284,16 @@ Code before: https://github.com/kentcdodds/react-performance/blob/main/src/exerc
 
 Final solution here: https://github.com/kentcdodds/react-performance/blob/main/src/final/05.extra-1.js 
 
+### Fix Perf Death by a Thousand Cuts
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzYwNzA1MzAsMTMxNzExNTMzNiwyMD
-Q0Nzg4MjI3LC0xNTk2Nzg0MzE4LDIwNDI4OTIwMjQsMTA3NTI5
-ODA0NCwxNDQxNDk3Nzg2LC04NzI2NDQwOTUsLTc3NTUwNTExNC
-wxNTU3MTk0MTcwLC0xMzgyMjc3NTc1LDU1MjIwMjQwLC0xNzkw
-NzIwMTQ1LDExNDQ3Mzg1NDYsLTEwNTQxNjA1MzgsMTgxOTAyMD
-Q0MywtMjExODIxOTcyMywxNjY5NDcxODc3LDgzNTA5NzQ2Mywt
-MjAyNTQ4NTM2MV19
+eyJoaXN0b3J5IjpbLTkxMDgzMjAxNCwtMTkzNjA3MDUzMCwxMz
+E3MTE1MzM2LDIwNDQ3ODgyMjcsLTE1OTY3ODQzMTgsMjA0Mjg5
+MjAyNCwxMDc1Mjk4MDQ0LDE0NDE0OTc3ODYsLTg3MjY0NDA5NS
+wtNzc1NTA1MTE0LDE1NTcxOTQxNzAsLTEzODIyNzc1NzUsNTUy
+MjAyNDAsLTE3OTA3MjAxNDUsMTE0NDczODU0NiwtMTA1NDE2MD
+UzOCwxODE5MDIwNDQzLC0yMTE4MjE5NzIzLDE2Njk0NzE4Nzcs
+ODM1MDk3NDYzXX0=
 -->

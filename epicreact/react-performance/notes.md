@@ -352,16 +352,17 @@ There's an API for monitoring the performance of a React application in producti
 More info about the api here: 
 * https://gist.github.com/bvaughn/8de925562903afd2e7a12554adcdda16 
 * https://reactjs.org/docs/profiler.html
-* 
+
+To see an example of 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTc0NzIwMSwxMzYwMjAwNDgyLC04Nj
-gzMzkyMjIsLTM3MjI1NDQyMyw4Njk4NTk0NTQsLTkwMzU5OTg1
-MiwxNjI1MzI1MTMxLC05NjUwOTQxODEsLTM2NzExNTQwMSwtOT
-EwODMyMDE0LC0xOTM2MDcwNTMwLDEzMTcxMTUzMzYsMjA0NDc4
-ODIyNywtMTU5Njc4NDMxOCwyMDQyODkyMDI0LDEwNzUyOTgwND
-QsMTQ0MTQ5Nzc4NiwtODcyNjQ0MDk1LC03NzU1MDUxMTQsMTU1
-NzE5NDE3MF19
+eyJoaXN0b3J5IjpbNDgxMjgyMTU5LC00NzU3NDcyMDEsMTM2MD
+IwMDQ4MiwtODY4MzM5MjIyLC0zNzIyNTQ0MjMsODY5ODU5NDU0
+LC05MDM1OTk4NTIsMTYyNTMyNTEzMSwtOTY1MDk0MTgxLC0zNj
+cxMTU0MDEsLTkxMDgzMjAxNCwtMTkzNjA3MDUzMCwxMzE3MTE1
+MzM2LDIwNDQ3ODgyMjcsLTE1OTY3ODQzMTgsMjA0Mjg5MjAyNC
+wxMDc1Mjk4MDQ0LDE0NDE0OTc3ODYsLTg3MjY0NDA5NSwtNzc1
+NTA1MTE0XX0=
 -->

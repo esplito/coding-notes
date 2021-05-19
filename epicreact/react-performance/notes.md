@@ -323,15 +323,19 @@ However, we can make the solution more generic by creating a Higher Order Compon
 
 This makes it easier to do the previous optimization in more places!
 
+Example code here: https://github.com/kentcdodds/react-performance/blob/main/src/final/06.extra-3.js 
 
+More reading about HOC and forwarding refs:
+* https://reactjs.org/docs/higher-order-components.html
+* https://reactjs.org/docs/forwarding-refs.html
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzU5OTg1MiwxNjI1MzI1MTMxLC05Nj
-UwOTQxODEsLTM2NzExNTQwMSwtOTEwODMyMDE0LC0xOTM2MDcw
-NTMwLDEzMTcxMTUzMzYsMjA0NDc4ODIyNywtMTU5Njc4NDMxOC
-wyMDQyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4NiwtODcy
-NjQ0MDk1LC03NzU1MDUxMTQsMTU1NzE5NDE3MCwtMTM4MjI3Nz
-U3NSw1NTIyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NTQ2LC0x
-MDU0MTYwNTM4XX0=
+eyJoaXN0b3J5IjpbODY5ODU5NDU0LC05MDM1OTk4NTIsMTYyNT
+MyNTEzMSwtOTY1MDk0MTgxLC0zNjcxMTU0MDEsLTkxMDgzMjAx
+NCwtMTkzNjA3MDUzMCwxMzE3MTE1MzM2LDIwNDQ3ODgyMjcsLT
+E1OTY3ODQzMTgsMjA0Mjg5MjAyNCwxMDc1Mjk4MDQ0LDE0NDE0
+OTc3ODYsLTg3MjY0NDA5NSwtNzc1NTA1MTE0LDE1NTcxOTQxNz
+AsLTEzODIyNzc1NzUsNTUyMjAyNDAsLTE3OTA3MjAxNDUsMTE0
+NDczODU0Nl19
 -->

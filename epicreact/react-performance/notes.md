@@ -272,13 +272,18 @@ Stats when clicking "force rerender"-button before and after optimization with `
 > Why are we getting a re-render when the context value has values that don't change? As it happens, the value prop that you pass to the provider is going to be compared shallowly with object.is or basically a ===.
 > When this app provider is re-rendered, then this value gets re-created. It's a brand-new array. When React compares the value we're passing to this provider between the last render and the new one, it says, "Hey, you gave me a different array last time." - Dodds
 
+**Extra credit 1:  separate the contexts**
+When we click on a cell in the grid, the whole grid re-renders even though the click doesn't really affect the whole grid.  
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDc4ODIyNywtMTU5Njc4NDMxOCwyMD
-QyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4NiwtODcyNjQ0
-MDk1LC03NzU1MDUxMTQsMTU1NzE5NDE3MCwtMTM4MjI3NzU3NS
-w1NTIyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NTQ2LC0xMDU0
-MTYwNTM4LDE4MTkwMjA0NDMsLTIxMTgyMTk3MjMsMTY2OTQ3MT
-g3Nyw4MzUwOTc0NjMsLTIwMjU0ODUzNjEsLTcyODc5OTMwNiwt
-NDU3NTUzOTI1XX0=
+eyJoaXN0b3J5IjpbLTEwNDk0OTY4OTYsMjA0NDc4ODIyNywtMT
+U5Njc4NDMxOCwyMDQyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5
+Nzc4NiwtODcyNjQ0MDk1LC03NzU1MDUxMTQsMTU1NzE5NDE3MC
+wtMTM4MjI3NzU3NSw1NTIyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0
+NzM4NTQ2LC0xMDU0MTYwNTM4LDE4MTkwMjA0NDMsLTIxMTgyMT
+k3MjMsMTY2OTQ3MTg3Nyw4MzUwOTc0NjMsLTIwMjU0ODUzNjEs
+LTcyODc5OTMwNl19
 -->

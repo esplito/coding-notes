@@ -273,7 +273,7 @@ Stats when clicking "force rerender"-button before and after optimization with `
 > When this app provider is re-rendered, then this value gets re-created. It's a brand-new array. When React compares the value we're passing to this provider between the last render and the new one, it says, "Hey, you gave me a different array last time." - Dodds
 
 **Extra credit 1:  separate the contexts**
-When we click on a cell in the grid, the whole grid re-renders even though the click doesn't really affect the whole grid and even though we have memoized the grid (it is not dependent on the state change and only needs the dispatch).
+When we click on a cell in the grid, the whole grid re-renders even though the click doesn't really affect the whole grid and even though we have memoized the grid (it is not dependent on the state change and only needs the dispatch). We'll have to separate the contexts so that we have one provider for the state and one provider for the dispatch.
 
 Render duration stats before/after optimization.
 | | Before | After |
@@ -285,11 +285,11 @@ Render duration stats before/after optimization.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTQxMjcyNCwxMzE3MTE1MzM2LDIwND
-Q3ODgyMjcsLTE1OTY3ODQzMTgsMjA0Mjg5MjAyNCwxMDc1Mjk4
-MDQ0LDE0NDE0OTc3ODYsLTg3MjY0NDA5NSwtNzc1NTA1MTE0LD
-E1NTcxOTQxNzAsLTEzODIyNzc1NzUsNTUyMjAyNDAsLTE3OTA3
-MjAxNDUsMTE0NDczODU0NiwtMTA1NDE2MDUzOCwxODE5MDIwND
-QzLC0yMTE4MjE5NzIzLDE2Njk0NzE4NzcsODM1MDk3NDYzLC0y
-MDI1NDg1MzYxXX0=
+eyJoaXN0b3J5IjpbLTEzNjUzNTk5NzUsMTMxNzExNTMzNiwyMD
+Q0Nzg4MjI3LC0xNTk2Nzg0MzE4LDIwNDI4OTIwMjQsMTA3NTI5
+ODA0NCwxNDQxNDk3Nzg2LC04NzI2NDQwOTUsLTc3NTUwNTExNC
+wxNTU3MTk0MTcwLC0xMzgyMjc3NTc1LDU1MjIwMjQwLC0xNzkw
+NzIwMTQ1LDExNDQ3Mzg1NDYsLTEwNTQxNjA1MzgsMTgxOTAyMD
+Q0MywtMjExODIxOTcyMywxNjY5NDcxODc3LDgzNTA5NzQ2Mywt
+MjAyNTQ4NTM2MV19
 -->

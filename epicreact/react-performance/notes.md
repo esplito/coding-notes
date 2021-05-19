@@ -306,11 +306,12 @@ This means that we put **less state in the global store** and instead put it whe
 
 More on state colocation in Kent's blog post about the topic: [State Colocation will make your React app faster](https://kcd.im/colocate-state).
 
-
+**Extra credit 1: separate contexts**
+If we want to have the `dogName` accessible globally, but still want the same performance as we had with the colocated state, we would have to create a separate context for dog. (Like we did the in 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk0Nzk5NSwtMzY3MTE1NDAxLC05MT
+eyJoaXN0b3J5IjpbLTI3NjUwOTAzNywtMzY3MTE1NDAxLC05MT
 A4MzIwMTQsLTE5MzYwNzA1MzAsMTMxNzExNTMzNiwyMDQ0Nzg4
 MjI3LC0xNTk2Nzg0MzE4LDIwNDI4OTIwMjQsMTA3NTI5ODA0NC
 wxNDQxNDk3Nzg2LC04NzI2NDQwOTUsLTc3NTUwNTExNCwxNTU3

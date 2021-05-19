@@ -317,12 +317,17 @@ Another issue with the grid in this exercise is that the cells are re-rendering 
 Example code here: https://github.com/kentcdodds/react-performance/blob/main/src/final/06.extra-2.js
 
 **Extra credit 3: write an HOC to get a slice of app state**
+However, we can make the solution more generic by creating a Higher Order Component (HOC). 
+
+>NOTE: this is effectively what react-redux’s `connect` higher order component does.
+
+This makes it easier to do the previous optimization in more places!
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0Mzg4MTgxNiwxNjI1MzI1MTMxLC05Nj
+eyJoaXN0b3J5IjpbLTkwMzU5OTg1MiwxNjI1MzI1MTMxLC05Nj
 UwOTQxODEsLTM2NzExNTQwMSwtOTEwODMyMDE0LC0xOTM2MDcw
 NTMwLDEzMTcxMTUzMzYsMjA0NDc4ODIyNywtMTU5Njc4NDMxOC
 wyMDQyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4NiwtODcy

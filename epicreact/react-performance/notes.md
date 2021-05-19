@@ -353,16 +353,17 @@ More info about the api here:
 * https://gist.github.com/bvaughn/8de925562903afd2e7a12554adcdda16 
 * https://reactjs.org/docs/profiler.html
 
-To see an example of how you could pass something to the Profiler-component's `onRender` prop, check out this file: 
+To see an example of how you could pass something to the Profiler-component's `onRender` prop, check out `reportProfile` in this file: https://github.com/kentcdodds/react-performance/blob/main/src/report-profile.js
 
+More about this topic in Kent's blog post, [React](https://kentcdodds.com/blog/react-production-performance-monitoring)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY3Mzg4NTMsLTQ3NTc0NzIwMSwxMz
-YwMjAwNDgyLC04NjgzMzkyMjIsLTM3MjI1NDQyMyw4Njk4NTk0
-NTQsLTkwMzU5OTg1MiwxNjI1MzI1MTMxLC05NjUwOTQxODEsLT
-M2NzExNTQwMSwtOTEwODMyMDE0LC0xOTM2MDcwNTMwLDEzMTcx
-MTUzMzYsMjA0NDc4ODIyNywtMTU5Njc4NDMxOCwyMDQyODkyMD
-I0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4NiwtODcyNjQ0MDk1LC03
-NzU1MDUxMTRdfQ==
+eyJoaXN0b3J5IjpbMjE0MjQyNjIyNiwtNDc1NzQ3MjAxLDEzNj
+AyMDA0ODIsLTg2ODMzOTIyMiwtMzcyMjU0NDIzLDg2OTg1OTQ1
+NCwtOTAzNTk5ODUyLDE2MjUzMjUxMzEsLTk2NTA5NDE4MSwtMz
+Y3MTE1NDAxLC05MTA4MzIwMTQsLTE5MzYwNzA1MzAsMTMxNzEx
+NTMzNiwyMDQ0Nzg4MjI3LC0xNTk2Nzg0MzE4LDIwNDI4OTIwMj
+QsMTA3NTI5ODA0NCwxNDQxNDk3Nzg2LC04NzI2NDQwOTUsLTc3
+NTUwNTExNF19
 -->

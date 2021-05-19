@@ -347,17 +347,17 @@ About this extra credit:
 
 ### Production Performance Monitoring
 
-
+There's an API for monitoring the performance of a React application in production. It is an experimental API called Profiler API.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDIwMDQ4MiwtODY4MzM5MjIyLC0zNz
-IyNTQ0MjMsODY5ODU5NDU0LC05MDM1OTk4NTIsMTYyNTMyNTEz
-MSwtOTY1MDk0MTgxLC0zNjcxMTU0MDEsLTkxMDgzMjAxNCwtMT
-kzNjA3MDUzMCwxMzE3MTE1MzM2LDIwNDQ3ODgyMjcsLTE1OTY3
-ODQzMTgsMjA0Mjg5MjAyNCwxMDc1Mjk4MDQ0LDE0NDE0OTc3OD
-YsLTg3MjY0NDA5NSwtNzc1NTA1MTE0LDE1NTcxOTQxNzAsLTEz
-ODIyNzc1NzVdfQ==
+eyJoaXN0b3J5IjpbLTcxNTI2MDI3OCwxMzYwMjAwNDgyLC04Nj
+gzMzkyMjIsLTM3MjI1NDQyMyw4Njk4NTk0NTQsLTkwMzU5OTg1
+MiwxNjI1MzI1MTMxLC05NjUwOTQxODEsLTM2NzExNTQwMSwtOT
+EwODMyMDE0LC0xOTM2MDcwNTMwLDEzMTcxMTUzMzYsMjA0NDc4
+ODIyNywtMTU5Njc4NDMxOCwyMDQyODkyMDI0LDEwNzUyOTgwND
+QsMTQ0MTQ5Nzc4NiwtODcyNjQ0MDk1LC03NzU1MDUxMTQsMTU1
+NzE5NDE3MF19
 -->

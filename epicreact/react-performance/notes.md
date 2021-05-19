@@ -331,7 +331,7 @@ Example code here: https://github.com/kentcdodds/react-performance/blob/main/src
 > 
 > Now, if I hit the Profiler and go, then we're solid. We are only rendering the components that actually care about this update. - Dodds
 
-After this, the cell only re-renders when the slice of state it cares about is changing!
+After this, the cell only re-renders when the slice of state that it cares about, is changing!
 
 More reading about HOC and forwarding refs:
 * https://reactjs.org/docs/higher-order-components.html
@@ -340,11 +340,11 @@ More reading about HOC and forwarding refs:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTkzNzI4NCwtMzcyMjU0NDIzLDg2OT
-g1OTQ1NCwtOTAzNTk5ODUyLDE2MjUzMjUxMzEsLTk2NTA5NDE4
-MSwtMzY3MTE1NDAxLC05MTA4MzIwMTQsLTE5MzYwNzA1MzAsMT
-MxNzExNTMzNiwyMDQ0Nzg4MjI3LC0xNTk2Nzg0MzE4LDIwNDI4
-OTIwMjQsMTA3NTI5ODA0NCwxNDQxNDk3Nzg2LC04NzI2NDQwOT
-UsLTc3NTUwNTExNCwxNTU3MTk0MTcwLC0xMzgyMjc3NTc1LDU1
-MjIwMjQwXX0=
+eyJoaXN0b3J5IjpbLTIxMTg0MTcxODcsLTM3MjI1NDQyMyw4Nj
+k4NTk0NTQsLTkwMzU5OTg1MiwxNjI1MzI1MTMxLC05NjUwOTQx
+ODEsLTM2NzExNTQwMSwtOTEwODMyMDE0LC0xOTM2MDcwNTMwLD
+EzMTcxMTUzMzYsMjA0NDc4ODIyNywtMTU5Njc4NDMxOCwyMDQy
+ODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4NiwtODcyNjQ0MD
+k1LC03NzU1MDUxMTQsMTU1NzE5NDE3MCwtMTM4MjI3NzU3NSw1
+NTIyMDI0MF19
 -->

@@ -307,13 +307,14 @@ This means that we put **less state in the global store** and instead put it whe
 More on state colocation in Kent's blog post about the topic: [State Colocation will make your React app faster](https://kcd.im/colocate-state).
 
 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzExNTQwMSwtOTEwODMyMDE0LC0xOT
-M2MDcwNTMwLDEzMTcxMTUzMzYsMjA0NDc4ODIyNywtMTU5Njc4
-NDMxOCwyMDQyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4Ni
-wtODcyNjQ0MDk1LC03NzU1MDUxMTQsMTU1NzE5NDE3MCwtMTM4
-MjI3NzU3NSw1NTIyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NT
-Q2LC0xMDU0MTYwNTM4LDE4MTkwMjA0NDMsLTIxMTgyMTk3MjMs
-MTY2OTQ3MTg3N119
+eyJoaXN0b3J5IjpbLTExNjk0Nzk5NSwtMzY3MTE1NDAxLC05MT
+A4MzIwMTQsLTE5MzYwNzA1MzAsMTMxNzExNTMzNiwyMDQ0Nzg4
+MjI3LC0xNTk2Nzg0MzE4LDIwNDI4OTIwMjQsMTA3NTI5ODA0NC
+wxNDQxNDk3Nzg2LC04NzI2NDQwOTUsLTc3NTUwNTExNCwxNTU3
+MTk0MTcwLC0xMzgyMjc3NTc1LDU1MjIwMjQwLC0xNzkwNzIwMT
+Q1LDExNDQ3Mzg1NDYsLTEwNTQxNjA1MzgsMTgxOTAyMDQ0Mywt
+MjExODIxOTcyM119
 -->

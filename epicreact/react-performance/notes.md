@@ -353,6 +353,8 @@ It isn't enabled by default because it gives our app a slight performance penalt
 
 > Companies like Facebook built their application both with profilingEnabled and with profilingDisabled, and then only serve the profilingEnabled build to a small portion of their users to get this performance monitoring, and you could absolutely do something like that yourself. - Dodds
 
+We can use this to send info to Grafana or similar tools.
+
 More info about the api here: 
 * https://gist.github.com/bvaughn/8de925562903afd2e7a12554adcdda16 
 * https://reactjs.org/docs/profiler.html
@@ -370,11 +372,11 @@ Check the console after clicking the "profiled counter" to see what we pass alon
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjY3MTQ5MDIsMjcwNzMyOTQxLC0xMD
-M1MzU2NTQ5LC01NDM0NjUxMTcsLTE3MjA0Njg5MywtNDc1NzQ3
-MjAxLDEzNjAyMDA0ODIsLTg2ODMzOTIyMiwtMzcyMjU0NDIzLD
-g2OTg1OTQ1NCwtOTAzNTk5ODUyLDE2MjUzMjUxMzEsLTk2NTA5
-NDE4MSwtMzY3MTE1NDAxLC05MTA4MzIwMTQsLTE5MzYwNzA1Mz
-AsMTMxNzExNTMzNiwyMDQ0Nzg4MjI3LC0xNTk2Nzg0MzE4LDIw
-NDI4OTIwMjRdfQ==
+eyJoaXN0b3J5IjpbMjAyNDYxMDU3NCwyNzA3MzI5NDEsLTEwMz
+UzNTY1NDksLTU0MzQ2NTExNywtMTcyMDQ2ODkzLC00NzU3NDcy
+MDEsMTM2MDIwMDQ4MiwtODY4MzM5MjIyLC0zNzIyNTQ0MjMsOD
+Y5ODU5NDU0LC05MDM1OTk4NTIsMTYyNTMyNTEzMSwtOTY1MDk0
+MTgxLC0zNjcxMTU0MDEsLTkxMDgzMjAxNCwtMTkzNjA3MDUzMC
+wxMzE3MTE1MzM2LDIwNDQ3ODgyMjcsLTE1OTY3ODQzMTgsMjA0
+Mjg5MjAyNF19
 -->

@@ -297,15 +297,16 @@ Perf death by a thousand cuts doesn't give you an obvious place to solve the per
 		* Increases complexity of our application. (because we need to use `useCallback` and `useMemo` for basically everything to get some performance boost from this)
 		* React will still have to do lots of work to check whether the components should be re-rendered.
 
-  
+**Solution**:  *State colocation!*
+This means that we put **less state in the global store** and instead 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxMDA3NjA0LC05MTA4MzIwMTQsLTE5Mz
-YwNzA1MzAsMTMxNzExNTMzNiwyMDQ0Nzg4MjI3LC0xNTk2Nzg0
-MzE4LDIwNDI4OTIwMjQsMTA3NTI5ODA0NCwxNDQxNDk3Nzg2LC
-04NzI2NDQwOTUsLTc3NTUwNTExNCwxNTU3MTk0MTcwLC0xMzgy
-Mjc3NTc1LDU1MjIwMjQwLC0xNzkwNzIwMTQ1LDExNDQ3Mzg1ND
-YsLTEwNTQxNjA1MzgsMTgxOTAyMDQ0MywtMjExODIxOTcyMywx
-NjY5NDcxODc3XX0=
+eyJoaXN0b3J5IjpbLTY0MjM4Mjg2NSwtOTEwODMyMDE0LC0xOT
+M2MDcwNTMwLDEzMTcxMTUzMzYsMjA0NDc4ODIyNywtMTU5Njc4
+NDMxOCwyMDQyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4Ni
+wtODcyNjQ0MDk1LC03NzU1MDUxMTQsMTU1NzE5NDE3MCwtMTM4
+MjI3NzU3NSw1NTIyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NT
+Q2LC0xMDU0MTYwNTM4LDE4MTkwMjA0NDMsLTIxMTgyMTk3MjMs
+MTY2OTQ3MTg3N119
 -->

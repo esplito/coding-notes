@@ -262,19 +262,19 @@ More info about this here: https://github.com/kentcdodds/kentcdodds.com/blob/319
 
 **Exercise**
 
-Stats when clicking "force rerender"-button before and after optimization. (No throttling)
+Stats when clicking "force rerender"-button before and after optimization with `useMemo`. (No throttling)
 | | Before | After |
 |--|--|--|
-|Click duration|70.7 ms||
-|Click fps|14 fps||
+|Click duration|70.7 ms|6.2 ms|
+|Click fps|14 fps| 160 fps|
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTY3ODQzMTgsMjA0Mjg5MjAyNCwxMD
-c1Mjk4MDQ0LDE0NDE0OTc3ODYsLTg3MjY0NDA5NSwtNzc1NTA1
-MTE0LDE1NTcxOTQxNzAsLTEzODIyNzc1NzUsNTUyMjAyNDAsLT
-E3OTA3MjAxNDUsMTE0NDczODU0NiwtMTA1NDE2MDUzOCwxODE5
-MDIwNDQzLC0yMTE4MjE5NzIzLDE2Njk0NzE4NzcsODM1MDk3ND
-YzLC0yMDI1NDg1MzYxLC03Mjg3OTkzMDYsLTQ1NzU1MzkyNSwx
-NTc2MTcwNjE2XX0=
+eyJoaXN0b3J5IjpbMTMzNTk0NDM0OSwtMTU5Njc4NDMxOCwyMD
+QyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4NiwtODcyNjQ0
+MDk1LC03NzU1MDUxMTQsMTU1NzE5NDE3MCwtMTM4MjI3NzU3NS
+w1NTIyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NTQ2LC0xMDU0
+MTYwNTM4LDE4MTkwMjA0NDMsLTIxMTgyMTk3MjMsMTY2OTQ3MT
+g3Nyw4MzUwOTc0NjMsLTIwMjU0ODUzNjEsLTcyODc5OTMwNiwt
+NDU3NTUzOTI1XX0=
 -->

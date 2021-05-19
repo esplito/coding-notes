@@ -298,11 +298,18 @@ Perf death by a thousand cuts doesn't give you an obvious place to solve the per
 		* React will still have to do lots of work to check whether the components should be re-rendered.
 
 **Solution**:  *State colocation!*
-This means that we put **less state in the global store** and instead 
+This means that we put **less state in the global store** and instead put it where it is actually used. 
+
+**Benefits**
+✅ Improved performance
+✅ Improved maintenance
+
+More on state colocation in Kent's blog post about the topic: [State Colocation will make your React app faster](https://kcd.im/colocate-state).
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjM4Mjg2NSwtOTEwODMyMDE0LC0xOT
+eyJoaXN0b3J5IjpbLTM2NzExNTQwMSwtOTEwODMyMDE0LC0xOT
 M2MDcwNTMwLDEzMTcxMTUzMzYsMjA0NDc4ODIyNywtMTU5Njc4
 NDMxOCwyMDQyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4Ni
 wtODcyNjQ0MDk1LC03NzU1MDUxMTQsMTU1NzE5NDE3MCwtMTM4

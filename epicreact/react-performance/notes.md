@@ -269,9 +269,12 @@ Stats when clicking "force rerender"-button before and after optimization with `
 |Click fps|14 fps| 160 fps|
 |Render duration|115.9 ms|0.3 ms|
 
+> Why are we getting a re-render when the context value has values that don't change? As it happens, the value prop that you pass to the provider is going to be compared shallowly with object.is or basically a ===.
+> When this app provider is re-rendered, then this value gets re-created. It's a brand-new array. When React compares the value we're passing to this provider between the last render and the new one, it says, "Hey, you gave me a different array last time." - Dodds
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODQxMTIxNCwtMTU5Njc4NDMxOCwyMD
+eyJoaXN0b3J5IjpbMjA0NDc4ODIyNywtMTU5Njc4NDMxOCwyMD
 QyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4NiwtODcyNjQ0
 MDk1LC03NzU1MDUxMTQsMTU1NzE5NDE3MCwtMTM4MjI3NzU3NS
 w1NTIyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NTQ2LC0xMDU0

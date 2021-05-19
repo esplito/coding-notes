@@ -338,16 +338,18 @@ More reading about HOC and forwarding refs:
 * https://reactjs.org/docs/forwarding-refs.html
 
 **Extra credit 4: Use recoil**
+Situations were you need to apply these types of optimizations are rare!
 
+About this extra credit
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzNjExNDk3LC0zNzIyNTQ0MjMsODY5OD
-U5NDU0LC05MDM1OTk4NTIsMTYyNTMyNTEzMSwtOTY1MDk0MTgx
-LC0zNjcxMTU0MDEsLTkxMDgzMjAxNCwtMTkzNjA3MDUzMCwxMz
-E3MTE1MzM2LDIwNDQ3ODgyMjcsLTE1OTY3ODQzMTgsMjA0Mjg5
-MjAyNCwxMDc1Mjk4MDQ0LDE0NDE0OTc3ODYsLTg3MjY0NDA5NS
-wtNzc1NTA1MTE0LDE1NTcxOTQxNzAsLTEzODIyNzc1NzUsNTUy
-MjAyNDBdfQ==
+eyJoaXN0b3J5IjpbLTExMjU3NzY2NywtMzcyMjU0NDIzLDg2OT
+g1OTQ1NCwtOTAzNTk5ODUyLDE2MjUzMjUxMzEsLTk2NTA5NDE4
+MSwtMzY3MTE1NDAxLC05MTA4MzIwMTQsLTE5MzYwNzA1MzAsMT
+MxNzExNTMzNiwyMDQ0Nzg4MjI3LC0xNTk2Nzg0MzE4LDIwNDI4
+OTIwMjQsMTA3NTI5ODA0NCwxNDQxNDk3Nzg2LC04NzI2NDQwOT
+UsLTc3NTUwNTExNCwxNTU3MTk0MTcwLC0xMzgyMjc3NTc1LDU1
+MjIwMjQwXX0=
 -->

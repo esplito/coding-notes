@@ -311,15 +311,16 @@ If we want to have the `dogName` accessible globally, but still want the same pe
 
 Code example here: https://github.com/kentcdodds/react-performance/blob/main/src/final/06.extra-1.js
 
+**Extra credit 2: consuming components**
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTA5NDE4MSwtMzY3MTE1NDAxLC05MT
-A4MzIwMTQsLTE5MzYwNzA1MzAsMTMxNzExNTMzNiwyMDQ0Nzg4
-MjI3LC0xNTk2Nzg0MzE4LDIwNDI4OTIwMjQsMTA3NTI5ODA0NC
-wxNDQxNDk3Nzg2LC04NzI2NDQwOTUsLTc3NTUwNTExNCwxNTU3
-MTk0MTcwLC0xMzgyMjc3NTc1LDU1MjIwMjQwLC0xNzkwNzIwMT
-Q1LDExNDQ3Mzg1NDYsLTEwNTQxNjA1MzgsMTgxOTAyMDQ0Mywt
-MjExODIxOTcyM119
+eyJoaXN0b3J5IjpbMTYyNTMyNTEzMSwtOTY1MDk0MTgxLC0zNj
+cxMTU0MDEsLTkxMDgzMjAxNCwtMTkzNjA3MDUzMCwxMzE3MTE1
+MzM2LDIwNDQ3ODgyMjcsLTE1OTY3ODQzMTgsMjA0Mjg5MjAyNC
+wxMDc1Mjk4MDQ0LDE0NDE0OTc3ODYsLTg3MjY0NDA5NSwtNzc1
+NTA1MTE0LDE1NTcxOTQxNzAsLTEzODIyNzc1NzUsNTUyMjAyND
+AsLTE3OTA3MjAxNDUsMTE0NDczODU0NiwtMTA1NDE2MDUzOCwx
+ODE5MDIwNDQzXX0=
 -->

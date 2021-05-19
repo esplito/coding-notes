@@ -285,15 +285,17 @@ Code before: https://github.com/kentcdodds/react-performance/blob/main/src/exerc
 Final solution here: https://github.com/kentcdodds/react-performance/blob/main/src/final/05.extra-1.js 
 
 ### Fix Perf Death by a Thousand Cuts
+> Whatever state management solution you’re using, often you can run into a problem that I call "perf death by a thousand cuts" which basically means that so many components are updated when state changes that it becomes a performance bottleneck. - Dodds
 
+Perf death by a thousand cuts doesn't give you an obvious place to solve the performance problem. This is because the problem
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDgzMjAxNCwtMTkzNjA3MDUzMCwxMz
-E3MTE1MzM2LDIwNDQ3ODgyMjcsLTE1OTY3ODQzMTgsMjA0Mjg5
-MjAyNCwxMDc1Mjk4MDQ0LDE0NDE0OTc3ODYsLTg3MjY0NDA5NS
-wtNzc1NTA1MTE0LDE1NTcxOTQxNzAsLTEzODIyNzc1NzUsNTUy
-MjAyNDAsLTE3OTA3MjAxNDUsMTE0NDczODU0NiwtMTA1NDE2MD
-UzOCwxODE5MDIwNDQzLC0yMTE4MjE5NzIzLDE2Njk0NzE4Nzcs
-ODM1MDk3NDYzXX0=
+eyJoaXN0b3J5IjpbMTUyNzIzNzY1MiwtOTEwODMyMDE0LC0xOT
+M2MDcwNTMwLDEzMTcxMTUzMzYsMjA0NDc4ODIyNywtMTU5Njc4
+NDMxOCwyMDQyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4Ni
+wtODcyNjQ0MDk1LC03NzU1MDUxMTQsMTU1NzE5NDE3MCwtMTM4
+MjI3NzU3NSw1NTIyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NT
+Q2LC0xMDU0MTYwNTM4LDE4MTkwMjA0NDMsLTIxMTgyMTk3MjMs
+MTY2OTQ3MTg3N119
 -->

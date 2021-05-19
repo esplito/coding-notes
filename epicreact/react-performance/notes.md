@@ -294,15 +294,18 @@ Perf death by a thousand cuts doesn't give you an obvious place to solve the per
 * We often have components responding to a state change when they don't need to.
 * Should we memoize the components with `React.memo`? **No.**
 	* Why not?
-		* Increases complexity of our application. (bea  
+		* Increases complexity of our application. (because we need to use `useCallback` and `useMemo` for basically everything to get some performance boost from this)
+		* React will still have to do lots of work to check whether the components should be re-rendered.
+
+  
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI3ODgzNzIsLTkxMDgzMjAxNCwtMT
-kzNjA3MDUzMCwxMzE3MTE1MzM2LDIwNDQ3ODgyMjcsLTE1OTY3
-ODQzMTgsMjA0Mjg5MjAyNCwxMDc1Mjk4MDQ0LDE0NDE0OTc3OD
-YsLTg3MjY0NDA5NSwtNzc1NTA1MTE0LDE1NTcxOTQxNzAsLTEz
-ODIyNzc1NzUsNTUyMjAyNDAsLTE3OTA3MjAxNDUsMTE0NDczOD
-U0NiwtMTA1NDE2MDUzOCwxODE5MDIwNDQzLC0yMTE4MjE5NzIz
-LDE2Njk0NzE4NzddfQ==
+eyJoaXN0b3J5IjpbNTMxMDA3NjA0LC05MTA4MzIwMTQsLTE5Mz
+YwNzA1MzAsMTMxNzExNTMzNiwyMDQ0Nzg4MjI3LC0xNTk2Nzg0
+MzE4LDIwNDI4OTIwMjQsMTA3NTI5ODA0NCwxNDQxNDk3Nzg2LC
+04NzI2NDQwOTUsLTc3NTUwNTExNCwxNTU3MTk0MTcwLC0xMzgy
+Mjc3NTc1LDU1MjIwMjQwLC0xNzkwNzIwMTQ1LDExNDQ3Mzg1ND
+YsLTEwNTQxNjA1MzgsMTgxOTAyMDQ0MywtMjExODIxOTcyMywx
+NjY5NDcxODc3XX0=
 -->

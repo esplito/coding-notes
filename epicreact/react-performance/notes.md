@@ -362,14 +362,19 @@ To see an example of how you could pass something to the Profiler-component's `o
 More about this topic in Kent's blog posts:
 * [React Production Performance Monitoring](https://kentcdodds.com/blog/react-production-performance-monitoring)
 * [Profile a React App for Performance](https://kentcdodds.com/blog/profile-a-react-app-for-performance)
+
+Check the console after clicking the "profiled counter" to see what we pass along from our profiler in the following examples:
+* https://react-performance.netlify.app/isolated/final/07.js
+* https://react-performance.netlify.app/isolated/final/07.extra-1.js (with tracing of interactions enabled)
+
 > Written with [StackEdit](https://stackedit.io/).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwNzMyOTQxLC0xMDM1MzU2NTQ5LC01ND
-M0NjUxMTcsLTE3MjA0Njg5MywtNDc1NzQ3MjAxLDEzNjAyMDA0
-ODIsLTg2ODMzOTIyMiwtMzcyMjU0NDIzLDg2OTg1OTQ1NCwtOT
-AzNTk5ODUyLDE2MjUzMjUxMzEsLTk2NTA5NDE4MSwtMzY3MTE1
-NDAxLC05MTA4MzIwMTQsLTE5MzYwNzA1MzAsMTMxNzExNTMzNi
-wyMDQ0Nzg4MjI3LC0xNTk2Nzg0MzE4LDIwNDI4OTIwMjQsMTA3
-NTI5ODA0NF19
+eyJoaXN0b3J5IjpbLTExMjY3MTQ5MDIsMjcwNzMyOTQxLC0xMD
+M1MzU2NTQ5LC01NDM0NjUxMTcsLTE3MjA0Njg5MywtNDc1NzQ3
+MjAxLDEzNjAyMDA0ODIsLTg2ODMzOTIyMiwtMzcyMjU0NDIzLD
+g2OTg1OTQ1NCwtOTAzNTk5ODUyLDE2MjUzMjUxMzEsLTk2NTA5
+NDE4MSwtMzY3MTE1NDAxLC05MTA4MzIwMTQsLTE5MzYwNzA1Mz
+AsMTMxNzExNTMzNiwyMDQ0Nzg4MjI3LC0xNTk2Nzg0MzE4LDIw
+NDI4OTIwMjRdfQ==
 -->

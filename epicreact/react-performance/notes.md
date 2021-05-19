@@ -260,16 +260,16 @@ See an example here: https://react-performance.netlify.app/4
 
 More info about this here: https://github.com/kentcdodds/kentcdodds.com/blob/319db97260078ea4c263e75166f05e2cea21ccd1/content/blog/how-to-optimize-your-context-value/index.md 
 
-
+**Exercis
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Mjg5MjAyNCwxMDc1Mjk4MDQ0LDE0ND
-E0OTc3ODYsLTg3MjY0NDA5NSwtNzc1NTA1MTE0LDE1NTcxOTQx
-NzAsLTEzODIyNzc1NzUsNTUyMjAyNDAsLTE3OTA3MjAxNDUsMT
-E0NDczODU0NiwtMTA1NDE2MDUzOCwxODE5MDIwNDQzLC0yMTE4
-MjE5NzIzLDE2Njk0NzE4NzcsODM1MDk3NDYzLC0yMDI1NDg1Mz
-YxLC03Mjg3OTkzMDYsLTQ1NzU1MzkyNSwxNTc2MTcwNjE2LC0y
-MTM1MTEyNzc1XX0=
+eyJoaXN0b3J5IjpbLTE0NTI0NDA3MzcsMjA0Mjg5MjAyNCwxMD
+c1Mjk4MDQ0LDE0NDE0OTc3ODYsLTg3MjY0NDA5NSwtNzc1NTA1
+MTE0LDE1NTcxOTQxNzAsLTEzODIyNzc1NzUsNTUyMjAyNDAsLT
+E3OTA3MjAxNDUsMTE0NDczODU0NiwtMTA1NDE2MDUzOCwxODE5
+MDIwNDQzLC0yMTE4MjE5NzIzLDE2Njk0NzE4NzcsODM1MDk3ND
+YzLC0yMDI1NDg1MzYxLC03Mjg3OTkzMDYsLTQ1NzU1MzkyNSwx
+NTc2MTcwNjE2XX0=
 -->

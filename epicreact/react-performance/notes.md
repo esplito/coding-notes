@@ -267,10 +267,11 @@ Stats when clicking "force rerender"-button before and after optimization with `
 |--|--|--|
 |Click duration|70.7 ms|6.2 ms|
 |Click fps|14 fps| 160 fps|
+|Render duration|115.9 ms|0.3 ms|
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTk0NDM0OSwtMTU5Njc4NDMxOCwyMD
+eyJoaXN0b3J5IjpbMjA1ODQxMTIxNCwtMTU5Njc4NDMxOCwyMD
 QyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4NiwtODcyNjQ0
 MDk1LC03NzU1MDUxMTQsMTU1NzE5NDE3MCwtMTM4MjI3NzU3NS
 w1NTIyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NTQ2LC0xMDU0

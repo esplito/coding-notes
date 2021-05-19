@@ -290,11 +290,12 @@ Final solution here: https://github.com/kentcdodds/react-performance/blob/main/s
 Perf death by a thousand cuts doesn't give you an obvious place to solve the performance problem. This is because the problem occurs when lots of components need to run because of a state update. The components are not slow in isolation.
 
 **How can we solve this?**
--
+* Every performance problem is solved by less code.
+* We often have components responding to a state change when they don't need to.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDIyNDI4NDMsLTkxMDgzMjAxNCwtMT
+eyJoaXN0b3J5IjpbLTIwNjA0NDQzMjUsLTkxMDgzMjAxNCwtMT
 kzNjA3MDUzMCwxMzE3MTE1MzM2LDIwNDQ3ODgyMjcsLTE1OTY3
 ODQzMTgsMjA0Mjg5MjAyNCwxMDc1Mjk4MDQ0LDE0NDE0OTc3OD
 YsLTg3MjY0NDA5NSwtNzc1NTA1MTE0LDE1NTcxOTQxNzAsLTEz

@@ -273,17 +273,23 @@ Stats when clicking "force rerender"-button before and after optimization with `
 > When this app provider is re-rendered, then this value gets re-created. It's a brand-new array. When React compares the value we're passing to this provider between the last render and the new one, it says, "Hey, you gave me a different array last time." - Dodds
 
 **Extra credit 1:  separate the contexts**
-When we click on a cell in the grid, the whole grid re-renders even though the click doesn't really affect the whole grid.  
+When we click on a cell in the grid, the whole grid re-renders even though the click doesn't really affect the whole grid (it is not dependent on the state change and only needs the dispatch).
+
+Render duration stats before/after optimization.
+| | Before | After |
+|--|--|--|
+|Render duration|61.3 ms|0.3 ms|
+  
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDk0OTY4OTYsMjA0NDc4ODIyNywtMT
-U5Njc4NDMxOCwyMDQyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5
-Nzc4NiwtODcyNjQ0MDk1LC03NzU1MDUxMTQsMTU1NzE5NDE3MC
-wtMTM4MjI3NzU3NSw1NTIyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0
-NzM4NTQ2LC0xMDU0MTYwNTM4LDE4MTkwMjA0NDMsLTIxMTgyMT
-k3MjMsMTY2OTQ3MTg3Nyw4MzUwOTc0NjMsLTIwMjU0ODUzNjEs
-LTcyODc5OTMwNl19
+eyJoaXN0b3J5IjpbMTMxNzExNTMzNiwyMDQ0Nzg4MjI3LC0xNT
+k2Nzg0MzE4LDIwNDI4OTIwMjQsMTA3NTI5ODA0NCwxNDQxNDk3
+Nzg2LC04NzI2NDQwOTUsLTc3NTUwNTExNCwxNTU3MTk0MTcwLC
+0xMzgyMjc3NTc1LDU1MjIwMjQwLC0xNzkwNzIwMTQ1LDExNDQ3
+Mzg1NDYsLTEwNTQxNjA1MzgsMTgxOTAyMDQ0MywtMjExODIxOT
+cyMywxNjY5NDcxODc3LDgzNTA5NzQ2MywtMjAyNTQ4NTM2MSwt
+NzI4Nzk5MzA2XX0=
 -->

@@ -287,15 +287,18 @@ Final solution here: https://github.com/kentcdodds/react-performance/blob/main/s
 ### Fix Perf Death by a Thousand Cuts
 > Whatever state management solution you’re using, often you can run into a problem that I call "perf death by a thousand cuts" which basically means that so many components are updated when state changes that it becomes a performance bottleneck. - Dodds
 
-Perf death by a thousand cuts doesn't give you an obvious place to solve the performance problem. This is because the problem
+Perf death by a thousand cuts doesn't give you an obvious place to solve the performance problem. This is because the problem occurs when lots of components need to run because of a state update. The components are not slow in isolation.
+
+**How can we solve this?**
+-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzIzNzY1MiwtOTEwODMyMDE0LC0xOT
-M2MDcwNTMwLDEzMTcxMTUzMzYsMjA0NDc4ODIyNywtMTU5Njc4
-NDMxOCwyMDQyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4Ni
-wtODcyNjQ0MDk1LC03NzU1MDUxMTQsMTU1NzE5NDE3MCwtMTM4
-MjI3NzU3NSw1NTIyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NT
-Q2LC0xMDU0MTYwNTM4LDE4MTkwMjA0NDMsLTIxMTgyMTk3MjMs
-MTY2OTQ3MTg3N119
+eyJoaXN0b3J5IjpbLTE2NDIyNDI4NDMsLTkxMDgzMjAxNCwtMT
+kzNjA3MDUzMCwxMzE3MTE1MzM2LDIwNDQ3ODgyMjcsLTE1OTY3
+ODQzMTgsMjA0Mjg5MjAyNCwxMDc1Mjk4MDQ0LDE0NDE0OTc3OD
+YsLTg3MjY0NDA5NSwtNzc1NTA1MTE0LDE1NTcxOTQxNzAsLTEz
+ODIyNzc1NzUsNTUyMjAyNDAsLTE3OTA3MjAxNDUsMTE0NDczOD
+U0NiwtMTA1NDE2MDUzOCwxODE5MDIwNDQzLC0yMTE4MjE5NzIz
+LDE2Njk0NzE4NzddfQ==
 -->

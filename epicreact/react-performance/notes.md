@@ -278,18 +278,18 @@ When we click on a cell in the grid, the whole grid re-renders even though the c
 Render duration stats before/after optimization.
 | | Before | After |
 |--|--|--|
-|Render duration|61.3 ms|0.3 ms|
+|Render duration|61.3 ms|59.4 ms|
   
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzExNTMzNiwyMDQ0Nzg4MjI3LC0xNT
-k2Nzg0MzE4LDIwNDI4OTIwMjQsMTA3NTI5ODA0NCwxNDQxNDk3
-Nzg2LC04NzI2NDQwOTUsLTc3NTUwNTExNCwxNTU3MTk0MTcwLC
-0xMzgyMjc3NTc1LDU1MjIwMjQwLC0xNzkwNzIwMTQ1LDExNDQ3
-Mzg1NDYsLTEwNTQxNjA1MzgsMTgxOTAyMDQ0MywtMjExODIxOT
-cyMywxNjY5NDcxODc3LDgzNTA5NzQ2MywtMjAyNTQ4NTM2MSwt
-NzI4Nzk5MzA2XX0=
+eyJoaXN0b3J5IjpbMTE0Nzc5NjAwOSwxMzE3MTE1MzM2LDIwND
+Q3ODgyMjcsLTE1OTY3ODQzMTgsMjA0Mjg5MjAyNCwxMDc1Mjk4
+MDQ0LDE0NDE0OTc3ODYsLTg3MjY0NDA5NSwtNzc1NTA1MTE0LD
+E1NTcxOTQxNzAsLTEzODIyNzc1NzUsNTUyMjAyNDAsLTE3OTA3
+MjAxNDUsMTE0NDczODU0NiwtMTA1NDE2MDUzOCwxODE5MDIwND
+QzLC0yMTE4MjE5NzIzLDE2Njk0NzE4NzcsODM1MDk3NDYzLC0y
+MDI1NDg1MzYxXX0=
 -->

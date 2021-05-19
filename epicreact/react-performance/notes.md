@@ -312,16 +312,21 @@ If we want to have the `dogName` accessible globally, but still want the same pe
 Code example here: https://github.com/kentcdodds/react-performance/blob/main/src/final/06.extra-1.js
 
 **Extra credit 2: consuming components**
-Another issue with the grid in this exercise is that the cells are re-rendering when we only click one of the cells. This affects performance so we would want to minimize this. One way of doing it, is to create a "middle-man" component which will handle the state changes of a cell. By having this component we'll only re-render the "middle-man" component instead of re-rendering 
+Another issue with the grid in this exercise is that the cells are re-rendering when we only click one of the cells. This affects performance so we would want to minimize this. One way of doing it, is to create a "middle-man" component which will handle the state changes of a cell. By having this component we'll only re-render the "middle-man" components instead of re-rendering all the Cell-components. This leads to an improvement in performance. 
+
+Example code here: https://github.com/kentcdodds/react-performance/blob/main/src/final/06.extra-2.js
+
+**Extra credit 3: write an HOC to get a slice of app state**
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczMTQ2Mzc1LDE2MjUzMjUxMzEsLTk2NT
-A5NDE4MSwtMzY3MTE1NDAxLC05MTA4MzIwMTQsLTE5MzYwNzA1
-MzAsMTMxNzExNTMzNiwyMDQ0Nzg4MjI3LC0xNTk2Nzg0MzE4LD
-IwNDI4OTIwMjQsMTA3NTI5ODA0NCwxNDQxNDk3Nzg2LC04NzI2
-NDQwOTUsLTc3NTUwNTExNCwxNTU3MTk0MTcwLC0xMzgyMjc3NT
-c1LDU1MjIwMjQwLC0xNzkwNzIwMTQ1LDExNDQ3Mzg1NDYsLTEw
-NTQxNjA1MzhdfQ==
+eyJoaXN0b3J5IjpbMTM0Mzg4MTgxNiwxNjI1MzI1MTMxLC05Nj
+UwOTQxODEsLTM2NzExNTQwMSwtOTEwODMyMDE0LC0xOTM2MDcw
+NTMwLDEzMTcxMTUzMzYsMjA0NDc4ODIyNywtMTU5Njc4NDMxOC
+wyMDQyODkyMDI0LDEwNzUyOTgwNDQsMTQ0MTQ5Nzc4NiwtODcy
+NjQ0MDk1LC03NzU1MDUxMTQsMTU1NzE5NDE3MCwtMTM4MjI3Nz
+U3NSw1NTIyMDI0MCwtMTc5MDcyMDE0NSwxMTQ0NzM4NTQ2LC0x
+MDU0MTYwNTM4XX0=
 -->

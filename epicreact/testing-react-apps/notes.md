@@ -36,11 +36,14 @@ beforeEach(() => {
 })
 ```
 
-Note: If we use React Testing Libr
+Note: If we use React Testing Library we would get lots of functionality without having to write them ourselves (like cleanup and click events etc.)
+
+### Simple test with React Testing Library
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzA0NTIyNjgsNjM0ODk1Njg0LC0zMT
-cyODE5NDksMTQ1NjA4MTYxNSwyOTc4MTgwNDAsLTE5OTU0MTYw
-NDcsMTUyMTE5Mjg2MV19
+eyJoaXN0b3J5IjpbMTQ1MTI2ODIwNyw2MzQ4OTU2ODQsLTMxNz
+I4MTk0OSwxNDU2MDgxNjE1LDI5NzgxODA0MCwtMTk5NTQxNjA0
+NywxNTIxMTkyODYxXX0=
 -->

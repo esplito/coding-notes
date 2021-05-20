@@ -49,13 +49,15 @@ To get more assertions that you can use in your tests you can import Testing Lib
 
 ### Avoid Implementation Details
 
+> One of the most important things to remember about testing our software the way it is used is to avoid testing implementation details. "Implementation details" is a term referring to how an abstraction accomplishes a certain outcome. Thanks to the expressiveness of code, you can typically accomplish the same outcome using completely different implementation details. - Dodds
+
 > The implementation of your abstractions does not matter to the users of your abstraction and if you want to have confidence that it continues to work through refactors then **neither should your tests.** - Dodds
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzY2MjcwNiwtMTQzODEyNTg3OSwzOD
+eyJoaXN0b3J5IjpbLTM4NzYxNDEyMSwtMTQzODEyNTg3OSwzOD
 YwNTEwOTUsMTg3NzA1NjQzNiwxNDUxMjY4MjA3LDYzNDg5NTY4
 NCwtMzE3MjgxOTQ5LDE0NTYwODE2MTUsMjk3ODE4MDQwLC0xOT
 k1NDE2MDQ3LDE1MjExOTI4NjFdfQ==

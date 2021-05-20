@@ -44,13 +44,15 @@ Note: If we use React Testing Library we would get lots of functionality without
 
 > As we're rendering, this React Testing Library will keep track of all the divs. As we're rendering, this React Testing Library will actually keep track of all the divs that it's creating. It will remove those divs from the document.body, as well as unmount the components that were rendered. - Dodds
 
+To get more assertions that you can use in your tests you can import Testing Library´s own suite of assertions for jest: [`@testing-library/jest-dom`](http://testing-library.com/jest-dom).
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTU0ODkzMywzODYwNTEwOTUsMTg3Nz
-A1NjQzNiwxNDUxMjY4MjA3LDYzNDg5NTY4NCwtMzE3MjgxOTQ5
-LDE0NTYwODE2MTUsMjk3ODE4MDQwLC0xOTk1NDE2MDQ3LDE1Mj
-ExOTI4NjFdfQ==
+eyJoaXN0b3J5IjpbLTE0MzgxMjU4NzksMzg2MDUxMDk1LDE4Nz
+cwNTY0MzYsMTQ1MTI2ODIwNyw2MzQ4OTU2ODQsLTMxNzI4MTk0
+OSwxNDU2MDgxNjE1LDI5NzgxODA0MCwtMTk5NTQxNjA0NywxNT
+IxMTkyODYxXX0=
 -->

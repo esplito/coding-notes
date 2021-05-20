@@ -67,19 +67,22 @@ It is preferable to query elements by their role or by text, but how do you find
 
 Test example where we get a button by it's role and name:
 ```js
-const incrementBtn = 
+const decrementBtn = screen.getByRole('button', { name: /decrement/i})
 ```
+Here's how the button looks in React:
+```jsx
 
+```
 
 Great site for trying out testing library: https://testing-playground.com/
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjgyNTk5MjcsMjEzNzQxNjQzNSwtMT
-cyNjQyMDg1NSw3MjI4MjUyODcsMjExMDg4MzQzNCw1MjQ5MjY5
-MTYsLTE0MzgxMjU4NzksMzg2MDUxMDk1LDE4NzcwNTY0MzYsMT
-Q1MTI2ODIwNyw2MzQ4OTU2ODQsLTMxNzI4MTk0OSwxNDU2MDgx
-NjE1LDI5NzgxODA0MCwtMTk5NTQxNjA0NywxNTIxMTkyODYxXX
-0=
+eyJoaXN0b3J5IjpbMTk1NzU3ODEzNiwyMTM3NDE2NDM1LC0xNz
+I2NDIwODU1LDcyMjgyNTI4NywyMTEwODgzNDM0LDUyNDkyNjkx
+NiwtMTQzODEyNTg3OSwzODYwNTEwOTUsMTg3NzA1NjQzNiwxND
+UxMjY4MjA3LDYzNDg5NTY4NCwtMzE3MjgxOTQ5LDE0NTYwODE2
+MTUsMjk3ODE4MDQwLC0xOTk1NDE2MDQ3LDE1MjExOTI4NjFdfQ
+==
 -->

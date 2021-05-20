@@ -36,10 +36,11 @@ beforeEach(() => {
 })
 ```
 
+Note: If we use React Testing Libr
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0ODk1Njg0LC0zMTcyODE5NDksMTQ1Nj
-A4MTYxNSwyOTc4MTgwNDAsLTE5OTU0MTYwNDcsMTUyMTE5Mjg2
-MV19
+eyJoaXN0b3J5IjpbLTEyMzA0NTIyNjgsNjM0ODk1Njg0LC0zMT
+cyODE5NDksMTQ1NjA4MTYxNSwyOTc4MTgwNDAsLTE5OTU0MTYw
+NDcsMTUyMTE5Mjg2MV19
 -->

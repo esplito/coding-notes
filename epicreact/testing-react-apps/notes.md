@@ -42,11 +42,13 @@ Note: If we use React Testing Library we would get lots of functionality without
 
 [React Testing Library](https://testing-library.com/react) removes the need for us to write boilerplate code that is not so relevant to us as developers (like wrapping stuff in the `act`-function and  writing cleanup-functions).
 
+> As we're rendering, this React Testing Library will keep track of all the divs. As we're rendering, this React Testing Library will actually keep track of all the divs that it's creating. It will remove those divs from the document.body, as well as unmount the components that were rendered. - Dodds
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzA1NjQzNiwxNDUxMjY4MjA3LDYzND
-g5NTY4NCwtMzE3MjgxOTQ5LDE0NTYwODE2MTUsMjk3ODE4MDQw
-LC0xOTk1NDE2MDQ3LDE1MjExOTI4NjFdfQ==
+eyJoaXN0b3J5IjpbMzg2MDUxMDk1LDE4NzcwNTY0MzYsMTQ1MT
+I2ODIwNyw2MzQ4OTU2ODQsLTMxNzI4MTk0OSwxNDU2MDgxNjE1
+LDI5NzgxODA0MCwtMTk5NTQxNjA0NywxNTIxMTkyODYxXX0=
 -->

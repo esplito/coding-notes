@@ -53,11 +53,13 @@ To get more assertions that you can use in your tests you can import Testing Lib
 
 > The implementation of your abstractions does not matter to the users of your abstraction and if you want to have confidence that it continues to work through refactors then **neither should your tests.** - Dodds
 
+More about implementation details here: [Testing Implementation Details](https://kentcdodds.com/blog/testing-implementation-details)
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzYxNDEyMSwtMTQzODEyNTg3OSwzOD
+eyJoaXN0b3J5IjpbMjA1NTY0MjEzNywtMTQzODEyNTg3OSwzOD
 YwNTEwOTUsMTg3NzA1NjQzNiwxNDUxMjY4MjA3LDYzNDg5NTY4
 NCwtMzE3MjgxOTQ5LDE0NTYwODE2MTUsMjk3ODE4MDQwLC0xOT
 k1NDE2MDQ3LDE1MjExOTI4NjFdfQ==

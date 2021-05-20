@@ -61,17 +61,25 @@ If we want to be truly implementation detail free we should fire all the events 
 
 If you want learn more about how the click-method in `userEvent` works, check out the code here: https://github.com/testing-library/user-event/blob/1af67066f57377c5ab758a1215711dddabad2d83/src/index.js#L109-L131
 
-If you want to check different accessibility properties (like "role") on elements on a page, you can use the accessibiliy-tab in Chrome DevTools:
+It is preferable to query elements by their role or by text, but how do you find the role of the element that you want to test? Open up the DevTools in Google Chrome and look for the tab "Accessibility". Here you can find the "Name" which is read by screen readers and you can also find the "role" of an element.
+
 ![Screenshot showing how you can find accessibility properties on a HTML element](https://github.com/esplito/coding-notes/blob/master/accessibility_in_chrome.png?raw=true)
+
+Test example where we get a button by it's role and name:
+```js
+const incrementBtn = 
+```
+
 
 Great site for trying out testing library: https://testing-playground.com/
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzQxNjQzNSwtMTcyNjQyMDg1NSw3Mj
-I4MjUyODcsMjExMDg4MzQzNCw1MjQ5MjY5MTYsLTE0MzgxMjU4
-NzksMzg2MDUxMDk1LDE4NzcwNTY0MzYsMTQ1MTI2ODIwNyw2Mz
-Q4OTU2ODQsLTMxNzI4MTk0OSwxNDU2MDgxNjE1LDI5NzgxODA0
-MCwtMTk5NTQxNjA0NywxNTIxMTkyODYxXX0=
+eyJoaXN0b3J5IjpbLTE5MjgyNTk5MjcsMjEzNzQxNjQzNSwtMT
+cyNjQyMDg1NSw3MjI4MjUyODcsMjExMDg4MzQzNCw1MjQ5MjY5
+MTYsLTE0MzgxMjU4NzksMzg2MDUxMDk1LDE4NzcwNTY0MzYsMT
+Q1MTI2ODIwNyw2MzQ4OTU2ODQsLTMxNzI4MTk0OSwxNDU2MDgx
+NjE1LDI5NzgxODA0MCwtMTk5NTQxNjA0NywxNTIxMTkyODYxXX
+0=
 -->

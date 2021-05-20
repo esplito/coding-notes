@@ -57,13 +57,13 @@ More about implementation details here: [Testing Implementation Details](https:/
 
 > You can tell whether tests rely on implementation details if they're written in a way that would fail if the implementation changes. For example, what if we wrapped our counter component in another `div` or swapped our message from a `div` to a `span` or `p`? Or what if we added another button for `reset`? Or what if instead of a `button` we switched to a clickable (and accessible) `div`? (That's not an easy thing to do, so I recommend just using a button, but the point is hopefully clear). - Dodds
 
-If we want to be truly implementation detail free we should fire all the events that normally happens when a user clicks something. With `fireEvent` we only fire one 
+If we want to be truly implementation detail free we should fire all the events that normally happens when a user clicks something. With `fireEvent` we only fire one event, `click`, but normally there would be some MouseEvents also, like `mouseover`, `mousedown`, `mouseup` etc.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwOTQxNjI5LDUyNDkyNjkxNiwtMTQzOD
-EyNTg3OSwzODYwNTEwOTUsMTg3NzA1NjQzNiwxNDUxMjY4MjA3
-LDYzNDg5NTY4NCwtMzE3MjgxOTQ5LDE0NTYwODE2MTUsMjk3OD
-E4MDQwLC0xOTk1NDE2MDQ3LDE1MjExOTI4NjFdfQ==
+eyJoaXN0b3J5IjpbMjExMDg4MzQzNCw1MjQ5MjY5MTYsLTE0Mz
+gxMjU4NzksMzg2MDUxMDk1LDE4NzcwNTY0MzYsMTQ1MTI2ODIw
+Nyw2MzQ4OTU2ODQsLTMxNzI4MTk0OSwxNDU2MDgxNjE1LDI5Nz
+gxODA0MCwtMTk5NTQxNjA0NywxNTIxMTkyODYxXX0=
 -->

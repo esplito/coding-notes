@@ -14,13 +14,17 @@ When we think about how an application is used, we have to consider who the user
 
 Users:
 1. The end users -> the ones who interact with our application (by clicking buttons etc.)
-2. The developer users -> the ones who
+2. The developer users -> the ones who uses our code (rendering it, calling our functions etc.)
+
+We want to avoid a third user creeping into our tests. More on this here: [Avoid the test user](https://kentcdodds.com/blog/avoid-the-test-user)
+
+
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzQ0OTY3MSwyOTc4MTgwNDAsLTE5OT
-U0MTYwNDcsMTUyMTE5Mjg2MV19
+eyJoaXN0b3J5IjpbLTEwMTQ5OTgyMTcsMjk3ODE4MDQwLC0xOT
+k1NDE2MDQ3LDE1MjExOTI4NjFdfQ==
 -->

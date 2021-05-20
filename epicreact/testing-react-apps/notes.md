@@ -47,11 +47,15 @@ Note: If we use React Testing Library we would get lots of functionality without
 To get more assertions that you can use in your tests you can import Testing Library´s own suite of assertions for jest: [`@testing-library/jest-dom`](http://testing-library.com/jest-dom).
 
 
-##
+### Avoid Implementation Details
+
+> The implementation of your abstractions does not matter to the users of your abstraction and if you want to have confidence that it continues to work through refactors then **neither should your tests.** - Dodds
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Mzk5NzI3MSwtMTQzODEyNTg3OSwzOD
+eyJoaXN0b3J5IjpbLTM2NzY2MjcwNiwtMTQzODEyNTg3OSwzOD
 YwNTEwOTUsMTg3NzA1NjQzNiwxNDUxMjY4MjA3LDYzNDg5NTY4
 NCwtMzE3MjgxOTQ5LDE0NTYwODE2MTUsMjk3ODE4MDQwLC0xOT
 k1NDE2MDQ3LDE1MjExOTI4NjFdfQ==

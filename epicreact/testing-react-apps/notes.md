@@ -61,13 +61,15 @@ If we want to be truly implementation detail free we should fire all the events 
 
 If you want learn more about how the click-method in `userEvent` works, check out the code here: https://github.com/testing-library/user-event/blob/1af67066f57377c5ab758a1215711dddabad2d83/src/index.js#L109-L131
 
+If you want to check different accessibility properties (like "role") on elements on a page, you can use the accessibiliy-tab in Chrome DevTools:
+![Screenshot showing how you can find accessibility properties on a HTML element](https://github.com/esplito/coding-notes/blob/master/accessibility_in_chrome.png?raw=true)
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyODI1Mjg3LDIxMTA4ODM0MzQsNTI0OT
-I2OTE2LC0xNDM4MTI1ODc5LDM4NjA1MTA5NSwxODc3MDU2NDM2
-LDE0NTEyNjgyMDcsNjM0ODk1Njg0LC0zMTcyODE5NDksMTQ1Nj
-A4MTYxNSwyOTc4MTgwNDAsLTE5OTU0MTYwNDcsMTUyMTE5Mjg2
-MV19
+eyJoaXN0b3J5IjpbLTE3MjY0MjA4NTUsNzIyODI1Mjg3LDIxMT
+A4ODM0MzQsNTI0OTI2OTE2LC0xNDM4MTI1ODc5LDM4NjA1MTA5
+NSwxODc3MDU2NDM2LDE0NTEyNjgyMDcsNjM0ODk1Njg0LC0zMT
+cyODE5NDksMTQ1NjA4MTYxNSwyOTc4MTgwNDAsLTE5OTU0MTYw
+NDcsMTUyMTE5Mjg2MV19
 -->

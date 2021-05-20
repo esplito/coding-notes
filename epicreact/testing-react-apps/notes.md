@@ -55,14 +55,14 @@ To get more assertions that you can use in your tests you can import Testing Lib
 
 More about implementation details here: [Testing Implementation Details](https://kentcdodds.com/blog/testing-implementation-details)
 
-> You can tell whether tests rely on implementation details if they're written in a way that would fail if the implementation changes. For example, what if we wrapped our counter component in another `div` or swapped our message from a `div` to a `span` or `p`? Or what if we added another button for `reset`? Or what if instead of a `button` we switched to a clickable (and accessible) `div`? (That's not an easy thing to do, so I recommend just using a button, but the point is hopefully clear).
+> You can tell whether tests rely on implementation details if they're written in a way that would fail if the implementation changes. For example, what if we wrapped our counter component in another `div` or swapped our message from a `div` to a `span` or `p`? Or what if we added another button for `reset`? Or what if instead of a `button` we switched to a clickable (and accessible) `div`? (That's not an easy thing to do, so I recommend just using a button, but the point is hopefully clear). - Dodds
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjYxMjM0NSwtMTQzODEyNTg3OSwzOD
-YwNTEwOTUsMTg3NzA1NjQzNiwxNDUxMjY4MjA3LDYzNDg5NTY4
-NCwtMzE3MjgxOTQ5LDE0NTYwODE2MTUsMjk3ODE4MDQwLC0xOT
-k1NDE2MDQ3LDE1MjExOTI4NjFdfQ==
+eyJoaXN0b3J5IjpbNTI0OTI2OTE2LC0xNDM4MTI1ODc5LDM4Nj
+A1MTA5NSwxODc3MDU2NDM2LDE0NTEyNjgyMDcsNjM0ODk1Njg0
+LC0zMTcyODE5NDksMTQ1NjA4MTYxNSwyOTc4MTgwNDAsLTE5OT
+U0MTYwNDcsMTUyMTE5Mjg2MV19
 -->

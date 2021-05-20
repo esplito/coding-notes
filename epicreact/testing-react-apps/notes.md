@@ -64,12 +64,14 @@ If you want learn more about how the click-method in `userEvent` works, check ou
 If you want to check different accessibility properties (like "role") on elements on a page, you can use the accessibiliy-tab in Chrome DevTools:
 ![Screenshot showing how you can find accessibility properties on a HTML element](https://github.com/esplito/coding-notes/blob/master/accessibility_in_chrome.png?raw=true)
 
+Great site for trying out testing library: https://testing-playground.com/
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjY0MjA4NTUsNzIyODI1Mjg3LDIxMT
-A4ODM0MzQsNTI0OTI2OTE2LC0xNDM4MTI1ODc5LDM4NjA1MTA5
-NSwxODc3MDU2NDM2LDE0NTEyNjgyMDcsNjM0ODk1Njg0LC0zMT
-cyODE5NDksMTQ1NjA4MTYxNSwyOTc4MTgwNDAsLTE5OTU0MTYw
-NDcsMTUyMTE5Mjg2MV19
+eyJoaXN0b3J5IjpbMjEzNzQxNjQzNSwtMTcyNjQyMDg1NSw3Mj
+I4MjUyODcsMjExMDg4MzQzNCw1MjQ5MjY5MTYsLTE0MzgxMjU4
+NzksMzg2MDUxMDk1LDE4NzcwNTY0MzYsMTQ1MTI2ODIwNyw2Mz
+Q4OTU2ODQsLTMxNzI4MTk0OSwxNDU2MDgxNjE1LDI5NzgxODA0
+MCwtMTk5NTQxNjA0NywxNTIxMTkyODYxXX0=
 -->

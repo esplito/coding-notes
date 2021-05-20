@@ -28,11 +28,18 @@ In the extra credit we use `MouseEvent` and `dispatchEvent`. Resources on these 
 * https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent
 * https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent
 
+It's important to clean up the DOM between each test. To do this we could write something like this:
 
+```js
+beforeEach(() => {
+	document.body.innerHTML = '';
+})
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzI4MTk0OSwxNDU2MDgxNjE1LDI5Nz
-gxODA0MCwtMTk5NTQxNjA0NywxNTIxMTkyODYxXX0=
+eyJoaXN0b3J5IjpbNjM0ODk1Njg0LC0zMTcyODE5NDksMTQ1Nj
+A4MTYxNSwyOTc4MTgwNDAsLTE5OTU0MTYwNDcsMTUyMTE5Mjg2
+MV19
 -->

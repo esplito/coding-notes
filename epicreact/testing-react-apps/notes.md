@@ -71,7 +71,7 @@ const decrementBtn = screen.getByRole('button', { name: /decrement/i})
 ```
 Here's how the button looks in React:
 ```jsx
-
+<button  onClick={decrement}>Decrement</button>
 ```
 
 Great site for trying out testing library: https://testing-playground.com/
@@ -79,10 +79,9 @@ Great site for trying out testing library: https://testing-playground.com/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzU3ODEzNiwyMTM3NDE2NDM1LC0xNz
-I2NDIwODU1LDcyMjgyNTI4NywyMTEwODgzNDM0LDUyNDkyNjkx
-NiwtMTQzODEyNTg3OSwzODYwNTEwOTUsMTg3NzA1NjQzNiwxND
-UxMjY4MjA3LDYzNDg5NTY4NCwtMzE3MjgxOTQ5LDE0NTYwODE2
-MTUsMjk3ODE4MDQwLC0xOTk1NDE2MDQ3LDE1MjExOTI4NjFdfQ
-==
+eyJoaXN0b3J5IjpbMjY4NTEzMjg1LDIxMzc0MTY0MzUsLTE3Mj
+Y0MjA4NTUsNzIyODI1Mjg3LDIxMTA4ODM0MzQsNTI0OTI2OTE2
+LC0xNDM4MTI1ODc5LDM4NjA1MTA5NSwxODc3MDU2NDM2LDE0NT
+EyNjgyMDcsNjM0ODk1Njg0LC0zMTcyODE5NDksMTQ1NjA4MTYx
+NSwyOTc4MTgwNDAsLTE5OTU0MTYwNDcsMTUyMTE5Mjg2MV19
 -->

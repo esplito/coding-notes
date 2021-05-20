@@ -10,13 +10,17 @@ Other resource: https://kentcdodds.com/blog/but-really-what-is-a-javascript-mock
 
 ### Simple Test with ReactDOM
 
-W
+When we think about how an application is used, we have to consider who the users are.
+
+Users:
+1. The end users -> the ones who interact with our application (by clicking buttons etc.)
+2. The developer users -> the ones who
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDU3ODgyOSwyOTc4MTgwNDAsLTE5OT
+eyJoaXN0b3J5IjpbLTI2NzQ0OTY3MSwyOTc4MTgwNDAsLTE5OT
 U0MTYwNDcsMTUyMTE5Mjg2MV19
 -->

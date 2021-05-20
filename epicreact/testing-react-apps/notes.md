@@ -18,6 +18,9 @@ Users:
 
 We want to avoid a third user creeping into our tests. More on this here: [Avoid the test user](https://kentcdodds.com/blog/avoid-the-test-user)
 
+> When it comes to React components, our developer user will render our component with `ReactDOM` (similar concept for React Native) and in some cases they'll pass props and/or wrap it in a context provider. The end user will click buttons and assert on the output. 
+> 
+>So that's what our test will do. - Dodds
 
 
 
@@ -25,6 +28,6 @@ We want to avoid a third user creeping into our tests. More on this here: [Avoid
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQ5OTgyMTcsMjk3ODE4MDQwLC0xOT
-k1NDE2MDQ3LDE1MjExOTI4NjFdfQ==
+eyJoaXN0b3J5IjpbMTQ1NjA4MTYxNSwyOTc4MTgwNDAsLTE5OT
+U0MTYwNDcsMTUyMTE5Mjg2MV19
 -->

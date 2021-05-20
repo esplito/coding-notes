@@ -40,11 +40,13 @@ Note: If we use React Testing Library we would get lots of functionality without
 
 ### Simple test with React Testing Library
 
-React Testing Library removes the need for us to write quite a lot of code that is not so relevant to our tests. (like wrapping stuff in the `act`-function and d
+[React Testing Library](https://testing-library.com/react) removes the need for us to write boilerplate code that is not so relevant to us as developers (like wrapping stuff in the `act`-function and  writing cleanup-functions).
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU2MDg3OTAsMTQ1MTI2ODIwNyw2Mz
-Q4OTU2ODQsLTMxNzI4MTk0OSwxNDU2MDgxNjE1LDI5NzgxODA0
-MCwtMTk5NTQxNjA0NywxNTIxMTkyODYxXX0=
+eyJoaXN0b3J5IjpbMTg3NzA1NjQzNiwxNDUxMjY4MjA3LDYzND
+g5NTY4NCwtMzE3MjgxOTQ5LDE0NTYwODE2MTUsMjk3ODE4MDQw
+LC0xOTk1NDE2MDQ3LDE1MjExOTI4NjFdfQ==
 -->

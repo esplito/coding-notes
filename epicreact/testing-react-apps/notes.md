@@ -8,8 +8,12 @@
 
 > So, what's a JavaScript test? It's simply some code which sets up some state, performs some action, and makes an assertion on the new state. - [But really, what is a Javascript test? - Dodds](https://kentcdodds.com/blog/but-really-what-is-a-javascript-test)
 
+Other resource: https://kentcdodds.com/blog/but-really-what-is-a-javascript-mock
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU0MTYwNDcsMTUyMTE5Mjg2MV19
+eyJoaXN0b3J5IjpbLTczNTkyMjQ2MCwtMTk5NTQxNjA0NywxNT
+IxMTkyODYxXX0=
 -->

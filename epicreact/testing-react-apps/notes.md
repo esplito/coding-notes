@@ -47,12 +47,12 @@ Note: If we use React Testing Library we would get lots of functionality without
 To get more assertions that you can use in your tests you can import Testing Library´s own suite of assertions for jest: [`@testing-library/jest-dom`](http://testing-library.com/jest-dom).
 
 
-
+##
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzgxMjU4NzksMzg2MDUxMDk1LDE4Nz
-cwNTY0MzYsMTQ1MTI2ODIwNyw2MzQ4OTU2ODQsLTMxNzI4MTk0
-OSwxNDU2MDgxNjE1LDI5NzgxODA0MCwtMTk5NTQxNjA0NywxNT
-IxMTkyODYxXX0=
+eyJoaXN0b3J5IjpbLTg5Mzk5NzI3MSwtMTQzODEyNTg3OSwzOD
+YwNTEwOTUsMTg3NzA1NjQzNiwxNDUxMjY4MjA3LDYzNDg5NTY4
+NCwtMzE3MjgxOTQ5LDE0NTYwODE2MTUsMjk3ODE4MDQwLC0xOT
+k1NDE2MDQ3LDE1MjExOTI4NjFdfQ==
 -->

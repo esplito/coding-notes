@@ -23,11 +23,16 @@ We want to avoid a third user creeping into our tests. More on this here: [Avoid
 >So that's what our test will do. - Dodds
 
 
+**Extra credit 1: use dispatchEvent**
+In the extra credit we use `MouseEvent` and `dispatchEvent`. Resources on these can be found here:
+* https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent
+* https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjA4MTYxNSwyOTc4MTgwNDAsLTE5OT
-U0MTYwNDcsMTUyMTE5Mjg2MV19
+eyJoaXN0b3J5IjpbLTMxNzI4MTk0OSwxNDU2MDgxNjE1LDI5Nz
+gxODA0MCwtMTk5NTQxNjA0NywxNTIxMTkyODYxXX0=
 -->

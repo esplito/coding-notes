@@ -10,13 +10,13 @@ Other resource: https://kentcdodds.com/blog/but-really-what-is-a-javascript-mock
 
 ### Simple Test with ReactDOM
 
-
+W
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3ODE4MDQwLC0xOTk1NDE2MDQ3LDE1Mj
-ExOTI4NjFdfQ==
+eyJoaXN0b3J5IjpbMTQwMDU3ODgyOSwyOTc4MTgwNDAsLTE5OT
+U0MTYwNDcsMTUyMTE5Mjg2MV19
 -->

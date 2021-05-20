@@ -59,11 +59,13 @@ More about implementation details here: [Testing Implementation Details](https:/
 
 If we want to be truly implementation detail free we should fire all the events that normally happens when a user clicks something. With `fireEvent` we only fire one event, `click`, but normally there would be some MouseEvents also, like `mouseover`, `mousedown`, `mouseup` etc. We can do this with `userEvent` which can be imported from `@testing-library/user-event`.
 
-If you want learn more about how the click-method in `userEvent` works, check p
+If you want learn more about how the click-method in `userEvent` works, check out the code here: https://github.com/testing-library/user-event/blob/1af67066f57377c5ab758a1215711dddabad2d83/src/index.js#L109-L131
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2MDIxODM0LDIxMTA4ODM0MzQsNTI0OT
+eyJoaXN0b3J5IjpbNzIyODI1Mjg3LDIxMTA4ODM0MzQsNTI0OT
 I2OTE2LC0xNDM4MTI1ODc5LDM4NjA1MTA5NSwxODc3MDU2NDM2
 LDE0NTEyNjgyMDcsNjM0ODk1Njg0LC0zMTcyODE5NDksMTQ1Nj
 A4MTYxNSwyOTc4MTgwNDAsLTE5OTU0MTYwNDcsMTUyMTE5Mjg2

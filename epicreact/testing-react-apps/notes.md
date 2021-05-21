@@ -125,14 +125,17 @@ const {username, password} =  buildLoginForm({password: 'abc'})
 
 > Something that's really important with the server handlers is that you simulate the exact behavior of your backend. You try to do that with as much robustness as possible. One thing that our backend does is it will send a 400 response if a required username or password is not provided.
 
-*
+**Extra credit 3: use inline snapshots for error messages**
+>Copy and pasting output into your test assertion (like the error message in our last extra credit) is no fun. Especially if that error message were to change in the future.
+>Instead, we can use a special assertion to take a "snapshot" of the error message and Jest will update our code for us. Use `toMatchInlineSnapshot` rather than an explicit assertion on that error element. ([Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing))
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTE5Nzg2MywtMzcyMjQ1MzQ5LDY4ND
-c5OTM2NSwxOTU1NTYzNDkyLC0xMTQ2MTE0NDk3LC0yMjY3NTk2
-NzMsLTU0MzM1OTg4NCwtNDUzNjE3Njc3LC00MzM4NDY1MTEsLT
-IxMTQ3Njg4ODAsMjY4NTEzMjg1LDIxMzc0MTY0MzUsLTE3MjY0
-MjA4NTUsNzIyODI1Mjg3LDIxMTA4ODM0MzQsNTI0OTI2OTE2LC
-0xNDM4MTI1ODc5LDM4NjA1MTA5NSwxODc3MDU2NDM2LDE0NTEy
-NjgyMDddfQ==
+eyJoaXN0b3J5IjpbLTE1ODAyMjg5MzUsLTM3MjI0NTM0OSw2OD
+Q3OTkzNjUsMTk1NTU2MzQ5MiwtMTE0NjExNDQ5NywtMjI2NzU5
+NjczLC01NDMzNTk4ODQsLTQ1MzYxNzY3NywtNDMzODQ2NTExLC
+0yMTE0NzY4ODgwLDI2ODUxMzI4NSwyMTM3NDE2NDM1LC0xNzI2
+NDIwODU1LDcyMjgyNTI4NywyMTEwODgzNDM0LDUyNDkyNjkxNi
+wtMTQzODEyNTg3OSwzODYwNTEwOTUsMTg3NzA1NjQzNiwxNDUx
+MjY4MjA3XX0=
 -->

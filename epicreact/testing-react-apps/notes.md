@@ -120,10 +120,13 @@ const {username, password} =  buildLoginForm({password: 'abc'})
 > For our Integration and Unit component tests, we're going to trade-off some confidence for convenience and we'll make up for that with E2E tests. So for all of our Jest tests, we'll start up a mock server to handle all of the `window.fetch` requests we make during our tests.
 > 
 >To handle these fetch requests, we're going to start up a "server" which is not actually a server, but simply a request interceptor. This makes it really easy to get things setup (because we don't have to worry about finding an available port for the server to listen to and making sure we're making requests to the right port) and it also allows us to mock requests made to other domains.
+>
 > We'll be using a tool called [MSW](https://mswjs.io/) for this.
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxNTg4NzczLDE5NTU1NjM0OTIsLTExND
+eyJoaXN0b3J5IjpbNjg0Nzk5MzY1LDE5NTU1NjM0OTIsLTExND
 YxMTQ0OTcsLTIyNjc1OTY3MywtNTQzMzU5ODg0LC00NTM2MTc2
 NzcsLTQzMzg0NjUxMSwtMjExNDc2ODg4MCwyNjg1MTMyODUsMj
 EzNzQxNjQzNSwtMTcyNjQyMDg1NSw3MjI4MjUyODcsMjExMDg4

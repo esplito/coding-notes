@@ -154,14 +154,30 @@ expect(screen.getByRole('alert').textContent).toMatchInlineSnapshot(
 ```
 
 **Extra credit 4: use one-off server handlers**
-If we want to test one-off cases, for example when the server fails for an unknown reason
+If we want to test one-off cases, for example when the server fails for an unknown reason, we can use `server.use` in MSW.
+
+Example from Dodds:
+```javascript
+server.use(
+	rest.post(
+		// note that it's the same URL as our app-wide handler
+		// so this will override the other.
+		'https://auth-provider.example.com/api/login',
+		async (req, res, ctx) => {
+		// your one-off handler here
+		},
+	),
+)
+```
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjY2OTQ3ODMsLTE1ODAyMjg5MzUsLT
-M3MjI0NTM0OSw2ODQ3OTkzNjUsMTk1NTU2MzQ5MiwtMTE0NjEx
-NDQ5NywtMjI2NzU5NjczLC01NDMzNTk4ODQsLTQ1MzYxNzY3Ny
-wtNDMzODQ2NTExLC0yMTE0NzY4ODgwLDI2ODUxMzI4NSwyMTM3
-NDE2NDM1LC0xNzI2NDIwODU1LDcyMjgyNTI4NywyMTEwODgzND
-M0LDUyNDkyNjkxNiwtMTQzODEyNTg3OSwzODYwNTEwOTUsMTg3
-NzA1NjQzNl19
+eyJoaXN0b3J5IjpbLTYzMjI5MTU5NCwtMTU4MDIyODkzNSwtMz
+cyMjQ1MzQ5LDY4NDc5OTM2NSwxOTU1NTYzNDkyLC0xMTQ2MTE0
+NDk3LC0yMjY3NTk2NzMsLTU0MzM1OTg4NCwtNDUzNjE3Njc3LC
+00MzM4NDY1MTEsLTIxMTQ3Njg4ODAsMjY4NTEzMjg1LDIxMzc0
+MTY0MzUsLTE3MjY0MjA4NTUsNzIyODI1Mjg3LDIxMTA4ODM0Mz
+QsNTI0OTI2OTE2LC0xNDM4MTI1ODc5LDM4NjA1MTA5NSwxODc3
+MDU2NDM2XX0=
 -->

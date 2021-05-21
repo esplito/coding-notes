@@ -81,14 +81,17 @@ Great site for trying out testing library: https://testing-playground.com/
 **Extra credit 1: use a jest mock function**
 Instead of us having to re-create function that are used in the component that we are testing, we can use jest's built-in mock functions API, `jest.fn()`: https://jestjs.io/docs/mock-function-api.
 
-***
+**Extra credit 2: generate test data**
+Here's what Kent says about t
+
+>An important thing to keep in mind when testing is simplifying the maintenance of the tests by reducing the amount of unrelated cruft in the test. You want to make it so the code for the test communicates what's important and what is not important.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjE4MTE4MjcsLTQzMzg0NjUxMSwtMj
-ExNDc2ODg4MCwyNjg1MTMyODUsMjEzNzQxNjQzNSwtMTcyNjQy
-MDg1NSw3MjI4MjUyODcsMjExMDg4MzQzNCw1MjQ5MjY5MTYsLT
-E0MzgxMjU4NzksMzg2MDUxMDk1LDE4NzcwNTY0MzYsMTQ1MTI2
-ODIwNyw2MzQ4OTU2ODQsLTMxNzI4MTk0OSwxNDU2MDgxNjE1LD
-I5NzgxODA0MCwtMTk5NTQxNjA0NywxNTIxMTkyODYxXX0=
+eyJoaXN0b3J5IjpbMTIwNzIwNzU0MywtNDMzODQ2NTExLC0yMT
+E0NzY4ODgwLDI2ODUxMzI4NSwyMTM3NDE2NDM1LC0xNzI2NDIw
+ODU1LDcyMjgyNTI4NywyMTEwODgzNDM0LDUyNDkyNjkxNiwtMT
+QzODEyNTg3OSwzODYwNTEwOTUsMTg3NzA1NjQzNiwxNDUxMjY4
+MjA3LDYzNDg5NTY4NCwtMzE3MjgxOTQ5LDE0NTYwODE2MTUsMj
+k3ODE4MDQwLC0xOTk1NDE2MDQ3LDE1MjExOTI4NjFdfQ==
 -->

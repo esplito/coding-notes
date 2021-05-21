@@ -116,13 +116,16 @@ const {username, password} =  buildLoginForm({password: 'abc'})
 **Extra credit 4: use Test Data Bot**
 > Sometimes, your object factories can be a little bit more complicated. To help with that a little bit, there's a module that I like to use called jackfranklin/test-data-bot.
 
+### Mocking HTTP requests
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDYxMTQ0OTcsLTIyNjc1OTY3MywtNT
-QzMzU5ODg0LC00NTM2MTc2NzcsLTQzMzg0NjUxMSwtMjExNDc2
-ODg4MCwyNjg1MTMyODUsMjEzNzQxNjQzNSwtMTcyNjQyMDg1NS
-w3MjI4MjUyODcsMjExMDg4MzQzNCw1MjQ5MjY5MTYsLTE0Mzgx
-MjU4NzksMzg2MDUxMDk1LDE4NzcwNTY0MzYsMTQ1MTI2ODIwNy
-w2MzQ4OTU2ODQsLTMxNzI4MTk0OSwxNDU2MDgxNjE1LDI5Nzgx
-ODA0MF19
+eyJoaXN0b3J5IjpbMTk1NTU2MzQ5MiwtMTE0NjExNDQ5NywtMj
+I2NzU5NjczLC01NDMzNTk4ODQsLTQ1MzYxNzY3NywtNDMzODQ2
+NTExLC0yMTE0NzY4ODgwLDI2ODUxMzI4NSwyMTM3NDE2NDM1LC
+0xNzI2NDIwODU1LDcyMjgyNTI4NywyMTEwODgzNDM0LDUyNDky
+NjkxNiwtMTQzODEyNTg3OSwzODYwNTEwOTUsMTg3NzA1NjQzNi
+wxNDUxMjY4MjA3LDYzNDg5NTY4NCwtMzE3MjgxOTQ5LDE0NTYw
+ODE2MTVdfQ==
 -->

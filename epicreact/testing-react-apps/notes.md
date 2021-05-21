@@ -98,9 +98,11 @@ Here's what Kent says about how you should generate the test data in your tests.
 
 >That communicates the intent really well. As a reader of the test I can think: "Oh, ok, great, so it doesn't matter what the username _is_, just that it's a typical username."
 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTA2ODY5NSwtNDMzODQ2NTExLC0yMT
+eyJoaXN0b3J5IjpbLTQ1MzYxNzY3NywtNDMzODQ2NTExLC0yMT
 E0NzY4ODgwLDI2ODUxMzI4NSwyMTM3NDE2NDM1LC0xNzI2NDIw
 ODU1LDcyMjgyNTI4NywyMTEwODgzNDM0LDUyNDkyNjkxNiwtMT
 QzODEyNTg3OSwzODYwNTEwOTUsMTg3NzA1NjQzNiwxNDUxMjY4

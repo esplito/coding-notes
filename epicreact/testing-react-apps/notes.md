@@ -113,15 +113,16 @@ const {username, password} =  buildLoginForm({password: 'abc'})
 ``` 
 > That communicates the reader of the test: "We just need a normal login form, except the password needs to be something specific for this test."
 
-
+**Extra credit 4: use Test Data Bot**
+> Sometimes, your object factories can be a little bit more complicated. To help with that a little bit, there's a module that I like to use called jackfranklin/test-data-bot.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjc1OTY3MywtNTQzMzU5ODg0LC00NT
-M2MTc2NzcsLTQzMzg0NjUxMSwtMjExNDc2ODg4MCwyNjg1MTMy
-ODUsMjEzNzQxNjQzNSwtMTcyNjQyMDg1NSw3MjI4MjUyODcsMj
-ExMDg4MzQzNCw1MjQ5MjY5MTYsLTE0MzgxMjU4NzksMzg2MDUx
-MDk1LDE4NzcwNTY0MzYsMTQ1MTI2ODIwNyw2MzQ4OTU2ODQsLT
-MxNzI4MTk0OSwxNDU2MDgxNjE1LDI5NzgxODA0MCwtMTk5NTQx
-NjA0N119
+eyJoaXN0b3J5IjpbLTExNDYxMTQ0OTcsLTIyNjc1OTY3MywtNT
+QzMzU5ODg0LC00NTM2MTc2NzcsLTQzMzg0NjUxMSwtMjExNDc2
+ODg4MCwyNjg1MTMyODUsMjEzNzQxNjQzNSwtMTcyNjQyMDg1NS
+w3MjI4MjUyODcsMjExMDg4MzQzNCw1MjQ5MjY5MTYsLTE0Mzgx
+MjU4NzksMzg2MDUxMDk1LDE4NzcwNTY0MzYsMTQ1MTI2ODIwNy
+w2MzQ4OTU2ODQsLTMxNzI4MTk0OSwxNDU2MDgxNjE1LDI5Nzgx
+ODA0MF19
 -->

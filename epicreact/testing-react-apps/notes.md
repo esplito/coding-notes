@@ -144,18 +144,22 @@ password required
 ```
 
 Message displayed when run `npm t` in watch-mode:
-![enter image description here](https://github.com/esplito/coding-notes/blob/master/snapshot_suggestion_jest.png?raw=true)
+![Screenshot of how jest asks us what to do when snapshot fails](https://github.com/esplito/coding-notes/blob/master/snapshot_suggestion_jest.png?raw=true)
 
 `expect` after changes and pressing 'u':
-
+```js
+expect(screen.getByRole('alert').textContent).toMatchInlineSnapshot(
+`"password required"`,
+)
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4NjQzOTE2LC0xNTgwMjI4OTM1LC0zNz
-IyNDUzNDksNjg0Nzk5MzY1LDE5NTU1NjM0OTIsLTExNDYxMTQ0
-OTcsLTIyNjc1OTY3MywtNTQzMzU5ODg0LC00NTM2MTc2NzcsLT
-QzMzg0NjUxMSwtMjExNDc2ODg4MCwyNjg1MTMyODUsMjEzNzQx
-NjQzNSwtMTcyNjQyMDg1NSw3MjI4MjUyODcsMjExMDg4MzQzNC
-w1MjQ5MjY5MTYsLTE0MzgxMjU4NzksMzg2MDUxMDk1LDE4Nzcw
-NTY0MzZdfQ==
+eyJoaXN0b3J5IjpbMTQyNDQ1NTUzNiwtMTU4MDIyODkzNSwtMz
+cyMjQ1MzQ5LDY4NDc5OTM2NSwxOTU1NTYzNDkyLC0xMTQ2MTE0
+NDk3LC0yMjY3NTk2NzMsLTU0MzM1OTg4NCwtNDUzNjE3Njc3LC
+00MzM4NDY1MTEsLTIxMTQ3Njg4ODAsMjY4NTEzMjg1LDIxMzc0
+MTY0MzUsLTE3MjY0MjA4NTUsNzIyODI1Mjg3LDIxMTA4ODM0Mz
+QsNTI0OTI2OTE2LC0xNDM4MTI1ODc5LDM4NjA1MTA5NSwxODc3
+MDU2NDM2XX0=
 -->

@@ -98,14 +98,18 @@ Here's what Kent says about how you should generate the test data in your tests.
 
 >That communicates the intent really well. As a reader of the test I can think: "Oh, ok, great, so it doesn't matter what the username _is_, just that it's a typical username."
 
-
+It might be even better to do like this and create a function that returns both username and password:
+```javascript
+const {username, password} =  buildLoginForm()
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MzYxNzY3NywtNDMzODQ2NTExLC0yMT
-E0NzY4ODgwLDI2ODUxMzI4NSwyMTM3NDE2NDM1LC0xNzI2NDIw
-ODU1LDcyMjgyNTI4NywyMTEwODgzNDM0LDUyNDkyNjkxNiwtMT
-QzODEyNTg3OSwzODYwNTEwOTUsMTg3NzA1NjQzNiwxNDUxMjY4
-MjA3LDYzNDg5NTY4NCwtMzE3MjgxOTQ5LDE0NTYwODE2MTUsMj
-k3ODE4MDQwLC0xOTk1NDE2MDQ3LDE1MjExOTI4NjFdfQ==
+eyJoaXN0b3J5IjpbLTU0MzM1OTg4NCwtNDUzNjE3Njc3LC00Mz
+M4NDY1MTEsLTIxMTQ3Njg4ODAsMjY4NTEzMjg1LDIxMzc0MTY0
+MzUsLTE3MjY0MjA4NTUsNzIyODI1Mjg3LDIxMTA4ODM0MzQsNT
+I0OTI2OTE2LC0xNDM4MTI1ODc5LDM4NjA1MTA5NSwxODc3MDU2
+NDM2LDE0NTEyNjgyMDcsNjM0ODk1Njg0LC0zMTcyODE5NDksMT
+Q1NjA4MTYxNSwyOTc4MTgwNDAsLTE5OTU0MTYwNDcsMTUyMTE5
+Mjg2MV19
 -->

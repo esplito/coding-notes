@@ -82,13 +82,25 @@ Great site for trying out testing library: https://testing-playground.com/
 Instead of us having to re-create function that are used in the component that we are testing, we can use jest's built-in mock functions API, `jest.fn()`: https://jestjs.io/docs/mock-function-api.
 
 **Extra credit 2: generate test data**
-Here's what Kent says about t
+Here's what Kent says about how you should generate the test data in your tests.
 
 >An important thing to keep in mind when testing is simplifying the maintenance of the tests by reducing the amount of unrelated cruft in the test. You want to make it so the code for the test communicates what's important and what is not important.
+> ```javascript
+> const  username  =  'chucknorris'
+>const  password  =  'i need no password'
+>```
+
+>Does my code behave differently when the username is `chucknorris`? Do I have special logic around that? Without looking at the implementation I cannot be completely sure. What would be better is if the code communicated that the actual value is irrelevant. But how do you communicate that? A code comment? Nah, let's generate the value!
+>```javascript
+>const  username  =  getRandomUsername()
+>const  password  =  getRandomPassword()
+>```
+
+>That communicates the intent really well. As a reader of the test I can think: "Oh, ok, great, so it doesn't matter what the username _is_, just that it's a typical username."
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzIwNzU0MywtNDMzODQ2NTExLC0yMT
+eyJoaXN0b3J5IjpbMTY0OTA2ODY5NSwtNDMzODQ2NTExLC0yMT
 E0NzY4ODgwLDI2ODUxMzI4NSwyMTM3NDE2NDM1LC0xNzI2NDIw
 ODU1LDcyMjgyNTI4NywyMTEwODgzNDM0LDUyNDkyNjkxNiwtMT
 QzODEyNTg3OSwzODYwNTEwOTUsMTg3NzA1NjQzNiwxNDUxMjY4

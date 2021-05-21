@@ -132,11 +132,23 @@ const {username, password} =  buildLoginForm({password: 'abc'})
 Dodds prefers to use `toMatchInlineSnapshot()` for error messages, because then jest will check if the thing that we are expecting is the same as in previous test suite. If we would change what we have in our `expect` then jest will ask us wether we want to update the snapshot. So if there's nothing wrong with our change we can just tell jest to update our test.
 
 `expect` before changes:
+```js
+expect(screen.getByRole('alert')).toMatchInlineSnapshot(`
+<div
+	role="alert"
+	style="color: red;"
+>
+password required
+</div>
+`)
+```
+
+`expect` after changes and pressing 'u':
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTg4NzE2NCwtMTU4MDIyODkzNSwtMz
+eyJoaXN0b3J5IjpbLTQ4Mjg5MDQxMywtMTU4MDIyODkzNSwtMz
 cyMjQ1MzQ5LDY4NDc5OTM2NSwxOTU1NTYzNDkyLC0xMTQ2MTE0
 NDk3LC0yMjY3NTk2NzMsLTU0MzM1OTg4NCwtNDUzNjE3Njc3LC
 00MzM4NDY1MTEsLTIxMTQ3Njg4ODAsMjY4NTEzMjg1LDIxMzc0

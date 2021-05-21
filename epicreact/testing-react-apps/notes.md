@@ -125,14 +125,14 @@ const {username, password} =  buildLoginForm({password: 'abc'})
 
 > Something that's really important with the server handlers is that you simulate the exact behavior of your backend. You try to do that with as much robustness as possible. One thing that our backend does is it will send a 400 response if a required username or password is not provided.
 
-
+*
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjI0NTM0OSw2ODQ3OTkzNjUsMTk1NT
-U2MzQ5MiwtMTE0NjExNDQ5NywtMjI2NzU5NjczLC01NDMzNTk4
-ODQsLTQ1MzYxNzY3NywtNDMzODQ2NTExLC0yMTE0NzY4ODgwLD
-I2ODUxMzI4NSwyMTM3NDE2NDM1LC0xNzI2NDIwODU1LDcyMjgy
-NTI4NywyMTEwODgzNDM0LDUyNDkyNjkxNiwtMTQzODEyNTg3OS
-wzODYwNTEwOTUsMTg3NzA1NjQzNiwxNDUxMjY4MjA3LDYzNDg5
-NTY4NF19
+eyJoaXN0b3J5IjpbMTQ3OTE5Nzg2MywtMzcyMjQ1MzQ5LDY4ND
+c5OTM2NSwxOTU1NTYzNDkyLC0xMTQ2MTE0NDk3LC0yMjY3NTk2
+NzMsLTU0MzM1OTg4NCwtNDUzNjE3Njc3LC00MzM4NDY1MTEsLT
+IxMTQ3Njg4ODAsMjY4NTEzMjg1LDIxMzc0MTY0MzUsLTE3MjY0
+MjA4NTUsNzIyODI1Mjg3LDIxMTA4ODM0MzQsNTI0OTI2OTE2LC
+0xNDM4MTI1ODc5LDM4NjA1MTA5NSwxODc3MDU2NDM2LDE0NTEy
+NjgyMDddfQ==
 -->

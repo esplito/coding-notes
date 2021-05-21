@@ -129,11 +129,11 @@ const {username, password} =  buildLoginForm({password: 'abc'})
 >Copy and pasting output into your test assertion (like the error message in our last extra credit) is no fun. Especially if that error message were to change in the future.
 >Instead, we can use a special assertion to take a "snapshot" of the error message and Jest will update our code for us. Use `toMatchInlineSnapshot` rather than an explicit assertion on that error element. ([Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing))
 
-Dodds prefers to use `toMatchInlineSnapshot()` for error messages, because then jest will check if the thing that we are expecting is the same as in previous test.
+Dodds prefers to use `toMatchInlineSnapshot()` for error messages, because then jest will check if the thing that we are expecting is the same as in previous tests. If we would change what we have in our `expect` then jest will ask us wether we want to 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjk2MDQ4NTUsLTE1ODAyMjg5MzUsLT
+eyJoaXN0b3J5IjpbLTEwNTY5NTM2MDgsLTE1ODAyMjg5MzUsLT
 M3MjI0NTM0OSw2ODQ3OTkzNjUsMTk1NTU2MzQ5MiwtMTE0NjEx
 NDQ5NywtMjI2NzU5NjczLC01NDMzNTk4ODQsLTQ1MzYxNzY3Ny
 wtNDMzODQ2NTExLC0yMTE0NzY4ODgwLDI2ODUxMzI4NSwyMTM3

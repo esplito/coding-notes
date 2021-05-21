@@ -79,14 +79,16 @@ Great site for trying out testing library: https://testing-playground.com/
 ### Form Testing
 
 **Extra credit 1: use a jest mock function**
-Instead of us having to re-re
+Instead of us having to re-create function that are used in the component that we are testing, we can use jest's built-in mock functions API, `jest.fn()`: https://jestjs.io/docs/mock-function-api.
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTY3MjY5MjYsLTIxMTQ3Njg4ODAsMj
-Y4NTEzMjg1LDIxMzc0MTY0MzUsLTE3MjY0MjA4NTUsNzIyODI1
-Mjg3LDIxMTA4ODM0MzQsNTI0OTI2OTE2LC0xNDM4MTI1ODc5LD
-M4NjA1MTA5NSwxODc3MDU2NDM2LDE0NTEyNjgyMDcsNjM0ODk1
-Njg0LC0zMTcyODE5NDksMTQ1NjA4MTYxNSwyOTc4MTgwNDAsLT
-E5OTU0MTYwNDcsMTUyMTE5Mjg2MV19
+eyJoaXN0b3J5IjpbLTQzMzg0NjUxMSwtMjExNDc2ODg4MCwyNj
+g1MTMyODUsMjEzNzQxNjQzNSwtMTcyNjQyMDg1NSw3MjI4MjUy
+ODcsMjExMDg4MzQzNCw1MjQ5MjY5MTYsLTE0MzgxMjU4NzksMz
+g2MDUxMDk1LDE4NzcwNTY0MzYsMTQ1MTI2ODIwNyw2MzQ4OTU2
+ODQsLTMxNzI4MTk0OSwxNDU2MDgxNjE1LDI5NzgxODA0MCwtMT
+k5NTQxNjA0NywxNTIxMTkyODYxXX0=
 -->

@@ -103,13 +103,16 @@ It might be even better to do like this and create a function that returns both 
 const {username, password} =  buildLoginForm()
 ```
 
+**Extra credit 3: allow for overrides**
+Sometimes you have data you want to be specific in a test, like for example that a password has to be of a certain strength. Then it is good if our `buildLoginForm`-func 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzM1OTg4NCwtNDUzNjE3Njc3LC00Mz
-M4NDY1MTEsLTIxMTQ3Njg4ODAsMjY4NTEzMjg1LDIxMzc0MTY0
-MzUsLTE3MjY0MjA4NTUsNzIyODI1Mjg3LDIxMTA4ODM0MzQsNT
-I0OTI2OTE2LC0xNDM4MTI1ODc5LDM4NjA1MTA5NSwxODc3MDU2
-NDM2LDE0NTEyNjgyMDcsNjM0ODk1Njg0LC0zMTcyODE5NDksMT
-Q1NjA4MTYxNSwyOTc4MTgwNDAsLTE5OTU0MTYwNDcsMTUyMTE5
-Mjg2MV19
+eyJoaXN0b3J5IjpbLTEyNjE3NTQxNjUsLTU0MzM1OTg4NCwtND
+UzNjE3Njc3LC00MzM4NDY1MTEsLTIxMTQ3Njg4ODAsMjY4NTEz
+Mjg1LDIxMzc0MTY0MzUsLTE3MjY0MjA4NTUsNzIyODI1Mjg3LD
+IxMTA4ODM0MzQsNTI0OTI2OTE2LC0xNDM4MTI1ODc5LDM4NjA1
+MTA5NSwxODc3MDU2NDM2LDE0NTEyNjgyMDcsNjM0ODk1Njg0LC
+0zMTcyODE5NDksMTQ1NjA4MTYxNSwyOTc4MTgwNDAsLTE5OTU0
+MTYwNDddfQ==
 -->

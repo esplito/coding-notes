@@ -117,15 +117,17 @@ const {username, password} =  buildLoginForm({password: 'abc'})
 > Sometimes, your object factories can be a little bit more complicated. To help with that a little bit, there's a module that I like to use called jackfranklin/test-data-bot.
 
 ### Mocking HTTP requests
-
-
+> For our Integration and Unit component tests, we're going to trade-off some confidence for convenience and we'll make up for that with E2E tests. So for all of our Jest tests, we'll start up a mock server to handle all of the `window.fetch` requests we make during our tests.
+> 
+>To handle these fetch requests, we're going to start up a "server" which is not actually a server, but simply a request interceptor. This makes it really easy to get things setup (because we don't have to worry about finding an available port for the server to listen to and making sure we're making requests to the right port) and it also allows us to mock requests made to other domains.
+> We'll be using a tool called [MSW](https://mswjs.io/) for this.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTU2MzQ5MiwtMTE0NjExNDQ5NywtMj
-I2NzU5NjczLC01NDMzNTk4ODQsLTQ1MzYxNzY3NywtNDMzODQ2
-NTExLC0yMTE0NzY4ODgwLDI2ODUxMzI4NSwyMTM3NDE2NDM1LC
-0xNzI2NDIwODU1LDcyMjgyNTI4NywyMTEwODgzNDM0LDUyNDky
-NjkxNiwtMTQzODEyNTg3OSwzODYwNTEwOTUsMTg3NzA1NjQzNi
-wxNDUxMjY4MjA3LDYzNDg5NTY4NCwtMzE3MjgxOTQ5LDE0NTYw
-ODE2MTVdfQ==
+eyJoaXN0b3J5IjpbOTkxNTg4NzczLDE5NTU1NjM0OTIsLTExND
+YxMTQ0OTcsLTIyNjc1OTY3MywtNTQzMzU5ODg0LC00NTM2MTc2
+NzcsLTQzMzg0NjUxMSwtMjExNDc2ODg4MCwyNjg1MTMyODUsMj
+EzNzQxNjQzNSwtMTcyNjQyMDg1NSw3MjI4MjUyODcsMjExMDg4
+MzQzNCw1MjQ5MjY5MTYsLTE0MzgxMjU4NzksMzg2MDUxMDk1LD
+E4NzcwNTY0MzYsMTQ1MTI2ODIwNyw2MzQ4OTU2ODQsLTMxNzI4
+MTk0OV19
 -->

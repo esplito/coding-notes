@@ -104,15 +104,23 @@ const {username, password} =  buildLoginForm()
 ```
 
 **Extra credit 3: allow for overrides**
-Sometimes you have data you want to be specific in a test, like for example that a password has to be of a certain strength. Then it is good if our `buildLoginForm`-func 
+Sometimes you have data you want to be specific in a test, like for example that a password has to be of a certain strength. Then it is good if our `buildLoginForm`-function accepts overrides also.
+
+Like this:
+```javascript
+const {username, password} =  buildLoginForm({password: 'abc'})
+// password === 'abc'
+``` 
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjE3NTQxNjUsLTU0MzM1OTg4NCwtND
-UzNjE3Njc3LC00MzM4NDY1MTEsLTIxMTQ3Njg4ODAsMjY4NTEz
-Mjg1LDIxMzc0MTY0MzUsLTE3MjY0MjA4NTUsNzIyODI1Mjg3LD
-IxMTA4ODM0MzQsNTI0OTI2OTE2LC0xNDM4MTI1ODc5LDM4NjA1
-MTA5NSwxODc3MDU2NDM2LDE0NTEyNjgyMDcsNjM0ODk1Njg0LC
-0zMTcyODE5NDksMTQ1NjA4MTYxNSwyOTc4MTgwNDAsLTE5OTU0
-MTYwNDddfQ==
+eyJoaXN0b3J5IjpbMTQ3MzUyNDg4LC01NDMzNTk4ODQsLTQ1Mz
+YxNzY3NywtNDMzODQ2NTExLC0yMTE0NzY4ODgwLDI2ODUxMzI4
+NSwyMTM3NDE2NDM1LC0xNzI2NDIwODU1LDcyMjgyNTI4NywyMT
+EwODgzNDM0LDUyNDkyNjkxNiwtMTQzODEyNTg3OSwzODYwNTEw
+OTUsMTg3NzA1NjQzNiwxNDUxMjY4MjA3LDYzNDg5NTY4NCwtMz
+E3MjgxOTQ5LDE0NTYwODE2MTUsMjk3ODE4MDQwLC0xOTk1NDE2
+MDQ3XX0=
 -->

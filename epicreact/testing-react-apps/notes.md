@@ -111,16 +111,17 @@ Like this:
 const {username, password} =  buildLoginForm({password: 'abc'})
 // password === 'abc'
 ``` 
+> That communicates the reader of the test: "We just need a normal login form, except the password needs to be something specific for this test."
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzUyNDg4LC01NDMzNTk4ODQsLTQ1Mz
-YxNzY3NywtNDMzODQ2NTExLC0yMTE0NzY4ODgwLDI2ODUxMzI4
-NSwyMTM3NDE2NDM1LC0xNzI2NDIwODU1LDcyMjgyNTI4NywyMT
-EwODgzNDM0LDUyNDkyNjkxNiwtMTQzODEyNTg3OSwzODYwNTEw
-OTUsMTg3NzA1NjQzNiwxNDUxMjY4MjA3LDYzNDg5NTY4NCwtMz
-E3MjgxOTQ5LDE0NTYwODE2MTUsMjk3ODE4MDQwLC0xOTk1NDE2
-MDQ3XX0=
+eyJoaXN0b3J5IjpbLTIyNjc1OTY3MywtNTQzMzU5ODg0LC00NT
+M2MTc2NzcsLTQzMzg0NjUxMSwtMjExNDc2ODg4MCwyNjg1MTMy
+ODUsMjEzNzQxNjQzNSwtMTcyNjQyMDg1NSw3MjI4MjUyODcsMj
+ExMDg4MzQzNCw1MjQ5MjY5MTYsLTE0MzgxMjU4NzksMzg2MDUx
+MDk1LDE4NzcwNTY0MzYsMTQ1MTI2ODIwNyw2MzQ4OTU2ODQsLT
+MxNzI4MTk0OSwxNDU2MDgxNjE1LDI5NzgxODA0MCwtMTk5NTQx
+NjA0N119
 -->

@@ -123,14 +123,16 @@ const {username, password} =  buildLoginForm({password: 'abc'})
 >
 > We'll be using a tool called [MSW](https://mswjs.io/) for this.
 
+> Something that's really important with the server handlers is that you simulate the exact behavior of your backend. You try to do that with as much robustness as possible. One thing that our backend does is it will send a 400 response if a required username or password is not provided.
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0Nzk5MzY1LDE5NTU1NjM0OTIsLTExND
-YxMTQ0OTcsLTIyNjc1OTY3MywtNTQzMzU5ODg0LC00NTM2MTc2
-NzcsLTQzMzg0NjUxMSwtMjExNDc2ODg4MCwyNjg1MTMyODUsMj
-EzNzQxNjQzNSwtMTcyNjQyMDg1NSw3MjI4MjUyODcsMjExMDg4
-MzQzNCw1MjQ5MjY5MTYsLTE0MzgxMjU4NzksMzg2MDUxMDk1LD
-E4NzcwNTY0MzYsMTQ1MTI2ODIwNyw2MzQ4OTU2ODQsLTMxNzI4
-MTk0OV19
+eyJoaXN0b3J5IjpbLTM3MjI0NTM0OSw2ODQ3OTkzNjUsMTk1NT
+U2MzQ5MiwtMTE0NjExNDQ5NywtMjI2NzU5NjczLC01NDMzNTk4
+ODQsLTQ1MzYxNzY3NywtNDMzODQ2NTExLC0yMTE0NzY4ODgwLD
+I2ODUxMzI4NSwyMTM3NDE2NDM1LC0xNzI2NDIwODU1LDcyMjgy
+NTI4NywyMTEwODgzNDM0LDUyNDkyNjkxNiwtMTQzODEyNTg3OS
+wzODYwNTEwOTUsMTg3NzA1NjQzNiwxNDUxMjY4MjA3LDYzNDg5
+NTY4NF19
 -->

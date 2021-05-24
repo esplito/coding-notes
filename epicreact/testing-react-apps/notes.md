@@ -170,14 +170,20 @@ server.use(
 )
 ```
 
+>One thing to keep in mind here is we've added a server handler for this request, effectively overriding the existing request. Things are working OK right here because this is the last test in our file, but if I move this up to the very top and make it the first test in our file, then sure this test will pass just fine, but my other tests are totally going to fail.
+>The reason that they fail is because every time we make this POST request, we're going to respond with a 500. We need to clear this out somehow. One way we can do that is say server reset handlers. Now my tests are passing with flying colors. - Dodds
+
+Solution to not break other tests. Use `afterEach(() => server.resetHandlers())`.
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjI5MTU5NCwtMTU4MDIyODkzNSwtMz
-cyMjQ1MzQ5LDY4NDc5OTM2NSwxOTU1NTYzNDkyLC0xMTQ2MTE0
-NDk3LC0yMjY3NTk2NzMsLTU0MzM1OTg4NCwtNDUzNjE3Njc3LC
-00MzM4NDY1MTEsLTIxMTQ3Njg4ODAsMjY4NTEzMjg1LDIxMzc0
-MTY0MzUsLTE3MjY0MjA4NTUsNzIyODI1Mjg3LDIxMTA4ODM0Mz
-QsNTI0OTI2OTE2LC0xNDM4MTI1ODc5LDM4NjA1MTA5NSwxODc3
-MDU2NDM2XX0=
+eyJoaXN0b3J5IjpbNDA0MDY5ODYsLTYzMjI5MTU5NCwtMTU4MD
+IyODkzNSwtMzcyMjQ1MzQ5LDY4NDc5OTM2NSwxOTU1NTYzNDky
+LC0xMTQ2MTE0NDk3LC0yMjY3NTk2NzMsLTU0MzM1OTg4NCwtND
+UzNjE3Njc3LC00MzM4NDY1MTEsLTIxMTQ3Njg4ODAsMjY4NTEz
+Mjg1LDIxMzc0MTY0MzUsLTE3MjY0MjA4NTUsNzIyODI1Mjg3LD
+IxMTA4ODM0MzQsNTI0OTI2OTE2LC0xNDM4MTI1ODc5LDM4NjA1
+MTA5NV19
 -->

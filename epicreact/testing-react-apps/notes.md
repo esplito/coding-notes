@@ -250,15 +250,23 @@ render(<EasyButton>Easy</EasyButton>) // defaults to light
 > This is what I recommend for all of your tests. They should all be using this render method because those providers are an implementation detail of each one of your components. They should just have all of the same providers that they're going to have when you ship the actual app. - Dodds
 
 ### Testing Custom Hooks
+> How is your custom hook used? It's used in a component! So that's how it should be tested. - Dodds
+
+Resources:
+* https://kentcdodds.com/blog/how-to-test-custom-react-hooks
+* https://github.com/testing-library/react-hooks-testing-library
+
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQyNTU1NDUsMzUzMDE3NDUxLDIxMj
-IzMzI0OTgsLTE0NTcwMzA3OTUsLTEzMjgxNzcyNjgsMTU0NDIx
-Njg5OSwxMjM5MzYxMDA4LDk5MDYxNDMwMSw0MDQwNjk4NiwtNj
-MyMjkxNTk0LC0xNTgwMjI4OTM1LC0zNzIyNDUzNDksNjg0Nzk5
-MzY1LDE5NTU1NjM0OTIsLTExNDYxMTQ0OTcsLTIyNjc1OTY3My
-wtNTQzMzU5ODg0LC00NTM2MTc2NzcsLTQzMzg0NjUxMSwtMjEx
-NDc2ODg4MF19
+eyJoaXN0b3J5IjpbLTIwNDQyMTYwNDIsLTE3MTQyNTU1NDUsMz
+UzMDE3NDUxLDIxMjIzMzI0OTgsLTE0NTcwMzA3OTUsLTEzMjgx
+NzcyNjgsMTU0NDIxNjg5OSwxMjM5MzYxMDA4LDk5MDYxNDMwMS
+w0MDQwNjk4NiwtNjMyMjkxNTk0LC0xNTgwMjI4OTM1LC0zNzIy
+NDUzNDksNjg0Nzk5MzY1LDE5NTU1NjM0OTIsLTExNDYxMTQ0OT
+csLTIyNjc1OTY3MywtNTQzMzU5ODg0LC00NTM2MTc2NzcsLTQz
+Mzg0NjUxMV19
 -->

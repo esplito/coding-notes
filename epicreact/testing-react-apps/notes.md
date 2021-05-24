@@ -229,7 +229,7 @@ You can override React Testing Library´s own render function. Here's an example
 import {render  as  rtlRender, screen} from  '@testing-library/react'
 
 // Extra credit 2: create a custom render method
-function  render(ui, {theme  =  'light', ...options}) {
+function  render(ui, {theme  =  'light', ...options} = {}) {
   function  Wrapper({children}) {
     return (  
       <ThemeProvider  initialTheme={theme}>
@@ -241,18 +241,19 @@ function  render(ui, {theme  =  'light', ...options}) {
 }
 ```
 
-And this is how it's used in the test: 
+And this is how it's used in the tests: 
 ```js
 render(<EasyButton>Easy</EasyButton>, {theme: 'dark'})
+render(<EasyButton>Easy</EasyButton>) // defaults to light
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTcwMzA3OTUsLTEzMjgxNzcyNjgsMT
-U0NDIxNjg5OSwxMjM5MzYxMDA4LDk5MDYxNDMwMSw0MDQwNjk4
-NiwtNjMyMjkxNTk0LC0xNTgwMjI4OTM1LC0zNzIyNDUzNDksNj
-g0Nzk5MzY1LDE5NTU1NjM0OTIsLTExNDYxMTQ0OTcsLTIyNjc1
-OTY3MywtNTQzMzU5ODg0LC00NTM2MTc2NzcsLTQzMzg0NjUxMS
-wtMjExNDc2ODg4MCwyNjg1MTMyODUsMjEzNzQxNjQzNSwtMTcy
-NjQyMDg1NV19
+eyJoaXN0b3J5IjpbMjEyMjMzMjQ5OCwtMTQ1NzAzMDc5NSwtMT
+MyODE3NzI2OCwxNTQ0MjE2ODk5LDEyMzkzNjEwMDgsOTkwNjE0
+MzAxLDQwNDA2OTg2LC02MzIyOTE1OTQsLTE1ODAyMjg5MzUsLT
+M3MjI0NTM0OSw2ODQ3OTkzNjUsMTk1NTU2MzQ5MiwtMTE0NjEx
+NDQ5NywtMjI2NzU5NjczLC01NDMzNTk4ODQsLTQ1MzYxNzY3Ny
+wtNDMzODQ2NTExLC0yMTE0NzY4ODgwLDI2ODUxMzI4NSwyMTM3
+NDE2NDM1XX0=
 -->

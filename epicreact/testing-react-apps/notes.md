@@ -200,15 +200,29 @@ Solution to not break other tests. Use `afterEach(() => server.resetHandlers())`
 >```
 >This allows me to continue to test with Jest (in node) while not actually running in a browser. - Dodds
 
-You can mock parts of a module by providing your own mock modu
+You can mock parts of a module by providing your own mock module getter-function:
+```javascript
+jest.mock('../math', () => {
+  const  actualMath  = jest.requireActual('../math')
+  return {
+    ...actualMath,
+    subtract: jest.fn(),
+  }
+})
+
+// now the `add` export is the normal function,
+// but the `subtract` export is a mock function.
+```
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzI5MTc1Niw5OTA2MTQzMDEsNDA0MD
-Y5ODYsLTYzMjI5MTU5NCwtMTU4MDIyODkzNSwtMzcyMjQ1MzQ5
-LDY4NDc5OTM2NSwxOTU1NTYzNDkyLC0xMTQ2MTE0NDk3LC0yMj
-Y3NTk2NzMsLTU0MzM1OTg4NCwtNDUzNjE3Njc3LC00MzM4NDY1
-MTEsLTIxMTQ3Njg4ODAsMjY4NTEzMjg1LDIxMzc0MTY0MzUsLT
-E3MjY0MjA4NTUsNzIyODI1Mjg3LDIxMTA4ODM0MzQsNTI0OTI2
-OTE2XX0=
+eyJoaXN0b3J5IjpbLTEyNjk4OTMwMDcsOTkwNjE0MzAxLDQwND
+A2OTg2LC02MzIyOTE1OTQsLTE1ODAyMjg5MzUsLTM3MjI0NTM0
+OSw2ODQ3OTkzNjUsMTk1NTU2MzQ5MiwtMTE0NjExNDQ5NywtMj
+I2NzU5NjczLC01NDMzNTk4ODQsLTQ1MzYxNzY3NywtNDMzODQ2
+NTExLC0yMTE0NzY4ODgwLDI2ODUxMzI4NSwyMTM3NDE2NDM1LC
+0xNzI2NDIwODU1LDcyMjgyNTI4NywyMTEwODgzNDM0LDUyNDky
+NjkxNl19
 -->

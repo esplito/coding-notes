@@ -176,11 +176,15 @@ server.use(
 Solution to not break other tests. Use `afterEach(() => server.resetHandlers())`.
 
 ### Mocking Browser APIs and Modules
+> We're not running our test in a real browser. They're a simulated browser in Node using a module called jsdom. Sometimes there are things that jsdom isn't able to do that you have to just fake out.
+> 
+> For example, matchMedia, which is supported on Windows is not supported in jsdom. You have to include a polyfill for that and then also, we monkey-patch-resize too on Windows so that we can test out things that rely on matchMedia. That's just one of several examples of APIs that jsdom which you might need to test for your particular application. - Dodds
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxOTE1NzE2LDQwNDA2OTg2LC02MzIyOT
+eyJoaXN0b3J5IjpbOTkwNjE0MzAxLDQwNDA2OTg2LC02MzIyOT
 E1OTQsLTE1ODAyMjg5MzUsLTM3MjI0NTM0OSw2ODQ3OTkzNjUs
 MTk1NTU2MzQ5MiwtMTE0NjExNDQ5NywtMjI2NzU5NjczLC01ND
 MzNTk4ODQsLTQ1MzYxNzY3NywtNDMzODQ2NTExLC0yMTE0NzY4

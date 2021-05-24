@@ -187,24 +187,15 @@ Solution to not break other tests. Use `afterEach(() => server.resetHandlers())`
 >import  matchMediaPolyfill  from  'mq-polyfill'
 >  
 >beforeAll(()  =>  {
-matchMediaPolyfill(window)
-
-window.resizeTo  =  function  resizeTo(width, height)  {
-
-Object.assign(this, {
-
-innerWidth: width,
-
-innerHeight: height,
-
-outerWidth: width,
-
-outerHeight: height,
-
-}).dispatchEvent(new  this.Event('resize'))
-
-}
-
+>  matchMediaPolyfill(window)
+>  window.resizeTo  =  function  resizeTo(width, height)  {
+>  Object.assign(this, {
+>    innerWidth: width,
+>    innerHeight: height,
+>    outerWidth: width,
+>    outerHeight: height,
+>  }).dispatchEvent(new  this.Event('resize'))
+> }
 })
 
 ```
@@ -217,11 +208,11 @@ running in a browser.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5NzI0OTk1LDk5MDYxNDMwMSw0MDQwNj
-k4NiwtNjMyMjkxNTk0LC0xNTgwMjI4OTM1LC0zNzIyNDUzNDks
-Njg0Nzk5MzY1LDE5NTU1NjM0OTIsLTExNDYxMTQ0OTcsLTIyNj
-c1OTY3MywtNTQzMzU5ODg0LC00NTM2MTc2NzcsLTQzMzg0NjUx
-MSwtMjExNDc2ODg4MCwyNjg1MTMyODUsMjEzNzQxNjQzNSwtMT
-cyNjQyMDg1NSw3MjI4MjUyODcsMjExMDg4MzQzNCw1MjQ5MjY5
-MTZdfQ==
+eyJoaXN0b3J5IjpbMTA1Nzc3NDIwOSw5OTA2MTQzMDEsNDA0MD
+Y5ODYsLTYzMjI5MTU5NCwtMTU4MDIyODkzNSwtMzcyMjQ1MzQ5
+LDY4NDc5OTM2NSwxOTU1NTYzNDkyLC0xMTQ2MTE0NDk3LC0yMj
+Y3NTk2NzMsLTU0MzM1OTg4NCwtNDUzNjE3Njc3LC00MzM4NDY1
+MTEsLTIxMTQ3Njg4ODAsMjY4NTEzMjg1LDIxMzc0MTY0MzUsLT
+E3MjY0MjA4NTUsNzIyODI1Mjg3LDIxMTA4ODM0MzQsNTI0OTI2
+OTE2XX0=
 -->

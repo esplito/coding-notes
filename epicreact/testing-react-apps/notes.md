@@ -247,13 +247,15 @@ render(<EasyButton>Easy</EasyButton>, {theme: 'dark'})
 render(<EasyButton>Easy</EasyButton>) // defaults to light
 ```
 
+> This is what I recommend for all of your tests. They should all be using this render method because those providers are an implementation detail of each one of your components. They should just have all of the same providers that they're going to have when you ship the actual app. - Dodds
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjMzMjQ5OCwtMTQ1NzAzMDc5NSwtMT
-MyODE3NzI2OCwxNTQ0MjE2ODk5LDEyMzkzNjEwMDgsOTkwNjE0
-MzAxLDQwNDA2OTg2LC02MzIyOTE1OTQsLTE1ODAyMjg5MzUsLT
-M3MjI0NTM0OSw2ODQ3OTkzNjUsMTk1NTU2MzQ5MiwtMTE0NjEx
-NDQ5NywtMjI2NzU5NjczLC01NDMzNTk4ODQsLTQ1MzYxNzY3Ny
-wtNDMzODQ2NTExLC0yMTE0NzY4ODgwLDI2ODUxMzI4NSwyMTM3
-NDE2NDM1XX0=
+eyJoaXN0b3J5IjpbMzUzMDE3NDUxLDIxMjIzMzI0OTgsLTE0NT
+cwMzA3OTUsLTEzMjgxNzcyNjgsMTU0NDIxNjg5OSwxMjM5MzYx
+MDA4LDk5MDYxNDMwMSw0MDQwNjk4NiwtNjMyMjkxNTk0LC0xNT
+gwMjI4OTM1LC0zNzIyNDUzNDksNjg0Nzk5MzY1LDE5NTU1NjM0
+OTIsLTExNDYxMTQ0OTcsLTIyNjc1OTY3MywtNTQzMzU5ODg0LC
+00NTM2MTc2NzcsLTQzMzg0NjUxMSwtMjExNDc2ODg4MCwyNjg1
+MTMyODVdfQ==
 -->

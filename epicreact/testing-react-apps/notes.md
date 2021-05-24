@@ -221,15 +221,15 @@ If you get an act-warning, read how to fix it here: https://kentcdodds.com/blog/
 Dodds on what happens when using `act`: 
 > Now, what this is going to do is it's going to say, "OK, I'm going to go ahead and do all the things which it will include calling this callback. Once this whole thing resolves, then I'll go ahead and flush all of the side effects that happened during that time." We can save this. We get rid of that warning and are interacting with a stable UI, just like the user would in a real application.
 
-
+### Context and Custom Render method
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDIxNjg5OSwxMjM5MzYxMDA4LDk5MD
-YxNDMwMSw0MDQwNjk4NiwtNjMyMjkxNTk0LC0xNTgwMjI4OTM1
-LC0zNzIyNDUzNDksNjg0Nzk5MzY1LDE5NTU1NjM0OTIsLTExND
-YxMTQ0OTcsLTIyNjc1OTY3MywtNTQzMzU5ODg0LC00NTM2MTc2
-NzcsLTQzMzg0NjUxMSwtMjExNDc2ODg4MCwyNjg1MTMyODUsMj
-EzNzQxNjQzNSwtMTcyNjQyMDg1NSw3MjI4MjUyODcsMjExMDg4
-MzQzNF19
+eyJoaXN0b3J5IjpbMTc5MjE4MTk2OCwxNTQ0MjE2ODk5LDEyMz
+kzNjEwMDgsOTkwNjE0MzAxLDQwNDA2OTg2LC02MzIyOTE1OTQs
+LTE1ODAyMjg5MzUsLTM3MjI0NTM0OSw2ODQ3OTkzNjUsMTk1NT
+U2MzQ5MiwtMTE0NjExNDQ5NywtMjI2NzU5NjczLC01NDMzNTk4
+ODQsLTQ1MzYxNzY3NywtNDMzODQ2NTExLC0yMTE0NzY4ODgwLD
+I2ODUxMzI4NSwyMTM3NDE2NDM1LC0xNzI2NDIwODU1LDcyMjgy
+NTI4N119
 -->

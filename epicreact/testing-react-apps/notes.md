@@ -226,6 +226,8 @@ Dodds on what happens when using `act`:
 You can override React Testing Library´s own render function. Here's an example where we make it possible to change the `initialTheme` on the `<ThemeProvider>`:
 
 ```jsx
+import {render  as  rtlRender, screen} from  '@testing-library/react'
+
 // Extra credit 2: create a custom render method
 function  render(ui, {theme  =  'light', ...options}) {
   function  Wrapper({children}) {
@@ -241,16 +243,16 @@ function  render(ui, {theme  =  'light', ...options}) {
 
 And this is how it's used in the test: 
 ```js
-render(<EasyButton>Easy</EasyButton>, {theme: 'light'})
+render(<EasyButton>Easy</EasyButton>, {theme: 'dark'})
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4MzExMzAwLC0xMzI4MTc3MjY4LDE1ND
-QyMTY4OTksMTIzOTM2MTAwOCw5OTA2MTQzMDEsNDA0MDY5ODYs
-LTYzMjI5MTU5NCwtMTU4MDIyODkzNSwtMzcyMjQ1MzQ5LDY4ND
-c5OTM2NSwxOTU1NTYzNDkyLC0xMTQ2MTE0NDk3LC0yMjY3NTk2
-NzMsLTU0MzM1OTg4NCwtNDUzNjE3Njc3LC00MzM4NDY1MTEsLT
-IxMTQ3Njg4ODAsMjY4NTEzMjg1LDIxMzc0MTY0MzUsLTE3MjY0
-MjA4NTVdfQ==
+eyJoaXN0b3J5IjpbLTE0NTcwMzA3OTUsLTEzMjgxNzcyNjgsMT
+U0NDIxNjg5OSwxMjM5MzYxMDA4LDk5MDYxNDMwMSw0MDQwNjk4
+NiwtNjMyMjkxNTk0LC0xNTgwMjI4OTM1LC0zNzIyNDUzNDksNj
+g0Nzk5MzY1LDE5NTU1NjM0OTIsLTExNDYxMTQ0OTcsLTIyNjc1
+OTY3MywtNTQzMzU5ODg0LC00NTM2MTc2NzcsLTQzMzg0NjUxMS
+wtMjExNDc2ODg4MCwyNjg1MTMyODUsMjEzNzQxNjQzNSwtMTcy
+NjQyMDg1NV19
 -->

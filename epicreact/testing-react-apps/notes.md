@@ -249,13 +249,16 @@ render(<EasyButton>Easy</EasyButton>) // defaults to light
 
 > This is what I recommend for all of your tests. They should all be using this render method because those providers are an implementation detail of each one of your components. They should just have all of the same providers that they're going to have when you ship the actual app. - Dodds
 
+### Testing Custom Hooks
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzMDE3NDUxLDIxMjIzMzI0OTgsLTE0NT
-cwMzA3OTUsLTEzMjgxNzcyNjgsMTU0NDIxNjg5OSwxMjM5MzYx
-MDA4LDk5MDYxNDMwMSw0MDQwNjk4NiwtNjMyMjkxNTk0LC0xNT
-gwMjI4OTM1LC0zNzIyNDUzNDksNjg0Nzk5MzY1LDE5NTU1NjM0
-OTIsLTExNDYxMTQ0OTcsLTIyNjc1OTY3MywtNTQzMzU5ODg0LC
-00NTM2MTc2NzcsLTQzMzg0NjUxMSwtMjExNDc2ODg4MCwyNjg1
-MTMyODVdfQ==
+eyJoaXN0b3J5IjpbLTE3MTQyNTU1NDUsMzUzMDE3NDUxLDIxMj
+IzMzI0OTgsLTE0NTcwMzA3OTUsLTEzMjgxNzcyNjgsMTU0NDIx
+Njg5OSwxMjM5MzYxMDA4LDk5MDYxNDMwMSw0MDQwNjk4NiwtNj
+MyMjkxNTk0LC0xNTgwMjI4OTM1LC0zNzIyNDUzNDksNjg0Nzk5
+MzY1LDE5NTU1NjM0OTIsLTExNDYxMTQ0OTcsLTIyNjc1OTY3My
+wtNTQzMzU5ODg0LC00NTM2MTc2NzcsLTQzMzg0NjUxMSwtMjEx
+NDc2ODg4MF19
 -->

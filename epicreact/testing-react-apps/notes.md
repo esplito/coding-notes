@@ -223,27 +223,30 @@ Dodds on what happens when using `act`:
 
 ### Context and Custom Render Method
 
-You can override React Testing Library´s own render function. Here's an example where we make it possible to change the `initialTheme` on the `<ThemeProvider>`.
+You can override React Testing Library´s own render function. Here's an example where we make it possible to change the `initialTheme` on the `<ThemeProvider>`:
 
 ```jsx
 // Extra credit 2: create a custom render method
-
 function  render(ui, {theme  =  'light', ...options}) {
-
-function  Wrapper({children}) {
-
-return  <ThemeProvider  initialTheme={theme}>{children}</ThemeProvider>
-
+  function  Wrapper({children}) {
+    return (  
+      <ThemeProvider  initialTheme={theme}>
+        {children}
+      </ThemeProvider>
+    )
+  }
+  return  rtlRender(ui, {wrapper: Wrapper, ...options})
 }
+```
 
-return  rtlRender(ui, {wrapper: Wrapper, ...options})
-
-}
+And this is how it's used in the test: 
+```js
+render(<EasyButton>Easy</EasyButton>, {theme: 'light'})
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjM2OTY0LC0xMzI4MTc3MjY4LDE1ND
+eyJoaXN0b3J5IjpbNTM4MzExMzAwLC0xMzI4MTc3MjY4LDE1ND
 QyMTY4OTksMTIzOTM2MTAwOCw5OTA2MTQzMDEsNDA0MDY5ODYs
 LTYzMjI5MTU5NCwtMTU4MDIyODkzNSwtMzcyMjQ1MzQ5LDY4ND
 c5OTM2NSwxOTU1NTYzNDkyLC0xMTQ2MTE0NDk3LC0yMjY3NTk2

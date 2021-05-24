@@ -180,15 +180,48 @@ Solution to not break other tests. Use `afterEach(() => server.resetHandlers())`
 > 
 > For example, matchMedia, which is supported on Windows is not supported in jsdom. You have to include a polyfill for that and then also, we monkey-patch-resize too on Windows so that we can test out things that rely on matchMedia. That's just one of several examples of APIs that jsdom which you might need to test for your particular application. - Dodds
 
+> In my [Advanced React Hooks workshop](https://kentcdodds.com/workshops/advanced-react-hooks), I teach something using a custom `useMedia` hook and to test it, I have to mock out the browser `window.resizeTo` method and polyfill `window.matchMedia`.
+> Here's how I go about doing that:
+>```javascript
+>
+>import  matchMediaPolyfill  from  'mq-polyfill'
+>  
+>beforeAll(()  =>  {
+matchMediaPolyfill(window)
 
+window.resizeTo  =  function  resizeTo(width, height)  {
+
+Object.assign(this, {
+
+innerWidth: width,
+
+innerHeight: height,
+
+outerWidth: width,
+
+outerHeight: height,
+
+}).dispatchEvent(new  this.Event('resize'))
+
+}
+
+})
+
+```
+
+  
+
+This allows me to continue to test with Jest (in node) while not actually
+
+running in a browser.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwNjE0MzAxLDQwNDA2OTg2LC02MzIyOT
-E1OTQsLTE1ODAyMjg5MzUsLTM3MjI0NTM0OSw2ODQ3OTkzNjUs
-MTk1NTU2MzQ5MiwtMTE0NjExNDQ5NywtMjI2NzU5NjczLC01ND
-MzNTk4ODQsLTQ1MzYxNzY3NywtNDMzODQ2NTExLC0yMTE0NzY4
-ODgwLDI2ODUxMzI4NSwyMTM3NDE2NDM1LC0xNzI2NDIwODU1LD
-cyMjgyNTI4NywyMTEwODgzNDM0LDUyNDkyNjkxNiwtMTQzODEy
-NTg3OV19
+eyJoaXN0b3J5IjpbNDM5NzI0OTk1LDk5MDYxNDMwMSw0MDQwNj
+k4NiwtNjMyMjkxNTk0LC0xNTgwMjI4OTM1LC0zNzIyNDUzNDks
+Njg0Nzk5MzY1LDE5NTU1NjM0OTIsLTExNDYxMTQ0OTcsLTIyNj
+c1OTY3MywtNTQzMzU5ODg0LC00NTM2MTc2NzcsLTQzMzg0NjUx
+MSwtMjExNDc2ODg4MCwyNjg1MTMyODUsMjEzNzQxNjQzNSwtMT
+cyNjQyMDg1NSw3MjI4MjUyODcsMjExMDg4MzQzNCw1MjQ5MjY5
+MTZdfQ==
 -->

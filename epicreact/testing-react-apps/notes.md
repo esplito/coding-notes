@@ -218,18 +218,18 @@ More about jest mocking here: https://github.com/kentcdodds/how-jest-mocking-wor
 
 If you get an act-warning, read how to fix it here: https://kentcdodds.com/blog/fix-the-not-wrapped-in-act-warning
 
-Dodds on `act`: 
+Dodds on what happens when using `act`: 
 > Now, what this is going to do is it's going to say, "OK, I'm going to go ahead and do all the things which it will include calling this callback. Once this whole thing resolves, then I'll go ahead and flush all of the side effects that happened during that time." We can save this. We get rid of that warning and are interacting with a stable UI, just like the user would in a real application.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjQzMjI3NzIsMTIzOTM2MTAwOCw5OT
-A2MTQzMDEsNDA0MDY5ODYsLTYzMjI5MTU5NCwtMTU4MDIyODkz
-NSwtMzcyMjQ1MzQ5LDY4NDc5OTM2NSwxOTU1NTYzNDkyLC0xMT
-Q2MTE0NDk3LC0yMjY3NTk2NzMsLTU0MzM1OTg4NCwtNDUzNjE3
-Njc3LC00MzM4NDY1MTEsLTIxMTQ3Njg4ODAsMjY4NTEzMjg1LD
-IxMzc0MTY0MzUsLTE3MjY0MjA4NTUsNzIyODI1Mjg3LDIxMTA4
-ODM0MzRdfQ==
+eyJoaXN0b3J5IjpbMTU0NDIxNjg5OSwxMjM5MzYxMDA4LDk5MD
+YxNDMwMSw0MDQwNjk4NiwtNjMyMjkxNTk0LC0xNTgwMjI4OTM1
+LC0zNzIyNDUzNDksNjg0Nzk5MzY1LDE5NTU1NjM0OTIsLTExND
+YxMTQ0OTcsLTIyNjc1OTY3MywtNTQzMzU5ODg0LC00NTM2MTc2
+NzcsLTQzMzg0NjUxMSwtMjExNDc2ODg4MCwyNjg1MTMyODUsMj
+EzNzQxNjQzNSwtMTcyNjQyMDg1NSw3MjI4MjUyODcsMjExMDg4
+MzQzNF19
 -->

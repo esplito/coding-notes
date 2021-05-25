@@ -256,6 +256,8 @@ Resources:
 * https://kentcdodds.com/blog/how-to-test-custom-react-hooks
 * https://github.com/testing-library/react-hooks-testing-library
 
+> Sometimes, you do have a pretty complicated custom hook. Making a custom component that uses that hook in the way it should be used is difficult. Especially when you want to cover some edge cases and things, it makes your test a little difficult to read. - Dodds
+
 It can be hard to write a test component for custom hooks. Dodds suggests that you do something like this:
 ```javascript
 let result
@@ -271,7 +273,7 @@ function TestComponent(props) {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODI4NDc0MCwtMjA0NDIxNjA0MiwtMT
+eyJoaXN0b3J5IjpbLTI2NTMzNjEwOCwtMjA0NDIxNjA0MiwtMT
 cxNDI1NTU0NSwzNTMwMTc0NTEsMjEyMjMzMjQ5OCwtMTQ1NzAz
 MDc5NSwtMTMyODE3NzI2OCwxNTQ0MjE2ODk5LDEyMzkzNjEwMD
 gsOTkwNjE0MzAxLDQwNDA2OTg2LC02MzIyOTE1OTQsLTE1ODAy

@@ -270,11 +270,13 @@ function TestComponent(props) {
 
 In the exercise we write a setup-function to avoid duplication in our tests. We can however use `renderHook` from [`@testing-library/react-hooks`](https://github.com/testing-library/react-hooks-testing-library) instead. 
 
+> The renderHook utility from testing-library/react-hooks-testing-library allows us to avoid some boilerplate and gives us a nice API for updating the arguments that we pass to our custom hook. - Dodds
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjY5NzE2MiwtMjY1MzM2MTA4LC0yMD
+eyJoaXN0b3J5IjpbMTQxOTY4MjA2NiwtMjY1MzM2MTA4LC0yMD
 Q0MjE2MDQyLC0xNzE0MjU1NTQ1LDM1MzAxNzQ1MSwyMTIyMzMy
 NDk4LC0xNDU3MDMwNzk1LC0xMzI4MTc3MjY4LDE1NDQyMTY4OT
 ksMTIzOTM2MTAwOCw5OTA2MTQzMDEsNDA0MDY5ODYsLTYzMjI5

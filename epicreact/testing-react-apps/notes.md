@@ -257,14 +257,21 @@ Resources:
 * https://github.com/testing-library/react-hooks-testing-library
 
 It can be hard to write a test component for custom hooks. Dodds suggests that you do something like this:
-
+```javascript
+let result
+function TestComponent(props) {
+  result = useCustomHook(props)
+  return null
+}
+// interact with and assert on results here
+```
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjQwNzI1NiwtMjA0NDIxNjA0MiwtMT
+eyJoaXN0b3J5IjpbMjEzODI4NDc0MCwtMjA0NDIxNjA0MiwtMT
 cxNDI1NTU0NSwzNTMwMTc0NTEsMjEyMjMzMjQ5OCwtMTQ1NzAz
 MDc5NSwtMTMyODE3NzI2OCwxNTQ0MjE2ODk5LDEyMzkzNjEwMD
 gsOTkwNjE0MzAxLDQwNDA2OTg2LC02MzIyOTE1OTQsLTE1ODAy

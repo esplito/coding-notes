@@ -268,16 +268,17 @@ function TestComponent(props) {
 // interact with and assert on results here
 ```
 
+In the exercise we write a setup-function to avoid duplication in our tests. We can however use `renderHook` from [`@testing-library/react-hooks`](https://github.com/testing-library/react-hooks-testing-library) instead. 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTMzNjEwOCwtMjA0NDIxNjA0MiwtMT
-cxNDI1NTU0NSwzNTMwMTc0NTEsMjEyMjMzMjQ5OCwtMTQ1NzAz
-MDc5NSwtMTMyODE3NzI2OCwxNTQ0MjE2ODk5LDEyMzkzNjEwMD
-gsOTkwNjE0MzAxLDQwNDA2OTg2LC02MzIyOTE1OTQsLTE1ODAy
-Mjg5MzUsLTM3MjI0NTM0OSw2ODQ3OTkzNjUsMTk1NTU2MzQ5Mi
-wtMTE0NjExNDQ5NywtMjI2NzU5NjczLC01NDMzNTk4ODQsLTQ1
-MzYxNzY3N119
+eyJoaXN0b3J5IjpbMTUxNjY5NzE2MiwtMjY1MzM2MTA4LC0yMD
+Q0MjE2MDQyLC0xNzE0MjU1NTQ1LDM1MzAxNzQ1MSwyMTIyMzMy
+NDk4LC0xNDU3MDMwNzk1LC0xMzI4MTc3MjY4LDE1NDQyMTY4OT
+ksMTIzOTM2MTAwOCw5OTA2MTQzMDEsNDA0MDY5ODYsLTYzMjI5
+MTU5NCwtMTU4MDIyODkzNSwtMzcyMjQ1MzQ5LDY4NDc5OTM2NS
+wxOTU1NTYzNDkyLC0xMTQ2MTE0NDk3LC0yMjY3NTk2NzMsLTU0
+MzM1OTg4NF19
 -->

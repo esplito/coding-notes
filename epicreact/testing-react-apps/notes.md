@@ -256,17 +256,19 @@ Resources:
 * https://kentcdodds.com/blog/how-to-test-custom-react-hooks
 * https://github.com/testing-library/react-hooks-testing-library
 
+It can be hard to write a test component for custom hooks. Dodds suggests that you do something like this:
+
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQyMTYwNDIsLTE3MTQyNTU1NDUsMz
-UzMDE3NDUxLDIxMjIzMzI0OTgsLTE0NTcwMzA3OTUsLTEzMjgx
-NzcyNjgsMTU0NDIxNjg5OSwxMjM5MzYxMDA4LDk5MDYxNDMwMS
-w0MDQwNjk4NiwtNjMyMjkxNTk0LC0xNTgwMjI4OTM1LC0zNzIy
-NDUzNDksNjg0Nzk5MzY1LDE5NTU1NjM0OTIsLTExNDYxMTQ0OT
-csLTIyNjc1OTY3MywtNTQzMzU5ODg0LC00NTM2MTc2NzcsLTQz
-Mzg0NjUxMV19
+eyJoaXN0b3J5IjpbMTg5MjQwNzI1NiwtMjA0NDIxNjA0MiwtMT
+cxNDI1NTU0NSwzNTMwMTc0NTEsMjEyMjMzMjQ5OCwtMTQ1NzAz
+MDc5NSwtMTMyODE3NzI2OCwxNTQ0MjE2ODk5LDEyMzkzNjEwMD
+gsOTkwNjE0MzAxLDQwNDA2OTg2LC02MzIyOTE1OTQsLTE1ODAy
+Mjg5MzUsLTM3MjI0NTM0OSw2ODQ3OTkzNjUsMTk1NTU2MzQ5Mi
+wtMTE0NjExNDQ5NywtMjI2NzU5NjczLC01NDMzNTk4ODQsLTQ1
+MzYxNzY3N119
 -->

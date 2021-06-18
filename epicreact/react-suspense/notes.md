@@ -8,9 +8,13 @@
 > 
 > This implies that you can only enable Concurrent Mode for the entire application starting at the root element where you're mounting your initial UI. You cannot opt into Concurrent Mode in different components through your application. - Dodds
 
+### Simple Data-fetching
 
+**Extra credit 1: Add error handling with an Error Boundary**
+>In review, all that you need to do to handle errors with React Suspense and Concurrent Mode is make sure that the asynchronous thing that you're doing has an error handler, keep track of that error, and then if there is an error, go ahead and throw it and then your ErrorBoundary can handle it for you as well. - Dodds
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTEwODA5ODksLTgyNTUxMTU4M119
+eyJoaXN0b3J5IjpbMjI2MDA4MDQ1LC0xNjExMDgwOTg5LC04Mj
+U1MTE1ODNdfQ==
 -->

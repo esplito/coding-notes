@@ -1,5 +1,7 @@
 ## React Suspense
 
+### ⚠ This is still experimental! ⚠ 
+
 ### Concurrent Mode
 
 > I use ReactDOM.render. To use React Concurrent Mode, though, I need to use the new ReactDOM.createRoot API. This createRoot API accepts our root element. - Dodds
@@ -10,5 +12,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODcxMjM4ODEsLTgyNTUxMTU4M119
+eyJoaXN0b3J5IjpbLTE2MTEwODA5ODksLTgyNTUxMTU4M119
 -->

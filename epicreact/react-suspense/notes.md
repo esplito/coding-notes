@@ -20,15 +20,21 @@
 There are three different ways (which Dodds shows) that we use in React when fetching data when rendering.
 
 1. **Fetch-on-render**: We kind of get a waterfall effect when doing this. 
+
 	**Example**:
 	We load the code for the PokemonInfo-module -> Then we make the request for PokemonInfo from the GraphQL Pokemon API -> When that's all loaded, we load the pikachu image
+	Code: https://github.com/kentcdodds/react-suspense/blob/main/src/examples/fetch-approaches/fetch-on-render.js
+	
 2. **Fetch-then-render**
+Code: 
+
 3. **Render-as-you-fetch**
+Code:
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzUzMTQ0OSwyMjYwMDgwNDUsLTE2MT
+eyJoaXN0b3J5IjpbMTA5NjY5NTA1MCwyMjYwMDgwNDUsLTE2MT
 EwODA5ODksLTgyNTUxMTU4M119
 -->

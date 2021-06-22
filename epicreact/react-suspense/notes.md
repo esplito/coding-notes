@@ -39,12 +39,12 @@ This is quite different to the other approaches. With this we are loading all at
 	Code: https://github.com/kentcdodds/react-suspense/blob/main/src/examples/fetch-approaches/render-as-you-fetch.js
 
 
-### 
+### useTransition for improved loading states
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM3MDMyNDUsMjAwMjcwMzY5Niw1Nz
+eyJoaXN0b3J5IjpbLTE4OTEwMzg2NzAsMjAwMjcwMzY5Niw1Nz
 U3MzY3OTIsMjI2MDA4MDQ1LC0xNjExMDgwOTg5LC04MjU1MTE1
 ODNdfQ==
 -->

@@ -21,10 +21,12 @@ There are three different ways (which Dodds shows) that we use in React when fet
 
 1. Fetch-on-render
 2. Fetch-then-render
-3. 
+3. Render-as-you-fetch
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwMzcxMzE1LDIyNjAwODA0NSwtMTYxMT
-A4MDk4OSwtODI1NTExNTgzXX0=
+eyJoaXN0b3J5IjpbLTQ3MDc5NzQzMSwyMjYwMDgwNDUsLTE2MT
+EwODA5ODksLTgyNTUxMTU4M119
 -->

@@ -26,7 +26,7 @@ There are three different ways (which Dodds shows) that we use in React when fet
 	Code: https://github.com/kentcdodds/react-suspense/blob/main/src/examples/fetch-approaches/fetch-on-render.js
 	
 2. **Fetch-then-render**
-
+With this we are still getting a waterfall
 	Code: https://github.com/kentcdodds/react-suspense/blob/main/src/examples/fetch-approaches/fetch-then-render.js
 
 3. **Render-as-you-fetch**
@@ -37,6 +37,6 @@ There are three different ways (which Dodds shows) that we use in React when fet
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4Mjg3NzEsMjI2MDA4MDQ1LC0xNjExMD
-gwOTg5LC04MjU1MTE1ODNdfQ==
+eyJoaXN0b3J5IjpbMjU0MjAwNDEwLDIyNjAwODA0NSwtMTYxMT
+A4MDk4OSwtODI1NTExNTgzXX0=
 -->

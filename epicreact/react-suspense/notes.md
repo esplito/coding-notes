@@ -34,14 +34,16 @@ Make the GraphQL-request -> Load the code -> Load the image
 
 3. **Render-as-you-fetch**
 This is quite different to the other approaches. With this we are loading all at once.
-	> The whole idea behind Render-as-You-Fetch is you start fetching the data as soon as you have all the information that you need to start fetching the data.
+	> The whole idea behind Render-as-You-Fetch is you start fetching the data as soon as you have all the information that you need to start fetching the data. - Dodds
 
 	Code: https://github.com/kentcdodds/react-suspense/blob/main/src/examples/fetch-approaches/render-as-you-fetch.js
 
 
 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDQ3ODM2Nyw1NzU3MzY3OTIsMjI2MD
+eyJoaXN0b3J5IjpbMjAwMjcwMzY5Niw1NzU3MzY3OTIsMjI2MD
 A4MDQ1LC0xNjExMDgwOTg5LC04MjU1MTE1ODNdfQ==
 -->

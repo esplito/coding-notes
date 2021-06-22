@@ -17,10 +17,14 @@
 
 >React Concurrent Mode and Suspense enable and encourage following a pattern called Render-as-You-Fetch. - Dodds
 
-There are three different ways that we use in React to
+There are three different ways (which Dodds shows) that we use in React when fetching data when rendering.
+
+1. Fetch-on-render
+2. Fetch-then-render
+3. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk1NzA3MzIsMjI2MDA4MDQ1LC0xNj
-ExMDgwOTg5LC04MjU1MTE1ODNdfQ==
+eyJoaXN0b3J5IjpbMzUwMzcxMzE1LDIyNjAwODA0NSwtMTYxMT
+A4MDk4OSwtODI1NTExNTgzXX0=
 -->

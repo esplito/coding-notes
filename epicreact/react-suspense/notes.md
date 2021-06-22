@@ -17,10 +17,10 @@
 
 >React Concurrent Mode and Suspense enable and encourage following a pattern called Render-as-You-Fetch. - Dodds
 
-There are three different ways that 
+There are three different ways that we use in React to
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTEyMTY5NiwyMjYwMDgwNDUsLTE2MT
-EwODA5ODksLTgyNTUxMTU4M119
+eyJoaXN0b3J5IjpbLTIwMDk1NzA3MzIsMjI2MDA4MDQ1LC0xNj
+ExMDgwOTg5LC04MjU1MTE1ODNdfQ==
 -->

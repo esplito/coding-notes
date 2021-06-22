@@ -26,7 +26,10 @@ There are three different ways (which Dodds shows) that we use in React when fet
 	Code: https://github.com/kentcdodds/react-suspense/blob/main/src/examples/fetch-approaches/fetch-on-render.js
 	
 2. **Fetch-then-render**
-With this we are still getting a waterfall
+
+	**Example:** 
+With this we are still getting a waterfall. The only thing that has changed is what is loading first.
+Make the GraphQL-request -> Load the code -> Load the image
 	Code: https://github.com/kentcdodds/react-suspense/blob/main/src/examples/fetch-approaches/fetch-then-render.js
 
 3. **Render-as-you-fetch**
@@ -37,6 +40,6 @@ With this we are still getting a waterfall
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0MjAwNDEwLDIyNjAwODA0NSwtMTYxMT
+eyJoaXN0b3J5IjpbNTc1NzM2NzkyLDIyNjAwODA0NSwtMTYxMT
 A4MDk4OSwtODI1NTExNTgzXX0=
 -->

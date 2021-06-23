@@ -47,13 +47,16 @@ This is quite different to the other approaches. With this we are loading all at
 
 Example: https://react-suspense.netlify.app/3
 
+>📣 **BREAKING CHANGE ALERT:** The version of React in this project works like it does in the recorded videos. However in the future experimental builds of React, the `SUSPENSE_CONFIG` option to `useTransition` has been completely removed. Read more about this here: [https://github.com/facebook/react/pull/19703](https://github.com/facebook/react/pull/19703)
+
+
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTA1MDcxODIsNjk1MzQxNzQ1LC0yMz
+eyJoaXN0b3J5IjpbLTE3MDQ2NjA1MDQsNjk1MzQxNzQ1LC0yMz
 M2MTU2OCwtMTg5MTAzODY3MCwyMDAyNzAzNjk2LDU3NTczNjc5
 MiwyMjYwMDgwNDUsLTE2MTEwODA5ODksLTgyNTUxMTU4M119
 -->

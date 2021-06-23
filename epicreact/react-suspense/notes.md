@@ -53,15 +53,15 @@ Example: https://react-suspense.netlify.app/3
 
 >The important thing to remember around of this is that a React Suspense Boundary will immediately show the fallback, regardless of any useTransition, startTransition function when it's initially mounted. The first time it's mounted, it will show you that fallback, regardless of any pending state. - Dodds
 
-If you don't want the behaviour that Dodds explains above, you'll have to move the 
+If you don't want the behaviour that Dodds explains above, you'll have to move Suspense outside of the ternary but still inside the div that has `isPending`. 
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTE3NzgzNywtNjc0ODg0Njg4LC0xNz
-A0NjYwNTA0LDY5NTM0MTc0NSwtMjMzNjE1NjgsLTE4OTEwMzg2
-NzAsMjAwMjcwMzY5Niw1NzU3MzY3OTIsMjI2MDA4MDQ1LC0xNj
-ExMDgwOTg5LC04MjU1MTE1ODNdfQ==
+eyJoaXN0b3J5IjpbNzYzNDkyNDkxLC02NzQ4ODQ2ODgsLTE3MD
+Q2NjA1MDQsNjk1MzQxNzQ1LC0yMzM2MTU2OCwtMTg5MTAzODY3
+MCwyMDAyNzAzNjk2LDU3NTczNjc5MiwyMjYwMDgwNDUsLTE2MT
+EwODA5ODksLTgyNTUxMTU4M119
 -->

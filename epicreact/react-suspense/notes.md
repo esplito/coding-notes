@@ -45,11 +45,15 @@ This is quite different to the other approaches. With this we are loading all at
 >
 (He refers tothe example where React waits a bit before displaying the fallback. https://github.com/kentcdodds/react-suspense/blob/main/src/exercise/03.js)
 
+Example: https://react-suspense.netlify.app/3
+
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1MzQxNzQ1LC0yMzM2MTU2OCwtMTg5MT
-AzODY3MCwyMDAyNzAzNjk2LDU3NTczNjc5MiwyMjYwMDgwNDUs
-LTE2MTEwODA5ODksLTgyNTUxMTU4M119
+eyJoaXN0b3J5IjpbLTE1NTA1MDcxODIsNjk1MzQxNzQ1LC0yMz
+M2MTU2OCwtMTg5MTAzODY3MCwyMDAyNzAzNjk2LDU3NTczNjc5
+MiwyMjYwMDgwNDUsLTE2MTEwODA5ODksLTgyNTUxMTU4M119
 -->

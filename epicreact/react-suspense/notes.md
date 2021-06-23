@@ -77,13 +77,14 @@ Dodds explanation of what we did:
 
 Extra credit 2 code here: https://github.com/kentcdodds/react-suspense/blob/main/src/final/04.extra-2.js
 
-
+## 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQ2NTAyODQsOTgzMTMwNDEyLC0yNT
-A2NDMwMywtMTQzNTI3OTkxMywtMTQyMTk4NzEyOSwtNjc0ODg0
-Njg4LC0xNzA0NjYwNTA0LDY5NTM0MTc0NSwtMjMzNjE1NjgsLT
-E4OTEwMzg2NzAsMjAwMjcwMzY5Niw1NzU3MzY3OTIsMjI2MDA4
-MDQ1LC0xNjExMDgwOTg5LC04MjU1MTE1ODNdfQ==
+eyJoaXN0b3J5IjpbLTY3NDcwOTE2NCwtMjE0NDY1MDI4NCw5OD
+MxMzA0MTIsLTI1MDY0MzAzLC0xNDM1Mjc5OTEzLC0xNDIxOTg3
+MTI5LC02NzQ4ODQ2ODgsLTE3MDQ2NjA1MDQsNjk1MzQxNzQ1LC
+0yMzM2MTU2OCwtMTg5MTAzODY3MCwyMDAyNzAzNjk2LDU3NTcz
+Njc5MiwyMjYwMDgwNDUsLTE2MTEwODA5ODksLTgyNTUxMTU4M1
+19
 -->

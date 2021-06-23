@@ -88,6 +88,8 @@ And code with the custom hook here: https://github.com/kentcdodds/react-suspense
 
 ### Coordinate Suspending components with SuspenseList
 
+> As your application and code's splitting and loading data, all of that scales as your application gets bigger. Eventually, you're going to find yourself in a situation where things aren't loading in the order that you want them to, or they're popping into place in a weird way, leading to sub-optimal user experience. Ultimately, what you want to do is be able to coordinate different loading experiences. - Dodds
+
 `SuspenseList` can be used to coordinate many loading states.
 
 More info here: https://react-suspense.netlify.app/7 
@@ -96,10 +98,10 @@ More info here: https://react-suspense.netlify.app/7
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDkzMDcxOSwxNDExNDA1OTgwLDE1Mz
-M4NTUzOTIsLTIxNDQ2NTAyODQsOTgzMTMwNDEyLC0yNTA2NDMw
-MywtMTQzNTI3OTkxMywtMTQyMTk4NzEyOSwtNjc0ODg0Njg4LC
-0xNzA0NjYwNTA0LDY5NTM0MTc0NSwtMjMzNjE1NjgsLTE4OTEw
-Mzg2NzAsMjAwMjcwMzY5Niw1NzU3MzY3OTIsMjI2MDA4MDQ1LC
-0xNjExMDgwOTg5LC04MjU1MTE1ODNdfQ==
+eyJoaXN0b3J5IjpbMTU1NTIwMjI2OCwxOTU0OTMwNzE5LDE0MT
+E0MDU5ODAsMTUzMzg1NTM5MiwtMjE0NDY1MDI4NCw5ODMxMzA0
+MTIsLTI1MDY0MzAzLC0xNDM1Mjc5OTEzLC0xNDIxOTg3MTI5LC
+02NzQ4ODQ2ODgsLTE3MDQ2NjA1MDQsNjk1MzQxNzQ1LC0yMzM2
+MTU2OCwtMTg5MTAzODY3MCwyMDAyNzAzNjk2LDU3NTczNjc5Mi
+wyMjYwMDgwNDUsLTE2MTEwODA5ODksLTgyNTUxMTU4M119
 -->

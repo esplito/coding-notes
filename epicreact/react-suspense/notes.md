@@ -55,13 +55,15 @@ Example: https://react-suspense.netlify.app/3
 
 If you don't want the behaviour that Dodds explains above, you'll have to move Suspense outside of the ternary, but still inside the div that has `isPending`.  (Code referenced here: https://github.com/kentcdodds/react-suspense/blob/main/src/final/03.js)
 
-> The idea is that in our Suspense config, we will be able to say, "Hey, React. I don't want you to show this loading state for 4,000 ms, so I'm going to handle that loading state myself with this isPending thing."
+> The idea is that in our Suspense config, we will be able to say, "Hey, React. I don't want you to show this loading state for 4,000 ms, so I'm going to handle that loading state myself with this isPending thing." - Dodds
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDIxOTEyMCwtMTQyMTk4NzEyOSwtNj
-c0ODg0Njg4LC0xNzA0NjYwNTA0LDY5NTM0MTc0NSwtMjMzNjE1
-NjgsLTE4OTEwMzg2NzAsMjAwMjcwMzY5Niw1NzU3MzY3OTIsMj
-I2MDA4MDQ1LC0xNjExMDgwOTg5LC04MjU1MTE1ODNdfQ==
+eyJoaXN0b3J5IjpbLTE0MzUyNzk5MTMsLTE0MjE5ODcxMjksLT
+Y3NDg4NDY4OCwtMTcwNDY2MDUwNCw2OTUzNDE3NDUsLTIzMzYx
+NTY4LC0xODkxMDM4NjcwLDIwMDI3MDM2OTYsNTc1NzM2NzkyLD
+IyNjAwODA0NSwtMTYxMTA4MDk4OSwtODI1NTExNTgzXX0=
 -->

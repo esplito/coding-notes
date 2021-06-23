@@ -88,7 +88,7 @@ And code with the custom hook here: https://github.com/kentcdodds/react-suspense
 
 ### Coordinate Suspending components with SuspenseList
 
-`SuspenseList` can be 
+`SuspenseList` can be used to coordinate many loading states.
 
 More info here: https://react-suspense.netlify.app/7 
 
@@ -96,7 +96,7 @@ More info here: https://react-suspense.netlify.app/7
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjA2NzYzNCwxNDExNDA1OTgwLDE1Mz
+eyJoaXN0b3J5IjpbMTk1NDkzMDcxOSwxNDExNDA1OTgwLDE1Mz
 M4NTUzOTIsLTIxNDQ2NTAyODQsOTgzMTMwNDEyLC0yNTA2NDMw
 MywtMTQzNTI3OTkxMywtMTQyMTk4NzEyOSwtNjc0ODg0Njg4LC
 0xNzA0NjYwNTA0LDY5NTM0MTc0NSwtMjMzNjE1NjgsLTE4OTEw

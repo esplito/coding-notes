@@ -75,12 +75,15 @@ Dodds explanation of what we did:
 > 
 > We also had to change this getPokemonResource to a React useCallback function, so that it was stable through renders so that we can include it in our dependency array here.
 
+Extra credit 2 code here: https://github.com/kentcdodds/react-suspense/blob/main/src/final/04.extra-2.js
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzk4NjczMSw5ODMxMzA0MTIsLTI1MD
-Y0MzAzLC0xNDM1Mjc5OTEzLC0xNDIxOTg3MTI5LC02NzQ4ODQ2
-ODgsLTE3MDQ2NjA1MDQsNjk1MzQxNzQ1LC0yMzM2MTU2OCwtMT
-g5MTAzODY3MCwyMDAyNzAzNjk2LDU3NTczNjc5MiwyMjYwMDgw
-NDUsLTE2MTEwODA5ODksLTgyNTUxMTU4M119
+eyJoaXN0b3J5IjpbLTIxNDQ2NTAyODQsOTgzMTMwNDEyLC0yNT
+A2NDMwMywtMTQzNTI3OTkxMywtMTQyMTk4NzEyOSwtNjc0ODg0
+Njg4LC0xNzA0NjYwNTA0LDY5NTM0MTc0NSwtMjMzNjE1NjgsLT
+E4OTEwMzg2NzAsMjAwMjcwMzY5Niw1NzU3MzY3OTIsMjI2MDA4
+MDQ1LC0xNjExMDgwOTg5LC04MjU1MTE1ODNdfQ==
 -->

@@ -41,11 +41,15 @@ This is quite different to the other approaches. With this we are loading all at
 
 ### useTransition for improved loading states
 
+>This is an intentional feature of React and Concurrent Mode that it will just wait for a little bit before it decides to render out your fallback here. - Dodds
+>
+(He refers tothe example where React waits a bit before displaying the fallback. https://github.com/kentcdodds/react-suspense/blob/main/src/exercise/03.js)
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzYxNTY4LC0xODkxMDM4NjcwLDIwMD
-I3MDM2OTYsNTc1NzM2NzkyLDIyNjAwODA0NSwtMTYxMTA4MDk4
-OSwtODI1NTExNTgzXX0=
+eyJoaXN0b3J5IjpbNjk1MzQxNzQ1LC0yMzM2MTU2OCwtMTg5MT
+AzODY3MCwyMDAyNzAzNjk2LDU3NTczNjc5MiwyMjYwMDgwNDUs
+LTE2MTEwODA5ODksLTgyNTUxMTU4M119
 -->

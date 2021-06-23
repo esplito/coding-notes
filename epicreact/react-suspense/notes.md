@@ -78,13 +78,12 @@ Dodds explanation of what we did:
 Extra credit 2 code here: https://github.com/kentcdodds/react-suspense/blob/main/src/final/04.extra-2.js
 
 ### Suspense Image
-
 Read the info here: https://react-suspense.netlify.app/5
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjM0NTQyMiwtMjE0NDY1MDI4NCw5OD
+eyJoaXN0b3J5IjpbMTUzMzg1NTM5MiwtMjE0NDY1MDI4NCw5OD
 MxMzA0MTIsLTI1MDY0MzAzLC0xNDM1Mjc5OTEzLC0xNDIxOTg3
 MTI5LC02NzQ4ODQ2ODgsLTE3MDQ2NjA1MDQsNjk1MzQxNzQ1LC
 0yMzM2MTU2OCwtMTg5MTAzODY3MCwyMDAyNzAzNjk2LDU3NTcz

@@ -88,14 +88,18 @@ And code with the custom hook here: https://github.com/kentcdodds/react-suspense
 
 ### Coordinate Suspending components with SuspenseList
 
+`SuspenseList` can be 
+
+More info here: https://react-suspense.netlify.app/7 
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MzMxNjQxLDE0MTE0MDU5ODAsMTUzMz
-g1NTM5MiwtMjE0NDY1MDI4NCw5ODMxMzA0MTIsLTI1MDY0MzAz
-LC0xNDM1Mjc5OTEzLC0xNDIxOTg3MTI5LC02NzQ4ODQ2ODgsLT
-E3MDQ2NjA1MDQsNjk1MzQxNzQ1LC0yMzM2MTU2OCwtMTg5MTAz
-ODY3MCwyMDAyNzAzNjk2LDU3NTczNjc5MiwyMjYwMDgwNDUsLT
-E2MTEwODA5ODksLTgyNTUxMTU4M119
+eyJoaXN0b3J5IjpbMTYxMjA2NzYzNCwxNDExNDA1OTgwLDE1Mz
+M4NTUzOTIsLTIxNDQ2NTAyODQsOTgzMTMwNDEyLC0yNTA2NDMw
+MywtMTQzNTI3OTkxMywtMTQyMTk4NzEyOSwtNjc0ODg0Njg4LC
+0xNzA0NjYwNTA0LDY5NTM0MTc0NSwtMjMzNjE1NjgsLTE4OTEw
+Mzg2NzAsMjAwMjcwMzY5Niw1NzU3MzY3OTIsMjI2MDA4MDQ1LC
+0xNjExMDgwOTg5LC04MjU1MTE1ODNdfQ==
 -->

@@ -57,13 +57,14 @@ If you don't want the behaviour that Dodds explains above, you'll have to move S
 
 > The idea is that in our Suspense config, we will be able to say, "Hey, React. I don't want you to show this loading state for 4,000 ms, so I'm going to handle that loading state myself with this isPending thing." - Dodds
 
-
+### 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzUyNzk5MTMsLTE0MjE5ODcxMjksLT
-Y3NDg4NDY4OCwtMTcwNDY2MDUwNCw2OTUzNDE3NDUsLTIzMzYx
-NTY4LC0xODkxMDM4NjcwLDIwMDI3MDM2OTYsNTc1NzM2NzkyLD
-IyNjAwODA0NSwtMTYxMTA4MDk4OSwtODI1NTExNTgzXX0=
+eyJoaXN0b3J5IjpbLTExMzU2Njk4MzAsLTE0MzUyNzk5MTMsLT
+E0MjE5ODcxMjksLTY3NDg4NDY4OCwtMTcwNDY2MDUwNCw2OTUz
+NDE3NDUsLTIzMzYxNTY4LC0xODkxMDM4NjcwLDIwMDI3MDM2OT
+YsNTc1NzM2NzkyLDIyNjAwODA0NSwtMTYxMTA4MDk4OSwtODI1
+NTExNTgzXX0=
 -->

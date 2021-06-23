@@ -80,13 +80,17 @@ Extra credit 2 code here: https://github.com/kentcdodds/react-suspense/blob/main
 ### Suspense Image
 Read the info here: https://react-suspense.netlify.app/5
 
+### Suspense with a Custom Hook
+> Honestly, this one is just for a little bit of fun. I love how awesome React Hooks are and how you can combine it with React Suspense, makes it that much cooler. - Dodds
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzg1NTM5MiwtMjE0NDY1MDI4NCw5OD
-MxMzA0MTIsLTI1MDY0MzAzLC0xNDM1Mjc5OTEzLC0xNDIxOTg3
-MTI5LC02NzQ4ODQ2ODgsLTE3MDQ2NjA1MDQsNjk1MzQxNzQ1LC
-0yMzM2MTU2OCwtMTg5MTAzODY3MCwyMDAyNzAzNjk2LDU3NTcz
-Njc5MiwyMjYwMDgwNDUsLTE2MTEwODA5ODksLTgyNTUxMTU4M1
-19
+eyJoaXN0b3J5IjpbMTQxMTQwNTk4MCwxNTMzODU1MzkyLC0yMT
+Q0NjUwMjg0LDk4MzEzMDQxMiwtMjUwNjQzMDMsLTE0MzUyNzk5
+MTMsLTE0MjE5ODcxMjksLTY3NDg4NDY4OCwtMTcwNDY2MDUwNC
+w2OTUzNDE3NDUsLTIzMzYxNTY4LC0xODkxMDM4NjcwLDIwMDI3
+MDM2OTYsNTc1NzM2NzkyLDIyNjAwODA0NSwtMTYxMTA4MDk4OS
+wtODI1NTExNTgzXX0=
 -->

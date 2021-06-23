@@ -43,7 +43,7 @@ This is quite different to the other approaches. With this we are loading all at
 
 >This is an intentional feature of React and Concurrent Mode that it will just wait for a little bit before it decides to render out your fallback here. - Dodds
 >
-(He refers tothe example where React waits a bit before displaying the fallback. https://github.com/kentcdodds/react-suspense/blob/main/src/exercise/03.js)
+(He refers to the example where React waits a bit before displaying the fallback. https://github.com/kentcdodds/react-suspense/blob/main/src/exercise/03.js)
 
 Example: https://react-suspense.netlify.app/3
 
@@ -56,7 +56,8 @@ Example: https://react-suspense.netlify.app/3
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQ2NjA1MDQsNjk1MzQxNzQ1LC0yMz
-M2MTU2OCwtMTg5MTAzODY3MCwyMDAyNzAzNjk2LDU3NTczNjc5
-MiwyMjYwMDgwNDUsLTE2MTEwODA5ODksLTgyNTUxMTU4M119
+eyJoaXN0b3J5IjpbLTY3NDg4NDY4OCwtMTcwNDY2MDUwNCw2OT
+UzNDE3NDUsLTIzMzYxNTY4LC0xODkxMDM4NjcwLDIwMDI3MDM2
+OTYsNTc1NzM2NzkyLDIyNjAwODA0NSwtMTYxMTA4MDk4OSwtOD
+I1NTExNTgzXX0=
 -->

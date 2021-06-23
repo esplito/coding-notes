@@ -66,13 +66,13 @@ More info about the above can be found here: https://react-suspense.netlify.app/
 ⚠ ⚠ ⚠ 
 >In real apps, you’ll likely be using a robust abstraction for caching. A good one to try out is [react-query](https://github.com/tannerlinsley/react-query). - Dodds
 
-
+// Extra credit 2: create a context provider
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzMTMwNDEyLC0yNTA2NDMwMywtMTQzNT
-I3OTkxMywtMTQyMTk4NzEyOSwtNjc0ODg0Njg4LC0xNzA0NjYw
-NTA0LDY5NTM0MTc0NSwtMjMzNjE1NjgsLTE4OTEwMzg2NzAsMj
-AwMjcwMzY5Niw1NzU3MzY3OTIsMjI2MDA4MDQ1LC0xNjExMDgw
-OTg5LC04MjU1MTE1ODNdfQ==
+eyJoaXN0b3J5IjpbLTc2OTg5NzM2OCw5ODMxMzA0MTIsLTI1MD
+Y0MzAzLC0xNDM1Mjc5OTEzLC0xNDIxOTg3MTI5LC02NzQ4ODQ2
+ODgsLTE3MDQ2NjA1MDQsNjk1MzQxNzQ1LC0yMzM2MTU2OCwtMT
+g5MTAzODY3MCwyMDAyNzAzNjk2LDU3NTczNjc5MiwyMjYwMDgw
+NDUsLTE2MTEwODA5ODksLTgyNTUxMTU4M119
 -->

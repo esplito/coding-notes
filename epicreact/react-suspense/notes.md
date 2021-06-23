@@ -63,12 +63,12 @@ If you don't want the behaviour that Dodds explains above, you'll have to move S
 
 More info about the above can be found here: https://react-suspense.netlify.app/4
 
-
+⚠ >In real apps, you’ll likely be using a robust abstraction for caching. A good one to try out is [react-query](https://github.com/tannerlinsley/react-query).
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5NjQ4NDE1LC0yNTA2NDMwMywtMTQzNT
+eyJoaXN0b3J5IjpbOTYwNjM4MjQxLC0yNTA2NDMwMywtMTQzNT
 I3OTkxMywtMTQyMTk4NzEyOSwtNjc0ODg0Njg4LC0xNzA0NjYw
 NTA0LDY5NTM0MTc0NSwtMjMzNjE1NjgsLTE4OTEwMzg2NzAsMj
 AwMjcwMzY5Niw1NzU3MzY3OTIsMjI2MDA4MDQ1LC0xNjExMDgw

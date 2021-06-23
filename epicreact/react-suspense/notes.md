@@ -66,11 +66,19 @@ More info about the above can be found here: https://react-suspense.netlify.app/
 ⚠ ⚠ ⚠ 
 >In real apps, you’ll likely be using a robust abstraction for caching. A good one to try out is [react-query](https://github.com/tannerlinsley/react-query). - Dodds
 
-// Extra credit 2: create a context provider
+**Extra credit 2: create a context provider**
+
+Dodds explanation of what we did:
+> In review, all that we did here was we took this getPokemonResource from outside at the module level and put it inside a PokemonCacheProvider. We provided it as the value to this provider right here.
+> 
+> We also needed to wrap our app inside of the PokemonCacheProvider so that when it consumes that context value with use PokemonResourceCache it has that value provided to it by the PokemonCacheProvider, which is ultimately rendering that context provider with that value.
+> 
+> We also had to change this getPokemonResource to a React useCallback function, so that it was stable through renders so that we can include it in our dependency array here.
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTg5NzM2OCw5ODMxMzA0MTIsLTI1MD
+eyJoaXN0b3J5IjpbMTMxNzk4NjczMSw5ODMxMzA0MTIsLTI1MD
 Y0MzAzLC0xNDM1Mjc5OTEzLC0xNDIxOTg3MTI5LC02NzQ4ODQ2
 ODgsLTE3MDQ2NjA1MDQsNjk1MzQxNzQ1LC0yMzM2MTU2OCwtMT
 g5MTAzODY3MCwyMDAyNzAzNjk2LDU3NTczNjc5MiwyMjYwMDgw

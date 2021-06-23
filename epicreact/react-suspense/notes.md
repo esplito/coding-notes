@@ -94,11 +94,14 @@ And code with the custom hook here: https://github.com/kentcdodds/react-suspense
 
 More info here: https://react-suspense.netlify.app/7 
 
-Wor
+Worth noting about having `revealOrder="backwards"`:
+> It's awesome that we can coordinate suspending components for things like our entire layout as well as giant lists of things. Another good example of a place where a SuspenseList would make sense, especially the revealOrder of backwards, may feel weird like they just added that for fun. No, they didn't just add that for fun. That is built for a chat application where everything loads from the bottom to the top, so you want the revealOrder to be backwards. - Dodds
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDAxNDkzMCwxNTU1MjAyMjY4LDE5NT
+eyJoaXN0b3J5IjpbMTM5MTQzNjczOCwxNTU1MjAyMjY4LDE5NT
 Q5MzA3MTksMTQxMTQwNTk4MCwxNTMzODU1MzkyLC0yMTQ0NjUw
 Mjg0LDk4MzEzMDQxMiwtMjUwNjQzMDMsLTE0MzUyNzk5MTMsLT
 E0MjE5ODcxMjksLTY3NDg4NDY4OCwtMTcwNDY2MDUwNCw2OTUz

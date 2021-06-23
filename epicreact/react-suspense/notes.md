@@ -49,15 +49,19 @@ Example: https://react-suspense.netlify.app/3
 
 >📣 **BREAKING CHANGE ALERT:** The version of React in this project works like it does in the recorded videos. However in the future experimental builds of React, the `SUSPENSE_CONFIG` option to `useTransition` has been completely removed. Read more about this here: [https://github.com/facebook/react/pull/19703](https://github.com/facebook/react/pull/19703)
 
+**startTransition and isPending**
 
+>The important thing to remember around of this is that a React Suspense Boundary will immediately show the fallback, regardless of any useTransition, startTransition function when it's initially mounted. The first time it's mounted, it will show you that fallback, regardless of any pending state. - Dodds
+
+If you don't want the behaviour that Dodds explains above, you'll have to move the 
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDg4NDY4OCwtMTcwNDY2MDUwNCw2OT
-UzNDE3NDUsLTIzMzYxNTY4LC0xODkxMDM4NjcwLDIwMDI3MDM2
-OTYsNTc1NzM2NzkyLDIyNjAwODA0NSwtMTYxMTA4MDk4OSwtOD
-I1NTExNTgzXX0=
+eyJoaXN0b3J5IjpbMTgzOTE3NzgzNywtNjc0ODg0Njg4LC0xNz
+A0NjYwNTA0LDY5NTM0MTc0NSwtMjMzNjE1NjgsLTE4OTEwMzg2
+NzAsMjAwMjcwMzY5Niw1NzU3MzY3OTIsMjI2MDA4MDQ1LC0xNj
+ExMDgwOTg5LC04MjU1MTE1ODNdfQ==
 -->

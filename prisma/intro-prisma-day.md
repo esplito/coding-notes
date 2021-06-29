@@ -18,10 +18,17 @@ You can use the [JSON Schema Generator](https://www.npmjs.com/package/prisma-jso
 
 You can use `uuid` and `cuid` for ids in your model.
  
+## Lesson 2 - Notes
+
+I'll continue with the remaining ones when I have time.
+
+## Lesson 3 - Notes
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjA5MzY4MDMsMjA0MjIzMTA4NywtMT
+eyJoaXN0b3J5IjpbLTExNDk5MjEyOTMsMjA0MjIzMTA4NywtMT
 EwNjgxMzM2MCw3OTk2MzkyMjFdfQ==
 -->

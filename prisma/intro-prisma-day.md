@@ -27,7 +27,7 @@ I'll continue with the remaining ones when I have time.
 
 ## Lesson 4 - GraphQL API - Notes
 
-Type definitions (typeDefs) are your GraphQL Schema. 
+Type definitions (typeDefs) are your GraphQL Schema. They define the structure. 
 
 Root types:
 * Query
@@ -38,6 +38,6 @@ Root types:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzAzNjc0MCwtMTE0OTkyMTI5MywyMD
+eyJoaXN0b3J5IjpbMTIzNjkxMzM0NywtMTE0OTkyMTI5MywyMD
 QyMjMxMDg3LC0xMTA2ODEzMzYwLDc5OTYzOTIyMV19
 -->

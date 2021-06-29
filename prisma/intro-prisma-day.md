@@ -10,10 +10,12 @@ Run this command to generate migration files for your db.
 Run this command to get prisma studio running:
 `npx prisma studio`
 
-You can use the [JSON Schema Generator](https://www.npmjs.com/package/prisma-json-schema-generator) if you want to generate 
+You can use the [JSON Schema Generator](https://www.npmjs.com/package/prisma-json-schema-generator) if you want to generate JSON from your Prisma Models. There's also a community module for generating Typescript Types.
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjM4NzI3OSw3OTk2MzkyMjFdfQ==
+eyJoaXN0b3J5IjpbLTExMDY4MTMzNjAsNzk5NjM5MjIxXX0=
 -->

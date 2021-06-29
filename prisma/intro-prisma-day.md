@@ -25,10 +25,13 @@ I'll continue with the remaining ones when I have time.
 ## Lesson 3 - Notes
 
 
+## Lesson 4 - Notes
+
+Type definitions (typeDefs) are your GraphQL Schema.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDk5MjEyOTMsMjA0MjIzMTA4NywtMT
-EwNjgxMzM2MCw3OTk2MzkyMjFdfQ==
+eyJoaXN0b3J5IjpbOTA0Njg4NzgzLC0xMTQ5OTIxMjkzLDIwND
+IyMzEwODcsLTExMDY4MTMzNjAsNzk5NjM5MjIxXX0=
 -->

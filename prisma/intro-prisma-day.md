@@ -20,7 +20,7 @@ You can use `uuid` and `cuid` for ids in your model.
  
 ## Lesson 2 - Notes
 
-I'll continue with the remaining ones when I have time.
+I'll continue with the remaining tasks when I have time.
 
 ## Lesson 3 - REST API - Notes
 
@@ -33,11 +33,13 @@ Root types:
 * Query
 * Mutation
 
+I didn't have time to complete the tasks in the lesson. Will do that when I have time.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjkxMzM0NywtMTE0OTkyMTI5MywyMD
-QyMjMxMDg3LC0xMTA2ODEzMzYwLDc5OTYzOTIyMV19
+eyJoaXN0b3J5IjpbLTEwOTg4MzQxMzcsMTIzNjkxMzM0NywtMT
+E0OTkyMTI5MywyMDQyMjMxMDg3LC0xMTA2ODEzMzYwLDc5OTYz
+OTIyMV19
 -->

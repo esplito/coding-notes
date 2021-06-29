@@ -1,6 +1,10 @@
 
 # A Practical Introduction to Prisma
 
+Instructions on Notion: https://www.notion.so/A-Practical-Introduction-to-Prisma-2021-ccf00a066ef4432caeb03da179e38302
+
+Github repo: https://github.com/nikolasburk/prisma-workshop
+
 ## Lesson 1 - Notes
 
 Run this command to generate migration files for your db.
@@ -18,6 +22,6 @@ You can use `uuid` and `cuid` for ids in your model.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjIzMTA4NywtMTEwNjgxMzM2MCw3OT
-k2MzkyMjFdfQ==
+eyJoaXN0b3J5IjpbLTE0MjA5MzY4MDMsMjA0MjIzMTA4NywtMT
+EwNjgxMzM2MCw3OTk2MzkyMjFdfQ==
 -->

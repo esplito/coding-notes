@@ -22,16 +22,16 @@ You can use `uuid` and `cuid` for ids in your model.
 
 I'll continue with the remaining ones when I have time.
 
-## Lesson 3 - Notes
+## Lesson 3 - REST API - Notes
 
 
-## Lesson 4 - Notes
+## Lesson 4 - GraphQL API - Notes
 
 Type definitions (typeDefs) are your GraphQL Schema.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0Njg4NzgzLC0xMTQ5OTIxMjkzLDIwND
-IyMzEwODcsLTExMDY4MTMzNjAsNzk5NjM5MjIxXX0=
+eyJoaXN0b3J5IjpbLTQ0NTcyOTA4MiwtMTE0OTkyMTI5MywyMD
+QyMjMxMDg3LC0xMTA2ODEzMzYwLDc5OTYzOTIyMV19
 -->

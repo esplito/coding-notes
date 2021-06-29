@@ -12,10 +12,12 @@ Run this command to get prisma studio running:
 
 You can use the [JSON Schema Generator](https://www.npmjs.com/package/prisma-json-schema-generator) if you want to generate JSON from your Prisma Models. There's also a community module for generating Typescript Types.
 
-
+You can use `uuid` and `cuid` for ids in your model.
+ 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDY4MTMzNjAsNzk5NjM5MjIxXX0=
+eyJoaXN0b3J5IjpbMjA0MjIzMTA4NywtMTEwNjgxMzM2MCw3OT
+k2MzkyMjFdfQ==
 -->

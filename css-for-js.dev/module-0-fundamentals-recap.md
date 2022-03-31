@@ -11,10 +11,10 @@ A **declaration** is a combination of a property and a value, such as `color: #f
 
 A **rule** (also known as a style) is a collection of declarations, which targets one or more selectors. A stylesheet is made of multiple rules.
 
-Some values have **units** like: `px`, `rem`, `%` etc. If you want learn more about which units there are, you can listen to the "Sizing Units" episode fr ["The CSS Podcast" with Una Kravets and Adam Argyle](https://thecsspodcast.libsyn.com/tcp-css-podcast-episode-008)   
+Some values have **units** like: `px`, `rem`, `%` etc. If you want learn more about which units there are, you can listen to the "Sizing Units" episode from the ["The CSS Podcast" with Una Kravets and Adam Argyle](https://thecsspodcast.libsyn.com/tcp-css-podcast-episode-008)   
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3NTA0NTk3XX0=
+eyJoaXN0b3J5IjpbNDE2NjgzMDc4XX0=
 -->

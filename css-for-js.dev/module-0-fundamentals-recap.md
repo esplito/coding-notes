@@ -9,7 +9,9 @@ The **selector** can be described as a descriptor that lets you target specific 
 
 A **declaration** is a combination of a property and a value, such as `color: #fff;`.
 
+A **rule** (also knowis a collection of declarations, which targets one or more selectors. A stylesheet is made of multiple rules.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTI5OTgxOTRdfQ==
+eyJoaXN0b3J5IjpbMjY2Njk5MTNdfQ==
 -->

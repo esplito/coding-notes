@@ -3,9 +3,16 @@
 
 ## The Box Model
 
-
+### Winter Layers
+-   The  _content_  is the person themselves, the human being inside the coat.
+    
+-   The  _padding_  is the polyester stuffing in the coat. The more stuffing there is, the more poofed-up the coat will be, and the more space the person will take up.
+    
+-   The  _border_  is the material of the coat. It has a thickness and a color, and it affects the person's appearance.
+    
+-   The  _margin_  is the person's “personal space”. As we've learned in recent years, it's good to have 2 meters (6 feet) of space around us.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTA5OTIxMTEsLTI2NTAwMTA5MF19
+eyJoaXN0b3J5IjpbLTE3MDk4MTI5NDAsLTI2NTAwMTA5MF19
 -->

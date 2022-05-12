@@ -12,7 +12,15 @@
     
 -   The  _margin_  is the person's “personal space”. As we've learned in recent years, it's good to have 2 meters (6 feet) of space around us.
 
+#### Box-sizing
+| box-sizing | Behavior  |
+|--|--|
+|  content-box| width is only the content |
+|  border-box|  |
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk4MTI5NDAsLTI2NTAwMTA5MF19
+eyJoaXN0b3J5IjpbODgyMzIzNjQxLC0xNzA5ODEyOTQwLC0yNj
+UwMDEwOTBdfQ==
 -->

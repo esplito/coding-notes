@@ -15,12 +15,12 @@
 #### Box-sizing
 | box-sizing | Behavior  |
 |--|--|
-|  content-box| width is only the content |
-|  border-box|  |
+|  content-box| width is only the content of the box. excluding padding and border. |
+|  border-box| width includes also padding and border. |
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyMzIzNjQxLC0xNzA5ODEyOTQwLC0yNj
-UwMDEwOTBdfQ==
+eyJoaXN0b3J5IjpbLTEyOTA0NzEyNSwtMTcwOTgxMjk0MCwtMj
+Y1MDAxMDkwXX0=
 -->

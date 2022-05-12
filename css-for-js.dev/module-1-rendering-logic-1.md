@@ -19,22 +19,19 @@
 |  border-box| width includes also padding and border. |
 
 #### A new default
-
 You can use the following to default to `border-box`.
 
 ```css
 *,
-
 *::before,
-
 *::after  {
-
-box-sizing: border-box;
-
+  box-sizing: border-box;
 }
 ```
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzY4MjQ2MjIsLTk0MzU0NDU4NCwtMT
+eyJoaXN0b3J5IjpbLTE4MDA1NzQzMzYsLTk0MzU0NDU4NCwtMT
 cwOTgxMjk0MCwtMjY1MDAxMDkwXX0=
 -->

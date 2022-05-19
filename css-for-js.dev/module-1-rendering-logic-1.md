@@ -92,10 +92,10 @@ You could however set your own focus style with `:focus`, but ensure that you ha
 
 >  ℹ️ You can use negative margins both for **pulling an element outside its parent** AND **pulling an element's sibling closer**!
 
-**Please note:** Negative margin can affect the position of _all siblings_.  This is different compared to `transform: translate` which only affects 
+**Please note:** Negative margin can affect the position of _all siblings_.  This is different compared to `transform: translate` which only affects the element that the style is being applied to.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDYwNDAzNCwtMTk3NzYyNDE2MywtMT
+eyJoaXN0b3J5IjpbMTkxODAxNTE0OSwtMTk3NzYyNDE2MywtMT
 Q2NjIxMTkwNCw3MjM1ODkxMSw0NjE4MDE0MTksMzA1NDQyNTY2
 LC0yNzQwNDg3MjgsLTE4MDA1NzQzMzYsLTk0MzU0NDU4NCwtMT
 cwOTgxMjk0MCwtMjY1MDAxMDkwXX0=

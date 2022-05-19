@@ -35,8 +35,14 @@ You can use the following to default to `border-box`.
 
 > Many developers believe that pixels are bad for accessibility. This is true when it comes to _font size_, but I actually think pixels are the best unit to use for padding (and other box model properties like margin/border). - Josh W. Comeau
 
+Shorthand padding visualized
+
+![Illustration of a clock, with labeled cardinal directions](https://courses.joshwcomeau.com/cfj-mats/shorthand-clock.png)
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDA0ODcyOCwtMTgwMDU3NDMzNiwtOT
-QzNTQ0NTg0LC0xNzA5ODEyOTQwLC0yNjUwMDEwOTBdfQ==
+eyJoaXN0b3J5IjpbMTYzNDE3NjUzNCwtMjc0MDQ4NzI4LC0xOD
+AwNTc0MzM2LC05NDM1NDQ1ODQsLTE3MDk4MTI5NDAsLTI2NTAw
+MTA5MF19
 -->

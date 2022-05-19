@@ -39,10 +39,13 @@ Shorthand padding visualized
 
 ![Illustration of a clock, with labeled cardinal directions](https://courses.joshwcomeau.com/cfj-mats/shorthand-clock.png)
 
+This also applies for `border-style`:
+
+border-style (`border-style: dotted solid dashed solid`)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDE3NjUzNCwtMjc0MDQ4NzI4LC0xOD
-AwNTc0MzM2LC05NDM1NDQ1ODQsLTE3MDk4MTI5NDAsLTI2NTAw
-MTA5MF19
+eyJoaXN0b3J5IjpbMzA1NDQyNTY2LC0yNzQwNDg3MjgsLTE4MD
+A1NzQzMzYsLTk0MzU0NDU4NCwtMTcwOTgxMjk0MCwtMjY1MDAx
+MDkwXX0=
 -->

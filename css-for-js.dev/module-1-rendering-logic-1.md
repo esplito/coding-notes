@@ -88,11 +88,14 @@ button {
 ```
 You could however set your own focus style with `:focus`, but ensure that you have high enough contrast!!! 
 
-### Margi
+### Margin
+
+>  ℹ️ You can use negative margins both for **pulling an element outside its parent** AND **pulling an element's sibling closer**!
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI0MjI0NTYsLTE0NjYyMTE5MDQsNz
+eyJoaXN0b3J5IjpbLTE5Nzc2MjQxNjMsLTE0NjYyMTE5MDQsNz
 IzNTg5MTEsNDYxODAxNDE5LDMwNTQ0MjU2NiwtMjc0MDQ4NzI4
 LC0xODAwNTc0MzM2LC05NDM1NDQ1ODQsLTE3MDk4MTI5NDAsLT
 I2NTAwMTA5MF19

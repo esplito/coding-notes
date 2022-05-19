@@ -72,15 +72,17 @@ border: solid;
 
 _outline doesn't affect layout_. -> _border does_.
 
-A couple more quick tidbits about outlines:
+>Outlines are stacked outside border, and can sometimes be used as a "second border".
 
--   Outlines will follow the curve set with  `border-radius`  in all browsers except Safari. This is a recent change; before September 2021, most browsers kept outlines straight and boxy.
+>A couple more quick tidbits about outlines:
+
+>-   Outlines will follow the curve set with  `border-radius`  in all browsers except Safari. This is a recent change; before September 2021, most browsers kept outlines straight and boxy.
     
--   **Outlines have a special  `outline-offset`  property**. It allows you to add a bit of a gap between the element and its outline.
+>-   **Outlines have a special  `outline-offset`  property**. It allows you to add a bit of a gap between the element and its outline.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzcwMzk5NCw0NjE4MDE0MTksMzA1ND
-QyNTY2LC0yNzQwNDg3MjgsLTE4MDA1NzQzMzYsLTk0MzU0NDU4
-NCwtMTcwOTgxMjk0MCwtMjY1MDAxMDkwXX0=
+eyJoaXN0b3J5IjpbNzIzNTg5MTEsNDYxODAxNDE5LDMwNTQ0Mj
+U2NiwtMjc0MDQ4NzI4LC0xODAwNTc0MzM2LC05NDM1NDQ1ODQs
+LTE3MDk4MTI5NDAsLTI2NTAwMTA5MF19
 -->

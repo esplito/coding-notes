@@ -43,9 +43,29 @@ This also applies for `border-style`:
 
 border-style (`border-style: dotted solid dashed solid`)
 
+#### Border
+
+The only required field is `border-style`. Without it, no border will be shown!
+```css
+.not-good  {
+
+/* 🙅‍♀️ Won't work – needs a style! */
+
+border: 2px pink;
+
+}
+
+.good  {
+
+/* 🙆‍♀️ Will produce a black, 3px-thick border */
+
+border: solid;
+
+}
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1NDQyNTY2LC0yNzQwNDg3MjgsLTE4MD
-A1NzQzMzYsLTk0MzU0NDU4NCwtMTcwOTgxMjk0MCwtMjY1MDAx
-MDkwXX0=
+eyJoaXN0b3J5IjpbMTc2MjIzODY3OCwzMDU0NDI1NjYsLTI3ND
+A0ODcyOCwtMTgwMDU3NDMzNiwtOTQzNTQ0NTg0LC0xNzA5ODEy
+OTQwLC0yNjUwMDEwOTBdfQ==
 -->

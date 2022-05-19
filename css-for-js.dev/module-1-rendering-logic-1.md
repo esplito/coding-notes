@@ -80,9 +80,16 @@ _outline doesn't affect layout_. -> _border does_.
     
 >-   **Outlines have a special  `outline-offset`  property**. It allows you to add a bit of a gap between the element and its outline.
 
+Never set the following due to a11y issues:
+```css
+button {
+  outline: none;
+}
+```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzNTg5MTEsNDYxODAxNDE5LDMwNTQ0Mj
-U2NiwtMjc0MDQ4NzI4LC0xODAwNTc0MzM2LC05NDM1NDQ1ODQs
-LTE3MDk4MTI5NDAsLTI2NTAwMTA5MF19
+eyJoaXN0b3J5IjpbLTE4MTYyNTM2NTYsNzIzNTg5MTEsNDYxOD
+AxNDE5LDMwNTQ0MjU2NiwtMjc0MDQ4NzI4LC0xODAwNTc0MzM2
+LC05NDM1NDQ1ODQsLTE3MDk4MTI5NDAsLTI2NTAwMTA5MF19
 -->

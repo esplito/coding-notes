@@ -67,9 +67,14 @@ border: solid;
 >If we don't specify a border color, _it'll use the font's color by default_. This isn't well-known, but it can be useful in cases where those things should be synchronized!
 
 > If you want to specify this behaviour explicitly, it can be done with the special `currentColor` keyword.
+
+#### Border vs Outline
+
+_outline doesn't affect layout_. -> _border does_.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxODAxNDE5LDMwNTQ0MjU2NiwtMjc0MD
-Q4NzI4LC0xODAwNTc0MzM2LC05NDM1NDQ1ODQsLTE3MDk4MTI5
-NDAsLTI2NTAwMTA5MF19
+eyJoaXN0b3J5IjpbMTMyMzg0ODgwOSw0NjE4MDE0MTksMzA1ND
+QyNTY2LC0yNzQwNDg3MjgsLTE4MDA1NzQzMzYsLTk0MzU0NDU4
+NCwtMTcwOTgxMjk0MCwtMjY1MDAxMDkwXX0=
 -->

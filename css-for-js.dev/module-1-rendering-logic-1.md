@@ -45,7 +45,7 @@ border-style (`border-style: dotted solid dashed solid`)
 
 #### Border
 
-The only required field is `border-style`. Without it, no border will be shown!
+> The only required field is `border-style`. Without it, no border will be shown!
 ```css
 .not-good  {
 
@@ -63,9 +63,13 @@ border: solid;
 
 }
 ```
+
+>If we don't specify a border color, _it'll use the font's color by default_. This isn't well-known, but it can be useful in cases where those things should be synchronized!
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjIzODY3OCwzMDU0NDI1NjYsLTI3ND
+eyJoaXN0b3J5IjpbMTAxMDA4NjM2OCwzMDU0NDI1NjYsLTI3ND
 A0ODcyOCwtMTgwMDU3NDMzNiwtOTQzNTQ0NTg0LC0xNzA5ODEy
 OTQwLC0yNjUwMDEwOTBdfQ==
 -->

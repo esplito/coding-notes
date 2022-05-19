@@ -43,7 +43,7 @@ This also applies for `border-style`:
 
 border-style (`border-style: dotted solid dashed solid`)
 
-#### Border
+### Border
 
 > The only required field is `border-style`. Without it, no border will be shown!
 ```css
@@ -88,9 +88,12 @@ button {
 ```
 You could however set your own focus style with `:focus`, but ensure that you have high enough contrast!!! 
 
+### Margi
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjYyMTE5MDQsNzIzNTg5MTEsNDYxOD
-AxNDE5LDMwNTQ0MjU2NiwtMjc0MDQ4NzI4LC0xODAwNTc0MzM2
-LC05NDM1NDQ1ODQsLTE3MDk4MTI5NDAsLTI2NTAwMTA5MF19
+eyJoaXN0b3J5IjpbLTE1MjI0MjI0NTYsLTE0NjYyMTE5MDQsNz
+IzNTg5MTEsNDYxODAxNDE5LDMwNTQ0MjU2NiwtMjc0MDQ4NzI4
+LC0xODAwNTc0MzM2LC05NDM1NDQ1ODQsLTE3MDk4MTI5NDAsLT
+I2NTAwMTA5MF19
 -->

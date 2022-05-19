@@ -86,10 +86,11 @@ button {
   outline: none;
 }
 ```
+You could however set your own focus style with `:focus`, but ensure that you have high enough contrast!!! 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTYyNTM2NTYsNzIzNTg5MTEsNDYxOD
+eyJoaXN0b3J5IjpbLTE0NjYyMTE5MDQsNzIzNTg5MTEsNDYxOD
 AxNDE5LDMwNTQ0MjU2NiwtMjc0MDQ4NzI4LC0xODAwNTc0MzM2
 LC05NDM1NDQ1ODQsLTE3MDk4MTI5NDAsLTI2NTAwMTA5MF19
 -->

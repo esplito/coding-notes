@@ -1,6 +1,6 @@
 ## 01 - Mental Models
 
-All notes in the `justjavascript`-folder are from the course ["Just Javascript"](https://justjavascript.com/credits) by Dan Abramov & Maggie Appleton.
+All notes in the `justjavascript`-folder are from the course ["Just Javascript"](https://justjavascript.com/credits) by [Dan Abramov](https://twitter.com/dan_abramov) & [Maggie Appleton](https://twitter.com/mappletons).
 
 **Note**: All text within quotes are written by the creators & editors of this course.
 
@@ -34,5 +34,5 @@ When we can we rely on the "fast" system:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTUyMDc0NCwtNzM3MTM2MzYwXX0=
+eyJoaXN0b3J5IjpbLTE5OTg5NzcwMjEsLTczNzEzNjM2MF19
 -->

@@ -36,11 +36,11 @@ The *slow* thinking system is responsible for:
 
 ⚠ However, when doing intellectual tasks like coding, we tend to still default to the *fast* system, because the *slow* system is too mentally draining.
 
-
-
+>When we use the “fast” system, we guess what the code does based on its overall structure, naming conventions and comments. Using the “slow” system, we retrace what the code does step by step—a tiring and time-consuming process.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzQ4ODk2MSwtNzM3MTM2MzYwXX0=
+eyJoaXN0b3J5IjpbNDgxMDA4NjE1LDE4ODc0ODg5NjEsLTczNz
+EzNjM2MF19
 -->

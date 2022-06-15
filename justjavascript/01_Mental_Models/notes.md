@@ -31,8 +31,10 @@ When we can we rely on the *fast* system:
 The *slow* thinking system is responsible for:
 1. Complex step-by-step reasoning which lets us:
 	2. Plan future events
-	3. Engage in 
-2. 
+	3. Engage in arguments
+	4. Follow mathematical proofs
+
+⚠ However, when doing intellectual tasks like coding, we tend to still default to the *fast* system, because the *slow* system is too menta
 
 
 
@@ -40,5 +42,5 @@ The *slow* thinking system is responsible for:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTkzNzY4MDIsLTczNzEzNjM2MF19
+eyJoaXN0b3J5IjpbOTg3MDg5NDM0LC03MzcxMzYzNjBdfQ==
 -->

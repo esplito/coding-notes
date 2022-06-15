@@ -10,8 +10,10 @@
 
 ✅ The course will rebuild your mental model of Javascript to be accurate and useful. 
 
-✅ Having a good mental model gives you confidence
+✅ Having a good mental model gives you **confidence in your own code** and it will let you **understand and fix someone else's code**.
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQ4NzEzMDddfQ==
+eyJoaXN0b3J5IjpbLTczNzEzNjM2MF19
 -->

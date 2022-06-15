@@ -12,8 +12,9 @@
 
 ✅ Having a good mental model gives you **confidence in your own code** and it will let you **understand and fix someone else's code**.
 
+### Coding Fast and Slow
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzEzNjM2MF19
+eyJoaXN0b3J5IjpbMTcxMjcwNjU3NywtNzM3MTM2MzYwXX0=
 -->

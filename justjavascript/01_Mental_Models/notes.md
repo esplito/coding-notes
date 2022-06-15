@@ -1,5 +1,7 @@
 ## 01 - Mental Models
 
+**Note**: All text within quotes are written by the creators of the course.
+
 ### What's a Mental Model?
 
 >For example, many people first learned about variables as “boxes”—containers that hold your stuff. Even if you don’t vividly imagine boxes anymore when you see a variable, they might still behave “boxily” in your imagination.
@@ -22,11 +24,13 @@ When we can we rely on the "fast" system:
 3. Gives us the ability to walk without falling over 💫
 4. **Not good** at planning 🚨
 
+>Uniquely, thanks to the development of the frontal lobe, humans also possess a “slow” thinking system.
+
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDk5NTM1OCwtNzM3MTM2MzYwXX0=
+eyJoaXN0b3J5IjpbMTc3NzEzMTYyNiwtNzM3MTM2MzYwXX0=
 -->

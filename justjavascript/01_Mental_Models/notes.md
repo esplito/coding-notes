@@ -8,8 +8,10 @@
 >
 >Unfortunately, sometimes our mental models are wrong.
 
+✅ The course will rebuild your mental model of Javascript to be accurate and useful. 
 
+✅ Having a good mental model gives you confidence
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDYyMjE3NF19
+eyJoaXN0b3J5IjpbLTEyMzQ4NzEzMDddfQ==
 -->

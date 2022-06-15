@@ -34,7 +34,7 @@ The *slow* thinking system is responsible for:
 	3. Engage in arguments
 	4. Follow mathematical proofs
 
-⚠ However, when doing intellectual tasks like coding, we tend to still default to the *fast* system, because the *slow* system is too menta
+⚠ However, when doing intellectual tasks like coding, we tend to still default to the *fast* system, because the *slow* system is too mentally draining.
 
 
 
@@ -42,5 +42,5 @@ The *slow* thinking system is responsible for:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3MDg5NDM0LC03MzcxMzYzNjBdfQ==
+eyJoaXN0b3J5IjpbMTg4NzQ4ODk2MSwtNzM3MTM2MzYwXX0=
 -->

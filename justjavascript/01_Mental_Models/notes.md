@@ -16,8 +16,17 @@
 
 📚 Book to read: "Thinking, Fast and Slow" by Daniel Kahneman
 
-When we can we rely on the "fast" system 
+When we can we rely on the "fast" system:
+1. Good at pattern matching 💫
+2. Gut reactions 💫
+3. Gives us the ability to walk without falling over 💫
+4. **Not good** at planning 🚨
+
+
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE3MjQ0NjQsLTczNzEzNjM2MF19
+eyJoaXN0b3J5IjpbLTg1NDk5NTM1OCwtNzM3MTM2MzYwXX0=
 -->

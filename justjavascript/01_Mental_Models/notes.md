@@ -20,7 +20,7 @@ All notes in the `justjavascript`-folder are from the course ["Just Javascript"]
 
 📚 Book to read: "Thinking, Fast and Slow" by Daniel Kahneman
 
-When we can we rely on the "fast" system:
+When we can we rely on the *fast* system:
 1. Good at pattern matching 💫
 2. Gut reactions 💫
 3. Gives us the ability to walk without falling over 💫
@@ -28,11 +28,17 @@ When we can we rely on the "fast" system:
 
 >Uniquely, thanks to the development of the frontal lobe, humans also possess a “slow” thinking system.
 
+The *slow* thinking system is responsible for:
+1. Complex step-by-step reasoning which lets us:
+	2. Plan future events
+	3. Engage in 
+2. 
+
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg5NzcwMjEsLTczNzEzNjM2MF19
+eyJoaXN0b3J5IjpbLTE1MTkzNzY4MDIsLTczNzEzNjM2MF19
 -->

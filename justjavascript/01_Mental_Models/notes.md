@@ -14,7 +14,10 @@
 
 ### Coding Fast and Slow
 
+📚 Book to read: "Thinking, Fast and Slow" by Daniel Kahneman
+
+When we can we rely on the "fast" system 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjcwNjU3NywtNzM3MTM2MzYwXX0=
+eyJoaXN0b3J5IjpbLTE5MDE3MjQ0NjQsLTczNzEzNjM2MF19
 -->

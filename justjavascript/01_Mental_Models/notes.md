@@ -1,6 +1,8 @@
 ## 01 - Mental Models
 
-**Note**: All text within quotes are written by the creators of the course.
+All notes in the `justjavascript`-folder are from the course ["Just Javascript"](https://justjavascript.com/credits) by Dan Abramov & Maggie Appleton.
+
+**Note**: All text within quotes are written by the creators & editors of this course.
 
 ### What's a Mental Model?
 
@@ -32,5 +34,5 @@ When we can we rely on the "fast" system:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzEzMTYyNiwtNzM3MTM2MzYwXX0=
+eyJoaXN0b3J5IjpbLTQzMTUyMDc0NCwtNzM3MTM2MzYwXX0=
 -->

@@ -138,14 +138,17 @@ The browser treats inline elements as typography and therefore adds some pixels 
 
 This could for example happen when using images without adding `display: block`. Another way to solve it would be to add `line-height: 0` to the outer div.
 
+### Space between inline elements
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDg4NDc1NiwtMTIwOTQwOTQ3NSwtMT
-g3NjQxMzIxMCwtMTkzMTMzMTIyMSwyMjAyMTY5NDksLTc2NzU1
-OTU4NSwxOTQzMDI1NDgwLC0xOTc3NjI0MTYzLC0xNDY2MjExOT
-A0LDcyMzU4OTExLDQ2MTgwMTQxOSwzMDU0NDI1NjYsLTI3NDA0
-ODcyOCwtMTgwMDU3NDMzNiwtOTQzNTQ0NTg0LC0xNzA5ODEyOT
-QwLC0yNjUwMDEwOTBdfQ==
+eyJoaXN0b3J5IjpbNDY5ODE2MDc5LDIwMjA4ODQ3NTYsLTEyMD
+k0MDk0NzUsLTE4NzY0MTMyMTAsLTE5MzEzMzEyMjEsMjIwMjE2
+OTQ5LC03Njc1NTk1ODUsMTk0MzAyNTQ4MCwtMTk3NzYyNDE2My
+wtMTQ2NjIxMTkwNCw3MjM1ODkxMSw0NjE4MDE0MTksMzA1NDQy
+NTY2LC0yNzQwNDg3MjgsLTE4MDA1NzQzMzYsLTk0MzU0NDU4NC
+wtMTcwOTgxMjk0MCwtMjY1MDAxMDkwXX0=
 -->

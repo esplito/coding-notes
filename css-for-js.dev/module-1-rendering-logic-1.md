@@ -149,13 +149,15 @@ This could for example happen when using images without adding `display: block`.
 >It's like a sushi roll. It starts as a long strip, but it's cut into slices before being presented.
 
 
-### Tweaking this default behaviour
+####  Tweaking this default behaviour
 
 Using horizontal padding (e.g. `padding-left , padding-right`) on inline elements only adds padding at the tips, for example at the beginning and at the end of a sentence.
 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1MDQwMTc4LC0yMTA0ODAwNjQ1LC0xNT
+eyJoaXN0b3J5IjpbMzcyMjEyNzc5LC0yMTA0ODAwNjQ1LC0xNT
 Q2NjY4OTg3LDQ2OTgxNjA3OSwyMDIwODg0NzU2LC0xMjA5NDA5
 NDc1LC0xODc2NDEzMjEwLC0xOTMxMzMxMjIxLDIyMDIxNjk0OS
 wtNzY3NTU5NTg1LDE5NDMwMjU0ODAsLTE5Nzc2MjQxNjMsLTE0

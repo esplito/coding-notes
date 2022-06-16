@@ -171,14 +171,13 @@ It adds padding to each line instead of just at the tips. The lines are now trea
 
 The catch with using it is that it **does not line-wrap**, which is not good when using it on links in paragraphs.
 
-
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODc1MTA1MywtMjEwNDgwMDY0NSwtMT
-U0NjY2ODk4Nyw0Njk4MTYwNzksMjAyMDg4NDc1NiwtMTIwOTQw
-OTQ3NSwtMTg3NjQxMzIxMCwtMTkzMTMzMTIyMSwyMjAyMTY5ND
-ksLTc2NzU1OTU4NSwxOTQzMDI1NDgwLC0xOTc3NjI0MTYzLC0x
-NDY2MjExOTA0LDcyMzU4OTExLDQ2MTgwMTQxOSwzMDU0NDI1Nj
-YsLTI3NDA0ODcyOCwtMTgwMDU3NDMzNiwtOTQzNTQ0NTg0LC0x
-NzA5ODEyOTQwXX0=
+eyJoaXN0b3J5IjpbLTE2ODg2OTE0ODksMTE1ODc1MTA1MywtMj
+EwNDgwMDY0NSwtMTU0NjY2ODk4Nyw0Njk4MTYwNzksMjAyMDg4
+NDc1NiwtMTIwOTQwOTQ3NSwtMTg3NjQxMzIxMCwtMTkzMTMzMT
+IyMSwyMjAyMTY5NDksLTc2NzU1OTU4NSwxOTQzMDI1NDgwLC0x
+OTc3NjI0MTYzLC0xNDY2MjExOTA0LDcyMzU4OTExLDQ2MTgwMT
+QxOSwzMDU0NDI1NjYsLTI3NDA0ODcyOCwtMTgwMDU3NDMzNiwt
+OTQzNTQ0NTg0XX0=
 -->

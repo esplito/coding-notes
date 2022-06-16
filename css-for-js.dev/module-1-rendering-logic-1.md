@@ -165,12 +165,17 @@ It adds padding to each line instead of just at the tips. The lines are now trea
 
 ### The deal with inline-block
 
+> Essentially, inline-block allows you to drop a block element into an inline context. It's a block in inline's clothing.
+
+> Another way to phrase this: it's an element that _internally_ acts like a block element, but _externally_ acts like an inline element. The parent container will treat it as an inline element, since it's external. But the element itself can be styled like a block.
+
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1NDg4ODA3LC0yMTA0ODAwNjQ1LC0xNT
+eyJoaXN0b3J5IjpbMzk2MTQ1ODE3LC0yMTA0ODAwNjQ1LC0xNT
 Q2NjY4OTg3LDQ2OTgxNjA3OSwyMDIwODg0NzU2LC0xMjA5NDA5
 NDc1LC0xODc2NDEzMjEwLC0xOTMxMzMxMjIxLDIyMDIxNjk0OS
 wtNzY3NTU5NTg1LDE5NDMwMjU0ODAsLTE5Nzc2MjQxNjMsLTE0

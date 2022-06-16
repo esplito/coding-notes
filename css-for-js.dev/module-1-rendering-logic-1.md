@@ -129,6 +129,13 @@ A block level element greedily expands to the full width of the container.
 
 The browser treats inline elements as typography and therefore adds some pixels (extra magic space 🧙‍♀️) below the element.
 
+```html
+<div class="outer">
+	<img src="cat.jpg" />
+	<!-- HERE IS SOME MAGIC SPACE 🧙‍♀️🪄 -->
+</div>
+```
+
 This could for example happen when using images without adding `display: block`. Another way to solve it would be to add `line-height: 0` to the outer div.
 
 
@@ -136,10 +143,10 @@ This could for example happen when using images without adding `display: block`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDk0MDk0NzUsLTE4NzY0MTMyMTAsLT
-E5MzEzMzEyMjEsMjIwMjE2OTQ5LC03Njc1NTk1ODUsMTk0MzAy
-NTQ4MCwtMTk3NzYyNDE2MywtMTQ2NjIxMTkwNCw3MjM1ODkxMS
-w0NjE4MDE0MTksMzA1NDQyNTY2LC0yNzQwNDg3MjgsLTE4MDA1
-NzQzMzYsLTk0MzU0NDU4NCwtMTcwOTgxMjk0MCwtMjY1MDAxMD
-kwXX0=
+eyJoaXN0b3J5IjpbMTIzODY2NjgxOCwtMTIwOTQwOTQ3NSwtMT
+g3NjQxMzIxMCwtMTkzMTMzMTIyMSwyMjAyMTY5NDksLTc2NzU1
+OTU4NSwxOTQzMDI1NDgwLC0xOTc3NjI0MTYzLC0xNDY2MjExOT
+A0LDcyMzU4OTExLDQ2MTgwMTQxOSwzMDU0NDI1NjYsLTI3NDA0
+ODcyOCwtMTgwMDU3NDMzNiwtOTQzNTQ0NTg0LC0xNzA5ODEyOT
+QwLC0yNjUwMDEwOTBdfQ==
 -->

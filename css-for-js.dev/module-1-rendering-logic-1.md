@@ -125,13 +125,17 @@ A block level element greedily expands to the full width of the container.
 
 >What if we force it to shrink down to the minimum size required for the letters? We can do this with the special width keyword `fit-content*:`
 
+🚨 In Firefox, however, `fit-content` requires a vendor prefix: `-moz-fit-content` 🚨
+
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzEzMzEyMjEsMjIwMjE2OTQ5LC03Nj
-c1NTk1ODUsMTk0MzAyNTQ4MCwtMTk3NzYyNDE2MywtMTQ2NjIx
-MTkwNCw3MjM1ODkxMSw0NjE4MDE0MTksMzA1NDQyNTY2LC0yNz
-QwNDg3MjgsLTE4MDA1NzQzMzYsLTk0MzU0NDU4NCwtMTcwOTgx
-Mjk0MCwtMjY1MDAxMDkwXX0=
+eyJoaXN0b3J5IjpbLTE4NzY0MTMyMTAsLTE5MzEzMzEyMjEsMj
+IwMjE2OTQ5LC03Njc1NTk1ODUsMTk0MzAyNTQ4MCwtMTk3NzYy
+NDE2MywtMTQ2NjIxMTkwNCw3MjM1ODkxMSw0NjE4MDE0MTksMz
+A1NDQyNTY2LC0yNzQwNDg3MjgsLTE4MDA1NzQzMzYsLTk0MzU0
+NDU4NCwtMTcwOTgxMjk0MCwtMjY1MDAxMDkwXX0=
 -->

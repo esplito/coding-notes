@@ -169,17 +169,18 @@ It adds padding to each line instead of just at the tips. The lines are now trea
 
 > Another way to phrase this: it's an element that _internally_ acts like a block element, but _externally_ acts like an inline element. The parent container will treat it as an inline element, since it's external. But the element itself can be styled like a block.
 
+The catch with using it is that it **does not line**
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2MTQ1ODE3LC0yMTA0ODAwNjQ1LC0xNT
-Q2NjY4OTg3LDQ2OTgxNjA3OSwyMDIwODg0NzU2LC0xMjA5NDA5
-NDc1LC0xODc2NDEzMjEwLC0xOTMxMzMxMjIxLDIyMDIxNjk0OS
-wtNzY3NTU5NTg1LDE5NDMwMjU0ODAsLTE5Nzc2MjQxNjMsLTE0
-NjYyMTE5MDQsNzIzNTg5MTEsNDYxODAxNDE5LDMwNTQ0MjU2Ni
-wtMjc0MDQ4NzI4LC0xODAwNTc0MzM2LC05NDM1NDQ1ODQsLTE3
-MDk4MTI5NDBdfQ==
+eyJoaXN0b3J5IjpbLTE3NzI2MDYyNzQsLTIxMDQ4MDA2NDUsLT
+E1NDY2Njg5ODcsNDY5ODE2MDc5LDIwMjA4ODQ3NTYsLTEyMDk0
+MDk0NzUsLTE4NzY0MTMyMTAsLTE5MzEzMzEyMjEsMjIwMjE2OT
+Q5LC03Njc1NTk1ODUsMTk0MzAyNTQ4MCwtMTk3NzYyNDE2Mywt
+MTQ2NjIxMTkwNCw3MjM1ODkxMSw0NjE4MDE0MTksMzA1NDQyNT
+Y2LC0yNzQwNDg3MjgsLTE4MDA1NzQzMzYsLTk0MzU0NDU4NCwt
+MTcwOTgxMjk0MF19
 -->

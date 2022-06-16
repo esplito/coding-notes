@@ -161,16 +161,18 @@ This can be changed with the following css properties:
 ```
 It adds padding to each line instead of just at the tips. The lines are now treated as several boxes instead of just one long box!
 
+> As with `fit-content`, we can rely on pre-processors to add the `-webkit` vendor prefix in most situations.
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc3NTMzMjgsLTIxMDQ4MDA2NDUsLT
-E1NDY2Njg5ODcsNDY5ODE2MDc5LDIwMjA4ODQ3NTYsLTEyMDk0
-MDk0NzUsLTE4NzY0MTMyMTAsLTE5MzEzMzEyMjEsMjIwMjE2OT
-Q5LC03Njc1NTk1ODUsMTk0MzAyNTQ4MCwtMTk3NzYyNDE2Mywt
-MTQ2NjIxMTkwNCw3MjM1ODkxMSw0NjE4MDE0MTksMzA1NDQyNT
-Y2LC0yNzQwNDg3MjgsLTE4MDA1NzQzMzYsLTk0MzU0NDU4NCwt
-MTcwOTgxMjk0MF19
+eyJoaXN0b3J5IjpbMTc5MTUwNzAzMCwtMjEwNDgwMDY0NSwtMT
+U0NjY2ODk4Nyw0Njk4MTYwNzksMjAyMDg4NDc1NiwtMTIwOTQw
+OTQ3NSwtMTg3NjQxMzIxMCwtMTkzMTMzMTIyMSwyMjAyMTY5ND
+ksLTc2NzU1OTU4NSwxOTQzMDI1NDgwLC0xOTc3NjI0MTYzLC0x
+NDY2MjExOTA0LDcyMzU4OTExLDQ2MTgwMTQxOSwzMDU0NDI1Nj
+YsLTI3NDA0ODcyOCwtMTgwMDU3NDMzNiwtOTQzNTQ0NTg0LC0x
+NzA5ODEyOTQwXX0=
 -->

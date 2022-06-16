@@ -140,15 +140,16 @@ This could for example happen when using images without adding `display: block`.
 
 ### Space between inline elements
 
-
+![image of img-elements with whitespace ](https://github.com/esplito/coding-notes/blob/master/whitespace_images.png?raw=true)
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5ODE2MDc5LDIwMjA4ODQ3NTYsLTEyMD
-k0MDk0NzUsLTE4NzY0MTMyMTAsLTE5MzEzMzEyMjEsMjIwMjE2
-OTQ5LC03Njc1NTk1ODUsMTk0MzAyNTQ4MCwtMTk3NzYyNDE2My
-wtMTQ2NjIxMTkwNCw3MjM1ODkxMSw0NjE4MDE0MTksMzA1NDQy
-NTY2LC0yNzQwNDg3MjgsLTE4MDA1NzQzMzYsLTk0MzU0NDU4NC
-wtMTcwOTgxMjk0MCwtMjY1MDAxMDkwXX0=
+eyJoaXN0b3J5IjpbLTE4NTIyNzA2MDksNDY5ODE2MDc5LDIwMj
+A4ODQ3NTYsLTEyMDk0MDk0NzUsLTE4NzY0MTMyMTAsLTE5MzEz
+MzEyMjEsMjIwMjE2OTQ5LC03Njc1NTk1ODUsMTk0MzAyNTQ4MC
+wtMTk3NzYyNDE2MywtMTQ2NjIxMTkwNCw3MjM1ODkxMSw0NjE4
+MDE0MTksMzA1NDQyNTY2LC0yNzQwNDg3MjgsLTE4MDA1NzQzMz
+YsLTk0MzU0NDU4NCwtMTcwOTgxMjk0MCwtMjY1MDAxMDkwXX0=
+
 -->

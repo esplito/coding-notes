@@ -144,13 +144,19 @@ This could for example happen when using images without adding `display: block`.
 
 >This space is caused by the **whitespace between elements**. If we squish our HTML so that there are no newlines or whitespace characters between images, this problem goes away
 
+### Inline elements can line-wrap
+
+>It's like a sushi roll. It starts as a long strip, but it's cut into slices before being presented.
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY2Njg5ODcsNDY5ODE2MDc5LDIwMj
-A4ODQ3NTYsLTEyMDk0MDk0NzUsLTE4NzY0MTMyMTAsLTE5MzEz
-MzEyMjEsMjIwMjE2OTQ5LC03Njc1NTk1ODUsMTk0MzAyNTQ4MC
-wtMTk3NzYyNDE2MywtMTQ2NjIxMTkwNCw3MjM1ODkxMSw0NjE4
-MDE0MTksMzA1NDQyNTY2LC0yNzQwNDg3MjgsLTE4MDA1NzQzMz
-YsLTk0MzU0NDU4NCwtMTcwOTgxMjk0MCwtMjY1MDAxMDkwXX0=
-
+eyJoaXN0b3J5IjpbLTIxMDQ4MDA2NDUsLTE1NDY2Njg5ODcsND
+Y5ODE2MDc5LDIwMjA4ODQ3NTYsLTEyMDk0MDk0NzUsLTE4NzY0
+MTMyMTAsLTE5MzEzMzEyMjEsMjIwMjE2OTQ5LC03Njc1NTk1OD
+UsMTk0MzAyNTQ4MCwtMTk3NzYyNDE2MywtMTQ2NjIxMTkwNCw3
+MjM1ODkxMSw0NjE4MDE0MTksMzA1NDQyNTY2LC0yNzQwNDg3Mj
+gsLTE4MDA1NzQzMzYsLTk0MzU0NDU4NCwtMTcwOTgxMjk0MCwt
+MjY1MDAxMDkwXX0=
 -->

@@ -100,11 +100,20 @@ Using the `margin-left` + `margin-right` `auto` trick, only works horizontally a
 
 If you do it on `top` and `bottom` it will be set to `0px`
 
+## Flow Layout
+
+### Inline doesn't want to make a fuss
+
+There's some inline elements that are special. They are called
+
+
+>All three elements (`img`, `span`, `button`) are inline elements, and they've all been given `margin-top`. In general, we don't expect this property to have any effect, and it doesn't on the `span`! But both the `img` and the `button` have the top margin applied, because they're special elements.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzU1OTU4NSwxOTQzMDI1NDgwLC0xOT
-c3NjI0MTYzLC0xNDY2MjExOTA0LDcyMzU4OTExLDQ2MTgwMTQx
-OSwzMDU0NDI1NjYsLTI3NDA0ODcyOCwtMTgwMDU3NDMzNiwtOT
-QzNTQ0NTg0LC0xNzA5ODEyOTQwLC0yNjUwMDEwOTBdfQ==
+eyJoaXN0b3J5IjpbLTE1NjUwNjkxNzUsLTc2NzU1OTU4NSwxOT
+QzMDI1NDgwLC0xOTc3NjI0MTYzLC0xNDY2MjExOTA0LDcyMzU4
+OTExLDQ2MTgwMTQxOSwzMDU0NDI1NjYsLTI3NDA0ODcyOCwtMT
+gwMDU3NDMzNiwtOTQzNTQ0NTg0LC0xNzA5ODEyOTQwLC0yNjUw
+MDEwOTBdfQ==
 -->

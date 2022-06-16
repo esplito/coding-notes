@@ -115,15 +115,17 @@ They can actually *affect the block layout*, for example with `margin-top`.
 
 There's another one! `<button />`.
 
-> 
+> They aren't _quite_ replaced elements, but they function the same way.
+
+
 
 >All three elements (`img`, `span`, `button`) are inline elements, and they've all been given `margin-top`. In general, we don't expect this property to have any effect, and it doesn't on the `span`! But both the `img` and the `button` have the top margin applied, because they're special elements.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg5MTg0NjIsLTc2NzU1OTU4NSwxOT
-QzMDI1NDgwLC0xOTc3NjI0MTYzLC0xNDY2MjExOTA0LDcyMzU4
-OTExLDQ2MTgwMTQxOSwzMDU0NDI1NjYsLTI3NDA0ODcyOCwtMT
-gwMDU3NDMzNiwtOTQzNTQ0NTg0LC0xNzA5ODEyOTQwLC0yNjUw
-MDEwOTBdfQ==
+eyJoaXN0b3J5IjpbODUyMjYzNzMsLTc2NzU1OTU4NSwxOTQzMD
+I1NDgwLC0xOTc3NjI0MTYzLC0xNDY2MjExOTA0LDcyMzU4OTEx
+LDQ2MTgwMTQxOSwzMDU0NDI1NjYsLTI3NDA0ODcyOCwtMTgwMD
+U3NDMzNiwtOTQzNTQ0NTg0LC0xNzA5ODEyOTQwLC0yNjUwMDEw
+OTBdfQ==
 -->

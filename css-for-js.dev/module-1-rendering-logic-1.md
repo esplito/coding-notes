@@ -123,15 +123,15 @@ There's another one! `<button />`.
 
 A block level element greedily expands to the full width of the container.
 
->What if we force it to shrink down to the minimum size required for the letters? We can do this with the special width keyword `fit-content: *`
+>What if we force it to shrink down to the minimum size required for the letters? We can do this with the special width keyword `fit-content*:`
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4MDg1NzM3LDIyMDIxNjk0OSwtNzY3NT
-U5NTg1LDE5NDMwMjU0ODAsLTE5Nzc2MjQxNjMsLTE0NjYyMTE5
-MDQsNzIzNTg5MTEsNDYxODAxNDE5LDMwNTQ0MjU2NiwtMjc0MD
-Q4NzI4LC0xODAwNTc0MzM2LC05NDM1NDQ1ODQsLTE3MDk4MTI5
-NDAsLTI2NTAwMTA5MF19
+eyJoaXN0b3J5IjpbLTE5MzEzMzEyMjEsMjIwMjE2OTQ5LC03Nj
+c1NTk1ODUsMTk0MzAyNTQ4MCwtMTk3NzYyNDE2MywtMTQ2NjIx
+MTkwNCw3MjM1ODkxMSw0NjE4MDE0MTksMzA1NDQyNTY2LC0yNz
+QwNDg3MjgsLTE4MDA1NzQzMzYsLTk0MzU0NDU4NCwtMTcwOTgx
+Mjk0MCwtMjY1MDAxMDkwXX0=
 -->

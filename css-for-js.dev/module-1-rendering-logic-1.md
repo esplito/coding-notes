@@ -140,10 +140,9 @@ This could for example happen when using images without adding `display: block`.
 
 
 
-
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODY2NjgxOCwtMTIwOTQwOTQ3NSwtMT
+eyJoaXN0b3J5IjpbMjAyMDg4NDc1NiwtMTIwOTQwOTQ3NSwtMT
 g3NjQxMzIxMCwtMTkzMTMzMTIyMSwyMjAyMTY5NDksLTc2NzU1
 OTU4NSwxOTQzMDI1NDgwLC0xOTc3NjI0MTYzLC0xNDY2MjExOT
 A0LDcyMzU4OTExLDQ2MTgwMTQxOSwzMDU0NDI1NjYsLTI3NDA0

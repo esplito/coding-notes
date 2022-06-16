@@ -140,12 +140,13 @@ This could for example happen when using images without adding `display: block`.
 
 ### Space between inline elements
 
-![image of img-elements with whitespace ](https://github.com/esplito/coding-notes/blob/master/whitespace_images.png?raw=true)
+![image of img-elements with whitespace in the rendered html](https://github.com/esplito/coding-notes/blob/master/whitespace_images.png?raw=true)
 
+>This space is caused by the **whitespace between elements**. If we squish our HTML so that there are no newlines or whitespace characters between images, this problem goes away
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTIyNzA2MDksNDY5ODE2MDc5LDIwMj
+eyJoaXN0b3J5IjpbLTE1NDY2Njg5ODcsNDY5ODE2MDc5LDIwMj
 A4ODQ3NTYsLTEyMDk0MDk0NzUsLTE4NzY0MTMyMTAsLTE5MzEz
 MzEyMjEsMjIwMjE2OTQ5LC03Njc1NTk1ODUsMTk0MzAyNTQ4MC
 wtMTk3NzYyNDE2MywtMTQ2NjIxMTkwNCw3MjM1ODkxMSw0NjE4

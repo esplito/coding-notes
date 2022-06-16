@@ -153,11 +153,20 @@ This could for example happen when using images without adding `display: block`.
 
 Using horizontal padding (e.g. `padding-left , padding-right`) on inline elements only adds padding at the tips, for example at the beginning and at the end of a sentence.
 
-This can be changed with
+This can be changed with the following css properties:
+```css
+ /* Our obscure magic trick: */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+```
+It adds padding to each line instead of just at the tips. The lines are now treated as several boxes instead of just one long box!
+
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ0MzgxOTQsLTIxMDQ4MDA2NDUsLT
+eyJoaXN0b3J5IjpbLTE1MTc3NTMzMjgsLTIxMDQ4MDA2NDUsLT
 E1NDY2Njg5ODcsNDY5ODE2MDc5LDIwMjA4ODQ3NTYsLTEyMDk0
 MDk0NzUsLTE4NzY0MTMyMTAsLTE5MzEzMzEyMjEsMjIwMjE2OT
 Q5LC03Njc1NTk1ODUsMTk0MzAyNTQ4MCwtMTk3NzYyNDE2Mywt

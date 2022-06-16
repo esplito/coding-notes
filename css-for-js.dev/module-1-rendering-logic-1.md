@@ -163,16 +163,18 @@ It adds padding to each line instead of just at the tips. The lines are now trea
 
 > As with `fit-content`, we can rely on pre-processors to add the `-webkit` vendor prefix in most situations.
 
-### 
+### The deal with inline-block
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTkyOTAxNywtMjEwNDgwMDY0NSwtMT
-U0NjY2ODk4Nyw0Njk4MTYwNzksMjAyMDg4NDc1NiwtMTIwOTQw
-OTQ3NSwtMTg3NjQxMzIxMCwtMTkzMTMzMTIyMSwyMjAyMTY5ND
-ksLTc2NzU1OTU4NSwxOTQzMDI1NDgwLC0xOTc3NjI0MTYzLC0x
-NDY2MjExOTA0LDcyMzU4OTExLDQ2MTgwMTQxOSwzMDU0NDI1Nj
-YsLTI3NDA0ODcyOCwtMTgwMDU3NDMzNiwtOTQzNTQ0NTg0LC0x
-NzA5ODEyOTQwXX0=
+eyJoaXN0b3J5IjpbNTI1NDg4ODA3LC0yMTA0ODAwNjQ1LC0xNT
+Q2NjY4OTg3LDQ2OTgxNjA3OSwyMDIwODg0NzU2LC0xMjA5NDA5
+NDc1LC0xODc2NDEzMjEwLC0xOTMxMzMxMjIxLDIyMDIxNjk0OS
+wtNzY3NTU5NTg1LDE5NDMwMjU0ODAsLTE5Nzc2MjQxNjMsLTE0
+NjYyMTE5MDQsNzIzNTg5MTEsNDYxODAxNDE5LDMwNTQ0MjU2Ni
+wtMjc0MDQ4NzI4LC0xODAwNTc0MzM2LC05NDM1NDQ1ODQsLTE3
+MDk4MTI5NDBdfQ==
 -->

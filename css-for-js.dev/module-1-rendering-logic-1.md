@@ -127,15 +127,16 @@ A block level element greedily expands to the full width of the container.
 
 🚨 In Firefox, however, `fit-content` requires a vendor prefix: `-moz-fit-content` 🚨
 
-
+The browser treats inline elements as typography and therefore adds some pixels (extra magic space )
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzY0MTMyMTAsLTE5MzEzMzEyMjEsMj
-IwMjE2OTQ5LC03Njc1NTk1ODUsMTk0MzAyNTQ4MCwtMTk3NzYy
-NDE2MywtMTQ2NjIxMTkwNCw3MjM1ODkxMSw0NjE4MDE0MTksMz
-A1NDQyNTY2LC0yNzQwNDg3MjgsLTE4MDA1NzQzMzYsLTk0MzU0
-NDU4NCwtMTcwOTgxMjk0MCwtMjY1MDAxMDkwXX0=
+eyJoaXN0b3J5IjpbMTU0Nzk2ODE4NywtMTg3NjQxMzIxMCwtMT
+kzMTMzMTIyMSwyMjAyMTY5NDksLTc2NzU1OTU4NSwxOTQzMDI1
+NDgwLC0xOTc3NjI0MTYzLC0xNDY2MjExOTA0LDcyMzU4OTExLD
+Q2MTgwMTQxOSwzMDU0NDI1NjYsLTI3NDA0ODcyOCwtMTgwMDU3
+NDMzNiwtOTQzNTQ0NTg0LC0xNzA5ODEyOTQwLC0yNjUwMDEwOT
+BdfQ==
 -->

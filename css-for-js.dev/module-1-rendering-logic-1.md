@@ -111,14 +111,19 @@ There's some inline elements that are special. They are called *replaced element
 
 They can actually *affect the block layout*, for example with `margin-top`.
 
+> I like to pretend that it's a foreign object within an inline wrapper.
+
+There's another one! `<button />`.
+
+> 
 
 >All three elements (`img`, `span`, `button`) are inline elements, and they've all been given `margin-top`. In general, we don't expect this property to have any effect, and it doesn't on the `span`! But both the `img` and the `button` have the top margin applied, because they're special elements.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzE4NDg5OCwtNzY3NTU5NTg1LDE5ND
-MwMjU0ODAsLTE5Nzc2MjQxNjMsLTE0NjYyMTE5MDQsNzIzNTg5
-MTEsNDYxODAxNDE5LDMwNTQ0MjU2NiwtMjc0MDQ4NzI4LC0xOD
-AwNTc0MzM2LC05NDM1NDQ1ODQsLTE3MDk4MTI5NDAsLTI2NTAw
-MTA5MF19
+eyJoaXN0b3J5IjpbLTE4Nzg5MTg0NjIsLTc2NzU1OTU4NSwxOT
+QzMDI1NDgwLC0xOTc3NjI0MTYzLC0xNDY2MjExOTA0LDcyMzU4
+OTExLDQ2MTgwMTQxOSwzMDU0NDI1NjYsLTI3NDA0ODcyOCwtMT
+gwMDU3NDMzNiwtOTQzNTQ0NTg0LC0xNzA5ODEyOTQwLC0yNjUw
+MDEwOTBdfQ==
 -->

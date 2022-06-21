@@ -181,16 +181,21 @@ Block-elements have `width: auto`  **not** `width: 100%`.
 ### Keyword values
 
 We can specify two kinds of values for `width`:
+
 1. Measurements
-2. Ke
+	2. 100%, 200px, 3rem...
+2. Keywords
+	3. auto, fit-content
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyNTgwNjkxLC0xNjg4NjkxNDg5LDExNT
-g3NTEwNTMsLTIxMDQ4MDA2NDUsLTE1NDY2Njg5ODcsNDY5ODE2
-MDc5LDIwMjA4ODQ3NTYsLTEyMDk0MDk0NzUsLTE4NzY0MTMyMT
-AsLTE5MzEzMzEyMjEsMjIwMjE2OTQ5LC03Njc1NTk1ODUsMTk0
-MzAyNTQ4MCwtMTk3NzYyNDE2MywtMTQ2NjIxMTkwNCw3MjM1OD
-kxMSw0NjE4MDE0MTksMzA1NDQyNTY2LC0yNzQwNDg3MjgsLTE4
-MDA1NzQzMzZdfQ==
+eyJoaXN0b3J5IjpbLTQyMzA4OTUxMywtMTY4ODY5MTQ4OSwxMT
+U4NzUxMDUzLC0yMTA0ODAwNjQ1LC0xNTQ2NjY4OTg3LDQ2OTgx
+NjA3OSwyMDIwODg0NzU2LC0xMjA5NDA5NDc1LC0xODc2NDEzMj
+EwLC0xOTMxMzMxMjIxLDIyMDIxNjk0OSwtNzY3NTU5NTg1LDE5
+NDMwMjU0ODAsLTE5Nzc2MjQxNjMsLTE0NjYyMTE5MDQsNzIzNT
+g5MTEsNDYxODAxNDE5LDMwNTQ0MjU2NiwtMjc0MDQ4NzI4LC0x
+ODAwNTc0MzM2XX0=
 -->

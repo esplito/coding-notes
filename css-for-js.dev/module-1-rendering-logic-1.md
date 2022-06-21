@@ -205,15 +205,15 @@ Possible use case:
 
 #### fit-content
 
-`fit-content` is the magic keyword. It uses the best of both worlds. It acts like `max-content`,  but adds linebreaks and also behaves like `auto` to fill the available space.
+`fit-content` is the magic keyword. It uses the best of both worlds. It acts like `max-content`,  but adds line-breaks and also behaves like `auto` to not exceed the available space.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzAxMzk2NywtMjY4MzEyMjY1LC0xOD
-I1MjgwNDk3LDE5MTQ1NTk3NzcsLTE2ODg2OTE0ODksMTE1ODc1
-MTA1MywtMjEwNDgwMDY0NSwtMTU0NjY2ODk4Nyw0Njk4MTYwNz
-ksMjAyMDg4NDc1NiwtMTIwOTQwOTQ3NSwtMTg3NjQxMzIxMCwt
-MTkzMTMzMTIyMSwyMjAyMTY5NDksLTc2NzU1OTU4NSwxOTQzMD
-I1NDgwLC0xOTc3NjI0MTYzLC0xNDY2MjExOTA0LDcyMzU4OTEx
-LDQ2MTgwMTQxOV19
+eyJoaXN0b3J5IjpbMTQ4MDMxNDE4LC0yNjgzMTIyNjUsLTE4Mj
+UyODA0OTcsMTkxNDU1OTc3NywtMTY4ODY5MTQ4OSwxMTU4NzUx
+MDUzLC0yMTA0ODAwNjQ1LC0xNTQ2NjY4OTg3LDQ2OTgxNjA3OS
+wyMDIwODg0NzU2LC0xMjA5NDA5NDc1LC0xODc2NDEzMjEwLC0x
+OTMxMzMxMjIxLDIyMDIxNjk0OSwtNzY3NTU5NTg1LDE5NDMwMj
+U0ODAsLTE5Nzc2MjQxNjMsLTE0NjYyMTE5MDQsNzIzNTg5MTEs
+NDYxODAxNDE5XX0=
 -->

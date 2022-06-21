@@ -207,15 +207,13 @@ Possible use case:
 
 `fit-content` is the magic keyword. It uses the best of both worlds. It acts like `max-content`,  but adds line-breaks and also behaves like `auto` to not exceed the available space.
 
-### min- and max widths
-
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTkyMjY4MCwxNDgwMzE0MTgsLTI2OD
-MxMjI2NSwtMTgyNTI4MDQ5NywxOTE0NTU5Nzc3LC0xNjg4Njkx
-NDg5LDExNTg3NTEwNTMsLTIxMDQ4MDA2NDUsLTE1NDY2Njg5OD
-csNDY5ODE2MDc5LDIwMjA4ODQ3NTYsLTEyMDk0MDk0NzUsLTE4
-NzY0MTMyMTAsLTE5MzEzMzEyMjEsMjIwMjE2OTQ5LC03Njc1NT
-k1ODUsMTk0MzAyNTQ4MCwtMTk3NzYyNDE2MywtMTQ2NjIxMTkw
-NCw3MjM1ODkxMV19
+eyJoaXN0b3J5IjpbMTQ4MDMxNDE4LDE0ODAzMTQxOCwtMjY4Mz
+EyMjY1LC0xODI1MjgwNDk3LDE5MTQ1NTk3NzcsLTE2ODg2OTE0
+ODksMTE1ODc1MTA1MywtMjEwNDgwMDY0NSwtMTU0NjY2ODk4Ny
+w0Njk4MTYwNzksMjAyMDg4NDc1NiwtMTIwOTQwOTQ3NSwtMTg3
+NjQxMzIxMCwtMTkzMTMzMTIyMSwyMjAyMTY5NDksLTc2NzU1OT
+U4NSwxOTQzMDI1NDgwLC0xOTc3NjI0MTYzLC0xNDY2MjExOTA0
+LDcyMzU4OTExXX0=
 -->

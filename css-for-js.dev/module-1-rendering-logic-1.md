@@ -203,13 +203,17 @@ For text it takes every opportunity it can to wrap the text and uses the width o
 Possible use case:
 > Unlike with `auto`, `max-content` doesn't fill the available space. If we want to add a background color _only_ around the letters, this would be a neat way to do it!
 
+#### fit-content
+
+`fit-content` is the magic keyword. It uses the best of both worlds. 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODMxMjI2NSwtMTgyNTI4MDQ5NywxOT
-E0NTU5Nzc3LC0xNjg4NjkxNDg5LDExNTg3NTEwNTMsLTIxMDQ4
-MDA2NDUsLTE1NDY2Njg5ODcsNDY5ODE2MDc5LDIwMjA4ODQ3NT
-YsLTEyMDk0MDk0NzUsLTE4NzY0MTMyMTAsLTE5MzEzMzEyMjEs
-MjIwMjE2OTQ5LC03Njc1NTk1ODUsMTk0MzAyNTQ4MCwtMTk3Nz
-YyNDE2MywtMTQ2NjIxMTkwNCw3MjM1ODkxMSw0NjE4MDE0MTks
-MzA1NDQyNTY2XX0=
+eyJoaXN0b3J5IjpbLTE3OTQ3NjExNTMsLTI2ODMxMjI2NSwtMT
+gyNTI4MDQ5NywxOTE0NTU5Nzc3LC0xNjg4NjkxNDg5LDExNTg3
+NTEwNTMsLTIxMDQ4MDA2NDUsLTE1NDY2Njg5ODcsNDY5ODE2MD
+c5LDIwMjA4ODQ3NTYsLTEyMDk0MDk0NzUsLTE4NzY0MTMyMTAs
+LTE5MzEzMzEyMjEsMjIwMjE2OTQ5LC03Njc1NTk1ODUsMTk0Mz
+AyNTQ4MCwtMTk3NzYyNDE2MywtMTQ2NjIxMTkwNCw3MjM1ODkx
+MSw0NjE4MDE0MTldfQ==
 -->

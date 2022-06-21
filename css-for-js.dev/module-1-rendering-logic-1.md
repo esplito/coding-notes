@@ -171,13 +171,17 @@ It adds padding to each line instead of just at the tips. The lines are now trea
 
 The catch with using it is that it **does not line-wrap**, which is not good when using it on links in paragraphs.
 
+
+## Width algorithms
+
+Block-elements have `width: auto` 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg2OTE0ODksMTE1ODc1MTA1MywtMj
-EwNDgwMDY0NSwtMTU0NjY2ODk4Nyw0Njk4MTYwNzksMjAyMDg4
-NDc1NiwtMTIwOTQwOTQ3NSwtMTg3NjQxMzIxMCwtMTkzMTMzMT
-IyMSwyMjAyMTY5NDksLTc2NzU1OTU4NSwxOTQzMDI1NDgwLC0x
-OTc3NjI0MTYzLC0xNDY2MjExOTA0LDcyMzU4OTExLDQ2MTgwMT
-QxOSwzMDU0NDI1NjYsLTI3NDA0ODcyOCwtMTgwMDU3NDMzNiwt
-OTQzNTQ0NTg0XX0=
+eyJoaXN0b3J5IjpbMTI1Mjc0MTgyOSwtMTY4ODY5MTQ4OSwxMT
+U4NzUxMDUzLC0yMTA0ODAwNjQ1LC0xNTQ2NjY4OTg3LDQ2OTgx
+NjA3OSwyMDIwODg0NzU2LC0xMjA5NDA5NDc1LC0xODc2NDEzMj
+EwLC0xOTMxMzMxMjIxLDIyMDIxNjk0OSwtNzY3NTU5NTg1LDE5
+NDMwMjU0ODAsLTE5Nzc2MjQxNjMsLTE0NjYyMTE5MDQsNzIzNT
+g5MTEsNDYxODAxNDE5LDMwNTQ0MjU2NiwtMjc0MDQ4NzI4LC0x
+ODAwNTc0MzM2XX0=
 -->

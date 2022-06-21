@@ -194,10 +194,12 @@ We can specify two kinds of values for `width`:
 - Intrinsic values 👼 => based on the child contents
 - Extrinsic values  👩‍👦‍👦 => based on space made available by the parent
 
+#### max-content
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1NzUxOTI3LDE5MTQ1NTk3NzcsLTE2OD
+eyJoaXN0b3J5IjpbODAwNDYwODM1LDE5MTQ1NTk3NzcsLTE2OD
 g2OTE0ODksMTE1ODc1MTA1MywtMjEwNDgwMDY0NSwtMTU0NjY2
 ODk4Nyw0Njk4MTYwNzksMjAyMDg4NDc1NiwtMTIwOTQwOTQ3NS
 wtMTg3NjQxMzIxMCwtMTkzMTMzMTIyMSwyMjAyMTY5NDksLTc2

@@ -194,16 +194,18 @@ We can specify two kinds of values for `width`:
 - Intrinsic values 👼 => based on the child contents
 - Extrinsic values  👩‍👦‍👦 => based on space made available by the parent
 
+For text it takes every opportunity it can to wrap the text and uses the width of the longest word.
+
 #### max-content
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwNDYwODM1LDE5MTQ1NTk3NzcsLTE2OD
-g2OTE0ODksMTE1ODc1MTA1MywtMjEwNDgwMDY0NSwtMTU0NjY2
-ODk4Nyw0Njk4MTYwNzksMjAyMDg4NDc1NiwtMTIwOTQwOTQ3NS
-wtMTg3NjQxMzIxMCwtMTkzMTMzMTIyMSwyMjAyMTY5NDksLTc2
-NzU1OTU4NSwxOTQzMDI1NDgwLC0xOTc3NjI0MTYzLC0xNDY2Mj
-ExOTA0LDcyMzU4OTExLDQ2MTgwMTQxOSwzMDU0NDI1NjYsLTI3
-NDA0ODcyOF19
+eyJoaXN0b3J5IjpbLTI0MDY1NDA0OCwxOTE0NTU5Nzc3LC0xNj
+g4NjkxNDg5LDExNTg3NTEwNTMsLTIxMDQ4MDA2NDUsLTE1NDY2
+Njg5ODcsNDY5ODE2MDc5LDIwMjA4ODQ3NTYsLTEyMDk0MDk0Nz
+UsLTE4NzY0MTMyMTAsLTE5MzEzMzEyMjEsMjIwMjE2OTQ5LC03
+Njc1NTk1ODUsMTk0MzAyNTQ4MCwtMTk3NzYyNDE2MywtMTQ2Nj
+IxMTkwNCw3MjM1ODkxMSw0NjE4MDE0MTksMzA1NDQyNTY2LC0y
+NzQwNDg3MjhdfQ==
 -->

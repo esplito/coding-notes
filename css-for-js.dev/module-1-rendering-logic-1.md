@@ -191,12 +191,12 @@ We can specify two kinds of values for `width`:
 
 #### min-content
 
-- Intrinsic values => based on t
-- Extrinsic values = 
+- Intrinsic values 👼 => based on the child contents
+- Extrinsic values  => based on space made available by the parent
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDE1MDgxMSwxOTE0NTU5Nzc3LC0xNj
+eyJoaXN0b3J5IjpbMTMzMTM4MzE0OSwxOTE0NTU5Nzc3LC0xNj
 g4NjkxNDg5LDExNTg3NTEwNTMsLTIxMDQ4MDA2NDUsLTE1NDY2
 Njg5ODcsNDY5ODE2MDc5LDIwMjA4ODQ3NTYsLTEyMDk0MDk0Nz
 UsLTE4NzY0MTMyMTAsLTE5MzEzMzEyMjEsMjIwMjE2OTQ5LC03

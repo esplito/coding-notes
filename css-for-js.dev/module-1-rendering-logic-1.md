@@ -174,14 +174,19 @@ The catch with using it is that it **does not line-wrap**, which is not good whe
 
 ## Width algorithms
 
-Block-elements have `width: auto` 
+Block-elements have `width: auto`  **not** `width: 100%`.
+
+> It's a subtle but important distinction: by default, block elements have _dynamic sizing_. They're context-aware.
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Mjc0MTgyOSwtMTY4ODY5MTQ4OSwxMT
-U4NzUxMDUzLC0yMTA0ODAwNjQ1LC0xNTQ2NjY4OTg3LDQ2OTgx
-NjA3OSwyMDIwODg0NzU2LC0xMjA5NDA5NDc1LC0xODc2NDEzMj
-EwLC0xOTMxMzMxMjIxLDIyMDIxNjk0OSwtNzY3NTU5NTg1LDE5
-NDMwMjU0ODAsLTE5Nzc2MjQxNjMsLTE0NjYyMTE5MDQsNzIzNT
-g5MTEsNDYxODAxNDE5LDMwNTQ0MjU2NiwtMjc0MDQ4NzI4LC0x
-ODAwNTc0MzM2XX0=
+eyJoaXN0b3J5IjpbMzU1NTY2MjE3LC0xNjg4NjkxNDg5LDExNT
+g3NTEwNTMsLTIxMDQ4MDA2NDUsLTE1NDY2Njg5ODcsNDY5ODE2
+MDc5LDIwMjA4ODQ3NTYsLTEyMDk0MDk0NzUsLTE4NzY0MTMyMT
+AsLTE5MzEzMzEyMjEsMjIwMjE2OTQ5LC03Njc1NTk1ODUsMTk0
+MzAyNTQ4MCwtMTk3NzYyNDE2MywtMTQ2NjIxMTkwNCw3MjM1OD
+kxMSw0NjE4MDE0MTksMzA1NDQyNTY2LC0yNzQwNDg3MjgsLTE4
+MDA1NzQzMzZdfQ==
 -->

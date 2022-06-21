@@ -207,13 +207,38 @@ Possible use case:
 
 `fit-content` is the magic keyword. It uses the best of both worlds. It acts like `max-content`,  but adds line-breaks and also behaves like `auto` to not exceed the available space.
 
+### Exercises
+
+#### Max width wrapper
+
+```html
+<style>
+  .max-width-wrapper {
+    max-width: 350px; // constraint width on bigger devices
+    margin-left: auto; // centering
+    margin-right: auto; // centering
+    padding-left: 16px; // add breathing room on smaller devices
+    padding-right: 16px; // add breathing room on smaller devices
+  }
+  
+</style>
+
+<div class="max-width-wrapper">
+	<div class="card">
+	  <p>
+	    Otters have long, slim bodies and relatively short limbs. Their most striking anatomical features are the powerful webbed feet used to swim, and their seal-like abilities holding breath underwater.
+	  </p>
+	</div>
+</div>
+```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDMxNDE4LDE0ODAzMTQxOCwtMjY4Mz
-EyMjY1LC0xODI1MjgwNDk3LDE5MTQ1NTk3NzcsLTE2ODg2OTE0
-ODksMTE1ODc1MTA1MywtMjEwNDgwMDY0NSwtMTU0NjY2ODk4Ny
-w0Njk4MTYwNzksMjAyMDg4NDc1NiwtMTIwOTQwOTQ3NSwtMTg3
-NjQxMzIxMCwtMTkzMTMzMTIyMSwyMjAyMTY5NDksLTc2NzU1OT
-U4NSwxOTQzMDI1NDgwLC0xOTc3NjI0MTYzLC0xNDY2MjExOTA0
-LDcyMzU4OTExXX0=
+eyJoaXN0b3J5IjpbMTk3NDcyNDgwMCwxNDgwMzE0MTgsMTQ4MD
+MxNDE4LC0yNjgzMTIyNjUsLTE4MjUyODA0OTcsMTkxNDU1OTc3
+NywtMTY4ODY5MTQ4OSwxMTU4NzUxMDUzLC0yMTA0ODAwNjQ1LC
+0xNTQ2NjY4OTg3LDQ2OTgxNjA3OSwyMDIwODg0NzU2LC0xMjA5
+NDA5NDc1LC0xODc2NDEzMjEwLC0xOTMxMzMxMjIxLDIyMDIxNj
+k0OSwtNzY3NTU5NTg1LDE5NDMwMjU0ODAsLTE5Nzc2MjQxNjMs
+LTE0NjYyMTE5MDRdfQ==
 -->

@@ -178,6 +178,8 @@ Block-elements have `width: auto`  **not** `width: 100%`.
 
 > It's a subtle but important distinction: by default, block elements have _dynamic sizing_. They're context-aware.
 
+> `auto` will let our element greedily consume the available space while respecting any constraints. 
+
 ### Keyword values
 
 We can specify two kinds of values for `width`:
@@ -191,7 +193,7 @@ We can specify two kinds of values for `width`:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzA4OTUxMywtMTY4ODY5MTQ4OSwxMT
+eyJoaXN0b3J5IjpbMTkxNDU1OTc3NywtMTY4ODY5MTQ4OSwxMT
 U4NzUxMDUzLC0yMTA0ODAwNjQ1LC0xNTQ2NjY4OTg3LDQ2OTgx
 NjA3OSwyMDIwODg0NzU2LC0xMjA5NDA5NDc1LC0xODc2NDEzMj
 EwLC0xOTMxMzMxMjIxLDIyMDIxNjk0OSwtNzY3NTU5NTg1LDE5

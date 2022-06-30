@@ -272,11 +272,31 @@ What about `vh`???
 >
 >To avoid flickering UI issues, browsers like iOS Safari and Chrome Android will set  `vh`  equal to the  _maximum viewport height_, after scrolling. This means that when the page first loads,  `100vh`  will actually be quite a bit taller than the viewable area
 
+#### What about the footer?
 
+```css
+html, body  {
+  height: 100%;
+}
+
+.wrapper  {
+  display: flex;
+  flex-direction: column; /* this is also */
+  min-height: 100%;
+}
+
+footer  {
+  border: solid hotpink;
+  padding: 8px;
+  margin-top: auto; /* This makes all the difference in getting 
+	the footer to stick to the bottom of the content.
+*/
+}
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDk4OTMyNCwxMjUyODI4NTEwLC0xOD
+eyJoaXN0b3J5IjpbLTIyNzg1Njg2NSwxMjUyODI4NTEwLC0xOD
 YzMjA4MjY0LDE0MzgyNTcwNTksLTEzMjA0ODAyMDEsMTQ4MDMx
 NDE4LDE0ODAzMTQxOCwtMjY4MzEyMjY1LC0xODI1MjgwNDk3LD
 E5MTQ1NTk3NzcsLTE2ODg2OTE0ODksMTE1ODc1MTA1MywtMjEw

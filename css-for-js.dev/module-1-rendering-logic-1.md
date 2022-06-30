@@ -236,7 +236,10 @@ Possible use case:
 
 ```html
 <figure>
-	<img
+	<img src="..." />
+	<figcaption>
+		Some text here
+	</figcaption>
 </figure>
 ```
 
@@ -244,11 +247,11 @@ When you use `width: min-content` on the p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDkyMTk1MTAsLTEzMjA0ODAyMDEsMT
-Q4MDMxNDE4LDE0ODAzMTQxOCwtMjY4MzEyMjY1LC0xODI1Mjgw
-NDk3LDE5MTQ1NTk3NzcsLTE2ODg2OTE0ODksMTE1ODc1MTA1My
-wtMjEwNDgwMDY0NSwtMTU0NjY2ODk4Nyw0Njk4MTYwNzksMjAy
-MDg4NDc1NiwtMTIwOTQwOTQ3NSwtMTg3NjQxMzIxMCwtMTkzMT
-MzMTIyMSwyMjAyMTY5NDksLTc2NzU1OTU4NSwxOTQzMDI1NDgw
-LC0xOTc3NjI0MTYzXX0=
+eyJoaXN0b3J5IjpbODQ3MTk1MDQ4LC0xMzIwNDgwMjAxLDE0OD
+AzMTQxOCwxNDgwMzE0MTgsLTI2ODMxMjI2NSwtMTgyNTI4MDQ5
+NywxOTE0NTU5Nzc3LC0xNjg4NjkxNDg5LDExNTg3NTEwNTMsLT
+IxMDQ4MDA2NDUsLTE1NDY2Njg5ODcsNDY5ODE2MDc5LDIwMjA4
+ODQ3NTYsLTEyMDk0MDk0NzUsLTE4NzY0MTMyMTAsLTE5MzEzMz
+EyMjEsMjIwMjE2OTQ5LC03Njc1NTk1ODUsMTk0MzAyNTQ4MCwt
+MTk3NzYyNDE2M119
 -->

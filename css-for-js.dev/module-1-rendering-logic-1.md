@@ -247,15 +247,16 @@ When you use `width: min-content` on `figure` (which in this case is the parent)
 
 ## Height algorithms
 
-`height` wants to fill up the smallest possible space in comparison to `width` that wants to take up all the available space
+`height` wants to fill up the smallest possible space (think `min-content`) in comparison to `width` that wants to take up all the available space (`auto`).
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MjM5MjI2NywxNDM4MjU3MDU5LC0xMz
-IwNDgwMjAxLDE0ODAzMTQxOCwxNDgwMzE0MTgsLTI2ODMxMjI2
-NSwtMTgyNTI4MDQ5NywxOTE0NTU5Nzc3LC0xNjg4NjkxNDg5LD
-ExNTg3NTEwNTMsLTIxMDQ4MDA2NDUsLTE1NDY2Njg5ODcsNDY5
-ODE2MDc5LDIwMjA4ODQ3NTYsLTEyMDk0MDk0NzUsLTE4NzY0MT
-MyMTAsLTE5MzEzMzEyMjEsMjIwMjE2OTQ5LC03Njc1NTk1ODUs
-MTk0MzAyNTQ4MF19
+eyJoaXN0b3J5IjpbLTE4NjMyMDgyNjQsMTQzODI1NzA1OSwtMT
+MyMDQ4MDIwMSwxNDgwMzE0MTgsMTQ4MDMxNDE4LC0yNjgzMTIy
+NjUsLTE4MjUyODA0OTcsMTkxNDU1OTc3NywtMTY4ODY5MTQ4OS
+wxMTU4NzUxMDUzLC0yMTA0ODAwNjQ1LC0xNTQ2NjY4OTg3LDQ2
+OTgxNjA3OSwyMDIwODg0NzU2LC0xMjA5NDA5NDc1LC0xODc2ND
+EzMjEwLC0xOTMxMzMxMjIxLDIyMDIxNjk0OSwtNzY3NTU5NTg1
+LDE5NDMwMjU0ODBdfQ==
 -->

@@ -264,9 +264,12 @@ html, body {
 
 `height` behaves like a vacuum-sealed bag shrinking and wrapping around its content.
 
+![Picture of vacuum-sealed nuts](https://marvel-b1-cdn.bc0a.com/f00000000114298/cdn11.bigcommerce.com/s-jsjjp2/images/stencil/1024x1024/products/486/1582/ZipperBags_2__06016.1454519777.jpg?c=2)
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTE2ODg4OCwtMTg2MzIwODI2NCwxND
+eyJoaXN0b3J5IjpbMTEwMzQ4MzAxNiwtMTg2MzIwODI2NCwxND
 M4MjU3MDU5LC0xMzIwNDgwMjAxLDE0ODAzMTQxOCwxNDgwMzE0
 MTgsLTI2ODMxMjI2NSwtMTgyNTI4MDQ5NywxOTE0NTU5Nzc3LC
 0xNjg4NjkxNDg5LDExNTg3NTEwNTMsLTIxMDQ4MDA2NDUsLTE1

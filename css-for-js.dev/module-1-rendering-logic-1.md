@@ -243,15 +243,17 @@ Possible use case:
 </figure>
 ```
 
-When you use `width: min-content` on the p
+When you use `width: min-content` on `figure` (which in this case is the parent) it will take up the width of the widest child.
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3MTk1MDQ4LC0xMzIwNDgwMjAxLDE0OD
-AzMTQxOCwxNDgwMzE0MTgsLTI2ODMxMjI2NSwtMTgyNTI4MDQ5
-NywxOTE0NTU5Nzc3LC0xNjg4NjkxNDg5LDExNTg3NTEwNTMsLT
-IxMDQ4MDA2NDUsLTE1NDY2Njg5ODcsNDY5ODE2MDc5LDIwMjA4
-ODQ3NTYsLTEyMDk0MDk0NzUsLTE4NzY0MTMyMTAsLTE5MzEzMz
-EyMjEsMjIwMjE2OTQ5LC03Njc1NTk1ODUsMTk0MzAyNTQ4MCwt
-MTk3NzYyNDE2M119
+eyJoaXN0b3J5IjpbMTQzODI1NzA1OSwtMTMyMDQ4MDIwMSwxND
+gwMzE0MTgsMTQ4MDMxNDE4LC0yNjgzMTIyNjUsLTE4MjUyODA0
+OTcsMTkxNDU1OTc3NywtMTY4ODY5MTQ4OSwxMTU4NzUxMDUzLC
+0yMTA0ODAwNjQ1LC0xNTQ2NjY4OTg3LDQ2OTgxNjA3OSwyMDIw
+ODg0NzU2LC0xMjA5NDA5NDc1LC0xODc2NDEzMjEwLC0xOTMxMz
+MxMjIxLDIyMDIxNjk0OSwtNzY3NTU5NTg1LDE5NDMwMjU0ODAs
+LTE5Nzc2MjQxNjNdfQ==
 -->

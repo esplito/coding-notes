@@ -256,10 +256,17 @@ html, body {
 	height: 100%;
 }
 .wrapper {
+	min-height: 100%;
+}
 ``` 
+
+> This way, the minimum size is equal to the viewport height, but it can overflow and take up more space if required by the content.
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc5MjMwNDAsLTE4NjMyMDgyNjQsMT
+eyJoaXN0b3J5IjpbLTEzODYwNzk3MjcsLTE4NjMyMDgyNjQsMT
 QzODI1NzA1OSwtMTMyMDQ4MDIwMSwxNDgwMzE0MTgsMTQ4MDMx
 NDE4LC0yNjgzMTIyNjUsLTE4MjUyODA0OTcsMTkxNDU1OTc3Ny
 wtMTY4ODY5MTQ4OSwxMTU4NzUxMDUzLC0yMTA0ODAwNjQ1LC0x

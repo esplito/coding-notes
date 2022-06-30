@@ -262,15 +262,15 @@ html, body {
 
 > This way, the minimum size is equal to the viewport height, but it can overflow and take up more space if required by the content.
 
-
+`height` behaves like a vacuum-sealed bag shrinking and wrapping around its content.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODYwNzk3MjcsLTE4NjMyMDgyNjQsMT
-QzODI1NzA1OSwtMTMyMDQ4MDIwMSwxNDgwMzE0MTgsMTQ4MDMx
-NDE4LC0yNjgzMTIyNjUsLTE4MjUyODA0OTcsMTkxNDU1OTc3Ny
-wtMTY4ODY5MTQ4OSwxMTU4NzUxMDUzLC0yMTA0ODAwNjQ1LC0x
-NTQ2NjY4OTg3LDQ2OTgxNjA3OSwyMDIwODg0NzU2LC0xMjA5ND
-A5NDc1LC0xODc2NDEzMjEwLC0xOTMxMzMxMjIxLDIyMDIxNjk0
-OSwtNzY3NTU5NTg1XX0=
+eyJoaXN0b3J5IjpbMTY2NTE2ODg4OCwtMTg2MzIwODI2NCwxND
+M4MjU3MDU5LC0xMzIwNDgwMjAxLDE0ODAzMTQxOCwxNDgwMzE0
+MTgsLTI2ODMxMjI2NSwtMTgyNTI4MDQ5NywxOTE0NTU5Nzc3LC
+0xNjg4NjkxNDg5LDExNTg3NTEwNTMsLTIxMDQ4MDA2NDUsLTE1
+NDY2Njg5ODcsNDY5ODE2MDc5LDIwMjA4ODQ3NTYsLTEyMDk0MD
+k0NzUsLTE4NzY0MTMyMTAsLTE5MzEzMzEyMjEsMjIwMjE2OTQ5
+LC03Njc1NTk1ODVdfQ==
 -->

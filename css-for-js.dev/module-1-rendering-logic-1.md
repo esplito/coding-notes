@@ -249,14 +249,21 @@ When you use `width: min-content` on `figure` (which in this case is the parent)
 
 `height` wants to fill up the smallest possible space (think `min-content`) in comparison to `width` that wants to take up all the available space (`auto`).
 
+To avoid having whitespace below content that doesn't fill up the entire viewport height we should do the following:
 
+```css
+html, body {
+	height: 100%;
+}
+.wrapper {
+``` 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjMyMDgyNjQsMTQzODI1NzA1OSwtMT
-MyMDQ4MDIwMSwxNDgwMzE0MTgsMTQ4MDMxNDE4LC0yNjgzMTIy
-NjUsLTE4MjUyODA0OTcsMTkxNDU1OTc3NywtMTY4ODY5MTQ4OS
-wxMTU4NzUxMDUzLC0yMTA0ODAwNjQ1LC0xNTQ2NjY4OTg3LDQ2
-OTgxNjA3OSwyMDIwODg0NzU2LC0xMjA5NDA5NDc1LC0xODc2ND
-EzMjEwLC0xOTMxMzMxMjIxLDIyMDIxNjk0OSwtNzY3NTU5NTg1
-LDE5NDMwMjU0ODBdfQ==
+eyJoaXN0b3J5IjpbLTE3Mjc5MjMwNDAsLTE4NjMyMDgyNjQsMT
+QzODI1NzA1OSwtMTMyMDQ4MDIwMSwxNDgwMzE0MTgsMTQ4MDMx
+NDE4LC0yNjgzMTIyNjUsLTE4MjUyODA0OTcsMTkxNDU1OTc3Ny
+wtMTY4ODY5MTQ4OSwxMTU4NzUxMDUzLC0yMTA0ODAwNjQ1LC0x
+NTQ2NjY4OTg3LDQ2OTgxNjA3OSwyMDIwODg0NzU2LC0xMjA5ND
+A5NDc1LC0xODc2NDEzMjEwLC0xOTMxMzMxMjIxLDIyMDIxNjk0
+OSwtNzY3NTU5NTg1XX0=
 -->

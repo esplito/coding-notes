@@ -172,7 +172,7 @@ It adds padding to each line instead of just at the tips. The lines are now trea
 The catch with using it is that it **does not line-wrap**, which is not good when using it on links in paragraphs.
 
 
-## Width algorithms
+### Width algorithms
 
 Block-elements have `width: auto`  **not** `width: 100%`.
 
@@ -180,7 +180,7 @@ Block-elements have `width: auto`  **not** `width: 100%`.
 
 > `auto` will let our element greedily consume the available space while respecting any constraints. 
 
-### Keyword values
+#### Keyword values
 
 We can specify two kinds of values for `width`:
 
@@ -232,7 +232,7 @@ Possible use case:
 </div>
 ```
 
-### Figures & captions
+#### Figures & captions
 
 ```html
 <figure>
@@ -245,7 +245,7 @@ Possible use case:
 
 When you use `width: min-content` on `figure` (which in this case is the parent) it will take up the width of the widest child.
 
-## Height algorithms
+### Height algorithms
 
 `height` wants to fill up the smallest possible space (think `min-content`) in comparison to `width` that wants to take up all the available space (`auto`).
 
@@ -294,15 +294,17 @@ footer  {
 }
 ```
 
+## Margin collapse
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjkxODc5MjQsMTI1MjgyODUxMCwtMT
-g2MzIwODI2NCwxNDM4MjU3MDU5LC0xMzIwNDgwMjAxLDE0ODAz
-MTQxOCwxNDgwMzE0MTgsLTI2ODMxMjI2NSwtMTgyNTI4MDQ5Ny
-wxOTE0NTU5Nzc3LC0xNjg4NjkxNDg5LDExNTg3NTEwNTMsLTIx
-MDQ4MDA2NDUsLTE1NDY2Njg5ODcsNDY5ODE2MDc5LDIwMjA4OD
-Q3NTYsLTEyMDk0MDk0NzUsLTE4NzY0MTMyMTAsLTE5MzEzMzEy
-MjEsMjIwMjE2OTQ5XX0=
+eyJoaXN0b3J5IjpbLTEyNDI3NTE3NjUsLTEwMjkxODc5MjQsMT
+I1MjgyODUxMCwtMTg2MzIwODI2NCwxNDM4MjU3MDU5LC0xMzIw
+NDgwMjAxLDE0ODAzMTQxOCwxNDgwMzE0MTgsLTI2ODMxMjI2NS
+wtMTgyNTI4MDQ5NywxOTE0NTU5Nzc3LC0xNjg4NjkxNDg5LDEx
+NTg3NTEwNTMsLTIxMDQ4MDA2NDUsLTE1NDY2Njg5ODcsNDY5OD
+E2MDc5LDIwMjA4ODQ3NTYsLTEyMDk0MDk0NzUsLTE4NzY0MTMy
+MTAsLTE5MzEzMzEyMjFdfQ==
 -->

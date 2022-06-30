@@ -245,15 +245,17 @@ Possible use case:
 
 When you use `width: min-content` on `figure` (which in this case is the parent) it will take up the width of the widest child.
 
+## Height algorithms
 
+`height` wants to fill up the smallest possible space in comparison to `width` that wants to take up all the available space
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODI1NzA1OSwtMTMyMDQ4MDIwMSwxND
-gwMzE0MTgsMTQ4MDMxNDE4LC0yNjgzMTIyNjUsLTE4MjUyODA0
-OTcsMTkxNDU1OTc3NywtMTY4ODY5MTQ4OSwxMTU4NzUxMDUzLC
-0yMTA0ODAwNjQ1LC0xNTQ2NjY4OTg3LDQ2OTgxNjA3OSwyMDIw
-ODg0NzU2LC0xMjA5NDA5NDc1LC0xODc2NDEzMjEwLC0xOTMxMz
-MxMjIxLDIyMDIxNjk0OSwtNzY3NTU5NTg1LDE5NDMwMjU0ODAs
-LTE5Nzc2MjQxNjNdfQ==
+eyJoaXN0b3J5IjpbMTg4MjM5MjI2NywxNDM4MjU3MDU5LC0xMz
+IwNDgwMjAxLDE0ODAzMTQxOCwxNDgwMzE0MTgsLTI2ODMxMjI2
+NSwtMTgyNTI4MDQ5NywxOTE0NTU5Nzc3LC0xNjg4NjkxNDg5LD
+ExNTg3NTEwNTMsLTIxMDQ4MDA2NDUsLTE1NDY2Njg5ODcsNDY5
+ODE2MDc5LDIwMjA4ODQ3NTYsLTEyMDk0MDk0NzUsLTE4NzY0MT
+MyMTAsLTE5MzEzMzEyMjEsMjIwMjE2OTQ5LC03Njc1NTk1ODUs
+MTk0MzAyNTQ4MF19
 -->

@@ -280,8 +280,8 @@ html, body  {
 }
 
 .wrapper  {
-  display: flex;
-  flex-direction: column; /* this is also */
+  display: flex; /* this is also important */
+  flex-direction: column; /* this is also important */
   min-height: 100%;
 }
 
@@ -296,7 +296,7 @@ footer  {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzg1Njg2NSwxMjUyODI4NTEwLC0xOD
+eyJoaXN0b3J5IjpbLTMyODAzNjkxMiwxMjUyODI4NTEwLC0xOD
 YzMjA4MjY0LDE0MzgyNTcwNTksLTEzMjA0ODAyMDEsMTQ4MDMx
 NDE4LDE0ODAzMTQxOCwtMjY4MzEyMjY1LC0xODI1MjgwNDk3LD
 E5MTQ1NTk3NzcsLTE2ODg2OTE0ODksMTE1ODc1MTA1MywtMjEw

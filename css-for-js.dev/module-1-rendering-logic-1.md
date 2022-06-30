@@ -232,15 +232,23 @@ Possible use case:
 </div>
 ```
 
-Next up: Figures and captions
+### Figures & captions
+
+```html
+<figure>
+	<img
+</figure>
+```
+
+When you use `width: min-content` on the p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA0ODAyMDEsMTQ4MDMxNDE4LDE0OD
-AzMTQxOCwtMjY4MzEyMjY1LC0xODI1MjgwNDk3LDE5MTQ1NTk3
-NzcsLTE2ODg2OTE0ODksMTE1ODc1MTA1MywtMjEwNDgwMDY0NS
-wtMTU0NjY2ODk4Nyw0Njk4MTYwNzksMjAyMDg4NDc1NiwtMTIw
-OTQwOTQ3NSwtMTg3NjQxMzIxMCwtMTkzMTMzMTIyMSwyMjAyMT
-Y5NDksLTc2NzU1OTU4NSwxOTQzMDI1NDgwLC0xOTc3NjI0MTYz
-LC0xNDY2MjExOTA0XX0=
+eyJoaXN0b3J5IjpbLTE4NDkyMTk1MTAsLTEzMjA0ODAyMDEsMT
+Q4MDMxNDE4LDE0ODAzMTQxOCwtMjY4MzEyMjY1LC0xODI1Mjgw
+NDk3LDE5MTQ1NTk3NzcsLTE2ODg2OTE0ODksMTE1ODc1MTA1My
+wtMjEwNDgwMDY0NSwtMTU0NjY2ODk4Nyw0Njk4MTYwNzksMjAy
+MDg4NDc1NiwtMTIwOTQwOTQ3NSwtMTg3NjQxMzIxMCwtMTkzMT
+MzMTIyMSwyMjAyMTY5NDksLTc2NzU1OTU4NSwxOTQzMDI1NDgw
+LC0xOTc3NjI0MTYzXX0=
 -->

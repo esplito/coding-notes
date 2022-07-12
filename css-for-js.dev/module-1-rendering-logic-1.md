@@ -320,16 +320,17 @@ footer  {
 	3. Gap (for example if the parent has a specified height which create more space than the child's margin)
 	4. Scroll container
 	
-6. 
+6. Margins can collapse in the same direction
+7. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM5MjY5OTIsLTE4OTk5ODYwNiwtMj
-A1MjcyMTY2MywtMTU2NTQ4MTE5MSwtMTI0Mjc1MTc2NSwtMTAy
-OTE4NzkyNCwxMjUyODI4NTEwLC0xODYzMjA4MjY0LDE0MzgyNT
-cwNTksLTEzMjA0ODAyMDEsMTQ4MDMxNDE4LDE0ODAzMTQxOCwt
-MjY4MzEyMjY1LC0xODI1MjgwNDk3LDE5MTQ1NTk3NzcsLTE2OD
-g2OTE0ODksMTE1ODc1MTA1MywtMjEwNDgwMDY0NSwtMTU0NjY2
-ODk4Nyw0Njk4MTYwNzldfQ==
+eyJoaXN0b3J5IjpbLTk3NTA4NjMzMiwtMTg5OTk4NjA2LC0yMD
+UyNzIxNjYzLC0xNTY1NDgxMTkxLC0xMjQyNzUxNzY1LC0xMDI5
+MTg3OTI0LDEyNTI4Mjg1MTAsLTE4NjMyMDgyNjQsMTQzODI1Nz
+A1OSwtMTMyMDQ4MDIwMSwxNDgwMzE0MTgsMTQ4MDMxNDE4LC0y
+NjgzMTIyNjUsLTE4MjUyODA0OTcsMTkxNDU1OTc3NywtMTY4OD
+Y5MTQ4OSwxMTU4NzUxMDUzLC0yMTA0ODAwNjQ1LC0xNTQ2NjY4
+OTg3LDQ2OTgxNjA3OV19
 -->

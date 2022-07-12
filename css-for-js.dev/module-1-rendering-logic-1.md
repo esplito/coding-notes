@@ -301,16 +301,17 @@ footer  {
 	- 🤯 When block elements are horizontally stacked the rule flips 🛹, horizontal margins are now collapsing 🤯 
 2. Margins _only_ collapse **in Flow layout**
 	- ℹ️ It does not collapse when using for example `display: flex` on the parent.
-3. 
+3. Only adjacent elements collapse
+	- 🚨 Adding a `<br />` between them will break the collapse.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTI3MjE2NjMsLTE1NjU0ODExOTEsLT
-EyNDI3NTE3NjUsLTEwMjkxODc5MjQsMTI1MjgyODUxMCwtMTg2
-MzIwODI2NCwxNDM4MjU3MDU5LC0xMzIwNDgwMjAxLDE0ODAzMT
-QxOCwxNDgwMzE0MTgsLTI2ODMxMjI2NSwtMTgyNTI4MDQ5Nywx
-OTE0NTU5Nzc3LC0xNjg4NjkxNDg5LDExNTg3NTEwNTMsLTIxMD
-Q4MDA2NDUsLTE1NDY2Njg5ODcsNDY5ODE2MDc5LDIwMjA4ODQ3
-NTYsLTEyMDk0MDk0NzVdfQ==
+eyJoaXN0b3J5IjpbMTg2NjQzOTE3MywtMjA1MjcyMTY2MywtMT
+U2NTQ4MTE5MSwtMTI0Mjc1MTc2NSwtMTAyOTE4NzkyNCwxMjUy
+ODI4NTEwLC0xODYzMjA4MjY0LDE0MzgyNTcwNTksLTEzMjA0OD
+AyMDEsMTQ4MDMxNDE4LDE0ODAzMTQxOCwtMjY4MzEyMjY1LC0x
+ODI1MjgwNDk3LDE5MTQ1NTk3NzcsLTE2ODg2OTE0ODksMTE1OD
+c1MTA1MywtMjEwNDgwMDY0NSwtMTU0NjY2ODk4Nyw0Njk4MTYw
+NzksMjAyMDg4NDc1Nl19
 -->

@@ -327,16 +327,18 @@ footer  {
 	 - Siblings can combine adjacent margins (if the first element has margin-bottom, and the second one has margin-top)
 	-   A parent and child can combine margins in the same direction
 	(You can essentially have 2 parents and 2 children with each a separate margin, but the biggest margin wins)
-8. 
+8. Negative margins
+	- They also compete -> If you -75 and -100, -100 wins.
+	- What about positive and negative? -> They add up, +25 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzY2NzI2MDgsOTY1NTQ2MjIyLC05Nz
-UwODYzMzIsLTE4OTk5ODYwNiwtMjA1MjcyMTY2MywtMTU2NTQ4
-MTE5MSwtMTI0Mjc1MTc2NSwtMTAyOTE4NzkyNCwxMjUyODI4NT
-EwLC0xODYzMjA4MjY0LDE0MzgyNTcwNTksLTEzMjA0ODAyMDEs
-MTQ4MDMxNDE4LDE0ODAzMTQxOCwtMjY4MzEyMjY1LC0xODI1Mj
-gwNDk3LDE5MTQ1NTk3NzcsLTE2ODg2OTE0ODksMTE1ODc1MTA1
-MywtMjEwNDgwMDY0NV19
+eyJoaXN0b3J5IjpbLTIzOTY4NDI0NCw5NjU1NDYyMjIsLTk3NT
+A4NjMzMiwtMTg5OTk4NjA2LC0yMDUyNzIxNjYzLC0xNTY1NDgx
+MTkxLC0xMjQyNzUxNzY1LC0xMDI5MTg3OTI0LDEyNTI4Mjg1MT
+AsLTE4NjMyMDgyNjQsMTQzODI1NzA1OSwtMTMyMDQ4MDIwMSwx
+NDgwMzE0MTgsMTQ4MDMxNDE4LC0yNjgzMTIyNjUsLTE4MjUyOD
+A0OTcsMTkxNDU1OTc3NywtMTY4ODY5MTQ4OSwxMTU4NzUxMDUz
+LC0yMTA0ODAwNjQ1XX0=
 -->

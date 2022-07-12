@@ -310,17 +310,19 @@ footer  {
 	**What's the meaning of margin?** 🤔
 	> Margin is meant to increase the distance between siblings. It is _not_ meant to increase the gap between a child and its parent's bounding box; that's what padding is for.
 	>
+	>Margin will always try and increase distance between siblings, **even if it means  _transferring_  margin to the parent element!** In this case, the effect is the same as if we had applied the margin to the parent `<div>`, not the child `<p>`.
+	>
 	> Margins only collapse when they're _touching_.
-7. 
+6. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwNjA0ODA0LC0xODk5OTg2MDYsLTIwNT
-I3MjE2NjMsLTE1NjU0ODExOTEsLTEyNDI3NTE3NjUsLTEwMjkx
-ODc5MjQsMTI1MjgyODUxMCwtMTg2MzIwODI2NCwxNDM4MjU3MD
-U5LC0xMzIwNDgwMjAxLDE0ODAzMTQxOCwxNDgwMzE0MTgsLTI2
-ODMxMjI2NSwtMTgyNTI4MDQ5NywxOTE0NTU5Nzc3LC0xNjg4Nj
-kxNDg5LDExNTg3NTEwNTMsLTIxMDQ4MDA2NDUsLTE1NDY2Njg5
-ODcsNDY5ODE2MDc5XX0=
+eyJoaXN0b3J5IjpbMTI4MTU1OTU5MywtMTg5OTk4NjA2LC0yMD
+UyNzIxNjYzLC0xNTY1NDgxMTkxLC0xMjQyNzUxNzY1LC0xMDI5
+MTg3OTI0LDEyNTI4Mjg1MTAsLTE4NjMyMDgyNjQsMTQzODI1Nz
+A1OSwtMTMyMDQ4MDIwMSwxNDgwMzE0MTgsMTQ4MDMxNDE4LC0y
+NjgzMTIyNjUsLTE4MjUyODA0OTcsMTkxNDU1OTc3NywtMTY4OD
+Y5MTQ4OSwxMTU4NzUxMDUzLC0yMTA0ODAwNjQ1LC0xNTQ2NjY4
+OTg3LDQ2OTgxNjA3OV19
 -->

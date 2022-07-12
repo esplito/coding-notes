@@ -305,15 +305,22 @@ footer  {
 	- 🚨 Adding a `<br />` between them will break the collapse.
 4. The bigger margin wins 🏆
 	>This one feels intuitive if you think of margin as "personal space". If one person needs 6 feet of personal space, and another requires 8 feet of personal space, the two people will keep 8 feet apart.
+5. Nesting doesn't prevent collapsing
+
+	**What's the meaning of margin?** 🤔
+	> Margin is meant to increase the distance between siblings. It is _not_ meant to increase the gap between a child and its parent's bounding box; that's what padding is for.
+	>
+	> Margins only collapse when they're _touching_.
+7. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTk5ODYwNiwtMjA1MjcyMTY2MywtMT
-U2NTQ4MTE5MSwtMTI0Mjc1MTc2NSwtMTAyOTE4NzkyNCwxMjUy
-ODI4NTEwLC0xODYzMjA4MjY0LDE0MzgyNTcwNTksLTEzMjA0OD
-AyMDEsMTQ4MDMxNDE4LDE0ODAzMTQxOCwtMjY4MzEyMjY1LC0x
-ODI1MjgwNDk3LDE5MTQ1NTk3NzcsLTE2ODg2OTE0ODksMTE1OD
-c1MTA1MywtMjEwNDgwMDY0NSwtMTU0NjY2ODk4Nyw0Njk4MTYw
-NzksMjAyMDg4NDc1Nl19
+eyJoaXN0b3J5IjpbODAwNjA0ODA0LC0xODk5OTg2MDYsLTIwNT
+I3MjE2NjMsLTE1NjU0ODExOTEsLTEyNDI3NTE3NjUsLTEwMjkx
+ODc5MjQsMTI1MjgyODUxMCwtMTg2MzIwODI2NCwxNDM4MjU3MD
+U5LC0xMzIwNDgwMjAxLDE0ODAzMTQxOCwxNDgwMzE0MTgsLTI2
+ODMxMjI2NSwtMTgyNTI4MDQ5NywxOTE0NTU5Nzc3LC0xNjg4Nj
+kxNDg5LDExNTg3NTEwNTMsLTIxMDQ4MDA2NDUsLTE1NDY2Njg5
+ODcsNDY5ODE2MDc5XX0=
 -->

@@ -313,12 +313,17 @@ footer  {
 	>Margin will always try and increase distance between siblings, **even if it means  _transferring_  margin to the parent element!** In this case, the effect is the same as if we had applied the margin to the parent `<div>`, not the child `<p>`.
 	>
 	> Margins only collapse when they're _touching_.
+	
+	** What's it blocked by?** 🧱
+	1. Padding
+	2. Border
+	3. Gap
 6. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTU1OTU5MywtMTg5OTk4NjA2LC0yMD
+eyJoaXN0b3J5IjpbLTY1OTUyODg2MiwtMTg5OTk4NjA2LC0yMD
 UyNzIxNjYzLC0xNTY1NDgxMTkxLC0xMjQyNzUxNzY1LC0xMDI5
 MTg3OTI0LDEyNTI4Mjg1MTAsLTE4NjMyMDgyNjQsMTQzODI1Nz
 A1OSwtMTMyMDQ4MDIwMSwxNDgwMzE0MTgsMTQ4MDMxNDE4LC0y

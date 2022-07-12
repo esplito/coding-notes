@@ -321,17 +321,18 @@ footer  {
 	4. Scroll container
 	
 6. Margins can collapse in the same direction
-	- This means that if 
+	- This means that if both the child and the parent have `margin-top`, the one with the biggest margin wins! 
+	🤯 **0px margin is still a collapsible margin**, so if the parent has no margin specified, it still becomes a fight for the biggest margin 🤯
 8. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTAzNDY0MiwtOTc1MDg2MzMyLC0xOD
-k5OTg2MDYsLTIwNTI3MjE2NjMsLTE1NjU0ODExOTEsLTEyNDI3
-NTE3NjUsLTEwMjkxODc5MjQsMTI1MjgyODUxMCwtMTg2MzIwOD
-I2NCwxNDM4MjU3MDU5LC0xMzIwNDgwMjAxLDE0ODAzMTQxOCwx
-NDgwMzE0MTgsLTI2ODMxMjI2NSwtMTgyNTI4MDQ5NywxOTE0NT
-U5Nzc3LC0xNjg4NjkxNDg5LDExNTg3NTEwNTMsLTIxMDQ4MDA2
-NDUsLTE1NDY2Njg5ODddfQ==
+eyJoaXN0b3J5IjpbNzUxNjM2NDk2LC05NzUwODYzMzIsLTE4OT
+k5ODYwNiwtMjA1MjcyMTY2MywtMTU2NTQ4MTE5MSwtMTI0Mjc1
+MTc2NSwtMTAyOTE4NzkyNCwxMjUyODI4NTEwLC0xODYzMjA4Mj
+Y0LDE0MzgyNTcwNTksLTEzMjA0ODAyMDEsMTQ4MDMxNDE4LDE0
+ODAzMTQxOCwtMjY4MzEyMjY1LC0xODI1MjgwNDk3LDE5MTQ1NT
+k3NzcsLTE2ODg2OTE0ODksMTE1ODc1MTA1MywtMjEwNDgwMDY0
+NSwtMTU0NjY2ODk4N119
 -->

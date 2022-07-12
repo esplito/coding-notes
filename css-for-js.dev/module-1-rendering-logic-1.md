@@ -328,13 +328,13 @@ footer  {
 	-   A parent and child can combine margins in the same direction
 	(You can essentially have 2 parents and 2 children with each a separate margin, but the biggest margin wins)
 8. Negative margins
-	- They also compete -> If you -75 and -100, -100 wins.
-	- What about positive and negative? -> They add up, +25 
+	- They also compete -> If you `-75px` and `-100px`, `-100px` wins.
+	- What about positive and negative? -> They add up, `+25px` and `-25px` = `0px`
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTY4NDI0NCw5NjU1NDYyMjIsLTk3NT
+eyJoaXN0b3J5IjpbLTE3MDY0MDA0Miw5NjU1NDYyMjIsLTk3NT
 A4NjMzMiwtMTg5OTk4NjA2LC0yMDUyNzIxNjYzLC0xNTY1NDgx
 MTkxLC0xMjQyNzUxNzY1LC0xMDI5MTg3OTI0LDEyNTI4Mjg1MT
 AsLTE4NjMyMDgyNjQsMTQzODI1NzA1OSwtMTMyMDQ4MDIwMSwx

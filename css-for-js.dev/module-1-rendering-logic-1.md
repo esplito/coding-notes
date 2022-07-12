@@ -318,17 +318,18 @@ footer  {
 	1. Padding
 	2. Border
 	3. Gap (for example if the parent has a specified height which create more space than the child's margin)
-	4. 
+	4. Scroll container
+	
 6. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwNzY4NjMyLC0xODk5OTg2MDYsLTIwNT
-I3MjE2NjMsLTE1NjU0ODExOTEsLTEyNDI3NTE3NjUsLTEwMjkx
-ODc5MjQsMTI1MjgyODUxMCwtMTg2MzIwODI2NCwxNDM4MjU3MD
-U5LC0xMzIwNDgwMjAxLDE0ODAzMTQxOCwxNDgwMzE0MTgsLTI2
-ODMxMjI2NSwtMTgyNTI4MDQ5NywxOTE0NTU5Nzc3LC0xNjg4Nj
-kxNDg5LDExNTg3NTEwNTMsLTIxMDQ4MDA2NDUsLTE1NDY2Njg5
-ODcsNDY5ODE2MDc5XX0=
+eyJoaXN0b3J5IjpbLTExMDM5MjY5OTIsLTE4OTk5ODYwNiwtMj
+A1MjcyMTY2MywtMTU2NTQ4MTE5MSwtMTI0Mjc1MTc2NSwtMTAy
+OTE4NzkyNCwxMjUyODI4NTEwLC0xODYzMjA4MjY0LDE0MzgyNT
+cwNTksLTEzMjA0ODAyMDEsMTQ4MDMxNDE4LDE0ODAzMTQxOCwt
+MjY4MzEyMjY1LC0xODI1MjgwNDk3LDE5MTQ1NTk3NzcsLTE2OD
+g2OTE0ODksMTE1ODc1MTA1MywtMjEwNDgwMDY0NSwtMTU0NjY2
+ODk4Nyw0Njk4MTYwNzldfQ==
 -->

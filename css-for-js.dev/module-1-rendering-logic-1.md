@@ -330,11 +330,17 @@ footer  {
 8. Negative margins
 	- They also compete -> If you `-75px` and `-100px`, `-100px` wins.
 	- What about positive and negative? -> They add up, `+25px` and `-25px` = `0px`
+9. Multiple positive and negative margins
+	The algorithm works like this: 
+	- Find the largest positive margin
+	- Find the largest negative margin 
+	-   Add those two numbers together
+11. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDY0MDA0Miw5NjU1NDYyMjIsLTk3NT
+eyJoaXN0b3J5IjpbMTgxNjkyMzQ1Myw5NjU1NDYyMjIsLTk3NT
 A4NjMzMiwtMTg5OTk4NjA2LC0yMDUyNzIxNjYzLC0xNTY1NDgx
 MTkxLC0xMjQyNzUxNzY1LC0xMDI5MTg3OTI0LDEyNTI4Mjg1MT
 AsLTE4NjMyMDgyNjQsMTQzODI1NzA1OSwtMTMyMDQ4MDIwMSwx

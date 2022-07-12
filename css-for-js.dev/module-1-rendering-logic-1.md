@@ -320,7 +320,7 @@ footer  {
 	3. Gap (for example if the parent has a specified height which create more space than the child's margin)
 	4. Scroll container
 	
-6. Margins can collapse in the same direction
+6. Margins (parent and child) can collapse in the same direction
 	- This means that if both the child and the parent have `margin-top`, the one with the biggest margin wins! 
 	🤯 **0px margin is still a collapsible margin**, so if the parent has no margin specified, it still becomes a fight for the biggest margin 🤯
 8. 
@@ -328,7 +328,7 @@ footer  {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxNjM2NDk2LC05NzUwODYzMzIsLTE4OT
+eyJoaXN0b3J5IjpbOTY1NTQ2MjIyLC05NzUwODYzMzIsLTE4OT
 k5ODYwNiwtMjA1MjcyMTY2MywtMTU2NTQ4MTE5MSwtMTI0Mjc1
 MTc2NSwtMTAyOTE4NzkyNCwxMjUyODI4NTEwLC0xODYzMjA4Mj
 Y0LDE0MzgyNTcwNTksLTEzMjA0ODAyMDEsMTQ4MDMxNDE4LDE0

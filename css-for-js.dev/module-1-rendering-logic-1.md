@@ -334,13 +334,13 @@ footer  {
 	The algorithm works like this: 
 	- Find the largest positive margin
 	- Find the largest negative margin 
-	-   Add those two numbers together
-11. 
+	- Add those two numbers together
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjkyMzQ1Myw5NjU1NDYyMjIsLTk3NT
+eyJoaXN0b3J5IjpbMjA2MDY2NDcxOSw5NjU1NDYyMjIsLTk3NT
 A4NjMzMiwtMTg5OTk4NjA2LC0yMDUyNzIxNjYzLC0xNTY1NDgx
 MTkxLC0xMjQyNzUxNzY1LC0xMDI5MTg3OTI0LDEyNTI4Mjg1MT
 AsLTE4NjMyMDgyNjQsMTQzODI1NzA1OSwtMTMyMDQ4MDIwMSwx

@@ -323,20 +323,20 @@ footer  {
 6. Margins (parent and child) can collapse in the same direction
 	- This means that if both the child and the parent have `margin-top`, the one with the biggest margin wins! 
 	🤯 **0px margin is still a collapsible margin**, so if the parent has no margin specified, it still becomes a fight for the biggest margin 🤯
-7. More than two margins can collapse -> Com
- - Siblings can combine adjacent margins (if the first element has margin-bottom, and the second one has margin-top)
-    
--   A parent and child can combine margins in the same direction
+7. More than two margins can collapse -> Combination of previous rules:
+	 - Siblings can combine adjacent margins (if the first element has margin-bottom, and the second one has margin-top)
+	-   A parent and child can combine margins in the same direction
+	(You can essentially have 2 parents and 2 children with each a separate margin, but the biggest margin wins)
 9. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MTMyODM5LDk2NTU0NjIyMiwtOTc1MD
-g2MzMyLC0xODk5OTg2MDYsLTIwNTI3MjE2NjMsLTE1NjU0ODEx
-OTEsLTEyNDI3NTE3NjUsLTEwMjkxODc5MjQsMTI1MjgyODUxMC
-wtMTg2MzIwODI2NCwxNDM4MjU3MDU5LC0xMzIwNDgwMjAxLDE0
-ODAzMTQxOCwxNDgwMzE0MTgsLTI2ODMxMjI2NSwtMTgyNTI4MD
-Q5NywxOTE0NTU5Nzc3LC0xNjg4NjkxNDg5LDExNTg3NTEwNTMs
-LTIxMDQ4MDA2NDVdfQ==
+eyJoaXN0b3J5IjpbLTE2MDc5MjM4NDEsOTY1NTQ2MjIyLC05Nz
+UwODYzMzIsLTE4OTk5ODYwNiwtMjA1MjcyMTY2MywtMTU2NTQ4
+MTE5MSwtMTI0Mjc1MTc2NSwtMTAyOTE4NzkyNCwxMjUyODI4NT
+EwLC0xODYzMjA4MjY0LDE0MzgyNTcwNTksLTEzMjA0ODAyMDEs
+MTQ4MDMxNDE4LDE0ODAzMTQxOCwtMjY4MzEyMjY1LC0xODI1Mj
+gwNDk3LDE5MTQ1NTk3NzcsLTE2ODg2OTE0ODksMTE1ODc1MTA1
+MywtMjEwNDgwMDY0NV19
 -->

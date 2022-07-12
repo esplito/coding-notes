@@ -298,13 +298,13 @@ footer  {
 
 ### Rules 🚨 
 1. Only vertical margins collapse
-	2. 🤯 When block elements are horizontally stacked the rule flips 🛹 
-2. 
+	2. 🤯 When block elements are horizontally stacked the rule flips 🛹, horizontal margins are now collapsing 🤯 
+2. s
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODQ4ODA0NSwtMTU2NTQ4MTE5MSwtMT
+eyJoaXN0b3J5IjpbLTY0NTc4MTc4MCwtMTU2NTQ4MTE5MSwtMT
 I0Mjc1MTc2NSwtMTAyOTE4NzkyNCwxMjUyODI4NTEwLC0xODYz
 MjA4MjY0LDE0MzgyNTcwNTksLTEzMjA0ODAyMDEsMTQ4MDMxND
 E4LDE0ODAzMTQxOCwtMjY4MzEyMjY1LC0xODI1MjgwNDk3LDE5

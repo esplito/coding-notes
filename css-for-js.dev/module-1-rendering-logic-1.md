@@ -303,11 +303,13 @@ footer  {
 	- ℹ️ It does not collapse when using for example `display: flex` on the parent.
 3. Only adjacent elements collapse
 	- 🚨 Adding a `<br />` between them will break the collapse.
+4. The bigger margin wins 🏆
+	>This one feels intuitive if you think of margin as "personal space". If one person needs 6 feet of personal space, and another requires 8 feet of personal space, the two people will keep 8 feet apart.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NjQzOTE3MywtMjA1MjcyMTY2MywtMT
+eyJoaXN0b3J5IjpbLTE4OTk5ODYwNiwtMjA1MjcyMTY2MywtMT
 U2NTQ4MTE5MSwtMTI0Mjc1MTc2NSwtMTAyOTE4NzkyNCwxMjUy
 ODI4NTEwLC0xODYzMjA4MjY0LDE0MzgyNTcwNTksLTEzMjA0OD
 AyMDEsMTQ4MDMxNDE4LDE0ODAzMTQxOCwtMjY4MzEyMjY1LC0x

@@ -100,7 +100,7 @@ We can run this on pre-commit also:
 }
 ```
 
-### npm-run-all
+## npm-run-all
 
 > “I use npm scripts a lot, and that validate script is a great way to bring everything together. But with the way these tools work, we can run them all at the same time and things will work just as well. This will speed up our script runtime a lot, so let’s use [npm-run-all](https://npm.im/npm-run-all) to make that happen.” Kent C. Dodds
 
@@ -110,5 +110,5 @@ We can run this on pre-commit also:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4Nzg4Mzg0XX0=
+eyJoaXN0b3J5IjpbNDA0Mjc2MjUxXX0=
 -->

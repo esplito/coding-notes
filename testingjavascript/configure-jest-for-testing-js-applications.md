@@ -24,17 +24,20 @@ Kent prefers to run both linting and tests in the CI, so he has a script called 
 
 If you get a `Unexpected token error` it might be because node doesn't know how to handle an `import`-statement. (See  `__tests__/utils.js`)
 
-The reason why it doesn't know how to handle it is because we have set the `@babel/preset-env` to `modules: false`. We have this set, because we want webpack to handle our modules so that we can reap the benefits of tree-shaking.
+The reason why it doesn't know how to handle it is because we have set the `@babel/preset-env` to `modules: false` in our `.babelrc`. We have this set, because we want webpack to handle our modules so that we can reap the benefits of tree-shaking.
 
 However, if we remove it, our jest tests can be run without the error (but we no longer have tree-shaking 😢). 
 
 **The solution 🎉**
 ```js
-const isTest = String(process.env.NODE_ENV) === 'test'
-
+const isTest = String(process.env.NODE_ENV) === 'test';
+...
+...
+// inside module.exports
+'@babel/preset-env', {modules: isTest ? 'commonjs' : false}
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTkzNzY1OCw2MTc2MTAxNywyMDA5Nj
-UzNDg0XX0=
+eyJoaXN0b3J5IjpbMzkyNzA1ODk3LDYxNzYxMDE3LDIwMDk2NT
+M0ODRdfQ==
 -->

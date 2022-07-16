@@ -17,9 +17,9 @@ Kent prefers to run both linting and tests in the CI, so he has a script called 
 
 `validate` runs the following:
 ```json
-"setup": "npm run setup && npm run validate"
+"validate": "npm run lint && npm run test && npm run build",
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NjgwNTY0OCwyMDA5NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbNjE3NjEwMTcsMjAwOTY1MzQ4NF19
 -->

@@ -53,11 +53,11 @@ module.exports = {
 }
 ```
 
-
+## Support Importing CSS files with Jest’s moduleNameMapper
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDA2MjYyNDUsNjE3NjEwMTcsMjAwOT
-Y1MzQ4NF19
+eyJoaXN0b3J5IjpbMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5Nj
+UzNDg0XX0=
 -->

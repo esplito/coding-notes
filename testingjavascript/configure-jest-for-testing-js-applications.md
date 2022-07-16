@@ -5,12 +5,21 @@ Repo: [https://github.com/kentcdodds/jest-cypress-react-babel-webpack/tree/tjs/j
 
 ## Install and run Jest
 
-I
+1. Install jest:
+	 ```bash
+	npm install --save dev jest
+	```
 
 Kent prefers to run both linting and tests in the CI, so he has a script called `setup` which include the following:
-``
+```json
+"setup": "npm run setup && npm run validate"
+```
 
+`validate` runs the following:
+```json
+"setup": "npm run setup && npm run validate"
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU3MTk1ODEsMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbMTg2NjgwNTY0OCwyMDA5NjUzNDg0XX0=
 -->

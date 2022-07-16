@@ -1,58 +1,22 @@
-## Static Analysis Testing Javascript Applications
-
-  
+# Static Analysis Testing Javascript Applications
 
 Repo:
-
 [https://github.com/kentcdodds/static-testing-tools/tree/tjs/step-14](https://github.com/kentcdodds/static-testing-tools/tree/tjs/step-14)
 
-  
+## Eslint
+- “valid-typeof”: error -> CI will fail if there is faulty typeof in the code.
+- “valid-typeof”: warn -> CI will not fail but you’ll get a warning
+- “browser”: true eliminates some errors. For example if you get “console” is not defined
 
-### Eslint
-
-  
-
-“valid-typeof”: error -> CI will fail if there is faulty typeof in the code.
-
-  
-
-“valid-typeof”: warn -> CI will not fail but you’ll get a warning
-
-  
-
-“browser”: true eliminates some errors. For example if you get “console” is not
-
-defined
-
-  
-
-Use `.eslintignore` to not run eslint on “dist” and “node_modules” or add the
-
-following in your “scripts” in package.json:
-
-  
-
+Use `.eslintignore` to not run eslint on “dist” and “node_modules” or add the following in your “scripts” in package.json:
 `"lint": "eslint --ignore-path .gitignore .`
-
-  
 
 This will tell eslint to ignore the paths specified in the gitignore.
 
-  
-
-### Prettier
-
-  
-
-Run `npx prettier <file here>` to see the prettier version of the code in your
-
-terminal. Add `--write` if you want to overwrite the file.
-
-  
+## Prettier
+Run `npx prettier <file here>` to see the prettier version of the code in your terminal. Add `--write` if you want to overwrite the file.
 
 To enable prettier, go to your settings.json in VS code and use the following:
-
-  
 
 ```json
 {
@@ -75,7 +39,7 @@ To validate your files you can add “check-format” and a “validate” scrip
 }
 ```
 
-### Typescript
+## Typescript
 
 To make babel capable of parsing typescript, install its typescript-preset:
 
@@ -91,7 +55,7 @@ Our new build script that also checks typescript files:
 
 `"build": "babel src --extensions .js,.ts,.tsx --out-dir dist",`
 
-### Husky
+## Husky
 
 > “We have a few checks we’ll run in continuous integration when someone opens a pull request, but it’d be even better if we could run some of those checks before they even commit their code so they can fix it right away rather than waiting for CI to run. Let’s use husky’s precommit script to run our validation. “ - Kent C. Doods
 
@@ -146,5 +110,5 @@ We can run this on pre-commit also:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTUxNDE3MjhdfQ==
+eyJoaXN0b3J5IjpbNTI4Nzg4Mzg0XX0=
 -->

@@ -36,8 +36,12 @@ const isTest = String(process.env.NODE_ENV) === 'test';
 // inside module.exports
 '@babel/preset-env', {modules: isTest ? 'commonjs' : false}
 ```
+> "One thing that I want to call out here is the fact that jest picks up the .babelrc automatically." Kent C. Dodds
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNzA1ODk3LDYxNzYxMDE3LDIwMDk2NT
-M0ODRdfQ==
+eyJoaXN0b3J5IjpbMTI1NjkxMTg3OSw2MTc2MTAxNywyMDA5Nj
+UzNDg0XX0=
 -->

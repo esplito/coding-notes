@@ -38,10 +38,12 @@ const isTest = String(process.env.NODE_ENV) === 'test';
 ```
 > "One thing that I want to call out here is the fact that jest picks up the .babelrc automatically." Kent C. Dodds
 
+## Configure Jest’s Test Environment for Testing Node or Browser Code
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjkxMTg3OSw2MTc2MTAxNywyMDA5Nj
+eyJoaXN0b3J5IjpbLTY1MTY2ODQ3Myw2MTc2MTAxNywyMDA5Nj
 UzNDg0XX0=
 -->

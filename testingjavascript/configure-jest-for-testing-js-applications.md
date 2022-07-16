@@ -57,10 +57,21 @@ module.exports = {
 
 You might run into problems when trying to test a react component that imports a CSS module file (`something.module.css`).
 
-Then you most likely need to add some configuration for `moduleNameMapper` in 
+Then you most likely need to add some configuration for `moduleNameMapper` in your jest config.
+
+1. Create a file called `style-mock.js` that only contains `module.exports = {}`
+2. Change your `jest.config.js` to the following:
+```js
+module.exports = {
+  testEnvironment: 'jest-environment-jsdom',
+  moduleNameMapper: {
+    '\\.css$': require.resolve('./test/style-mock.js'),
+  },
+}
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU1NDUwNTE1LDEwMDk2NDUyODcsNjE3Nj
-EwMTcsMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNz
+YxMDE3LDIwMDk2NTM0ODRdfQ==
 -->

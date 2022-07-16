@@ -55,9 +55,12 @@ module.exports = {
 
 ## Support Importing CSS files with Jest’s moduleNameMapper
 
+You might run into problems when trying to test a react component that imports a CSS module file (`something.module.css`).
+
+Then you most likely need to add some configuration for `moduleNameMapper` in 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5Nj
-UzNDg0XX0=
+eyJoaXN0b3J5IjpbMzU1NDUwNTE1LDEwMDk2NDUyODcsNjE3Nj
+EwMTcsMjAwOTY1MzQ4NF19
 -->

@@ -144,88 +144,45 @@ Our new build script that also checks typescript files:
 
   
 
-.huskyrc example
-
-  
-
+`.huskyrc` example
 ```json
-
 {
-
-"hooks": {
-
-"pre-commit": "npm run validate"
-
+	"hooks": {
+		"pre-commit": "npm run validate"
+	}
 }
-
-}
-
 ```
 
-  
-
-> “What this is going to do is that hooks directory is built into Git Anytime
-
-> you do a commit, Git is going to run that pre-commit script that's in that
-
-> hooks directory. That pre-commit script that Husky created for us is actually
-
-> going to look up this configuration and run this script that we have here.”
-
-> Kent C. Dodds
-
-  
+> “What this is going to do is that hooks directory is built into Git Anytime you do a commit, Git is going to run that pre-commit script that's in that hooks directory. That pre-commit script that Husky created for us is actually going to look up this configuration and run this script that we have here.” Kent C. Dodds
 
 Another example of husky where we check types and use lint-staged:
 
-  
-
 ```json
-
 {
-
-"hooks": {
-
-"pre-commit": "npm run check-types && lint-staged"
-
+	"hooks": {
+		"pre-commit": "npm run check-types && lint-staged"
+	}
 }
-
-}
-
 ```
-
-  
 
 Our `.lintstagedrc`:
 
-  
-
 ```json
 
 {
-
-"*.js": ["eslint"],
-
-"*.+(js|json|ts)": ["prettier --write", "git add"]
-
+	"*.js": ["eslint"],
+	"*.+(js|json|ts)": ["prettier --write", "git add"]
 }
-
 ```
-
-  
 
 We can run this on pre-commit also:
 
-  
-
 ```json
-
 {
-"hooks": {
-"pre-commit": "npm run check-types && lint-staged && npm run build"
+	"hooks": {
+		"pre-commit": "npm run check-types && lint-staged && npm run build"
+	}
 }
-}
-
 ```
 
 ### npm-run-all
@@ -238,5 +195,5 @@ We can run this on pre-commit also:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzcxMzMzMl19
+eyJoaXN0b3J5IjpbMTA4NzI1Mzk4NF19
 -->

@@ -22,10 +22,12 @@ Kent prefers to run both linting and tests in the CI, so he has a script called 
 
 ## Compile Modules with Babel in Jest Tests
 
-If you get a `Unexpected token error` it might be because node doesn't know how to handle an `import`-statement. (See 
+If you get a `Unexpected token error` it might be because node doesn't know how to handle an `import`-statement. (See  `__tests__/utils.js`)
+
+The reason why it doesn't know how to handle it is beca
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE0NTkxMzAsNjE3NjEwMTcsMjAwOT
+eyJoaXN0b3J5IjpbLTEzOTIwNjI1MDUsNjE3NjEwMTcsMjAwOT
 Y1MzQ4NF19
 -->

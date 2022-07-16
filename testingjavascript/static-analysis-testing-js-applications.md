@@ -55,96 +55,47 @@ To enable prettier, go to your settings.json in VS code and use the following:
   
 
 ```json
-
 {
-
-"editor.defaultFormatter": "esbenp.pretter-vscode",
-
-"editor.formatOnSave": true
-
+	"editor.defaultFormatter": "esbenp.pretter-vscode",
+	"editor.formatOnSave": true
 }
-
 ```
-
-  
 
 To validate your files you can add “check-format” and a “validate” script.
 
-  
-
 ```json
-
 "scripts": {
-
-"build": "babel src --out-dir dist",
-
-"lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
-
-"check-types": "tsc",
-
-"prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
-
-"format": "npm run prettier -- --write",
-
-"check-format": "npm run prettier -- --list-different",
-
-"validate": "npm-run-all --parallel check-types check-format lint build"
-
+	"build": "babel src --out-dir dist",
+	"lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
+	"check-types": "tsc",
+	"prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+	"format": "npm run prettier -- --write",
+	"check-format": "npm run prettier -- --list-different",
+	"validate": "npm-run-all --parallel check-types check-format lint build"
 }
-
 ```
-
-  
 
 ### Typescript
 
-  
-
 To make babel capable of parsing typescript, install its typescript-preset:
 
-  
-
 ```bash
-
 npm install --save-dev @babel/preset-typescript
-
 ```
-
-  
 
 and add the following to your presets in the `.babelrc`:
 
-  
-
 `"@babel/preset-typescript"`
-
-  
 
 Our new build script that also checks typescript files:
 
-  
-
 `"build": "babel src --extensions .js,.ts,.tsx --out-dir dist",`
-
-  
 
 ### Husky
 
-  
+> “We have a few checks we’ll run in continuous integration when someone opens a pull request, but it’d be even better if we could run some of those checks before they even commit their code so they can fix it right away rather than waiting for CI to run. Let’s use husky’s precommit script to run our validation. “ - Kent C. Doods
 
-> “We have a few checks we’ll run in continuous integration when someone opens a
-
-> pull request, but it’d be even better if we could run some of those checks
-
-> before they even commit their code so they can fix it right away rather than
-
-> waiting for CI to run. Let’s use husky’s precommit script to run our
-
-> validation. “ - Kent C. Doods
-
-  
-
-`.huskyrc` example
+**`.huskyrc` example**
 ```json
 {
 	"hooks": {
@@ -165,7 +116,7 @@ Another example of husky where we check types and use lint-staged:
 }
 ```
 
-Our `.lintstagedrc`:
+**Our `.lintstagedrc`:**
 
 ```json
 
@@ -195,5 +146,5 @@ We can run this on pre-commit also:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzI1Mzk4NF19
+eyJoaXN0b3J5IjpbLTEwOTUxNDE3MjhdfQ==
 -->

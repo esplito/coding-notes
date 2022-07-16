@@ -40,10 +40,10 @@ const isTest = String(process.env.NODE_ENV) === 'test';
 
 ## Configure Jest’s Test Environment for Testing Node or Browser Code
 
-
+When running Jest, we can either run it in node
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTY2ODQ3Myw2MTc2MTAxNywyMDA5Nj
+eyJoaXN0b3J5IjpbMTY5NDkwODQwNCw2MTc2MTAxNywyMDA5Nj
 UzNDg0XX0=
 -->

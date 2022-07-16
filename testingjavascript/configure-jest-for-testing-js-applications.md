@@ -40,10 +40,19 @@ const isTest = String(process.env.NODE_ENV) === 'test';
 
 ## Configure Jest’s Test Environment for Testing Node or Browser Code
 
-When running Jest, we can either run it in node
+When running Jest, we can either run it in `node` or `jsdom`.  There's a little performance hit with using `jsdom`, so if your test code doesn't need access to the `window`-object, you could either run your test with the following command:
+
+```bash
+
+npm t -- --env=node
+```
+```
+
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDkwODQwNCw2MTc2MTAxNywyMDA5Nj
-UzNDg0XX0=
+eyJoaXN0b3J5IjpbLTE5NTQxODg5NTEsNjE3NjEwMTcsMjAwOT
+Y1MzQ4NF19
 -->

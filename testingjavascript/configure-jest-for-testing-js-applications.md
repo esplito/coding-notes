@@ -71,9 +71,12 @@ module.exports = {
 ```
 > "...the reason that this works in our application is because this is being bundled with webpack. We have webpack configured to handle CSS files with the CSS-loader and the style-loader. Webpack is managing this for our application and we simply needed to make Jest manage the same thing for our test." Kent C. Dodds
 
+## Support using Webpack CSS Modules with Jest
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMjI4Mjg0OCwtNjU3MzkzODU1LDEwMD
+eyJoaXN0b3J5IjpbMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMD
 k2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
 -->

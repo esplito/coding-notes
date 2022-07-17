@@ -84,11 +84,35 @@ We'll then get the name of the CSS Module className by adding the following to `
 
 ## Generate a Serializable Value with Jest Snapshots
 
-In
+Instead of having to manually update the `.toEqual` in the following test:
+```js
+import {getFlyingSuperHeros} from '../super-heros'
+
+test('returns returns super heros that can fly', () => {
+  const flyingHeros = getFlyingSuperHeros()
+  console.log(flyingHeroes)
+  expect(flyingHeros).toEqual([
+    {name: 'Dynaguy', powers: ['disintegration ray', 'fly']},
+    {name: 'Apogee', powers: ['gravity control', 'fly']},
+    {name: 'Jack-Jack', powers: ['shapeshift', 'fly']},
+  ])
+})
+```
+we could use `toMatchSnapshot`.
+```js
+import {getFlyingSuperHeros} from '../super-heros'
+
+test('returns returns super heros that can fly', () => {
+  const flyingHeros = getFlyingSuperHeros()
+  console.log(flyingHeroes)
+  expect(flyingHeros).toMatchSnapshot() // <-- This is the difference
+})
+```
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4MzA5MjU2LDYyNjIyMSwxNDE3Mzk5NT
-k0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5
-NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbLTE2NzEwMDIwNzMsNjI2MjIxLDE0MTczOT
+k1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIw
+MDk2NTM0ODRdfQ==
 -->

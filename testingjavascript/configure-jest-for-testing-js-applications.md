@@ -108,11 +108,11 @@ test('returns returns super heros that can fly', () => {
   expect(flyingHeros).toMatchSnapshot() // <-- This is the difference
 })
 ```
-
+The output of `.toMatchSnapshot` ends up in a ´
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzEwMDIwNzMsNjI2MjIxLDE0MTczOT
-k1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIw
-MDk2NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbMjA0MTEzOTE3MSw2MjYyMjEsMTQxNzM5OT
+U5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAw
+OTY1MzQ4NF19
 -->

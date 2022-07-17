@@ -176,12 +176,15 @@ One that I often use is `.toHaveTextContent`, which means that:
 	expect(myRandomDOMNode).toHaveTextContent("something")
 	```
 	and get an error message that says "Expected element to have text content _thisText_ but received _someOtherText_".
+
+## Support a Test Utilities File with Jest moduleDirectories
+
 	
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjcyNzQwNzcsLTEzNjg3ODM5NTQsNz
-Q5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwt
-NjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1Mz
-Q4NF19
+eyJoaXN0b3J5IjpbMjA2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OT
+YyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1
+NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0OD
+RdfQ==
 -->

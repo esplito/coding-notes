@@ -135,11 +135,13 @@ He mentions this when using `toMatchInlineSnapshot` with DOM nodes. Example: `ex
 
 ## Test an Emotion Styled UI with Custom Jest Snapshot Serializers
 
+**UPDATE: `jest-emotion` has been renamed to `@emotion/jest` and you add the serializer with `'@emotion/jest/serializer'` instead of simply `'jest-emotion'`.**
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTk1MzExMzcsLTcwMjYxODE0LDYyNj
-IyMSwxNDE3Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2
-MTc2MTAxNywyMDA5NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbMTE5NDYxMTg1OSwtNzAyNjE4MTQsNjI2Mj
+IxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYx
+NzYxMDE3LDIwMDk2NTM0ODRdfQ==
 -->

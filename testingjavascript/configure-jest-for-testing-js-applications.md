@@ -277,12 +277,12 @@ Wrapper.propTypes = {
 export * from '@testing-librasry/react'
 export {render}
 ```
-I have used this approach for giving developers the possibilities to  set their own Redux Store in their tests. 
+I have previously used this approach to give developers the possibility to set some initial values of the redux store in their tests. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODA3MzgzMywyMDYxOTczNTIsLTEzNj
-g3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQx
-NzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMT
-csMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbLTEzNzI0OTg3NDIsMjA2MTk3MzUyLC0xMz
+Y4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0
+MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMD
+E3LDIwMDk2NTM0ODRdfQ==
 -->

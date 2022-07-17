@@ -122,13 +122,15 @@ Inspect your code changes or run npm test -- -u to update them
 
 If this shouldn't have happened, we'll have to check our code and make sure to fix the bug, but if it was correct, we can just run the specified command to update the snapshot.
 
->"A snapshot is an assertion that lives in two places, the assertion living in the `test()`, and then the actual snapshot value living in the .snap file. You're going to want to commit this file to src control. 
+>"A snapshot is an assertion that lives in two places, the assertion living in the `test()`, and then the actual snapshot value living in the .snap file. You're going to want to commit this file to source control. 
 >
 > One of the problems with snapshots though is that they can get very long and, having them live in a separate file, makes it harder to review." - Kent C. Dodds
 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDU0MzQ3NjAsNjI2MjIxLDE0MTczOT
-k1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIw
-MDk2NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbNjg0NzU0ODQ1LDYyNjIyMSwxNDE3Mzk5NT
+k0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5
+NjUzNDg0XX0=
 -->

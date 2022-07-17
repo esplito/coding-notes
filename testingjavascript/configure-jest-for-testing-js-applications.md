@@ -145,11 +145,16 @@ By adding the emotion jest serializer  `snapShotSerializer` to the `jest.config.
 
 > "Webpack’s resolve.modules configuration is a great way to make common application utilities easily accessible throughout your application. We can emulate this same behavior in Jest using the moduleDirectories configuration option." - Kent C. Dodds
 
-`resolve.modules` makes it possible to import shared modules as if they were a module inside `node_modules`.
+`resolve.modules` makes it possible to import shared modules as if they were a module inside `node_modules`. However this import is not supported by default in node. We'll need to add the following to the `jest.config.js`:
+```js
+moduleDirectories: ['node_modules', path.join(__dirname, 'src'), 'shared'],
+```
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk3MTMyMDEsNzQ5NjI2NzMzLC03MD
+eyJoaXN0b3J5IjpbLTE0NjI0NTgyNjEsNzQ5NjI2NzMzLC03MD
 I2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEw
 MDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
 -->

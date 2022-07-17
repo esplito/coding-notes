@@ -324,11 +324,14 @@ We add `--runInBand` because we need the tests to run inside the same Node proce
 
 If we have added a `debugger` statement in our code, the Chrome Devtools will now wait at the `debugger`-statement and we can step through the code.
 
+## Configure Jest to Report Code Coverage on Project Files
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODM3MjMxNjEsOTI3ODA4NDgyLDE2Mj
-EzODk3MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjcz
-MywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mz
-g1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
-
+eyJoaXN0b3J5IjpbNDMwMDkyOTU0LDkyNzgwODQ4MiwxNjIxMz
+g5NzMzLDIwNjE5NzM1MiwtMTM2ODc4Mzk1NCw3NDk2MjY3MzMs
+LTcwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02NTczOTM4NT
+UsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5NjUzNDg0XX0=
 -->

@@ -285,7 +285,7 @@ This is amazing! 🥳 I use it all the time. 🤩
 Jest watch mode can be used in various different modes:
 
 - **a** = run _all_ tests 
-- **o** = run changes 
+- **o** = only run _tests related to changed files_
 - **f** = run only _failed_ tests
 - **p** = filter by _filename_ regex pattern
 - **t** = filter by _testname_ regex pattern
@@ -294,9 +294,10 @@ Jest watch mode can be used in various different modes:
 - **q** = quit
 
 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzQxODA5MCwyMDYxOTczNTIsLTEzNj
+eyJoaXN0b3J5IjpbMTYyMTM4OTczMywyMDYxOTczNTIsLTEzNj
 g3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQx
 NzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMT
 csMjAwOTY1MzQ4NF19

@@ -252,12 +252,37 @@ Now the ESLint error, will be gone. We still get warnings if make a typo in the 
 
 One improvement that Kent mentions is to add the possible to pass in custom options in our `render`.  Something like:
 ```jsx
-render(<MyComponent />, { theme: 
+render(<MyComponent />, { theme: 'light'})
 ```
+
+This can be done by changing our `render` that we have inside our `test-utils.js`-file:
+```jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+import {render as rtlRender} from '@testing-library/react'
+import {render} from '@testing-library/react'
+import {ThemeProvider} from 'emotion-theming'
+import {dark} from '../src/themes'
+
+function render(ui, {theme = themes.dark, ...options}) {
+  function Wrapper({children}) {
+    return <ThemeProvider theme={theme}>{children}</ThemeProvider>
+}
+Wrapper.propTypes = {
+  children: PropTypes.node,
+}
+  return rtlRender(ui, {wrapper: Wrapper, ...options}}
+}
+
+export * from '@testing-librasry/react'
+export {render}
+```
+I have used this approach for giving developers the possibilities to  set their own Redux Store in their tests. 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0NjczNzg5LDIwNjE5NzM1MiwtMTM2OD
-c4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3
-Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNy
-wyMDA5NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbMjA2ODA3MzgzMywyMDYxOTczNTIsLTEzNj
+g3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQx
+NzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMT
+csMjAwOTY1MzQ4NF19
 -->

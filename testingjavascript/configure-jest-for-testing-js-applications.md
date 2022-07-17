@@ -165,17 +165,22 @@ setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
 You can find the list of custom matchers here: https://github.com/testing-library/jest-dom#custom-matchers
 
 One that I often use is `.toHaveTextContent`, which means that:
-1. I don't have to write 
+1. I don't have to write: 
 	```js
 	expect(myRandomDOMNode.textContent).toBe("something")
 	```
-	and get an error message that says something like "Rece"
-
+	and get an error message that says something like "Received _thisText_ but expected _someOtherText_".
+2. I can instead write: 
+	```js
+	expect(myRandomDOMNode).toHaveTextContent("something")
+	```
+	and get an error message that
+	
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3OTgyMTczLC0xMzY4NzgzOTU0LDc0OT
-YyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1
-NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0OD
-RdfQ==
+eyJoaXN0b3J5IjpbMTEwNTQxNjYwMiwtMTM2ODc4Mzk1NCw3ND
+k2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02
+NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5NjUzND
+g0XX0=
 -->

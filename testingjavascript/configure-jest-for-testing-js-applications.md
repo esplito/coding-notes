@@ -150,11 +150,12 @@ By adding the emotion jest serializer  `snapShotSerializer` to the `jest.config.
 moduleDirectories: ['node_modules', path.join(__dirname, 'src'), 'shared'],
 ```
 
+## Configure Jest to Run Setup for All Tests with Jest setupFilesAfterEnv
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjI0NTgyNjEsNzQ5NjI2NzMzLC03MD
+eyJoaXN0b3J5IjpbLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MD
 I2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEw
 MDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
 -->

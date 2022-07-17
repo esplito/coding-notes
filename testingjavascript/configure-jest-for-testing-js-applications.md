@@ -152,10 +152,11 @@ moduleDirectories: ['node_modules', path.join(__dirname, 'src'), 'shared'],
 
 ## Configure Jest to Run Setup for All Tests with Jest setupFilesAfterEnv
 
-
+When using the `.toBe`-assertion 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MD
-I2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEw
-MDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbLTE4NjY2MDM1NjIsLTEzNjg3ODM5NTQsNz
+Q5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwt
+NjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1Mz
+Q4NF19
 -->

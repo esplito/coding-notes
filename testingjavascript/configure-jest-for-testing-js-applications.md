@@ -126,11 +126,11 @@ If this shouldn't have happened, we'll have to check our code and make sure to f
 >
 > One of the problems with snapshots though is that they can get very long and, having them live in a separate file, makes it harder to review." - Kent C. Dodds
 
-
+Kent instead recommends the use of `toMatchInlineSnapshot` which will automatically add the snapshot string inside the test instead.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0NzU0ODQ1LDYyNjIyMSwxNDE3Mzk5NT
+eyJoaXN0b3J5IjpbLTcwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NT
 k0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5
 NjUzNDg0XX0=
 -->

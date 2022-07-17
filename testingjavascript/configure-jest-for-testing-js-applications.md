@@ -318,12 +318,17 @@ However, this doesn't quite cut it yet! We need to tell it where the jest binary
 ```json
 "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch"
 ```
-We add `--runInBand` because we need the tests to run inside the same Node process. We also add `--watch` because it's n
+We add `--runInBand` because we need the tests to run inside the same Node process. We also add `--watch` because it's nice to have.
+
+> If you open up Chrome and go to **chrome://inspect**, that will take you to this special view where I'll show you the different debugger sessions available.
+
+If we have added a `debugger` statement in our code, the Chrome Devtools will now wait at the `debugger`-statement and we can step through the code.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTM5ODkxMyw5Mjc4MDg0ODIsMTYyMT
-M4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMz
-LC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzOD
-U1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbLTE3ODM3MjMxNjEsOTI3ODA4NDgyLDE2Mj
+EzODk3MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjcz
+MywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mz
+g1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
+
 -->

@@ -237,7 +237,7 @@ overrides: [
   ],
 ```
 
-Now the ESLint error, will be gone. We still get warnings if make a typo in the import though. If we want to be able to hit F12 and get directly to the `test-utils.js`-file we can add `test/*` to our jsconfig.json:
+Now the ESLint error, will be gone. We still get warnings if make a typo in the import though. If we want to be able to hit F12 and get directly to the `test-utils.js`-file we can add `test/*` to our `jsconfig.json` (or tsconfig.json if we use TS):
 ```json
 {
   "compilerOptions": {
@@ -254,8 +254,8 @@ Now the ESLint error, will be gone. We still get warnings if make a typo in the 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTI4MDc0LDIwNjE5NzM1MiwtMTM2OD
-c4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3
-Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNy
-wyMDA5NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbMTMyMTk5NDcxOCwyMDYxOTczNTIsLTEzNj
+g3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQx
+NzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMT
+csMjAwOTY1MzQ4NF19
 -->

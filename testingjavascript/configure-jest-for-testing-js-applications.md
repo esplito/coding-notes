@@ -237,11 +237,14 @@ overrides: [
   ],
 ```
 
+Now the ESLint error, will be gone. We still get warnings if make a typo in the import though. IF
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDI0MjgyLDIwNjE5NzM1MiwtMTM2OD
-c4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3
-Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNy
-wyMDA5NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbLTE0MDUxNTY3NjYsMjA2MTk3MzUyLC0xMz
+Y4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0
+MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMD
+E3LDIwMDk2NTM0ODRdfQ==
 -->

@@ -110,13 +110,13 @@ test('returns returns super heros that can fly', () => {
 ```
 The output of `.toMatchSnapshot` ends up in a `.snap`-file.
 
-> "What Jest is doing is it takes the object that we pass to the assertion, and it serializes it into a string and saves that string into this file." Kent C. Dodds
+> "What Jest is doing is it takes the object that we pass to the assertion, and it serializes it into a string and saves that string into this file." - Kent C. Dodds
 >
-> "Part of the serialization process is giving a label to these. It's not like a JSON stringify. It's giving a label to each one of these objects so that it's more clear what these things are. We have basically the same output that we had when we copy/pasted, except _we didn't have to do this manually_."  Kent C. Dodds
+> "Part of the serialization process is giving a label to these. It's not like a JSON stringify. It's giving a label to each one of these objects so that it's more clear what these things are. We have basically the same output that we had when we copy/pasted, except _we didn't have to do this manually_." - Kent C. Dodds
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTgxMzYyOCw2MjYyMjEsMTQxNzM5OT
+eyJoaXN0b3J5IjpbMTI4MzQxOTgxMiw2MjYyMjEsMTQxNzM5OT
 U5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAw
 OTY1MzQ4NF19
 -->

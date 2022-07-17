@@ -208,13 +208,21 @@ export {render}
 
 With this we can use `render` in our tests just as before, but with the benefit of it wrapping our rendered component with a ThemeProvider (from `@emotion`). I normally use this for wrapping with providers from `redux`, `react-query` and `react-router`. 
 
-If we want to be able to import the `test-utils.js` without having loads of `../../..`, we can use `moduleDirectories` 
+If we want to be able to import the `test-utils.js` without having loads of `../../..`, we can use `moduleDirectories` inside `jest-config.js` and add:
+```js
+// this is the folder where test-utils.js lives
+path.join(__dirname, 'test'),
+```
+
+This might however give you an ESLint error and then you need to the following 2 steps:
+1. Install `eslint-import-resolver-jest`
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxNDY1NzQxLDIwNjE5NzM1MiwtMTM2OD
-c4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3
-Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNy
-wyMDA5NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbMTAyMTY4MjkzNywyMDYxOTczNTIsLTEzNj
+g3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQx
+NzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMT
+csMjAwOTY1MzQ4NF19
 -->

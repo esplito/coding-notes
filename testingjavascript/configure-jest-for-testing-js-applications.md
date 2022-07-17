@@ -237,14 +237,25 @@ overrides: [
   ],
 ```
 
-Now the ESLint error, will be gone. We still get warnings if make a typo in the import though. IF
+Now the ESLint error, will be gone. We still get warnings if make a typo in the import though. If we want to be able to hit F12 and get directly to the `test-utils.js`-file we can add `test/*` to our jsconfig.json:
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*", "src/shared/*", "test/*"]
+    }
+  },
+  "include": ["src", "test/*"]
+}
+```
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUxNTY3NjYsMjA2MTk3MzUyLC0xMz
-Y4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0
-MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMD
-E3LDIwMDk2NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbMTI3MTI4MDc0LDIwNjE5NzM1MiwtMTM2OD
+c4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3
+Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNy
+wyMDA5NjUzNDg0XX0=
 -->

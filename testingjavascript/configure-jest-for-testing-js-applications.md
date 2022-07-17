@@ -137,11 +137,11 @@ He mentions this when using `toMatchInlineSnapshot` with DOM nodes. Example: `ex
 
 **UPDATE: `jest-emotion` has been renamed to `@emotion/jest` and you add the serializer with `'@emotion/jest/serializer'` instead of simply `'jest-emotion'`.**
 
-By adding a `snapShotSerializer` to the `jest.config.js` 
+By adding the emotion jest serializer  `snapShotSerializer` to the `jest.config.js`  we'll get more readable classnames (example: `emotion-0`) generated for the css in the tests. You also get the CSS in the snap
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzIwNDQyMSwtNzAyNjE4MTQsNjI2Mj
-IxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYx
-NzYxMDE3LDIwMDk2NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbODAxMzcwMzg4LC03MDI2MTgxNCw2MjYyMj
+EsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3
+NjEwMTcsMjAwOTY1MzQ4NF19
 -->

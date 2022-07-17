@@ -182,6 +182,7 @@ One that I often use is `.toHaveTextContent`, which means that:
 It's not the first time that I see this utils-file for wrapping React Testing Library's render function, but I might as well paste in here anyway:
 
 ```jsx
+// test-utils.js
 import React from 'react'
 import PropTypes from 'prop-types'
 import {render as rtlRender} from '@testing-library/react'
@@ -207,12 +208,12 @@ export {render}
 
 With this we can use `render` in our tests just as before, but with the benefit of it wrapping our rendered component with a ThemeProvider (from `@emotion`). I normally use this for wrapping with providers from `redux`, `react-query` and `react-router`. 
 
-
+If we want to be able to import the `test-utils.js` without having loads of `../../..`, we can use `moduleDirectories` 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEwMDk2MDY4LDIwNjE5NzM1MiwtMTM2OD
+eyJoaXN0b3J5IjpbOTcxNDY1NzQxLDIwNjE5NzM1MiwtMTM2OD
 c4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3
 Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNy
 wyMDA5NjUzNDg0XX0=

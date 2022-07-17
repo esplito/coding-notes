@@ -292,12 +292,14 @@ Jest watch mode can be used in various different modes:
 - **u** = update snapshots
 - **i** = update snapshots interactively = it runs each test 1-by-1 and let you decide if you want to update the snapshot or skip it.
 - **q** = quit
+- **Enter** = trigger a new test run
 
-You c
+You can combine **p** and **t** to filter which tests to run.
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzgwNDU2NjMsMTYyMTM4OTczMywyMD
+eyJoaXN0b3J5IjpbLTEyNTAyNTQyMTUsMTYyMTM4OTczMywyMD
 YxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgx
 NCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2ND
 UyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19

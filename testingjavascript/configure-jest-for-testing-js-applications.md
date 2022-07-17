@@ -143,11 +143,11 @@ By adding the emotion jest serializer  `snapShotSerializer` to the `jest.config.
 
 ## Support Custom Module Resolution with Jest moduleDirectories
 
-
+> "Webpack’s resolve.modules configuration is a great way to make common application utilities easily accessible throughout your application. We can emulate this same behavior in Jest using the moduleDirectories configuration option." - Kent C. Dodds
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMj
-EsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3
-NjEwMTcsMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbLTY4MDY3ODY2MCw3NDk2MjY3MzMsLTcwMj
+YxODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02NTczOTM4NTUsMTAw
+OTY0NTI4Nyw2MTc2MTAxNywyMDA5NjUzNDg0XX0=
 -->

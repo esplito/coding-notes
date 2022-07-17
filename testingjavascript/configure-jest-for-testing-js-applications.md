@@ -282,12 +282,17 @@ I have previously used this approach to give developers the possibility to set s
 ## Use Jest Watch Mode to Speed Up Development
 
 This is amazing! 🥳 I use it all the time. 🤩
+Jest watch mode can be used in various different modes:
+
+- *a* = run _all_ tests 
+- f = run only failed tests
+- 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAyMzU5NTUsMjA2MTk3MzUyLC0xMz
-Y4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0
-MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMD
-E3LDIwMDk2NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbLTg5MjEwOTk1NiwyMDYxOTczNTIsLTEzNj
+g3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQx
+NzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMT
+csMjAwOTY1MzQ4NF19
 -->

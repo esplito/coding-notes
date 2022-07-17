@@ -304,12 +304,19 @@ You can combine **p** and **t** to filter which tests to run.
 
 ## Step through Code in Jest using the Node.js Debugger and Chrome DevTools
 
+> "What I really want to be able to do is just add a debugger statement in here and have my browser dev tools stop right there. I can do that in the browser, but I can't do it when I'm running my test. Or can I?" - Kent C. Dodds
 
+Answer: Yes! ✅
+
+We can add a new script to our `package.json`:
+```json
+"	
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3ODA4NDgyLDE2MjEzODk3MzMsMjA2MT
-k3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQs
-NjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mj
-g3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbLTM5MjEzNDA0MCw5Mjc4MDg0ODIsMTYyMT
+M4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMz
+LC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzOD
+U1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
 -->

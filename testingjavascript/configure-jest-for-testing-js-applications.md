@@ -157,13 +157,20 @@ When using the `.toBe`-assertion we don't get so great explanations to why somet
 npm install --save-dev @testing-library/jest-dom
 ```
 
-Then if we just add the following to o
+Then if we just add the following to our `jest.config.js`, we'll have the new assertions available in all the test files:
+```js
+setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
+``` 
+
+You can find the list of custom matchers here: https://github.com/testing-library/jest-dom#custom-matchers
+
+One that I often use is `.toHaveTextContent`
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxMjAxODQxLC0xMzY4NzgzOTU0LDc0OT
-YyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1
-NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0OD
-RdfQ==
+eyJoaXN0b3J5IjpbLTEzMzk4MTg5ODYsLTEzNjg3ODM5NTQsNz
+Q5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwt
+NjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1Mz
+Q4NF19
 -->

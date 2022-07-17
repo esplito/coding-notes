@@ -216,13 +216,32 @@ path.join(__dirname, 'test'),
 
 This might however give you an ESLint error and then you need to the following 2 steps:
 1. Install `eslint-import-resolver-jest`
-
+	```bash
+	npm install --save-dev eslint-import-resolver-jest
+	```
+2. In our  `.eslintrc.js` we need to add an override similar to what we have for webpack:
+```js
+overrides: [
+    {
+      files: ['**/src/**'],
+      settings: {'import/resolver': 'webpack'},
+    },
+    {
+      files: ['**/__test__/**'],
+      settings: {
+        'import/resolver': {
+          jest: {
+            jestConfigFile: path.join(__dirname, './jest.config)
+        },
+    }},
+  ],
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTY4MjkzNywyMDYxOTczNTIsLTEzNj
-g3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQx
-NzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMT
-csMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbLTQ0NDI0MjgyLDIwNjE5NzM1MiwtMTM2OD
+c4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3
+Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNy
+wyMDA5NjUzNDg0XX0=
 -->

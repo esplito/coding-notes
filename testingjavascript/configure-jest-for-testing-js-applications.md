@@ -312,11 +312,11 @@ We can add a new script to our `package.json`:
 ```json
 	"test:debug": "node --inspect-brk",	
 ```
-`--inspect-brk` means "inspect break" and this in turn mean that Node will spin up a process
+`--inspect-brk` means "inspect break" and this in turn mean that Node will spin up a process and before it runs any code, it will add a breakpoint. You can then hook up that Node process to the Chrome Debugger!
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjk4MjM0OCw5Mjc4MDg0ODIsMTYyMT
+eyJoaXN0b3J5IjpbLTU3NDA1ODAzNiw5Mjc4MDg0ODIsMTYyMT
 M4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMz
 LC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzOD
 U1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19

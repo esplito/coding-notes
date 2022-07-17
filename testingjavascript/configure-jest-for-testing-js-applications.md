@@ -77,7 +77,7 @@ If you want the `className` to be populated during tests, you can install `ident
 ```bash
 npm install --save dev identity-obj-proxy
 ```
-We'll then get the name of the CSS Module class by adding the following to `moduleNameMapper` inside the `jest.config.js`:
+We'll then get the name of the CSS Module className by adding the following to `moduleNameMapper` inside the `jest.config.js`:
 ```js
 '\\.module\\.css$': 'identity-obj-proxy',
 ```
@@ -85,7 +85,7 @@ We'll then get the name of the CSS Module class by adding the following to `modu
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MDQ5NzMsMTQxNzM5OTU5NCwtNjU3Mz
-kzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
-
+eyJoaXN0b3J5IjpbLTYzODU3MzMxMCwxNDE3Mzk5NTk0LC02NT
+czOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5NjUzNDg0
+XX0=
 -->

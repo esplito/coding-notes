@@ -169,18 +169,19 @@ One that I often use is `.toHaveTextContent`, which means that:
 	```js
 	expect(myRandomDOMNode.textContent).toBe("something")
 	```
-	and get an error message that says something like "Received _thisText_ but expected _someOtherText_".
+	and get an error message that says something like "Expected _thisText_ but received _someOtherText_".
+	
 2. I can instead write: 
 	```js
 	expect(myRandomDOMNode).toHaveTextContent("something")
 	```
-	and get an error message that
+	and get an error message that says "Expected element to have text content _thisText_ but received _someOtherText_".
 	
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTQxNjYwMiwtMTM2ODc4Mzk1NCw3ND
-k2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02
-NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5NjUzND
-g0XX0=
+eyJoaXN0b3J5IjpbLTE0MjcyNzQwNzcsLTEzNjg3ODM5NTQsNz
+Q5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwt
+NjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1Mz
+Q4NF19
 -->

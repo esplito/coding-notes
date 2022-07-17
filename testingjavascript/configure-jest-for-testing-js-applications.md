@@ -310,12 +310,13 @@ Answer: Yes! ✅
 
 We can add a new script to our `package.json`:
 ```json
-"	
+	"test:debug": "node --inspect-brk",	
 ```
+`--inspect-brk` means "inspect break" and this in turn mean that Node will spin up a process
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjEzNDA0MCw5Mjc4MDg0ODIsMTYyMT
+eyJoaXN0b3J5IjpbLTcyMjk4MjM0OCw5Mjc4MDg0ODIsMTYyMT
 M4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMz
 LC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzOD
 U1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19

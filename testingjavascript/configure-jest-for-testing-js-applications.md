@@ -73,10 +73,15 @@ module.exports = {
 
 ## Support using Webpack CSS Modules with Jest
 
+If you want the `className` to be populated during tests, you can install `identity-obj-proxy`:
+```bash
+npm install --save dev identity-obj-proxy
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMD
-k2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbMTU0MjU5Mjk0MiwxNDE3Mzk5NTk0LC02NT
+czOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5NjUzNDg0
+XX0=
 -->

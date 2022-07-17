@@ -302,11 +302,14 @@ Jest watch mode can be used in various different modes:
 
 You can combine **p** and **t** to filter which tests to run.
 
+## Step through Code in Jest using the Node.js Debugger and Chrome DevTools
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTk2MDI3MzksMTYyMTM4OTczMywyMD
-YxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgx
-NCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2ND
-UyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbOTI3ODA4NDgyLDE2MjEzODk3MzMsMjA2MT
+k3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQs
+NjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mj
+g3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
 -->

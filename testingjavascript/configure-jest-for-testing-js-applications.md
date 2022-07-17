@@ -114,11 +114,13 @@ The output of `.toMatchSnapshot` ends up in a `.snap`-file.
 >
 > "Part of the serialization process is giving a label to these. It's not like a JSON stringify. It's giving a label to each one of these objects so that it's more clear what these things are. We have basically the same output that we had when we copy/pasted, except _we didn't have to do this manually_." - Kent C. Dodds
 
-If we make a code change that affects the output of `getFlyingSuperHeros`The jest runner will then tell us 
-
+If we make a code change that affects the output of `getFlyingSuperHeros()`, the jest runner will then tell us that the snapshot failed:
+```bash
+1 snapshot failed from 1 test suite. Inspect your code changes or run npm test -- -u
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjMzMjE5NSw2MjYyMjEsMTQxNzM5OT
+eyJoaXN0b3J5IjpbMTc2Nzc0ODgyMCw2MjYyMjEsMTQxNzM5OT
 U5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAw
 OTY1MzQ4NF19
 -->

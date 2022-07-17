@@ -279,9 +279,14 @@ export {render}
 ```
 I have previously used this approach to give developers the possibility to set some initial values of the redux store in their tests. 
 
+## Use Jest Watch Mode to Speed Up Development
+
+This is amazing! 🥳 I use it all the time. 🤩
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzI0OTg3NDIsMjA2MTk3MzUyLC0xMz
+eyJoaXN0b3J5IjpbLTEwNzAyMzU5NTUsMjA2MTk3MzUyLC0xMz
 Y4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0
 MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMD
 E3LDIwMDk2NTM0ODRdfQ==

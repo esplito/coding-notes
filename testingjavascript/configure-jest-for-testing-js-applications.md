@@ -82,10 +82,13 @@ We'll then get the name of the CSS Module className by adding the following to `
 '\\.module\\.css$': 'identity-obj-proxy',
 ```
 
+## Generate a Serializable Value with Jest Snapshots
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODU3MzMxMCwxNDE3Mzk5NTk0LC02NT
-czOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5NjUzNDg0
-XX0=
+eyJoaXN0b3J5IjpbNjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mz
+g1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
+
 -->

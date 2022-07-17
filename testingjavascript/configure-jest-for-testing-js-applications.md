@@ -137,11 +137,17 @@ He mentions this when using `toMatchInlineSnapshot` with DOM nodes. Example: `ex
 
 **UPDATE: `jest-emotion` has been renamed to `@emotion/jest` and you add the serializer with `'@emotion/jest/serializer'` instead of simply `'jest-emotion'`.**
 
-By adding the emotion jest serializer  `snapShotSerializer` to the `jest.config.js`  we'll get more readable classnames (example: `emotion-0`) generated for the css in the tests. You also get the CSS in the snap
+By adding the emotion jest serializer  `snapShotSerializer` to the `jest.config.js`  we'll get more readable classnames (example: `emotion-0`) generated for the css in the tests. You also get the CSS in the snapshot with the changes you made to the CSS. 💅
+
+> ℹ️ The serializer makes it easier to see the changes made to the CSS!
+
+## Support Custom Module Resolution with Jest moduleDirectories
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxMzcwMzg4LC03MDI2MTgxNCw2MjYyMj
+eyJoaXN0b3J5IjpbNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMj
 EsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3
 NjEwMTcsMjAwOTY1MzQ4NF19
 -->

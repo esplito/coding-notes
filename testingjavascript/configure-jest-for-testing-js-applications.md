@@ -281,7 +281,7 @@ I have previously used this approach to give developers the possibility to set s
 
 ## Use Jest Watch Mode to Speed Up Development
 
-Run `jest --watch` or create your own script so you can run `npm run test:watch`: 
+Run `jest --watch` or create your own script so you can run `npm run test:watch`
 ```json
 scripts: {
 	"test:watch": "jest --watch"
@@ -305,8 +305,8 @@ You can combine **p** and **t** to filter which tests to run.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTQ4MTY1MSwxNjIxMzg5NzMzLDIwNj
-E5NzM1MiwtMTM2ODc4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0
-LDYyNjIyMSwxNDE3Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NT
-I4Nyw2MTc2MTAxNywyMDA5NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbLTE4OTk2MDI3MzksMTYyMTM4OTczMywyMD
+YxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgx
+NCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2ND
+UyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
 -->

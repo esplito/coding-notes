@@ -133,11 +133,13 @@ Kent instead recommends the use of `toMatchInlineSnapshot` which will automatica
 
 He mentions this when using `toMatchInlineSnapshot` with DOM nodes. Example: `expect(container).toMatchInlineSnapshot()`.
 
+## Test an Emotion Styled UI with Custom Jest Snapshot Serializers
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0NTA0MDE0LC03MDI2MTgxNCw2MjYyMj
-EsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3
-NjEwMTcsMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbLTE5MTk1MzExMzcsLTcwMjYxODE0LDYyNj
+IyMSwxNDE3Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2
+MTc2MTAxNywyMDA5NjUzNDg0XX0=
 -->

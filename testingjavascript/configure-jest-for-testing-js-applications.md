@@ -288,13 +288,15 @@ Jest watch mode can be used in various different modes:
 - **f** = run only _failed_ tests
 - **p** = filter by _filename_ regex pattern
 - **t** = filter by _testname_ regex pattern
-- 
+- **u** = update snapshots
+- **i** = update snapshots interactively = it runs each test 1-by-1 and let you decide if you want to update the snapshot or skip it.
+- **q** = quit
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzEzNTU5MjAsMjA2MTk3MzUyLC0xMz
-Y4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0
-MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMD
-E3LDIwMDk2NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbLTE4NTk0Mzg4MywyMDYxOTczNTIsLTEzNj
+g3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQx
+NzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMT
+csMjAwOTY1MzQ4NF19
 -->

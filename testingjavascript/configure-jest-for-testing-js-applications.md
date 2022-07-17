@@ -84,11 +84,11 @@ We'll then get the name of the CSS Module className by adding the following to `
 
 ## Generate a Serializable Value with Jest Snapshots
 
-
+In
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mz
-g1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
-
+eyJoaXN0b3J5IjpbODM4MzA5MjU2LDYyNjIyMSwxNDE3Mzk5NT
+k0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5
+NjUzNDg0XX0=
 -->

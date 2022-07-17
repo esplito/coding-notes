@@ -179,12 +179,39 @@ One that I often use is `.toHaveTextContent`, which means that:
 
 ## Support a Test Utilities File with Jest moduleDirectories
 
-	
+It's not the first time that I see this utils-file for wrapping React Testing Library's render function, but I might as well paste in here anyway:
+
+```jsx
+import React from 'react'
+import PropTypes from 'prop-types'
+import {render as rtlRender} from '@testing-library/react'
+import {render} from '@testing-library/react'
+import {ThemeProvider} from 'emotion-theming'
+import {dark} from '../src/themes'
+
+function render(ui,options) {
+  return rtlRender(ui, {wrapper: Wrapper, ...options}}
+}
+
+function Wrapper({children}) {
+  return <ThemeProvider theme={dark}>{children}</ThemeProvider>
+}
+
+Wrapper.propTypes = {
+  children: PropTypes.node,
+}
+
+export * from '@testing-librasry/react'
+export {render}
+```
+
+With this we can use `render` in our tests just as before, but with the benefit of it wrapping our rendered	
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OT
-YyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1
-NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0OD
-RdfQ==
+eyJoaXN0b3J5IjpbMTE1MDI2OTIwMSwyMDYxOTczNTIsLTEzNj
+g3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQx
+NzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMT
+csMjAwOTY1MzQ4NF19
 -->

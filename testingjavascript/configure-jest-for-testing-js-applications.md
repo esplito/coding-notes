@@ -128,9 +128,13 @@ If this shouldn't have happened, we'll have to check our code and make sure to f
 
 Kent instead recommends the use of `toMatchInlineSnapshot` which will automatically add the snapshot string inside the test instead.
 
+👇⚠️ Don't forget to have Prettier installed in your project though! ⚠️ 👇
+
+> I should add here that when you're using `toMatchInlineSnapshot()`, you are required to have Prettier installed in your project because jest is updating the code in your test file and it wants to make sure that it doesn't change more than it has to with regard to your formatting. If you don't have Prettier installed, then you have to use `toMatchSnapshot()`
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NT
-k0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5
-NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbLTE5Nzg4MzQ3MSwtNzAyNjE4MTQsNjI2Mj
+IxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYx
+NzYxMDE3LDIwMDk2NTM0ODRdfQ==
 -->

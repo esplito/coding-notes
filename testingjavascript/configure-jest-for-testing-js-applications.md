@@ -152,11 +152,18 @@ moduleDirectories: ['node_modules', path.join(__dirname, 'src'), 'shared'],
 
 ## Configure Jest to Run Setup for All Tests with Jest setupFilesAfterEnv
 
-When using the `.toBe`-assertion 
+When using the `.toBe`-assertion we don't get so great explanations to why something is making a test fail. Instead we can install som more assertion by running:
+```bash
+npm install --save-dev @testing-library/jest-dom
+```
+
+Then if we just add the following to o
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjY2MDM1NjIsLTEzNjg3ODM5NTQsNz
-Q5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwt
-NjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1Mz
-Q4NF19
+eyJoaXN0b3J5IjpbMjYxMjAxODQxLC0xMzY4NzgzOTU0LDc0OT
+YyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1
+NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0OD
+RdfQ==
 -->

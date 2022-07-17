@@ -318,13 +318,12 @@ However, this doesn't quite cut it yet! We need to tell it where the jest binary
 ```json
 "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch"
 ```
-We add `--runInBand` because we need the tests to run inside the same Node process.
+We add `--runInBand` because we need the tests to run inside the same Node process. We also add `--watch` because it's n
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDkwMDUwNjksOTI3ODA4NDgyLDE2Mj
-EzODk3MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjcz
-MywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mz
-g1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
-
+eyJoaXN0b3J5IjpbMTk1NTM5ODkxMyw5Mjc4MDg0ODIsMTYyMT
+M4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMz
+LC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzOD
+U1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
 -->

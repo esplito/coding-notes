@@ -644,13 +644,16 @@ watchPlugins: ['jest-watch-select-projects'],
 
 🥳 Now we can hit `P` in watch mode and select/de-select the different projects, with `space` and then press `Enter`
 
+## Filter which Tests are Run with Typeahead Support in Jest Watch Mode
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTE1ODUyNCwtODk0ODk2NDEsLTUxMD
-U3MDgwNiwxMzU0NjY4OTE1LC0xMTQxMjczNzA1LC04NjE2OTUw
-NTQsLTE3MDA1NTE4OTcsMTk5NzAwMTY5MCw0MzAwOTI5NTQsOT
-I3ODA4NDgyLDE2MjEzODk3MzMsMjA2MTk3MzUyLC0xMzY4Nzgz
-OTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOT
-k1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3XX0=
-
+eyJoaXN0b3J5IjpbLTQ3MDkxMzU2MCwxNTI1MTU4NTI0LC04OT
+Q4OTY0MSwtNTEwNTcwODA2LDEzNTQ2Njg5MTUsLTExNDEyNzM3
+MDUsLTg2MTY5NTA1NCwtMTcwMDU1MTg5NywxOTk3MDAxNjkwLD
+QzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTczMywyMDYxOTcz
+NTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2Mj
+YyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODdd
+fQ==
 -->

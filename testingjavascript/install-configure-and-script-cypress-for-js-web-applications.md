@@ -159,10 +159,13 @@ if (window.Cypress) {
    window.setTheme = setTheme
  }
 ```
+## Test User Registration with Cypress
+
+In this t
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjkzOTkwNCw1NzkwMjI5NTcsMTA4NT
+eyJoaXN0b3J5IjpbMTE3NjgxODExNiw1NzkwMjI5NTcsMTA4NT
 k4NjI2NCwtMTAxNTQ1MTk1NSwtMTMyNDQ2NjA1NywxNDU1ODk0
 MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

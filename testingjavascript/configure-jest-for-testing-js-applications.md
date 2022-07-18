@@ -566,10 +566,13 @@ module.exports = {
 }
 ```
 
+## Run ESLint with Jest using jest-runner-eslint
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDU5NTEzOSwxMzU0NjY4OTE1LC0xMT
+eyJoaXN0b3J5IjpbLTUxMDU3MDgwNiwxMzU0NjY4OTE1LC0xMT
 QxMjczNzA1LC04NjE2OTUwNTQsLTE3MDA1NTE4OTcsMTk5NzAw
 MTY5MCw0MzAwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMj
 A2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4

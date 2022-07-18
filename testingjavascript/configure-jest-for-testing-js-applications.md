@@ -404,12 +404,14 @@ By adding some configuration to the travis conf we can make sure that it uploads
 after_script: npx codecov@3
 ```
 
+## Run Jest Watch Mode by Default Locally with is-ci-cli
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE5OTI2MjksLTE3MDA1NTE4OTcsMT
-k5NzAwMTY5MCw0MzAwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3
-MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNz
-AyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwx
-MDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbLTg2MTY5NTA1NCwtMTcwMDU1MTg5NywxOT
+k3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTcz
+MywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MD
+I2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEw
+MDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
 -->

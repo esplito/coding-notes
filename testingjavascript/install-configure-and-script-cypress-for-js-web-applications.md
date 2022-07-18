@@ -28,8 +28,15 @@ To open cypress, run:
 npx cypress open
 ```
 
+### Get ESLint to work with Cypress
+
+Install the ESLint plugin:
+```bash
+eslint-plugin-cypress
+```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTAyNDg4MywxOTA4ODg2MzcxLDYzND
+eyJoaXN0b3J5IjpbLTYxMDc4NTYxNSwxOTA4ODg2MzcxLDYzND
 g3NTgwNl19
 -->

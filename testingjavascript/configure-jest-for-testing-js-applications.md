@@ -513,14 +513,39 @@ So to do this we:
 	```js
 	jestConfigFile: path.join(__dirname, './jest.config.js'),
 	``` 
-2. Move some configuration from `jest.client`
+2. Move some configuration from `jest.client.js` to `jest.config.js`:
+```js
+module.exports = {
+	...require('./test/jest-common'),
+	collectCoverageFrom: ['**/src/**/*.js'],
+	coverageThreshold: {
+	  global: {
+	    statements: 15,
+	    branches: 10,
+	    functions: 15,
+	    lines: 15,
+	  },
+	  './src/shared/utils.js': {
+	    statements: 100,
+	    branches: 80,
+	    functions: 100,
+	    lines: 100,
+	  },
+	 },
+	 projects: ['./test/jest.clients.js', './test/jest.server.js'],
+}
+```
+
+`npm t` will now run both client- and server-environment tests when running watch mode. 🎉
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzY2NjM0NiwxMzU0NjY4OTE1LC0xMT
-QxMjczNzA1LC04NjE2OTUwNTQsLTE3MDA1NTE4OTcsMTk5NzAw
-MTY5MCw0MzAwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMj
-A2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4
-MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5Nj
-Q1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbODU4OTM0NTQxLDEzNTQ2Njg5MTUsLTExND
+EyNzM3MDUsLTg2MTY5NTA1NCwtMTcwMDU1MTg5NywxOTk3MDAx
+NjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTczMywyMD
+YxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgx
+NCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2ND
+UyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
 -->

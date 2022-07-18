@@ -624,10 +624,11 @@ The great thing about the jest-runner is that we can set up custom runners, for 
 👑 **Great explanation to when this is useful** 👑
 >"This might seem like just an extra dependency that's not totally necessary. Depending on your project, it might not be totally necessary. It **can be nice for bigger projects where you have tons of files that you're linting and you want to scope down the files that you're linting to just the ones that you're working with** at the time you're committing your code." - Kent C. Dodds
 
+## Test Specific Projects in Jest Watch Mode with jest-watch-select-projects
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDI1MzE0LC01MTA1NzA4MDYsMTM1ND
+eyJoaXN0b3J5IjpbLTg5NDg5NjQxLC01MTA1NzA4MDYsMTM1ND
 Y2ODkxNSwtMTE0MTI3MzcwNSwtODYxNjk1MDU0LC0xNzAwNTUx
 ODk3LDE5OTcwMDE2OTAsNDMwMDkyOTU0LDkyNzgwODQ4MiwxNj
 IxMzg5NzMzLDIwNjE5NzM1MiwtMTM2ODc4Mzk1NCw3NDk2MjY3

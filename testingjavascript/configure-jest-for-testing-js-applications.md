@@ -361,13 +361,26 @@ If we want it to ignore some part of the code, we can add:
 3. Functions
 4. Lines
 
-> "Now, one really important thing about coverage to remember is that **it's not a perfect metric for confidence." 
+You can set a threshold by adding the following to your `jest.config.js`:
+```js
+coverageThreshold: {
+    global: {
+      statements: 34,
+      branches: 24,
+      functions: 34,
+      lines: 29,
+    },
+  },
+```
+
+🚨 **Important to note**🚨
+> "Now, one really important thing about coverage to remember is that **it's not a perfect metric for confidence.**" - Kent C. Dodds 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExMjA4NzE5LC0xNzAwNTUxODk3LDE5OT
-cwMDE2OTAsNDMwMDkyOTU0LDkyNzgwODQ4MiwxNjIxMzg5NzMz
-LDIwNjE5NzM1MiwtMTM2ODc4Mzk1NCw3NDk2MjY3MzMsLTcwMj
-YxODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02NTczOTM4NTUsMTAw
-OTY0NTI4Nyw2MTc2MTAxNywyMDA5NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbMjAyMTkyODc2NCwtMTcwMDU1MTg5NywxOT
+k3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTcz
+MywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MD
+I2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEw
+MDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
 -->

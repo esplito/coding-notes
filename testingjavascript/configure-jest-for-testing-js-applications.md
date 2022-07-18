@@ -426,12 +426,13 @@ Sometimes you might want to run a different configuration for some tests. This l
 
 Kent sets up three different files inside the `test` directory:
 1. `jest-common.js` (previously `jest.config.js`
-2. 
+2. `jest.client.js`
+3. `jest.server.js`
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQ3MDM2MTQsLTg2MTY5NTA1NCwtMT
+eyJoaXN0b3J5IjpbLTExNDEyNzM3MDUsLTg2MTY5NTA1NCwtMT
 cwMDU1MTg5NywxOTk3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0
 ODIsMTYyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNz
 Q5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwt

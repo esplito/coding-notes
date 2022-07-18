@@ -128,11 +128,11 @@ We also update the `validate` script to run e2e-tests:
 
 Kent also adds `npm run test:e2e:run` to the pre-commit hook of husky, but that could be a bit cumbersome to have when you are working on a big project. (I would probably never have it on pre-commit. I'd rather rely on it being run in CI)
 
-
+Kent also does some CI configuration for Travis CI (check the lesson again if interested).
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzAwNDAyOCwtMTAxNTQ1MTk1NSwtMT
+eyJoaXN0b3J5IjpbMTA4NTk4NjI2NCwtMTAxNTQ1MTk1NSwtMT
 MyNDQ2NjA1NywxNDU1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1
 ODA2XX0=
 -->

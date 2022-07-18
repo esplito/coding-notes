@@ -338,12 +338,13 @@ This can be solved by adding the following line in `jest.config.js`:
 ```js
 collectCoverageFrom: ['**/src/**/*.js'],
 ```
+It will now also automatically exclude the folder with the test utils.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4Mzc0NTgxMCw0MzAwOTI5NTQsOTI3OD
-A4NDgyLDE2MjEzODk3MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0
-LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OT
-QsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2
-NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbLTE3NTEzMzQ1MTIsNDMwMDkyOTU0LDkyNz
+gwODQ4MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMTM2ODc4Mzk1
+NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NT
+k0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5
+NjUzNDg0XX0=
 -->

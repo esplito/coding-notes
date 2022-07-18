@@ -100,8 +100,11 @@ After that we'll have access to for example, `findByText`. However, we don't get
 
 Using these commands, makes the tests way more readable! 📖
 
+## Script Cypress for Local Development and Continuous Integration
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDM0NjI0OCwtMTMyNDQ2NjA1NywxND
-U1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
+eyJoaXN0b3J5IjpbLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNTcsMT
+Q1NTg5NDA0MywxOTA4ODg2MzcxLDYzNDg3NTgwNl19
 -->

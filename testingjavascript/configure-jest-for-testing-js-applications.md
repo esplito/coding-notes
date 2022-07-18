@@ -673,15 +673,28 @@ We can do this with `husky` and `lint-staged`.
 	npm install --save-dev husky lint-staged
 	```
 2. Add conf to package.json:
-
+	```json
+	"husky": {
+	    "hooks": {
+	      "pre-commit": "lint-staged && npm run build"
+	    }
+	  },
+	  "lint-staged": {
+	    "**/*.+(js|json|css|html|md)": [
+	      "prettier",
+	      "jest --findRelatedTests",
+	      "git add"
+	    ]
+	  },
+	```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4MTA2ODUyLDE1MjUxNTg1MjQsLTg5ND
-g5NjQxLC01MTA1NzA4MDYsMTM1NDY2ODkxNSwtMTE0MTI3Mzcw
-NSwtODYxNjk1MDU0LC0xNzAwNTUxODk3LDE5OTcwMDE2OTAsND
-MwMDkyOTU0LDkyNzgwODQ4MiwxNjIxMzg5NzMzLDIwNjE5NzM1
-MiwtMTM2ODc4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNj
-IyMSwxNDE3Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4N119
-
+eyJoaXN0b3J5IjpbLTEzNTk3Mjk1ODUsMTUyNTE1ODUyNCwtOD
+k0ODk2NDEsLTUxMDU3MDgwNiwxMzU0NjY4OTE1LC0xMTQxMjcz
+NzA1LC04NjE2OTUwNTQsLTE3MDA1NTE4OTcsMTk5NzAwMTY5MC
+w0MzAwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMjA2MTk3
+MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNj
+I2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3
+XX0=
 -->

@@ -332,11 +332,11 @@ We can open up the coverage report by writing the following command in the termi
 ```bash
 open coverage/lcov-report/index.html
 ```
-A problem can be that it includes the test utilities in the coverage report and this skews the overall coverage numbers, since the test utils have 100% coverage.
+A problem can be that it includes the test utilities in the coverage report and this skews the overall coverage numbers, since the test utils have 100% coverage. We are also not seeing all files from `src` included, for example `index.js` or `app.js`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2NzQxNzQ3LDQzMDA5Mjk1NCw5Mjc4MD
+eyJoaXN0b3J5IjpbNzY5MDY3MzQxLDQzMDA5Mjk1NCw5Mjc4MD
 g0ODIsMTYyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQs
 NzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NC
 wtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1

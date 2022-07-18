@@ -34,10 +34,20 @@ Install the ESLint plugin:
 ```bash
 npm install --save-dev eslint-plugin-cypress
 ```
-Create `.eslintrc.js` in your
+Create `.eslintrc.js` in your cypress-folder:
+```js
+// This includes some rules from Kent C. Dodds
+module.exports = {
+  root: true,
+  plugins: ['eslint-plugin-cypress'],
+  extends: ['kentcdodds', 'kentcdodds/import', 'plugin:cypress/recommended'],
+  env: {'cypress/globals': true},
+}
+```
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk3OTI5MDUsMTkwODg4NjM3MSw2Mz
+eyJoaXN0b3J5IjpbLTEwODQyNTcyODAsMTkwODg4NjM3MSw2Mz
 Q4NzU4MDZdfQ==
 -->

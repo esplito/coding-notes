@@ -17,9 +17,12 @@ Example of the last lesson's branch: https://github.com/kentcdodds/jest-cypress-
 
 ℹ️ Most of the time is spent in the `e2e`-folder, but also in the `support`-folder.
 
+## Install and Run Cypress
 
+You can install it as a devDependency. 
+```ba
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODI4ODE3NzcsNjM0ODc1ODA2XX0=
+eyJoaXN0b3J5IjpbLTg0MDMwMjM3Niw2MzQ4NzU4MDZdfQ==
 -->

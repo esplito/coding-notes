@@ -625,14 +625,26 @@ The great thing about the jest-runner is that we can set up custom runners, for 
 >"This might seem like just an extra dependency that's not totally necessary. Depending on your project, it might not be totally necessary. It **can be nice for bigger projects where you have tons of files that you're linting and you want to scope down the files that you're linting to just the ones that you're working with** at the time you're committing your code." - Kent C. Dodds
 
 ## Test Specific Projects in Jest Watch Mode with jest-watch-select-projects
+> "It’s great that we can run multiple projects in our watch mode and that we can scope the tests down to specific tests, but sometimes it’s nice to be able to quickly switch between projects in watch mode." - Kent C. Dodds
+
+We can do it with this command, but it's a bit tedious:
+```bash
+npx jest --config test/jest.client.js
+```
+
+Instead, we can install a new devDependency:
+```bash
+npm install --save-dev jest-watch-select-projects
+```
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDg5NjQxLC01MTA1NzA4MDYsMTM1ND
-Y2ODkxNSwtMTE0MTI3MzcwNSwtODYxNjk1MDU0LC0xNzAwNTUx
-ODk3LDE5OTcwMDE2OTAsNDMwMDkyOTU0LDkyNzgwODQ4MiwxNj
-IxMzg5NzMzLDIwNjE5NzM1MiwtMTM2ODc4Mzk1NCw3NDk2MjY3
-MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02NTczOT
-M4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbMzM4NTQwMjcxLC04OTQ4OTY0MSwtNTEwNT
+cwODA2LDEzNTQ2Njg5MTUsLTExNDEyNzM3MDUsLTg2MTY5NTA1
+NCwtMTcwMDU1MTg5NywxOTk3MDAxNjkwLDQzMDA5Mjk1NCw5Mj
+c4MDg0ODIsMTYyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5
+NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OT
+U5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTddfQ==
 
 -->

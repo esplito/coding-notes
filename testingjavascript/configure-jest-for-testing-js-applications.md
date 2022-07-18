@@ -538,11 +538,16 @@ module.exports = {
 
 `npm t` will now run both client- and server-environment tests when running watch mode. 🎉
 
+We can inspect our global jest configuration by running:
+```bash
+npx jest --showConfig
+```
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4OTM0NTQxLDEzNTQ2Njg5MTUsLTExND
+eyJoaXN0b3J5IjpbNTQyNDgyNjIzLDEzNTQ2Njg5MTUsLTExND
 EyNzM3MDUsLTg2MTY5NTA1NCwtMTcwMDU1MTg5NywxOTk3MDAx
 NjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTczMywyMD
 YxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgx

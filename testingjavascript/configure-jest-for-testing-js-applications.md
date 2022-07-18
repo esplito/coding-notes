@@ -342,11 +342,14 @@ It will now also automatically exclude the folder with the test utils.
 
 We also don't want to include the coverage map in source control so we need to add `coverage` to our `.gitignore`.
 
+## Analyze Jest Code Coverage Reports
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjA1OTQ5LDQzMDA5Mjk1NCw5Mjc4MD
-g0ODIsMTYyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQs
-NzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NC
-wtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1
-MzQ4NF19
+eyJoaXN0b3J5IjpbLTEyNjc3MDI5NjMsNDMwMDkyOTU0LDkyNz
+gwODQ4MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMTM2ODc4Mzk1
+NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NT
+k0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5
+NjUzNDg0XX0=
 -->

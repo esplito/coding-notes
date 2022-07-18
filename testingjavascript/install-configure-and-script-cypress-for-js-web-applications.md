@@ -102,9 +102,13 @@ Using these commands, makes the tests way more readable! 📖
 
 ## Script Cypress for Local Development and Continuous Integration
 
+>"It'd be really great if I could just run one script and it would start up my server and start up Cypress automatically." - Kent C. Dodds
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNTcsMT
-Q1NTg5NDA0MywxOTA4ODg2MzcxLDYzNDg3NTgwNl19
+eyJoaXN0b3J5IjpbMzQxMDUyNTM4LC0xMDE1NDUxOTU1LC0xMz
+I0NDY2MDU3LDE0NTU4OTQwNDMsMTkwODg4NjM3MSw2MzQ4NzU4
+MDZdfQ==
 -->

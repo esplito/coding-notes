@@ -91,10 +91,15 @@ To get better commands for finding elements, we install `@testing-library/cypres
 npm install --save-dev @testing-library/cypress
 ```
 
+Inside `support/index.js` we'll also need to import the commands:
+```js
+import '@testing-library/cypress/add-commands'
+```
 
+After that we'll have access to for example, `findByText`. However, we don't get access to `getByText` which we might know of from `@testing-library/react` and that is because we shouldn't write s
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODgyMjkyNywtMTMyNDQ2NjA1NywxND
+eyJoaXN0b3J5IjpbMTkyMzg4OTUwNCwtMTMyNDQ2NjA1NywxND
 U1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

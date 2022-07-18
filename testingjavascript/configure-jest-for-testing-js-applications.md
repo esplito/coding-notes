@@ -350,11 +350,13 @@ We also don't want to include the coverage map in source control so we need to a
 If we want it to ignore some part of the code, we can add:
 `/* istanbul ignore next */`
 
+> I typically recommend against using these kinds of comments because you're basically lying to yourself about how much coverage you're getting, but sometimes it can be useful. - Kent C. Dodds
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjIzNzgxMSwxOTk3MDAxNjkwLDQzMD
-A5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTczMywyMDYxOTczNTIs
-LTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMj
-EsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3
-NjEwMTcsMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbLTE3MDA1NTE4OTcsMTk5NzAwMTY5MCw0Mz
+AwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMjA2MTk3MzUy
+LC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2Mj
+IxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYx
+NzYxMDE3LDIwMDk2NTM0ODRdfQ==
 -->

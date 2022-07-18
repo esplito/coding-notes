@@ -68,8 +68,11 @@ cy.findByTestId('total').should('have.text', '3');
 // etc.
 ```
 
+## Configure Cypress in cypress.json
+
+We use the `cypress.json`-file to set `baseUrl` and move some test files to m
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3NTE0NDgzLDE0NTU4OTQwNDMsMTkwOD
-g4NjM3MSw2MzQ4NzU4MDZdfQ==
+eyJoaXN0b3J5IjpbLTE1MDY1Nzg1MjIsMTQ1NTg5NDA0MywxOT
+A4ODg2MzcxLDYzNDg3NTgwNl19
 -->

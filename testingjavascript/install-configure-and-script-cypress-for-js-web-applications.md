@@ -147,7 +147,9 @@ Another thing you can do is adding `.pause()` to pause your test and let you ins
 
 When writing your tests you can also play around with using `window.Cypress` to set some stuff on the window-object. 
 
-🚨 ****🚨
+🚨 However it's **not recommended to use in your tests**🚨
+
+> "You could do something like this with your redux store, your context value, or whatever it is that helps you develop these tests. I would recommend against using these in your test because this isn't something that the user typically will have access to." - Kent C. Dodds
 
 ### `window.Cypress` example
 ```js
@@ -160,7 +162,7 @@ if (window.Cypress) {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4Mjk4NTYyLDU3OTAyMjk1NywxMDg1OT
-g2MjY0LC0xMDE1NDUxOTU1LC0xMzI0NDY2MDU3LDE0NTU4OTQw
-NDMsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==
+eyJoaXN0b3J5IjpbLTM0MjkzOTkwNCw1NzkwMjI5NTcsMTA4NT
+k4NjI2NCwtMTAxNTQ1MTk1NSwtMTMyNDQ2NjA1NywxNDU1ODk0
+MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

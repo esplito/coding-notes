@@ -178,14 +178,17 @@ In the test he verifies that registration was successful by checking if we get r
 ```
 
 > "One thing that I want to add here is that if your registration process sends out an email and then user can't do anything until they've confirmed their email address, it's a good idea to just mark that service out entirely for your test. Writing an automated test for something like that would be very non-trivial and would only give you a little bit extra confidence.
+> 
 > I'd recommend marking that out so that your end-to-end test can continue on without having to worry about that email." - Kent C. Dodds
+
+## Cypress Driven Development
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjU1MTAyNSwxMzc0NDc1MjA3LDU3OT
-AyMjk1NywxMDg1OTg2MjY0LC0xMDE1NDUxOTU1LC0xMzI0NDY2
-MDU3LDE0NTU4OTQwNDMsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ
-==
+eyJoaXN0b3J5IjpbLTIwNDI2MTE3MzEsMTM3NDQ3NTIwNyw1Nz
+kwMjI5NTcsMTA4NTk4NjI2NCwtMTAxNTQ1MTk1NSwtMTMyNDQ2
+NjA1NywxNDU1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX
+0=
 -->

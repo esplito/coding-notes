@@ -570,16 +570,28 @@ module.exports = {
 The great thing about the jest-runner is that we can set up custom runners, for example to run ESLint in watch mode! 🤯
 
 ### Steps for setting it up
-1. Install ``
+1. Install `jest-runner-eslint`
 	```bash
 	npm install --save-dev jest-runner-eslint
 	```
+2. Create new file in the test directory: `jest.lint.js`:
+	```js
+	const path = require('path')
+
+	module.exports = {
+	  rootDir: path.join(__dirname, '..'),
+	  displayName: 'lint',
+	  runner: 'jest-runner-eslint',
+	  testMatch: ['<rootDir>/**/*.js'],
+	}
+	```
+3. 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjcyNzI3NSwtNTEwNTcwODA2LDEzNT
+eyJoaXN0b3J5IjpbMTk2NDk3NjMzMiwtNTEwNTcwODA2LDEzNT
 Q2Njg5MTUsLTExNDEyNzM3MDUsLTg2MTY5NTA1NCwtMTcwMDU1
 MTg5NywxOTk3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMT
 YyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2

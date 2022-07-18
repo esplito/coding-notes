@@ -395,10 +395,12 @@ coverageThreshold: {
 ```
 This will take the utils-file out of the global coverage though (so global coverage becomes lower), so you'll have to adapt the global threshold.
 
+## Report Jest Test Coverage to Codecov through TravisCI
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzA1MjU0OCwtMTcwMDU1MTg5NywxOT
+eyJoaXN0b3J5IjpbLTY1MTI5OTQzNiwtMTcwMDU1MTg5NywxOT
 k3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTcz
 MywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MD
 I2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEw

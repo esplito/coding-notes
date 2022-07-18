@@ -367,18 +367,21 @@ coverageThreshold: {
     global: {
       statements: 34,
       branches: 24,
-      functions: 34,
+      functions: 29,
       lines: 29,
     },
   },
 ```
+> "I typically like to do a couple percentage points lower than what we have currently so that as changers are made and things, we have a little bit of flexibility here." - Kent C. Dodds
+
+He set the thresholds to around  2-3 percentage units lower than current coverage.
 
 🚨 **Important to note**🚨
 > "Now, one really important thing about coverage to remember is that **it's not a perfect metric for confidence.**" - Kent C. Dodds 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTkyODc2NCwtMTcwMDU1MTg5NywxOT
+eyJoaXN0b3J5IjpbMTI3Njk0NjUyMiwtMTcwMDU1MTg5NywxOT
 k3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTcz
 MywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MD
 I2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEw

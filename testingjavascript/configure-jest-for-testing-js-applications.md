@@ -424,13 +424,17 @@ If the environment variable `CI` is set to `1`, it will run `test:coverage`, oth
 
 Sometimes you might want to run a different configuration for some tests. This lesson covers that.
 
+Kent sets up three different files inside the `test` directory:
+1. `jest-common.js` (previously `jest.config.js`
+2. 
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDY5MTE5MSwtODYxNjk1MDU0LC0xNz
-AwNTUxODk3LDE5OTcwMDE2OTAsNDMwMDkyOTU0LDkyNzgwODQ4
-MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMTM2ODc4Mzk1NCw3ND
-k2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02
-NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5NjUzND
-g0XX0=
+eyJoaXN0b3J5IjpbLTEyOTQ3MDM2MTQsLTg2MTY5NTA1NCwtMT
+cwMDU1MTg5NywxOTk3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0
+ODIsMTYyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNz
+Q5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwt
+NjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1Mz
+Q4NF19
 -->

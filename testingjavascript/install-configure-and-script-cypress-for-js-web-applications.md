@@ -50,8 +50,11 @@ module.exports = {
 
 We also add the `cypress/videos` & `cypress/screenshots` to the `.gitignore` so that videos & screenshots from Cypress are not added to source control.
 
+## Write the First Cypress Test
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1MDE4ODE2LDE5MDg4ODYzNzEsNjM0OD
-c1ODA2XX0=
+eyJoaXN0b3J5IjpbMTAxNzAzMDQ1MywxOTA4ODg2MzcxLDYzND
+g3NTgwNl19
 -->

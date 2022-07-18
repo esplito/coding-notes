@@ -545,15 +545,15 @@ npx jest --showConfig
 ℹ️ Look out for the `globalConfig`-object. 
 > "Anything inside of the global config is what needs to be configured inside of the jest.config.js configuration which is your main entry for your configuration." - Kent C. Dodds
 
-Currently it is a bit difficult, in watch mode, to see from which configuration the tests are run.
+Currently it is a bit difficult, in watch mode, to see from which configuration the tests are run. We can solve this by adding labels to them.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDUyODQ0OSwxMzU0NjY4OTE1LC0xMT
-QxMjczNzA1LC04NjE2OTUwNTQsLTE3MDA1NTE4OTcsMTk5NzAw
-MTY5MCw0MzAwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMj
-A2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4
-MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5Nj
-Q1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbLTEwMjIyMDEzMDYsMTM1NDY2ODkxNSwtMT
+E0MTI3MzcwNSwtODYxNjk1MDU0LC0xNzAwNTUxODk3LDE5OTcw
+MDE2OTAsNDMwMDkyOTU0LDkyNzgwODQ4MiwxNjIxMzg5NzMzLD
+IwNjE5NzM1MiwtMTM2ODc4Mzk1NCw3NDk2MjY3MzMsLTcwMjYx
+ODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02NTczOTM4NTUsMTAwOT
+Y0NTI4Nyw2MTc2MTAxNywyMDA5NjUzNDg0XX0=
 -->

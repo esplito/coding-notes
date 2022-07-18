@@ -48,10 +48,10 @@ module.exports = {
 
 >"That way, ESLint will stop here as it's looking at the file system for the configuration to use for a particular file." - Kent C. Dodds
 
-
+We also add the `cypress/videos` & `cypress/screenshots` to the `.gitignore` so that videos & screenshots from Cypress are not added to source control.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjMyMzYyNzksMTkwODg4NjM3MSw2Mz
-Q4NzU4MDZdfQ==
+eyJoaXN0b3J5IjpbNzY1MDE4ODE2LDE5MDg4ODYzNzEsNjM0OD
+c1ODA2XX0=
 -->

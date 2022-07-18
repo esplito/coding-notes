@@ -20,9 +20,12 @@ Example of the last lesson's branch: https://github.com/kentcdodds/jest-cypress-
 ## Install and Run Cypress
 
 You can install it as a devDependency. 
-```ba
+```bash
+npm install --save-dev cypress
+```
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDMwMjM3Niw2MzQ4NzU4MDZdfQ==
+eyJoaXN0b3J5IjpbMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==
 -->

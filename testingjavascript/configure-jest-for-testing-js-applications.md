@@ -645,11 +645,11 @@ watchPlugins: ['jest-watch-select-projects'],
 🥳 Now we can hit `P` in watch mode and select/de-select the different projects, with `space` and then press `Enter`
 
 ## Filter which Tests are Run with Typeahead Support in Jest Watch Mode
-
+Typeahead is a super nice plugin that makes it a lot easie
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDkxMzU2MCwxNTI1MTU4NTI0LC04OT
+eyJoaXN0b3J5IjpbMTY1MzQzMzYxNSwxNTI1MTU4NTI0LC04OT
 Q4OTY0MSwtNTEwNTcwODA2LDEzNTQ2Njg5MTUsLTExNDEyNzM3
 MDUsLTg2MTY5NTA1NCwtMTcwMDU1MTg5NywxOTk3MDAxNjkwLD
 QzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTczMywyMDYxOTcz

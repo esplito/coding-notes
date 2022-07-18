@@ -687,15 +687,15 @@ We can do this with `husky` and `lint-staged`.
 	    ]
 	  },
 	```
-The `--findRelatedTests` flag makes sure to only run tests related to the file changes.
+The `--findRelatedTests` flag makes sure that we only run tests related to the file changes.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzgxMDg4NCwxNTI1MTU4NTI0LC04OT
-Q4OTY0MSwtNTEwNTcwODA2LDEzNTQ2Njg5MTUsLTExNDEyNzM3
-MDUsLTg2MTY5NTA1NCwtMTcwMDU1MTg5NywxOTk3MDAxNjkwLD
-QzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTczMywyMDYxOTcz
-NTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2Mj
-YyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODdd
+eyJoaXN0b3J5IjpbLTc5ODgxNTk0MiwtMTA3ODEwODg0LDE1Mj
+UxNTg1MjQsLTg5NDg5NjQxLC01MTA1NzA4MDYsMTM1NDY2ODkx
+NSwtMTE0MTI3MzcwNSwtODYxNjk1MDU0LC0xNzAwNTUxODk3LD
+E5OTcwMDE2OTAsNDMwMDkyOTU0LDkyNzgwODQ4MiwxNjIxMzg5
+NzMzLDIwNjE5NzM1MiwtMTM2ODc4Mzk1NCw3NDk2MjY3MzMsLT
+cwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02NTczOTM4NTVd
 fQ==
 -->

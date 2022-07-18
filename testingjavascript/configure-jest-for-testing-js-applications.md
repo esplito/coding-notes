@@ -601,7 +601,7 @@ The great thing about the jest-runner is that we can set up custom runners, for 
 	    './test/jest.server.js',
 	  ],
 	```
-5. Update the scripts in `package.json` and remove some unnecessary validation:
+5. Update the scripts in `package.json` and remove unnecessary use of the lint command in validation:
 ```json
 "scripts": {
     "test": "is-ci \"test:coverage\" \"test:watch\"",
@@ -613,7 +613,7 @@ The great thing about the jest-runner is that we can set up custom runners, for 
     "postbuild": "cp ./public/index.html ./dist/index.html",
     "start": "serve --no-clipboard --single --listen 8080 dist",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|css|html|md)\"",
-    // Here's the interesting 
+    // Here's the interesting changes 🤩
     "lint": "jest --config test/jest.lint.js",
     "validate": "npm run test && npm run build",
     "setup": "npm install && npm run validate"
@@ -625,7 +625,7 @@ The great thing about the jest-runner is that we can set up custom runners, for 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjY2NjE3MiwtNTEwNTcwODA2LDEzNT
+eyJoaXN0b3J5IjpbMTg4MzI1MzMwMCwtNTEwNTcwODA2LDEzNT
 Q2Njg5MTUsLTExNDEyNzM3MDUsLTg2MTY5NTA1NCwtMTcwMDU1
 MTg5NywxOTk3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMT
 YyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2

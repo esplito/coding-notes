@@ -542,15 +542,18 @@ We can inspect our global jest configuration by running:
 ```bash
 npx jest --showConfig
 ```
+ℹ️ Look out for the `globalConfig`-object. 
+> "Anything inside of the global config is what needs to be configured inside of the jest.config.js configuration which is your main entry for your configuration." - Kent C. Dodds
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyNDgyNjIzLDEzNTQ2Njg5MTUsLTExND
-EyNzM3MDUsLTg2MTY5NTA1NCwtMTcwMDU1MTg5NywxOTk3MDAx
-NjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTczMywyMD
-YxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgx
-NCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2ND
-UyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbMTI3ODYyNzA4MywxMzU0NjY4OTE1LC0xMT
+QxMjczNzA1LC04NjE2OTUwNTQsLTE3MDA1NTE4OTcsMTk5NzAw
+MTY5MCw0MzAwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMj
+A2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4
+MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5Nj
+Q1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
 -->

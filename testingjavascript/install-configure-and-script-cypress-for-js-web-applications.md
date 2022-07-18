@@ -81,8 +81,11 @@ We use the `cypress.json`-file to set `baseUrl` and move some test files (to an 
   "viewportWidth": 400
 }
 ```
+
+When you have Cypress running, you can go to `Settings -> Configuration` to find all the settings that you can change inside your `cypress.json`.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQ0NjYwNTcsMTQ1NTg5NDA0MywxOT
-A4ODg2MzcxLDYzNDg3NTgwNl19
+eyJoaXN0b3J5IjpbLTYyNzczOTg5LC0xMzI0NDY2MDU3LDE0NT
+U4OTQwNDMsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==
 -->

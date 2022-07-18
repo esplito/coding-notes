@@ -132,11 +132,18 @@ Kent also does some CI configuration for Travis CI (check the lesson again if in
 
 ## Debug a Test with Cypress
 A great thing that you can do in Cypress when debugging is to add the follow to one of your queries:
-```j
+```js
+cy.findByText('something')
+	.then((subject) => {
+		debugger;
+		return subject;
+	});
+```
+If you have Chrome DevTools opened in the tab where you are running your Cypress tests, the Chrome debugger will stop at the `debugger` statement.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODgzMDQ3Nyw1NzkwMjI5NTcsMTA4NT
-k4NjI2NCwtMTAxNTQ1MTk1NSwtMTMyNDQ2NjA1NywxNDU1ODk0
-MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
+eyJoaXN0b3J5IjpbLTE4NDc3MDI2MTIsNTc5MDIyOTU3LDEwOD
+U5ODYyNjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNTcsMTQ1NTg5
+NDA0MywxOTA4ODg2MzcxLDYzNDg3NTgwNl19
 -->

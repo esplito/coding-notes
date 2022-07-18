@@ -377,11 +377,13 @@ coverageThreshold: {
 He set the thresholds to around  2-3 percentage units lower than current coverage.
 
 🚨 **Important to note**🚨
-> "Now, one really important thing about coverage to remember is that **it's not a perfect metric for confidence.**" - Kent C. Dodds 
+> "Now, one really important thing about coverage to remember is that **it's not a perfect metric for confidence.** 
+> 
+>The problem is that not all lines in your code base are equal. For example, maybe this utilities file is super, super important because it's used just all over the place. The autoscaling text has this line here that's really not that important, it doesn't happen all that often. Even if that were to happen, it's not a huge deal that that gets broken as an example." - Kent C. Dodds 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Njk0NjUyMiwtMTcwMDU1MTg5NywxOT
+eyJoaXN0b3J5IjpbMTk4OTIzNjgxNiwtMTcwMDU1MTg5NywxOT
 k3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTcz
 MywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MD
 I2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEw

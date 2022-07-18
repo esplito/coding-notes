@@ -621,15 +621,16 @@ The great thing about the jest-runner is that we can set up custom runners, for 
 ```
 6. Voilá! 🙌 We can now run linting in watch mode and as a part of our test command in the CI 🥳
 
-
+👑 Great explanatio👑
+>"This might seem like just an extra dependency that's not totally necessary. Depending on your project, it might not be totally necessary. It can be nice for bigger projects where you have tons of files that you're linting and you want to scope down the files that you're linting to just the ones that you're working with at the time you're committing your code." - Kent C. Dodds
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzI1MzMwMCwtNTEwNTcwODA2LDEzNT
-Q2Njg5MTUsLTExNDEyNzM3MDUsLTg2MTY5NTA1NCwtMTcwMDU1
-MTg5NywxOTk3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMT
-YyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2
-NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3Mz
-kzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbNTEzMDczNzUsLTUxMDU3MDgwNiwxMzU0Nj
+Y4OTE1LC0xMTQxMjczNzA1LC04NjE2OTUwNTQsLTE3MDA1NTE4
+OTcsMTk5NzAwMTY5MCw0MzAwOTI5NTQsOTI3ODA4NDgyLDE2Mj
+EzODk3MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjcz
+MywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mz
+g1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
 
 -->

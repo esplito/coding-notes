@@ -62,14 +62,14 @@ cy.findByTestId('total').should('have.text', '3');
 
 ```js
 // Example of above quote
-const user = cy
-    user.visit('http://localhost:8080')
-    user.get('something')
-    // etc.
+   const user = cy
+   user.visit('http://localhost:8080')
+   user.get('something')
+   // etc.
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDM5MzM5MSwxNDU1ODk0MDQzLDE5MD
-g4ODYzNzEsNjM0ODc1ODA2XX0=
+eyJoaXN0b3J5IjpbLTE4Mjc3ODU0NTksMTQ1NTg5NDA0MywxOT
+A4ODg2MzcxLDYzNDg3NTgwNl19
 -->

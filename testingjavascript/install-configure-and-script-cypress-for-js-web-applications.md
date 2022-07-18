@@ -143,11 +143,11 @@ If you have Chrome DevTools opened in the tab where you are running your Cypress
 
 💡 You can also just add `.debug()` to get some debug info in the console and a `debugger` statement automatically.
 
-
+Another thing you can do is adding `.pause()` to pause your test and let you inspect & manipulate the application in that current state. Then you can just hit the `Resume` button to continue the test.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4ODkzMTY5LDU3OTAyMjk1NywxMDg1OT
-g2MjY0LC0xMDE1NDUxOTU1LC0xMzI0NDY2MDU3LDE0NTU4OTQw
-NDMsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==
+eyJoaXN0b3J5IjpbLTE2OTM4NjUxMTIsNTc5MDIyOTU3LDEwOD
+U5ODYyNjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNTcsMTQ1NTg5
+NDA0MywxOTA4ODg2MzcxLDYzNDg3NTgwNl19
 -->

@@ -352,11 +352,13 @@ If we want it to ignore some part of the code, we can add:
 
 > I typically recommend against using these kinds of comments because you're basically lying to yourself about how much coverage you're getting, but sometimes it can be useful. - Kent C. Dodds
 
+ℹ️ Kent explains it very well in his video how the plugin checks the code. If you ever need to analyze why co
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDA1NTE4OTcsMTk5NzAwMTY5MCw0Mz
-AwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMjA2MTk3MzUy
-LC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2Mj
-IxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYx
-NzYxMDE3LDIwMDk2NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbMzMzOTk0ODQ4LC0xNzAwNTUxODk3LDE5OT
+cwMDE2OTAsNDMwMDkyOTU0LDkyNzgwODQ4MiwxNjIxMzg5NzMz
+LDIwNjE5NzM1MiwtMTM2ODc4Mzk1NCw3NDk2MjY3MzMsLTcwMj
+YxODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02NTczOTM4NTUsMTAw
+OTY0NTI4Nyw2MTc2MTAxNywyMDA5NjUzNDg0XX0=
 -->

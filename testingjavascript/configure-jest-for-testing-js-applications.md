@@ -506,11 +506,18 @@ After all of these changes, we need to update our scripts in `package.json` so t
 We can only run one watch mode at a time, so we run the client-side tests by default.
 
 ## Support Running Multiple Configurations with Jest’s Projects Feature
-Okay, so what we did in the previous lesson is a bit much and Kent provides a solution for making it look as clean as it did before, without having to double all of our test scripts. 
+Okay, so what we did in the previous lesson is a bit much and Kent provides a solution for making it look as clean as it did before, without having to double all of our test scripts. The solution is to use the `projects` feature of Jest.
+
+So to do this we: 
+1. Create our `jest.config.js` again and update the eslintrc:
+	```js
+	jestConfigFile: path.join(__dirname, './jest.config.js'),
+	``` 
+2. Move some configuration from `jest.client`
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTcwNzI1MCwxMzU0NjY4OTE1LC0xMT
+eyJoaXN0b3J5IjpbLTk2MzY2NjM0NiwxMzU0NjY4OTE1LC0xMT
 QxMjczNzA1LC04NjE2OTUwNTQsLTE3MDA1NTE4OTcsMTk5NzAw
 MTY5MCw0MzAwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMj
 A2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4

@@ -119,11 +119,16 @@ Ok, so what do we do accomplish what Kent mentioned?
 "test:e2e:run": "start-server-and-test start http://localhost:8080 cy:run",
 "test:e2e:dev": "start-server-and-test dev http://localhost:8080 cy:open",
 ```
-The `cypress run` command runs 
+The `cypress run` command runs Cypress in headless mode (which we want to run in CI). We also want to run the freshest build when doing this and therefore we have the `pretest:e2e:run` script which builds our application.
+
+We also add:
+```
+&& npm run test:e2e:run
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU4NTQ3NzcsLTEwMTU0NTE5NTUsLT
+eyJoaXN0b3J5IjpbLTEwNDQ2NDAxMzEsLTEwMTU0NTE5NTUsLT
 EzMjQ0NjYwNTcsMTQ1NTg5NDA0MywxOTA4ODg2MzcxLDYzNDg3
 NTgwNl19
 -->

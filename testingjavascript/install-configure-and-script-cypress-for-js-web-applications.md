@@ -23,9 +23,13 @@ You can install it as a devDependency.
 ```bash
 npm install --save-dev cypress
 ```
-
+To open cypress, run:
+```bash
+npx cypress open
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==
+eyJoaXN0b3J5IjpbMTg5NTAyNDg4MywxOTA4ODg2MzcxLDYzND
+g3NTgwNl19
 -->

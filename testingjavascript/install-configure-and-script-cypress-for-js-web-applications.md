@@ -51,10 +51,10 @@ module.exports = {
 We also add the `cypress/videos` & `cypress/screenshots` to the `.gitignore` so that videos & screenshots from Cypress are not added to source control.
 
 ## Write the First Cypress Test
-
+We follow the instructions from cypress and adds `localhost:8080` to `cy.visit()`. Then we use the Cypress Selector to get our selectors. They look a bit funny due to 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzAzMDQ1MywxOTA4ODg2MzcxLDYzND
-g3NTgwNl19
+eyJoaXN0b3J5IjpbLTEzMzIyOTIyMTAsMTkwODg4NjM3MSw2Mz
+Q4NzU4MDZdfQ==
 -->

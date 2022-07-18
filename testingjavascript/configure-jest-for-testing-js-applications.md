@@ -493,15 +493,24 @@ jestConfigFile: path.join(__dirname, './test/jest-common.js'),
 ``` 
 
 After all of these changes, we need to update our scripts in `package.json` so that we can run both client- and server-side tests:
-
-
+```json
+	"test": "is-ci \"test:coverage\" \"test:watch:client\"",
+    "test:coverage": "npm run test:coverage:client && npm run test:coverage:server",
+    "test:coverage:client": "jest --config test/jest.client.js --coverage",
+    "test:coverage:server": "jest --config test/jest.server.js --coverage",
+    "test:watch:client": "jest --config test/jest.client.js --watch",
+    "test:watch:server": "jest --config test/jest.server.js --watch",
+    "test:debug:client": "node --inspect-brk ./node_modules/jest/bin/jest.js --config test/jest.client.js --runInBand --watch",
+    "test:debug:server": "node --inspect-brk ./node_modules/jest/bin/jest.js --config test/jest.server.js --runInBand --watch",
+```
+We can only run one watch mode at a time, so we run the client-side tests by default.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTM0NTA0NywtMTE0MTI3MzcwNSwtOD
-YxNjk1MDU0LC0xNzAwNTUxODk3LDE5OTcwMDE2OTAsNDMwMDky
-OTU0LDkyNzgwODQ4MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMT
-M2ODc4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwx
-NDE3Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MT
-AxNywyMDA5NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbODQ4Mjg0MDAyLC0xMTQxMjczNzA1LC04Nj
+E2OTUwNTQsLTE3MDA1NTE4OTcsMTk5NzAwMTY5MCw0MzAwOTI5
+NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMjA2MTk3MzUyLC0xMz
+Y4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0
+MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMD
+E3LDIwMDk2NTM0ODRdfQ==
 -->

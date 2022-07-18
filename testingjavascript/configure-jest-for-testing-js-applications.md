@@ -343,13 +343,15 @@ It will now also automatically exclude the folder with the test utils.
 We also don't want to include the coverage map in source control so we need to add `coverage` to our `.gitignore`.
 
 ## Analyze Jest Code Coverage Reports
+- How does Jest know that some part of my code is not being tested? Because it runs a tool called `babel-plugin-istanbul`
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc3MDI5NjMsNDMwMDkyOTU0LDkyNz
-gwODQ4MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMTM2ODc4Mzk1
-NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NT
-k0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5
-NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbMTk5NzAwMTY5MCw0MzAwOTI5NTQsOTI3OD
+A4NDgyLDE2MjEzODk3MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0
+LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OT
+QsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2
+NTM0ODRdfQ==
 -->

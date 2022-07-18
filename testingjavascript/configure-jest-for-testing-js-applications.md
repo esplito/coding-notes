@@ -487,12 +487,18 @@ module.exports = {
 }
 ```
 
-We also need to update 
+We also need to update our `eslintrc` to point to our `jest-common.js`-file instead of `jest.config.js`:
+```js
+jestConfigFile: path.join(__dirname, './test/jest-common.js'),
+``` 
+
+After all of these changes, we need to update our scripts in `package.json` so that we can run both client- and server-side tests:
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODc1MTg3OCwtMTE0MTI3MzcwNSwtOD
+eyJoaXN0b3J5IjpbMTY2MTM0NTA0NywtMTE0MTI3MzcwNSwtOD
 YxNjk1MDU0LC0xNzAwNTUxODk3LDE5OTcwMDE2OTAsNDMwMDky
 OTU0LDkyNzgwODQ4MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMT
 M2ODc4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwx

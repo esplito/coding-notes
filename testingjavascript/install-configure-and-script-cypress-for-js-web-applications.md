@@ -71,8 +71,18 @@ cy.findByTestId('total').should('have.text', '3');
 ## Configure Cypress in cypress.json
 
 We use the `cypress.json`-file to set `baseUrl` and move some test files (to an e2e folder) to make it more clear what we want to test.
+
+### Example `cypress.json`
+```json
+{
+  "baseUrl": "http://localhost:8080",
+  "integrationFolder": "cypress/e2e",
+  "viewportHeight": 900,
+  "viewportWidth": 400
+}
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3NzcxMTAsMTQ1NTg5NDA0MywxOTA4OD
-g2MzcxLDYzNDg3NTgwNl19
+eyJoaXN0b3J5IjpbLTEzMjQ0NjYwNTcsMTQ1NTg5NDA0MywxOT
+A4ODg2MzcxLDYzNDg3NTgwNl19
 -->

@@ -418,15 +418,15 @@ For this to work, we also need to modify our scripts in `package.json`:
 ```
 We now have a separate script for running with the `--coverage` flag and we also let `is-ci-cli` determine whether we should run `test:coverage` or `test:watch`.
 
-If the environment variable `CI` is set to `1`, it will run ``
+If the environment variable `CI` is set to `1`, it will run `test:coverage`, otherwise `test:watch`.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4ODEwMTI2LC04NjE2OTUwNTQsLTE3MD
-A1NTE4OTcsMTk5NzAwMTY5MCw0MzAwOTI5NTQsOTI3ODA4NDgy
-LDE2MjEzODk3MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OT
-YyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1
-NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0OD
-RdfQ==
+eyJoaXN0b3J5IjpbMTg0MzI3NDI4MSwtODYxNjk1MDU0LC0xNz
+AwNTUxODk3LDE5OTcwMDE2OTAsNDMwMDkyOTU0LDkyNzgwODQ4
+MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMTM2ODc4Mzk1NCw3ND
+k2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02
+NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5NjUzND
+g0XX0=
 -->

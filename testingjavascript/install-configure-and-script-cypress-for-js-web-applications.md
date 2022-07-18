@@ -11,9 +11,11 @@
 
 ## Intro to Install, Configure, and Script Cypress for JavaScript Web Applications
 
-If you want to follow along, you can check
+If you want to follow along, you can checkout the branches `tjs/cypress-<number-here>` (00-17). 
+
+Example of the last lesson's branch: https://github.com/kentcdodds/jest-cypress-react-babel-webpack/tree/tjs/cypress-17
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3NTk4OTA4LDYzNDg3NTgwNl19
+eyJoaXN0b3J5IjpbLTIxNzE3Mzg5Miw2MzQ4NzU4MDZdfQ==
 -->

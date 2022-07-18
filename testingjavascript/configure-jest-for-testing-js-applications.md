@@ -601,17 +601,19 @@ The great thing about the jest-runner is that we can set up custom runners, for 
 	    './test/jest.server.js',
 	  ],
 	```
-5. 
+5. Voilá! 🙌 We can now run linting in watch mode and as a part of our test command in the CI 🥳
+
+We can
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk4MzA0MjUsLTUxMDU3MDgwNiwxMz
-U0NjY4OTE1LC0xMTQxMjczNzA1LC04NjE2OTUwNTQsLTE3MDA1
-NTE4OTcsMTk5NzAwMTY5MCw0MzAwOTI5NTQsOTI3ODA4NDgyLD
-E2MjEzODk3MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYy
-NjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1Nz
-M5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRd
-fQ==
+eyJoaXN0b3J5IjpbMTE2MjI1NDE0MSwtNTEwNTcwODA2LDEzNT
+Q2Njg5MTUsLTExNDEyNzM3MDUsLTg2MTY5NTA1NCwtMTcwMDU1
+MTg5NywxOTk3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMT
+YyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2
+NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3Mz
+kzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
+
 -->

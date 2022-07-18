@@ -70,9 +70,9 @@ cy.findByTestId('total').should('have.text', '3');
 
 ## Configure Cypress in cypress.json
 
-We use the `cypress.json`-file to set `baseUrl` and move some test files to m
+We use the `cypress.json`-file to set `baseUrl` and move some test files (to an e2e folder) to make it more clear what we want to test.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDY1Nzg1MjIsMTQ1NTg5NDA0MywxOT
-A4ODg2MzcxLDYzNDg3NTgwNl19
+eyJoaXN0b3J5IjpbMjM3NzcxMTAsMTQ1NTg5NDA0MywxOTA4OD
+g2MzcxLDYzNDg3NTgwNl19
 -->

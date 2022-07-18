@@ -332,13 +332,18 @@ We can open up the coverage report by writing the following command in the termi
 ```bash
 open coverage/lcov-report/index.html
 ```
-A problem can be that it includes the test utilities in the coverage report and this skews the overall coverage numbers, since the test utils have 100% coverage. We are also not seeing all files from `src` included, for example `index.js` or `app.js`.
+A problem can be that it includes the test utilities in the coverage report and this skews the overall coverage numbers, since the test utils have 100% coverage. We are also not seeing all files from `src` included, for example `index.js` or `app.js`. 
+
+This can be solved by adding the following line in `jest.config.js`:
+```js
+collectCoverageFrom: ['**/src/**/*.js'],
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5MDY3MzQxLDQzMDA5Mjk1NCw5Mjc4MD
-g0ODIsMTYyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQs
-NzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NC
-wtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1
-MzQ4NF19
+eyJoaXN0b3J5IjpbLTI4Mzc0NTgxMCw0MzAwOTI5NTQsOTI3OD
+A4NDgyLDE2MjEzODk3MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0
+LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OT
+QsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2
+NTM0ODRdfQ==
 -->

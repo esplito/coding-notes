@@ -645,15 +645,30 @@ watchPlugins: ['jest-watch-select-projects'],
 🥳 Now we can hit `P` in watch mode and select/de-select the different projects, with `space` and then press `Enter`
 
 ## Filter which Tests are Run with Typeahead Support in Jest Watch Mode
-Typeahead is a super nice plugin that makes it a lot easie
+Typeahead is a super nice plugin that makes it a lot easier to select the correct files or tests that you want to run. 
+
+1. You only need to install it:
+	```bash 
+	npm install --save-dev jest-watch-typeahead
+	```
+
+2. and add it to the `watchPlugins` in `jest-common.js`:
+	```js
+	watchPlugins: [
+	  'jest-watch-select-projects',
+	  'jest-watch-typeahead/filename',
+	  'jest-watch-typeahead/testname',
+	]
+	```
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzQzMzYxNSwxNTI1MTU4NTI0LC04OT
-Q4OTY0MSwtNTEwNTcwODA2LDEzNTQ2Njg5MTUsLTExNDEyNzM3
-MDUsLTg2MTY5NTA1NCwtMTcwMDU1MTg5NywxOTk3MDAxNjkwLD
-QzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTczMywyMDYxOTcz
-NTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2Mj
-YyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODdd
-fQ==
+eyJoaXN0b3J5IjpbLTIwMjMzMDk3NDgsMTUyNTE1ODUyNCwtOD
+k0ODk2NDEsLTUxMDU3MDgwNiwxMzU0NjY4OTE1LC0xMTQxMjcz
+NzA1LC04NjE2OTUwNTQsLTE3MDA1NTE4OTcsMTk5NzAwMTY5MC
+w0MzAwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMjA2MTk3
+MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNj
+I2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3
+XX0=
 -->

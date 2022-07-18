@@ -637,14 +637,20 @@ Instead, we can install a new devDependency:
 npm install --save-dev jest-watch-select-projects
 ```
 
+And then we just modify our `jest-common.js` and add this line:
+```js
+watchPlugins: ['jest-watch-select-projects'],
+```
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4NTQwMjcxLC04OTQ4OTY0MSwtNTEwNT
-cwODA2LDEzNTQ2Njg5MTUsLTExNDEyNzM3MDUsLTg2MTY5NTA1
-NCwtMTcwMDU1MTg5NywxOTk3MDAxNjkwLDQzMDA5Mjk1NCw5Mj
-c4MDg0ODIsMTYyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5
-NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OT
-U5NCwtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTddfQ==
+eyJoaXN0b3J5IjpbLTE2Mzg2OTg5NDIsLTg5NDg5NjQxLC01MT
+A1NzA4MDYsMTM1NDY2ODkxNSwtMTE0MTI3MzcwNSwtODYxNjk1
+MDU0LC0xNzAwNTUxODk3LDE5OTcwMDE2OTAsNDMwMDkyOTU0LD
+kyNzgwODQ4MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMTM2ODc4
+Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3Mz
+k5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxN119
 
 -->

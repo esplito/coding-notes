@@ -104,11 +104,17 @@ Using these commands, makes the tests way more readable! 📖
 
 >"It'd be really great if I could just run one script and it would start up my server and start up Cypress automatically." - Kent C. Dodds
 
+Ok, so what do we do accomplish what Kent mentioned?
 
+1. Install `start-server-and-test`
+	```bash
+	npm install --save-dev start-server-and-test
+	```
+2. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxMDUyNTM4LC0xMDE1NDUxOTU1LC0xMz
-I0NDY2MDU3LDE0NTU4OTQwNDMsMTkwODg4NjM3MSw2MzQ4NzU4
-MDZdfQ==
+eyJoaXN0b3J5IjpbLTg0NzIxNTI0NCwtMTAxNTQ1MTk1NSwtMT
+MyNDQ2NjA1NywxNDU1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1
+ODA2XX0=
 -->

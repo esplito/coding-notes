@@ -167,9 +167,12 @@ In this test, we test the functionality for registering a new user. We can't reg
 
 He creates a `buildUser`-function that generates a fake user with the help of the package `test-data-bot`.
 
+In the test he verifies that registration was successful by checking if we get redirected to the `baseUrl` a
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDQ3NTIwNyw1NzkwMjI5NTcsMTA4NT
-k4NjI2NCwtMTAxNTQ1MTk1NSwtMTMyNDQ2NjA1NywxNDU1ODk0
-MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
+eyJoaXN0b3J5IjpbLTg0MTUyMzgxMiwxMzc0NDc1MjA3LDU3OT
+AyMjk1NywxMDg1OTg2MjY0LC0xMDE1NDUxOTU1LC0xMzI0NDY2
+MDU3LDE0NTU4OTQwNDMsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ
+==
 -->

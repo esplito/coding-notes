@@ -53,8 +53,13 @@ We also add the `cypress/videos` & `cypress/screenshots` to the `.gitignore` so 
 ## Write the First Cypress Test
 We follow the instructions from cypress and adds `localhost:8080` to `cy.visit()`. Then we use the Cypress Selector to get our selectors. They look a bit funny due to fact that we have CSS Modules generating hashed classnames. We'll change the selectors later so that it is easier to follow.
 
+Cypress uses the "Chai assertion library". In the following line the `have.text`
+```js
+cy.findByTestId('total').should('have.text', '3')
+```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTg5NDA0MywxOTA4ODg2MzcxLDYzND
-g3NTgwNl19
+eyJoaXN0b3J5IjpbLTgwNDUxMDMxOSwxNDU1ODk0MDQzLDE5MD
+g4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

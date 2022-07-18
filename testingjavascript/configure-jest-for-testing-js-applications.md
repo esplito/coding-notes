@@ -420,6 +420,8 @@ We now have a separate script for running with the `--coverage` flag and we also
 
 If the environment variable `CI` is set to `1`, it will run `test:coverage`, otherwise `test:watch`.
 
+If you want to force CI test locally you can run `CI=1 npm t`.
+
 ## Run Tests with a Different Configuration using Jest’s --config Flag and testMatch Option
 
 Sometimes you might want to run a different configuration for some tests. This lesson covers that.
@@ -429,13 +431,27 @@ Kent sets up three different files inside the `test` directory:
 2. `jest.client.js`
 3. `jest.server.js`
 
+Here's the content of the new files:
+**1. jest-common.js**
+**2. jest.client.js**
+**3. jest.server.js**
+```js
+const path = require('path')
+
+module.exports = {
+  ...require('./jest-common'),
+  coverageDirectory: path.join(__dirname, '../coverage/server'),
+  testEnvironment: 'jest-environment-node',
+  testMatch: ['**/__server_tests__/**/*.js'],
+}
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDEyNzM3MDUsLTg2MTY5NTA1NCwtMT
-cwMDU1MTg5NywxOTk3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0
-ODIsMTYyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNz
-Q5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwt
-NjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1Mz
-Q4NF19
+eyJoaXN0b3J5IjpbMjY3NDI0MDEwLC0xMTQxMjczNzA1LC04Nj
+E2OTUwNTQsLTE3MDA1NTE4OTcsMTk5NzAwMTY5MCw0MzAwOTI5
+NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMjA2MTk3MzUyLC0xMz
+Y4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0
+MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMD
+E3LDIwMDk2NTM0ODRdfQ==
 -->

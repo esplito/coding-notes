@@ -664,15 +664,16 @@ Voilá 🥳 Now you get suggestions when you start typing in "pattern matching m
 
 ## Run Only Relevant Jest Tests on Git Commit to Avoid Breakages
 
-Running the tests on commit is a way to avoid breaking the application and not ha
+Running the tests on commit is a way to avoid breaking the application and not having to wait for them to be run in the CI. However this can be very slow if we need to run all of them each time. It would nice to just run it for the files that have been affected!
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjUyOTI1MywxNTI1MTU4NTI0LC04OT
-Q4OTY0MSwtNTEwNTcwODA2LDEzNTQ2Njg5MTUsLTExNDEyNzM3
-MDUsLTg2MTY5NTA1NCwtMTcwMDU1MTg5NywxOTk3MDAxNjkwLD
-QzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTczMywyMDYxOTcz
-NTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MDI2MTgxNCw2Mj
-YyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEwMDk2NDUyODdd
-fQ==
+eyJoaXN0b3J5IjpbLTEzMjg4MDc1OTMsMTUyNTE1ODUyNCwtOD
+k0ODk2NDEsLTUxMDU3MDgwNiwxMzU0NjY4OTE1LC0xMTQxMjcz
+NzA1LC04NjE2OTUwNTQsLTE3MDA1NTE4OTcsMTk5NzAwMTY5MC
+w0MzAwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMjA2MTk3
+MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNj
+I2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3
+XX0=
 -->

@@ -328,9 +328,15 @@ If we have added a `debugger` statement in our code, the Chrome Devtools will no
 
 By adding `--coverage` to the `jest`-command we get a coverage report for our project. It create a coverage directory with all the information.
 
+We can open up the coverage report by writing the following command in the terminal:
+```bash
+open coverage/lcov-report/index.html
+```
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTI4OTgwLDQzMDA5Mjk1NCw5Mjc4MD
+eyJoaXN0b3J5IjpbMzI3MjcwMjQ4LDQzMDA5Mjk1NCw5Mjc4MD
 g0ODIsMTYyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQs
 NzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NC
 wtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1

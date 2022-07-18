@@ -437,7 +437,8 @@ Here's the content of the new files:
 const path = require('path')
 
 module.exports = {
-  rootDir: path.join(__dirname, '..'),
+  // Needed so that it finds the tests (otherwise it will look inside the same folder as this file is located)
+  rootDir: path.join(__dirname, '..'), 
   moduleDirectories: [
     'node_modules',
     path.join(__dirname, '../src'),
@@ -491,7 +492,7 @@ We also need to update
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTY1Mzc0NSwtMTE0MTI3MzcwNSwtOD
+eyJoaXN0b3J5IjpbMTUyODc1MTg3OCwtMTE0MTI3MzcwNSwtOD
 YxNjk1MDU0LC0xNzAwNTUxODk3LDE5OTcwMDE2OTAsNDMwMDky
 OTU0LDkyNzgwODQ4MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMT
 M2ODc4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwx

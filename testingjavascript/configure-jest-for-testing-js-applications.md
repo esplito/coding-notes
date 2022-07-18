@@ -411,14 +411,22 @@ It's a bit tedious to be force to write `npm run test:watch` all the time when r
 npm install --save-dev is-ci-cli
 ```
 
-For this to work, we also need to modif
+For this to work, we also need to modify our scripts in `package.json`:
+```js
+	"test": "is-ci \"test:coverage\" \"test:watch\"",
+    "test:coverage": "jest --coverage",
+```
+We now have a separate script for running with the `--coverage` flag and we also let `is-ci-cli` determine whether we should run `test:coverage` or `test:watch`.
+
+If the environment variable `CI` is set to `1`, it will run ``
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc1MzE3NTEsLTg2MTY5NTA1NCwtMT
-cwMDU1MTg5NywxOTk3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0
-ODIsMTYyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNz
-Q5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwt
-NjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1Mz
-Q4NF19
+eyJoaXN0b3J5IjpbMzM4ODEwMTI2LC04NjE2OTUwNTQsLTE3MD
+A1NTE4OTcsMTk5NzAwMTY5MCw0MzAwOTI5NTQsOTI3ODA4NDgy
+LDE2MjEzODk3MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OT
+YyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1
+NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0OD
+RdfQ==
 -->

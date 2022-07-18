@@ -361,13 +361,13 @@ If we want it to ignore some part of the code, we can add:
 3. Functions
 4. Lines
 
-
+> "Now, one really important thing about coverage to remember is that **it's not a perfect metric for confidence." 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDc1MjEwMDEsLTE3MDA1NTE4OTcsMT
-k5NzAwMTY5MCw0MzAwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3
-MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNz
-AyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwx
-MDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbOTExMjA4NzE5LC0xNzAwNTUxODk3LDE5OT
+cwMDE2OTAsNDMwMDkyOTU0LDkyNzgwODQ4MiwxNjIxMzg5NzMz
+LDIwNjE5NzM1MiwtMTM2ODc4Mzk1NCw3NDk2MjY3MzMsLTcwMj
+YxODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02NTczOTM4NTUsMTAw
+OTY0NTI4Nyw2MTc2MTAxNywyMDA5NjUzNDg0XX0=
 -->

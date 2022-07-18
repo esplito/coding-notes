@@ -145,11 +145,22 @@ If you have Chrome DevTools opened in the tab where you are running your Cypress
 
 Another thing you can do is adding `.pause()` to pause your test and let you inspect & manipulate the application in that current state. Then you can just hit the `Resume` button to continue the test.
 
-For
+When writing your tests you can also play around with using `window.Cypress` to set some stuff on the window-object. 
+
+🚨 ****🚨
+
+### `window.Cypress` example
+```js
+if (window.Cypress) {
+   debugger
+   window.theme = theme
+   window.setTheme = setTheme
+ }
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzM3NzU1LDU3OTAyMjk1NywxMDg1OT
+eyJoaXN0b3J5IjpbNTE4Mjk4NTYyLDU3OTAyMjk1NywxMDg1OT
 g2MjY0LC0xMDE1NDUxOTU1LC0xMzI0NDY2MDU3LDE0NTU4OTQw
 NDMsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==
 -->

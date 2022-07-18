@@ -352,11 +352,12 @@ If we want it to ignore some part of the code, we can add:
 
 > I typically recommend against using these kinds of comments because you're basically lying to yourself about how much coverage you're getting, but sometimes it can be useful. - Kent C. Dodds
 
-ℹ️ Kent explains it very well in his video how the plugin checks the code. If you ever need to analyze why co
+ℹ️ Kent explains it very well in his video how the plugin checks the code. If you ever need to analyze why the code coverage looks a certain way -> Revisit [this lesson](https://testingjavascript.com/lessons/jest-analyze-jest-code-coverage-reports)!
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzOTk0ODQ4LC0xNzAwNTUxODk3LDE5OT
+eyJoaXN0b3J5IjpbNzkwNTk1OTk2LC0xNzAwNTUxODk3LDE5OT
 cwMDE2OTAsNDMwMDkyOTU0LDkyNzgwODQ4MiwxNjIxMzg5NzMz
 LDIwNjE5NzM1MiwtMTM2ODc4Mzk1NCw3NDk2MjY3MzMsLTcwMj
 YxODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02NTczOTM4NTUsMTAw

@@ -96,10 +96,12 @@ Inside `support/index.js` we'll also need to import the commands:
 import '@testing-library/cypress/add-commands'
 ```
 
-After that we'll have access to for example, `findByText`. However, we don't get access to `getByText` which we might know of from `@testing-library/react` and that is because we shouldn't write s
+After that we'll have access to for example, `findByText`. However, we don't get access to `getByText` which we might know of from `@testing-library/react` and that is because we shouldn't write synchronous queries in Cypress. 
+
+Using these commands, makes the tests way more readable! 📖
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzg4OTUwNCwtMTMyNDQ2NjA1NywxND
+eyJoaXN0b3J5IjpbMTI3MDM0NjI0OCwtMTMyNDQ2NjA1NywxND
 U1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

@@ -9,9 +9,11 @@
 1. You no longer need to do chaining of `.findByText().click().findByText().click()...`
 2. You no long need to use `queryBy` when asserting if an element is not in the DOM. You can use `findBy`! 🥳
 
+## Intro to Install, Configure, and Script Cypress for JavaScript Web Applications
 
+If you want to follow along, you can check
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTA4ODc2NCw2MzQ4NzU4MDZdfQ==
+eyJoaXN0b3J5IjpbMjc3NTk4OTA4LDYzNDg3NTgwNl19
 -->

@@ -86,10 +86,15 @@ When you have Cypress running, you can go to `Settings -> Configuration` to find
 
 ## Installing Cypress Testing Library
 
+To get better commands for finding elements, we install `@testing-library/cypress` 🥳
+```bash
+npm install --save-dev @testing-library/cypress
+```
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTUzMzAzOCwtMTMyNDQ2NjA1NywxND
+eyJoaXN0b3J5IjpbMjA0ODgyMjkyNywtMTMyNDQ2NjA1NywxND
 U1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

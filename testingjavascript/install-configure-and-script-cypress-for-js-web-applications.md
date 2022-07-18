@@ -84,8 +84,12 @@ We use the `cypress.json`-file to set `baseUrl` and move some test files (to an 
 
 When you have Cypress running, you can go to `Settings -> Configuration` to find all the settings that you can change inside your `cypress.json`.
 
+## Installing Cypress Testing Library
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzczOTg5LC0xMzI0NDY2MDU3LDE0NT
-U4OTQwNDMsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==
+eyJoaXN0b3J5IjpbMjA5NTUzMzAzOCwtMTMyNDQ2NjA1NywxND
+U1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

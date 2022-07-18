@@ -121,14 +121,16 @@ Ok, so what do we do accomplish what Kent mentioned?
 ```
 The `cypress run` command runs Cypress in headless mode (which we want to run in CI). We also want to run the freshest build when doing this and therefore we have the `pretest:e2e:run` script which builds our application.
 
-We also add:
+We also update the `validate` script to run e2e-tests:
+```json
+"validate": "npm run test:coverage && npm run test:e2e:run"
 ```
-&& npm run test:e2e:run
-```
+
+Kent also adds `npm run test:e2e:run` to the pre-commit hook of husky, but that could be a bit cumbersome to have when you are working on a big project. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQ2NDAxMzEsLTEwMTU0NTE5NTUsLT
+eyJoaXN0b3J5IjpbLTEwOTg5MDQ4NjgsLTEwMTU0NTE5NTUsLT
 EzMjQ0NjYwNTcsMTQ1NTg5NDA0MywxOTA4ODg2MzcxLDYzNDg3
 NTgwNl19
 -->

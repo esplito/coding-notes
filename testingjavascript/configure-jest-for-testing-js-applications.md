@@ -642,15 +642,15 @@ And then we just modify our `jest-common.js` and add this line:
 watchPlugins: ['jest-watch-select-projects'],
 ```
 
-
+🥳 Now we can hit `P` in watch mode and select/de-select the different projects, with `space` and then press `Enter`
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzg2OTg5NDIsLTg5NDg5NjQxLC01MT
-A1NzA4MDYsMTM1NDY2ODkxNSwtMTE0MTI3MzcwNSwtODYxNjk1
-MDU0LC0xNzAwNTUxODk3LDE5OTcwMDE2OTAsNDMwMDkyOTU0LD
-kyNzgwODQ4MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMTM2ODc4
-Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3Mz
-k5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxN119
+eyJoaXN0b3J5IjpbMTUyNTE1ODUyNCwtODk0ODk2NDEsLTUxMD
+U3MDgwNiwxMzU0NjY4OTE1LC0xMTQxMjczNzA1LC04NjE2OTUw
+NTQsLTE3MDA1NTE4OTcsMTk5NzAwMTY5MCw0MzAwOTI5NTQsOT
+I3ODA4NDgyLDE2MjEzODk3MzMsMjA2MTk3MzUyLC0xMzY4Nzgz
+OTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOT
+k1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3XX0=
 
 -->

@@ -110,11 +110,20 @@ Ok, so what do we do accomplish what Kent mentioned?
 	```bash
 	npm install --save-dev start-server-and-test
 	```
-2. 
+2. Update our scripts in `package.json`
+```json
+"cy:run": "cypress run",
+"cy:open": "cypress open",
+"test:e2e": "is-ci \"test:e2e:run\"  \"test:e2e:dev\"",
+"pretest:e2e:run": "npm run build",
+"test:e2e:run": "start-server-and-test start http://localhost:8080 cy:run",
+"test:e2e:dev": "start-server-and-test dev http://localhost:8080 cy:open",
+```
+The `cypress run` command runs 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzIxNTI0NCwtMTAxNTQ1MTk1NSwtMT
-MyNDQ2NjA1NywxNDU1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1
-ODA2XX0=
+eyJoaXN0b3J5IjpbLTEyNDU4NTQ3NzcsLTEwMTU0NTE5NTUsLT
+EzMjQ0NjYwNTcsMTQ1NTg5NDA0MywxOTA4ODg2MzcxLDYzNDg3
+NTgwNl19
 -->

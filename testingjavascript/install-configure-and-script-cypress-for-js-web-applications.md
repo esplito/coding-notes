@@ -44,10 +44,14 @@ module.exports = {
   env: {'cypress/globals': true},
 }
 ```
+`root: true` is added so that we don't get a conflict between the ESLint conf for jest and this one.
+
+>"That way, ESLint will stop here as it's looking at the file system for the configuration to use for a particular file." - Kent C. Dodds
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQyNTcyODAsMTkwODg4NjM3MSw2Mz
+eyJoaXN0b3J5IjpbLTExMjMyMzYyNzksMTkwODg4NjM3MSw2Mz
 Q4NzU4MDZdfQ==
 -->

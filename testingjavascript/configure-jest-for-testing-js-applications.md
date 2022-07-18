@@ -433,7 +433,47 @@ Kent sets up three different files inside the `test` directory:
 
 Here's the content of the new files:
 **1. jest-common.js**
+```js
+const path = require('path')
+
+module.exports = {
+  rootDir: path.join(__dirname, '..'),
+  moduleDirectories: [
+    'node_modules',
+    path.join(__dirname, '../src'),
+    'shared',
+    path.join(__dirname),
+  ],
+  moduleNameMapper: {
+    '\\.module\\.css$': 'identity-obj-proxy',
+    '\\.css$': require.resolve('./style-mock.js'),
+  },
+  collectCoverageFrom: ['**/src/**/*.js'],
+}
+```
 **2. jest.client.js**
+```js
+module.exports = {
+  ...require('./jest-common'),
+  testEnvironment: 'jest-environment-jsdom',
+  setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
+  snapshotSerializers: ['jest-emotion'],
+  coverageThreshold: {
+    global: {
+      statements: 15,
+      branches: 10,
+      functions: 15,
+      lines: 15,
+    },
+    './src/shared/utils.js': {
+      statements: 100,
+      branches: 80,
+      functions: 100,
+      lines: 100,
+    },
+  },
+}
+```
 **3. jest.server.js**
 ```js
 const path = require('path')
@@ -446,12 +486,15 @@ module.exports = {
 }
 ```
 
+We also need to update 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3NDI0MDEwLC0xMTQxMjczNzA1LC04Nj
-E2OTUwNTQsLTE3MDA1NTE4OTcsMTk5NzAwMTY5MCw0MzAwOTI5
-NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMjA2MTk3MzUyLC0xMz
-Y4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0
-MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMD
-E3LDIwMDk2NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbLTU2OTY1Mzc0NSwtMTE0MTI3MzcwNSwtOD
+YxNjk1MDU0LC0xNzAwNTUxODk3LDE5OTcwMDE2OTAsNDMwMDky
+OTU0LDkyNzgwODQ4MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMT
+M2ODc4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwx
+NDE3Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MT
+AxNywyMDA5NjUzNDg0XX0=
 -->

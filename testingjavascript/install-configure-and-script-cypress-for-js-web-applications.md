@@ -32,11 +32,12 @@ npx cypress open
 
 Install the ESLint plugin:
 ```bash
-eslint-plugin-cypress
+npm install --save-dev eslint-plugin-cypress
 ```
+Create `.eslintrc.js` in your
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDc4NTYxNSwxOTA4ODg2MzcxLDYzND
-g3NTgwNl19
+eyJoaXN0b3J5IjpbLTE3ODk3OTI5MDUsMTkwODg4NjM3MSw2Mz
+Q4NzU4MDZdfQ==
 -->

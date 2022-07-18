@@ -165,11 +165,11 @@ In this test, we test the functionality for registering a new user. We can't reg
 
 > "Now, clearing out your database between tests is a good thing to do, but sometimes you can't do that." - Kent C. Dodds
 
-
+He creates a `buildUser`-function that generates a fake user with the help of the package `test-data-bot`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjMzMzk0OSw1NzkwMjI5NTcsMTA4NT
+eyJoaXN0b3J5IjpbMTM3NDQ3NTIwNyw1NzkwMjI5NTcsMTA4NT
 k4NjI2NCwtMTAxNTQ1MTk1NSwtMTMyNDQ2NjA1NywxNDU1ODk0
 MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

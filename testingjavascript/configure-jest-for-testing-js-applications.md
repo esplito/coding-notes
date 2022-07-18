@@ -326,7 +326,7 @@ If we have added a `debugger` statement in our code, the Chrome Devtools will no
 
 ## Configure Jest to Report Code Coverage on Project Files
 
-By adding `--coverage` to the `jest`-command we get a coverage report for our project. It create a coverage directory with all the information.
+By adding `--coverage` to the `jest`-command (when running `npm test` we get a coverage report for our project. It create a coverage directory with all the information.
 
 We can open up the coverage report by writing the following command in the terminal:
 ```bash
@@ -338,13 +338,15 @@ This can be solved by adding the following line in `jest.config.js`:
 ```js
 collectCoverageFrom: ['**/src/**/*.js'],
 ```
-It will now also automatically exclude the folder with the test utils.
+It will now also automatically exclude the folder with the test utils. 
+
+We also don't want to include the coverage map in source control so we need to add `coverage` to our `.gitignore`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTEzMzQ1MTIsNDMwMDkyOTU0LDkyNz
-gwODQ4MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMTM2ODc4Mzk1
-NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NT
-k0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MTAxNywyMDA5
-NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbLTE2NjA1OTQ5LDQzMDA5Mjk1NCw5Mjc4MD
+g0ODIsMTYyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQs
+NzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NC
+wtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1
+MzQ4NF19
 -->

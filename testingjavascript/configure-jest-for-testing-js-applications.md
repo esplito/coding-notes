@@ -345,13 +345,15 @@ We also don't want to include the coverage map in source control so we need to a
 ## Analyze Jest Code Coverage Reports
 - How does Jest know that some part of my code is not being tested? Because it runs a tool called `babel-plugin-istanbul`
 
+> "It's not actually changing the behavior of your code, it's just adding some instrumentation so that it can keep track of the side of the default value expression run." - Kent C. Dodds
 
+If we want it to ignore some part of the code, we can add:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzAwMTY5MCw0MzAwOTI5NTQsOTI3OD
-A4NDgyLDE2MjEzODk3MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0
-LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OT
-QsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2
-NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbLTIxMjk3NDkzMDQsMTk5NzAwMTY5MCw0Mz
+AwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMjA2MTk3MzUy
+LC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2Mj
+IxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYx
+NzYxMDE3LDIwMDk2NTM0ODRdfQ==
 -->

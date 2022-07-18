@@ -601,15 +601,31 @@ The great thing about the jest-runner is that we can set up custom runners, for 
 	    './test/jest.server.js',
 	  ],
 	```
-5. Voilá! 🙌 We can now run linting in watch mode and as a part of our test command in the CI 🥳
-
-We can
+5. Update the scripts in `package.json` and remove some unnecessary validation:
+```json
+"scripts": {
+    "test": "is-ci \"test:coverage\" \"test:watch\"",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch",
+    "dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production",
+    "postbuild": "cp ./public/index.html ./dist/index.html",
+    "start": "serve --no-clipboard --single --listen 8080 dist",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|css|html|md)\"",
+    // Here's the interesting 
+    "lint": "jest --config test/jest.lint.js",
+    "validate": "npm run test && npm run build",
+    "setup": "npm install && npm run validate"
+ }
+```
+6. Voilá! 🙌 We can now run linting in watch mode and as a part of our test command in the CI 🥳
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MjI1NDE0MSwtNTEwNTcwODA2LDEzNT
+eyJoaXN0b3J5IjpbLTg0NjY2NjE3MiwtNTEwNTcwODA2LDEzNT
 Q2Njg5MTUsLTExNDEyNzM3MDUsLTg2MTY5NTA1NCwtMTcwMDU1
 MTg5NywxOTk3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMT
 YyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2

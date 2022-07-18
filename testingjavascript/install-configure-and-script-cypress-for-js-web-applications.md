@@ -61,12 +61,15 @@ cy.findByTestId('total').should('have.text', '3');
 >"... I like to call `cy` -> `user` and then we say, "User, I want you to visit that thing and then user, I want to get that and then user, I want to click on that." The way that I see these commands is more of a list of instructions that I'm going to give to a user, rather than to a to the Cypress robot." - Kent C. Dodds
 
 ```js
+// Example of above quote
 const user = cy
     user.visit('http://localhost:8080')
+    user.get('something')
+    // etc.
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTA5NzgxNywxNDU1ODk0MDQzLDE5MD
+eyJoaXN0b3J5IjpbMTEyNDM5MzM5MSwxNDU1ODk0MDQzLDE5MD
 g4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

@@ -326,13 +326,13 @@ If we have added a `debugger` statement in our code, the Chrome Devtools will no
 
 ## Configure Jest to Report Code Coverage on Project Files
 
-By adding `--coverage` to the `jest`-command we get a coverage report for our project.
+By adding `--coverage` to the `jest`-command we get a coverage report for our project. It create a coverage directory with all the information.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTgwNzU5MSw0MzAwOTI5NTQsOTI3OD
-A4NDgyLDE2MjEzODk3MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0
-LDc0OTYyNjczMywtNzAyNjE4MTQsNjI2MjIxLDE0MTczOTk1OT
-QsLTY1NzM5Mzg1NSwxMDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2
-NTM0ODRdfQ==
+eyJoaXN0b3J5IjpbMTk4NTI4OTgwLDQzMDA5Mjk1NCw5Mjc4MD
+g0ODIsMTYyMTM4OTczMywyMDYxOTczNTIsLTEzNjg3ODM5NTQs
+NzQ5NjI2NzMzLC03MDI2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NC
+wtNjU3MzkzODU1LDEwMDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1
+MzQ4NF19
 -->

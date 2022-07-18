@@ -506,14 +506,14 @@ After all of these changes, we need to update our scripts in `package.json` so t
 We can only run one watch mode at a time, so we run the client-side tests by default.
 
 ## Support Running Multiple Configurations with Jest’s Projects Feature
-
+Okay, so what we did in the previous lesson is a bit much and Kent provides a solution for making it look as clean as it did before, without having to double all of our test scripts. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDY2ODkxNSwtMTE0MTI3MzcwNSwtOD
-YxNjk1MDU0LC0xNzAwNTUxODk3LDE5OTcwMDE2OTAsNDMwMDky
-OTU0LDkyNzgwODQ4MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMT
-M2ODc4Mzk1NCw3NDk2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwx
-NDE3Mzk5NTk0LC02NTczOTM4NTUsMTAwOTY0NTI4Nyw2MTc2MT
-AxNywyMDA5NjUzNDg0XX0=
+eyJoaXN0b3J5IjpbMTcyOTcwNzI1MCwxMzU0NjY4OTE1LC0xMT
+QxMjczNzA1LC04NjE2OTUwNTQsLTE3MDA1NTE4OTcsMTk5NzAw
+MTY5MCw0MzAwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3MzMsMj
+A2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNzAyNjE4
+MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwxMDA5Nj
+Q1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
 -->

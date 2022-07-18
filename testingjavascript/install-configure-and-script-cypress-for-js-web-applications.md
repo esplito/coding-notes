@@ -169,10 +169,17 @@ He creates a `buildUser`-function that generates a fake user with the help of th
 
 In the test he verifies that registration was successful by checking if we get redirected to the `baseUrl` and by checking if `localStorage.token` is a `string`.
 
+```js
+  .url()
+  .should('eq', `${Cypress.config().baseUrl}/`)
+  .window()
+  .its('localStorage.token')
+  .should('be.a', 'string')
+```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY1ODM4MDUsMTM3NDQ3NTIwNyw1Nz
-kwMjI5NTcsMTA4NTk4NjI2NCwtMTAxNTQ1MTk1NSwtMTMyNDQ2
-NjA1NywxNDU1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX
-0=
+eyJoaXN0b3J5IjpbODAwNTI3NTY5LDEzNzQ0NzUyMDcsNTc5MD
+IyOTU3LDEwODU5ODYyNjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYw
+NTcsMTQ1NTg5NDA0MywxOTA4ODg2MzcxLDYzNDg3NTgwNl19
 -->

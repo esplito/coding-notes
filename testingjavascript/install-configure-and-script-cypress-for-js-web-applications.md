@@ -130,9 +130,12 @@ Kent also adds `npm run test:e2e:run` to the pre-commit hook of husky, but that 
 
 Kent also does some CI configuration for Travis CI (check the lesson again if interested).
 
+## Debug a Test with Cypress
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTk4NjI2NCwtMTAxNTQ1MTk1NSwtMT
-MyNDQ2NjA1NywxNDU1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1
-ODA2XX0=
+eyJoaXN0b3J5IjpbNTc5MDIyOTU3LDEwODU5ODYyNjQsLTEwMT
+U0NTE5NTUsLTEzMjQ0NjYwNTcsMTQ1NTg5NDA0MywxOTA4ODg2
+MzcxLDYzNDg3NTgwNl19
 -->

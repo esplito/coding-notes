@@ -355,13 +355,19 @@ If we want it to ignore some part of the code, we can add:
 ℹ️ Kent explains it very well in his video how the plugin checks the code. If you ever need to analyze why the code coverage looks a certain way -> Revisit [this lesson](https://testingjavascript.com/lessons/jest-analyze-jest-code-coverage-reports)!
 
 ## Set a Code Coverage Threshold in Jest to Maintain Code Coverage Levels
+### The four elements of Code Coverage
+1. Statements
+2. Branches
+3. Functions
+4. Lines
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Nzk0MDE4NCwtMTcwMDU1MTg5NywxOT
-k3MDAxNjkwLDQzMDA5Mjk1NCw5Mjc4MDg0ODIsMTYyMTM4OTcz
-MywyMDYxOTczNTIsLTEzNjg3ODM5NTQsNzQ5NjI2NzMzLC03MD
-I2MTgxNCw2MjYyMjEsMTQxNzM5OTU5NCwtNjU3MzkzODU1LDEw
-MDk2NDUyODcsNjE3NjEwMTcsMjAwOTY1MzQ4NF19
+eyJoaXN0b3J5IjpbLTIxMDc1MjEwMDEsLTE3MDA1NTE4OTcsMT
+k5NzAwMTY5MCw0MzAwOTI5NTQsOTI3ODA4NDgyLDE2MjEzODk3
+MzMsMjA2MTk3MzUyLC0xMzY4NzgzOTU0LDc0OTYyNjczMywtNz
+AyNjE4MTQsNjI2MjIxLDE0MTczOTk1OTQsLTY1NzM5Mzg1NSwx
+MDA5NjQ1Mjg3LDYxNzYxMDE3LDIwMDk2NTM0ODRdfQ==
 -->

@@ -420,10 +420,14 @@ We now have a separate script for running with the `--coverage` flag and we also
 
 If the environment variable `CI` is set to `1`, it will run `test:coverage`, otherwise `test:watch`.
 
+## Run Tests with a Different Configuration using Jest’s --config Flag and testMatch Option
+
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzI3NDI4MSwtODYxNjk1MDU0LC0xNz
+eyJoaXN0b3J5IjpbLTYyNzkyMTE4MiwtODYxNjk1MDU0LC0xNz
 AwNTUxODk3LDE5OTcwMDE2OTAsNDMwMDkyOTU0LDkyNzgwODQ4
 MiwxNjIxMzg5NzMzLDIwNjE5NzM1MiwtMTM2ODc4Mzk1NCw3ND
 k2MjY3MzMsLTcwMjYxODE0LDYyNjIyMSwxNDE3Mzk5NTk0LC02

@@ -46,8 +46,37 @@ test('should not allow invalid passwords', () => {
 })
 ```
 
+### Extra-credit without `jest-in-case`
+```js
+// My second try with less duplication
+describe('valid passwords', () => {
+    const validPasswords = ['!aBc123']
+    validPasswords.forEach((password) => {
+        test(`${password} is valid`, () => {
+            expect(isPasswordAllowed(password)).toBe(true)
+        })
+    })
+})
+
+describe('invalid password', () => {
+    const invalidPasswords = [
+        'a2c!',
+        '123456!',
+        'ABCdef!',
+        'abc123!',
+        'ABC123!',
+        'ABCdef123',
+    ]
+
+    invalidPasswords.forEach((password) => {
+        test(`${password} is invalid`, () => {
+            expect(isPasswordAllowed(password)).toBe(false)
+        })
+    })
+})
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5Nz
-M1MDc2MDAsLTEzMTAyODQ5XX0=
+eyJoaXN0b3J5IjpbNDc2MDkyNDA1LC0xNTI3NTI1NjgxLDg2MT
+QzNDEwNSwxOTczNTA3NjAwLC0xMzEwMjg0OV19
 -->

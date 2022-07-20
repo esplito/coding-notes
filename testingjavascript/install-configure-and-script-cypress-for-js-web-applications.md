@@ -190,14 +190,23 @@ Kent talks about the idea of using Cypress kind of as a Test Driven Development 
 ## Simulate HTTP Errors in Cypress Tests
 We can use Cypress to simulate errors and test how the application responds.
 
-
+Example of how to use Cyp
+```js
+cy.server()
+  cy.route({
+    method: 'POST',
+    url: 'http://localhost:3000/register',
+    status: 500,
+    response: {},
+  })
+```
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzk3MTI2OCwtMjA0MjYxMTczMSwxMz
-c0NDc1MjA3LDU3OTAyMjk1NywxMDg1OTg2MjY0LC0xMDE1NDUx
-OTU1LC0xMzI0NDY2MDU3LDE0NTU4OTQwNDMsMTkwODg4NjM3MS
-w2MzQ4NzU4MDZdfQ==
+eyJoaXN0b3J5IjpbLTE2MTQyODE4MzYsLTIwNDI2MTE3MzEsMT
+M3NDQ3NTIwNyw1NzkwMjI5NTcsMTA4NTk4NjI2NCwtMTAxNTQ1
+MTk1NSwtMTMyNDQ2NjA1NywxNDU1ODk0MDQzLDE5MDg4ODYzNz
+EsNjM0ODc1ODA2XX0=
 -->

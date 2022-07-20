@@ -124,9 +124,29 @@ cases(
 )
 ```
 
+```js
+// Re-visited version for disallowed passwords
+const invalidPasswords = {
+  'a2c!': {},
+  '123456!': {},
+  'ABCdef!': {},
+  'abc123!': {},
+  'ABC123!': {},
+  'ABCdef123': {},
+}
+cases(
+  'disallowed passwords',
+  (options) => {
+    const result = isPasswordAllowed(options.name)
+    expect(result).toBe(false)
+  },
+  invalidPasswords,
+)
+```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTc5OTA5NCwyMDIwNDIzOTU0LC0xNT
-I3NTI1NjgxLDg2MTQzNDEwNSwxOTczNTA3NjAwLC0xMzEwMjg0
-OV19
+eyJoaXN0b3J5IjpbLTE1NDQ5NDAwODMsLTU2OTc5OTA5NCwyMD
+IwNDIzOTU0LC0xNTI3NTI1NjgxLDg2MTQzNDEwNSwxOTczNTA3
+NjAwLC0xMzEwMjg0OV19
 -->

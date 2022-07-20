@@ -243,10 +243,13 @@ it('should login an existing user', () => {
  })
 ```
 
+## Use Custom Cypress Command for Reusable Assertions
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODM5NjQ5MiwtNjIxNTcwNDQ4LC0yMD
-QyNjExNzMxLDEzNzQ0NzUyMDcsNTc5MDIyOTU3LDEwODU5ODYy
-NjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNTcsMTQ1NTg5NDA0My
-wxOTA4ODg2MzcxLDYzNDg3NTgwNl19
+eyJoaXN0b3J5IjpbMTgzMjU4NzQ5LC02MjE1NzA0NDgsLTIwND
+I2MTE3MzEsMTM3NDQ3NTIwNyw1NzkwMjI5NTcsMTA4NTk4NjI2
+NCwtMTAxNTQ1MTk1NSwtMTMyNDQ2NjA1NywxNDU1ODk0MDQzLD
+E5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

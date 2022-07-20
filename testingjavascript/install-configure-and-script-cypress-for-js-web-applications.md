@@ -213,14 +213,14 @@ Instead of having to click through the registration form again in the "login exi
      method: 'POST',
      body: user,
    })
- // then we do all the login stuff
+ // then we run through the login process
 ```
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTM5MjIwOSwtNjIxNTcwNDQ4LC0yMD
+eyJoaXN0b3J5IjpbMTMyODc3MjAwNiwtNjIxNTcwNDQ4LC0yMD
 QyNjExNzMxLDEzNzQ0NzUyMDcsNTc5MDIyOTU3LDEwODU5ODYy
 NjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNTcsMTQ1NTg5NDA0My
 wxOTA4ODg2MzcxLDYzNDg3NTgwNl19

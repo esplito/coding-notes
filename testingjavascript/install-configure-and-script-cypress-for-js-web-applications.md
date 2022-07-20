@@ -282,7 +282,7 @@ cy.loginAsNewUser().then((user) => {
 })
 ```
 
-We create the new command:
+We need to create the new command:
 ```js
 Cypress.Commands.add('loginAsNewUser', () => {
   cy.createUser().then(user => {
@@ -290,12 +290,26 @@ Cypress.Commands.add('loginAsNewUser', () => {
   })
 })
 ```
-and a return statement inside 
+and a return statement inside the `login` command:
+```js
+Cypress.Commands.add('login', user => {
+  return cy
+    .request({
+      url: 'http://localhost:3000/login',
+      method: 'POST',
+      body: user,
+    })
+    .then(response => {
+      window.localStorage.setItem('token', response.body.user.token)
+      return {...response.body.user, ...user}
+    })
+})
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDA5OTk2NSwtMTEzNjYzNjAzMiwtNj
-IxNTcwNDQ4LC0yMDQyNjExNzMxLDEzNzQ0NzUyMDcsNTc5MDIy
-OTU3LDEwODU5ODYyNjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNT
-csMTQ1NTg5NDA0MywxOTA4ODg2MzcxLDYzNDg3NTgwNl19
+eyJoaXN0b3J5IjpbOTAxNzk1NTIwLC0xMTM2NjM2MDMyLC02Mj
+E1NzA0NDgsLTIwNDI2MTE3MzEsMTM3NDQ3NTIwNyw1NzkwMjI5
+NTcsMTA4NTk4NjI2NCwtMTAxNTQ1MTk1NSwtMTMyNDQ2NjA1Ny
+wxNDU1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

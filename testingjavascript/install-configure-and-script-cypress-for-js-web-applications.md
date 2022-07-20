@@ -201,12 +201,17 @@ cy.server()
   })
 ```
 
+## Create a User with `cy.request` from Cypress
+>"Wouldn't it be nice if we could just say, "Hey, Cypress, do this thing that our app is doing so that we can have a registered user"? That's exactly what we're going to do." - Kent C. Dodds
+
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTU3MDQ0OCwtMjA0MjYxMTczMSwxMz
-c0NDc1MjA3LDU3OTAyMjk1NywxMDg1OTg2MjY0LC0xMDE1NDUx
-OTU1LC0xMzI0NDY2MDU3LDE0NTU4OTQwNDMsMTkwODg4NjM3MS
-w2MzQ4NzU4MDZdfQ==
+eyJoaXN0b3J5IjpbMjE0NjExNzYwMCwtNjIxNTcwNDQ4LC0yMD
+QyNjExNzMxLDEzNzQ0NzUyMDcsNTc5MDIyOTU3LDEwODU5ODYy
+NjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNTcsMTQ1NTg5NDA0My
+wxOTA4ODg2MzcxLDYzNDg3NTgwNl19
 -->

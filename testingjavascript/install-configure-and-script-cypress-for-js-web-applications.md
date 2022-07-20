@@ -306,9 +306,12 @@ Cypress.Commands.add('login', user => {
 })
 ```
 
+## Install React DevTools with Cypress
+1. Inside the Cypress chrome window: Search for and in
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTExMDE4MzcsLTExMzY2MzYwMzIsLT
+eyJoaXN0b3J5IjpbLTE5NjUyODIzMTgsLTExMzY2MzYwMzIsLT
 YyMTU3MDQ0OCwtMjA0MjYxMTczMSwxMzc0NDc1MjA3LDU3OTAy
 Mjk1NywxMDg1OTg2MjY0LC0xMDE1NDUxOTU1LC0xMzI0NDY2MD
 U3LDE0NTU4OTQwNDMsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==

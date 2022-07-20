@@ -78,9 +78,55 @@ describe('invalid password', () => {
 
 ### Extra credit (💯  jest-in-case)
 
+```js
+// Third try with jest-in-case instead
+const validPasswords = {
+    '!aBc123': {
+        result: true
+    }
+}
+cases(
+    'allowed passwords',
+    (options) => {
+        const result = isPasswordAllowed(options.name)
+        expect(result).toBe(options.result)
+    },
+    validPasswords,
+)
+
+const invalidPasswords = {
+    'a2c!': {
+        result: false
+    },
+    '123456!': {
+        result: false
+    },
+    'ABCdef!': {
+        result: false
+    },
+    'abc123!': {
+        result: false
+    },
+    'ABC123!': {
+        result: false
+    },
+    'ABCdef123': {
+        result: false
+    },
+}
+cases(
+    'disallowed passwords',
+    (options) => {
+        const result = isPasswordAllowed(options.name)
+        expect(result).toBe(options.result)
+    },
+    invalidPasswords,
+)
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDQyMzk1NCwtMTUyNzUyNTY4MSw4Nj
-E0MzQxMDUsMTk3MzUwNzYwMCwtMTMxMDI4NDldfQ==
+eyJoaXN0b3J5IjpbLTU2OTc5OTA5NCwyMDIwNDIzOTU0LC0xNT
+I3NTI1NjgxLDg2MTQzNDEwNSwxOTczNTA3NjAwLC0xMzEwMjg0
+OV19
 -->

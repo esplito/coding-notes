@@ -290,7 +290,7 @@ Cypress.Commands.add('loginAsNewUser', () => {
   })
 })
 ```
-and add a return statement inside the `login` command:
+and add a return statement with the user inside the `login` command:
 ```js
 Cypress.Commands.add('login', user => {
   return cy
@@ -308,7 +308,7 @@ Cypress.Commands.add('login', user => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI5NjQ5NjEsLTExMzY2MzYwMzIsLT
+eyJoaXN0b3J5IjpbLTE2MTExMDE4MzcsLTExMzY2MzYwMzIsLT
 YyMTU3MDQ0OCwtMjA0MjYxMTczMSwxMzc0NDc1MjA3LDU3OTAy
 Mjk1NywxMDg1OTg2MjY0LC0xMDE1NDUxOTU1LC0xMzI0NDY2MD
 U3LDE0NTU4OTQwNDMsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==

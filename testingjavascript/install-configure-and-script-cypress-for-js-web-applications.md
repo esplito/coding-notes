@@ -186,14 +186,14 @@ In the test he verifies that registration was successful by checking if we get r
 Kent talks about the idea of using Cypress kind of as a Test Driven Development (TDD) tool, hence the title "Cypress Driven Development".
 
 >"If you've ever developed an experience where a user has to enter in seven pages of forms and then you get to the success page, and that's what you're developing is that success page, and it's a total nightmare to develop that because you have to type in all those form inputs, now you can just use Cypress to have that.
-
- Type in all type in those form inputs automatically for you, you can get to that last page quickly, and use Cypress as your tool for development. The cool thing about this, is you have all of your development tools that you're used to having in regular Chrome because it is Chrome.
+>
+>Type in all type in those form inputs automatically for you, you can get to that last page quickly, and use Cypress as your tool for development."
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1OTE1NjU0LC0yMDQyNjExNzMxLDEzNz
+eyJoaXN0b3J5IjpbNTY1OTY5Mzc4LC0yMDQyNjExNzMxLDEzNz
 Q0NzUyMDcsNTc5MDIyOTU3LDEwODU5ODYyNjQsLTEwMTU0NTE5
 NTUsLTEzMjQ0NjYwNTcsMTQ1NTg5NDA0MywxOTA4ODg2MzcxLD
 YzNDg3NTgwNl19

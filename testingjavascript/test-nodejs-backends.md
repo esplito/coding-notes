@@ -171,11 +171,11 @@ cases(
 )
 ```
 
-
+💡 Idea: Create a typed function that makes it more obvious that it gives a "reason"/"rule" to the case, that is displayed when running the
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQzMTEzMjEzLC0xNTQ0OTQwMDgzLC01Nj
-k3OTkwOTQsMjAyMDQyMzk1NCwtMTUyNzUyNTY4MSw4NjE0MzQx
-MDUsMTk3MzUwNzYwMCwtMTMxMDI4NDldfQ==
+eyJoaXN0b3J5IjpbMTExMzM3MCwtMTU0NDk0MDA4MywtNTY5Nz
+k5MDk0LDIwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1
+LDE5NzM1MDc2MDAsLTEzMTAyODQ5XX0=
 -->

@@ -22,6 +22,8 @@ Background info and exercise: https://github.com/kentcdodds/testing-node-apps/bl
 ### First  try without `jest-in-case`
 
 ```js
+import {isPasswordAllowed} from  '../auth'
+
 test('should allow valid password', () => {
    const validPassword = '!aBc123'
    expect(isPasswordAllowed(validPassword)).toBeTruthy()
@@ -35,15 +37,17 @@ test('should not allow invalid passwords', () => {
     const noLowerCasePw = 'ABC123!'
     const noNonAlphaNumericsPw = 'ABCdef123'
 
-    expect(isPasswordAllowed(tooShortPw)).toBeFalsy()expect(isPasswordAllowed(noAlphabetCharsPw)).toBeFalsy()
+    expect(isPasswordAllowed(tooShortPw)).toBeFalsy()
+    expect(isPasswordAllowed(noAlphabetCharsPw)).toBeFalsy()
     expect(isPasswordAllowed(noNumbersPw)).toBeFalsy()
     expect(isPasswordAllowed(noUpperCasePw)).toBeFalsy()
-    expect(isPasswordAllowed(noLowerCasePw)).toBeFalsy() expect(isPasswordAllowed(noNonAlphaNumericsPw)).toBeFalsy()
+    expect(isPasswordAllowed(noLowerCasePw)).toBeFalsy()
+    expect(isPasswordAllowed(noNonAlphaNumericsPw)).toBeFalsy()
 })
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDgyNzg3MCw4NjE0MzQxMDUsMTk3Mz
-UwNzYwMCwtMTMxMDI4NDldfQ==
+eyJoaXN0b3J5IjpbLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5Nz
+M1MDc2MDAsLTEzMTAyODQ5XX0=
 -->

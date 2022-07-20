@@ -144,9 +144,36 @@ cases(
 )
 ```
 
+### Extra credit (💯  improved titles for jest-in-case)
+```js
+// Fourth try with failure reason
+function reasonify(obj) {
+  return Object.entries(obj).map(([pwRule, name]) => ({
+    name: `${pwRule} - ${name}`,
+    password: name,
+  }))
+}
+
+cases(
+  'disallowed passwords',
+  ({password}) => {
+    const result = isPasswordAllowed(password)
+    expect(result).toBe(false)
+  },
+  reasonify({
+    'too short': 'a2c!',
+    'no letters': '123456!',
+    'no numbers': 'ABCdef!',
+    'no uppercase letters': 'abc123!',
+    'no lowercase letters': 'ABC123!',
+    'no non-alphanumeric characters': 'ABCdef123',
+  }),
+)
+```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ5NDAwODMsLTU2OTc5OTA5NCwyMD
-IwNDIzOTU0LC0xNTI3NTI1NjgxLDg2MTQzNDEwNSwxOTczNTA3
-NjAwLC0xMzEwMjg0OV19
+eyJoaXN0b3J5IjpbLTIwMDAwMjUxODMsLTE1NDQ5NDAwODMsLT
+U2OTc5OTA5NCwyMDIwNDIzOTU0LC0xNTI3NTI1NjgxLDg2MTQz
+NDEwNSwxOTczNTA3NjAwLC0xMzEwMjg0OV19
 -->

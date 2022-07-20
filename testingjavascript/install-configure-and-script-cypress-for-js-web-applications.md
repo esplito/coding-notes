@@ -260,13 +260,21 @@ Then we can just add `cy.assertLoggedInAs(user)` to our test.
 ## Use cy.request from Cypress to Authenticate as a New User
 In this lesson we get to see how we can use `cy.request` to replace some unnecessary steps for logging in when testing that a user's display name is shown when logged in and is not shown when logged out.
 
-You can add stuff to `localStorage`  after the
+You can add stuff to `localStorage`  after the `cy.request` is done:
+```js
+cy.request({
+  url: 'http://localhost:3000/login',
+  method: 'POST',
+  body: user,
+}).then(response => {
+  window.localStorage.setItem('token', response.body.user.token)
+})
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTU2NzY3NTQsLTExMzY2MzYwMzIsLT
-YyMTU3MDQ0OCwtMjA0MjYxMTczMSwxMzc0NDc1MjA3LDU3OTAy
-Mjk1NywxMDg1OTg2MjY0LC0xMDE1NDUxOTU1LC0xMzI0NDY2MD
-U3LDE0NTU4OTQwNDMsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==
-
+eyJoaXN0b3J5IjpbMTI1MjYzMjg2NywtMTEzNjYzNjAzMiwtNj
+IxNTcwNDQ4LC0yMDQyNjExNzMxLDEzNzQ0NzUyMDcsNTc5MDIy
+OTU3LDEwODU5ODYyNjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNT
+csMTQ1NTg5NDA0MywxOTA4ODg2MzcxLDYzNDg3NTgwNl19
 -->

@@ -13,9 +13,10 @@ This course module has a similar format to EpicReact. This means that I get some
 -   Mocking third party dependencies
 -   Testing authenticated code
 
+## Test Pure Functions Overview
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzMxMTQwNDgsLTEzMTAyODQ5XX0=
+eyJoaXN0b3J5IjpbLTM1ODg4MjcyMiwtMTMxMDI4NDldfQ==
 -->

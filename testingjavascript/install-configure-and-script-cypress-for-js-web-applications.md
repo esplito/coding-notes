@@ -257,10 +257,13 @@ Cypress.Commands.add('assertLoggedInAs', user => {
 
 Then we can just add `cy.assertLoggedInAs(user)` to our test.
 
+## Use cy.request from Cypress to Authenticate as a New User
+In this lesson we get to see how we can use `cy.request` to replace some unnecessary steps for logging i
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzY2MzYwMzIsLTYyMTU3MDQ0OCwtMj
-A0MjYxMTczMSwxMzc0NDc1MjA3LDU3OTAyMjk1NywxMDg1OTg2
-MjY0LC0xMDE1NDUxOTU1LC0xMzI0NDY2MDU3LDE0NTU4OTQwND
-MsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==
+eyJoaXN0b3J5IjpbLTg3NzU1MzE1MSwtMTEzNjYzNjAzMiwtNj
+IxNTcwNDQ4LC0yMDQyNjExNzMxLDEzNzQ0NzUyMDcsNTc5MDIy
+OTU3LDEwODU5ODYyNjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNT
+csMTQ1NTg5NDA0MywxOTA4ODg2MzcxLDYzNDg3NTgwNl19
 -->

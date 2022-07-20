@@ -216,11 +216,15 @@ Instead of having to click through the registration form again in the "login exi
  // then we run through the login process
 ```
 
+## Keep Tests Isolated and Focused with Custom Cypress Commands
+
+To get some more isolation we can create Cypress Commands. For example, instead of doing the `cy.request` etc. when creating a user in a test, we can write a command that does this for us.
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyODc3MjAwNiwtNjIxNTcwNDQ4LC0yMD
+eyJoaXN0b3J5IjpbLTM2MDU4NTgzNiwtNjIxNTcwNDQ4LC0yMD
 QyNjExNzMxLDEzNzQ0NzUyMDcsNTc5MDIyOTU3LDEwODU5ODYy
 NjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNTcsMTQ1NTg5NDA0My
 wxOTA4ODg2MzcxLDYzNDg3NTgwNl19

@@ -204,14 +204,14 @@ cy.server()
 ## Create a User with `cy.request` from Cypress
 >"Wouldn't it be nice if we could just say, "Hey, Cypress, do this thing that our app is doing so that we can have a registered user"? That's exactly what we're going to do." - Kent C. Dodds
 
-
+Instead of having to click through the registration form again in the "login existing user"-test, we'll use `cy.request` to make the same `POST`-request that the ap
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjExNzYwMCwtNjIxNTcwNDQ4LC0yMD
-QyNjExNzMxLDEzNzQ0NzUyMDcsNTc5MDIyOTU3LDEwODU5ODYy
-NjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNTcsMTQ1NTg5NDA0My
-wxOTA4ODg2MzcxLDYzNDg3NTgwNl19
+eyJoaXN0b3J5IjpbLTEwMjQ1Mzk0NjQsLTYyMTU3MDQ0OCwtMj
+A0MjYxMTczMSwxMzc0NDc1MjA3LDU3OTAyMjk1NywxMDg1OTg2
+MjY0LC0xMDE1NDUxOTU1LC0xMzI0NDY2MDU3LDE0NTU4OTQwND
+MsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==
 -->

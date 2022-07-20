@@ -275,13 +275,27 @@ This can also be moved to a Cypress Command, just as we did with user registrati
 
 ## Combine Custom Cypress Commands into a Single Custom Command
 
-We can combine the register and login commands so that we only need to write `cy.loginAsNewUS`
+We can combine the register and login commands so that we only need to write 
+```js
+cy.loginAsNewUser().then((user) => {
+/* do stuff here */
+})
+```
+
+We create the new command:
+```js
+Cypress.Commands.add('loginAsNewUser', () => {
+  cy.createUser().then(user => {
+    cy.login(user)
+  })
+})
+```
+and a return statement inside 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzg1Njk4MzAsLTExMzY2MzYwMzIsLT
-YyMTU3MDQ0OCwtMjA0MjYxMTczMSwxMzc0NDc1MjA3LDU3OTAy
-Mjk1NywxMDg1OTg2MjY0LC0xMDE1NDUxOTU1LC0xMzI0NDY2MD
-U3LDE0NTU4OTQwNDMsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==
-
+eyJoaXN0b3J5IjpbMTI4NDA5OTk2NSwtMTEzNjYzNjAzMiwtNj
+IxNTcwNDQ4LC0yMDQyNjExNzMxLDEzNzQ0NzUyMDcsNTc5MDIy
+OTU3LDEwODU5ODYyNjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNT
+csMTQ1NTg5NDA0MywxOTA4ODg2MzcxLDYzNDg3NTgwNl19
 -->

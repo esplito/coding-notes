@@ -233,12 +233,20 @@ Cypress.Commands.add('createUser', overrides => {
 })
 ```
 
-This command also makes the subject `user` available to us in the test so we'll just 
+This command also makes the subject `user` available to us in the test so we'll just run our test code inside the `.then()`:
+```js
+it('should login an existing user', () => {
+   cy.createUser().then(user => {
+     // do all the test stuff here. 
+     // We have access to user.username etc.
+   })
+ })
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyNjY0NTMyLC02MjE1NzA0NDgsLTIwND
-I2MTE3MzEsMTM3NDQ3NTIwNyw1NzkwMjI5NTcsMTA4NTk4NjI2
-NCwtMTAxNTQ1MTk1NSwtMTMyNDQ2NjA1NywxNDU1ODk0MDQzLD
-E5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
+eyJoaXN0b3J5IjpbMTYzODM5NjQ5MiwtNjIxNTcwNDQ4LC0yMD
+QyNjExNzMxLDEzNzQ0NzUyMDcsNTc5MDIyOTU3LDEwODU5ODYy
+NjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNTcsMTQ1NTg5NDA0My
+wxOTA4ODg2MzcxLDYzNDg3NTgwNl19
 -->

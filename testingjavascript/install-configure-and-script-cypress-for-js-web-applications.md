@@ -244,12 +244,23 @@ it('should login an existing user', () => {
 ```
 
 ## Use Custom Cypress Command for Reusable Assertions
-We can also use custom Cypress Commands to create custom assertions. One good example that Kent shows is this one for asserting ta
+We can also use custom Cypress Commands to create custom assertions. This is great if we need to re-use the same assertion and can make our tests leaner and more descriptive. One good example that Kent shows is this one for asserting that we are logged in as as specific user:
+```js
+Cypress.Commands.add('assertLoggedInAs', user => {
+  cy.window()
+    .its('localStorage.token')
+    .should('be.a', 'string')
+    .findByTestId('username-display')
+    .should('have.text', user.username)
+})
+```
+
+Then we can just add `cy.assertLoggedInAs(user)` to our test.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzYxMzc3MiwtNjIxNTcwNDQ4LC0yMD
-QyNjExNzMxLDEzNzQ0NzUyMDcsNTc5MDIyOTU3LDEwODU5ODYy
-NjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNTcsMTQ1NTg5NDA0My
-wxOTA4ODg2MzcxLDYzNDg3NTgwNl19
+eyJoaXN0b3J5IjpbLTExMzY2MzYwMzIsLTYyMTU3MDQ0OCwtMj
+A0MjYxMTczMSwxMzc0NDc1MjA3LDU3OTAyMjk1NywxMDg1OTg2
+MjY0LC0xMDE1NDUxOTU1LC0xMzI0NDY2MDU3LDE0NTU4OTQwND
+MsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==
 -->

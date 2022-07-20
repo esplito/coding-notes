@@ -15,8 +15,11 @@ This course module has a similar format to EpicReact. This means that I get some
 
 ## Test Pure Functions Overview
 
+Background info and exercise: https://github.com/kentcdodds/testing-node-apps/blob/tjs/src/utils/__tests__/auth.md
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODg4MjcyMiwtMTMxMDI4NDldfQ==
+eyJoaXN0b3J5IjpbMTk3MzUwNzYwMCwtMTMxMDI4NDldfQ==
 -->

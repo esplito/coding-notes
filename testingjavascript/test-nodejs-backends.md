@@ -46,7 +46,7 @@ test('should not allow invalid passwords', () => {
 })
 ```
 
-### Extra-credit without `jest-in-case`
+### Extra-credit (💯  reduce duplication) without `jest-in-case`
 ```js
 // My second try with less duplication
 describe('valid passwords', () => {
@@ -75,8 +75,12 @@ describe('invalid password', () => {
     })
 })
 ```
+
+### Extra credit (💯  jest-in-case)
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2MDkyNDA1LC0xNTI3NTI1NjgxLDg2MT
-QzNDEwNSwxOTczNTA3NjAwLC0xMzEwMjg0OV19
+eyJoaXN0b3J5IjpbMjAyMDQyMzk1NCwtMTUyNzUyNTY4MSw4Nj
+E0MzQxMDUsMTk3MzUwNzYwMCwtMTMxMDI4NDldfQ==
 -->

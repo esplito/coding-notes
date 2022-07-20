@@ -220,12 +220,25 @@ Instead of having to click through the registration form again in the "login exi
 
 To get some more isolation we can create Cypress Commands. For example, instead of doing the `cy.request` etc. when creating a user in a test, we can write a command that does this for us.
 
+```js
+import {buildUser} from '../support/generate'
 
+Cypress.Commands.add('createUser', overrides => {
+  const user = buildUser(overrides)
+  cy.request({
+    url: 'http://localhost:3000/register',
+    method: 'POST',
+    body: user,
+  }).then(response => ({...response.body.user, ...user}))
+})
+```
+
+This command also makes the subject `user` available to us in the test so we'll just 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDU4NTgzNiwtNjIxNTcwNDQ4LC0yMD
-QyNjExNzMxLDEzNzQ0NzUyMDcsNTc5MDIyOTU3LDEwODU5ODYy
-NjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNTcsMTQ1NTg5NDA0My
-wxOTA4ODg2MzcxLDYzNDg3NTgwNl19
+eyJoaXN0b3J5IjpbODUyNjY0NTMyLC02MjE1NzA0NDgsLTIwND
+I2MTE3MzEsMTM3NDQ3NTIwNyw1NzkwMjI5NTcsMTA4NTk4NjI2
+NCwtMTAxNTQ1MTk1NSwtMTMyNDQ2NjA1NywxNDU1ODk0MDQzLD
+E5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

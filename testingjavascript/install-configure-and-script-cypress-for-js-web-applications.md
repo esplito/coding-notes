@@ -307,13 +307,13 @@ Cypress.Commands.add('login', user => {
 ```
 
 ## Install React DevTools with Cypress
-1. Inside the Cypress chrome window: Search for and in
+1. Inside the Cypress chrome window: Search for and install https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+2. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjUyODIzMTgsLTExMzY2MzYwMzIsLT
-YyMTU3MDQ0OCwtMjA0MjYxMTczMSwxMzc0NDc1MjA3LDU3OTAy
-Mjk1NywxMDg1OTg2MjY0LC0xMDE1NDUxOTU1LC0xMzI0NDY2MD
-U3LDE0NTU4OTQwNDMsMTkwODg4NjM3MSw2MzQ4NzU4MDZdfQ==
-
+eyJoaXN0b3J5IjpbODI5MjQxMDIzLC0xMTM2NjM2MDMyLC02Mj
+E1NzA0NDgsLTIwNDI2MTE3MzEsMTM3NDQ3NTIwNyw1NzkwMjI5
+NTcsMTA4NTk4NjI2NCwtMTAxNTQ1MTk1NSwtMTMyNDQ2NjA1Ny
+wxNDU1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

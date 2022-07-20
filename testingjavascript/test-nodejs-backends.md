@@ -3,9 +3,11 @@
 ## Intro to Test Node.js Backends
 Github repo: https://github.com/kentcdodds/testing-node-apps
 
-T
+This course module has a similar format to EpicReact. This means that I get some exercises to do first and then Kent walks through the solution.
+
+### To
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODg2NzI3LC0xMzEwMjg0OV19
+eyJoaXN0b3J5IjpbMTI0NzQ0MjM0NCwtMTMxMDI4NDldfQ==
 -->

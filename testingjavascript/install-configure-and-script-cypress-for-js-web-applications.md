@@ -311,17 +311,17 @@ Cypress.Commands.add('login', user => {
 2. Add the following to the `index.html` of our react app:
 	```html
 	<script>
-	    if(window.Cypress) {
-	      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ =
-	        window.parent.__REACT_DEVTOOLS_GLOBAL_HOOK__
-	    }
-	  </script>
+    if(window.Cypress) {
+      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ =
+        window.parent.__REACT_DEVTOOLS_GLOBAL_HOOK__
+    }
+	</script>
 	```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzAwMTA3OCwtMTEzNjYzNjAzMiwtNj
-IxNTcwNDQ4LC0yMDQyNjExNzMxLDEzNzQ0NzUyMDcsNTc5MDIy
-OTU3LDEwODU5ODYyNjQsLTEwMTU0NTE5NTUsLTEzMjQ0NjYwNT
-csMTQ1NTg5NDA0MywxOTA4ODg2MzcxLDYzNDg3NTgwNl19
+eyJoaXN0b3J5IjpbNTM3MDI4MzYyLC0xMTM2NjM2MDMyLC02Mj
+E1NzA0NDgsLTIwNDI2MTE3MzEsMTM3NDQ3NTIwNyw1NzkwMjI5
+NTcsMTA4NTk4NjI2NCwtMTAxNTQ1MTk1NSwtMTMyNDQ2NjA1Ny
+wxNDU1ODk0MDQzLDE5MDg4ODYzNzEsNjM0ODc1ODA2XX0=
 -->

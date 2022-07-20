@@ -187,11 +187,14 @@ Kent talks about the idea of using Cypress kind of as a Test Driven Development 
 
 >"If you've ever developed an experience where a user has to enter in seven pages of forms and then you get to the success page, and that's what you're developing is that success page, and it's a total nightmare to develop that because you have to type in all those form inputs, now you can just use Cypress to have that type in all type in those form inputs automatically for you. You can get to that last page quickly, and use Cypress as your tool for development." - Kent C. Dodds
 
+## Simulate HTTP Errors in Cypress Tests
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzE1NjQyNiwtMjA0MjYxMTczMSwxMz
+eyJoaXN0b3J5IjpbMTAxOTIxOTk1NiwtMjA0MjYxMTczMSwxMz
 c0NDc1MjA3LDU3OTAyMjk1NywxMDg1OTg2MjY0LC0xMDE1NDUx
 OTU1LC0xMzI0NDY2MDU3LDE0NTU4OTQwNDMsMTkwODg4NjM3MS
 w2MzQ4NzU4MDZdfQ==

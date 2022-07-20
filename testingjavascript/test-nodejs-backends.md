@@ -19,10 +19,31 @@ Background info and exercise: https://github.com/kentcdodds/testing-node-apps/bl
 
 ## Exercise 1: Write Unit Tests for a Simple Pure Function
 
+### First  try without `jest-in-case`
 
+```js
+test('should allow valid password', () => {
+   const validPassword = '!aBc123'
+   expect(isPasswordAllowed(validPassword)).toBeTruthy()
+})
+
+test('should not allow invalid passwords', () => {
+    const tooShortPw = 'a2c!'
+    const noAlphabetCharsPw = '123456!'
+    const noNumbersPw = 'ABCdef!'
+    const noUpperCasePw = 'abc123!'
+    const noLowerCasePw = 'ABC123!'
+    const noNonAlphaNumericsPw = 'ABCdef123'
+
+    expect(isPasswordAllowed(tooShortPw)).toBeFalsy()expect(isPasswordAllowed(noAlphabetCharsPw)).toBeFalsy()
+    expect(isPasswordAllowed(noNumbersPw)).toBeFalsy()
+    expect(isPasswordAllowed(noUpperCasePw)).toBeFalsy()
+    expect(isPasswordAllowed(noLowerCasePw)).toBeFalsy() expect(isPasswordAllowed(noNonAlphaNumericsPw)).toBeFalsy()
+})
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxNDM0MTA1LDE5NzM1MDc2MDAsLTEzMT
-AyODQ5XX0=
+eyJoaXN0b3J5IjpbMTU5NDgyNzg3MCw4NjE0MzQxMDUsMTk3Mz
+UwNzYwMCwtMTMxMDI4NDldfQ==
 -->

@@ -424,7 +424,11 @@ Example: `No bookId provided` changed to `no bookId provided`
 **Without `toMatchInlineSnapshot`**
 ```js
 test('createListItem returns a 400 error if no bookId is provided', async () => {
-    const req = generate.buildReq()
+    const req = generate.buildReq({
+	    body: {
+	        bookId: undefined
+	    }
+	})
     const res = generate.buildRes()
 
     await listItemsController.createListItem(req, res)
@@ -442,7 +446,11 @@ test('createListItem returns a 400 error if no bookId is provided', async () => 
 ```js
 // Extra credit 1: 💯 Use toMatchInlineSnapshot for errors
 test('createListItem returns a 400 error if no bookId is provided', async () => {
-    const req = generate.buildReq()
+    const req = generate.buildReq({
+	    body: {
+	        bookId: undefined
+	    }
+	})
     const res = generate.buildRes()
 
     await listItemsController.createListItem(req, res)
@@ -462,11 +470,11 @@ test('createListItem returns a 400 error if no bookId is provided', async () => 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDEyODY5MiwxMTU2MDAzNzcsMjAyNT
-Y0NzMzOCwtMTgzNjk3Njc0MCwtNTMzOTM1NDY3LDMwNTkxOTA2
-Miw5NjI2NTA4NTcsMTIyMDU1MjIyMiwtMTk0MjQ0MTI3NCwtMz
-k4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAwOTAwLC0yNDcwOTUx
-NjMsLTUyNjY2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5MDk0LD
-IwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5NzM1
-MDc2MDBdfQ==
+eyJoaXN0b3J5IjpbLTE4OTg3NjE2ODAsMTE1NjAwMzc3LDIwMj
+U2NDczMzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2NywzMDU5MTkw
+NjIsOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEyNzQsLT
+M5ODIwNjIwNSwxMTM4NzY4MTQ1LDQ0NjcwMDkwMCwtMjQ3MDk1
+MTYzLC01MjY2NjA3NzIsLTE1NDQ5NDAwODMsLTU2OTc5OTA5NC
+wyMDIwNDIzOTU0LC0xNTI3NTI1NjgxLDg2MTQzNDEwNSwxOTcz
+NTA3NjAwXX0=
 -->

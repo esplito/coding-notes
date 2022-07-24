@@ -363,7 +363,12 @@ Kent's explanation to why we mock the database interaction:
 
 This exercise is done in the `list-items-controller.exercise.js` and it uses the code from `list-items-controller.js`.
 
-### First attempt
+### Exercise notes
+
+Kent mentions the following about the async/await syntax used in this project:
+>🦉 Note that we're using `express-async-errors` in this project. That means that we can use `async/await` in our middleware and we don't have to call `next`. So you can call the middleware function with and `await` in your test.
+
+#### First attempt
 
 ```js
 test('getListItem returns the req.listItem', async () => {
@@ -408,11 +413,11 @@ test('getListItem returns the req.listItem', async () => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjI3MDM2OCwyMDI1NjQ3MzM4LC0xOD
-M2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYyLDk2MjY1MDg1
-NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0zOTgyMDYyMDUsMT
-EzODc2ODE0NSw0NDY3MDA5MDAsLTI0NzA5NTE2MywtNTI2NjYw
-NzcyLC0xNTQ0OTQwMDgzLC01Njk3OTkwOTQsMjAyMDQyMzk1NC
-wtMTUyNzUyNTY4MSw4NjE0MzQxMDUsMTk3MzUwNzYwMCwtMTMx
-MDI4NDldfQ==
+eyJoaXN0b3J5IjpbMTE1NjAwMzc3LDIwMjU2NDczMzgsLTE4Mz
+Y5NzY3NDAsLTUzMzkzNTQ2NywzMDU5MTkwNjIsOTYyNjUwODU3
+LDEyMjA1NTIyMjIsLTE5NDI0NDEyNzQsLTM5ODIwNjIwNSwxMT
+M4NzY4MTQ1LDQ0NjcwMDkwMCwtMjQ3MDk1MTYzLC01MjY2NjA3
+NzIsLTE1NDQ5NDAwODMsLTU2OTc5OTA5NCwyMDIwNDIzOTU0LC
+0xNTI3NTI1NjgxLDg2MTQzNDEwNSwxOTczNTA3NjAwLC0xMzEw
+Mjg0OV19
 -->

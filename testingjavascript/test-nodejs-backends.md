@@ -363,12 +363,15 @@ Kent's explanation to why we mock the database interaction:
 
 This exercise is done in the `list-items-controller.exercise.js` and it uses the code from `list-items-controller.js`.
 
+### F
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTY0NzMzOCwtMTgzNjk3Njc0MCwtNT
-MzOTM1NDY3LDMwNTkxOTA2Miw5NjI2NTA4NTcsMTIyMDU1MjIy
-MiwtMTk0MjQ0MTI3NCwtMzk4MjA2MjA1LDExMzg3NjgxNDUsND
-Q2NzAwOTAwLC0yNDcwOTUxNjMsLTUyNjY2MDc3MiwtMTU0NDk0
-MDA4MywtNTY5Nzk5MDk0LDIwMjA0MjM5NTQsLTE1Mjc1MjU2OD
-EsODYxNDM0MTA1LDE5NzM1MDc2MDAsLTEzMTAyODQ5XX0=
+eyJoaXN0b3J5IjpbLTkwMDA5NTg0NywyMDI1NjQ3MzM4LC0xOD
+M2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYyLDk2MjY1MDg1
+NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0zOTgyMDYyMDUsMT
+EzODc2ODE0NSw0NDY3MDA5MDAsLTI0NzA5NTE2MywtNTI2NjYw
+NzcyLC0xNTQ0OTQwMDgzLC01Njk3OTkwOTQsMjAyMDQyMzk1NC
+wtMTUyNzUyNTY4MSw4NjE0MzQxMDUsMTk3MzUwNzYwMCwtMTMx
+MDI4NDldfQ==
 -->

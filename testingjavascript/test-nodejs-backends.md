@@ -350,12 +350,16 @@ function buildRes(overrides = {}) {
 ## Test Node Controllers Overview
 In this part we'll test controllers and Kent has created a  [markdown file with instructions](https://github.com/kentcdodds/testing-node-apps/blob/tjs/src/routes/__tests__/list-items-controller.md).
 
+Testing controllers is a bit more difficult and requires more setup and cleanup. We also deal with more complex business logic.
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxODU3MzU0LC01MzM5MzU0NjcsMzA1OT
-E5MDYyLDk2MjY1MDg1NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0
-LC0zOTgyMDYyMDUsMTEzODc2ODE0NSw0NDY3MDA5MDAsLTI0Nz
-A5NTE2MywtNTI2NjYwNzcyLC0xNTQ0OTQwMDgzLC01Njk3OTkw
-OTQsMjAyMDQyMzk1NCwtMTUyNzUyNTY4MSw4NjE0MzQxMDUsMT
-k3MzUwNzYwMCwtMTMxMDI4NDldfQ==
+eyJoaXN0b3J5IjpbMTkwMTUwMTcxNCwtNTMzOTM1NDY3LDMwNT
+kxOTA2Miw5NjI2NTA4NTcsMTIyMDU1MjIyMiwtMTk0MjQ0MTI3
+NCwtMzk4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAwOTAwLC0yND
+cwOTUxNjMsLTUyNjY2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5
+MDk0LDIwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LD
+E5NzM1MDc2MDAsLTEzMTAyODQ5XX0=
 -->

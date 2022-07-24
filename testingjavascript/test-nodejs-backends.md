@@ -415,16 +415,20 @@ test('getListItem returns the req.listItem', async () => {
 
 Kent mentions that `res.json.mock.calls[0]` is basically checking the same thing as `expect(res.json).toHaveBeenCalledWith`.
 
-**Why use `toMatchInlineSnaphost`?**
-Because if you were to change the error message that you are testing (when using `toHaveBeenCalledWith`), you would need to update the expected text in thes 
+**Why use `toMatchInlineSnapshot`?**
+Because if you were to change the error message that you are testing (when using `toHaveBeenCalledWith`), you would need to update the expected text in the test also.
+
+_With `toMatchInlineSnapshot`_ you only need to press the `u` key in jest watch mode to update the snapshot. 
+
+**Without to**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODAzMzMyNjQsMTE1NjAwMzc3LDIwMj
-U2NDczMzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2NywzMDU5MTkw
-NjIsOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEyNzQsLT
-M5ODIwNjIwNSwxMTM4NzY4MTQ1LDQ0NjcwMDkwMCwtMjQ3MDk1
-MTYzLC01MjY2NjA3NzIsLTE1NDQ5NDAwODMsLTU2OTc5OTA5NC
-wyMDIwNDIzOTU0LC0xNTI3NTI1NjgxLDg2MTQzNDEwNSwxOTcz
-NTA3NjAwXX0=
+eyJoaXN0b3J5IjpbMTg4MDk2MDc2LDExNTYwMDM3NywyMDI1Nj
+Q3MzM4LC0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYy
+LDk2MjY1MDg1NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0zOT
+gyMDYyMDUsMTEzODc2ODE0NSw0NDY3MDA5MDAsLTI0NzA5NTE2
+MywtNTI2NjYwNzcyLC0xNTQ0OTQwMDgzLC01Njk3OTkwOTQsMj
+AyMDQyMzk1NCwtMTUyNzUyNTY4MSw4NjE0MzQxMDUsMTk3MzUw
+NzYwMF19
 -->

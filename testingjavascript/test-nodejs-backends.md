@@ -363,11 +363,52 @@ Kent's explanation to why we mock the database interaction:
 
 This exercise is done in the `list-items-controller.exercise.js` and it uses the code from `list-items-controller.js`.
 
-### F
+### First attempt
+
+```js
+test('getListItem returns the req.listItem', async () => {
+    // 🐨 create a user
+    const user = generate.buildUser()
+    // 🐨 create a book
+    const book = generate.buildBook()
+    // 🐨 create a listItem that has the user as the owner and the book
+    const listItem = generate.buildListItem({
+        ownerId: user.id,
+        bookId: book.id
+    })
+    // 🐨 mock booksDB.readById to resolve to the book
+    // 💰 use mockResolvedValueOnce
+    booksDB.readById.mockResolvedValueOnce(book)
+    // 🐨 make a request object that has properties for the user and listItem
+    // 💰 checkout the implementation of getListItem in ../list-items-controller
+    // to see how the request object is used and what properties it needs.
+    // 💰 and you can use buildReq from utils/generate
+    const req = generate.buildReq({
+        user,
+        listItem,
+    })
+    // 🐨 make a response object
+    // 💰 just use buildRes from utils/generate
+    const res = generate.buildRes()
+    // 🐨 make a call to getListItem with the req and res (`await` the result)
+    await listItemsController.getListItem(req, res)
+    // 🐨 assert that booksDB.readById was called correctly
+    expect(booksDB.readById).toHaveBeenCalledWith(book.id)
+    expect(booksDB.readById).toHaveBeenCalledTimes(1)
+    //🐨 assert that res.json was called correctly
+    expect(res.json).toHaveBeenCalledWith({
+        listItem: {
+            ...listItem,
+            book
+        }
+    })
+    expect(res.json).toBeCalledTimes(1)
+})
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDA5NTg0NywyMDI1NjQ3MzM4LC0xOD
+eyJoaXN0b3J5IjpbMjEwNjI3MDM2OCwyMDI1NjQ3MzM4LC0xOD
 M2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYyLDk2MjY1MDg1
 NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0zOTgyMDYyMDUsMT
 EzODc2ODE0NSw0NDY3MDA5MDAsLTI0NzA5NTE2MywtNTI2NjYw

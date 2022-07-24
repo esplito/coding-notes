@@ -215,12 +215,85 @@ Kent recommends to test:
 2. That we have only responded the expected amount of times
 	- Example: `expect(res.status).toHaveBeenCalledTimes(1)`
 
- 
+### First attempt
+```js
+// 🐨 Write a test for the UnauthorizedError case
+test('responds with 401 for express-jwt UnauthorizedError', () => {
+    const req = {}
+    const next = jest.fn()
+    const code = 'credentials_required'
+    const message = 'No credentials were supplied'
+    const error = new UnauthorizedError(code, {
+        message,
+    })
+    const res = {
+        json: jest.fn(() => res),
+        status: jest.fn(() => res)
+    }
+
+    errorMiddleware(error, req, res, next)
+
+    expect(next).not.toHaveBeenCalled()
+    expect(res.status).toHaveBeenCalledWith(401)
+    expect(res.status).toHaveBeenCalledTimes(1)
+    expect(res.json).toHaveBeenCalledWith({
+        code: error.code,
+        message: error.message,
+    })
+    expect(res.json).toHaveBeenCalledTimes(1)
+})
+
+// 🐨 Write a test for the headersSent case
+
+test('calls next if headersSent is true', () => {
+    const req = {}
+    const next = jest.fn()
+    const error = new Error('some error')
+    const res = {
+        json: jest.fn(() => res),
+        status: jest.fn(() => res),
+        headersSent: true,
+    }
+
+    errorMiddleware(error, req, res, next)
+
+    expect(next).toHaveBeenCalledWith(error)
+    expect(next).toHaveBeenCalledTimes(1)
+    expect(res.status).not.toHaveBeenCalled()
+    expect(res.json).not.toHaveBeenCalled()
+})
+
+// 🐨 Write a test for the else case (responds with a 500)
+test('responds with 500 and the error object', () => {
+    const req = {}
+    const next = jest.fn()
+    const error = new Error('some error')
+    const res = {
+        json: jest.fn(() => res),
+        status: jest.fn(() => res),
+    }
+
+    errorMiddleware(error, req, res, next)
+
+    expect(next).not.toHaveBeenCalled()
+    expect(res.status).toHaveBeenCalledWith(500)
+    expect(res.status).toHaveBeenCalledTimes(1)
+    expect(res.json).toBeCalledWith({
+        message: error.message,
+        stack: error.stack
+    })
+    expect(res.json).toHaveBeenCalledTimes(1)
+})
+```
+
+### Extra credit 1: 💯 write a test object factory 
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODIwNjIwNSwxMTM4NzY4MTQ1LDQ0Nj
-cwMDkwMCwtMjQ3MDk1MTYzLC01MjY2NjA3NzIsLTE1NDQ5NDAw
-ODMsLTU2OTc5OTA5NCwyMDIwNDIzOTU0LC0xNTI3NTI1NjgxLD
-g2MTQzNDEwNSwxOTczNTA3NjAwLC0xMzEwMjg0OV19
+eyJoaXN0b3J5IjpbLTE5NDI0NDEyNzQsLTM5ODIwNjIwNSwxMT
+M4NzY4MTQ1LDQ0NjcwMDkwMCwtMjQ3MDk1MTYzLC01MjY2NjA3
+NzIsLTE1NDQ5NDAwODMsLTU2OTc5OTA5NCwyMDIwNDIzOTU0LC
+0xNTI3NTI1NjgxLDg2MTQzNDEwNSwxOTczNTA3NjAwLC0xMzEw
+Mjg0OV19
 -->

@@ -207,11 +207,16 @@ function errorHandler(err, req, res, next) {
 
 In the exercises we will need to mock some functions and then it might be useful to check out the [jest mock-function api](https://jestjs.io/docs/mock-function-api).
 
+## Write a Unit Test for Handling an UnauthorizedError
+
+Kent recommends to test:
+1. That we have responded with what we expected
+2. That we 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODc2ODE0NSw0NDY3MDA5MDAsLTI0Nz
-A5NTE2MywtNTI2NjYwNzcyLC0xNTQ0OTQwMDgzLC01Njk3OTkw
-OTQsMjAyMDQyMzk1NCwtMTUyNzUyNTY4MSw4NjE0MzQxMDUsMT
-k3MzUwNzYwMCwtMTMxMDI4NDldfQ==
+eyJoaXN0b3J5IjpbMTUxOTcxMzA1NSwxMTM4NzY4MTQ1LDQ0Nj
+cwMDkwMCwtMjQ3MDk1MTYzLC01MjY2NjA3NzIsLTE1NDQ5NDAw
+ODMsLTU2OTc5OTA5NCwyMDIwNDIzOTU0LC0xNTI3NTI1NjgxLD
+g2MTQzNDEwNSwxOTczNTA3NjAwLC0xMzEwMjg0OV19
 -->

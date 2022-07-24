@@ -418,17 +418,55 @@ Kent mentions that `res.json.mock.calls[0]` is basically checking the same thing
 **Why use `toMatchInlineSnapshot`?**
 Because if you were to change the error message that you are testing (when using `toHaveBeenCalledWith`), you would need to update the expected text in the test also.
 
-_With `toMatchInlineSnapshot`_ you only need to press the `u` key in jest watch mode to update the snapshot. 
+_With `toMatchInlineSnapshot`_ you only need to press the `u` key in jest watch mode to update the snapshot.  The content of `toMatchInlineSnapshot` would then be updated. 
+Example: `No bookId provided` changed to `no bookId provided`
 
-**Without to**
+**Without `toMatchInlineSnapshot`**
+```js
+test('createListItem returns a 400 error if no bookId is provided', async () => {
+    const req = generate.buildReq()
+    const res = generate.buildRes()
+
+    await listItemsController.createListItem(req, res)
+
+    expect(res.status).toHaveBeenCalledWith(400)
+    expect(res.status).toHaveBeenCalledTimes(1)
+    expect(res.json).toHaveBeenCalledWith({
+        message: `No bookId provided`
+    })
+    expect(res.json).toHaveBeenCalledTimes(1)
+})
+```
+
+**With `toMatchInlineSnapshot`**
+```js
+// Extra credit 1: 💯 Use toMatchInlineSnapshot for errors
+test('createListItem returns a 400 error if no bookId is provided', async () => {
+    const req = generate.buildReq()
+    const res = generate.buildRes()
+
+    await listItemsController.createListItem(req, res)
+
+    expect(res.status).toHaveBeenCalledWith(400)
+    expect(res.status).toHaveBeenCalledTimes(1)
+    expect(res.json).toHaveBeenCalledTimes(1)
+    expect(res.json.mock.calls[0]).toMatchInlineSnapshot(`
+  Array [
+    Object {
+      "message": "No bookId provided",
+    },
+  ]
+  `)
+})
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDk2MDc2LDExNTYwMDM3NywyMDI1Nj
-Q3MzM4LC0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYy
-LDk2MjY1MDg1NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0zOT
-gyMDYyMDUsMTEzODc2ODE0NSw0NDY3MDA5MDAsLTI0NzA5NTE2
-MywtNTI2NjYwNzcyLC0xNTQ0OTQwMDgzLC01Njk3OTkwOTQsMj
-AyMDQyMzk1NCwtMTUyNzUyNTY4MSw4NjE0MzQxMDUsMTk3MzUw
-NzYwMF19
+eyJoaXN0b3J5IjpbLTE4NDEyODY5MiwxMTU2MDAzNzcsMjAyNT
+Y0NzMzOCwtMTgzNjk3Njc0MCwtNTMzOTM1NDY3LDMwNTkxOTA2
+Miw5NjI2NTA4NTcsMTIyMDU1MjIyMiwtMTk0MjQ0MTI3NCwtMz
+k4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAwOTAwLC0yNDcwOTUx
+NjMsLTUyNjY2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5MDk0LD
+IwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5NzM1
+MDc2MDBdfQ==
 -->

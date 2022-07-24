@@ -175,10 +175,11 @@ cases(
 
 ## Test Node Middleware Overview
 
+Node middleware in this course refers to Express
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjY2MDc3MiwtMTU0NDk0MDA4MywtNT
-Y5Nzk5MDk0LDIwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYxNDM0
-MTA1LDE5NzM1MDc2MDAsLTEzMTAyODQ5XX0=
+eyJoaXN0b3J5IjpbMjA2Mjg5NjAwLC01MjY2NjA3NzIsLTE1ND
+Q5NDAwODMsLTU2OTc5OTA5NCwyMDIwNDIzOTU0LC0xNTI3NTI1
+NjgxLDg2MTQzNDEwNSwxOTczNTA3NjAwLC0xMzEwMjg0OV19
 -->

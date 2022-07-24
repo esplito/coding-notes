@@ -211,11 +211,15 @@ In the exercises we will need to mock some functions and then it might be useful
 
 Kent recommends to test:
 1. That we have responded with what we expected
-2. That we 
+	- Example: `expect(res.status).toHaveBeenCalledWith(401)`
+2. That we have only responded the expected amount of times
+	- Example: `expect(res.status).toHaveBeenCalledTimes(1)`
+
+ 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTcxMzA1NSwxMTM4NzY4MTQ1LDQ0Nj
+eyJoaXN0b3J5IjpbLTM5ODIwNjIwNSwxMTM4NzY4MTQ1LDQ0Nj
 cwMDkwMCwtMjQ3MDk1MTYzLC01MjY2NjA3NzIsLTE1NDQ5NDAw
 ODMsLTU2OTc5OTA5NCwyMDIwNDIzOTU0LC0xNTI3NTI1NjgxLD
 g2MTQzNDEwNSwxOTczNTA3NjAwLC0xMzEwMjg0OV19

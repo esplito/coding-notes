@@ -313,11 +313,20 @@ const res = buildResponse()
 
 This basically the same thing as that Kent has shown on his blog and in EpicReact, where you got to create a `setup` function  that you could override.
 
+### Extra credit 2:  💯  use  `utils/generate`
+
+Kent has already prepared some test object factories: 
+1. `buildRes`
+2. `buildReq`
+3. `buildNext`
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3NTExMjYwLC0xOTQyNDQxMjc0LC0zOT
-gyMDYyMDUsMTEzODc2ODE0NSw0NDY3MDA5MDAsLTI0NzA5NTE2
-MywtNTI2NjYwNzcyLC0xNTQ0OTQwMDgzLC01Njk3OTkwOTQsMj
-AyMDQyMzk1NCwtMTUyNzUyNTY4MSw4NjE0MzQxMDUsMTk3MzUw
-NzYwMCwtMTMxMDI4NDldfQ==
+eyJoaXN0b3J5IjpbLTYxMDk1NzM0NywtMTk0MjQ0MTI3NCwtMz
+k4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAwOTAwLC0yNDcwOTUx
+NjMsLTUyNjY2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5MDk0LD
+IwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5NzM1
+MDc2MDAsLTEzMTAyODQ5XX0=
 -->

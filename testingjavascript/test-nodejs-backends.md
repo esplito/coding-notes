@@ -358,14 +358,15 @@ Kent's explanation to why we mock the database interaction:
 >1.  Test speed: Database/Service interactions will make our tests run slower.
 >2.  Test simplicity: Database/Service interactions will make our tests require more complex setup/teardown logic.
 >3.  Test stability: Database/Service interactions will make our tests more flaky by relying on services that may be outside our control.
+>
 > 🦉  While we get benefits by mocking databases and services, it's wise to not forget what we're giving up. Read  [Testing Implementation Details](https://kentcdodds.com/blog/testing-implementation-details)  and  [The Merits of Mocking](https://kentcdodds.com/blog/the-merits-of-mocking)  for more info.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3OTg1Mzk1NCwtNTMzOTM1NDY3LDMwNT
-kxOTA2Miw5NjI2NTA4NTcsMTIyMDU1MjIyMiwtMTk0MjQ0MTI3
-NCwtMzk4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAwOTAwLC0yND
-cwOTUxNjMsLTUyNjY2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5
-MDk0LDIwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LD
-E5NzM1MDc2MDAsLTEzMTAyODQ5XX0=
+eyJoaXN0b3J5IjpbLTE4MzY5NzY3NDAsLTUzMzkzNTQ2NywzMD
+U5MTkwNjIsOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEy
+NzQsLTM5ODIwNjIwNSwxMTM4NzY4MTQ1LDQ0NjcwMDkwMCwtMj
+Q3MDk1MTYzLC01MjY2NjA3NzIsLTE1NDQ5NDAwODMsLTU2OTc5
+OTA5NCwyMDIwNDIzOTU0LC0xNTI3NTI1NjgxLDg2MTQzNDEwNS
+wxOTczNTA3NjAwLC0xMzEwMjg0OV19
 -->

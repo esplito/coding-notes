@@ -311,13 +311,13 @@ And if we just want to use it without any overrides:
 const res = buildResponse()
 ```
 
-This basically the same thing as that Kent has shown on his blog and in EpicReact
+This basically the same thing as that Kent has shown on his blog and in EpicReact, where you got to create a `setup` function  that you could override.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MzA4MDI2MiwtMTk0MjQ0MTI3NCwtMz
-k4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAwOTAwLC0yNDcwOTUx
-NjMsLTUyNjY2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5MDk0LD
-IwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5NzM1
-MDc2MDAsLTEzMTAyODQ5XX0=
+eyJoaXN0b3J5IjpbNjc3NTExMjYwLC0xOTQyNDQxMjc0LC0zOT
+gyMDYyMDUsMTEzODc2ODE0NSw0NDY3MDA5MDAsLTI0NzA5NTE2
+MywtNTI2NjYwNzcyLC0xNTQ0OTQwMDgzLC01Njk3OTkwOTQsMj
+AyMDQyMzk1NCwtMTUyNzUyNTY4MSw4NjE0MzQxMDUsMTk3MzUw
+NzYwMCwtMTMxMDI4NDldfQ==
 -->

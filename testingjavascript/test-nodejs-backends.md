@@ -190,16 +190,24 @@ The following types of middleware are mentioned:
 
 #### Example middleware function
 ```js
-function someMid(req, res, next) {
+function someMiddlewareFunction(req, res, next) {
   console.log('Time:', Date.now())
   next()
+}
+```
+
+#### Special case
+```js
+function errorHandler(err, req, res, next) {
+  console.error(err.stack)
+  res.status(500).send('Something broke!')
 }
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4OTEyMjM0OCwtMjQ3MDk1MTYzLC01Mj
+eyJoaXN0b3J5IjpbMTgzMzU2MjEzNSwtMjQ3MDk1MTYzLC01Mj
 Y2NjA3NzIsLTE1NDQ5NDAwODMsLTU2OTc5OTA5NCwyMDIwNDIz
 OTU0LC0xNTI3NTI1NjgxLDg2MTQzNDEwNSwxOTczNTA3NjAwLC
 0xMzEwMjg0OV19

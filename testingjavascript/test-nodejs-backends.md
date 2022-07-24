@@ -333,12 +333,15 @@ const res = buildRes({
 })
 ```
 
+The `buildReq` will most likely, in a bigger application, set up quite a bit of objects on the request, but in this one it only sets a `user`, 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1OTE5MDYyLDk2MjY1MDg1NywxMjIwNT
-UyMjIyLC0xOTQyNDQxMjc0LC0zOTgyMDYyMDUsMTEzODc2ODE0
-NSw0NDY3MDA5MDAsLTI0NzA5NTE2MywtNTI2NjYwNzcyLC0xNT
-Q0OTQwMDgzLC01Njk3OTkwOTQsMjAyMDQyMzk1NCwtMTUyNzUy
-NTY4MSw4NjE0MzQxMDUsMTk3MzUwNzYwMCwtMTMxMDI4NDldfQ
-==
+eyJoaXN0b3J5IjpbMTY4MDQzMjI1MSwzMDU5MTkwNjIsOTYyNj
+UwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEyNzQsLTM5ODIwNjIw
+NSwxMTM4NzY4MTQ1LDQ0NjcwMDkwMCwtMjQ3MDk1MTYzLC01Mj
+Y2NjA3NzIsLTE1NDQ5NDAwODMsLTU2OTc5OTA5NCwyMDIwNDIz
+OTU0LC0xNTI3NTI1NjgxLDg2MTQzNDEwNSwxOTczNTA3NjAwLC
+0xMzEwMjg0OV19
 -->

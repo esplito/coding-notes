@@ -320,11 +320,11 @@ Kent has already prepared some test object factories:
 2. `buildReq`
 3. `buildNext`
 
-
+In this extra credit we simply import them instead.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDk1NzM0NywtMTk0MjQ0MTI3NCwtMz
+eyJoaXN0b3J5IjpbMTIyMDU1MjIyMiwtMTk0MjQ0MTI3NCwtMz
 k4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAwOTAwLC0yNDcwOTUx
 NjMsLTUyNjY2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5MDk0LD
 IwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5NzM1

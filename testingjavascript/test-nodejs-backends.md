@@ -324,6 +324,8 @@ In this extra credit we simply import them instead.
 
 #### Usage
 ```js
+import {buildNext, buildReq, buildRes} from  'utils/generate'
+
 const req = buildReq()
 const next = buildNext()
 const res = buildRes({
@@ -333,9 +335,10 @@ const res = buildRes({
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5ND
-I0NDEyNzQsLTM5ODIwNjIwNSwxMTM4NzY4MTQ1LDQ0NjcwMDkw
-MCwtMjQ3MDk1MTYzLC01MjY2NjA3NzIsLTE1NDQ5NDAwODMsLT
-U2OTc5OTA5NCwyMDIwNDIzOTU0LC0xNTI3NTI1NjgxLDg2MTQz
-NDEwNSwxOTczNTA3NjAwLC0xMzEwMjg0OV19
+eyJoaXN0b3J5IjpbMzA1OTE5MDYyLDk2MjY1MDg1NywxMjIwNT
+UyMjIyLC0xOTQyNDQxMjc0LC0zOTgyMDYyMDUsMTEzODc2ODE0
+NSw0NDY3MDA5MDAsLTI0NzA5NTE2MywtNTI2NjYwNzcyLC0xNT
+Q0OTQwMDgzLC01Njk3OTkwOTQsMjAyMDQyMzk1NCwtMTUyNzUy
+NTY4MSw4NjE0MzQxMDUsMTk3MzUwNzYwMCwtMTMxMDI4NDldfQ
+==
 -->

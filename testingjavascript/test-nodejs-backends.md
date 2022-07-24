@@ -198,6 +198,7 @@ function someMiddlewareFunction(req, res, next) {
 
 #### Special case
 ```js
+// The error middleware also accepts an error argument
 function errorHandler(err, req, res, next) {
   console.error(err.stack)
   res.status(500).send('Something broke!')
@@ -207,8 +208,8 @@ function errorHandler(err, req, res, next) {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzU2MjEzNSwtMjQ3MDk1MTYzLC01Mj
-Y2NjA3NzIsLTE1NDQ5NDAwODMsLTU2OTc5OTA5NCwyMDIwNDIz
-OTU0LC0xNTI3NTI1NjgxLDg2MTQzNDEwNSwxOTczNTA3NjAwLC
-0xMzEwMjg0OV19
+eyJoaXN0b3J5IjpbNDQ2NzAwOTAwLC0yNDcwOTUxNjMsLTUyNj
+Y2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5MDk0LDIwMjA0MjM5
+NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5NzM1MDc2MDAsLT
+EzMTAyODQ5XX0=
 -->

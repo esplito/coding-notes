@@ -287,13 +287,24 @@ test('responds with 500 and the error object', () => {
 ```
 
 ### Extra credit 1: 💯 write a test object factory 
+```js
+function buildResponse(overrides) {
+    const res = {
+        json: jest.fn(() => res),
+        status: jest.fn(() => res),
+        ...overrides,
+    }
+    return res
+}
+```
 
+If we create this test object factory, we can 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDI0NDEyNzQsLTM5ODIwNjIwNSwxMT
-M4NzY4MTQ1LDQ0NjcwMDkwMCwtMjQ3MDk1MTYzLC01MjY2NjA3
-NzIsLTE1NDQ5NDAwODMsLTU2OTc5OTA5NCwyMDIwNDIzOTU0LC
-0xNTI3NTI1NjgxLDg2MTQzNDEwNSwxOTczNTA3NjAwLC0xMzEw
-Mjg0OV19
+eyJoaXN0b3J5IjpbLTc4NjQxNzAwOSwtMTk0MjQ0MTI3NCwtMz
+k4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAwOTAwLC0yNDcwOTUx
+NjMsLTUyNjY2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5MDk0LD
+IwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5NzM1
+MDc2MDAsLTEzMTAyODQ5XX0=
 -->

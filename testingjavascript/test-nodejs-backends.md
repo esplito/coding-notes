@@ -350,13 +350,19 @@ function buildRes(overrides = {}) {
 ## Test Node Controllers Overview
 In this part we'll test controllers and Kent has created a  [markdown file with instructions](https://github.com/kentcdodds/testing-node-apps/blob/tjs/src/routes/__tests__/list-items-controller.md).
 
-Testing controllers is a bit more difficult and requires more setup and cleanup. We also deal with more complex business logic.
+- Testing controllers is a bit more difficult and requires more setup and cleanup.
+- We also deal with more complex business logic.
+- We'll mock our interactions with the database
 
-
+Kent's explanation to why we mock the database interaction:
+>1.  Test speed: Database/Service interactions will make our tests run slower.
+>2.  Test simplicity: Database/Service interactions will make our tests require more complex setup/teardown logic.
+>3.  Test stability: Database/Service interactions will make our tests more flaky by relying on services that may be outside our control.
+> 🦉  While we get benefits by mocking databases and services, it's wise to not forget what we're giving up. Read  [Testing Implementation Details](https://kentcdodds.com/blog/testing-implementation-details)  and  [The Merits of Mocking](https://kentcdodds.com/blog/the-merits-of-mocking)  for more info.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTUwMTcxNCwtNTMzOTM1NDY3LDMwNT
+eyJoaXN0b3J5IjpbLTY3OTg1Mzk1NCwtNTMzOTM1NDY3LDMwNT
 kxOTA2Miw5NjI2NTA4NTcsMTIyMDU1MjIyMiwtMTk0MjQ0MTI3
 NCwtMzk4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAwOTAwLC0yND
 cwOTUxNjMsLTUyNjY2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5

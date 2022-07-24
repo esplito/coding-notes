@@ -335,10 +335,22 @@ const res = buildRes({
 
 The `buildReq` will most likely, in a bigger application, set up quite a bit of objects on the request, but in this one it only sets a `user`, `body` and `params`.
 
+In the `buildRes` factory, Kent has also used the `.mockName` which will give better error messages:
+```js
+function buildRes(overrides = {}) {
+    const res = {
+        json: jest.fn(() => res).mockName('json'),
+        status: jest.fn(() => res).mockName('status'),
+        ...overrides,
+    }
+    return res
+}
+```
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjQzODg5OCwzMDU5MTkwNjIsOTYyNj
+eyJoaXN0b3J5IjpbLTUzMzkzNTQ2NywzMDU5MTkwNjIsOTYyNj
 UwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEyNzQsLTM5ODIwNjIw
 NSwxMTM4NzY4MTQ1LDQ0NjcwMDkwMCwtMjQ3MDk1MTYzLC01Mj
 Y2NjA3NzIsLTE1NDQ5NDAwODMsLTU2OTc5OTA5NCwyMDIwNDIz

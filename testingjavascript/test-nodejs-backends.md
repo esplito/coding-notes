@@ -184,12 +184,14 @@ The following types of middleware are mentioned:
 >-   Built-in middleware (we're not using any of these)
 >-   Third-party middleware (we're using a few of these, like  `cors`,  `body-parser`,  `express-jwt`, and  `passport`).
 
+### Explanation of `req`, `res`, `next`
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NzA5NTE2MywtNTI2NjYwNzcyLC0xNT
-Q0OTQwMDgzLC01Njk3OTkwOTQsMjAyMDQyMzk1NCwtMTUyNzUy
-NTY4MSw4NjE0MzQxMDUsMTk3MzUwNzYwMCwtMTMxMDI4NDldfQ
-==
+eyJoaXN0b3J5IjpbMzAyNzg5NjQ3LC0yNDcwOTUxNjMsLTUyNj
+Y2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5MDk0LDIwMjA0MjM5
+NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5NzM1MDc2MDAsLT
+EzMTAyODQ5XX0=
 -->

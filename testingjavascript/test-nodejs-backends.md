@@ -175,11 +175,20 @@ cases(
 
 ## Test Node Middleware Overview
 
-Node middleware in this course refers to different [Express middlewares](https://github.com/kentcdodds/testing-node-apps/blob/tjs/src/utils/__tests__/error-middleware.md).
+Node middleware in [this course module](https://github.com/kentcdodds/testing-node-apps/blob/tjs/src/utils/__tests__/error-middleware.md) refers to different [Express middlewares](https://expressjs.com/en/guide/using-middleware.html).
+
+The following types of middleware are mentioned: 
+>-   Application-level middleware (our app isn't really using this kind)
+>-   Router-level middleware (all our routes use this strategy of middleware)
+>-   Error-handling middleware (this is what  `error-middleware.js`  is)
+>-   Built-in middleware (we're not using any of these)
+>-   Third-party middleware (we're using a few of these, like  `cors`,  `body-parser`,  `express-jwt`, and  `passport`).
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjgxNDc2MSwtNTI2NjYwNzcyLC0xNT
+eyJoaXN0b3J5IjpbLTI0NzA5NTE2MywtNTI2NjYwNzcyLC0xNT
 Q0OTQwMDgzLC01Njk3OTkwOTQsMjAyMDQyMzk1NCwtMTUyNzUy
 NTY4MSw4NjE0MzQxMDUsMTk3MzUwNzYwMCwtMTMxMDI4NDldfQ
 ==

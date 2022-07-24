@@ -298,11 +298,19 @@ function buildResponse(overrides) {
 }
 ```
 
-If we create this test object factory, we can 
+If we create this test object factory, we can use `buildResponse`  in our tests and just pass the arguments that we would like to override:
+```js
+const res = buildResponse({
+	headersSent: true,
+})
+```
+
+And if we just want to use it without any overrides:
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjQxNzAwOSwtMTk0MjQ0MTI3NCwtMz
+eyJoaXN0b3J5IjpbLTQ3MzcwNjM3NywtMTk0MjQ0MTI3NCwtMz
 k4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAwOTAwLC0yNDcwOTUx
 NjMsLTUyNjY2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5MDk0LD
 IwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5NzM1

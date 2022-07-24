@@ -205,11 +205,13 @@ function errorHandler(err, req, res, next) {
 }
 ```
 
+In the exercises we will need to mock some functions and then it might be useful to check out the [jest mock-function api](https://jestjs.io/docs/mock-function-api).
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2NzAwOTAwLC0yNDcwOTUxNjMsLTUyNj
-Y2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5MDk0LDIwMjA0MjM5
-NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5NzM1MDc2MDAsLT
-EzMTAyODQ5XX0=
+eyJoaXN0b3J5IjpbMTEzODc2ODE0NSw0NDY3MDA5MDAsLTI0Nz
+A5NTE2MywtNTI2NjYwNzcyLC0xNTQ0OTQwMDgzLC01Njk3OTkw
+OTQsMjAyMDQyMzk1NCwtMTUyNzUyNTY4MSw4NjE0MzQxMDUsMT
+k3MzUwNzYwMCwtMTMxMDI4NDldfQ==
 -->

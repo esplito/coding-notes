@@ -411,15 +411,17 @@ test('getListItem returns the req.listItem', async () => {
 })
 ```
 
-Kent mentions that `res.json.mock.calls[0]` is basically checking the same thing as `expect(res.json).toHaveBeenCalledWith`
+Kent mentions that `res.json.mock.calls[0]` is basically checking the same thing as `expect(res.json).toHaveBeenCalledWith`.
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODg5MjYyMSwxMTU2MDAzNzcsMjAyNT
-Y0NzMzOCwtMTgzNjk3Njc0MCwtNTMzOTM1NDY3LDMwNTkxOTA2
-Miw5NjI2NTA4NTcsMTIyMDU1MjIyMiwtMTk0MjQ0MTI3NCwtMz
-k4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAwOTAwLC0yNDcwOTUx
-NjMsLTUyNjY2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5MDk0LD
-IwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5NzM1
-MDc2MDBdfQ==
+eyJoaXN0b3J5IjpbODEwNDI5NDcsMTE1NjAwMzc3LDIwMjU2ND
+czMzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2NywzMDU5MTkwNjIs
+OTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEyNzQsLTM5OD
+IwNjIwNSwxMTM4NzY4MTQ1LDQ0NjcwMDkwMCwtMjQ3MDk1MTYz
+LC01MjY2NjA3NzIsLTE1NDQ5NDAwODMsLTU2OTc5OTA5NCwyMD
+IwNDIzOTU0LC0xNTI3NTI1NjgxLDg2MTQzNDEwNSwxOTczNTA3
+NjAwXX0=
 -->

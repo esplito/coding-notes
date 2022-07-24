@@ -186,12 +186,20 @@ The following types of middleware are mentioned:
 
 ### Middleware & `req`, `res`, `next`
 - Each kind of middleware accepts accept these as arguments. 
-- Expected to either call the `response`-method to send a response to the caller _or_ call the 
+- Expected to either call the `response` method to send a response to the caller _or_ call the `next` method which will continue the chain of middleware.
+
+#### Example middleware function
+```js
+function someMid(req, res, next) {
+  console.log('Time:', Date.now())
+  next()
+}
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzIyNzAxOSwtMjQ3MDk1MTYzLC01Mj
+eyJoaXN0b3J5IjpbMTY4OTEyMjM0OCwtMjQ3MDk1MTYzLC01Mj
 Y2NjA3NzIsLTE1NDQ5NDAwODMsLTU2OTc5OTA5NCwyMDIwNDIz
 OTU0LC0xNTI3NTI1NjgxLDg2MTQzNDEwNSwxOTczNTA3NjAwLC
 0xMzEwMjg0OV19

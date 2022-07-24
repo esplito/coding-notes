@@ -361,12 +361,14 @@ Kent's explanation to why we mock the database interaction:
 >
 > 🦉  While we get benefits by mocking databases and services, it's wise to not forget what we're giving up. Read  [Testing Implementation Details](https://kentcdodds.com/blog/testing-implementation-details)  and  [The Merits of Mocking](https://kentcdodds.com/blog/the-merits-of-mocking)  for more info.
 
+This exercise is done in the `list-items-controller.exercise.js` and it uses the code from `list-items-controller.js`.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzY5NzY3NDAsLTUzMzkzNTQ2NywzMD
-U5MTkwNjIsOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEy
-NzQsLTM5ODIwNjIwNSwxMTM4NzY4MTQ1LDQ0NjcwMDkwMCwtMj
-Q3MDk1MTYzLC01MjY2NjA3NzIsLTE1NDQ5NDAwODMsLTU2OTc5
-OTA5NCwyMDIwNDIzOTU0LC0xNTI3NTI1NjgxLDg2MTQzNDEwNS
-wxOTczNTA3NjAwLC0xMzEwMjg0OV19
+eyJoaXN0b3J5IjpbMjAyNTY0NzMzOCwtMTgzNjk3Njc0MCwtNT
+MzOTM1NDY3LDMwNTkxOTA2Miw5NjI2NTA4NTcsMTIyMDU1MjIy
+MiwtMTk0MjQ0MTI3NCwtMzk4MjA2MjA1LDExMzg3NjgxNDUsND
+Q2NzAwOTAwLC0yNDcwOTUxNjMsLTUyNjY2MDc3MiwtMTU0NDk0
+MDA4MywtNTY5Nzk5MDk0LDIwMjA0MjM5NTQsLTE1Mjc1MjU2OD
+EsODYxNDM0MTA1LDE5NzM1MDc2MDAsLTEzMTAyODQ5XX0=
 -->

@@ -322,11 +322,20 @@ Kent has already prepared some test object factories:
 
 In this extra credit we simply import them instead.
 
+#### Usage
+```js
+const req = buildReq()
+const next = buildNext()
+const res = buildRes({
+    headersSent: true,
+})
+```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDU1MjIyMiwtMTk0MjQ0MTI3NCwtMz
-k4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAwOTAwLC0yNDcwOTUx
-NjMsLTUyNjY2MDc3MiwtMTU0NDk0MDA4MywtNTY5Nzk5MDk0LD
-IwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYxNDM0MTA1LDE5NzM1
-MDc2MDAsLTEzMTAyODQ5XX0=
+eyJoaXN0b3J5IjpbOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5ND
+I0NDEyNzQsLTM5ODIwNjIwNSwxMTM4NzY4MTQ1LDQ0NjcwMDkw
+MCwtMjQ3MDk1MTYzLC01MjY2NjA3NzIsLTE1NDQ5NDAwODMsLT
+U2OTc5OTA5NCwyMDIwNDIzOTU0LC0xNTI3NTI1NjgxLDg2MTQz
+NDEwNSwxOTczNTA3NjAwLC0xMzEwMjg0OV19
 -->

@@ -348,15 +348,18 @@ A solution is to use _layout components_.
 
 > ...the basic idea is that components aren't allowed to have "external margin", margin that extends past the edge of the border box. Instead, components are grouped using layout components...  - Josh W. Comeau
 
+## Workshop: Agency Page
+
+Repo on my github: https://github.com/esplito/huckleberry-css-for-js-devs-workshop 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzczODUzOSwtMTk2NzU3ODQzNiwxNT
-QyNjQ2OTUsMjA2MDY2NDcxOSw5NjU1NDYyMjIsLTk3NTA4NjMz
-MiwtMTg5OTk4NjA2LC0yMDUyNzIxNjYzLC0xNTY1NDgxMTkxLC
-0xMjQyNzUxNzY1LC0xMDI5MTg3OTI0LDEyNTI4Mjg1MTAsLTE4
-NjMyMDgyNjQsMTQzODI1NzA1OSwtMTMyMDQ4MDIwMSwxNDgwMz
-E0MTgsMTQ4MDMxNDE4LC0yNjgzMTIyNjUsLTE4MjUyODA0OTcs
-MTkxNDU1OTc3N119
+eyJoaXN0b3J5IjpbNjcwOTEyMzgwLC03MjM3Mzg1MzksLTE5Nj
+c1Nzg0MzYsMTU0MjY0Njk1LDIwNjA2NjQ3MTksOTY1NTQ2MjIy
+LC05NzUwODYzMzIsLTE4OTk5ODYwNiwtMjA1MjcyMTY2MywtMT
+U2NTQ4MTE5MSwtMTI0Mjc1MTc2NSwtMTAyOTE4NzkyNCwxMjUy
+ODI4NTEwLC0xODYzMjA4MjY0LDE0MzgyNTcwNTksLTEzMjA0OD
+AyMDEsMTQ4MDMxNDE4LDE0ODAzMTQxOCwtMjY4MzEyMjY1LC0x
+ODI1MjgwNDk3XX0=
 -->

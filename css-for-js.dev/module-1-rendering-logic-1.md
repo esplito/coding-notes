@@ -344,15 +344,19 @@ You can style layouts without even using margin. Max Stoiber, co-creator of styl
 
 > For reusable components, we want them to be as _unopinionated_ as possible. - Josh W. Comeau
 
-A solution is to use _layout components_.  The basic idea is that are these components are not allowed to have exte
+A solution is to use _layout components_.  
+
+> ...the basic idea is that components aren't allowed to have "external margin", margin that extends past the edge of the border box. Instead, components are grouped using layout components...  - Josh W. Comeau
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njc1Nzg0MzYsMTU0MjY0Njk1LDIwNj
-A2NjQ3MTksOTY1NTQ2MjIyLC05NzUwODYzMzIsLTE4OTk5ODYw
-NiwtMjA1MjcyMTY2MywtMTU2NTQ4MTE5MSwtMTI0Mjc1MTc2NS
-wtMTAyOTE4NzkyNCwxMjUyODI4NTEwLC0xODYzMjA4MjY0LDE0
-MzgyNTcwNTksLTEzMjA0ODAyMDEsMTQ4MDMxNDE4LDE0ODAzMT
-QxOCwtMjY4MzEyMjY1LC0xODI1MjgwNDk3LDE5MTQ1NTk3Nzcs
-LTE2ODg2OTE0ODldfQ==
+eyJoaXN0b3J5IjpbLTcyMzczODUzOSwtMTk2NzU3ODQzNiwxNT
+QyNjQ2OTUsMjA2MDY2NDcxOSw5NjU1NDYyMjIsLTk3NTA4NjMz
+MiwtMTg5OTk4NjA2LC0yMDUyNzIxNjYzLC0xNTY1NDgxMTkxLC
+0xMjQyNzUxNzY1LC0xMDI5MTg3OTI0LDEyNTI4Mjg1MTAsLTE4
+NjMyMDgyNjQsMTQzODI1NzA1OSwtMTMyMDQ4MDIwMSwxNDgwMz
+E0MTgsMTQ4MDMxNDE4LC0yNjgzMTIyNjUsLTE4MjUyODA0OTcs
+MTkxNDU1OTc3N119
 -->

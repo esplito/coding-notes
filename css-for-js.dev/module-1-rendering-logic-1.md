@@ -340,18 +340,19 @@ footer  {
 
 You can style layouts without even using margin. Max Stoiber, co-creator of styled-components explained how [margin is harmful.](https://mxstbr.com/thoughts/margin/).
 
-💡 Tip of the day: Avoid putting margin on something at the component boundary 💡
+💡 **Tip of the day:** Avoid putting margin on something at the component boundary 💡
 
 > For reusable components, we want them to be as _unopinionated_ as possible. - Josh W. Comeau
 
+A solution is to use _layout components_.  The basic idea is that are these components are not allowed to have exte
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjQzOTE0OCwxNTQyNjQ2OTUsMjA2MD
-Y2NDcxOSw5NjU1NDYyMjIsLTk3NTA4NjMzMiwtMTg5OTk4NjA2
-LC0yMDUyNzIxNjYzLC0xNTY1NDgxMTkxLC0xMjQyNzUxNzY1LC
-0xMDI5MTg3OTI0LDEyNTI4Mjg1MTAsLTE4NjMyMDgyNjQsMTQz
-ODI1NzA1OSwtMTMyMDQ4MDIwMSwxNDgwMzE0MTgsMTQ4MDMxND
-E4LC0yNjgzMTIyNjUsLTE4MjUyODA0OTcsMTkxNDU1OTc3Nywt
-MTY4ODY5MTQ4OV19
+eyJoaXN0b3J5IjpbLTE5Njc1Nzg0MzYsMTU0MjY0Njk1LDIwNj
+A2NjQ3MTksOTY1NTQ2MjIyLC05NzUwODYzMzIsLTE4OTk5ODYw
+NiwtMjA1MjcyMTY2MywtMTU2NTQ4MTE5MSwtMTI0Mjc1MTc2NS
+wtMTAyOTE4NzkyNCwxMjUyODI4NTEwLC0xODYzMjA4MjY0LDE0
+MzgyNTcwNTksLTEzMjA0ODAyMDEsMTQ4MDMxNDE4LDE0ODAzMT
+QxOCwtMjY4MzEyMjY1LC0xODI1MjgwNDk3LDE5MTQ1NTk3Nzcs
+LTE2ODg2OTE0ODldfQ==
 -->

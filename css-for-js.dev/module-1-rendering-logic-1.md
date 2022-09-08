@@ -338,16 +338,18 @@ footer  {
 
 ## Using Margin Effectively
 
-You can style layouts without even using margin. Max Stoiber, co-creator of styled-components explained how margin is harmful.
+You can style layouts without even using margin. Max Stoiber, co-creator of styled-components explained how [margin is harmful.](https://mxstbr.com/thoughts/margin/).
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE0MDAzNDcsMjA2MDY2NDcxOSw5Nj
-U1NDYyMjIsLTk3NTA4NjMzMiwtMTg5OTk4NjA2LC0yMDUyNzIx
-NjYzLC0xNTY1NDgxMTkxLC0xMjQyNzUxNzY1LC0xMDI5MTg3OT
-I0LDEyNTI4Mjg1MTAsLTE4NjMyMDgyNjQsMTQzODI1NzA1OSwt
-MTMyMDQ4MDIwMSwxNDgwMzE0MTgsMTQ4MDMxNDE4LC0yNjgzMT
-IyNjUsLTE4MjUyODA0OTcsMTkxNDU1OTc3NywtMTY4ODY5MTQ4
-OSwxMTU4NzUxMDUzXX0=
+eyJoaXN0b3J5IjpbMTU0MjY0Njk1LDIwNjA2NjQ3MTksOTY1NT
+Q2MjIyLC05NzUwODYzMzIsLTE4OTk5ODYwNiwtMjA1MjcyMTY2
+MywtMTU2NTQ4MTE5MSwtMTI0Mjc1MTc2NSwtMTAyOTE4NzkyNC
+wxMjUyODI4NTEwLC0xODYzMjA4MjY0LDE0MzgyNTcwNTksLTEz
+MjA0ODAyMDEsMTQ4MDMxNDE4LDE0ODAzMTQxOCwtMjY4MzEyMj
+Y1LC0xODI1MjgwNDk3LDE5MTQ1NTk3NzcsLTE2ODg2OTE0ODks
+MTE1ODc1MTA1M119
 -->

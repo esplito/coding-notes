@@ -17,8 +17,13 @@
 > There are analogues between acccessibility in digital spaces and accessibility in the architectural features of public and private spaces ("the built environment"). Being an accessibility expert is like being an architect. We need to prioritize structural access that includes disability in design and user experience.
 3. Often forgotten. 🙃
 
+🥁 **What can we do to _not_ make it forgotten?** 🥁
+
+- Share info about its importance
+- Keep beating the drum to get 
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTYyNzE3NF19
+eyJoaXN0b3J5IjpbOTQwMTEwMjJdfQ==
 -->

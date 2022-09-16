@@ -34,17 +34,17 @@ Sometimes using words like _discrimination_ or _ableism_ can get people to pay m
 > _Inaccessibility_ is discrimination in practice, whether intentional or not. 
 
 ### a11y for individuals
-
 - It's important for independence.
 	- You otherwise might have to:
 		- Share your private account information with someone to get your banking errands done (because of an inaccessible banking website).
 
 ### a11y for businesses
+🚩**Common excuse** 🚩
+"That's not our customer" -> Well, if the website isn't accessible , they can't be your customer.
 
-🚩**Common excuses** 🚩
-1. "That's not our customer" -> Well, if the website isn't accessible , they can't be your acu
+🌟 **Benefits of prioritizing a11y* 🌟
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxMjA1MzAwXX0=
+eyJoaXN0b3J5IjpbODIwNDk4MDg2XX0=
 -->

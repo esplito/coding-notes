@@ -42,9 +42,13 @@ Sometimes using words like _discrimination_ or _ableism_ can get people to pay m
 🚩**Common excuse** 🚩
 "That's not our customer" -> Well, if the website isn't accessible , they can't be your customer.
 
-🌟 **Benefits of prioritizing a11y* 🌟
+🌟 **Benefits of prioritizing a11y** 🌟
+1. More revenue from a whole new group of people.
+2. If you hire individuals with disabilities
+	- You get better feedback early in the design & development process.
+	- 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwNDk4MDg2XX0=
+eyJoaXN0b3J5IjpbLTUzMTQ0MzY5Ml19
 -->

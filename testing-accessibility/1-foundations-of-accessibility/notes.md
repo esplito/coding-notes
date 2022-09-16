@@ -14,10 +14,11 @@
 💡**Accessibility is...**💡
 1. A civil right to participate in society
 2. A key part of design:
-> There are analogues between acccessibilit
+> There are analogues between acccessibility in digital spaces and accessibility in the architectural features of public and private spaces ("the built environment"). Being an accessibility expert is like being an architect. We need to prioritize structural access that includes disability in design and user experience.
+3. Often forgotten. 🙃
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODg0NTc0NV19
+eyJoaXN0b3J5IjpbLTczMTYyNzE3NF19
 -->

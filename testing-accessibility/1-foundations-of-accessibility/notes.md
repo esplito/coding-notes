@@ -1,6 +1,6 @@
 # Setting the Stage for Accessibility
 
-TODO: Add table of contents with links.
+TODO: Add table of contents with links to each lesson.
 
 ## Lesson 1 - What is Digital Accessibility?
 
@@ -70,5 +70,5 @@ Marcy's suggestion for more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4Njc5NTMzXX0=
+eyJoaXN0b3J5IjpbLTYzNzIyMDA1XX0=
 -->

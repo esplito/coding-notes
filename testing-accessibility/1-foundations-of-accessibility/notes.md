@@ -25,8 +25,10 @@
 - Communicate its importance in your organization. 
 - Find allies and colleagues who are positioned to advocate with you among your management and leadership teams.
 
+>**If accessibility is marginalized, it creates a self-perpetuating culture of discrimination.**
 
+No keyboard support or screen reader support? Exclusion.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjc2MjE5MF19
+eyJoaXN0b3J5IjpbMTc0NzE5MzAzN119
 -->

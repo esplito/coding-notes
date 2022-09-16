@@ -45,10 +45,12 @@ Sometimes using words like _discrimination_ or _ableism_ can get people to pay m
 🌟 **Benefits of prioritizing a11y** 🌟
 1. More revenue from a whole new group of people.
 2. If you hire individuals with disabilities
-	- You get better feedback early in the design & development process.
-	- 
+	- You get better feedback early in the design & development process and in turn avoid costly rework later
+
+**Other aspects**
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTQ0MzY5Ml19
+eyJoaXN0b3J5IjpbLTEyODgzOTc4ODhdfQ==
 -->

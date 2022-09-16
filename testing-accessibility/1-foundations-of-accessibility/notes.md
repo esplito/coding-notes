@@ -9,10 +9,12 @@
 ----> _Eliminate barriers_ to access.
 1. Catch issues early in the development phase 
 2. Will probably need to talk to designers about things that can be problematic
-3. If a11y issues are found, prioritize and remember f
+3. If a11y issues are found, prioritize and remember for the next thing you build!
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5MDU5NDcyXX0=
+eyJoaXN0b3J5IjpbLTkxNDEyMjIwM119
 -->

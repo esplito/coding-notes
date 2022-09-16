@@ -20,10 +20,12 @@
 🥁 **What can we do to _not_ make it forgotten?** 🥁
 
 - Share info about its importance
-- Keep beating the drum to get 
+- Keep beating the drum to get more people on board and excited about improving access.
+- Prioritize from the beginning -> _Must_ be part of the requirements for the features we ship.
+- Communicate its importance in your organization. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwMTEwMjJdfQ==
+eyJoaXN0b3J5IjpbLTE4MTUxOTE5NDBdfQ==
 -->

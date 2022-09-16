@@ -57,10 +57,12 @@ Sometimes using words like _discrimination_ or _ableism_ can get people to pay m
 ### a11y for society
 
 🌟 Can help reduce social isolation and improve mental health for people with disabilities.
+🌟 Not being excluded and instead able to participate, creates opportunities.
 
+> When accessibility is a priority, _everyone benefits_
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5MDc5MTYzXX0=
+eyJoaXN0b3J5IjpbMjAyOTY5NzQ1Nl19
 -->

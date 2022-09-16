@@ -11,10 +11,10 @@
 2. Will probably need to talk to designers about things that can be problematic
 3. If a11y issues are found, prioritize and remember for the next thing you build!
 
-
+**Accessibility is...**
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDEyMjIwM119
+eyJoaXN0b3J5IjpbOTIyODA4MzAxXX0=
 -->

@@ -27,12 +27,16 @@
 
 >**If accessibility is marginalized, it creates a self-perpetuating culture of discrimination.**
 
-No keyboard support or screen reader support? = Exclusion.
+No keyboard support or screen reader support? = 🚨 Exclusion 🚨.
 
 Sometimes using words like _discrimination_ or _ableism_ can get people to pay more attention to accessibility.
+
+> _Inaccessibility_ is discrimination in practice, whether intentional or not. 
+
+### a11y for individuals
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODk5MTI2N119
+eyJoaXN0b3J5IjpbLTc1NDU4MTQyNV19
 -->

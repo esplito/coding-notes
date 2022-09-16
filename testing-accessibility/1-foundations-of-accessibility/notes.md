@@ -1,5 +1,7 @@
 # Setting the Stage for Accessibility
 
+TODO: Add table of contents with links.
+
 ## Lesson 1 - What is Digital Accessibility?
 
 🔖 **Definition of digital accessibility (a11y)** 🔖
@@ -64,7 +66,9 @@ Sometimes using words like _discrimination_ or _ableism_ can get people to pay m
 Marcy's suggestion for more reading:
 📖  "Development and implementation of a framework for estimating the economic benefits of an accessible and inclusive society." from the journal of Equality, Diversity and Inclusion. 📖 
 
+## Lesson 2 - Why is Accessibility important?
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTA2MTY0Ml19
+eyJoaXN0b3J5IjpbNDA4Njc5NTMzXX0=
 -->

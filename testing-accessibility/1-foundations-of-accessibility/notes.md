@@ -39,9 +39,12 @@ Sometimes using words like _discrimination_ or _ableism_ can get people to pay m
 	- You otherwise might have to:
 		- Share your private account information with someone to get your banking errands done (because of an inaccessible banking website).
 
-### 
+### a11y for businesses
+
+🚩**Common excuses** 🚩
+1. "That's not our customer" -> Well, if the website isn't accessible , they can't be your acu
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTc0MDM1MTJdfQ==
+eyJoaXN0b3J5IjpbNjMxMjA1MzAwXX0=
 -->

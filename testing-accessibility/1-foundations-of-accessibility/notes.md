@@ -23,9 +23,10 @@
 - Keep beating the drum to get more people on board and excited about improving access.
 - Prioritize from the beginning -> _Must_ be part of the requirements for the features we ship.
 - Communicate its importance in your organization. 
+- Find allies and colleagues who are positioned to advocate with you among your management and leadership teams.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTUxOTE5NDBdfQ==
+eyJoaXN0b3J5IjpbLTIwMjc2MjE5MF19
 -->

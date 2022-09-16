@@ -72,9 +72,9 @@ Marcy's suggestion for more reading:
 
 ### Accessibility as a Business Case
 
-###
+### Accessibility: The Legal Situation
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTU4NDU3MTFdfQ==
+eyJoaXN0b3J5IjpbLTIwODYwOTE0OV19
 -->

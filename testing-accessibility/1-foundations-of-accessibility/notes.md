@@ -35,8 +35,13 @@ Sometimes using words like _discrimination_ or _ableism_ can get people to pay m
 
 ### a11y for individuals
 
+- It's important for independence.
+	- You otherwise might have to:
+		- Share your private account information with someone to get your banking errands done (because of an inaccessible banking website).
+
+### 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDU4MTQyNV19
+eyJoaXN0b3J5IjpbLTEzOTc0MDM1MTJdfQ==
 -->

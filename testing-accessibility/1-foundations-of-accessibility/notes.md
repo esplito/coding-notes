@@ -61,8 +61,10 @@ Sometimes using words like _discrimination_ or _ableism_ can get people to pay m
 
 > When accessibility is a priority, _everyone benefits_
 
+Marcy's suggestion for more reading:
+📖  "Development and implementation of a framework for estimating the economic benefits of an accessible and inclusive society." from the journal of Equality, Diversity and Inclusion. 📖 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTY5NzQ1Nl19
+eyJoaXN0b3J5IjpbLTUzMTA2MTY0Ml19
 -->

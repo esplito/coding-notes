@@ -46,11 +46,12 @@ Sometimes using words like _discrimination_ or _ableism_ can get people to pay m
 1. More revenue from a whole new group of people.
 2. If you hire individuals with disabilities
 	- You get better feedback early in the design & development process and in turn avoid costly rework later
+3. The business can highlight the a11y work they've done. By doing this in 
 
 **Other aspects**
-
+✅ Including an accessibility statement and inviting feedback are great ways to continuously improve.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODgzOTc4ODhdfQ==
+eyJoaXN0b3J5IjpbLTE3NzIwODc5MDFdfQ==
 -->

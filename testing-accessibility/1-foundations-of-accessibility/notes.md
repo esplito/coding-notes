@@ -52,9 +52,15 @@ Sometimes using words like _discrimination_ or _ableism_ can get people to pay m
 6. Being proactive gives you an opportunity to be innovative when building, instead of chasing compliance.
 
 **Other aspects**
-✅ Including an accessibility statement and inviting feedback are great ways to continuously improve.
+📈 Including an accessibility statement and inviting feedback are great ways to continuously improve.
+
+### a11y for society
+
+🌟 Can help reduce social isolation and improve mental health for people with disabilities.
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODg5MTA0MF19
+eyJoaXN0b3J5IjpbNjc5MDc5MTYzXX0=
 -->

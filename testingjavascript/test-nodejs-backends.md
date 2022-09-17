@@ -470,7 +470,6 @@ test('createListItem returns a 400 error if no bookId is provided', async () => 
 #### Extra credit 2 💯 Test everything else
 
 ```js
-// createListItem returns a 400 error if the user already has a listitem for the bookid provided
 test('createListItem returns 400 if the user already has a listitem for the provided bookid', async () => {
   const user = generate.buildUser({id: 'FAKE_USER_ID'})
   const book = generate.buildBook({id: 'FAKE_BOOK_ID'})
@@ -515,11 +514,11 @@ test('createListItem returns 400 if the user already has a listitem for the prov
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDMxMzA3MSwxODk2NzE2Mzg5LC0xOD
-k4NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3MzM4LC0xODM2OTc2
-NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYyLDk2MjY1MDg1NywxMj
-IwNTUyMjIyLC0xOTQyNDQxMjc0LC0zOTgyMDYyMDUsMTEzODc2
-ODE0NSw0NDY3MDA5MDAsLTI0NzA5NTE2MywtNTI2NjYwNzcyLC
-0xNTQ0OTQwMDgzLC01Njk3OTkwOTQsMjAyMDQyMzk1NCwtMTUy
-NzUyNTY4MV19
+eyJoaXN0b3J5IjpbLTUzMDA0MTMzMCwxOTg0MzEzMDcxLDE4OT
+Y3MTYzODksLTE4OTg3NjE2ODAsMTE1NjAwMzc3LDIwMjU2NDcz
+MzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2NywzMDU5MTkwNjIsOT
+YyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEyNzQsLTM5ODIw
+NjIwNSwxMTM4NzY4MTQ1LDQ0NjcwMDkwMCwtMjQ3MDk1MTYzLC
+01MjY2NjA3NzIsLTE1NDQ5NDAwODMsLTU2OTc5OTA5NCwyMDIw
+NDIzOTU0XX0=
 -->

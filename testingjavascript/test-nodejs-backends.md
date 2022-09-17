@@ -469,15 +469,57 @@ test('createListItem returns a 400 error if no bookId is provided', async () => 
 ```
 #### Extra credit 2 💯 Test everything else
 
+```js
+// createListItem returns a 400 error if the user already has a listitem for the bookid provided
+test('createListItem returns 400 if the user already has a listitem for the provided bookid', async () => {
+  const user = generate.buildUser({id: 'FAKE_USER_ID'})
+  const book = generate.buildBook({id: 'FAKE_BOOK_ID'})
+  const existingListItem = generate.buildListItem({
+    ownerId: user.id,
+    bookId: book.id,
+  })
+  listItemsDB.query.mockResolvedValueOnce([existingListItem])
 
+  const req = generate.buildReq({
+    user,
+    body: {bookId: book.id},
+  })
+  const res = generate.buildRes()
+
+  await listItemsController.createListItem(req, res)
+
+  expect(listItemsDB.query).toHaveBeenCalledWith({
+    ownerId: user.id,
+    bookId: book.id,
+  })
+  expect(listItemsDB.query).toHaveBeenCalledTimes(1)
+
+  expect(res.status).toHaveBeenCalledWith(400)
+  expect(res.status).toHaveBeenCalledTimes(1)
+  expect(res.json.mock.calls[0]).toMatchInlineSnapshot(`
+    Array [
+      Object {
+        "message": "User FAKE_USER_ID already has a list item for the book with the ID FAKE_BOOK_ID",
+      },
+    ]
+  `)
+  expect(res.json).toHaveBeenCalledTimes(1)
+})
+
+// setListItem returns 404 if no book is found
+// setListItem returns 403 unauthorized if user is not owner of the list item
+// getListItems returns the req.listItems
+// updateListItem returns updatedListitem
+// deleteListItem returns success: true
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NjcxNjM4OSwtMTg5ODc2MTY4MCwxMT
-U2MDAzNzcsMjAyNTY0NzMzOCwtMTgzNjk3Njc0MCwtNTMzOTM1
-NDY3LDMwNTkxOTA2Miw5NjI2NTA4NTcsMTIyMDU1MjIyMiwtMT
-k0MjQ0MTI3NCwtMzk4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAw
-OTAwLC0yNDcwOTUxNjMsLTUyNjY2MDc3MiwtMTU0NDk0MDA4My
-wtNTY5Nzk5MDk0LDIwMjA0MjM5NTQsLTE1Mjc1MjU2ODEsODYx
-NDM0MTA1XX0=
+eyJoaXN0b3J5IjpbMTk4NDMxMzA3MSwxODk2NzE2Mzg5LC0xOD
+k4NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3MzM4LC0xODM2OTc2
+NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYyLDk2MjY1MDg1NywxMj
+IwNTUyMjIyLC0xOTQyNDQxMjc0LC0zOTgyMDYyMDUsMTEzODc2
+ODE0NSw0NDY3MDA5MDAsLTI0NzA5NTE2MywtNTI2NjYwNzcyLC
+0xNTQ0OTQwMDgzLC01Njk3OTkwOTQsMjAyMDQyMzk1NCwtMTUy
+NzUyNTY4MV19
 -->

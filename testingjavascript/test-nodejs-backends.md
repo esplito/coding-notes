@@ -505,20 +505,187 @@ test('createListItem returns 400 if the user already has a listitem for the prov
   expect(res.json).toHaveBeenCalledTimes(1)
 })
 
-// setListItem returns 404 if no book is found
-// setListItem returns 403 unauthorized if user is not owner of the list item
-// getListItems returns the req.listItems
+test('createListItem creates and returns a listItem', async () => {
+  const user = generate.buildUser()
+  const book = generate.buildBook()
+  const createdListItem = generate.buildListItem({
+    ownerId: user.id,
+    bookId: book.id,
+  })
+
+  listItemsDB.query.mockResolvedValueOnce([])
+  listItemsDB.create.mockResolvedValueOnce(createdListItem)
+  booksDB.readById.mockResolvedValueOnce(book)
+
+  const req = generate.buildReq({
+    user,
+    body: {bookId: book.id},
+  })
+  const res = generate.buildRes()
+
+  await listItemsController.createListItem(req, res)
+
+  expect(listItemsDB.query).toHaveBeenCalledWith({
+    ownerId: user.id,
+    bookId: book.id,
+  })
+  expect(listItemsDB.query).toHaveBeenCalledTimes(1)
+  expect(listItemsDB.create).toHaveBeenCalledWith({
+    ownerId: user.id,
+    bookId: book.id,
+  })
+  expect(listItemsDB.create).toHaveBeenCalledTimes(1)
+  expect(booksDB.readById).toHaveBeenCalledWith(book.id)
+  expect(res.json).toHaveBeenCalledWith({listItem: {...createdListItem, book}})
+  expect(res.json).toHaveBeenCalledTimes(1)
+})
+
+test('setListItem sets listItem to req.listItem', async () => {
+  const user = generate.buildUser()
+  const listItem = generate.buildListItem({
+    ownerId: user.id,
+  })
+
+  listItemsDB.readById.mockResolvedValueOnce(listItem)
+
+  const req = generate.buildReq({
+    user,
+    params: {
+      id: listItem.id,
+    },
+  })
+  const res = generate.buildRes()
+  const next = generate.buildNext()
+
+  await listItemsController.setListItem(req, res, next)
+
+  expect(listItemsDB.readById).toHaveBeenCalledWith(listItem.id)
+  expect(listItemsDB.readById).toHaveBeenCalledTimes(1)
+
+  expect(next).toHaveBeenCalledWith(/* NOTHING! */)
+  expect(next).toHaveBeenCalledTimes(1)
+
+  expect(req.listItem).toBe(listItem)
+})
+
+test('setListItem returns 404 if no book is found', async () => {
+  const fakeListItemId = 'FAKE_LIST_ITEM_ID'
+  const req = generate.buildReq({
+    params: {
+      id: fakeListItemId,
+    },
+  })
+  const res = generate.buildRes()
+  const next = generate.buildNext()
+
+  listItemsDB.readById.mockResolvedValueOnce(null)
+
+  await listItemsController.setListItem(req, res, next)
+
+  expect(listItemsDB.readById).toHaveBeenCalledWith(fakeListItemId)
+  expect(listItemsDB.readById).toHaveBeenCalledTimes(1)
+
+  expect(next).not.toHaveBeenCalled()
+
+  expect(res.status).toHaveBeenCalledWith(404)
+  expect(res.status).toHaveBeenCalledTimes(1)
+  expect(res.json.mock.calls[0]).toMatchInlineSnapshot(`
+    Array [
+      Object {
+        "message": "No list item was found with the id of FAKE_LIST_ITEM_ID",
+      },
+    ]
+  `)
+  expect(res.json).toHaveBeenCalledTimes(1)
+})
+
+test('setListItem returns 403 unauthorized if user is not owner of the listItem', async () => {
+  const user = generate.buildUser({id: 'FAKE_USER_ID'})
+  const listItem = generate.buildListItem({
+    ownerId: 'ANOTHER_USER',
+    id: 'FAKE_LIST_ITEM_ID',
+  })
+  listItemsDB.readById.mockResolvedValueOnce(listItem)
+
+  const req = generate.buildReq({
+    user,
+    params: {
+      id: listItem.id,
+    },
+  })
+  const res = generate.buildRes()
+  const next = generate.buildNext()
+
+  await listItemsController.setListItem(req, res, next)
+
+  expect(listItemsDB.readById).toHaveBeenCalledWith(listItem.id)
+  expect(listItemsDB.readById).toHaveBeenCalledTimes(1)
+
+  expect(next).not.toHaveBeenCalled()
+
+  expect(res.status).toHaveBeenCalledWith(403)
+  expect(res.status).toHaveBeenCalledTimes(1)
+  expect(res.json.mock.calls[0]).toMatchInlineSnapshot(`
+    Array [
+      Object {
+        "message": "User with id FAKE_USER_ID is not authorized to access the list item FAKE_LIST_ITEM_ID",
+      },
+    ]
+  `)
+  expect(res.json).toHaveBeenCalledTimes(1)
+})
+
+test(`getListItems returns a user's list items`, async () => {
+  const user = generate.buildUser()
+  const books = [generate.buildBook(), generate.buildBook()]
+  const userListItems = [
+    generate.buildListItem({
+      ownerId: user.id,
+      bookId: books[0].id,
+    }),
+    generate.buildListItem({
+      ownerId: user.id,
+      bookId: books[1].id,
+    }),
+  ]
+
+  listItemsDB.query.mockResolvedValueOnce(userListItems)
+  booksDB.readManyById.mockResolvedValueOnce(books)
+
+  const req = generate.buildReq({user})
+  const res = generate.buildRes()
+
+  await listItemsController.getListItems(req, res)
+
+  expect(listItemsDB.query).toHaveBeenCalledWith({ownerId: user.id})
+  expect(listItemsDB.query).toHaveBeenCalledTimes(1)
+
+  expect(booksDB.readManyById).toHaveBeenCalledWith([books[0].id, books[1].id])
+  expect(booksDB.readManyById).toHaveBeenCalledTimes(1)
+
+  expect(res.json).toHaveBeenCalledWith({
+    listItems: [
+      {...userListItems[0], book: books[0]},
+      {...userListItems[1], book: books[1]},
+    ],
+  })
+  expect(res.json).toHaveBeenCalledTimes(1)
+})
 // updateListItem returns updatedListitem
+test('updateListItem updates an existing item and returns it', async() => {
+  
+})
+
 // deleteListItem returns success: true
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDA0MTMzMCwxOTg0MzEzMDcxLDE4OT
-Y3MTYzODksLTE4OTg3NjE2ODAsMTE1NjAwMzc3LDIwMjU2NDcz
-MzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2NywzMDU5MTkwNjIsOT
-YyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEyNzQsLTM5ODIw
-NjIwNSwxMTM4NzY4MTQ1LDQ0NjcwMDkwMCwtMjQ3MDk1MTYzLC
-01MjY2NjA3NzIsLTE1NDQ5NDAwODMsLTU2OTc5OTA5NCwyMDIw
-NDIzOTU0XX0=
+eyJoaXN0b3J5IjpbLTEwNzA1OTMwMzAsLTUzMDA0MTMzMCwxOT
+g0MzEzMDcxLDE4OTY3MTYzODksLTE4OTg3NjE2ODAsMTE1NjAw
+Mzc3LDIwMjU2NDczMzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2Ny
+wzMDU5MTkwNjIsOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0
+NDEyNzQsLTM5ODIwNjIwNSwxMTM4NzY4MTQ1LDQ0NjcwMDkwMC
+wtMjQ3MDk1MTYzLC01MjY2NjA3NzIsLTE1NDQ5NDAwODMsLTU2
+OTc5OTA5NF19
 -->

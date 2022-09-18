@@ -802,16 +802,20 @@ And he also highlights that there could be issues with this, depending on how yo
 
 >You could actually run into a problem if your authentication system generates a brand-new `token` every time somebody logs in, which is very possible. In that situation, you would want to change this assertion so that it doesn't assert on the `token` specifically. We'll cover that the `token` works with the authenticated request.
 
+He also highlights why this test is important:
 
+>This covers a lot of our code with not a whole lot of test. It does make it a lot easier to break this test because this test is touching so much of our code base. It also makes it a little harder to debug what it is that broke this test.
+>
+> Because this test is so free of implementation details, we know we cannot ship to production if this test is failing. I'd much rather have a test that breaks when it's supposed to, than have no test here at all.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODkxMDAzODEsNTExNzU4NzYxLDE1OD
-I2MDUwMzAsMTk0MDY2ODA0NywtMTg4MzUzMzc1NywtMTU4MjAy
-NzcsLTE1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC
-0xMDcwNTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2
-NzE2Mzg5LC0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3Mz
-M4LC0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYyLDk2
-MjY1MDg1N119
+eyJoaXN0b3J5IjpbMTYwOTQ5MzA1MiwtMTc4OTEwMDM4MSw1MT
+E3NTg3NjEsMTU4MjYwNTAzMCwxOTQwNjY4MDQ3LC0xODgzNTMz
+NzU3LC0xNTgyMDI3NywtMTUxMjQyMTYzNiwtMTIzNjQ5NzcxMy
+w3OTc0MzA3MTcsLTEwNzA1OTMwMzAsLTUzMDA0MTMzMCwxOTg0
+MzEzMDcxLDE4OTY3MTYzODksLTE4OTg3NjE2ODAsMTE1NjAwMz
+c3LDIwMjU2NDczMzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2Nywz
+MDU5MTkwNjJdfQ==
 -->

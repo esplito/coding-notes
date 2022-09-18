@@ -767,10 +767,12 @@ First off, we need to get our API server and database started and in a clean sta
 >Because our tests and server both run in node, we can do this all using the utilities that Jest exposes for us like beforeAll and afterAll. 
 
 
+>These `expect.any` are called asymmetric matchers. There are a bunch of those that are really, really helpful for situations where you're not exactly sure what the actual value is, but you still want to make some sort of assertion of what kind of value it is.
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjYzNTUwMDYsMTU4MjYwNTAzMCwxOT
+eyJoaXN0b3J5IjpbLTE5OTY3MzE3NzAsMTU4MjYwNTAzMCwxOT
 QwNjY4MDQ3LC0xODgzNTMzNzU3LC0xNTgyMDI3NywtMTUxMjQy
 MTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3MTcsLTEwNzA1OTMwMz
 AsLTUzMDA0MTMzMCwxOTg0MzEzMDcxLDE4OTY3MTYzODksLTE4

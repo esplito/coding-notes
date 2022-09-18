@@ -722,7 +722,7 @@ test('updateListItem updates an existing item and returns it', async () => {
 })
 ```
 **Testing deletion of resource**
-> All we need to do here is verify that the remove method of our was called properly, but we don’t need to bother mocking out what it returns because our code doesn’t use that return value. We also want to verify that the res.json was called properly, so we’ll do that as well.
+> All we need to do here is verify that the remove method of our was called properly, but we don’t need to bother mocking out what it returns because our code doesn’t use that return value. We also want to verify that the res.json was called properly, so we’ll do that as well. - Kent C. Dodds
 ```js
 test('deleteListItem deletes a list item', async () => {
   const listItem = generate.buildListItem({id: 'FAKE_LIST_ITEM_ID'})
@@ -742,11 +742,11 @@ test('deleteListItem deletes a list item', async () => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE1NTMwNDEsLTE4ODM1MzM3NTcsLT
-E1ODIwMjc3LC0xNTEyNDIxNjM2LC0xMjM2NDk3NzEzLDc5NzQz
-MDcxNywtMTA3MDU5MzAzMCwtNTMwMDQxMzMwLDE5ODQzMTMwNz
-EsMTg5NjcxNjM4OSwtMTg5ODc2MTY4MCwxMTU2MDAzNzcsMjAy
-NTY0NzMzOCwtMTgzNjk3Njc0MCwtNTMzOTM1NDY3LDMwNTkxOT
-A2Miw5NjI2NTA4NTcsMTIyMDU1MjIyMiwtMTk0MjQ0MTI3NCwt
-Mzk4MjA2MjA1XX0=
+eyJoaXN0b3J5IjpbMTYxOTc2MjA3LC0xODgzNTMzNzU3LC0xNT
+gyMDI3NywtMTUxMjQyMTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3
+MTcsLTEwNzA1OTMwMzAsLTUzMDA0MTMzMCwxOTg0MzEzMDcxLD
+E4OTY3MTYzODksLTE4OTg3NjE2ODAsMTE1NjAwMzc3LDIwMjU2
+NDczMzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2NywzMDU5MTkwNj
+IsOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEyNzQsLTM5
+ODIwNjIwNV19
 -->

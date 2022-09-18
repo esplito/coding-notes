@@ -766,13 +766,15 @@ First off, we need to get our API server and database started and in a clean sta
 
 >Because our tests and server both run in node, we can do this all using the utilities that Jest exposes for us like beforeAll and afterAll. 
 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjYwNTAzMCwxOTQwNjY4MDQ3LC0xOD
-gzNTMzNzU3LC0xNTgyMDI3NywtMTUxMjQyMTYzNiwtMTIzNjQ5
-NzcxMyw3OTc0MzA3MTcsLTEwNzA1OTMwMzAsLTUzMDA0MTMzMC
-wxOTg0MzEzMDcxLDE4OTY3MTYzODksLTE4OTg3NjE2ODAsMTE1
-NjAwMzc3LDIwMjU2NDczMzgsLTE4MzY5NzY3NDAsLTUzMzkzNT
-Q2NywzMDU5MTkwNjIsOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5
-NDI0NDEyNzRdfQ==
+eyJoaXN0b3J5IjpbLTE2NjYzNTUwMDYsMTU4MjYwNTAzMCwxOT
+QwNjY4MDQ3LC0xODgzNTMzNzU3LC0xNTgyMDI3NywtMTUxMjQy
+MTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3MTcsLTEwNzA1OTMwMz
+AsLTUzMDA0MTMzMCwxOTg0MzEzMDcxLDE4OTY3MTYzODksLTE4
+OTg3NjE2ODAsMTE1NjAwMzc3LDIwMjU2NDczMzgsLTE4MzY5Nz
+Y3NDAsLTUzMzkzNTQ2NywzMDU5MTkwNjIsOTYyNjUwODU3LDEy
+MjA1NTIyMjJdfQ==
 -->

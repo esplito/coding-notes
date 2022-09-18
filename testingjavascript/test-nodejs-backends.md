@@ -647,7 +647,7 @@ test('setListItem returns 403 unauthorized if user is not owner of the listItem'
 })
 ```
 
-** Test getListItems for Getting Multiple Mock Objects **
+**Test getListItems for Getting Multiple Mock Objects**
 
 ```js
 test(`getListItems returns a user's list items`, async () => {
@@ -734,7 +734,7 @@ test('deleteListItem deletes a list item', async () => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzAzNjk5MTQsLTEyMzY0OTc3MTMsNz
+eyJoaXN0b3J5IjpbLTE1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNz
 k3NDMwNzE3LC0xMDcwNTkzMDMwLC01MzAwNDEzMzAsMTk4NDMx
 MzA3MSwxODk2NzE2Mzg5LC0xODk4NzYxNjgwLDExNTYwMDM3Ny
 wyMDI1NjQ3MzM4LC0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1

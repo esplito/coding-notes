@@ -720,7 +720,10 @@ test('updateListItem updates an existing item and returns it', async () => {
   })
   expect(res.json).toHaveBeenCalledTimes(1)
 })
-
+```
+**Testing deletion of resource**
+> All we need to do here is verify that the remove method of our was called properly, but we don’t need to bother mocking out what it returns because our code doesn’t use that return value. We also want to verify that the res.json was called properly, so we’ll do that as well.
+```js
 test('deleteListItem deletes a list item', async () => {
   const listItem = generate.buildListItem({id: 'FAKE_LIST_ITEM_ID'})
 
@@ -739,11 +742,11 @@ test('deleteListItem deletes a list item', async () => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODM1MzM3NTcsLTE1ODIwMjc3LC0xNT
-EyNDIxNjM2LC0xMjM2NDk3NzEzLDc5NzQzMDcxNywtMTA3MDU5
-MzAzMCwtNTMwMDQxMzMwLDE5ODQzMTMwNzEsMTg5NjcxNjM4OS
-wtMTg5ODc2MTY4MCwxMTU2MDAzNzcsMjAyNTY0NzMzOCwtMTgz
-Njk3Njc0MCwtNTMzOTM1NDY3LDMwNTkxOTA2Miw5NjI2NTA4NT
-csMTIyMDU1MjIyMiwtMTk0MjQ0MTI3NCwtMzk4MjA2MjA1LDEx
-Mzg3NjgxNDVdfQ==
+eyJoaXN0b3J5IjpbLTEyMDE1NTMwNDEsLTE4ODM1MzM3NTcsLT
+E1ODIwMjc3LC0xNTEyNDIxNjM2LC0xMjM2NDk3NzEzLDc5NzQz
+MDcxNywtMTA3MDU5MzAzMCwtNTMwMDQxMzMwLDE5ODQzMTMwNz
+EsMTg5NjcxNjM4OSwtMTg5ODc2MTY4MCwxMTU2MDAzNzcsMjAy
+NTY0NzMzOCwtMTgzNjk3Njc0MCwtNTMzOTM1NDY3LDMwNTkxOT
+A2Miw5NjI2NTA4NTcsMTIyMDU1MjIyMiwtMTk0MjQ0MTI3NCwt
+Mzk4MjA2MjA1XX0=
 -->

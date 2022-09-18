@@ -739,14 +739,16 @@ test('deleteListItem deletes a list item', async () => {
   expect(res.json).toHaveBeenCalledTimes(1)
 })
 ```
+## Test API Authentication Routes
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTc2MjA3LC0xODgzNTMzNzU3LC0xNT
-gyMDI3NywtMTUxMjQyMTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3
-MTcsLTEwNzA1OTMwMzAsLTUzMDA0MTMzMCwxOTg0MzEzMDcxLD
-E4OTY3MTYzODksLTE4OTg3NjE2ODAsMTE1NjAwMzc3LDIwMjU2
-NDczMzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2NywzMDU5MTkwNj
-IsOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEyNzQsLTM5
-ODIwNjIwNV19
+eyJoaXN0b3J5IjpbMTk5ODEzNzg4MywtMTg4MzUzMzc1NywtMT
+U4MjAyNzcsLTE1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMw
+NzE3LC0xMDcwNTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MS
+wxODk2NzE2Mzg5LC0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1
+NjQ3MzM4LC0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MD
+YyLDk2MjY1MDg1NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0z
+OTgyMDYyMDVdfQ==
 -->

@@ -749,15 +749,22 @@ According to Kent, the biggest challenges with these types of tests are that:
 1.  They _take more setup_
 2.  They _have more points of failure_
 
-He also mentions some good stuff about how to handle the database in ht
+He also mentions some good stuff about how to handle the server and database in these types of tests:
+>The setup required includes getting the server started. The way I've structured it for this project is the way I recommend structuring it for all Node apps as it's a great way to run tests in isolation from one another but still in parallel. As mentioned, you'll also need to make sure that your database and any other services your app depends on are running or properly mocked.
+>
+>Another piece to the setup often includes making certain that the database is in a clean state. Sometimes you can get away with a database that has a lot of old test data in it, but it's better if you can have the database cleared out for every test.  **Tests like these are often more comprehensive**  in part for this reason as well as the fact that it makes writing the tests a little easier and more useful.
+
+**What's good about these tests then?**
+1. They give a lot of confidence
+2. And give you fewer false negatives and false positives
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxMDA1MDM1LC0xODgzNTMzNzU3LC0xNT
-gyMDI3NywtMTUxMjQyMTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3
-MTcsLTEwNzA1OTMwMzAsLTUzMDA0MTMzMCwxOTg0MzEzMDcxLD
-E4OTY3MTYzODksLTE4OTg3NjE2ODAsMTE1NjAwMzc3LDIwMjU2
-NDczMzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2NywzMDU5MTkwNj
-IsOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEyNzQsLTM5
-ODIwNjIwNV19
+eyJoaXN0b3J5IjpbMTk0MDY2ODA0NywtMTg4MzUzMzc1NywtMT
+U4MjAyNzcsLTE1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMw
+NzE3LC0xMDcwNTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MS
+wxODk2NzE2Mzg5LC0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1
+NjQ3MzM4LC0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MD
+YyLDk2MjY1MDg1NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0z
+OTgyMDYyMDVdfQ==
 -->

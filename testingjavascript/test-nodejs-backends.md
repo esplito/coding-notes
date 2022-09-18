@@ -926,15 +926,24 @@ const api = axios.create({baseURL: `http://localhost:${process.env.PORT}/api`})
 ```
 
 **Final solution for unique port**
-However, we can take this a step further.
+However, we can take this a step further. We move our axios set up to the `beforeAll`:
+
+```js
+let api, server
+beforeAll(async () => {
+  server = await startServer()
+  api = axios.create({baseURL: `http://localhost:${server.address().port}/api`})
+  api.interceptors.response.use(getData, handleRequestFailure)
+})
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODM1ODgyMSwtMjg1NTg1OTcxLC02ND
-Q5MTgwMjMsMTk0NzAyMzQyOSwtMTk3MTk0MDYzMywxMDY4MTE3
-MjM2LC0xMDA3MjU0NTE0LC0xNzg5MTAwMzgxLDUxMTc1ODc2MS
-wxNTgyNjA1MDMwLDE5NDA2NjgwNDcsLTE4ODM1MzM3NTcsLTE1
-ODIwMjc3LC0xNTEyNDIxNjM2LC0xMjM2NDk3NzEzLDc5NzQzMD
-cxNywtMTA3MDU5MzAzMCwtNTMwMDQxMzMwLDE5ODQzMTMwNzEs
-MTg5NjcxNjM4OV19
+eyJoaXN0b3J5IjpbMTc4NTIzNjYsLTI4NTU4NTk3MSwtNjQ0OT
+E4MDIzLDE5NDcwMjM0MjksLTE5NzE5NDA2MzMsMTA2ODExNzIz
+NiwtMTAwNzI1NDUxNCwtMTc4OTEwMDM4MSw1MTE3NTg3NjEsMT
+U4MjYwNTAzMCwxOTQwNjY4MDQ3LC0xODgzNTMzNzU3LC0xNTgy
+MDI3NywtMTUxMjQyMTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3MT
+csLTEwNzA1OTMwMzAsLTUzMDA0MTMzMCwxOTg0MzEzMDcxLDE4
+OTY3MTYzODldfQ==
 -->

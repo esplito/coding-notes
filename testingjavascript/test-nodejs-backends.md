@@ -904,13 +904,23 @@ TypeError: Cannot read property 'close' of undefined
       19 | })
 ```
 
+We can solve it by writing the following:
+```js
+const port = 8000 + Number(process.env.JEST_WORKER_ID);
+```
+and then replace the port in `startServer` and the `baseUrl`:
+```js
+
+```
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDkxODAyMywxOTQ3MDIzNDI5LC0xOT
-cxOTQwNjMzLDEwNjgxMTcyMzYsLTEwMDcyNTQ1MTQsLTE3ODkx
-MDAzODEsNTExNzU4NzYxLDE1ODI2MDUwMzAsMTk0MDY2ODA0Ny
-wtMTg4MzUzMzc1NywtMTU4MjAyNzcsLTE1MTI0MjE2MzYsLTEy
-MzY0OTc3MTMsNzk3NDMwNzE3LC0xMDcwNTkzMDMwLC01MzAwND
-EzMzAsMTk4NDMxMzA3MSwxODk2NzE2Mzg5LC0xODk4NzYxNjgw
-LDExNTYwMDM3N119
+eyJoaXN0b3J5IjpbLTE2MDg5OTUyMDYsLTY0NDkxODAyMywxOT
+Q3MDIzNDI5LC0xOTcxOTQwNjMzLDEwNjgxMTcyMzYsLTEwMDcy
+NTQ1MTQsLTE3ODkxMDAzODEsNTExNzU4NzYxLDE1ODI2MDUwMz
+AsMTk0MDY2ODA0NywtMTg4MzUzMzc1NywtMTU4MjAyNzcsLTE1
+MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC0xMDcwNT
+kzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2NzE2Mzg5
+LC0xODk4NzYxNjgwXX0=
 -->

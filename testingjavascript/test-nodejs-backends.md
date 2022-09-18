@@ -884,7 +884,7 @@ test('auth flow - with pre-configured axios client and interceptors', async () =
 
   // authenticated request
   const userToken = resultLogin.user.token
-  const resultMe = await api.get('http://localhost:8000/api/auth/me', {
+  const resultMe = await api.get('/auth/me', {
     headers: {Authorization: `Bearer ${userToken}`},
   })
   expect(resultMe).toEqual(resultLogin)
@@ -918,7 +918,7 @@ server = await startServer({port})
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDg3MjA3MSwtNjQ0OTE4MDIzLDE5ND
+eyJoaXN0b3J5IjpbLTI4NTU4NTk3MSwtNjQ0OTE4MDIzLDE5ND
 cwMjM0MjksLTE5NzE5NDA2MzMsMTA2ODExNzIzNiwtMTAwNzI1
 NDUxNCwtMTc4OTEwMDM4MSw1MTE3NTg3NjEsMTU4MjYwNTAzMC
 wxOTQwNjY4MDQ3LC0xODgzNTMzNzU3LC0xNTgyMDI3NywtMTUx

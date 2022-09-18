@@ -320,7 +320,7 @@ Kent has already prepared some test object factories:
 2. `buildReq`
 3. `buildNext`
 
-In this extra credit we simply import them instead.
+In this extra credit we simply import them instead. You can find the [test object factories here](https://github.com/kentcdodds/testing-node-apps/blob/main/test/utils/generate.js).
 
 #### Usage
 ```js
@@ -734,11 +734,11 @@ test('deleteListItem deletes a list item', async () => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNz
-k3NDMwNzE3LC0xMDcwNTkzMDMwLC01MzAwNDEzMzAsMTk4NDMx
-MzA3MSwxODk2NzE2Mzg5LC0xODk4NzYxNjgwLDExNTYwMDM3Ny
-wyMDI1NjQ3MzM4LC0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1
-OTE5MDYyLDk2MjY1MDg1NywxMjIwNTUyMjIyLC0xOTQyNDQxMj
-c0LC0zOTgyMDYyMDUsMTEzODc2ODE0NSw0NDY3MDA5MDAsLTI0
-NzA5NTE2M119
+eyJoaXN0b3J5IjpbLTE1ODIwMjc3LC0xNTEyNDIxNjM2LC0xMj
+M2NDk3NzEzLDc5NzQzMDcxNywtMTA3MDU5MzAzMCwtNTMwMDQx
+MzMwLDE5ODQzMTMwNzEsMTg5NjcxNjM4OSwtMTg5ODc2MTY4MC
+wxMTU2MDAzNzcsMjAyNTY0NzMzOCwtMTgzNjk3Njc0MCwtNTMz
+OTM1NDY3LDMwNTkxOTA2Miw5NjI2NTA4NTcsMTIyMDU1MjIyMi
+wtMTk0MjQ0MTI3NCwtMzk4MjA2MjA1LDExMzg3NjgxNDUsNDQ2
+NzAwOTAwXX0=
 -->

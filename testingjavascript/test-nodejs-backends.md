@@ -760,14 +760,19 @@ He also mentions some good stuff about how to handle the server and database in 
 
 Exercises for this can be found under `/src/__tests__/auth.exercise.js`.
 
+### Start a Node Server and Fire a Request to an HTTP API Endpoint
+
+First off, we need to get our API server and database started and in a clean state.
+
+>Because our tests and server both run in node, we can do this all using the utilities that Jest exposes for us like beforeAll and afterAll. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxMDExMTAxLDE5NDA2NjgwNDcsLTE4OD
-M1MzM3NTcsLTE1ODIwMjc3LC0xNTEyNDIxNjM2LC0xMjM2NDk3
-NzEzLDc5NzQzMDcxNywtMTA3MDU5MzAzMCwtNTMwMDQxMzMwLD
-E5ODQzMTMwNzEsMTg5NjcxNjM4OSwtMTg5ODc2MTY4MCwxMTU2
-MDAzNzcsMjAyNTY0NzMzOCwtMTgzNjk3Njc0MCwtNTMzOTM1ND
-Y3LDMwNTkxOTA2Miw5NjI2NTA4NTcsMTIyMDU1MjIyMiwtMTk0
-MjQ0MTI3NF19
+eyJoaXN0b3J5IjpbMTU4MjYwNTAzMCwxOTQwNjY4MDQ3LC0xOD
+gzNTMzNzU3LC0xNTgyMDI3NywtMTUxMjQyMTYzNiwtMTIzNjQ5
+NzcxMyw3OTc0MzA3MTcsLTEwNzA1OTMwMzAsLTUzMDA0MTMzMC
+wxOTg0MzEzMDcxLDE4OTY3MTYzODksLTE4OTg3NjE2ODAsMTE1
+NjAwMzc3LDIwMjU2NDczMzgsLTE4MzY5NzY3NDAsLTUzMzkzNT
+Q2NywzMDU5MTkwNjIsOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5
+NDI0NDEyNzRdfQ==
 -->

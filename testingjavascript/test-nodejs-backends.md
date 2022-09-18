@@ -839,11 +839,22 @@ He also highlights why this test is important:
 
 ##### 💯  Create a pre-configured axios client
 
-Err
+**Error message before using `axios.interceptors` with `getData` and `handleRequestFailure`**
+```terminal
+auth flow - with pre-configured axios client and interceptors
+
+    Request failed with status code 400
+
+      at createError (node_modules/axios/lib/core/createError.js:16:15)
+      at settle (node_modules/axios/lib/core/settle.js:17:12)
+      at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:244:11)
+```
+
+**Error message after**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyNTgyNTQzLDEwNjgxMTcyMzYsLTEwMD
+eyJoaXN0b3J5IjpbMzI3MDc4OTIxLDEwNjgxMTcyMzYsLTEwMD
 cyNTQ1MTQsLTE3ODkxMDAzODEsNTExNzU4NzYxLDE1ODI2MDUw
 MzAsMTk0MDY2ODA0NywtMTg4MzUzMzc1NywtMTU4MjAyNzcsLT
 E1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC0xMDcw

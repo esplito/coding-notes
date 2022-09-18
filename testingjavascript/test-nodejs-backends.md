@@ -766,17 +766,42 @@ First off, we need to get our API server and database started and in a clean sta
 
 >Because our tests and server both run in node, we can do this all using the utilities that Jest exposes for us like beforeAll and afterAll. 
 
+```js
+// 🐨 get a username and password from generate.loginForm()
+  const userData = generate.loginForm()
+  // register
+  // 🐨 use axios.post to post the username and password to the registration endpoint
+  // 💰 http://localhost:8000/api/auth/register
+  const result = await axios.post(
+    'http://localhost:8000/api/auth/register',
+    userData,
+  )
+
+  // 🐨 assert that the result you get back is correct
+  // 💰 it'll have an id and a token that will be random every time.
+  // You can either only check that `result.data.user.username` is correct, or
+  // for a little extra credit 💯 you can try using `expect.any(String)`
+  // (an asymmetric matcher) with toEqual.
+  // 📜 https://jestjs.io/docs/en/expect#expectanyconstructor
+  // 📜 https://jestjs.io/docs/en/expect#toequalvalue
+
+  expect(result.data.user).toEqual({
+    id: expect.any(String),
+    token: expect.any(String),
+    username: userData.username,
+  })
+```
 
 >These `expect.any` are called asymmetric matchers. There are a bunch of those that are really, really helpful for situations where you're not exactly sure what the actual value is, but you still want to make some sort of assertion of what kind of value it is.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTY3MzE3NzAsMTU4MjYwNTAzMCwxOT
-QwNjY4MDQ3LC0xODgzNTMzNzU3LC0xNTgyMDI3NywtMTUxMjQy
-MTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3MTcsLTEwNzA1OTMwMz
-AsLTUzMDA0MTMzMCwxOTg0MzEzMDcxLDE4OTY3MTYzODksLTE4
-OTg3NjE2ODAsMTE1NjAwMzc3LDIwMjU2NDczMzgsLTE4MzY5Nz
-Y3NDAsLTUzMzkzNTQ2NywzMDU5MTkwNjIsOTYyNjUwODU3LDEy
-MjA1NTIyMjJdfQ==
+eyJoaXN0b3J5IjpbNTExNzU4NzYxLDE1ODI2MDUwMzAsMTk0MD
+Y2ODA0NywtMTg4MzUzMzc1NywtMTU4MjAyNzcsLTE1MTI0MjE2
+MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC0xMDcwNTkzMDMwLC
+01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2NzE2Mzg5LC0xODk4
+NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3MzM4LC0xODM2OTc2Nz
+QwLC01MzM5MzU0NjcsMzA1OTE5MDYyLDk2MjY1MDg1NywxMjIw
+NTUyMjIyXX0=
 -->

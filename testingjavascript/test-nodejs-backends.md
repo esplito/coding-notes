@@ -798,12 +798,16 @@ Kent comments on the fact that we are asserting the `user`-object from the regis
 
 > With that, we're verifying that the  `token`  and the  `id`  are consistent, at least between these two API calls. We aren't verifying that the  `token`  works when making authenticator request, but that's what we're going to do next.
 
-And 
+And he also highlights that there could be issues with this, depending on how your auth solution works:
+
+>You could actually run into a problem if your authentication system generates a brand-new `token` every time somebody logs in, which is very possible. In that situation, you would want to change this assertion so that it doesn't assert on the `token` specifically. We'll cover that the `token` works with the authenticated request.
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU4NDExMzMsNTExNzU4NzYxLDE1OD
+eyJoaXN0b3J5IjpbLTE3ODkxMDAzODEsNTExNzU4NzYxLDE1OD
 I2MDUwMzAsMTk0MDY2ODA0NywtMTg4MzUzMzc1NywtMTU4MjAy
 NzcsLTE1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC
 0xMDcwNTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2

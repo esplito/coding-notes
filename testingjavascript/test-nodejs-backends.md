@@ -912,17 +912,17 @@ and then replace the port in `startServer` and the `baseUrl`:
 ```js
 server = await startServer({port})
 
-
+const api = axios.create({baseURL: `http://localhost:${port}/api`})
 ```
-
+_But_ it is a bit annoying, having to do this in every single test file. So instead, we can 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTU4NTk3MSwtNjQ0OTE4MDIzLDE5ND
-cwMjM0MjksLTE5NzE5NDA2MzMsMTA2ODExNzIzNiwtMTAwNzI1
-NDUxNCwtMTc4OTEwMDM4MSw1MTE3NTg3NjEsMTU4MjYwNTAzMC
-wxOTQwNjY4MDQ3LC0xODgzNTMzNzU3LC0xNTgyMDI3NywtMTUx
-MjQyMTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3MTcsLTEwNzA1OT
-MwMzAsLTUzMDA0MTMzMCwxOTg0MzEzMDcxLDE4OTY3MTYzODks
-LTE4OTg3NjE2ODBdfQ==
+eyJoaXN0b3J5IjpbLTgzMjA4NjM5NywtMjg1NTg1OTcxLC02ND
+Q5MTgwMjMsMTk0NzAyMzQyOSwtMTk3MTk0MDYzMywxMDY4MTE3
+MjM2LC0xMDA3MjU0NTE0LC0xNzg5MTAwMzgxLDUxMTc1ODc2MS
+wxNTgyNjA1MDMwLDE5NDA2NjgwNDcsLTE4ODM1MzM3NTcsLTE1
+ODIwMjc3LC0xNTEyNDIxNjM2LC0xMjM2NDk3NzEzLDc5NzQzMD
+cxNywtMTA3MDU5MzAzMCwtNTMwMDQxMzMwLDE5ODQzMTMwNzEs
+MTg5NjcxNjM4OV19
 -->

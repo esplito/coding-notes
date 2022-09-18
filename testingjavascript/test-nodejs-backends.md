@@ -739,16 +739,19 @@ test('deleteListItem deletes a list item', async () => {
   expect(res.json).toHaveBeenCalledTimes(1)
 })
 ```
-## Test API Authentication Routes
+## Test Authentication API  Routes - Overview
+
+In this part we'll start doing some server integration tests and Kent has created a  [markdown file with instructions](https://github.com/kentcdodds/testing-node-apps/blob/tjs/src/__tests__/auth.md).
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODEzNzg4MywtMTg4MzUzMzc1NywtMT
-U4MjAyNzcsLTE1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMw
-NzE3LC0xMDcwNTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MS
-wxODk2NzE2Mzg5LC0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1
-NjQ3MzM4LC0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MD
-YyLDk2MjY1MDg1NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0z
-OTgyMDYyMDVdfQ==
+eyJoaXN0b3J5IjpbLTEzNzc4MDQ5NDEsLTE4ODM1MzM3NTcsLT
+E1ODIwMjc3LC0xNTEyNDIxNjM2LC0xMjM2NDk3NzEzLDc5NzQz
+MDcxNywtMTA3MDU5MzAzMCwtNTMwMDQxMzMwLDE5ODQzMTMwNz
+EsMTg5NjcxNjM4OSwtMTg5ODc2MTY4MCwxMTU2MDAzNzcsMjAy
+NTY0NzMzOCwtMTgzNjk3Njc0MCwtNTMzOTM1NDY3LDMwNTkxOT
+A2Miw5NjI2NTA4NTcsMTIyMDU1MjIyMiwtMTk0MjQ0MTI3NCwt
+Mzk4MjA2MjA1XX0=
 -->

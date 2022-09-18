@@ -689,7 +689,7 @@ test(`getListItems returns a user's list items`, async () => {
   expect(res.json).toHaveBeenCalledTimes(1)
 })
 ```
-
+**Happy path for update flow**
 ```js
 test('updateListItem updates an existing item and returns it', async () => {
   const book = generate.buildBook({id: 'FAKE_BOOK_ID'})
@@ -739,11 +739,11 @@ test('deleteListItem deletes a list item', async () => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTIwMDcyNiwtMTU4MjAyNzcsLTE1MT
-I0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC0xMDcwNTkz
-MDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2NzE2Mzg5LC
-0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3MzM4LC0xODM2
-OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYyLDk2MjY1MDg1Ny
-wxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0zOTgyMDYyMDUsMTEz
-ODc2ODE0NV19
+eyJoaXN0b3J5IjpbLTE4ODM1MzM3NTcsLTE1ODIwMjc3LC0xNT
+EyNDIxNjM2LC0xMjM2NDk3NzEzLDc5NzQzMDcxNywtMTA3MDU5
+MzAzMCwtNTMwMDQxMzMwLDE5ODQzMTMwNzEsMTg5NjcxNjM4OS
+wtMTg5ODc2MTY4MCwxMTU2MDAzNzcsMjAyNTY0NzMzOCwtMTgz
+Njk3Njc0MCwtNTMzOTM1NDY3LDMwNTkxOTA2Miw5NjI2NTA4NT
+csMTIyMDU1MjIyMiwtMTk0MjQ0MTI3NCwtMzk4MjA2MjA1LDEx
+Mzg3NjgxNDVdfQ==
 -->

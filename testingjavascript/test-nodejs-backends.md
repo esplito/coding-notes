@@ -602,7 +602,10 @@ test('setListItem returns 404 if no book is found', async () => {
   `)
   expect(res.json).toHaveBeenCalledTimes(1)
 })
-
+```
+Next up is to check that we do
+> In this one we handle dynamic data in a snapshot by making a consistent ID for the user and list item.
+```js
 test('setListItem returns 403 unauthorized if user is not owner of the listItem', async () => {
   const user = generate.buildUser({id: 'FAKE_USER_ID'})
   const listItem = generate.buildListItem({
@@ -723,11 +726,11 @@ test('deleteListItem deletes a list item', async () => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC0xMD
-cwNTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2NzE2
-Mzg5LC0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3MzM4LC
-0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYyLDk2MjY1
-MDg1NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0zOTgyMDYyMD
-UsMTEzODc2ODE0NSw0NDY3MDA5MDAsLTI0NzA5NTE2MywtNTI2
-NjYwNzcyXX0=
+eyJoaXN0b3J5IjpbLTQwNjg3MzgyNiwtMTIzNjQ5NzcxMyw3OT
+c0MzA3MTcsLTEwNzA1OTMwMzAsLTUzMDA0MTMzMCwxOTg0MzEz
+MDcxLDE4OTY3MTYzODksLTE4OTg3NjE2ODAsMTE1NjAwMzc3LD
+IwMjU2NDczMzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2NywzMDU5
+MTkwNjIsOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEyNz
+QsLTM5ODIwNjIwNSwxMTM4NzY4MTQ1LDQ0NjcwMDkwMCwtMjQ3
+MDk1MTYzXX0=
 -->

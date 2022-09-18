@@ -859,7 +859,10 @@ auth flow - with pre-configured axios client and interceptors
 
 After using `getData` on `axios.interceptors.response.use` we can also skip adding `.data` when asserting the data. So `resultRegister.data` can instead be `resultRegister`.
 
+These helpers can be found in [`/test/utils/async.js`](https://github.com/kentcdodds/testing-node-apps/blob/tjs/test/utils/async.js).
+
 ```js
+
 const api = axios.create({baseURL: 'http://localhost:8000/api'})
 api.interceptors.response.use(getData, handleRequestFailure)
 
@@ -889,11 +892,11 @@ test('auth flow - with pre-configured axios client and interceptors', async () =
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM5NDUzODc4LDEwNjgxMTcyMzYsLTEwMD
-cyNTQ1MTQsLTE3ODkxMDAzODEsNTExNzU4NzYxLDE1ODI2MDUw
-MzAsMTk0MDY2ODA0NywtMTg4MzUzMzc1NywtMTU4MjAyNzcsLT
-E1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC0xMDcw
-NTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2NzE2Mz
-g5LC0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3MzM4LC0x
-ODM2OTc2NzQwXX0=
+eyJoaXN0b3J5IjpbLTEwMjYyNTY1MTUsMTA2ODExNzIzNiwtMT
+AwNzI1NDUxNCwtMTc4OTEwMDM4MSw1MTE3NTg3NjEsMTU4MjYw
+NTAzMCwxOTQwNjY4MDQ3LC0xODgzNTMzNzU3LC0xNTgyMDI3Ny
+wtMTUxMjQyMTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3MTcsLTEw
+NzA1OTMwMzAsLTUzMDA0MTMzMCwxOTg0MzEzMDcxLDE4OTY3MT
+YzODksLTE4OTg3NjE2ODAsMTE1NjAwMzc3LDIwMjU2NDczMzgs
+LTE4MzY5NzY3NDBdfQ==
 -->

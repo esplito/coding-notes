@@ -936,14 +936,15 @@ beforeAll(async () => {
   api.interceptors.response.use(getData, handleRequestFailure)
 })
 ```
+>The `server` has a special method called `address().port`. This server is an express server, and you access the port from this address method. Now, I don't care what the port is, I don't care how the server get its port. I just care, whatever that port is, that's what my `baseURL` should be.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTIzNjYsLTI4NTU4NTk3MSwtNjQ0OT
-E4MDIzLDE5NDcwMjM0MjksLTE5NzE5NDA2MzMsMTA2ODExNzIz
-NiwtMTAwNzI1NDUxNCwtMTc4OTEwMDM4MSw1MTE3NTg3NjEsMT
-U4MjYwNTAzMCwxOTQwNjY4MDQ3LC0xODgzNTMzNzU3LC0xNTgy
-MDI3NywtMTUxMjQyMTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3MT
-csLTEwNzA1OTMwMzAsLTUzMDA0MTMzMCwxOTg0MzEzMDcxLDE4
-OTY3MTYzODldfQ==
+eyJoaXN0b3J5IjpbLTY1MjY2NzkyNCwtMjg1NTg1OTcxLC02ND
+Q5MTgwMjMsMTk0NzAyMzQyOSwtMTk3MTk0MDYzMywxMDY4MTE3
+MjM2LC0xMDA3MjU0NTE0LC0xNzg5MTAwMzgxLDUxMTc1ODc2MS
+wxNTgyNjA1MDMwLDE5NDA2NjgwNDcsLTE4ODM1MzM3NTcsLTE1
+ODIwMjc3LC0xNTEyNDIxNjM2LC0xMjM2NDk3NzEzLDc5NzQzMD
+cxNywtMTA3MDU5MzAzMCwtNTMwMDQxMzMwLDE5ODQzMTMwNzEs
+MTg5NjcxNjM4OV19
 -->

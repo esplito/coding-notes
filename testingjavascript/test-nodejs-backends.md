@@ -839,7 +839,7 @@ He also highlights why this test is important:
 
 ##### 💯  Create a pre-configured axios client
 
-**Error message before using `axios.interceptors` with `getData` and `handleRequestFailure`**
+**Error message before using `axios.interceptors` with `handleRequestFailure`**
 ```terminal
 auth flow - with pre-configured axios client and interceptors
 
@@ -850,15 +850,23 @@ auth flow - with pre-configured axios client and interceptors
       at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:244:11)
 ```
 
-**Error message after**
+**Error message after using `handleRequestFailure`**
+```terminal
+auth flow - with pre-configured axios client and interceptors
+
+    400: {"message":"username can't be blank"}
+```
+
+After using `getData` on `axios.interceptors.response.use` we can also skip adding `.data` when asserting the data. So `resultRegister.data` can instead be ``
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3MDc4OTIxLDEwNjgxMTcyMzYsLTEwMD
-cyNTQ1MTQsLTE3ODkxMDAzODEsNTExNzU4NzYxLDE1ODI2MDUw
-MzAsMTk0MDY2ODA0NywtMTg4MzUzMzc1NywtMTU4MjAyNzcsLT
-E1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC0xMDcw
-NTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2NzE2Mz
-g5LC0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3MzM4LC0x
-ODM2OTc2NzQwXX0=
+eyJoaXN0b3J5IjpbLTU2ODE1NDg4NSwxMDY4MTE3MjM2LC0xMD
+A3MjU0NTE0LC0xNzg5MTAwMzgxLDUxMTc1ODc2MSwxNTgyNjA1
+MDMwLDE5NDA2NjgwNDcsLTE4ODM1MzM3NTcsLTE1ODIwMjc3LC
+0xNTEyNDIxNjM2LC0xMjM2NDk3NzEzLDc5NzQzMDcxNywtMTA3
+MDU5MzAzMCwtNTMwMDQxMzMwLDE5ODQzMTMwNzEsMTg5NjcxNj
+M4OSwtMTg5ODc2MTY4MCwxMTU2MDAzNzcsMjAyNTY0NzMzOCwt
+MTgzNjk3Njc0MF19
 -->

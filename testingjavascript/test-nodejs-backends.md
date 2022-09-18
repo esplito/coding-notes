@@ -794,14 +794,20 @@ First off, we need to get our API server and database started and in a clean sta
 
 >These `expect.any` are called asymmetric matchers. There are a bunch of those that are really, really helpful for situations where you're not exactly sure what the actual value is, but you still want to make some sort of assertion of what kind of value it is.
 
+Kent comments on the fact that we are asserting the `user`-object from the register-response with the `user`-object from the logjn-response:
+
+> With that, we're verifying that the  `token`  and the  `id`  are consistent, at least between these two API calls. We aren't verifying that the  `token`  works when making authenticator request, but that's what we're going to do next.
+
+And 
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExNzU4NzYxLDE1ODI2MDUwMzAsMTk0MD
-Y2ODA0NywtMTg4MzUzMzc1NywtMTU4MjAyNzcsLTE1MTI0MjE2
-MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC0xMDcwNTkzMDMwLC
-01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2NzE2Mzg5LC0xODk4
-NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3MzM4LC0xODM2OTc2Nz
-QwLC01MzM5MzU0NjcsMzA1OTE5MDYyLDk2MjY1MDg1NywxMjIw
-NTUyMjIyXX0=
+eyJoaXN0b3J5IjpbLTEyNzU4NDExMzMsNTExNzU4NzYxLDE1OD
+I2MDUwMzAsMTk0MDY2ODA0NywtMTg4MzUzMzc1NywtMTU4MjAy
+NzcsLTE1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC
+0xMDcwNTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2
+NzE2Mzg5LC0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3Mz
+M4LC0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYyLDk2
+MjY1MDg1N119
 -->

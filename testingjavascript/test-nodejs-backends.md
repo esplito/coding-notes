@@ -866,7 +866,7 @@ api.interceptors.response.use(getData, handleRequestFailure)
 test('auth flow - with pre-configured axios client and interceptors', async () => {
   const userData = generate.loginForm()
   // register
-  const resultRegister = await api.post('/auth/register', 'hej')
+  const resultRegister = await api.post('/auth/register', userData)
   expect(resultRegister.user).toEqual({
     id: expect.any(String),
     token: expect.any(String),
@@ -889,11 +889,11 @@ test('auth flow - with pre-configured axios client and interceptors', async () =
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzM1NTg2OCwxMDY4MTE3MjM2LC0xMD
-A3MjU0NTE0LC0xNzg5MTAwMzgxLDUxMTc1ODc2MSwxNTgyNjA1
-MDMwLDE5NDA2NjgwNDcsLTE4ODM1MzM3NTcsLTE1ODIwMjc3LC
-0xNTEyNDIxNjM2LC0xMjM2NDk3NzEzLDc5NzQzMDcxNywtMTA3
-MDU5MzAzMCwtNTMwMDQxMzMwLDE5ODQzMTMwNzEsMTg5NjcxNj
-M4OSwtMTg5ODc2MTY4MCwxMTU2MDAzNzcsMjAyNTY0NzMzOCwt
-MTgzNjk3Njc0MF19
+eyJoaXN0b3J5IjpbMjM5NDUzODc4LDEwNjgxMTcyMzYsLTEwMD
+cyNTQ1MTQsLTE3ODkxMDAzODEsNTExNzU4NzYxLDE1ODI2MDUw
+MzAsMTk0MDY2ODA0NywtMTg4MzUzMzc1NywtMTU4MjAyNzcsLT
+E1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC0xMDcw
+NTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2NzE2Mz
+g5LC0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3MzM4LC0x
+ODM2OTc2NzQwXX0=
 -->

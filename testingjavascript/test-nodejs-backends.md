@@ -760,7 +760,7 @@ He also mentions some good stuff about how to handle the server and database in 
 
 Exercises for this can be found under `/src/__tests__/auth.exercise.js`.
 
-### Start a Node Server and Fire a Request to an HTTP API Endpoint
+### Exercises - notes
 
 First off, we need to get our API server and database started and in a clean state.
 
@@ -837,10 +837,13 @@ He also highlights why this test is important:
 >
 > Because this test is so free of implementation details, we know we cannot ship to production if this test is failing. I'd much rather have a test that breaks when it's supposed to, than have no test here at all.
 
+##### 💯  Create a pre-configured axios client
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTUxNTI0MiwtMTAwNzI1NDUxNCwtMT
+eyJoaXN0b3J5IjpbMTA2ODExNzIzNiwtMTAwNzI1NDUxNCwtMT
 c4OTEwMDM4MSw1MTE3NTg3NjEsMTU4MjYwNTAzMCwxOTQwNjY4
 MDQ3LC0xODgzNTMzNzU3LC0xNTgyMDI3NywtMTUxMjQyMTYzNi
 wtMTIzNjQ5NzcxMyw3OTc0MzA3MTcsLTEwNzA1OTMwMzAsLTUz

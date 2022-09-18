@@ -789,7 +789,58 @@ First off, we need to get our API server and database started and in a clean sta
     id: expect.any(String),
     token: expect.any(String),
     username: userData.username,
+  })// Testing Authentication API Routes
+
+// 🐨 import the things you'll need
+// 💰 here, I'll just give them to you. You're welcome
+import axios from 'axios'
+import {resetDb} from 'utils/db-utils'
+import * as generate from 'utils/generate'
+import startServer from '../start'
+
+// 🐨 you'll need to start/stop the server using beforeAll and afterAll
+// 💰 This might be helpful: server = await startServer({port: 8000})
+let server
+beforeAll(async () => {
+  server = await startServer({port: 8000})
+})
+afterAll(async () => {
+  server.close()
+})
+
+// 🐨 beforeEach test in this file we want to reset the database
+beforeEach(() => {
+  resetDb()
+})
+
+test('auth flow', async () => {
+  const userData = generate.loginForm()
+  
+  const resultRegister = await axios.post(
+    'http://localhost:8000/api/auth/register',
+    userData,
+  )
+
+  expect(resultRegister.data.user).toEqual({
+    id: expect.any(String),
+    token: expect.any(String),
+    username: userData.username,
   })
+
+  const resultLogin = await axios.post(
+    'http://localhost:8000/api/auth/login',
+    userData,
+  )
+  
+  expect(resultRegister.data.user).toEqual(resultLogin.data.user)
+  
+  const userToken = resultLogin.data.user.token
+  const resultMe = await axios.get('http://localhost:8000/api/auth/me', {
+    headers: {Authorization: `Bearer ${userToken}`},
+  })
+  
+  expect(resultMe.data).toEqual(resultLogin.data)
+})
 ```
 
 >These `expect.any` are called asymmetric matchers. There are a bunch of those that are really, really helpful for situations where you're not exactly sure what the actual value is, but you still want to make some sort of assertion of what kind of value it is.
@@ -811,11 +862,11 @@ He also highlights why this test is important:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTQ5MzA1MiwtMTc4OTEwMDM4MSw1MT
-E3NTg3NjEsMTU4MjYwNTAzMCwxOTQwNjY4MDQ3LC0xODgzNTMz
-NzU3LC0xNTgyMDI3NywtMTUxMjQyMTYzNiwtMTIzNjQ5NzcxMy
-w3OTc0MzA3MTcsLTEwNzA1OTMwMzAsLTUzMDA0MTMzMCwxOTg0
-MzEzMDcxLDE4OTY3MTYzODksLTE4OTg3NjE2ODAsMTE1NjAwMz
-c3LDIwMjU2NDczMzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2Nywz
-MDU5MTkwNjJdfQ==
+eyJoaXN0b3J5IjpbLTEwMDcyNTQ1MTQsLTE3ODkxMDAzODEsNT
+ExNzU4NzYxLDE1ODI2MDUwMzAsMTk0MDY2ODA0NywtMTg4MzUz
+Mzc1NywtMTU4MjAyNzcsLTE1MTI0MjE2MzYsLTEyMzY0OTc3MT
+MsNzk3NDMwNzE3LC0xMDcwNTkzMDMwLC01MzAwNDEzMzAsMTk4
+NDMxMzA3MSwxODk2NzE2Mzg5LC0xODk4NzYxNjgwLDExNTYwMD
+M3NywyMDI1NjQ3MzM4LC0xODM2OTc2NzQwLC01MzM5MzU0Njcs
+MzA1OTE5MDYyXX0=
 -->

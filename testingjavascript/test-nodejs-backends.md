@@ -893,15 +893,24 @@ test('auth flow - with pre-configured axios client and interceptors', async () =
 #### 💯  Ensure a unique server port
 > If you want to run your tests in parallel and each of your tests starts up the server on its own, then you could run into a problem where two servers try to bind to the same port. To avoid this, we can use the JEST_WORKER_ID environment variable so we can ensure that the port our server starts on is unique.
 
+We get the following error if create a new integration test that runs at the same time as the other integration test:
+```terminal
+TypeError: Cannot read property 'close' of undefined
 
+      16 | })
+      17 | afterAll(async () => {
+    > 18 |   server.close()
+         |          ^
+      19 | })
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzAyMzQyOSwtMTk3MTk0MDYzMywxMD
-Y4MTE3MjM2LC0xMDA3MjU0NTE0LC0xNzg5MTAwMzgxLDUxMTc1
-ODc2MSwxNTgyNjA1MDMwLDE5NDA2NjgwNDcsLTE4ODM1MzM3NT
-csLTE1ODIwMjc3LC0xNTEyNDIxNjM2LC0xMjM2NDk3NzEzLDc5
-NzQzMDcxNywtMTA3MDU5MzAzMCwtNTMwMDQxMzMwLDE5ODQzMT
-MwNzEsMTg5NjcxNjM4OSwtMTg5ODc2MTY4MCwxMTU2MDAzNzcs
-MjAyNTY0NzMzOF19
+eyJoaXN0b3J5IjpbLTY0NDkxODAyMywxOTQ3MDIzNDI5LC0xOT
+cxOTQwNjMzLDEwNjgxMTcyMzYsLTEwMDcyNTQ1MTQsLTE3ODkx
+MDAzODEsNTExNzU4NzYxLDE1ODI2MDUwMzAsMTk0MDY2ODA0Ny
+wtMTg4MzUzMzc1NywtMTU4MjAyNzcsLTE1MTI0MjE2MzYsLTEy
+MzY0OTc3MTMsNzk3NDMwNzE3LC0xMDcwNTkzMDMwLC01MzAwND
+EzMzAsMTk4NDMxMzA3MSwxODk2NzE2Mzg5LC0xODk4NzYxNjgw
+LDExNTYwMDM3N119
 -->

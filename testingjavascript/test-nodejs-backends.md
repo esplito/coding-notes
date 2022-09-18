@@ -922,11 +922,15 @@ process.env.PORT = process.env.PORT || port
 
 And then we can instead use:
 ```js
+const api = axios.create({baseURL: `http://localhost:${process.env.PORT}/api`})
 ```
+
+**Final solution for unique port**
+However, we can take this a step further.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTUxNjQ1MSwtMjg1NTg1OTcxLC02ND
+eyJoaXN0b3J5IjpbLTYyODM1ODgyMSwtMjg1NTg1OTcxLC02ND
 Q5MTgwMjMsMTk0NzAyMzQyOSwtMTk3MTk0MDYzMywxMDY4MTE3
 MjM2LC0xMDA3MjU0NTE0LC0xNzg5MTAwMzgxLDUxMTc1ODc2MS
 wxNTgyNjA1MDMwLDE5NDA2NjgwNDcsLTE4ODM1MzM3NTcsLTE1

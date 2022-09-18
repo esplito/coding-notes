@@ -857,12 +857,39 @@ auth flow - with pre-configured axios client and interceptors
     400: {"message":"username can't be blank"}
 ```
 
-After using `getData` on `axios.interceptors.response.use` we can also skip adding `.data` when asserting the data. So `resultRegister.data` can instead be ``
+After using `getData` on `axios.interceptors.response.use` we can also skip adding `.data` when asserting the data. So `resultRegister.data` can instead be `resultRegister`.
+
+```js
+const api = axios.create({baseURL: 'http://localhost:8000/api'})
+api.interceptors.response.use(getData, handleRequestFailure)
+
+test('auth flow - with pre-configured axios client and interceptors', async () => {
+  const userData = generate.loginForm()
+  // register
+  const resultRegister = await api.post('/auth/register', 'hej')
+  expect(resultRegister.user).toEqual({
+    id: expect.any(String),
+    token: expect.any(String),
+    username: userData.username,
+  })
+
+  // login
+  const resultLogin = await api.post('/auth/login', userData)
+  expect(resultRegister.user).toEqual(resultLogin.user)
+
+  // authenticated request
+  const userToken = resultLogin.user.token
+  const resultMe = await api.get('http://localhost:8000/api/auth/me', {
+    headers: {Authorization: `Bearer ${userToken}`},
+  })
+  expect(resultMe).toEqual(resultLogin)
+})
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODE1NDg4NSwxMDY4MTE3MjM2LC0xMD
+eyJoaXN0b3J5IjpbLTU0NzM1NTg2OCwxMDY4MTE3MjM2LC0xMD
 A3MjU0NTE0LC0xNzg5MTAwMzgxLDUxMTc1ODc2MSwxNTgyNjA1
 MDMwLDE5NDA2NjgwNDcsLTE4ODM1MzM3NTcsLTE1ODIwMjc3LC
 0xNTEyNDIxNjM2LC0xMjM2NDk3NzEzLDc5NzQzMDcxNywtMTA3

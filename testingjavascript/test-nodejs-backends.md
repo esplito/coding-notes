@@ -645,7 +645,9 @@ test('setListItem returns 403 unauthorized if user is not owner of the listItem'
   `)
   expect(res.json).toHaveBeenCalledTimes(1)
 })
-
+```
+** Test getListItems for Getting Multiple Mock Objects **
+```js
 test(`getListItems returns a user's list items`, async () => {
   const user = generate.buildUser()
   const books = [generate.buildBook(), generate.buildBook()]
@@ -730,11 +732,11 @@ test('deleteListItem deletes a list item', async () => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NzAyOTMxNCwtMTIzNjQ5NzcxMyw3OT
-c0MzA3MTcsLTEwNzA1OTMwMzAsLTUzMDA0MTMzMCwxOTg0MzEz
-MDcxLDE4OTY3MTYzODksLTE4OTg3NjE2ODAsMTE1NjAwMzc3LD
-IwMjU2NDczMzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2NywzMDU5
-MTkwNjIsOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEyNz
-QsLTM5ODIwNjIwNSwxMTM4NzY4MTQ1LDQ0NjcwMDkwMCwtMjQ3
-MDk1MTYzXX0=
+eyJoaXN0b3J5IjpbMTA4MTMyMzU4LC0xMjM2NDk3NzEzLDc5Nz
+QzMDcxNywtMTA3MDU5MzAzMCwtNTMwMDQxMzMwLDE5ODQzMTMw
+NzEsMTg5NjcxNjM4OSwtMTg5ODc2MTY4MCwxMTU2MDAzNzcsMj
+AyNTY0NzMzOCwtMTgzNjk3Njc0MCwtNTMzOTM1NDY3LDMwNTkx
+OTA2Miw5NjI2NTA4NTcsMTIyMDU1MjIyMiwtMTk0MjQ0MTI3NC
+wtMzk4MjA2MjA1LDExMzg3NjgxNDUsNDQ2NzAwOTAwLC0yNDcw
+OTUxNjNdfQ==
 -->

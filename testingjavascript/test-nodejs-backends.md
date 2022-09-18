@@ -469,6 +469,7 @@ test('createListItem returns a 400 error if no bookId is provided', async () => 
 ```
 #### Extra credit 2 💯 Test everything else
 
+**Error Case & happy creation flow for createListItem**
 ```js
 test('createListItem returns 400 if the user already has a listitem for the provided bookid', async () => {
   const user = generate.buildUser({id: 'FAKE_USER_ID'})
@@ -505,6 +506,7 @@ test('createListItem returns 400 if the user already has a listitem for the prov
   expect(res.json).toHaveBeenCalledTimes(1)
 })
 
+// Happy Path of Creation Flow
 test('createListItem creates and returns a listItem', async () => {
   const user = generate.buildUser()
   const book = generate.buildBook()
@@ -686,6 +688,8 @@ test(`getListItems returns a user's list items`, async () => {
   })
   expect(res.json).toHaveBeenCalledTimes(1)
 })
+
+```
 test('updateListItem updates an existing item and returns it', async () => {
   const book = generate.buildBook({id: 'FAKE_BOOK_ID'})
   const listItem = generate.buildListItem({
@@ -734,11 +738,11 @@ test('deleteListItem deletes a list item', async () => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODIwMjc3LC0xNTEyNDIxNjM2LC0xMj
-M2NDk3NzEzLDc5NzQzMDcxNywtMTA3MDU5MzAzMCwtNTMwMDQx
-MzMwLDE5ODQzMTMwNzEsMTg5NjcxNjM4OSwtMTg5ODc2MTY4MC
-wxMTU2MDAzNzcsMjAyNTY0NzMzOCwtMTgzNjk3Njc0MCwtNTMz
-OTM1NDY3LDMwNTkxOTA2Miw5NjI2NTA4NTcsMTIyMDU1MjIyMi
-wtMTk0MjQ0MTI3NCwtMzk4MjA2MjA1LDExMzg3NjgxNDUsNDQ2
-NzAwOTAwXX0=
+eyJoaXN0b3J5IjpbMzEwNDE4MTcxLC0xNTgyMDI3NywtMTUxMj
+QyMTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3MTcsLTEwNzA1OTMw
+MzAsLTUzMDA0MTMzMCwxOTg0MzEzMDcxLDE4OTY3MTYzODksLT
+E4OTg3NjE2ODAsMTE1NjAwMzc3LDIwMjU2NDczMzgsLTE4MzY5
+NzY3NDAsLTUzMzkzNTQ2NywzMDU5MTkwNjIsOTYyNjUwODU3LD
+EyMjA1NTIyMjIsLTE5NDI0NDEyNzQsLTM5ODIwNjIwNSwxMTM4
+NzY4MTQ1XX0=
 -->

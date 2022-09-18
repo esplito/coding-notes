@@ -910,17 +910,19 @@ const port = 8000 + Number(process.env.JEST_WORKER_ID);
 ```
 and then replace the port in `startServer` and the `baseUrl`:
 ```js
+server = await startServer({port})
+
 
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDg5OTUyMDYsLTY0NDkxODAyMywxOT
-Q3MDIzNDI5LC0xOTcxOTQwNjMzLDEwNjgxMTcyMzYsLTEwMDcy
-NTQ1MTQsLTE3ODkxMDAzODEsNTExNzU4NzYxLDE1ODI2MDUwMz
-AsMTk0MDY2ODA0NywtMTg4MzUzMzc1NywtMTU4MjAyNzcsLTE1
-MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC0xMDcwNT
-kzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2NzE2Mzg5
-LC0xODk4NzYxNjgwXX0=
+eyJoaXN0b3J5IjpbLTUxMDg3MjA3MSwtNjQ0OTE4MDIzLDE5ND
+cwMjM0MjksLTE5NzE5NDA2MzMsMTA2ODExNzIzNiwtMTAwNzI1
+NDUxNCwtMTc4OTEwMDM4MSw1MTE3NTg3NjEsMTU4MjYwNTAzMC
+wxOTQwNjY4MDQ3LC0xODgzNTMzNzU3LC0xNTgyMDI3NywtMTUx
+MjQyMTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3MTcsLTEwNzA1OT
+MwMzAsLTUzMDA0MTMzMCwxOTg0MzEzMDcxLDE4OTY3MTYzODks
+LTE4OTg3NjE2ODBdfQ==
 -->

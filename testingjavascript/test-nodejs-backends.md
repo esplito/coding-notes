@@ -469,6 +469,8 @@ test('createListItem returns a 400 error if no bookId is provided', async () => 
 ```
 #### Extra credit 2 💯 Test everything else
 
+> **Unit Test Business Logic of a Controller’s Middleware** - Not all controller middleware send responses. In this unit test, we’ll verify that a controller’s middleware interacts with the request, response, next function, and database correctly.
+
 ```js
 test('createListItem returns 400 if the user already has a listitem for the provided bookid', async () => {
   const user = generate.buildUser({id: 'FAKE_USER_ID'})
@@ -719,11 +721,11 @@ test('deleteListItem deletes a list item', async () => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3NDMwNzE3LC0xMDcwNTkzMDMwLC01Mz
-AwNDEzMzAsMTk4NDMxMzA3MSwxODk2NzE2Mzg5LC0xODk4NzYx
-NjgwLDExNTYwMDM3NywyMDI1NjQ3MzM4LC0xODM2OTc2NzQwLC
-01MzM5MzU0NjcsMzA1OTE5MDYyLDk2MjY1MDg1NywxMjIwNTUy
-MjIyLC0xOTQyNDQxMjc0LC0zOTgyMDYyMDUsMTEzODc2ODE0NS
-w0NDY3MDA5MDAsLTI0NzA5NTE2MywtNTI2NjYwNzcyLC0xNTQ0
-OTQwMDgzXX0=
+eyJoaXN0b3J5IjpbLTE5MjU0MDg1NzUsNzk3NDMwNzE3LC0xMD
+cwNTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2NzE2
+Mzg5LC0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3MzM4LC
+0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYyLDk2MjY1
+MDg1NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0zOTgyMDYyMD
+UsMTEzODc2ODE0NSw0NDY3MDA5MDAsLTI0NzA5NTE2MywtNTI2
+NjYwNzcyXX0=
 -->

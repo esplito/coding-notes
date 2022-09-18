@@ -745,13 +745,17 @@ In this part we'll start doing some server integration tests and Kent has create
 
 In this section we'll do as minimal mocking/faking as we possibly can. For simplification of the exercises we are using an in-memory database (which most likely would not do in a production api).
 
+According to Kent, the biggest challenges with these types of tests are that:
+1.  They take more setup
+2.  They have more points of failure
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5OTUzMSwtMTg4MzUzMzc1NywtMTU4Mj
-AyNzcsLTE1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3
-LC0xMDcwNTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MSwxOD
-k2NzE2Mzg5LC0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3
-MzM4LC0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYyLD
-k2MjY1MDg1NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0zOTgy
-MDYyMDVdfQ==
+eyJoaXN0b3J5IjpbLTU0NTExMTE5NCwtMTg4MzUzMzc1NywtMT
+U4MjAyNzcsLTE1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMw
+NzE3LC0xMDcwNTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MS
+wxODk2NzE2Mzg5LC0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1
+NjQ3MzM4LC0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MD
+YyLDk2MjY1MDg1NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0z
+OTgyMDYyMDVdfQ==
 -->

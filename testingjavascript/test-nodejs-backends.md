@@ -671,21 +671,59 @@ test(`getListItems returns a user's list items`, async () => {
   })
   expect(res.json).toHaveBeenCalledTimes(1)
 })
-// updateListItem returns updatedListitem
-test('updateListItem updates an existing item and returns it', async() => {
-  
+test('updateListItem updates an existing item and returns it', async () => {
+  const book = generate.buildBook({id: 'FAKE_BOOK_ID'})
+  const listItem = generate.buildListItem({
+    id: 'FAKE_LIST_ITEM_ID',
+    bookId: book.id,
+  })
+  const updates = {
+    notes: generate.notes(),
+  }
+  const mergedListItemAndUpdates = {...listItem, ...updates.notes}
+  listItemsDB.update.mockResolvedValueOnce(mergedListItemAndUpdates)
+  booksDB.readById.mockResolvedValueOnce(book)
+
+  const req = generate.buildReq({listItem, body: updates})
+  const res = generate.buildRes()
+
+  await listItemsController.updateListItem(req, res)
+
+  expect(listItemsDB.update).toHaveBeenCalledWith(listItem.id, updates)
+  expect(listItemsDB.update).toHaveBeenCalledTimes(1)
+
+  expect(booksDB.readById).toHaveBeenCalledWith(listItem.bookId)
+  expect(booksDB.readById).toHaveBeenCalledTimes(1)
+
+  expect(res.json).toHaveBeenCalledWith({
+    listItem: {...mergedListItemAndUpdates, book},
+  })
+  expect(res.json).toHaveBeenCalledTimes(1)
 })
 
-// deleteListItem returns success: true
+test('deleteListItem deletes a list item', async () => {
+  const listItem = generate.buildListItem({id: 'FAKE_LIST_ITEM_ID'})
+
+  const req = generate.buildReq({listItem})
+  const res = generate.buildRes()
+
+  await listItemsController.deleteListItem(req, res)
+
+  expect(listItemsDB.remove).toHaveBeenCalledWith(listItem.id)
+  expect(listItemsDB.remove).toHaveBeenCalledTimes(1)
+
+  expect(res.json).toHaveBeenCalledWith({success: true})
+  expect(res.json).toHaveBeenCalledTimes(1)
+})
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzA1OTMwMzAsLTUzMDA0MTMzMCwxOT
-g0MzEzMDcxLDE4OTY3MTYzODksLTE4OTg3NjE2ODAsMTE1NjAw
-Mzc3LDIwMjU2NDczMzgsLTE4MzY5NzY3NDAsLTUzMzkzNTQ2Ny
-wzMDU5MTkwNjIsOTYyNjUwODU3LDEyMjA1NTIyMjIsLTE5NDI0
-NDEyNzQsLTM5ODIwNjIwNSwxMTM4NzY4MTQ1LDQ0NjcwMDkwMC
-wtMjQ3MDk1MTYzLC01MjY2NjA3NzIsLTE1NDQ5NDAwODMsLTU2
-OTc5OTA5NF19
+eyJoaXN0b3J5IjpbNzk3NDMwNzE3LC0xMDcwNTkzMDMwLC01Mz
+AwNDEzMzAsMTk4NDMxMzA3MSwxODk2NzE2Mzg5LC0xODk4NzYx
+NjgwLDExNTYwMDM3NywyMDI1NjQ3MzM4LC0xODM2OTc2NzQwLC
+01MzM5MzU0NjcsMzA1OTE5MDYyLDk2MjY1MDg1NywxMjIwNTUy
+MjIyLC0xOTQyNDQxMjc0LC0zOTgyMDYyMDUsMTEzODc2ODE0NS
+w0NDY3MDA5MDAsLTI0NzA5NTE2MywtNTI2NjYwNzcyLC0xNTQ0
+OTQwMDgzXX0=
 -->

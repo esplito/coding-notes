@@ -862,6 +862,8 @@ After using `getData` on `axios.interceptors.response.use` we can also skip addi
 These helpers can be found in [`/test/utils/async.js`](https://github.com/kentcdodds/testing-node-apps/blob/tjs/test/utils/async.js).
 
 ```js
+// + rest of the imports from the previous example
+import {getData, handleRequestFailure} from 'utils/async'
 
 const api = axios.create({baseURL: 'http://localhost:8000/api'})
 api.interceptors.response.use(getData, handleRequestFailure)
@@ -892,7 +894,7 @@ test('auth flow - with pre-configured axios client and interceptors', async () =
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjYyNTY1MTUsMTA2ODExNzIzNiwtMT
+eyJoaXN0b3J5IjpbLTE1MDAwMDQ3ODAsMTA2ODExNzIzNiwtMT
 AwNzI1NDUxNCwtMTc4OTEwMDM4MSw1MTE3NTg3NjEsMTU4MjYw
 NTAzMCwxOTQwNjY4MDQ3LC0xODgzNTMzNzU3LC0xNTgyMDI3Ny
 wtMTUxMjQyMTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3MTcsLTEw

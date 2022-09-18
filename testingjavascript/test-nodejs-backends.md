@@ -469,8 +469,6 @@ test('createListItem returns a 400 error if no bookId is provided', async () => 
 ```
 #### Extra credit 2 💯 Test everything else
 
-> **Unit Test Business Logic of a Controller’s Middleware** - Not all controller middleware send responses. In this unit test, we’ll verify that a controller’s middleware interacts with the request, response, next function, and database correctly.
-
 ```js
 test('createListItem returns 400 if the user already has a listitem for the provided bookid', async () => {
   const user = generate.buildUser({id: 'FAKE_USER_ID'})
@@ -541,7 +539,9 @@ test('createListItem creates and returns a listItem', async () => {
   expect(res.json).toHaveBeenCalledWith({listItem: {...createdListItem, book}})
   expect(res.json).toHaveBeenCalledTimes(1)
 })
-
+```
+> **Unit Test Business Logic of a Controller’s Middleware** - Not all controller middleware send responses. In this unit test, we’ll verify that a controller’s middleware interacts with the request, response, next function, and database correctly.
+```js
 test('setListItem sets listItem to req.listItem', async () => {
   const user = generate.buildUser()
   const listItem = generate.buildListItem({
@@ -569,7 +569,9 @@ test('setListItem sets listItem to req.listItem', async () => {
 
   expect(req.listItem).toBe(listItem)
 })
-
+```
+In the next one we test 
+```js
 test('setListItem returns 404 if no book is found', async () => {
   const fakeListItemId = 'FAKE_LIST_ITEM_ID'
   const req = generate.buildReq({
@@ -721,11 +723,11 @@ test('deleteListItem deletes a list item', async () => {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU0MDg1NzUsNzk3NDMwNzE3LC0xMD
-cwNTkzMDMwLC01MzAwNDEzMzAsMTk4NDMxMzA3MSwxODk2NzE2
-Mzg5LC0xODk4NzYxNjgwLDExNTYwMDM3NywyMDI1NjQ3MzM4LC
-0xODM2OTc2NzQwLC01MzM5MzU0NjcsMzA1OTE5MDYyLDk2MjY1
-MDg1NywxMjIwNTUyMjIyLC0xOTQyNDQxMjc0LC0zOTgyMDYyMD
-UsMTEzODc2ODE0NSw0NDY3MDA5MDAsLTI0NzA5NTE2MywtNTI2
-NjYwNzcyXX0=
+eyJoaXN0b3J5IjpbLTU3MTkzNTU1MCw3OTc0MzA3MTcsLTEwNz
+A1OTMwMzAsLTUzMDA0MTMzMCwxOTg0MzEzMDcxLDE4OTY3MTYz
+ODksLTE4OTg3NjE2ODAsMTE1NjAwMzc3LDIwMjU2NDczMzgsLT
+E4MzY5NzY3NDAsLTUzMzkzNTQ2NywzMDU5MTkwNjIsOTYyNjUw
+ODU3LDEyMjA1NTIyMjIsLTE5NDI0NDEyNzQsLTM5ODIwNjIwNS
+wxMTM4NzY4MTQ1LDQ0NjcwMDkwMCwtMjQ3MDk1MTYzLC01MjY2
+NjA3NzJdfQ==
 -->

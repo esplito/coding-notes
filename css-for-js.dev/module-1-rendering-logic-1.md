@@ -352,14 +352,15 @@ A solution is to use _layout components_.
 
 Repo on my github: https://github.com/esplito/huckleberry-css-for-js-devs-workshop 
 
+Time on solution video: 16:48
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwOTEyMzgwLC03MjM3Mzg1MzksLTE5Nj
-c1Nzg0MzYsMTU0MjY0Njk1LDIwNjA2NjQ3MTksOTY1NTQ2MjIy
-LC05NzUwODYzMzIsLTE4OTk5ODYwNiwtMjA1MjcyMTY2MywtMT
-U2NTQ4MTE5MSwtMTI0Mjc1MTc2NSwtMTAyOTE4NzkyNCwxMjUy
-ODI4NTEwLC0xODYzMjA4MjY0LDE0MzgyNTcwNTksLTEzMjA0OD
-AyMDEsMTQ4MDMxNDE4LDE0ODAzMTQxOCwtMjY4MzEyMjY1LC0x
-ODI1MjgwNDk3XX0=
+eyJoaXN0b3J5IjpbNzI1MjI5NTgxLDY3MDkxMjM4MCwtNzIzNz
+M4NTM5LC0xOTY3NTc4NDM2LDE1NDI2NDY5NSwyMDYwNjY0NzE5
+LDk2NTU0NjIyMiwtOTc1MDg2MzMyLC0xODk5OTg2MDYsLTIwNT
+I3MjE2NjMsLTE1NjU0ODExOTEsLTEyNDI3NTE3NjUsLTEwMjkx
+ODc5MjQsMTI1MjgyODUxMCwtMTg2MzIwODI2NCwxNDM4MjU3MD
+U5LC0xMzIwNDgwMjAxLDE0ODAzMTQxOCwxNDgwMzE0MTgsLTI2
+ODMxMjI2NV19
 -->

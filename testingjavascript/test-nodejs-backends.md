@@ -1105,16 +1105,25 @@ test('listItem CRUD', async () => {
 Instead of using `.toEqual` for the error message we can use `.toMatchInlineSnapshot`. However, since the listItemId is dynamic and updated on each test run, we'll need to make sure that the listItemId is consistent when we run it:
 
 ```js
-
+// 💯 snapshot the error message with dynamic data
+  const LIST_ITEM_ID = 'LIST_ITEM_ID'
+  // making use of the "tip" on property matchers in jest docs: https://jestjs.io/docs/snapshot-testing#property-matchers
+  const errorMessageWithNoId = error.data.message.replace(
+    listItemId,
+    LIST_ITEM_ID,
+  )
+  expect(errorMessageWithNoId).toMatchInlineSnapshot(
+    `"No list item was found with the id of LIST_ITEM_ID"`,
+  )
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzQyNDUxNiwtNDQ1NzExNjMwLDc0Nj
-M0NzIsMzk4MTYxNzM0LDQ4MTE5NjY2NiwtMTI2OTkyNTMxNiwt
-NzI4MTYyNjQzLC0xNjYzOTY1MzQwLC0yODU1ODU5NzEsLTY0ND
-kxODAyMywxOTQ3MDIzNDI5LC0xOTcxOTQwNjMzLDEwNjgxMTcy
-MzYsLTEwMDcyNTQ1MTQsLTE3ODkxMDAzODEsNTExNzU4NzYxLD
-E1ODI2MDUwMzAsMTk0MDY2ODA0NywtMTg4MzUzMzc1NywtMTU4
-MjAyNzddfQ==
+eyJoaXN0b3J5IjpbLTE4NTM4MzU5MzUsLTQ0NTcxMTYzMCw3ND
+YzNDcyLDM5ODE2MTczNCw0ODExOTY2NjYsLTEyNjk5MjUzMTYs
+LTcyODE2MjY0MywtMTY2Mzk2NTM0MCwtMjg1NTg1OTcxLC02ND
+Q5MTgwMjMsMTk0NzAyMzQyOSwtMTk3MTk0MDYzMywxMDY4MTE3
+MjM2LC0xMDA3MjU0NTE0LC0xNzg5MTAwMzgxLDUxMTc1ODc2MS
+wxNTgyNjA1MDMwLDE5NDA2NjgwNDcsLTE4ODM1MzM3NTcsLTE1
+ODIwMjc3XX0=
 -->

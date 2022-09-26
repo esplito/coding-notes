@@ -940,7 +940,8 @@ beforeAll(async () => {
 
 #### 💯  Interact directly with the database
 
-We import a util function called `resolve` to be able to resolve the "register"
+We import a util function called `resolve` to be able to resolve the "register"-request even though it is throwing an error. The test will fail otherwise and then we can't assert the content of the error message.
+
 ```js
 // 💯 Interact directly with the database
 test('should return error message if trying to register a user with an already existing username', async () => {
@@ -959,11 +960,11 @@ test('should return error message if trying to register a user with an already e
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc4OTg3MzcsLTE2NjM5NjUzNDAsLT
-I4NTU4NTk3MSwtNjQ0OTE4MDIzLDE5NDcwMjM0MjksLTE5NzE5
-NDA2MzMsMTA2ODExNzIzNiwtMTAwNzI1NDUxNCwtMTc4OTEwMD
-M4MSw1MTE3NTg3NjEsMTU4MjYwNTAzMCwxOTQwNjY4MDQ3LC0x
-ODgzNTMzNzU3LC0xNTgyMDI3NywtMTUxMjQyMTYzNiwtMTIzNj
-Q5NzcxMyw3OTc0MzA3MTcsLTEwNzA1OTMwMzAsLTUzMDA0MTMz
-MCwxOTg0MzEzMDcxXX0=
+eyJoaXN0b3J5IjpbLTcyODE2MjY0MywtMTY2Mzk2NTM0MCwtMj
+g1NTg1OTcxLC02NDQ5MTgwMjMsMTk0NzAyMzQyOSwtMTk3MTk0
+MDYzMywxMDY4MTE3MjM2LC0xMDA3MjU0NTE0LC0xNzg5MTAwMz
+gxLDUxMTc1ODc2MSwxNTgyNjA1MDMwLDE5NDA2NjgwNDcsLTE4
+ODM1MzM3NTcsLTE1ODIwMjc3LC0xNTEyNDIxNjM2LC0xMjM2ND
+k3NzEzLDc5NzQzMDcxNywtMTA3MDU5MzAzMCwtNTMwMDQxMzMw
+LDE5ODQzMTMwNzFdfQ==
 -->

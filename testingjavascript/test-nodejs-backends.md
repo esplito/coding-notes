@@ -1025,14 +1025,19 @@ In this part we'll start doing some tests where we always hit an endpoint that r
 
 >For this exercise you’ll need to use an authenticated test with a test user that’s already in the database. Then you can use that test user for each of the operations you do on the list item resource (Create, React, Update, Delete). - Kent C. Dodds
 
+Marty the money bag 💰 has been kind enough to give us this setup function to get a test user and a pre-configured axios client:
+
+```js
+
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxMTk2NjY2LC0xMjY5OTI1MzE2LC03Mj
-gxNjI2NDMsLTE2NjM5NjUzNDAsLTI4NTU4NTk3MSwtNjQ0OTE4
-MDIzLDE5NDcwMjM0MjksLTE5NzE5NDA2MzMsMTA2ODExNzIzNi
-wtMTAwNzI1NDUxNCwtMTc4OTEwMDM4MSw1MTE3NTg3NjEsMTU4
-MjYwNTAzMCwxOTQwNjY4MDQ3LC0xODgzNTMzNzU3LC0xNTgyMD
-I3NywtMTUxMjQyMTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3MTcs
-LTEwNzA1OTMwMzBdfQ==
+eyJoaXN0b3J5IjpbLTE5OTk1NjI5ODMsNDgxMTk2NjY2LC0xMj
+Y5OTI1MzE2LC03MjgxNjI2NDMsLTE2NjM5NjUzNDAsLTI4NTU4
+NTk3MSwtNjQ0OTE4MDIzLDE5NDcwMjM0MjksLTE5NzE5NDA2Mz
+MsMTA2ODExNzIzNiwtMTAwNzI1NDUxNCwtMTc4OTEwMDM4MSw1
+MTE3NTg3NjEsMTU4MjYwNTAzMCwxOTQwNjY4MDQ3LC0xODgzNT
+MzNzU3LC0xNTgyMDI3NywtMTUxMjQyMTYzNiwtMTIzNjQ5Nzcx
+Myw3OTc0MzA3MTddfQ==
 -->

@@ -946,12 +946,15 @@ We import a util function called `resolve` to be able to resolve the "register"-
 // 💯 Interact directly with the database
 test('should return error message if trying to register a user with an already existing username', async () => {
   // circumvene the api and insert a user in the db
-  const userData = generate.loginForm()
-  await dbInsert(userData)
+  const username = generate.username()
+  await usersDB.insert(generate.buildUser({username}))
   // try to register a user through the api with the same username
-  // assert error message with toMatchInlineSnapshot
+  const password = generate.password()
 
-  const error = await api.post('/auth/register', userData).catch(resolve)
+  const error = await api
+    .post('/auth/register', {username, password})
+    .catch(resolve)
+  // assert error message with toMatchInlineSnapshot
   expect(error.message).toMatchInlineSnapshot(
     `"400: {\\"message\\":\\"username taken\\"}"`,
   )
@@ -960,11 +963,11 @@ test('should return error message if trying to register a user with an already e
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODE2MjY0MywtMTY2Mzk2NTM0MCwtMj
-g1NTg1OTcxLC02NDQ5MTgwMjMsMTk0NzAyMzQyOSwtMTk3MTk0
-MDYzMywxMDY4MTE3MjM2LC0xMDA3MjU0NTE0LC0xNzg5MTAwMz
-gxLDUxMTc1ODc2MSwxNTgyNjA1MDMwLDE5NDA2NjgwNDcsLTE4
-ODM1MzM3NTcsLTE1ODIwMjc3LC0xNTEyNDIxNjM2LC0xMjM2ND
-k3NzEzLDc5NzQzMDcxNywtMTA3MDU5MzAzMCwtNTMwMDQxMzMw
-LDE5ODQzMTMwNzFdfQ==
+eyJoaXN0b3J5IjpbMjA1MjM0NzY1NywtNzI4MTYyNjQzLC0xNj
+YzOTY1MzQwLC0yODU1ODU5NzEsLTY0NDkxODAyMywxOTQ3MDIz
+NDI5LC0xOTcxOTQwNjMzLDEwNjgxMTcyMzYsLTEwMDcyNTQ1MT
+QsLTE3ODkxMDAzODEsNTExNzU4NzYxLDE1ODI2MDUwMzAsMTk0
+MDY2ODA0NywtMTg4MzUzMzc1NywtMTU4MjAyNzcsLTE1MTI0Mj
+E2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC0xMDcwNTkzMDMw
+LC01MzAwNDEzMzBdfQ==
 -->

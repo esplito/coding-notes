@@ -960,14 +960,18 @@ test('should return error message if trying to register a user with an already e
   )
 })
 ```
+#### 💯 Test all the edge cases
+> If we take a look at the `auth-controller` and `res.status` calls, we're going to get a whole bunch of places where there are different edge cases that we might want to cover, like if the `username` can't be blank or the `password` can't be blank or the `password` is not strong enough. We've got a bunch of cases that we can cover here. - Kent C. Dodds
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjM0NzY1NywtNzI4MTYyNjQzLC0xNj
-YzOTY1MzQwLC0yODU1ODU5NzEsLTY0NDkxODAyMywxOTQ3MDIz
-NDI5LC0xOTcxOTQwNjMzLDEwNjgxMTcyMzYsLTEwMDcyNTQ1MT
-QsLTE3ODkxMDAzODEsNTExNzU4NzYxLDE1ODI2MDUwMzAsMTk0
-MDY2ODA0NywtMTg4MzUzMzc1NywtMTU4MjAyNzcsLTE1MTI0Mj
-E2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3LC0xMDcwNTkzMDMw
-LC01MzAwNDEzMzBdfQ==
+eyJoaXN0b3J5IjpbLTEyNjk5MjUzMTYsLTcyODE2MjY0MywtMT
+Y2Mzk2NTM0MCwtMjg1NTg1OTcxLC02NDQ5MTgwMjMsMTk0NzAy
+MzQyOSwtMTk3MTk0MDYzMywxMDY4MTE3MjM2LC0xMDA3MjU0NT
+E0LC0xNzg5MTAwMzgxLDUxMTc1ODc2MSwxNTgyNjA1MDMwLDE5
+NDA2NjgwNDcsLTE4ODM1MzM3NTcsLTE1ODIwMjc3LC0xNTEyND
+IxNjM2LC0xMjM2NDk3NzEzLDc5NzQzMDcxNywtMTA3MDU5MzAz
+MCwtNTMwMDQxMzMwXX0=
 -->

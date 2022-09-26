@@ -1028,16 +1028,25 @@ In this part we'll start doing some tests where we always hit an endpoint that r
 Marty the money bag 💰 has been kind enough to give us this setup function to get a test user and a pre-configured axios client:
 
 ```js
-
+async function setup() {
+  // 💰 this bit isn't as important as the rest of what you'll be learning today
+  // so I'm going to give it to you, but don't just skip over it. Try to figure
+  // out what's going on here.
+  const testUser = await insertTestUser()
+  const authAPI = axios.create({baseURL})
+  authAPI.defaults.headers.common.authorization = `Bearer ${testUser.token}`
+  authAPI.interceptors.response.use(getData, handleRequestFailure)
+  return {testUser, authAPI}
+}
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk1NjI5ODMsNDgxMTk2NjY2LC0xMj
-Y5OTI1MzE2LC03MjgxNjI2NDMsLTE2NjM5NjUzNDAsLTI4NTU4
-NTk3MSwtNjQ0OTE4MDIzLDE5NDcwMjM0MjksLTE5NzE5NDA2Mz
-MsMTA2ODExNzIzNiwtMTAwNzI1NDUxNCwtMTc4OTEwMDM4MSw1
-MTE3NTg3NjEsMTU4MjYwNTAzMCwxOTQwNjY4MDQ3LC0xODgzNT
-MzNzU3LC0xNTgyMDI3NywtMTUxMjQyMTYzNiwtMTIzNjQ5Nzcx
-Myw3OTc0MzA3MTddfQ==
+eyJoaXN0b3J5IjpbMzk4MTYxNzM0LDQ4MTE5NjY2NiwtMTI2OT
+kyNTMxNiwtNzI4MTYyNjQzLC0xNjYzOTY1MzQwLC0yODU1ODU5
+NzEsLTY0NDkxODAyMywxOTQ3MDIzNDI5LC0xOTcxOTQwNjMzLD
+EwNjgxMTcyMzYsLTEwMDcyNTQ1MTQsLTE3ODkxMDAzODEsNTEx
+NzU4NzYxLDE1ODI2MDUwMzAsMTk0MDY2ODA0NywtMTg4MzUzMz
+c1NywtMTU4MjAyNzcsLTE1MTI0MjE2MzYsLTEyMzY0OTc3MTMs
+Nzk3NDMwNzE3XX0=
 -->

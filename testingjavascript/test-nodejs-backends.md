@@ -1021,15 +1021,18 @@ test('user must exist to login', async () => {
 >In review, for all of these edge cases, again, this is typically not the place you're going to be doing your edge case testing, but sometimes it can be useful. As you can see here, it's actually easy to do these kinds of edge case tests because, while making correct requests may be a bit of a challenge, it's pretty easy to make incorrect requests. - Kent C. Dodds
 
 ## Test CRUD API Routes Overview
-In this part we'll start doing some authenticated tests and Kent has created a  [markdown file with instructions](https://github.com/kentcdodds/testing-node-apps/blob/tjs/src/__tests__/list-items.md).
+In this part we'll start doing some tests where we always hit an endpoint that requires authentication and Kent has created a  [markdown file with instructions](https://github.com/kentcdodds/testing-node-apps/blob/tjs/src/__tests__/list-items.md).
+
+>For this exercise you’ll need to use an authenticated test with a test user that’s already in the database. Then you can use that test user for each of the operations you do on the list item resource (Create, React, Update, Delete). - Kent C. Dodds
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDg0NDYxNiwtMTI2OTkyNTMxNiwtNz
-I4MTYyNjQzLC0xNjYzOTY1MzQwLC0yODU1ODU5NzEsLTY0NDkx
-ODAyMywxOTQ3MDIzNDI5LC0xOTcxOTQwNjMzLDEwNjgxMTcyMz
-YsLTEwMDcyNTQ1MTQsLTE3ODkxMDAzODEsNTExNzU4NzYxLDE1
-ODI2MDUwMzAsMTk0MDY2ODA0NywtMTg4MzUzMzc1NywtMTU4Mj
-AyNzcsLTE1MTI0MjE2MzYsLTEyMzY0OTc3MTMsNzk3NDMwNzE3
-LC0xMDcwNTkzMDMwXX0=
+eyJoaXN0b3J5IjpbNDgxMTk2NjY2LC0xMjY5OTI1MzE2LC03Mj
+gxNjI2NDMsLTE2NjM5NjUzNDAsLTI4NTU4NTk3MSwtNjQ0OTE4
+MDIzLDE5NDcwMjM0MjksLTE5NzE5NDA2MzMsMTA2ODExNzIzNi
+wtMTAwNzI1NDUxNCwtMTc4OTEwMDM4MSw1MTE3NTg3NjEsMTU4
+MjYwNTAzMCwxOTQwNjY4MDQ3LC0xODgzNTMzNzU3LC0xNTgyMD
+I3NywtMTUxMjQyMTYzNiwtMTIzNjQ5NzcxMyw3OTc0MzA3MTcs
+LTEwNzA1OTMwMzBdfQ==
 -->

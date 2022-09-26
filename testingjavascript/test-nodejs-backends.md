@@ -1042,16 +1042,71 @@ async function setup() {
 ### Write an Integration Test for a Resource Create Endpoint 
 
 ```js
+test('listItem CRUD', async () => {
+  const {testUser, authAPI} = await setup()
 
+  // 🐨 create a book object and insert it into the database
+  // 💰 use generate.buildBook and await booksDB.insert
+  const book = generate.buildBook()
+  await booksDB.insert(book)
+
+  // CREATE
+  // 🐨 create a new list-item by posting to the list-items endpoint with a bookId
+  // 💰 the data you send should be: {bookId: book.id}
+  const cResult = await authAPI.post('/list-items/', {bookId: book.id})
+
+  // 🐨 assert that the data you get back is correct
+  // 💰 it should have an ownerId (testUser.id) and a bookId (book.id)
+  // 💰 if you don't want to assert on all the other properties, you can use
+  // toMatchObject: https://jestjs.io/docs/en/expect#tomatchobjectobject
+  expect(cResult.listItem).toMatchObject({
+    ownerId: testUser.id,
+    bookId: book.id,
+  })
+
+  // 💰 you might find this useful for the future requests:
+  const listItemId = cResult.listItem.id
+  const listItemIdUrl = `list-items/${listItemId}`
+
+  // READ
+  // 🐨 make a GET to the `listItemIdUrl`
+  const rResult = await authAPI.get(listItemIdUrl)
+  // 🐨 assert that this returns the same thing you got when you created the list item
+  expect(rResult.listItem).toEqual(cResult.listItem)
+  // UPDATE
+  // 🐨 make a PUT request to the `listItemIdUrl` with some updates
+  const updates = {notes: generate.notes()}
+  const pResult = await authAPI.put(listItemIdUrl, updates)
+  // 🐨 assert that this returns the right stuff (should be the same as the READ except with the updated notes)
+  expect(pResult.listItem).toMatchObject({
+    ...rResult.listItem,
+    notes: updates.notes,
+  })
+
+  // DELETE
+  // 🐨 make a DELETE request to the `listItemIdUrl`
+  const dResult = await authAPI.delete(listItemIdUrl)
+  // 🐨 assert that this returns the right stuff (💰 {success: true})
+  expect(dResult).toEqual({success: true})
+
+  // 🐨 try to make a GET request to the `listItemIdUrl` again.
+  // 💰 this promise should reject. You can do a try/catch if you want, or you
+  // can use the `resolve` utility from utils/async:
+  const error = await authAPI.get(listItemIdUrl).catch(resolve)
+  // 🐨 assert that the status is 404 and the error.data is correct
+  expect(error).toMatchInlineSnapshot(
+    `[Error: 404: {"message":"No list item was found with the id of a21c39c4-0bf3-472f-b1a4-59276277c79b"}]`,
+  )
+})
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDM0NjU1MjksMzk4MTYxNzM0LDQ4MT
-E5NjY2NiwtMTI2OTkyNTMxNiwtNzI4MTYyNjQzLC0xNjYzOTY1
-MzQwLC0yODU1ODU5NzEsLTY0NDkxODAyMywxOTQ3MDIzNDI5LC
-0xOTcxOTQwNjMzLDEwNjgxMTcyMzYsLTEwMDcyNTQ1MTQsLTE3
-ODkxMDAzODEsNTExNzU4NzYxLDE1ODI2MDUwMzAsMTk0MDY2OD
-A0NywtMTg4MzUzMzc1NywtMTU4MjAyNzcsLTE1MTI0MjE2MzYs
-LTEyMzY0OTc3MTNdfQ==
+eyJoaXN0b3J5IjpbNzQ2MzQ3MiwzOTgxNjE3MzQsNDgxMTk2Nj
+Y2LC0xMjY5OTI1MzE2LC03MjgxNjI2NDMsLTE2NjM5NjUzNDAs
+LTI4NTU4NTk3MSwtNjQ0OTE4MDIzLDE5NDcwMjM0MjksLTE5Nz
+E5NDA2MzMsMTA2ODExNzIzNiwtMTAwNzI1NDUxNCwtMTc4OTEw
+MDM4MSw1MTE3NTg3NjEsMTU4MjYwNTAzMCwxOTQwNjY4MDQ3LC
+0xODgzNTMzNzU3LC0xNTgyMDI3NywtMTUxMjQyMTYzNiwtMTIz
+NjQ5NzcxM119
 -->

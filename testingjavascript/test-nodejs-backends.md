@@ -1021,9 +1021,11 @@ test('user must exist to login', async () => {
 >In review, for all of these edge cases, again, this is typically not the place you're going to be doing your edge case testing, but sometimes it can be useful. As you can see here, it's actually easy to do these kinds of edge case tests because, while making correct requests may be a bit of a challenge, it's pretty easy to make incorrect requests. - Kent C. Dodds
 
 ## Test CRUD API Routes Overview
+In this part we'll start doing some authenticated tests and Kent has created a  [markdown file with instructions](https://github.com/kentcdodds/testing-node-apps/blob/tjs/src/__tests__/list-items.md).
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDA0MzIwNywtMTI2OTkyNTMxNiwtNz
+eyJoaXN0b3J5IjpbMTUyMDg0NDYxNiwtMTI2OTkyNTMxNiwtNz
 I4MTYyNjQzLC0xNjYzOTY1MzQwLC0yODU1ODU5NzEsLTY0NDkx
 ODAyMywxOTQ3MDIzNDI5LC0xOTcxOTQwNjMzLDEwNjgxMTcyMz
 YsLTEwMDcyNTQ1MTQsLTE3ODkxMDAzODEsNTExNzU4NzYxLDE1

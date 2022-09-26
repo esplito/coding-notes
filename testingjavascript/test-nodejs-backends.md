@@ -1039,7 +1039,7 @@ async function setup() {
   return {testUser, authAPI}
 }
 ```
-### Write an Integration Test for a Resource Create Endpoint 
+### Write Integration Tests for Resource Create, Read, Update & Delete Endpoint 
 
 ```js
 test('listItem CRUD', async () => {
@@ -1094,19 +1094,20 @@ test('listItem CRUD', async () => {
   // can use the `resolve` utility from utils/async:
   const error = await authAPI.get(listItemIdUrl).catch(resolve)
   // 🐨 assert that the status is 404 and the error.data is correct
-  expect(error).toMatchInlineSnapshot(
-    `[Error: 404: {"message":"No list item was found with the id of a21c39c4-0bf3-472f-b1a4-59276277c79b"}]`,
-  )
+  expect(error.status).toBe(404)
+  expect(error.data).toEqual({
+    message: `No list item was found with the id of ${listItemId}`,
+  })
 })
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2MzQ3MiwzOTgxNjE3MzQsNDgxMTk2Nj
-Y2LC0xMjY5OTI1MzE2LC03MjgxNjI2NDMsLTE2NjM5NjUzNDAs
-LTI4NTU4NTk3MSwtNjQ0OTE4MDIzLDE5NDcwMjM0MjksLTE5Nz
-E5NDA2MzMsMTA2ODExNzIzNiwtMTAwNzI1NDUxNCwtMTc4OTEw
-MDM4MSw1MTE3NTg3NjEsMTU4MjYwNTAzMCwxOTQwNjY4MDQ3LC
-0xODgzNTMzNzU3LC0xNTgyMDI3NywtMTUxMjQyMTYzNiwtMTIz
-NjQ5NzcxM119
+eyJoaXN0b3J5IjpbLTQ0NTcxMTYzMCw3NDYzNDcyLDM5ODE2MT
+czNCw0ODExOTY2NjYsLTEyNjk5MjUzMTYsLTcyODE2MjY0Mywt
+MTY2Mzk2NTM0MCwtMjg1NTg1OTcxLC02NDQ5MTgwMjMsMTk0Nz
+AyMzQyOSwtMTk3MTk0MDYzMywxMDY4MTE3MjM2LC0xMDA3MjU0
+NTE0LC0xNzg5MTAwMzgxLDUxMTc1ODc2MSwxNTgyNjA1MDMwLD
+E5NDA2NjgwNDcsLTE4ODM1MzM3NTcsLTE1ODIwMjc3LC0xNTEy
+NDIxNjM2XX0=
 -->

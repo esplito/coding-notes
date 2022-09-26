@@ -963,12 +963,67 @@ test('should return error message if trying to register a user with an already e
 #### 💯 Test all the edge cases
 > If we take a look at the `auth-controller` and `res.status` calls, we're going to get a whole bunch of places where there are different edge cases that we might want to cover, like if the `username` can't be blank or the `password` can't be blank or the `password` is not strong enough. We've got a bunch of cases that we can cover here. - Kent C. Dodds
 
+```js
+// 💯 Test all the edge cases
+test('GET me unauthenticated returns error', async () => {
+  const error = await api.get('/auth/me').catch(resolve)
+  expect(error).toMatchInlineSnapshot(
+    `[Error: 401: {"code":"credentials_required","message":"No authorization token was found"}]`,
+  )
+})
 
+test('username required to register', async () => {
+  const error = await api
+    .post('/auth/register', {password: generate.password()})
+    .catch(resolve)
+  expect(error).toMatchInlineSnapshot(
+    `[Error: 400: {"message":"username can't be blank"}]`,
+  )
+})
+
+test('password required to register', async () => {
+  const error = await api
+    .post('/auth/register', {username: generate.username()})
+    .catch(resolve)
+  expect(error).toMatchInlineSnapshot(
+    `[Error: 400: {"message":"password can't be blank"}]`,
+  )
+})
+
+test('username required to login', async () => {
+  const error = await api
+    .post('/auth/login', {password: generate.password()})
+    .catch(resolve)
+  expect(error).toMatchInlineSnapshot(
+    `[Error: 400: {"message":"username can't be blank"}]`,
+  )
+})
+
+test('password required to login', async () => {
+  const error = await api
+    .post('/auth/login', {username: generate.username()})
+    .catch(resolve)
+  expect(error).toMatchInlineSnapshot(
+    `[Error: 400: {"message":"password can't be blank"}]`,
+  )
+})
+
+test('user must exist to login', async () => {
+  const error = await api
+    .post('/auth/login', generate.loginForm({username: '__will_never_exist__'}))
+    .catch(resolve)
+  expect(error).toMatchInlineSnapshot(
+    `[Error: 400: {"message":"username or password is invalid"}]`,
+  )
+})
+```
+
+>In review, for all of these edge cases, again, this is typically not the place you're going to be doing your edge case testing, but sometimes it can be useful. As you can see here, it's actually easy to do these kinds of edge case tests because, while making correct requests may be a bit of a challenge, it's pretty easy to make incorrect requests. - Kent C. Dodds
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzg4MjUxOCwtMTI2OTkyNTMxNiwtNz
+eyJoaXN0b3J5IjpbMTI4MDk2MzM1NiwtMTI2OTkyNTMxNiwtNz
 I4MTYyNjQzLC0xNjYzOTY1MzQwLC0yODU1ODU5NzEsLTY0NDkx
 ODAyMywxOTQ3MDIzNDI5LC0xOTcxOTQwNjMzLDEwNjgxMTcyMz
 YsLTEwMDcyNTQ1MTQsLTE3ODkxMDAzODEsNTExNzU4NzYxLDE1

@@ -940,14 +940,30 @@ beforeAll(async () => {
 
 #### 💯  Interact directly with the database
 
+We import a function called `resolve` that Kent uses so 
+```js
+// 💯 Interact directly with the database
+test('should return error message if trying to register a user with an already existing username', async () => {
+  // circumvene the api and insert a user in the db
+  const userData = generate.loginForm()
+  await dbInsert(userData)
+  // try to register a user through the api with the same username
+  // assert error message with toMatchInlineSnapshot
+
+  const error = await api.post('/auth/register', userData).catch(resolve)
+  expect(error.message).toMatchInlineSnapshot(
+    `"400: {\\"message\\":\\"username taken\\"}"`,
+  )
+})
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM5NjUzNDAsLTI4NTU4NTk3MSwtNj
-Q0OTE4MDIzLDE5NDcwMjM0MjksLTE5NzE5NDA2MzMsMTA2ODEx
-NzIzNiwtMTAwNzI1NDUxNCwtMTc4OTEwMDM4MSw1MTE3NTg3Nj
-EsMTU4MjYwNTAzMCwxOTQwNjY4MDQ3LC0xODgzNTMzNzU3LC0x
-NTgyMDI3NywtMTUxMjQyMTYzNiwtMTIzNjQ5NzcxMyw3OTc0Mz
-A3MTcsLTEwNzA1OTMwMzAsLTUzMDA0MTMzMCwxOTg0MzEzMDcx
-LDE4OTY3MTYzODldfQ==
+eyJoaXN0b3J5IjpbMjAwODQwMTkzOSwtMTY2Mzk2NTM0MCwtMj
+g1NTg1OTcxLC02NDQ5MTgwMjMsMTk0NzAyMzQyOSwtMTk3MTk0
+MDYzMywxMDY4MTE3MjM2LC0xMDA3MjU0NTE0LC0xNzg5MTAwMz
+gxLDUxMTc1ODc2MSwxNTgyNjA1MDMwLDE5NDA2NjgwNDcsLTE4
+ODM1MzM3NTcsLTE1ODIwMjc3LC0xNTEyNDIxNjM2LC0xMjM2ND
+k3NzEzLDc5NzQzMDcxNywtMTA3MDU5MzAzMCwtNTMwMDQxMzMw
+LDE5ODQzMTMwNzFdfQ==
 -->

@@ -168,8 +168,10 @@ Don't assume that everyone knows what these terms mean.
 				- There's different switch interfaces you can enable.
 			- sip & puff = control your computer with a joystick that you control with your mouth.
 				- etc.
-- Client Rendering
-- Native Mobile
+- **Client Rendering**
+	- Can impact accessibility.
+		- Example: Navigation → Client-side routing
+- **Native Mobile**
 - Hybrid Apps
 - Electron
 - Progressive Web Apps
@@ -181,6 +183,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzNzY0MjA4LC0xMDgzMDM1ODAyLDEyNj
-AxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbLTM5ODM4Mzc0NywtMTA4MzAzNTgwMiwxMj
+YwMTY5MzgzXX0=
 -->

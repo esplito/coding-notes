@@ -185,6 +185,14 @@ Don't assume that everyone knows what these terms mean.
 	- Example apps: Slack, VS Code, Microsoft Teams
 - **Progressive Web Apps**
 
+### Standards & Miscellaneous definitions
+
+- **W3C**
+	- World Wide Web Consortium → develops and maintains web guidelines & protocols.
+	- Standards
+		- HTML
+		- CSS
+		- 
 
 
 ## Useful resources
@@ -192,6 +200,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDE0MDkyMzQsLTEwODMwMzU4MDIsMT
+eyJoaXN0b3J5IjpbLTE0NzY5ODkwMjcsLTEwODMwMzU4MDIsMT
 I2MDE2OTM4M119
 -->

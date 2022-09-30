@@ -99,11 +99,16 @@ You can make use of these numbers if stakeholders are more likely to listen to �
 
 ### Accessibility: The Legal Situation
 
+There are different laws protecting digital civil rights, depending on where your team is located.
+
+**USA 🇺🇸**
+
+
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjY5OTc2OSwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbMTU4Mzk5MTEwMSwxMjYwMTY5MzgzXX0=
 -->

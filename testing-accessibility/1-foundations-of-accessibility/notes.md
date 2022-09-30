@@ -176,6 +176,8 @@ Don't assume that everyone knows what these terms mean.
 	- WCAG applies to Native Mobile.
 		- WCAG is very web-focused so it can be confusing trying to apply it to native mobile apps.
 - **Hybrid Apps**
+	- Compiles to a native application, but is built with web technologies.
+	- Examples: Ionic, React Native, Apache Cordova (formerly known as PhoneGap), NativeScript.
 - **Electron**
 - **Progressive Web Apps**
 
@@ -186,6 +188,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0Mjc5MTYsLTEwODMwMzU4MDIsMTI2MD
-E2OTM4M119
+eyJoaXN0b3J5IjpbLTkwNTAyOTQxNSwtMTA4MzAzNTgwMiwxMj
+YwMTY5MzgzXX0=
 -->

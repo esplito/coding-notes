@@ -105,6 +105,7 @@ There are different laws protecting digital civil rights, depending on where you
 - Americans with Disabilities Act (ADA)
 - Air Carrier Access Act (ACAA)
 - Communications and Video Accessibility Act (CVAA)
+- Section 508
 
 > Section 508 of the Rehabilitation Act in the United States requires that any software created or procured by the government is accessible. - Marcy Sutton
 
@@ -128,5 +129,5 @@ Marcy also recommends to follow Lainey Feingold for more about the legal situati
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4NzYzMDgxLDEyNjAxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbLTEwODMwMzU4MDIsMTI2MDE2OTM4M119
 -->

@@ -187,12 +187,19 @@ Don't assume that everyone knows what these terms mean.
 
 ### Standards & Miscellaneous definitions
 
-- **W3C**
-	- World Wide Web Consortium → develops and maintains web guidelines & protocols.
+- **W3C** - World Wide Web Consortium 
+	- Develops and maintains web guidelines & protocols.
 	- Standards
 		- HTML
 		- CSS
-		- 
+		- SVG
+		- WCAG
+		- XML
+		- HTTP
+		- and loads of APIs.
+- **WHATWG** - Web Hypertext Application Technology Working Group
+	- Another community working on similar things as W3C.
+	- Since 2019 → works together wi
 
 
 ## Useful resources
@@ -200,6 +207,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzY5ODkwMjcsLTEwODMwMzU4MDIsMT
-I2MDE2OTM4M119
+eyJoaXN0b3J5IjpbLTQyMTE5MTkzOSwtMTA4MzAzNTgwMiwxMj
+YwMTY5MzgzXX0=
 -->

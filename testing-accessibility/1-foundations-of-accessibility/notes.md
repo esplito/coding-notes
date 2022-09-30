@@ -72,10 +72,14 @@ Marcy's suggestion for more reading:
 
 ### Accessibility as a Moral Case
 > Doing it because it's the necessary and right thing to do
+
 No access = people with disabilities may not:
-- 
+1. Access your site
+2. Perform actions independently and securely
+3. Participate in society in a digital world
+4. Make valuable contributions in the workplace
 
-
+ 
 **Do you feel like you are swimming upstream when pushing for accessibility as the right thing to do?** 😫   
 Then it can be very helpful to appeal to the business case for accessibility. 📈
 
@@ -87,5 +91,5 @@ Marcy also refers to the [capitol crawl](https://www.history.com/news/americans-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjU4MDA4LDEyNjAxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbLTE5MzM5MzMyNTksMTI2MDE2OTM4M119
 -->

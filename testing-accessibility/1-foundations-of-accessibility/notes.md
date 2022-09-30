@@ -83,7 +83,9 @@ No access = people with disabilities may not:
 **Do you feel like you are swimming upstream when pushing for accessibility as the right thing to do?** 😫   
 Then it can be very helpful to appeal to the business case for accessibility. 📈
 
-Marcy also refers to the [capitol crawl](https://www.history.com/news/americans-with-disabilities-act-1990-capitol-crawl) in 1990 where people demonstrated and crawled up the steps of the U.S Capitol in DC to show how people with disabilities are impacted by lack of physical access in public spaces. (this lead to the legislation, "Americans with Disabilities Act", ADA)
+🏛 Marcy also refers to the [capitol crawl](https://www.history.com/news/americans-with-disabilities-act-1990-capitol-crawl) in 1990 where people demonstrated and crawled up the steps of the U.S Capitol in DC to show how people with disabilities are impacted by lack of physical access in public spaces. (this lead to the legislation, "Americans with Disabilities Act", ADA) 🏛
+
+S
 
 ### Accessibility as a Business Case
 
@@ -91,5 +93,5 @@ Marcy also refers to the [capitol crawl](https://www.history.com/news/americans-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzM5MzMyNTksMTI2MDE2OTM4M119
+eyJoaXN0b3J5IjpbLTI3OTk0MzYyOCwxMjYwMTY5MzgzXX0=
 -->

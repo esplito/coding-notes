@@ -145,6 +145,7 @@ Don't assume that everyone knows what these terms mean.
 	- You need JS for a lot things for accessibility
 - **DOM** - Document Object Model
 	- "... is the data representation of the objects that comprise the structure and content of a document on the web. HTML markup is turned into a DOM structure that CSS can style and JavaScript can manipulate."
+	
 - **SVG**
 	- XML-based markup language for describing 2D based vector graphics.
 
@@ -175,6 +176,7 @@ Don't assume that everyone knows what these terms mean.
 	- Apps built for native mobile devices, iOS, Android etc.
 	- WCAG applies to Native Mobile.
 		- WCAG is very web-focused so it can be confusing trying to apply it to native mobile apps.
+		
 - **Hybrid Apps**
 	- Compiles to a native application, but is built with web technologies.
 	- Examples: Ionic, React Native, Apache Cordova (formerly known as PhoneGap), NativeScript.
@@ -218,7 +220,7 @@ Don't assume that everyone knows what these terms mean.
 	- Example: WCAG 2.1
 - **Conformance**
 	- "Conformance to a standard means that you meet or satisfy the requirements of the standard. A.k.a 'compliance'. "
-	- 
+	
 - **Inclusive Design**
 	- "A design process that considers the full range of human diversity with respect to ability, language, culture, gender, age and other forms of human difference."
 	- Accessibility is a measure of how we implement this with guidelines and best practices.
@@ -229,6 +231,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA0NzU0MzQsLTEwODMwMzU4MDIsMT
-I2MDE2OTM4M119
+eyJoaXN0b3J5IjpbLTc3NTgwMjcyNSwtMTA4MzAzNTgwMiwxMj
+YwMTY5MzgzXX0=
 -->

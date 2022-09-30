@@ -157,7 +157,7 @@ Don't assume that everyone knows what these terms mean.
 	- The keyboard focus default styles in the browsers can differ for example. So you might need it for that.
 - **Assistive Technology (AT)** 
 	- "... refers to hardware and/or software that provides functionality to meet the requirement of users with disabilities that go beyond those offered by main stream user agents."
-	- Examples:
+	- **Examples:**
 		- Screen readers
 		- Braille displays (being able to read the output from a screen reader with your finger tips instead of your eyes)
 		- Magnifiers
@@ -166,8 +166,14 @@ Don't assume that everyone knows what these terms mean.
 		- Alternate keyboards
 			- switches = small number of keys (maybe 3) 
 				- There's different switch interfaces you can enable.
-			- sip & puff = control your computer with a joystick that yo
+			- sip & puff = control your computer with a joystick that you control with your mouth.
 				- etc.
+- Client Rendering
+- Native Mobile
+- Hybrid Apps
+- Electron
+- Progressive Web Apps
+
 
 
 ## Useful resources
@@ -175,6 +181,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5NDU1NzI4LC0xMDgzMDM1ODAyLDEyNj
+eyJoaXN0b3J5IjpbNTUzNzY0MjA4LC0xMDgzMDM1ODAyLDEyNj
 AxNjkzODNdfQ==
 -->

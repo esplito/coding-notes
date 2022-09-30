@@ -213,8 +213,11 @@ Don't assume that everyone knows what these terms mean.
 	- also called WAI-ARIA (from the Web Accessibility Initiative)
 	- Includes a standard set of roles, states and properties that provide accessibility information in web pages and apps. 
 	- Current version: **1.1**
-- Normative
-	- 
+- **Normative**
+	- "Official and approved wording in a specification; holds up in a court of law. In contrast to non-normative, or an informative aid that is often used in explanations or tutorials."
+	- Example: WCAG 2.1
+- **Conformance**
+	- "Conformance to a standard mean
 
 
 ## Useful resources
@@ -222,6 +225,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NjE0MzcwLC0xMDgzMDM1ODAyLDEyNj
-AxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbNTc2MzAzMjQsLTEwODMwMzU4MDIsMTI2MD
+E2OTM4M119
 -->

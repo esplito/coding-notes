@@ -178,7 +178,11 @@ Don't assume that everyone knows what these terms mean.
 - **Hybrid Apps**
 	- Compiles to a native application, but is built with web technologies.
 	- Examples: Ionic, React Native, Apache Cordova (formerly known as PhoneGap), NativeScript.
+	
+(Side note: I've actually built apps with PhoneGap a few years ago 😅😅)
 - **Electron**
+	- Build desktop applications using web technologies
+	- Example apps: Slack, VS Code, Microsoft Teams
 - **Progressive Web Apps**
 
 
@@ -188,6 +192,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTAyOTQxNSwtMTA4MzAzNTgwMiwxMj
-YwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbLTIwNDE0MDkyMzQsLTEwODMwMzU4MDIsMT
+I2MDE2OTM4M119
 -->

@@ -172,9 +172,12 @@ Don't assume that everyone knows what these terms mean.
 	- Can impact accessibility.
 		- Example: Navigation → Client-side routing
 - **Native Mobile**
-- Hybrid Apps
-- Electron
-- Progressive Web Apps
+	- Apps built for native mobile devices, iOS, Android etc.
+	- WCAG applies to Native Mobile.
+		- WCAG is very web-focused so it can be confusing trying to apply it to native mobile apps.
+- **Hybrid Apps**
+- **Electron**
+- **Progressive Web Apps**
 
 
 
@@ -183,6 +186,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODM4Mzc0NywtMTA4MzAzNTgwMiwxMj
-YwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbMzk0Mjc5MTYsLTEwODMwMzU4MDIsMTI2MD
+E2OTM4M119
 -->

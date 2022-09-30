@@ -95,6 +95,8 @@ The following stats are mentioned and they are mostly focused on the US, but als
 > - The disposable income for working-age people with disabilities is **$645 billion**, and is comparable to other market segments like African Americans and Hispanic people.
 > - There were **4055** ADA-related lawsuits filed against businesses in the United States in 2021 - 15% increase from 2020.
 
+You can make use of these numbers if stakeholders are more likely to listen to 💰💸🤑
+
 ### Accessibility: The Legal Situation
 
 
@@ -103,5 +105,5 @@ The following stats are mentioned and they are mostly focused on the US, but als
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDM2ODc1MTYsMTI2MDE2OTM4M119
+eyJoaXN0b3J5IjpbLTY5MjY5OTc2OSwxMjYwMTY5MzgzXX0=
 -->

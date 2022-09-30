@@ -89,7 +89,9 @@ Similarly, if accessibility isn't prioritized within the digital space, then the
 
 ### Accessibility as a Business Case
 
-The following stats are mentioned that are mostly focused on the US and the whole world
+The following stats are mentioned and they are mostly focused on the US:
+> - At least **one billion people**
+>
 
 ### Accessibility: The Legal Situation
 
@@ -99,5 +101,5 @@ The following stats are mentioned that are mostly focused on the US and the whol
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODIwNTE4MiwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbMTYyNDg0OTA3MiwxMjYwMTY5MzgzXX0=
 -->

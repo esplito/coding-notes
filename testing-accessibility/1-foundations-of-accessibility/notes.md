@@ -156,7 +156,12 @@ Don't assume that everyone knows what these terms mean.
 	- Nowadays we a lot more feature-based identifiers supported in CSS (like prefers-reduced-motion etc.) so we don't need to check the User agent as much.
 	- The keyboard focus default styles in the browsers can differ for example. So you might need it for that.
 - Assistive Technology (AT) 
-	- "... refers to 
+	- "... refers to hardware and/or software that provides functionality to meet the requirement of users with disabilities that go beyond those offered by main stream user agents."
+	- Examples:
+		- Screen readers
+		- Braille displays
+		- Magnifiers
+		- Text-to
 
 
 ## Useful resources
@@ -164,6 +169,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1NTQzMzYxLC0xMDgzMDM1ODAyLDEyNj
-AxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbMTQ0MDgxNTU4NywtMTA4MzAzNTgwMiwxMj
+YwMTY5MzgzXX0=
 -->

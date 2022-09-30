@@ -217,7 +217,9 @@ Don't assume that everyone knows what these terms mean.
 	- "Official and approved wording in a specification; holds up in a court of law. In contrast to non-normative, or an informative aid that is often used in explanations or tutorials."
 	- Example: WCAG 2.1
 - **Conformance**
-	- "Conformance to a standard mean
+	- "Conformance to a standard means that you meet or satisfy the requirements of the standard. A.k.a 'compliance'. "
+- Inclusive Design
+	- "A design process that considers the full range of human diversity with respect to ability, language, culture, gender, age and other forms of human difference."
 
 
 ## Useful resources
@@ -225,6 +227,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2MzAzMjQsLTEwODMwMzU4MDIsMTI2MD
-E2OTM4M119
+eyJoaXN0b3J5IjpbLTI5NDI4MTk5MSwtMTA4MzAzNTgwMiwxMj
+YwMTY5MzgzXX0=
 -->

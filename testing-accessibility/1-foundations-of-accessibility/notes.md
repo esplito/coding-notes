@@ -4,7 +4,7 @@
 - [Lesson 1 - What is Digital Accessibility?](#lesson-1---what-is-digital-accessibility)
 - [Lesson 2 - Why is Accessibility important?](#lesson-2---why-is-accessibility-important)
 - [Lesson 3 - Language & Definitions of Accessibility](#lesson-3---language--definitions-of-accessibility)
-- [Lesson 4 - What Makes a Website Accessible?](#)
+- [Lesson 4 - What Makes a Website Accessible?](#lesson-4---what-makes-a-website-accessible)
 - [Useful resources](#useful-resources)
 
 ## Lesson 1 - What is Digital Accessibility?
@@ -237,6 +237,6 @@ TODO.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0ODQyMjY0LC0xMDgzMDM1ODAyLDEyNj
-AxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbMjg1NTI2NDAxLDMyNDg0MjI2NCwtMTA4Mz
+AzNTgwMiwxMjYwMTY5MzgzXX0=
 -->

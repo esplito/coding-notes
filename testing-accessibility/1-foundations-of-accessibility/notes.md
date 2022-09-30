@@ -210,7 +210,11 @@ Don't assume that everyone knows what these terms mean.
 	- Current version: **2.1** (2.2 due out late 2022)
 	- A complete rethink of WCAG called "Silver" (or version 3.0) will also come at some point.
 - **ARIA** - Accessible Rich Internet Applications
-- 
+	- also called WAI-ARIA (from the Web Accessibility Initiative)
+	- Includes a standard set of roles, states and properties that provide accessibility information in web pages and apps. 
+	- Current version: **1.1**
+- Normative
+	- 
 
 
 ## Useful resources
@@ -218,6 +222,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDIwNDc5MjAsLTEwODMwMzU4MDIsMT
-I2MDE2OTM4M119
+eyJoaXN0b3J5IjpbMTY3NjE0MzcwLC0xMDgzMDM1ODAyLDEyNj
+AxNjkzODNdfQ==
 -->

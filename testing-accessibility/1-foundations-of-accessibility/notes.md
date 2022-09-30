@@ -119,12 +119,14 @@ There are different laws protecting digital civil rights, depending on where you
 - Web Accessibility Directive
 	- Affects the public sector such as governments
 - European Accessibility Act
-	- Will include the private sector. → Implementation phase in member countries wil run at lea 
+	- **Will include the private sector.** → Implementation phase in member countries will run at least through **2025**. 
+
+Marcy also recommends to follow Lainey Feingold for more about the legal situation of accessibility.
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjQxODU1MiwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbOTQ4NzYzMDgxLDEyNjAxNjkzODNdfQ==
 -->

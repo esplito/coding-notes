@@ -127,13 +127,14 @@ Marcy also recommends to follow Lainey Feingold for more about the legal situati
 
 ## Lesson 3 - Language & Definitions of Accessibility
 
-
+Marcy highlights the importance of having a similar set of definitions for terms and acronyms that you encounter when working with accessibility. They fall into three categories:
+1. Technologies 
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDg1MTg4NzAsLTEwODMwMzU4MDIsMT
-I2MDE2OTM4M119
+eyJoaXN0b3J5IjpbMjA1MjgwNjIyMiwtMTA4MzAzNTgwMiwxMj
+YwMTY5MzgzXX0=
 -->

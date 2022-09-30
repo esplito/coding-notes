@@ -73,6 +73,7 @@ Marcy's suggestion for more reading:
 ### Accessibility as a Moral Case
 > Doing it because it's the necessary and right thing to do
 
+If you feel like you are swimming upstream when pushing for accessibility as the right th
 
 ### Accessibility as a Business Case
 
@@ -80,5 +81,5 @@ Marcy's suggestion for more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzEwMzA5NywxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbNTQ5MDQwMTIzLDEyNjAxNjkzODNdfQ==
 -->

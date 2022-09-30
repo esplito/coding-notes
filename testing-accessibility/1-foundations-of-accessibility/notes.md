@@ -71,6 +71,8 @@ Marcy's suggestion for more reading:
 ## Lesson 2 - Why is Accessibility important?
 
 ### Accessibility as a Moral Case
+> Doing it because it's the necessary and right thing to do
+
 
 ### Accessibility as a Business Case
 
@@ -78,5 +80,5 @@ Marcy's suggestion for more reading:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjYwNTE3MSwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbMTMzNzEwMzA5NywxMjYwMTY5MzgzXX0=
 -->

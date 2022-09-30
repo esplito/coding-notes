@@ -152,7 +152,9 @@ Don't assume that everyone knows what these terms mean.
 - **API** - Application Programming Interface
 	- Accessibility APIs represent objects in a user interface, exposing information about each object through the operating system platform and web browser to assistive technologies. (they differ)
 		- Test screen readers on the most commonly used devices and browsers. (for example if most of your users are on iOS and Safari)
-- **User agent (UA)** is a line of text identifying the browser and operating s
+- **User agent (UA)** is a line of text identifying the browser and operating system to the web server. 
+	- Nowadays we a lot more feature-based identifiers supported in CSS (like prefers-reduced-motion etc.) so we don't need to check the User agent as much.
+	- 
 
 
 ## Useful resources
@@ -160,6 +162,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5NDI4NTgyLC0xMDgzMDM1ODAyLDEyNj
+eyJoaXN0b3J5IjpbNDExMzE5MDAwLC0xMDgzMDM1ODAyLDEyNj
 AxNjkzODNdfQ==
 -->

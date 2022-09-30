@@ -144,8 +144,9 @@ Don't assume that everyone knows what these terms mean.
 	-  Makes sites interactive
 	- You need JS for a lot things for accessibility
 - DOM - Document Object Model
-	- "... is the data representation of the objects that comprise the strcu"
+	- "... is the data representation of the objects that comprise the structure and content of a document on the web. HTML markup is turned into a DOM structure that CSS can style and JavaScript can manipulate."
 - SVG
+	- XML-based markup language for describing 2D based vector graphics.
 
 
 ## Useful resources
@@ -153,6 +154,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3OTgwNTQ0LC0xMDgzMDM1ODAyLDEyNj
-AxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbLTk4MDE0OTMxNywtMTA4MzAzNTgwMiwxMj
+YwMTY5MzgzXX0=
 -->

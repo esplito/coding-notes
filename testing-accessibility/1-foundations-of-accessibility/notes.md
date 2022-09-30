@@ -130,12 +130,15 @@ Marcy also recommends to follow Lainey Feingold for more about the legal situati
 Marcy highlights the importance of having a similar set of definitions for terms and acronyms that you encounter when working with accessibility. They fall into three categories:
 1. Technologies ⌨️
 2. Guidelines & Standards 📜
+3. Miscellaneous 🧰
+
+Don't assume that everyone knows what these terms mean.
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2MDMxOTYxLC0xMDgzMDM1ODAyLDEyNj
-AxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbLTIxMzc5NjQzMTUsLTEwODMwMzU4MDIsMT
+I2MDE2OTM4M119
 -->

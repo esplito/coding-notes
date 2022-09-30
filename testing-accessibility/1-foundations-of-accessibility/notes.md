@@ -85,13 +85,15 @@ Then it can be very helpful to appeal to the business case for accessibility. �
 
 🏛 Marcy also refers to the [capitol crawl](https://www.history.com/news/americans-with-disabilities-act-1990-capitol-crawl) in 1990 where people demonstrated and crawled up the steps of the U.S Capitol in DC to show how people with disabilities are impacted by lack of physical access in public spaces. (this lead to the legislation, "Americans with Disabilities Act", ADA) 🏛
 
-S
+Similarly, if accessibility isn't prioritized within the digital space, then the impacts are echoed.
 
 ### Accessibility as a Business Case
 
 ### Accessibility: The Legal Situation
 
+
+## U
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTk0MzYyOCwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbLTE1ODE0NjY5ODQsMTI2MDE2OTM4M119
 -->

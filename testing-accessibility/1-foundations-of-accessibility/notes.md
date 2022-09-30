@@ -73,8 +73,11 @@ Marcy's suggestion for more reading:
 ### Accessibility as a Moral Case
 > Doing it because it's the necessary and right thing to do
 
+
+
+
 **Do you feel like you are swimming upstream when pushing for accessibility as the right thing to do?** 😫   
-Then it can be very helpful to appeal to the business case for accessibility.
+Then it can be very helpful to appeal to the business case for accessibility. 📈
 
 ### Accessibility as a Business Case
 
@@ -82,5 +85,5 @@ Then it can be very helpful to appeal to the business case for accessibility.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTM5Nzk4MiwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbMTY3NzU2MTE4MywxMjYwMTY5MzgzXX0=
 -->

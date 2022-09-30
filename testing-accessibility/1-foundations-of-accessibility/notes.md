@@ -89,11 +89,15 @@ Similarly, if accessibility isn't prioritized within the digital space, then the
 
 ### Accessibility as a Business Case
 
+The following stats are mentioned that are mostly focused on the US and the whole world
+
 ### Accessibility: The Legal Situation
 
 
-## U
+## Useful resources
+
+TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE0NjY5ODQsMTI2MDE2OTM4M119
+eyJoaXN0b3J5IjpbMTg0ODIwNTE4MiwxMjYwMTY5MzgzXX0=
 -->

@@ -108,11 +108,15 @@ There are different laws protecting digital civil rights, depending on where you
 
 > Section 508 of the Rehabilitation Act in the United States requires that any software created or procured by the government is accessible. - Marcy Sutton
 
+⚠️ It is **currently not an ADA requirement** to follow the Web Accessibility Initiative's WCAG standards. ⚠️
+
+
+
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjE0NDUxMTIsMTI2MDE2OTM4M119
+eyJoaXN0b3J5IjpbMTAxODQ2MDIzNSwxMjYwMTY5MzgzXX0=
 -->

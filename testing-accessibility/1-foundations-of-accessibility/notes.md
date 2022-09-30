@@ -163,7 +163,11 @@ Don't assume that everyone knows what these terms mean.
 		- Magnifiers
 		- Text-to-speech
 		- Speech recognition
-		- Alternate keyboards (switches, sip & puff, etc.)
+		- Alternate keyboards
+			- switches = small number of keys (maybe 3) 
+				- There's different switch interfaces you can enable.
+			- sip & puff = control your computer with a joystick that yo
+				- etc.
 
 
 ## Useful resources
@@ -171,6 +175,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI3Mzc0MTIsLTEwODMwMzU4MDIsMT
-I2MDE2OTM4M119
+eyJoaXN0b3J5IjpbMjU5NDU1NzI4LC0xMDgzMDM1ODAyLDEyNj
+AxNjkzODNdfQ==
 -->

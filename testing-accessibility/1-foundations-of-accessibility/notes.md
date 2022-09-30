@@ -137,8 +137,9 @@ Don't assume that everyone knows what these terms mean.
 ### Markup & Code definitions
 - HTML - HyperText Markup Language
 	- The structure for how we deliver content on the Internet.
-- CSS
-	- 
+	- HTML tags becomes Elements when loaded.
+- CSS - Cascading Style Sheets
+	- The style and presentation of our HTML documents
 - JavaScript
 - DOM
 - SVG
@@ -149,6 +150,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxMTgwMDk1LC0xMDgzMDM1ODAyLDEyNj
-AxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbLTEyNTQxNzA5MDAsLTEwODMwMzU4MDIsMT
+I2MDE2OTM4M119
 -->

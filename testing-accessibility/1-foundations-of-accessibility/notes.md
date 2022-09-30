@@ -207,7 +207,10 @@ Don't assume that everyone knows what these terms mean.
 		- Operable
 		- Understandable
 		- Robust
-	- Current version: 
+	- Current version: **2.1** (2.2 due out late 2022)
+	- A complete rethink of WCAG called "Silver" (or version 3.0) will also come at some point.
+- **ARIA** - Accessible Rich Internet Applications
+- 
 
 
 ## Useful resources
@@ -215,6 +218,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODE0MTM1NDYsLTEwODMwMzU4MDIsMT
+eyJoaXN0b3J5IjpbLTE4MDIwNDc5MjAsLTEwODMwMzU4MDIsMT
 I2MDE2OTM4M119
 -->

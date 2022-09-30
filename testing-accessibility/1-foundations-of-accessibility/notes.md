@@ -102,7 +102,11 @@ You can make use of these numbers if stakeholders are more likely to listen to �
 There are different laws protecting digital civil rights, depending on where your team is located.
 
 **USA 🇺🇸**
+- Americans with Disabilities Act (ADA)
+- Air Carrier Access Act (ACAA)
+- Communications and Video Accessibility Act (CVAA)
 
+> Section 508 of the Rehabilitation Act in the United States requires that any software created or procured by the government is accessible. - Marcy Sutton
 
 
 ## Useful resources
@@ -110,5 +114,5 @@ There are different laws protecting digital civil rights, depending on where you
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Mzk5MTEwMSwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbLTE2NjE0NDUxMTIsMTI2MDE2OTM4M119
 -->

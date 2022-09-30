@@ -134,11 +134,21 @@ Marcy highlights the importance of having a similar set of definitions for terms
 
 Don't assume that everyone knows what these terms mean.
 
+### Markup & Code definitions
+- HTML - HyperText Markup Language
+	- The structure for how we deliver content on the Internet.
+- CSS
+	- 
+- JavaScript
+- DOM
+- SVG
+
+
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc5NjQzMTUsLTEwODMwMzU4MDIsMT
-I2MDE2OTM4M119
+eyJoaXN0b3J5IjpbNjIxMTgwMDk1LC0xMDgzMDM1ODAyLDEyNj
+AxNjkzODNdfQ==
 -->

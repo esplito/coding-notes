@@ -141,6 +141,8 @@ Don't assume that everyone knows what these terms mean.
 - CSS - Cascading Style Sheets
 	- The style and presentation of our HTML documents
 - JavaScript
+	- Does a lot with interactivity 
+	- You need JS
 - DOM
 - SVG
 
@@ -150,6 +152,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQxNzA5MDAsLTEwODMwMzU4MDIsMT
-I2MDE2OTM4M119
+eyJoaXN0b3J5IjpbLTQzNTI1MjA5MCwtMTA4MzAzNTgwMiwxMj
+YwMTY5MzgzXX0=
 -->

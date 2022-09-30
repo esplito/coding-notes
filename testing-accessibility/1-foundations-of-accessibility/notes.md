@@ -110,6 +110,9 @@ There are different laws protecting digital civil rights, depending on where you
 
 ⚠️ It is **currently not an ADA requirement** to follow the Web Accessibility Initiative's WCAG standards. ⚠️
 
+**Canada 🇨🇦**
+- Accessible Canada Act
+- Accessibility for Ontarians with Disabilities Act (AODA)
 
 
 
@@ -118,5 +121,5 @@ There are different laws protecting digital civil rights, depending on where you
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODQ2MDIzNSwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbMTM5NjE4MDY3MywxMjYwMTY5MzgzXX0=
 -->

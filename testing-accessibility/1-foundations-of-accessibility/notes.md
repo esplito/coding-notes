@@ -135,18 +135,22 @@ Marcy highlights the importance of having a similar set of definitions for terms
 Don't assume that everyone knows what these terms mean.
 
 ### Markup & Code definitions
-- HTML - HyperText Markup Language
+- **HTML** - HyperText Markup Language
 	- The structure for how we deliver content on the Internet.
 	- HTML tags becomes Elements when loaded.
-- CSS - Cascading Style Sheets
+- **CSS** - Cascading Style Sheets
 	- The style and presentation of our HTML documents
-- JavaScript (JS)
+- **JavaScript** (JS)
 	-  Makes sites interactive
 	- You need JS for a lot things for accessibility
-- DOM - Document Object Model
+- **DOM** - Document Object Model
 	- "... is the data representation of the objects that comprise the structure and content of a document on the web. HTML markup is turned into a DOM structure that CSS can style and JavaScript can manipulate."
-- SVG
+- **SVG**
 	- XML-based markup language for describing 2D based vector graphics.
+
+### Browsers, Apps, and Tools definitions
+- **API** - Application Programming Interface
+	- Accessibility APIs represent
 
 
 ## Useful resources
@@ -154,6 +158,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDE0OTMxNywtMTA4MzAzNTgwMiwxMj
+eyJoaXN0b3J5IjpbMTEyNzQ2NDk0NywtMTA4MzAzNTgwMiwxMj
 YwMTY5MzgzXX0=
 -->

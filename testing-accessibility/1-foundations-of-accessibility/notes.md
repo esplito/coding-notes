@@ -114,12 +114,17 @@ There are different laws protecting digital civil rights, depending on where you
 - Accessible Canada Act
 - Accessibility for Ontarians with Disabilities Act (AODA)
 
+**EU 🇪🇺**
 
+- Web Accessibility Directive
+	- Affects the public sector such as governments
+- European Accessibility Act
+	- Will include the private sector. → Implementation phase in member countries wil run at lea 
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NjE4MDY3MywxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbMTA2MjQxODU1MiwxMjYwMTY5MzgzXX0=
 -->

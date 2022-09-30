@@ -140,10 +140,11 @@ Don't assume that everyone knows what these terms mean.
 	- HTML tags becomes Elements when loaded.
 - CSS - Cascading Style Sheets
 	- The style and presentation of our HTML documents
-- JavaScript
-	- Does a lot with interactivity 
-	- You need JS
-- DOM
+- JavaScript (JS)
+	-  Makes sites interactive
+	- You need JS for a lot things for accessibility
+- DOM - Document Object Model
+	- "... is the data representation of the objects that comprise the strcu"
 - SVG
 
 
@@ -152,6 +153,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTI1MjA5MCwtMTA4MzAzNTgwMiwxMj
-YwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbODI3OTgwNTQ0LC0xMDgzMDM1ODAyLDEyNj
+AxNjkzODNdfQ==
 -->

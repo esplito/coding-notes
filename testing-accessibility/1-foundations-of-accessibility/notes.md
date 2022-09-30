@@ -199,7 +199,15 @@ Don't assume that everyone knows what these terms mean.
 		- and loads of APIs.
 - **WHATWG** - Web Hypertext Application Technology Working Group
 	- Another community working on similar things as W3C.
-	- Since 2019 → works together wi
+	- Since 2019 → works together with W3C on a single HTML standard.
+- **WCAG** - Web Content Accessibility Guidelines
+	- Published by the Web Accessibility Initiative of the W3C.
+	- 4 categories:
+		- Perceivable
+		- Operable
+		- Understandable
+		- Robust
+	- Current version: 
 
 
 ## Useful resources
@@ -207,6 +215,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTE5MTkzOSwtMTA4MzAzNTgwMiwxMj
-YwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbLTIwODE0MTM1NDYsLTEwODMwMzU4MDIsMT
+I2MDE2OTM4M119
 -->

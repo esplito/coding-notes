@@ -79,7 +79,7 @@ Marcy's suggestion for more reading:
 **Do you feel like you are swimming upstream when pushing for accessibility as the right thing to do?** 😫   
 Then it can be very helpful to appeal to the business case for accessibility. 📈
 
-Marcy also refers to the [capitol crawl](https://www.history.com/news/americans-with-disabilities-act-1990-capitol-crawl) in 1990 where people got out.
+Marcy also refers to the [capitol crawl](https://www.history.com/news/americans-with-disabilities-act-1990-capitol-crawl) in 1990 where people demonstrated and crawled up the steps of the U.S Capitol in DC to show how people with disabilities are impacted by lack of physi.
 
 ### Accessibility as a Business Case
 
@@ -87,5 +87,5 @@ Marcy also refers to the [capitol crawl](https://www.history.com/news/americans-
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDcyODk4NCwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbLTEwODY3NTUxNTQsMTI2MDE2OTM4M119
 -->

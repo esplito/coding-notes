@@ -154,7 +154,9 @@ Don't assume that everyone knows what these terms mean.
 		- Test screen readers on the most commonly used devices and browsers. (for example if most of your users are on iOS and Safari)
 - **User agent (UA)** is a line of text identifying the browser and operating system to the web server. 
 	- Nowadays we a lot more feature-based identifiers supported in CSS (like prefers-reduced-motion etc.) so we don't need to check the User agent as much.
-	- The differnt keyboard focus default styles on different browsers though.
+	- The keyboard focus default styles in the browsers can differ for example. So you might need it for that.
+- Assistive Technology (AT) 
+	- "... refers to 
 
 
 ## Useful resources
@@ -162,6 +164,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk1NzgxOTksLTEwODMwMzU4MDIsMT
-I2MDE2OTM4M119
+eyJoaXN0b3J5IjpbMjE1NTQzMzYxLC0xMDgzMDM1ODAyLDEyNj
+AxNjkzODNdfQ==
 -->

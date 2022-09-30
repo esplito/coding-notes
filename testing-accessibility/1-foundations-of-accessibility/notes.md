@@ -218,8 +218,10 @@ Don't assume that everyone knows what these terms mean.
 	- Example: WCAG 2.1
 - **Conformance**
 	- "Conformance to a standard means that you meet or satisfy the requirements of the standard. A.k.a 'compliance'. "
-- Inclusive Design
+	- 
+- **Inclusive Design**
 	- "A design process that considers the full range of human diversity with respect to ability, language, culture, gender, age and other forms of human difference."
+	- Accessibility is a measure of how we implement this with guidelines and best practices.
 
 
 ## Useful resources
@@ -227,6 +229,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NDI4MTk5MSwtMTA4MzAzNTgwMiwxMj
-YwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbLTEzNTA0NzU0MzQsLTEwODMwMzU4MDIsMT
+I2MDE2OTM4M119
 -->

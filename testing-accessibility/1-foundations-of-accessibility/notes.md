@@ -3,6 +3,8 @@
 **Table of contents**
 - [Lesson 1 - What is Digital Accessibility?](#lesson-1---what-is-digital-accessibility)
 - [Lesson 2 - Why is Accessibility important?](#lesson-2---why-is-accessibility-important)
+- [Lesson 3 - Language & Definitions of Accessibility](#lesson-3---language--definitions-of-accessibility)
+- [Lesson 4 - What Makes a Website Accessible?](#)
 
 ## Lesson 1 - What is Digital Accessibility?
 
@@ -225,12 +227,13 @@ Don't assume that everyone knows what these terms mean.
 	- "A design process that considers the full range of human diversity with respect to ability, language, culture, gender, age and other forms of human difference."
 	- Accessibility is a measure of how we implement this with guidelines and best practices.
 
+## Lesson 4 
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTgwMjcyNSwtMTA4MzAzNTgwMiwxMj
+eyJoaXN0b3J5IjpbLTk2MTQ1MTYxMSwtMTA4MzAzNTgwMiwxMj
 YwMTY5MzgzXX0=
 -->

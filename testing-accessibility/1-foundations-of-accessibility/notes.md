@@ -150,7 +150,8 @@ Don't assume that everyone knows what these terms mean.
 
 ### Browsers, Apps, and Tools definitions
 - **API** - Application Programming Interface
-	- Accessibility APIs represent
+	- Accessibility APIs represent objects in a user interface, exposing information about each object through the operating system platform and web browser to assistive technologies. (they differ)
+		- Test on th
 
 
 ## Useful resources
@@ -158,6 +159,6 @@ Don't assume that everyone knows what these terms mean.
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzQ2NDk0NywtMTA4MzAzNTgwMiwxMj
-YwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbMzcwMDEzOTgwLC0xMDgzMDM1ODAyLDEyNj
+AxNjkzODNdfQ==
 -->

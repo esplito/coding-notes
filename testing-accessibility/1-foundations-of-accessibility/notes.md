@@ -312,12 +312,16 @@ Streaming video & audio content have additional considerations which are require
 
 The above quote says it all, I think. A lot of things on the web revolves around submitting information and for some reason we as developers tend to create UI that does not even utilize the power of the `<form>`-element.
 
+Then why does this happen so often? Marcy mentions a few reasons:
+
+
+
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTAxNTQwMSwxMzM5NTcyNjM2LC05OD
+eyJoaXN0b3J5IjpbMTc4NzEyOTMwOSwxMzM5NTcyNjM2LC05OD
 ExODE2NzYsLTk0ODczNzMyMywyMDE4NTAxMTM3LDI4NTUyNjQw
 MSwzMjQ4NDIyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4M119
 -->

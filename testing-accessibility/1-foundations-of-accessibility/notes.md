@@ -372,13 +372,13 @@ Small excerpt that I found motivational:
 Let's make the web more accessible! 🥳
 
 ## Useful resources
-
 TODO: Add useful links from each lesson here.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyMjQwMTc2LDE1Mzk4NDUzMjIsODUzMT
-I0OTQzLDY3NTU3MDYxMSwtMzk3MTk5NzI5LDE3ODcxMjkzMDks
-MTMzOTU3MjYzNiwtOTgxMTgxNjc2LC05NDg3MzczMjMsMjAxOD
-UwMTEzNywyODU1MjY0MDEsMzI0ODQyMjY0LC0xMDgzMDM1ODAy
-LDEyNjAxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbLTY5ODQxMTUwOCwxNTM5ODQ1MzIyLDg1Mz
+EyNDk0Myw2NzU1NzA2MTEsLTM5NzE5OTcyOSwxNzg3MTI5MzA5
+LDEzMzk1NzI2MzYsLTk4MTE4MTY3NiwtOTQ4NzM3MzIzLDIwMT
+g1MDExMzcsMjg1NTI2NDAxLDMyNDg0MjI2NCwtMTA4MzAzNTgw
+MiwxMjYwMTY5MzgzXX0=
 -->

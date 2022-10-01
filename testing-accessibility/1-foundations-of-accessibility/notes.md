@@ -264,30 +264,34 @@ Here's a few things designers should take into consideration to make things more
 > HTML5 landmark elements give us a method to wrap our content into semantic sections. - Marcy Sutton
 
 Marcy says that all of the content on our page should be wrapped inside one of the landmark elements that are supported by newer browsers:
-- `header`
-- `nav`
-- `main`
-- `footer`
-- `section`
-- `article`
-- `aside`
+- `<header>`
+- `<nav>`
+- `<main>`
+- `<footer>`
+- `<section>`
+- `<article>`
+- `<aside>`
 
 **Takeaway:** These elements allows people using AT to navigate & understand our content even if they can't see the screen.
 
 📖 (More about these can be found in the "Semantic Markup with HTML & ARIA" workshop.) 📖 
 
 ### Other semantic elements 🏛
-
 Examples:
-- `p`
-- 
+- `<p>`
+- `<ul>`
+- `<ol>`
+- `<button>`
+- `<table>`
+
+Developers often then to build their own custom buttons
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyMjg2NTgsLTk4MTE4MTY3NiwtOTQ4Nz
-M3MzIzLDIwMTg1MDExMzcsMjg1NTI2NDAxLDMyNDg0MjI2NCwt
-MTA4MzAzNTgwMiwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbMTk2NzI4NTA2OCwtOTgxMTgxNjc2LC05ND
+g3MzczMjMsMjAxODUwMTEzNywyODU1MjY0MDEsMzI0ODQyMjY0
+LC0xMDgzMDM1ODAyLDEyNjAxNjkzODNdfQ==
 -->

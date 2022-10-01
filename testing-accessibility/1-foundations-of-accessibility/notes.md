@@ -337,6 +337,7 @@ One of the most important accessibility features that is mentioned is adding lab
 🚨 **What to avoid** 🚨
 1. Hiding label text with CSS
 2. Using input placeholder as label text. (as soon as you start typing you might forget what you are supposed to enter in that field)
+3. Losing accessibility due to custom styling 
 
 **Validation** ⚠️
 Any sort of feedback that is given to the user when submitting a form incorrectly, should be accessible, so the error text needs to be exposed to assistive technologies.
@@ -346,8 +347,8 @@ Any sort of feedback that is given to the user when submitting a form incorrectl
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1NTcwNjExLC0zOTcxOTk3MjksMTc4Nz
-EyOTMwOSwxMzM5NTcyNjM2LC05ODExODE2NzYsLTk0ODczNzMy
-MywyMDE4NTAxMTM3LDI4NTUyNjQwMSwzMjQ4NDIyNjQsLTEwOD
-MwMzU4MDIsMTI2MDE2OTM4M119
+eyJoaXN0b3J5IjpbLTcxNjcwMDM1NCw2NzU1NzA2MTEsLTM5Nz
+E5OTcyOSwxNzg3MTI5MzA5LDEzMzk1NzI2MzYsLTk4MTE4MTY3
+NiwtOTQ4NzM3MzIzLDIwMTg1MDExMzcsMjg1NTI2NDAxLDMyND
+g0MjI2NCwtMTA4MzAzNTgwMiwxMjYwMTY5MzgzXX0=
 -->

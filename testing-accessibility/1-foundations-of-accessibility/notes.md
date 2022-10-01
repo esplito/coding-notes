@@ -324,6 +324,10 @@ Form markup gives semantic structure:
 - `<fieldset>`
 - `<legend>`
 
+Other elements:
+- `<input>`
+- `<label>`
+
 One of the most important accessibility features that is mentioned is adding labels to inputs and textareas in a form. 
 
 **Benefits of labels 💁ℹ️**
@@ -342,8 +346,8 @@ Any sort of feedback that is given to the user when submitting a form incorrectl
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDE0NTM0MDYsLTM5NzE5OTcyOSwxNz
-g3MTI5MzA5LDEzMzk1NzI2MzYsLTk4MTE4MTY3NiwtOTQ4NzM3
-MzIzLDIwMTg1MDExMzcsMjg1NTI2NDAxLDMyNDg0MjI2NCwtMT
-A4MzAzNTgwMiwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbNjc1NTcwNjExLC0zOTcxOTk3MjksMTc4Nz
+EyOTMwOSwxMzM5NTcyNjM2LC05ODExODE2NzYsLTk0ODczNzMy
+MywyMDE4NTAxMTM3LDI4NTUyNjQwMSwzMjQ4NDIyNjQsLTEwOD
+MwMzU4MDIsMTI2MDE2OTM4M119
 -->

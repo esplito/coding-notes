@@ -263,14 +263,18 @@ Here's a few things designers should take into consideration to make things more
 ### HTML Landmarks 🏛
 > HTML5 landmark elements give us a method to wrap our content into semantic sections. - Marcy Sutton
 
-
+Marcy says that all of the content on our page should be wrapped inside one of the landmark elements that are supported by newer browsers:
+- `header`
+- `nav`
+- `main`
+- ``
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTE5NDE4MDUsLTk0ODczNzMyMywyMD
-E4NTAxMTM3LDI4NTUyNjQwMSwzMjQ4NDIyNjQsLTEwODMwMzU4
-MDIsMTI2MDE2OTM4M119
+eyJoaXN0b3J5IjpbLTExMzQ0NTAxNSwtOTQ4NzM3MzIzLDIwMT
+g1MDExMzcsMjg1NTI2NDAxLDMyNDg0MjI2NCwtMTA4MzAzNTgw
+MiwxMjYwMTY5MzgzXX0=
 -->

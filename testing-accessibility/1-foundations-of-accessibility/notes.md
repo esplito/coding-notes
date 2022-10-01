@@ -325,17 +325,18 @@ One of the most important accessibility features that is mentioned is adding lab
 
 🚨 **What to avoid** 🚨
 1. Hiding label text with CSS
-2. Use input placeholder as label text. (as soon as you start typing you might forget what you are supposed to enter i
+2. Using input placeholder as label text. (as soon as you start typing you might forget what you are supposed to enter in that field)
 
-
+**Validation** ✅🚨
+Any sort of feedback that is given to the user when su
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzgwMTIwLDE3ODcxMjkzMDksMTMzOT
-U3MjYzNiwtOTgxMTgxNjc2LC05NDg3MzczMjMsMjAxODUwMTEz
-NywyODU1MjY0MDEsMzI0ODQyMjY0LC0xMDgzMDM1ODAyLDEyNj
-AxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbLTEwMTQwMTEwMTEsMTc4NzEyOTMwOSwxMz
+M5NTcyNjM2LC05ODExODE2NzYsLTk0ODczNzMyMywyMDE4NTAx
+MTM3LDI4NTUyNjQwMSwzMjQ4NDIyNjQsLTEwODMwMzU4MDIsMT
+I2MDE2OTM4M119
 -->

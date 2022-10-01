@@ -241,13 +241,15 @@ Regardless of what kind of role you have, there's a few areas that can help you 
 Here's a few considerations designers should take to make things more accessible:
 
 - **Colors** → Bold contrast between foreground and background so text is discernible 
-- Layouts → should accommodate for variable text size and zooming. (and reflow)
+- **Layouts** → should accommodate (and reflow) for variable text size and zooming. 
+- **Touch targets** → appropriately sized for human fingers. (example: buttons & links)
+- 
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5NzQ4MTgzLDI4NTUyNjQwMSwzMjQ4ND
-IyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4M119
+eyJoaXN0b3J5IjpbLTE0NDY0MzA2NTAsMjg1NTI2NDAxLDMyND
+g0MjI2NCwtMTA4MzAzNTgwMiwxMjYwMTY5MzgzXX0=
 -->

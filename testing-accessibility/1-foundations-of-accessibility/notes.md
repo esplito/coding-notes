@@ -299,14 +299,18 @@ Developers often tend to build their own custom buttons and tables and this eith
 
 Marcy recommends [W3C's alt decision tree](https://www.w3.org/WAI/tutorials/images/decision-tree/) if you need to figure out what to write in the alt attribute of your image.
 
-Streaming video & audio content have additional considerations which are required.
+Streaming video & audio content have additional considerations which are required:
+- Captions as an alternative to spoken word
+- Audio descriptions that describes what's on screen beyond the dialogue (some shows on Netflix have this)
+
+Live sign language is also a text alternative.
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTcxOTE2OCwtOTgxMTgxNjc2LC05ND
+eyJoaXN0b3J5IjpbLTYxNTU5MzYzNCwtOTgxMTgxNjc2LC05ND
 g3MzczMjMsMjAxODUwMTEzNywyODU1MjY0MDEsMzI0ODQyMjY0
 LC0xMDgzMDM1ODAyLDEyNjAxNjkzODNdfQ==
 -->

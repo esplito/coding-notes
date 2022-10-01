@@ -234,7 +234,7 @@ Regardless of what kind of role you have, there's a few areas that can help you 
 1. Inclusive & intuitive design 🎨
 2. Headings, landmarks and semantic structure 🏛
 3. Text alternatives 🙏
-4. Accessible forms 📝
+4. Accessible forms 🔢
 5. Interactivity 🖥
 
 ### Inclusive & intuitive design 🎨
@@ -307,7 +307,7 @@ Streaming video & audio content have additional considerations which are require
 
 **Live sign language** is also a text alternative.
 
-### Accessible web forms 📝
+### Accessible web forms 🔢
 > Forms are a huge part of the web. They’re also one of the most common things that are done wrong. - Marcy Sutton
 
 The above quote says it all, I think. A lot of things on the web revolves around submitting information and for some reason we as developers tend to create UI that does not even utilize the power of the `<form>`-element.
@@ -335,8 +335,8 @@ Any sort of feedback that is given to the user when submitting a form incorrectl
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzMwOTE5LDE3ODcxMjkzMDksMTMzOT
-U3MjYzNiwtOTgxMTgxNjc2LC05NDg3MzczMjMsMjAxODUwMTEz
-NywyODU1MjY0MDEsMzI0ODQyMjY0LC0xMDgzMDM1ODAyLDEyNj
-AxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbLTM5NzE5OTcyOSwxNzg3MTI5MzA5LDEzMz
+k1NzI2MzYsLTk4MTE4MTY3NiwtOTQ4NzM3MzIzLDIwMTg1MDEx
+MzcsMjg1NTI2NDAxLDMyNDg0MjI2NCwtMTA4MzAzNTgwMiwxMj
+YwMTY5MzgzXX0=
 -->

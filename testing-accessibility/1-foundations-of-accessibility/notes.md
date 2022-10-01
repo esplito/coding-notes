@@ -368,14 +368,14 @@ In this lesson Marcy encourages everyone to contribute to the accessibility comm
 Small excerpt that I found motivational:
 >It can be a struggle sometimes but keep at it. Your persistence and sharing of knowledge with your colleagues can make an impact.
 
-
+Let's make the web more accessible! 🥳
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzgwODc3OSw4NTMxMjQ5NDMsNjc1NT
+eyJoaXN0b3J5IjpbMTUzOTg0NTMyMiw4NTMxMjQ5NDMsNjc1NT
 cwNjExLC0zOTcxOTk3MjksMTc4NzEyOTMwOSwxMzM5NTcyNjM2
 LC05ODExODE2NzYsLTk0ODczNzMyMywyMDE4NTAxMTM3LDI4NT
 UyNjQwMSwzMjQ4NDIyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4

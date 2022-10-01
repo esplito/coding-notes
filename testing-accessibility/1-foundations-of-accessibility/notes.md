@@ -230,13 +230,15 @@ Don't assume that everyone knows what these terms mean.
 
 ## Lesson 4 - What Makes a Website Accessible?
 
-TODO.
+Regardless of what kind of role you have, there's a few areas that can help you create accessible websites (& apps):
+1. Inclusive & intuitive design
+2. Headings, landma
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg1NTI2NDAxLDMyNDg0MjI2NCwtMTA4Mz
-AzNTgwMiwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbLTE1OTQ0MzA1MzksMjg1NTI2NDAxLDMyND
+g0MjI2NCwtMTA4MzAzNTgwMiwxMjYwMTY5MzgzXX0=
 -->

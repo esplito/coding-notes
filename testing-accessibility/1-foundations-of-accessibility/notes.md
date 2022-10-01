@@ -329,6 +329,9 @@ Form markup gives semantic structure:
 
 Other elements:
 - `<input>`
+	- radio button
+	- checkbox
+	- select
 - `<label>`
 
 One of the most important accessibility features that is mentioned is adding labels to inputs and textareas in a form. 
@@ -350,8 +353,8 @@ Any sort of feedback that is given to the user when submitting a form incorrectl
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDc4MTQ0NjksNjc1NTcwNjExLC0zOT
-cxOTk3MjksMTc4NzEyOTMwOSwxMzM5NTcyNjM2LC05ODExODE2
-NzYsLTk0ODczNzMyMywyMDE4NTAxMTM3LDI4NTUyNjQwMSwzMj
-Q4NDIyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4M119
+eyJoaXN0b3J5IjpbMTUzMzY0NjY5Niw2NzU1NzA2MTEsLTM5Nz
+E5OTcyOSwxNzg3MTI5MzA5LDEzMzk1NzI2MzYsLTk4MTE4MTY3
+NiwtOTQ4NzM3MzIzLDIwMTg1MDExMzcsMjg1NTI2NDAxLDMyND
+g0MjI2NCwtMTA4MzAzNTgwMiwxMjYwMTY5MzgzXX0=
 -->

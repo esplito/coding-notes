@@ -235,7 +235,7 @@ Regardless of what kind of role you have, there's a few areas that can help you 
 2. Headings, landmarks and semantic structure 🏛
 3. Text alternatives 🙏
 4. Accessible forms 🔢
-5. Interactivity 🖥
+5. Interactivity 🖱
 
 ### Inclusive & intuitive design 🎨
 Here's a few things designers should take into consideration to make things more accessible:
@@ -349,13 +349,20 @@ One of the most important accessibility features that is mentioned is adding lab
 **Validation** ⚠️
 Any sort of feedback that is given to the user when submitting a form incorrectly, should be accessible, so the error text needs to be exposed to assistive technologies.
 
+### Interactivity goes beyond the mouse 🖱
+>Anything that a mouse user can do, a keyboard and screen reader user must also be able to do.
+>
+>This doesn’t necessarily mean that the interaction needs to be exactly the same, but there should be a way for someone using assistive technology to complete their task. - Marcy Sutton
+
+
+
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTgyNTUxNTAsNjc1NTcwNjExLC0zOT
-cxOTk3MjksMTc4NzEyOTMwOSwxMzM5NTcyNjM2LC05ODExODE2
-NzYsLTk0ODczNzMyMywyMDE4NTAxMTM3LDI4NTUyNjQwMSwzMj
-Q4NDIyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4M119
+eyJoaXN0b3J5IjpbLTk3NDQ5MzE1LDY3NTU3MDYxMSwtMzk3MT
+k5NzI5LDE3ODcxMjkzMDksMTMzOTU3MjYzNiwtOTgxMTgxNjc2
+LC05NDg3MzczMjMsMjAxODUwMTEzNywyODU1MjY0MDEsMzI0OD
+QyMjY0LC0xMDgzMDM1ODAyLDEyNjAxNjkzODNdfQ==
 -->

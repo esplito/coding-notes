@@ -294,14 +294,17 @@ Developers often tend to build their own custom buttons and tables and this eith
 
 💡 Assistive technologies (AT) can navigate by collections of semantic elements. 💡
 
-##Text alternatives 🙏
+### Text alternatives 🙏
+> Every purposeful image you use on a website needs to include meaningful alt text. - Marcy Sutton
+
+Marcy recommends [W3C]()
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzI4NjYwOCwtOTgxMTgxNjc2LC05ND
+eyJoaXN0b3J5IjpbMTIzNDY0MjQwMCwtOTgxMTgxNjc2LC05ND
 g3MzczMjMsMjAxODUwMTEzNywyODU1MjY0MDEsMzI0ODQyMjY0
 LC0xMDgzMDM1ODAyLDEyNjAxNjkzODNdfQ==
 -->

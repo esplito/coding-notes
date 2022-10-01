@@ -237,11 +237,16 @@ Regardless of what kind of role you have, there's a few areas that can help you 
 4. Accessible forms 📝
 5. Interactivity 🖥
 
+### Inclusive & intuitive design 🎨
+Here's a few considerations designers should take to make things more accessible:
+
+- Colors 
+
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODA2MDQ5LDI4NTUyNjQwMSwzMjQ4ND
+eyJoaXN0b3J5IjpbNDEzNzc0MTU3LDI4NTUyNjQwMSwzMjQ4ND
 IyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4M119
 -->

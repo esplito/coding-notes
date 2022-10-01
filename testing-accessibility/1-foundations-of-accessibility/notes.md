@@ -317,6 +317,8 @@ Then why does this happen so often? Marcy mentions one reason:
 
 So don't do a custom form with divs! Use `<form>` and get lots of accessibility wins for free.
 
+I know that Remix promotes the use of the [FormData Interface](https://developer.mozilla.org/en-US/docs/Web/API/FormData) 
+
 One of the most important accessibility features that is mentioned is adding labels to inputs and textareas in a form. 
 
 **Benefits of labels 💁ℹ️**
@@ -335,8 +337,8 @@ Any sort of feedback that is given to the user when submitting a form incorrectl
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzE5OTcyOSwxNzg3MTI5MzA5LDEzMz
-k1NzI2MzYsLTk4MTE4MTY3NiwtOTQ4NzM3MzIzLDIwMTg1MDEx
-MzcsMjg1NTI2NDAxLDMyNDg0MjI2NCwtMTA4MzAzNTgwMiwxMj
-YwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbLTg0OTIyODA2MSwtMzk3MTk5NzI5LDE3OD
+cxMjkzMDksMTMzOTU3MjYzNiwtOTgxMTgxNjc2LC05NDg3Mzcz
+MjMsMjAxODUwMTEzNywyODU1MjY0MDEsMzI0ODQyMjY0LC0xMD
+gzMDM1ODAyLDEyNjAxNjkzODNdfQ==
 -->

@@ -315,6 +315,8 @@ The above quote says it all, I think. A lot of things on the web revolves around
 Then why does this happen so often? Marcy mentions one reason:
 - It can be tricky to style! 🧑‍🎨
 
+So don't do a custom form with divs! Use `<form>` and get lots of access
+
 
 
 ## Useful resources
@@ -322,8 +324,8 @@ Then why does this happen so often? Marcy mentions one reason:
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjk2Nzc5NDUsMTc4NzEyOTMwOSwxMz
-M5NTcyNjM2LC05ODExODE2NzYsLTk0ODczNzMyMywyMDE4NTAx
-MTM3LDI4NTUyNjQwMSwzMjQ4NDIyNjQsLTEwODMwMzU4MDIsMT
-I2MDE2OTM4M119
+eyJoaXN0b3J5IjpbMTM0NTQwNTI5MCwxNzg3MTI5MzA5LDEzMz
+k1NzI2MzYsLTk4MTE4MTY3NiwtOTQ4NzM3MzIzLDIwMTg1MDEx
+MzcsMjg1NTI2NDAxLDMyNDg0MjI2NCwtMTA4MzAzNTgwMiwxMj
+YwMTY5MzgzXX0=
 -->

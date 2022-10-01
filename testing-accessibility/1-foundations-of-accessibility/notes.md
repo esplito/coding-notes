@@ -243,7 +243,8 @@ Here's a few things designers should take into consideration to make things more
 - **Colors** → Bold contrast between foreground and background so text is discernible 
 - **Layouts** → should accommodate (and reflow with responsive web design) for variable text size and zooming. 
 	- Reflow is a success criteria for accessibility
-- **Touch targets** → appropriately sized for human fingers. (example: buttons & links)
+- **Touch targets** → appropriately sized for human fingers and movement. (example: buttons & links)
+	- It can, for example, be difficult to click something when you have a tremor and are using a mouse.
 - **Obvious designs for interactive controls**
 - **Allow users to opt-in to motion and animation**
 
@@ -255,6 +256,7 @@ Here's a few things designers should take into consideration to make things more
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODUwMTEzNywyODU1MjY0MDEsMzI0OD
-QyMjY0LC0xMDgzMDM1ODAyLDEyNjAxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbLTM3MjI5MTQwMiwyMDE4NTAxMTM3LDI4NT
+UyNjQwMSwzMjQ4NDIyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4
+M119
 -->

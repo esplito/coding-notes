@@ -241,7 +241,8 @@ Regardless of what kind of role you have, there's a few areas that can help you 
 Here's a few things designers should take into consideration to make things more accessible:
 
 - **Colors** → Bold contrast between foreground and background so text is discernible 
-- **Layouts** → should accommodate (and reflow wi) for variable text size and zooming. 
+- **Layouts** → should accommodate (and reflow with responsive web design) for variable text size and zooming. 
+	- Reflow is a success criteria for accessibility
 - **Touch targets** → appropriately sized for human fingers. (example: buttons & links)
 - **Obvious designs for interactive controls**
 - **Allow users to opt-in to motion and animation**
@@ -254,6 +255,6 @@ Here's a few things designers should take into consideration to make things more
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjI3OTk0ODcsMjg1NTI2NDAxLDMyND
-g0MjI2NCwtMTA4MzAzNTgwMiwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbMjAxODUwMTEzNywyODU1MjY0MDEsMzI0OD
+QyMjY0LC0xMDgzMDM1ODAyLDEyNjAxNjkzODNdfQ==
 -->

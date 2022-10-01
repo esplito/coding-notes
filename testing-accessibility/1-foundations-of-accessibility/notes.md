@@ -272,14 +272,16 @@ Marcy says that all of the content on our page should be wrapped inside one of t
 - `article`
 - `aside`
 
-**Takeaway:** These elements allows people using AT to na
+**Takeaway:** These elements allows people using AT to navigate & understand our content even if they can't see the screen.
+
+📖 (More about these can be found in the "Semantic Markup with HTML & ARIA" workshop.) 📖 
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxMzg5MTYxLC05NDg3MzczMjMsMjAxOD
-UwMTEzNywyODU1MjY0MDEsMzI0ODQyMjY0LC0xMDgzMDM1ODAy
-LDEyNjAxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbLTk4MTE4MTY3NiwtOTQ4NzM3MzIzLDIwMT
+g1MDExMzcsMjg1NTI2NDAxLDMyNDg0MjI2NCwtMTA4MzAzNTgw
+MiwxMjYwMTY5MzgzXX0=
 -->

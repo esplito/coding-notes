@@ -244,7 +244,8 @@ Here's a few things designers should take into consideration to make things more
 - **Layouts** → should accommodate (and reflow) for variable text size and zooming. 
 - **Touch targets** → appropriately sized for human fingers. (example: buttons & links)
 - **Obvious designs for interactive controls**
-- Allow users to op
+- **Allow users to opt-in to motion and animation**
+
 
 
 
@@ -253,6 +254,6 @@ Here's a few things designers should take into consideration to make things more
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MjI0NjMwMSwyODU1MjY0MDEsMzI0OD
-QyMjY0LC0xMDgzMDM1ODAyLDEyNjAxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbLTE1NTIwNTUxNzEsMjg1NTI2NDAxLDMyND
+g0MjI2NCwtMTA4MzAzNTgwMiwxMjYwMTY5MzgzXX0=
 -->

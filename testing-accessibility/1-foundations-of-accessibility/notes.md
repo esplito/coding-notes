@@ -232,9 +232,9 @@ Don't assume that everyone knows what these terms mean.
 
 Regardless of what kind of role you have, there's a few areas that can help you create accessible websites (& apps):
 1. Inclusive & intuitive design 🎨
-2. Headings, landmarks and semantic structure 
-3. Text alternatives
-4. Accessible forms
+2. Headings, landmarks and semantic structure 🏛
+3. Text alternatives 🙏
+4. Accessible forms 
 5. Interactivity
 
 ## Useful resources
@@ -242,6 +242,6 @@ Regardless of what kind of role you have, there's a few areas that can help you 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzg5ODc2OTQsMjg1NTI2NDAxLDMyND
-g0MjI2NCwtMTA4MzAzNTgwMiwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbNzcyNTc4MjU3LDI4NTUyNjQwMSwzMjQ4ND
+IyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4M119
 -->

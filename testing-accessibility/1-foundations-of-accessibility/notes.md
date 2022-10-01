@@ -321,7 +321,9 @@ One of the most important accessibility features that is mentioned is adding lab
 
 **Benefits of labels 🥳**
 1. When properly bounded to an input you'll get an increased interactive click area (you can click the label) that will automatically focus you into that input.
-2. 
+2. Screen readers will inform users what the control is for (e.g. "do they want my address or my email?")
+
+🚨 What to avoid 🚨
 
 
 
@@ -330,7 +332,7 @@ One of the most important accessibility features that is mentioned is adding lab
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3MTcwMzg3LDE3ODcxMjkzMDksMTMzOT
+eyJoaXN0b3J5IjpbMjk1NzMzMTA1LDE3ODcxMjkzMDksMTMzOT
 U3MjYzNiwtOTgxMTgxNjc2LC05NDg3MzczMjMsMjAxODUwMTEz
 NywyODU1MjY0MDEsMzI0ODQyMjY0LC0xMDgzMDM1ODAyLDEyNj
 AxNjkzODNdfQ==

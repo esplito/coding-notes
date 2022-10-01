@@ -317,6 +317,9 @@ Then why does this happen so often? Marcy mentions one reason:
 
 So don't do a custom form with divs! Use `<form>` and get lots of accessibility wins for free.
 
+>The good news is that browsers are, they're working on making these things easier to style.
+>Fingers crossed, especially select, ‘cause that one has been the hardest. - Marcy Sutton
+
 🌟 **Side note from myself:** I know that Remix promotes the use of the [FormData Interface](https://developer.mozilla.org/en-US/docs/Web/API/FormData) and I guess that it will become more popular and be very useful when interacting with `<form>`s in for example React.
 
 Form markup gives semantic structure:
@@ -347,8 +350,8 @@ Any sort of feedback that is given to the user when submitting a form incorrectl
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjcwMDM1NCw2NzU1NzA2MTEsLTM5Nz
-E5OTcyOSwxNzg3MTI5MzA5LDEzMzk1NzI2MzYsLTk4MTE4MTY3
-NiwtOTQ4NzM3MzIzLDIwMTg1MDExMzcsMjg1NTI2NDAxLDMyND
-g0MjI2NCwtMTA4MzAzNTgwMiwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbLTExNDc4MTQ0NjksNjc1NTcwNjExLC0zOT
+cxOTk3MjksMTc4NzEyOTMwOSwxMzM5NTcyNjM2LC05ODExODE2
+NzYsLTk0ODczNzMyMywyMDE4NTAxMTM3LDI4NTUyNjQwMSwzMj
+Q4NDIyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4M119
 -->

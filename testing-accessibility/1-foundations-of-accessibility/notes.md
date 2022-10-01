@@ -319,6 +319,8 @@ So don't do a custom form with divs! Use `<form>` and get lots of accessibility 
 
 🌟 **Side note from myself:** I know that Remix promotes the use of the [FormData Interface](https://developer.mozilla.org/en-US/docs/Web/API/FormData) and I guess that it will become more popular and be very useful when interacting with `<form>`s in for example React.
 
+Form markupsemantic structue
+
 One of the most important accessibility features that is mentioned is adding labels to inputs and textareas in a form. 
 
 **Benefits of labels 💁ℹ️**
@@ -337,8 +339,8 @@ Any sort of feedback that is given to the user when submitting a form incorrectl
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyMTk4MDg3LC0zOTcxOTk3MjksMTc4Nz
-EyOTMwOSwxMzM5NTcyNjM2LC05ODExODE2NzYsLTk0ODczNzMy
-MywyMDE4NTAxMTM3LDI4NTUyNjQwMSwzMjQ4NDIyNjQsLTEwOD
-MwMzU4MDIsMTI2MDE2OTM4M119
+eyJoaXN0b3J5IjpbMTk1MDk2NzY1NiwtMzk3MTk5NzI5LDE3OD
+cxMjkzMDksMTMzOTU3MjYzNiwtOTgxMTgxNjc2LC05NDg3Mzcz
+MjMsMjAxODUwMTEzNywyODU1MjY0MDEsMzI0ODQyMjY0LC0xMD
+gzMDM1ODAyLDEyNjAxNjkzODNdfQ==
 -->

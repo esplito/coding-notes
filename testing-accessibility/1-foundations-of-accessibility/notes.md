@@ -328,15 +328,15 @@ One of the most important accessibility features that is mentioned is adding lab
 2. Using input placeholder as label text. (as soon as you start typing you might forget what you are supposed to enter in that field)
 
 **Validation** ✅🚨
-Any sort of feedback that is given to the user when su
+Any sort of feedback that is given to the user when submitting a form incorrectly, should be accessible, so the error text needs to be exposed to assistive technologies.
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQwMTEwMTEsMTc4NzEyOTMwOSwxMz
-M5NTcyNjM2LC05ODExODE2NzYsLTk0ODczNzMyMywyMDE4NTAx
-MTM3LDI4NTUyNjQwMSwzMjQ4NDIyNjQsLTEwODMwMzU4MDIsMT
-I2MDE2OTM4M119
+eyJoaXN0b3J5IjpbLTc5ODgxMzUyNSwxNzg3MTI5MzA5LDEzMz
+k1NzI2MzYsLTk4MTE4MTY3NiwtOTQ4NzM3MzIzLDIwMTg1MDEx
+MzcsMjg1NTI2NDAxLDMyNDg0MjI2NCwtMTA4MzAzNTgwMiwxMj
+YwMTY5MzgzXX0=
 -->

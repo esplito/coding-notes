@@ -257,7 +257,8 @@ Here's a few things designers should take into consideration to make things more
 
 🌟 **Important:** Only one h1 per page and heading levels should increase in order. (h1, h2, h3... h6)🌟
 
-
+🚨 **Common mishandling of HTML headings**🚨
+> Another common mishandling of HTML headings is choosing them based on text size. Styling text is a job for CSS, not HTML! - Marcy Sutton
 
 
 ## Useful resources
@@ -265,7 +266,7 @@ Here's a few things designers should take into consideration to make things more
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDkzNDQwNCwyMDE4NTAxMTM3LDI4NT
+eyJoaXN0b3J5IjpbLTk0ODczNzMyMywyMDE4NTAxMTM3LDI4NT
 UyNjQwMSwzMjQ4NDIyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4
 M119
 -->

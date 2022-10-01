@@ -240,13 +240,14 @@ Regardless of what kind of role you have, there's a few areas that can help you 
 ### Inclusive & intuitive design 🎨
 Here's a few considerations designers should take to make things more accessible:
 
-- Colors 
+- **Colors** → Bold contrast between foreground and background so text is discernible 
+- Layouts → should accommodate for variable text size and zooming. (and reflow)
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzNzc0MTU3LDI4NTUyNjQwMSwzMjQ4ND
+eyJoaXN0b3J5IjpbNDM5NzQ4MTgzLDI4NTUyNjQwMSwzMjQ4ND
 IyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4M119
 -->

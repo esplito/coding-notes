@@ -372,11 +372,13 @@ Small excerpt that I found motivational:
 Let's make the web more accessible! 🥳
 
 ## Useful resources
-TODO: Add useful links from each lesson here.
+- [Alt decision tree - W3C](https://www.w3.org/WAI/tutorials/images/decision-tree/)
+
+TODO: Add more useful links from each lesson here.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODQxMTUwOCwxNTM5ODQ1MzIyLDg1Mz
+eyJoaXN0b3J5IjpbMTU4MDgyODA3NiwxNTM5ODQ1MzIyLDg1Mz
 EyNDk0Myw2NzU1NzA2MTEsLTM5NzE5OTcyOSwxNzg3MTI5MzA5
 LDEzMzk1NzI2MzYsLTk4MTE4MTY3NiwtOTQ4NzM3MzIzLDIwMT
 g1MDExMzcsMjg1NTI2NDAxLDMyNDg0MjI2NCwtMTA4MzAzNTgw

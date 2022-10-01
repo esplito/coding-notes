@@ -234,14 +234,14 @@ Regardless of what kind of role you have, there's a few areas that can help you 
 1. Inclusive & intuitive design 🎨
 2. Headings, landmarks and semantic structure 🏛
 3. Text alternatives 🙏
-4. Accessible forms 
-5. Interactivity
+4. Accessible forms 📝
+5. Interactivity 🖥
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyNTc4MjU3LDI4NTUyNjQwMSwzMjQ4ND
+eyJoaXN0b3J5IjpbLTY2ODA2MDQ5LDI4NTUyNjQwMSwzMjQ4ND
 IyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4M119
 -->

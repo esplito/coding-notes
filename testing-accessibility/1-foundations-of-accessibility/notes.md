@@ -354,14 +354,20 @@ Any sort of feedback that is given to the user when submitting a form incorrectl
 >
 >This doesn’t necessarily mean that the interaction needs to be exactly the same, but there should be a way for someone using assistive technology to complete their task. - Marcy Sutton
 
+Some HTML elements provide keyboard interactivity for free! 🥳
+- `<button>`
+- `<a href="...">`
+- `<details>` & `<summar`
+- 
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzMTI0OTQzLDY3NTU3MDYxMSwtMzk3MT
-k5NzI5LDE3ODcxMjkzMDksMTMzOTU3MjYzNiwtOTgxMTgxNjc2
-LC05NDg3MzczMjMsMjAxODUwMTEzNywyODU1MjY0MDEsMzI0OD
-QyMjY0LC0xMDgzMDM1ODAyLDEyNjAxNjkzODNdfQ==
+eyJoaXN0b3J5IjpbLTIzMDMwNTI1OSw4NTMxMjQ5NDMsNjc1NT
+cwNjExLC0zOTcxOTk3MjksMTc4NzEyOTMwOSwxMzM5NTcyNjM2
+LC05ODExODE2NzYsLTk0ODczNzMyMywyMDE4NTAxMTM3LDI4NT
+UyNjQwMSwzMjQ4NDIyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4
+M119
 -->

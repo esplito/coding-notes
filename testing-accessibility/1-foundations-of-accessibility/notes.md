@@ -310,14 +310,14 @@ Streaming video & audio content have additional considerations which are require
 ### Accessible web forms 📝
 > Forms are a huge part of the web. They’re also one of the most common things that are done wrong. - Marcy Sutton
 
-The above quote says ita
+The above quote says it all, I think. A lot of things on the web revolves around submitting information and for some reason we as developers tend to create UI that does not even utilize the power of the `<form>`-element.
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTg4NDQ0LDEzMzk1NzI2MzYsLTk4MT
-E4MTY3NiwtOTQ4NzM3MzIzLDIwMTg1MDExMzcsMjg1NTI2NDAx
-LDMyNDg0MjI2NCwtMTA4MzAzNTgwMiwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbMTY4NTAxNTQwMSwxMzM5NTcyNjM2LC05OD
+ExODE2NzYsLTk0ODczNzMyMywyMDE4NTAxMTM3LDI4NTUyNjQw
+MSwzMjQ4NDIyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4M119
 -->

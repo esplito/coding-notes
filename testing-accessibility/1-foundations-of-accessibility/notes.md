@@ -284,14 +284,18 @@ Examples:
 - `<button>`
 - `<table>`
 
-Developers often then to build their own custom buttons
+Developers often tend to build their own custom buttons and tables and this either leads to a lot of work needed to support AT or that accessibility concerns are ignored.  Please don't do that 
+
+>Using semantic elements can provide better support for assistive technologies by default. It also ends up being less work than if we had to add accessibility features manually.
+>
+>Work smarter, not harder!
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NzI4NTA2OCwtOTgxMTgxNjc2LC05ND
+eyJoaXN0b3J5IjpbLTY3MzQ1NDk1MiwtOTgxMTgxNjc2LC05ND
 g3MzczMjMsMjAxODUwMTEzNywyODU1MjY0MDEsMzI0ODQyMjY0
 LC0xMDgzMDM1ODAyLDEyNjAxNjkzODNdfQ==
 -->

@@ -292,14 +292,16 @@ Developers often tend to build their own custom buttons and tables and this eith
 >
 >Work smarter, not harder! - Marcy Sutton
 
-💡
+💡 Assistive technologies (AT) can navigate by collections of semantic elements. 💡
+
+##Text alternatives 🙏
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Mzk3OTg4MywtOTgxMTgxNjc2LC05ND
+eyJoaXN0b3J5IjpbMTQyNzI4NjYwOCwtOTgxMTgxNjc2LC05ND
 g3MzczMjMsMjAxODUwMTEzNywyODU1MjY0MDEsMzI0ODQyMjY0
 LC0xMDgzMDM1ODAyLDEyNjAxNjkzODNdfQ==
 -->

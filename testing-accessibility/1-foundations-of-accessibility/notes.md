@@ -260,13 +260,17 @@ Here's a few things designers should take into consideration to make things more
 🚨 **Common mishandling of HTML headings**🚨
 > Another common mishandling of HTML headings is choosing them based on text size. Styling text is a job for CSS, not HTML! - Marcy Sutton
 
+### HTML Landmarks 🏛
+> HTML5 landmark elements give us a method to wrap our content into semantic sections. - Marcy Sutton
+
+
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODczNzMyMywyMDE4NTAxMTM3LDI4NT
-UyNjQwMSwzMjQ4NDIyNjQsLTEwODMwMzU4MDIsMTI2MDE2OTM4
-M119
+eyJoaXN0b3J5IjpbLTE3MTE5NDE4MDUsLTk0ODczNzMyMywyMD
+E4NTAxMTM3LDI4NTUyNjQwMSwzMjQ4NDIyNjQsLTEwODMwMzU4
+MDIsMTI2MDE2OTM4M119
 -->

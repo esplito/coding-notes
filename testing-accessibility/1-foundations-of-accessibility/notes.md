@@ -283,7 +283,8 @@ Examples:
 - `<ol>`
 - `<button>`
 - `<table>`
-- ``
+- `<figure>`
+- `<hr>`
 
 Developers often tend to build their own custom buttons and tables and this either leads to a lot of work needed to support AT or that accessibility concerns are ignored.  It is **not recommended** 😅
 
@@ -296,7 +297,7 @@ Developers often tend to build their own custom buttons and tables and this eith
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTU4Mzk5NiwtOTgxMTgxNjc2LC05ND
+eyJoaXN0b3J5IjpbMTg3MTMzMzcxNSwtOTgxMTgxNjc2LC05ND
 g3MzczMjMsMjAxODUwMTEzNywyODU1MjY0MDEsMzI0ODQyMjY0
 LC0xMDgzMDM1ODAyLDEyNjAxNjkzODNdfQ==
 -->

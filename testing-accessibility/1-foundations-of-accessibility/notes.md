@@ -267,14 +267,19 @@ Marcy says that all of the content on our page should be wrapped inside one of t
 - `header`
 - `nav`
 - `main`
-- ``
+- `footer`
+- `section`
+- `article`
+- `aside`
+
+**Takeaway:** These elements allows people using AT to na
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQ0NTAxNSwtOTQ4NzM3MzIzLDIwMT
-g1MDExMzcsMjg1NTI2NDAxLDMyNDg0MjI2NCwtMTA4MzAzNTgw
-MiwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbNzIxMzg5MTYxLC05NDg3MzczMjMsMjAxOD
+UwMTEzNywyODU1MjY0MDEsMzI0ODQyMjY0LC0xMDgzMDM1ODAy
+LDEyNjAxNjkzODNdfQ==
 -->

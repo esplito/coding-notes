@@ -238,18 +238,21 @@ Regardless of what kind of role you have, there's a few areas that can help you 
 5. Interactivity 🖥
 
 ### Inclusive & intuitive design 🎨
-Here's a few considerations designers should take to make things more accessible:
+Here's a few things designers should take into consideration to make things more accessible:
 
 - **Colors** → Bold contrast between foreground and background so text is discernible 
 - **Layouts** → should accommodate (and reflow) for variable text size and zooming. 
 - **Touch targets** → appropriately sized for human fingers. (example: buttons & links)
-- 
+- **Obvious designs for interactive controls**
+- Allow users to op
+
+
 
 ## Useful resources
 
 TODO: Add useful links from each lesson here.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDY0MzA2NTAsMjg1NTI2NDAxLDMyND
-g0MjI2NCwtMTA4MzAzNTgwMiwxMjYwMTY5MzgzXX0=
+eyJoaXN0b3J5IjpbLTU1MjI0NjMwMSwyODU1MjY0MDEsMzI0OD
+QyMjY0LC0xMDgzMDM1ODAyLDEyNjAxNjkzODNdfQ==
 -->

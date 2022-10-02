@@ -52,6 +52,10 @@ It is quite common that brand colors don't meet requirements for contrast → th
 **How can fix this is we run into this issue?**
 ✅ Talk to brand designers and other stakeholders and make it clear that the colors will need to be changed.
 
+The outcome might be:
+- You need another set of colors
+- Designers need to set rules for when certain colors can not be combined.
+
 
 #### Mobile Accessibility Issues
 
@@ -67,5 +71,6 @@ TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDU2NzYyMSwtMTkyNTc1NDQyMF19
+eyJoaXN0b3J5IjpbLTE3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ
+==
 -->

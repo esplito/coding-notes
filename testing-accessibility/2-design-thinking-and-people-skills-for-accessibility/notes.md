@@ -41,6 +41,7 @@ In the course we'll treat WCAG as a policy rather than a strict requirement.
 ## Section 2 - Accessibility as User Experience
 > After this section, you will be able to **identify accessibility problems elsewhere in the organization** and figure out **how to persuade the stakeholders in power positions effectively**. - Marcy Sutton
 
+### Lesson 1 - Accessibility Issues Outside the Development Phase
 
 
 
@@ -49,5 +50,5 @@ TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTY1MDUwLC0xOTI1NzU0NDIwXX0=
+eyJoaXN0b3J5IjpbLTk1ODI1OTU2NywtMTkyNTc1NDQyMF19
 -->

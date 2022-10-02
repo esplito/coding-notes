@@ -45,7 +45,11 @@ In the course we'll treat WCAG as a policy rather than a strict requirement.
 > In this lesson, we’ll talk about common “non-code” accessibility situations and approaches for solving them. - Marcy Sutton
 
 #### Inaccessible Brand Colors
-💡 [Accessible Brand Colors by Use All Five](https://abc.useallfive.com/) can be used to find colors that work better together with accessi
+It is quite common that brand colors don't meet requirements for contrast → they don't have sufficient contrast between foreground and background colors.
+
+💡 [Accessible Brand Colors by Use All Five](https://abc.useallfive.com/) can be used to find colors that work better together with accessibility in mind 💡
+
+
 
 #### Mobile Accessibility Issues
 
@@ -61,5 +65,5 @@ TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1ODE4NDA1LC0xOTI1NzU0NDIwXX0=
+eyJoaXN0b3J5IjpbLTQ5MTEyMDM1OSwtMTkyNTc1NDQyMF19
 -->

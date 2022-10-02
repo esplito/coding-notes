@@ -15,12 +15,15 @@ By making it a _core part_ of the product design process and addressing it earli
 - Accessibility in the different parts of the software development life cycle (SDLC)
 - How to advocate and expand accessibility across more roles than developers.
 - The ability to recognize what's at stake without digital access and the impact it could have if we don't make things accessible.
-- How to collaborate in the design phase → to share feedback earlier
+- How to collaborate in the design phase → to share feedback earlier so that it not just coded with accessibility in mind, but also designed with it in mind!
+- The ability to solve problems and validate ideas before implementing them.
+- The mechanics of building a
 
 ## Useful resources
 TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDI3MjYzOCwtMTkyNTc1NDQyMF19
+eyJoaXN0b3J5IjpbLTE5MDk3ODExODEsLTE5MjU3NTQ0MjBdfQ
+==
 -->

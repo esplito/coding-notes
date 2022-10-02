@@ -67,10 +67,12 @@ The outcome might be:
 
 
 ## Useful resources
-TODO: Add useful links.
+TODO: Add more  useful links.
+- [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- [Accessible Brand Colors by Use All Five](https://abc.useallfive.com/) 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ
-==
+eyJoaXN0b3J5IjpbLTExMTI4NjI4NzQsLTE3OTEzOTMxODMsLT
+E5MjU3NTQ0MjBdfQ==
 -->

@@ -22,6 +22,8 @@ By making it a _core part_ of the product design process and addressing it earli
 ### WCAG Overview
 >An essential piece of the puzzle is WCAG. Getting to know [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/) will be critical to working with accessibility on teams. - Marcy Sutton
 
+When Marcy recorded the video, WCAG Version 2.2 was estimated to be out in September 2022 (it is now estimated for Dec
+
 Guideline categories:
 - Perceivable 👀
 - Operable 🕹
@@ -42,5 +44,5 @@ TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0OTQ0NjMwNywtMTkyNTc1NDQyMF19
+eyJoaXN0b3J5IjpbLTU4OTUwNDAxNiwtMTkyNTc1NDQyMF19
 -->

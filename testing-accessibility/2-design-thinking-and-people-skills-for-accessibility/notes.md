@@ -19,11 +19,19 @@ By making it a _core part_ of the product design process and addressing it earli
 - The ability to **solve problems and validate ideas before implementing** them. ✅
 - The mechanics of **building a culture of accessibility** across your team and organization. 🙏
 
+### WCAG Overview
+>An essential piece of the puzzle is WCAG. Getting to know [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/) will be critical to working with accessibility on teams. - Marcy Sutton
+
+Guideline categories:
+- Perceivable 
+- Operable
+- Understandable
+
 ## Useful resources
 TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzM2NDYxMjQsLTE5MjU3NTQ0MjBdfQ
+eyJoaXN0b3J5IjpbLTEzMjA5ODk3NTMsLTE5MjU3NTQ0MjBdfQ
 ==
 -->

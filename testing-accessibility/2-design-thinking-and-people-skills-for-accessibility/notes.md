@@ -42,6 +42,8 @@ In the course we'll treat WCAG as a policy rather than a strict requirement.
 > After this section, you will be able to **identify accessibility problems elsewhere in the organization** and figure out **how to persuade the stakeholders in power positions effectively**. - Marcy Sutton
 
 ### Lesson 1 - Accessibility Issues Outside the Development Phase
+> In this lesson, we’ll talk about common “non-code” accessibility situations and approaches for solving them. - Marcy Sutton
+
 
 
 
@@ -50,5 +52,6 @@ TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODI1OTU2NywtMTkyNTc1NDQyMF19
+eyJoaXN0b3J5IjpbLTE0NzIyMjMzMDgsLTE5MjU3NTQ0MjBdfQ
+==
 -->

@@ -44,7 +44,15 @@ In the course we'll treat WCAG as a policy rather than a strict requirement.
 ### Lesson 1 - Accessibility Issues Outside the Development Phase
 > In this lesson, we’ll talk about common “non-code” accessibility situations and approaches for solving them. - Marcy Sutton
 
+#### Inaccessible Brand Colors
 
+#### Mobile Accessibility Issues
+
+#### Icon Buttons without Text Labels
+
+#### Embedded Content with Accessiblity Problems
+
+#### Inaccessible Overlay Solutions
 
 
 ## Useful resources
@@ -52,6 +60,6 @@ TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzIyMjMzMDgsLTE5MjU3NTQ0MjBdfQ
+eyJoaXN0b3J5IjpbLTE4NTQxNDUxODEsLTE5MjU3NTQ0MjBdfQ
 ==
 -->

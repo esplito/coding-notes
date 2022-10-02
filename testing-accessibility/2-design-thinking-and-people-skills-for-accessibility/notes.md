@@ -14,13 +14,13 @@ By making it a _core part_ of the product design process and addressing it earli
 **What will we learn in this module?**
 - Accessibility in the different parts of the software development life cycle (SDLC)
 - How to advocate and expand accessibility across more roles than developers.
-- The ability to recognize what's at stake wi
+- The ability to recognize what's at stake without digital access and the impact it could have if we don't make things accessible.
+- How to collaborate in the design phase → to share feedback earlier
 
 ## Useful resources
 TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTY3OTE0ODIsLTE5MjU3NTQ0MjBdfQ
-==
+eyJoaXN0b3J5IjpbLTczNDI3MjYzOCwtMTkyNTc1NDQyMF19
 -->

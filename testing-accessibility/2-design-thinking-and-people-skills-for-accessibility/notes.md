@@ -49,6 +49,8 @@ It is quite common that brand colors don't meet requirements for contrast → th
 
 💡 [Accessible Brand Colors by Use All Five](https://abc.useallfive.com/) can be used to find colors that work better together with accessibility in mind 💡
 
+**How can fix this is we run into this issue?**
+✅ Talk to brand designers and other stakeholders and make it clear that the colors will need to be changed.
 
 
 #### Mobile Accessibility Issues
@@ -65,5 +67,5 @@ TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTEyMDM1OSwtMTkyNTc1NDQyMF19
+eyJoaXN0b3J5IjpbLTI4MDU2NzYyMSwtMTkyNTc1NDQyMF19
 -->

@@ -22,7 +22,7 @@ By making it a _core part_ of the product design process and addressing it earli
 ### WCAG Overview
 >An essential piece of the puzzle is WCAG. Getting to know [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/) will be critical to working with accessibility on teams. - Marcy Sutton
 
-When Marcy recorded the video, WCAG Version 2.2 was estimated to be out in September 2022 (it is now estimated for Dec
+When Marcy recorded the video, WCAG Version 2.2 was estimated to be out in September 2022 (it is now estimated to be out Dec. 2022).
 
 Guideline categories:
 - Perceivable 👀
@@ -35,7 +35,7 @@ In the course we'll treat WCAG as a policy rather than a strict requirement.
 **What will be covered?**
 - How to decide which version to choose for your organization.
 - How to find answers to accessibility questions (even WCAG feels vague/complex)
-- WCAG Silver
+- WCAG Silver (complete rethink of WCAG)
 - How to stay up to date with upcoming changes
 
 
@@ -44,5 +44,6 @@ TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTUwNDAxNiwtMTkyNTc1NDQyMF19
+eyJoaXN0b3J5IjpbLTEwMzQ0MzU1NjIsLTE5MjU3NTQ0MjBdfQ
+==
 -->

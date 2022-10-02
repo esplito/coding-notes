@@ -30,6 +30,11 @@ Guideline categories:
 
 In the course we'll treat WCAG as a policy rather than a strict requirement.
 
+**What will be covered?**
+- How to decide which version to choose for your organization.
+- How to find answers to accessibility questions (even WCAG feels vague/complex)
+- WCAG Silver
+- How to stay up to date with upcoming changes
 
 
 ## Useful resources
@@ -37,5 +42,5 @@ TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjU2NTUwMiwtMTkyNTc1NDQyMF19
+eyJoaXN0b3J5IjpbMTA0OTQ0NjMwNywtMTkyNTc1NDQyMF19
 -->

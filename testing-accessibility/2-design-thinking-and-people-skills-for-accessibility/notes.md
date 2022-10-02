@@ -38,12 +38,16 @@ In the course we'll treat WCAG as a policy rather than a strict requirement.
 - WCAG Silver (complete rethink of WCAG)
 - How to stay up to date with upcoming changes
 
-## Lesson 2
+## Section 2 - Accessibility as User Experience
+> After this section, you will be able to **identify accessibility problems elsewhere in the organization** and figure out **how to persuade the stakeholders in power positions effectively**. - Marcy Sutton
+
+
+
 
 ## Useful resources
 TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTI0OTc5NywtMTkyNTc1NDQyMF19
+eyJoaXN0b3J5IjpbLTg0NTY1MDUwLC0xOTI1NzU0NDIwXX0=
 -->

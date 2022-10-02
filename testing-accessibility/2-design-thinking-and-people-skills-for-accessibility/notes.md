@@ -23,15 +23,19 @@ By making it a _core part_ of the product design process and addressing it earli
 >An essential piece of the puzzle is WCAG. Getting to know [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/) will be critical to working with accessibility on teams. - Marcy Sutton
 
 Guideline categories:
-- Perceivable 
-- Operable
-- Understandable
+- Perceivable 👀
+- Operable 🕹
+- Understandable 🤔
+- Robust 💪
+
+In the course we'll treat WCAG as a policy rather than a strict requirement.
+
+
 
 ## Useful resources
 TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA5ODk3NTMsLTE5MjU3NTQ0MjBdfQ
-==
+eyJoaXN0b3J5IjpbLTQ5NjU2NTUwMiwtMTkyNTc1NDQyMF19
 -->

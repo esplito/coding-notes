@@ -12,8 +12,8 @@ Github repo: https://github.com/testing-accessibility/workshop-design-people-ski
 By making it a _core part_ of the product design process and addressing it earlier than development.
 
 **What will we learn in this module?**
-- Accessibility in the **different parts of the software development life cycle** (SDLC)
-- How to **advocate and expand** accessibility **across more roles** than developers.
+- Accessibility in the **different parts of the software development life cycle** (SDLC) ♻
+- How to **advocate and expand** accessibility **across more roles** than developers. 
 - The ability to recognize what's at stake without digital access and **the impact it could have if we don't make things accessible**.
 - How to **collaborate in the design phase** → to share feedback earlier so that it not just coded with accessibility in mind, but also designed with it in mind!
 - The ability to **solve problems and validate ideas before implementing** them.
@@ -24,5 +24,5 @@ TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1NTkyNzk5LC0xOTI1NzU0NDIwXX0=
+eyJoaXN0b3J5IjpbNDI5OTg4MDAyLC0xOTI1NzU0NDIwXX0=
 -->

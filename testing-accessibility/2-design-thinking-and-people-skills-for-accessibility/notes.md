@@ -50,7 +50,7 @@ In the course we'll treat WCAG as a policy rather than a strict requirement.
 
 #### Icon Buttons without Text Labels
 
-#### Embedded Content with Accessiblity Problems
+#### Embedded Content with Accessibility Problems
 
 #### Inaccessible Overlay Solutions
 
@@ -60,6 +60,5 @@ TODO: Add useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQxNDUxODEsLTE5MjU3NTQ0MjBdfQ
-==
+eyJoaXN0b3J5IjpbNDMwNzM1NDkyLC0xOTI1NzU0NDIwXX0=
 -->

@@ -36,8 +36,10 @@ _Relative positioning_ moves the element without affecting the surrounding eleme
 
 > If we don't give our absolute element an anchor, **it sits in its default in-flow position**. I think of it as "inheriting" its default position from Flow layout.
 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzc1MTkzOCwtNDYxMTEyMDg2LDE0Mz
+eyJoaXN0b3J5IjpbMTAxODA0OTExOCwtNDYxMTEyMDg2LDE0Mz
 c1OTMzNjcsMTMxMjYzMzMxMF19
 -->

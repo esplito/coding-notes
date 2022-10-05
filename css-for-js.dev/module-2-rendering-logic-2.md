@@ -30,9 +30,10 @@ _Relative positioning_ moves the element without affecting the surrounding eleme
 
 > Finally, it's important to note that relative positioning can be applied to _both block and inline elements_. This allows us to nudge inline elements in a way that isn't really possible otherwise.
 
+## Absolute Positioning
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3NTk5MTUxLDEzMTI2MzMzMTBdfQ==
+eyJoaXN0b3J5IjpbMTQzNzU5MzM2NywxMzEyNjMzMzEwXX0=
 -->

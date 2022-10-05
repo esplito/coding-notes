@@ -6,11 +6,18 @@
 
 Default value of `position` is `static`.
 
+```css
+.box  {
+  /* Revert to its default value, which is ‘static’ */
+  position: initial;
+}
+```
+
 ## Relative Positioning
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzM2Nzg1NV19
+eyJoaXN0b3J5IjpbMTMxMjYzMzMxMF19
 -->

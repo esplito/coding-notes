@@ -43,8 +43,10 @@ Josh says the following about absolutely positioned elements 👻:
 **When is it handy?**
 >Being able to take elements out-of-flow is super handy. Any time you want an element to be "floating above" the content, like a tooltip or a dropdown or a modal, absolute positioning is your friend.
 
+## Centering Trick
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Njg5MjQ1MSwtNDYxMTEyMDg2LDE0Mz
-c1OTMzNjcsMTMxMjYzMzMxMF19
+eyJoaXN0b3J5IjpbMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00Nj
+ExMTIwODYsMTQzNzU5MzM2NywxMzEyNjMzMzEwXX0=
 -->

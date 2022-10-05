@@ -36,10 +36,10 @@ _Relative positioning_ moves the element without affecting the surrounding eleme
 
 > If we don't give our absolute element an anchor, **it sits in its default in-flow position**. I think of it as "inheriting" its default position from Flow layout.
 
-
+> It causes the absolute element to stack on top of the surrounding text.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODA0OTExOCwtNDYxMTEyMDg2LDE0Mz
-c1OTMzNjcsMTMxMjYzMzMxMF19
+eyJoaXN0b3J5IjpbLTEwMjYxOTIwNDUsLTQ2MTExMjA4NiwxND
+M3NTkzMzY3LDEzMTI2MzMzMTBdfQ==
 -->

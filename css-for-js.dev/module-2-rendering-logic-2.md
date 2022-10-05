@@ -4,11 +4,13 @@
 > >
 > The defining feature of positioned layout is that items can overlap. The Flow Layout algorithm tries very hard to make sure that multiple elements never occupy the same pixels. With positioned layout, however, we can break out of the box.
 
+Default value of `position` is `static`.
+
 ## Relative Positioning
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTQ3MDMxMV19
+eyJoaXN0b3J5IjpbLTQxNzM2Nzg1NV19
 -->

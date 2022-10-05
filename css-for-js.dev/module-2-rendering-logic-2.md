@@ -35,11 +35,13 @@ _Relative positioning_ moves the element without affecting the surrounding eleme
 > Absolutely-positioned elements are adjusted based on their container, not based on their in-flow position.
 
 > If we don't give our absolute element an anchor, **it sits in its default in-flow position**. I think of it as "inheriting" its default position from Flow layout.
-
 > It causes the absolute element to stack on top of the surrounding text.
+
+**When is it handy?**
+>Being able to take elements out-of-flow is super handy. Any time you want an element to be "floating above" the content, like a tooltip or a dropdown or a modal, absolute positioning is your friend.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjYxOTIwNDUsLTQ2MTExMjA4NiwxND
+eyJoaXN0b3J5IjpbLTE1MjU4MTgzOTUsLTQ2MTExMjA4NiwxND
 M3NTkzMzY3LDEzMTI2MzMzMTBdfQ==
 -->

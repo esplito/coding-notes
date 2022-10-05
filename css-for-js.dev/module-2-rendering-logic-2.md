@@ -30,7 +30,7 @@ _Relative positioning_ moves the element without affecting the surrounding eleme
 
 > Finally, it's important to note that relative positioning can be applied to _both block and inline elements_. This allows us to nudge inline elements in a way that isn't really possible otherwise.
 
-## Absolute Positioning
+## Absolute Positioning 👻
 
 > Absolutely-positioned elements are adjusted based on their container, not based on their in-flow position.
 
@@ -45,6 +45,6 @@ Josh says the following about absolutely positioned elements 👻:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjI4Mzk5NSwtNDYxMTEyMDg2LDE0Mz
+eyJoaXN0b3J5IjpbLTY0Njg5MjQ1MSwtNDYxMTEyMDg2LDE0Mz
 c1OTMzNjcsMTMxMjYzMzMxMF19
 -->

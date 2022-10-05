@@ -32,8 +32,12 @@ _Relative positioning_ moves the element without affecting the surrounding eleme
 
 ## Absolute Positioning
 
+> Absolutely-positioned elements are adjusted based on their container, not based on their in-flow position.
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzU5MzM2NywxMzEyNjMzMzEwXX0=
+eyJoaXN0b3J5IjpbLTQ2MTExMjA4NiwxNDM3NTkzMzY3LDEzMT
+I2MzMzMTBdfQ==
 -->

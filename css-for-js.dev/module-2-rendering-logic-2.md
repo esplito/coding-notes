@@ -15,6 +15,10 @@ Default value of `position` is `static`.
 
 ## Relative Positioning
 
+`position: relative` does two things:
+1.  Constrains certain children
+2.  Enables additional CSS properties to be used.
+
 When opting into _Positioned Layout_ we get access to the following properties:
 - `top`
 - `bottom`
@@ -23,10 +27,9 @@ When opting into _Positioned Layout_ we get access to the following properties:
 
 _Relative positioning_ moves the element without affecting the surrounding elements, whereas _margin_ affects & moves the surrounding elements.
 
-
 > Finally, it's important to note that relative positioning can be applied to _both block and inline elements_. This allows us to nudge inline elements in a way that isn't really possible otherwise.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzM4NzU0NCwxMzEyNjMzMzEwXX0=
+eyJoaXN0b3J5IjpbNTM1MTE0MTIzLDEzMTI2MzMzMTBdfQ==
 -->

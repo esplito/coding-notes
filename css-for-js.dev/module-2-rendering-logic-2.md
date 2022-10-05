@@ -16,12 +16,15 @@ Default value of `position` is `static`.
 ## Relative Positioning
 
 When opting into _Positioned Layout_ we get access to the following properties:
-- 
+- `top`
+- `bottom`
+- `left`
+- `right`
 
 
 > Finally, it's important to note that relative positioning can be applied to _both block and inline elements_. This allows us to nudge inline elements in a way that isn't really possible otherwise.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODQyNTAyNiwxMzEyNjMzMzEwXX0=
+eyJoaXN0b3J5IjpbLTEwMDIzNjAwMjYsMTMxMjYzMzMxMF19
 -->

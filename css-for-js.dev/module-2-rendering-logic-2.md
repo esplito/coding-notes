@@ -26,6 +26,7 @@ When opting into _Positioned Layout_ we get access to the following properties:
 - `right`
 
 _Relative positioning_ moves the element without affecting the surrounding elements, whereas _margin_ affects & moves the surrounding elements.
+> The big difference is that **`position`  doesn't impact layout.**
 
 > Finally, it's important to note that relative positioning can be applied to _both block and inline elements_. This allows us to nudge inline elements in a way that isn't really possible otherwise.
 
@@ -33,5 +34,5 @@ _Relative positioning_ moves the element without affecting the surrounding eleme
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjM5NjY5NywxMzEyNjMzMzEwXX0=
+eyJoaXN0b3J5IjpbOTM3NTk5MTUxLDEzMTI2MzMzMTBdfQ==
 -->

@@ -45,8 +45,10 @@ Josh says the following about absolutely positioned elements 👻:
 
 ## Centering Trick
 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00Nj
-ExMTIwODYsMTQzNzU5MzM2NywxMzEyNjMzMzEwXX0=
+eyJoaXN0b3J5IjpbLTE2NTk3MjIxMDUsMTE4MjExNTQ4MSwtNj
+Q2ODkyNDUxLC00NjExMTIwODYsMTQzNzU5MzM2NywxMzEyNjMz
+MzEwXX0=
 -->

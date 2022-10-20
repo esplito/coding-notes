@@ -77,10 +77,12 @@ This trick can be useful when creating, modals, drawers or dialog boxes.
 
 This is why absolute elements behave like rebellious teenagers and move outside of their containing block (parent).  If we want them to be contained by their parent then we need to add `position: relative` to the parent.
 
+ℹ️ By "containing block" we mean the element that surrounds our element. Example `<div class="parent"><p class="child"></p></div>`
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTY0MTk1MywtMTQ0MTY0MjM4OCwtMj
+eyJoaXN0b3J5IjpbMTgwMjQwNTAxOSwtMTQ0MTY0MjM4OCwtMj
 E0MDI2MzAwLC0xNjU5NzIyMTA1LDExODIxMTU0ODEsLTY0Njg5
 MjQ1MSwtNDYxMTEyMDg2LDE0Mzc1OTMzNjcsMTMxMjYzMzMxMF
 19

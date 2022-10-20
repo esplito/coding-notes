@@ -69,10 +69,13 @@ Example code:
 
 It will not be centered if the above conditions are not met.
 
+This trick can be useful when creating, modals, drawers or dialog boxes.
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTUwMzM3MywtMjE0MDI2MzAwLC0xNj
-U5NzIyMTA1LDExODIxMTU0ODEsLTY0Njg5MjQ1MSwtNDYxMTEy
-MDg2LDE0Mzc1OTMzNjcsMTMxMjYzMzMxMF19
+eyJoaXN0b3J5IjpbNDg5MjQ3Nzg0LC0yMTQwMjYzMDAsLTE2NT
+k3MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00NjExMTIw
+ODYsMTQzNzU5MzM2NywxMzEyNjMzMzEwXX0=
 -->

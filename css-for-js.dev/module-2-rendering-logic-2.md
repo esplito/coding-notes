@@ -82,11 +82,14 @@ This is why absolute elements behave like rebellious teenagers and move outside 
 **But how does it work? 🤔**
 >When deciding where to place an absolutely-positioned element, it crawls up through the tree, looking for a Positioned ancestor. The first one it finds will provide the containing block.
 
+**And what if it does not find one? 🫢**
+> In this case, the element will be positioned according to the **“initial containing block”**. This is a box the size of the viewport, right at the top of the document.
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1MTg2NTYxLC0xNDQxNjQyMzg4LC0yMT
+eyJoaXN0b3J5IjpbMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMT
 QwMjYzMDAsLTE2NTk3MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODky
 NDUxLC00NjExMTIwODYsMTQzNzU5MzM2NywxMzEyNjMzMzEwXX
 0=

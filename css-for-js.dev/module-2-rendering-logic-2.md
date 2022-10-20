@@ -79,11 +79,15 @@ This is why absolute elements behave like rebellious teenagers and move outside 
 
 ℹ️ By "containing block" we mean the element that surrounds our element. Example `<div class="parent"><p class="child"></p></div>`
 
+**But how does it work? 🤔**
+>When deciding where to place an absolutely-positioned element, it crawls up through the tree, looking for a Positioned ancestor. The first one it finds will provide the containing block.
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjQwNTAxOSwtMTQ0MTY0MjM4OCwtMj
-E0MDI2MzAwLC0xNjU5NzIyMTA1LDExODIxMTU0ODEsLTY0Njg5
-MjQ1MSwtNDYxMTEyMDg2LDE0Mzc1OTMzNjcsMTMxMjYzMzMxMF
-19
+eyJoaXN0b3J5IjpbOTE1MTg2NTYxLC0xNDQxNjQyMzg4LC0yMT
+QwMjYzMDAsLTE2NTk3MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODky
+NDUxLC00NjExMTIwODYsMTQzNzU5MzM2NywxMzEyNjMzMzEwXX
+0=
 -->

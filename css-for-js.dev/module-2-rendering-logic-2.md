@@ -71,11 +71,13 @@ It will not be centered if the above conditions are not met.
 
 This trick can be useful when creating, modals, drawers or dialog boxes.
 
+## Containing Blocks
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5MjQ3Nzg0LC0yMTQwMjYzMDAsLTE2NT
-k3MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00NjExMTIw
-ODYsMTQzNzU5MzM2NywxMzEyNjMzMzEwXX0=
+eyJoaXN0b3J5IjpbLTE0NDE2NDIzODgsLTIxNDAyNjMwMCwtMT
+Y1OTcyMjEwNSwxMTgyMTE1NDgxLC02NDY4OTI0NTEsLTQ2MTEx
+MjA4NiwxNDM3NTkzMzY3LDEzMTI2MzMzMTBdfQ==
 -->

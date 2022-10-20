@@ -89,10 +89,13 @@ This is why absolute elements behave like rebellious teenagers and move outside 
 
 Margins affects the position of an absolute positioned element, while padding does not.
 
+>When you place an absolute item _without_ specifying top/left/right/bottom, it sits where it would otherwise sit in its in-flow position, but it's incorporeal, it doesn't take up any space.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzkwMzA1MTMsLTEwMjUxNzc2NDMsMj
-MzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMDAsLTE2NTk3
-MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00NjExMTIwOD
-YsMTQzNzU5MzM2NywxMzEyNjMzMzEwXX0=
+eyJoaXN0b3J5IjpbMTIyNjE4MTE3MSwtMTgzOTAzMDUxMywtMT
+AyNTE3NzY0MywyMzMyNTAwMTMsLTE0NDE2NDIzODgsLTIxNDAy
+NjMwMCwtMTY1OTcyMjEwNSwxMTgyMTE1NDgxLC02NDY4OTI0NT
+EsLTQ2MTExMjA4NiwxNDM3NTkzMzY3LDEzMTI2MzMzMTBdfQ==
+
 -->

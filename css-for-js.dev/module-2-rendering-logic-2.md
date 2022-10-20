@@ -85,12 +85,12 @@ This is why absolute elements behave like rebellious teenagers and move outside 
 **And what if it does not find one? 🫢**
 > In this case, the element will be positioned according to the **“initial containing block”**. This is a box the size of the viewport, right at the top of the document.
 
-
+>It doesn't matter how many parent elements are wrapping the child, it will ignore all of them until it finds a `position`. It doesn't have to be `relative`, as seen here, but it has to use Positioned layout. `absolute`, `fixed`, and `sticky` will also work
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMT
-QwMjYzMDAsLTE2NTk3MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODky
-NDUxLC00NjExMTIwODYsMTQzNzU5MzM2NywxMzEyNjMzMzEwXX
-0=
+eyJoaXN0b3J5IjpbLTEwMjUxNzc2NDMsMjMzMjUwMDEzLC0xND
+QxNjQyMzg4LC0yMTQwMjYzMDAsLTE2NTk3MjIxMDUsMTE4MjEx
+NTQ4MSwtNjQ2ODkyNDUxLC00NjExMTIwODYsMTQzNzU5MzM2Ny
+wxMzEyNjMzMzEwXX0=
 -->

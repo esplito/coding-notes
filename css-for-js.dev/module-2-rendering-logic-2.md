@@ -67,10 +67,12 @@ Example code:
 >-   A fixed size (defined  `width`  and  `height`  properties)
 >-   Hungry margins (`margin: auto`)
 
+It will not be centered if the above conditions are not met.
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDAyNjMwMCwtMTY1OTcyMjEwNSwxMT
-gyMTE1NDgxLC02NDY4OTI0NTEsLTQ2MTExMjA4NiwxNDM3NTkz
-MzY3LDEzMTI2MzMzMTBdfQ==
+eyJoaXN0b3J5IjpbMTE4MTUwMzM3MywtMjE0MDI2MzAwLC0xNj
+U5NzIyMTA1LDExODIxMTU0ODEsLTY0Njg5MjQ1MSwtNDYxMTEy
+MDg2LDE0Mzc1OTMzNjcsMTMxMjYzMzMxMF19
 -->

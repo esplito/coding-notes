@@ -85,12 +85,14 @@ This is why absolute elements behave like rebellious teenagers and move outside 
 **And what if it does not find one? 🫢**
 > In this case, the element will be positioned according to the **“initial containing block”**. This is a box the size of the viewport, right at the top of the document.
 
->It doesn't matter how many parent elements are wrapping the child, it will ignore all of them until it finds a `position`. It doesn't have to be `relative`, as seen here, but it has to use Positioned layout. `absolute`, `fixed`, and `sticky` will also work
+>It doesn't matter how many parent elements are wrapping the child, it will ignore all of them until it finds a `position`. It doesn't have to be `relative`, as seen here, but it has to use Positioned layout. `absolute`, `fixed`, and `sticky` will also work.
+
+Margins affects the position of an absolute positioned element, while padding of the containing block does not.  
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjUxNzc2NDMsMjMzMjUwMDEzLC0xND
-QxNjQyMzg4LC0yMTQwMjYzMDAsLTE2NTk3MjIxMDUsMTE4MjEx
-NTQ4MSwtNjQ2ODkyNDUxLC00NjExMTIwODYsMTQzNzU5MzM2Ny
-wxMzEyNjMzMzEwXX0=
+eyJoaXN0b3J5IjpbLTUxMDg5Mzc5NiwtMTAyNTE3NzY0MywyMz
+MyNTAwMTMsLTE0NDE2NDIzODgsLTIxNDAyNjMwMCwtMTY1OTcy
+MjEwNSwxMTgyMTE1NDgxLC02NDY4OTI0NTEsLTQ2MTExMjA4Ni
+wxNDM3NTkzMzY3LDEzMTI2MzMzMTBdfQ==
 -->

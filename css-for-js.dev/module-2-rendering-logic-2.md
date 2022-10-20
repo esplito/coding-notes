@@ -91,11 +91,17 @@ Margins affects the position of an absolute positioned element, while padding do
 
 >When you place an absolute item _without_ specifying top/left/right/bottom, it sits where it would otherwise sit in its in-flow position, but it's incorporeal, it doesn't take up any space.
 
+## Exercises
+
+### Bubble Border
+
+### Tooltip
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjE4MTE3MSwtMTgzOTAzMDUxMywtMT
-AyNTE3NzY0MywyMzMyNTAwMTMsLTE0NDE2NDIzODgsLTIxNDAy
-NjMwMCwtMTY1OTcyMjEwNSwxMTgyMTE1NDgxLC02NDY4OTI0NT
-EsLTQ2MTExMjA4NiwxNDM3NTkzMzY3LDEzMTI2MzMzMTBdfQ==
-
+eyJoaXN0b3J5IjpbMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xOD
+M5MDMwNTEzLC0xMDI1MTc3NjQzLDIzMzI1MDAxMywtMTQ0MTY0
+MjM4OCwtMjE0MDI2MzAwLC0xNjU5NzIyMTA1LDExODIxMTU0OD
+EsLTY0Njg5MjQ1MSwtNDYxMTEyMDg2LDE0Mzc1OTMzNjcsMTMx
+MjYzMzMxMF19
 -->

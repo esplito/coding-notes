@@ -45,10 +45,32 @@ Josh says the following about absolutely positioned elements 👻:
 
 ## Centering Trick
 
+You can center an element with `position: absolute`.  
+Example code:
+```css
+.box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background: deeppink;
+}
+```
+
+>There are 4 important ingredients for this trick to work:
+>-   absolute positioning (`position: absolute`)
+>-   Equal distances from each edge (ideally  `0px`)
+>-   A fixed size (defined  `width`  and  `height`  properties)
+>-   Hungry margins (`margin: auto`)
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk3MjIxMDUsMTE4MjExNTQ4MSwtNj
-Q2ODkyNDUxLC00NjExMTIwODYsMTQzNzU5MzM2NywxMzEyNjMz
-MzEwXX0=
+eyJoaXN0b3J5IjpbLTIxNDAyNjMwMCwtMTY1OTcyMjEwNSwxMT
+gyMTE1NDgxLC02NDY4OTI0NTEsLTQ2MTExMjA4NiwxNDM3NTkz
+MzY3LDEzMTI2MzMzMTBdfQ==
 -->

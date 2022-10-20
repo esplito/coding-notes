@@ -87,12 +87,12 @@ This is why absolute elements behave like rebellious teenagers and move outside 
 
 >It doesn't matter how many parent elements are wrapping the child, it will ignore all of them until it finds a `position`. It doesn't have to be `relative`, as seen here, but it has to use Positioned layout. `absolute`, `fixed`, and `sticky` will also work.
 
-Margins affects the position of an absolute positioned element, while padding of the containing block does not.  
+Margins affects the position of an absolute positioned element, while padding does not.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDg5Mzc5NiwtMTAyNTE3NzY0MywyMz
-MyNTAwMTMsLTE0NDE2NDIzODgsLTIxNDAyNjMwMCwtMTY1OTcy
-MjEwNSwxMTgyMTE1NDgxLC02NDY4OTI0NTEsLTQ2MTExMjA4Ni
-wxNDM3NTkzMzY3LDEzMTI2MzMzMTBdfQ==
+eyJoaXN0b3J5IjpbLTE4MzkwMzA1MTMsLTEwMjUxNzc2NDMsMj
+MzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMDAsLTE2NTk3
+MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00NjExMTIwOD
+YsMTQzNzU5MzM2NywxMzEyNjMzMzEwXX0=
 -->

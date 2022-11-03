@@ -104,12 +104,13 @@ Margins affects the position of an absolute positioned element, while padding do
   position: relative;
 }
 .circle { 
-  border: 4px solid palevioletred;
+  border: 4px solid palevioletred; // Josh uses inherit here
   background-color: #fff;
   border-radius: 50%;
   position: absolute;
 }
-.big {
+// Josh wrote a more specific selector for these ".big.circle" etc.
+.big { 
   width: 60px;
   height: 60px;
   left: -20px;
@@ -141,9 +142,9 @@ Margins affects the position of an absolute positioned element, while padding do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTE0NDUxNywxNjAyOTQyMzUzLDEyMj
-YxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUxNzc2NDMsMjMzMjUw
-MDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMDAsLTE2NTk3MjIxMD
-UsMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00NjExMTIwODYsMTQz
-NzU5MzM2NywxMzEyNjMzMzEwXX0=
+eyJoaXN0b3J5IjpbMTQ3MDUyODAwNCwtMjk5MTQ0NTE3LDE2MD
+I5NDIzNTMsMTIyNjE4MTE3MSwtMTgzOTAzMDUxMywtMTAyNTE3
+NzY0MywyMzMyNTAwMTMsLTE0NDE2NDIzODgsLTIxNDAyNjMwMC
+wtMTY1OTcyMjEwNSwxMTgyMTE1NDgxLC02NDY4OTI0NTEsLTQ2
+MTExMjA4NiwxNDM3NTkzMzY3LDEzMTI2MzMzMTBdfQ==
 -->

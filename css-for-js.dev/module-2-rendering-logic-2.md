@@ -214,39 +214,14 @@ In **flow layout** we rarely see it, but it can be done with negative margins.
 
 ⚠️ **Watch out!** The content of the elements are rendered separately to their respective background. This means that any content in an underlying element will still be displayed on top. ⚠️
 
-<style>
-  .box {
-    width: 50px;
-    height: 50px;
-    border: 3px solid;
-    background: silver;
-    font-size: 2rem;
-    text-align: center;
-  }
-  
-  .second.box {
-    margin-top: -30px;
-    margin-left: 20px;
-    background: pink;
-  }
-</style>
-<div style="width: 200px; height: 200px;">
-<div class="first box" style="width: 50px; height: 50px; border: 3px solid; background: silver; font-size: 2rem; text-align: center;">
-  A
-</div>
-<div class="second box" style="margin-top: -30px;
-    margin-left: 20px;
-    background: pink;">
-  B
-</div>
-<div>
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2MjkzMzI3LC0xNjU4OTIzMjQ5LDExNT
-gwNDU0NTEsMTQ3MDUyODAwNCwtMjk5MTQ0NTE3LDE2MDI5NDIz
-NTMsMTIyNjE4MTE3MSwtMTgzOTAzMDUxMywtMTAyNTE3NzY0My
-wyMzMyNTAwMTMsLTE0NDE2NDIzODgsLTIxNDAyNjMwMCwtMTY1
-OTcyMjEwNSwxMTgyMTE1NDgxLC02NDY4OTI0NTEsLTQ2MTExMj
-A4NiwxNDM3NTkzMzY3LDEzMTI2MzMzMTBdfQ==
+eyJoaXN0b3J5IjpbMTQxOTE3NTgsLTE2NTg5MjMyNDksMTE1OD
+A0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0MjM1
+MywxMjI2MTgxMTcxLC0xODM5MDMwNTEzLC0xMDI1MTc3NjQzLD
+IzMzI1MDAxMywtMTQ0MTY0MjM4OCwtMjE0MDI2MzAwLC0xNjU5
+NzIyMTA1LDExODIxMTU0ODEsLTY0Njg5MjQ1MSwtNDYxMTEyMD
+g2LDE0Mzc1OTMzNjcsMTMxMjYzMzMxMF19
 -->

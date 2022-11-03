@@ -201,16 +201,16 @@ p {
   color: black;
   border-color: black;
   padding: 10px;
-  left: 0; /* This can be removed if we set display: inline-block on the parent */
+  left: 0; /* This can be removed if we set display: inline-block on the containing block (parent) */
 }
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MzE5MjM4NSwxMTU4MDQ1NDUxLDE0Nz
-A1MjgwMDQsLTI5OTE0NDUxNywxNjAyOTQyMzUzLDEyMjYxODEx
-NzEsLTE4MzkwMzA1MTMsLTEwMjUxNzc2NDMsMjMzMjUwMDEzLC
-0xNDQxNjQyMzg4LC0yMTQwMjYzMDAsLTE2NTk3MjIxMDUsMTE4
-MjExNTQ4MSwtNjQ2ODkyNDUxLC00NjExMTIwODYsMTQzNzU5Mz
-M2NywxMzEyNjMzMzEwXX0=
+eyJoaXN0b3J5IjpbLTEzNjcwNjAxNjMsMTE1ODA0NTQ1MSwxND
+cwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgx
+MTcxLC0xODM5MDMwNTEzLC0xMDI1MTc3NjQzLDIzMzI1MDAxMy
+wtMTQ0MTY0MjM4OCwtMjE0MDI2MzAwLC0xNjU5NzIyMTA1LDEx
+ODIxMTU0ODEsLTY0Njg5MjQ1MSwtNDYxMTEyMDg2LDE0Mzc1OT
+MzNjcsMTMxMjYzMzMxMF19
 -->

@@ -96,6 +96,15 @@ Margins affects the position of an absolute positioned element, while padding do
 ### Bubble Border
 
 #### Our attempt
+
+```html
+<div class="box">
+  <div class="big circle"></div>
+  <div class="medium circle"></div>
+  <div class="small circle"></div>
+</div>
+```
+
 ```css
 .box {
   height: 150px;
@@ -130,21 +139,40 @@ Margins affects the position of an absolute positioned element, while padding do
 }
 ```
 
-```html
-<div class="box">
-  <div class="big circle"></div>
-  <div class="medium circle"></div>
-  <div class="small circle"></div>
-</div>
-```
-
 ### Tooltip
+
+
+
+```css
+p {
+  max-width: 300px;
+}
+
+.tooltip-trigger {
+  font-weight: bold;
+  color: seagreen;
+  text-decoration: none;
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  width: 150px;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: black;
+  border-color: black;
+  padding: 10px;
+  left: 0;
+}
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDUyODAwNCwtMjk5MTQ0NTE3LDE2MD
-I5NDIzNTMsMTIyNjE4MTE3MSwtMTgzOTAzMDUxMywtMTAyNTE3
-NzY0MywyMzMyNTAwMTMsLTE0NDE2NDIzODgsLTIxNDAyNjMwMC
-wtMTY1OTcyMjEwNSwxMTgyMTE1NDgxLC02NDY4OTI0NTEsLTQ2
-MTExMjA4NiwxNDM3NTkzMzY3LDEzMTI2MzMzMTBdfQ==
+eyJoaXN0b3J5IjpbMTE2MDg5MzA3NSwxNDcwNTI4MDA0LC0yOT
+kxNDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5MDMw
+NTEzLC0xMDI1MTc3NjQzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OC
+wtMjE0MDI2MzAwLC0xNjU5NzIyMTA1LDExODIxMTU0ODEsLTY0
+Njg5MjQ1MSwtNDYxMTEyMDg2LDE0Mzc1OTMzNjcsMTMxMjYzMz
+MxMF19
 -->

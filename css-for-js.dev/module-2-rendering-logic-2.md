@@ -208,11 +208,15 @@ p {
 ## Stacking contexts
 
 **How does the browser decide what to render on top?**
-It depends on the 
+It depends on the layout mode! 
+
+In flow layout we rarely see it, but it can be done with negative margins. 
+
+⚠️ **Watch out!** Only backgrounds overlap ⚠️
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjkxODQ1MSwtMTY1ODkyMzI0OSwxMT
+eyJoaXN0b3J5IjpbMTQ5OTUxOTk2MiwtMTY1ODkyMzI0OSwxMT
 U4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNywxNjAyOTQy
 MzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUxNzc2ND
 MsMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMDAsLTE2

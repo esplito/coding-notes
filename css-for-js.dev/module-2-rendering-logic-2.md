@@ -212,16 +212,16 @@ It depends on the layout mode!
 
 In **flow layout** we rarely see it, but it can be done with negative margins. 
 
-⚠️ **Watch out!** The content of the elements are rendered separately to their respective background. This means that any content in an underlying element will still be displayed on top. ⚠️
+⚠️ **Watch out!** The content of the elements are rendered separately to their respective background. This means that any content (example: text) in an underlying element will still be displayed on top. ⚠️
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTE3NTgsLTE2NTg5MjMyNDksMTE1OD
-A0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0MjM1
-MywxMjI2MTgxMTcxLC0xODM5MDMwNTEzLC0xMDI1MTc3NjQzLD
-IzMzI1MDAxMywtMTQ0MTY0MjM4OCwtMjE0MDI2MzAwLC0xNjU5
-NzIyMTA1LDExODIxMTU0ODEsLTY0Njg5MjQ1MSwtNDYxMTEyMD
-g2LDE0Mzc1OTMzNjcsMTMxMjYzMzMxMF19
+eyJoaXN0b3J5IjpbLTEyNzE2MDM4NDYsLTE2NTg5MjMyNDksMT
+E1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0
+MjM1MywxMjI2MTgxMTcxLC0xODM5MDMwNTEzLC0xMDI1MTc3Nj
+QzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OCwtMjE0MDI2MzAwLC0x
+NjU5NzIyMTA1LDExODIxMTU0ODEsLTY0Njg5MjQ1MSwtNDYxMT
+EyMDg2LDE0Mzc1OTMzNjcsMTMxMjYzMzMxMF19
 -->

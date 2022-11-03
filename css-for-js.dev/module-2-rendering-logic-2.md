@@ -212,11 +212,11 @@ It depends on the layout mode!
 
 In flow layout we rarely see it, but it can be done with negative margins. 
 
-⚠️ **Watch out!** Only backgrounds overlap ⚠️
+⚠️ **Watch out!** The content of the elements are rendered separately to their respective background. This means that any content in an overlapped element will still be displayed. ⚠️
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTUxOTk2MiwtMTY1ODkyMzI0OSwxMT
+eyJoaXN0b3J5IjpbMTQ1MDMyMTUyNSwtMTY1ODkyMzI0OSwxMT
 U4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNywxNjAyOTQy
 MzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUxNzc2ND
 MsMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMDAsLTE2

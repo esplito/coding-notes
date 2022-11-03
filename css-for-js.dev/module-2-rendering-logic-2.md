@@ -205,9 +205,11 @@ p {
 }
 ```
 
+## Stacking contexts
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjcwNjAxNjMsMTE1ODA0NTQ1MSwxND
+eyJoaXN0b3J5IjpbLTE2NTg5MjMyNDksMTE1ODA0NTQ1MSwxND
 cwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgx
 MTcxLC0xODM5MDMwNTEzLC0xMDI1MTc3NjQzLDIzMzI1MDAxMy
 wtMTQ0MTY0MjM4OCwtMjE0MDI2MzAwLC0xNjU5NzIyMTA1LDEx

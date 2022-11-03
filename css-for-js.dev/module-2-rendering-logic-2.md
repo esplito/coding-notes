@@ -190,6 +190,7 @@ p {
   color: seagreen;
   text-decoration: none;
   position: relative;
+  /* Josh suggest to use display: inline-block here also -> otherwise we can get weird behaviour when the trigger text is line clipped and can also cause flickering issues in browsers. */
 }
 
 .tooltip {
@@ -200,16 +201,16 @@ p {
   color: black;
   border-color: black;
   padding: 10px;
-  left: 0;
+  left: 0; /* This can be removed if we set display: inline-block on the parent */
 }
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOT
-kxNDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5MDMw
-NTEzLC0xMDI1MTc3NjQzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OC
-wtMjE0MDI2MzAwLC0xNjU5NzIyMTA1LDExODIxMTU0ODEsLTY0
-Njg5MjQ1MSwtNDYxMTEyMDg2LDE0Mzc1OTMzNjcsMTMxMjYzMz
-MxMF19
+eyJoaXN0b3J5IjpbMTc2MzE5MjM4NSwxMTU4MDQ1NDUxLDE0Nz
+A1MjgwMDQsLTI5OTE0NDUxNywxNjAyOTQyMzUzLDEyMjYxODEx
+NzEsLTE4MzkwMzA1MTMsLTEwMjUxNzc2NDMsMjMzMjUwMDEzLC
+0xNDQxNjQyMzg4LC0yMTQwMjYzMDAsLTE2NTk3MjIxMDUsMTE4
+MjExNTQ4MSwtNjQ2ODkyNDUxLC00NjExMTIwODYsMTQzNzU5Mz
+M2NywxMzEyNjMzMzEwXX0=
 -->

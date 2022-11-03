@@ -210,13 +210,42 @@ p {
 **How does the browser decide what to render on top?**
 It depends on the layout mode! 
 
-In flow layout we rarely see it, but it can be done with negative margins. 
+In **flow layout** we rarely see it, but it can be done with negative margins. 
 
-⚠️ **Watch out!** The content of the elements are rendered separately to their respective background. This means that any content in an overlapped element will still be displayed. ⚠️
+⚠️ **Watch out!** The content of the elements are rendered separately to their respective background. This means that any content in an underlying element will still be displayed on top. ⚠️
+
+<style>
+  .box {
+    width: 50px;
+    height: 50px;
+    border: 3px solid;
+    background: silver;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .second.box {
+    margin-top: -30px;
+    margin-left: 20px;
+    background: pink;
+  }
+</style>
+
+<div class="first box" style={width: 50px;
+    height: 50px;
+    border: 3px solid;
+    background: silver;
+    font-size: 2rem;
+    text-align: center;}>
+  A
+</div>
+<div class="second box">
+  B
+</div>
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDMyMTUyNSwtMTY1ODkyMzI0OSwxMT
+eyJoaXN0b3J5IjpbLTc1OTc5MTM5MSwtMTY1ODkyMzI0OSwxMT
 U4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNywxNjAyOTQy
 MzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUxNzc2ND
 MsMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMDAsLTE2

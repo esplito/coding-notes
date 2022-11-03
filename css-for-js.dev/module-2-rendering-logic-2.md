@@ -95,13 +95,55 @@ Margins affects the position of an absolute positioned element, while padding do
 
 ### Bubble Border
 
+#### Our attempt
+```css
+.box {
+  height: 150px;
+  margin: 64px;
+  border: 4px solid palevioletred;
+  position: relative;
+}
+.circle { 
+  border: 4px solid palevioletred;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+}
+.big {
+  width: 60px;
+  height: 60px;
+  left: -20px;
+  top: -30px;
+}
+.medium {
+  width: 30px;
+  height: 30px;
+  left: -15px;
+  top: 30px;
+}
+.small {
+  width: 26px;
+  height: 26px;
+  top: -14px;
+  left: 50px;
+}
+```
+
+```html
+<div class="box">
+  <div class="big circle"></div>
+  <div class="medium circle"></div>
+  <div class="small circle"></div>
+</div>
+```
+
 ### Tooltip
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xOD
-M5MDMwNTEzLC0xMDI1MTc3NjQzLDIzMzI1MDAxMywtMTQ0MTY0
-MjM4OCwtMjE0MDI2MzAwLC0xNjU5NzIyMTA1LDExODIxMTU0OD
-EsLTY0Njg5MjQ1MSwtNDYxMTEyMDg2LDE0Mzc1OTMzNjcsMTMx
-MjYzMzMxMF19
+eyJoaXN0b3J5IjpbLTI5OTE0NDUxNywxNjAyOTQyMzUzLDEyMj
+YxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUxNzc2NDMsMjMzMjUw
+MDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMDAsLTE2NTk3MjIxMD
+UsMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00NjExMTIwODYsMTQz
+NzU5MzM2NywxMzEyNjMzMzEwXX0=
 -->

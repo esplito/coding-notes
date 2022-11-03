@@ -230,25 +230,23 @@ In **flow layout** we rarely see it, but it can be done with negative margins.
     background: pink;
   }
 </style>
-
-<div class="first box" style={width: 50px;
-    height: 50px;
-    border: 3px solid;
-    background: silver;
-    font-size: 2rem;
-    text-align: center;}>
+<div style="width: 200px; height: 200px;">
+<div class="first box" style="width: 50px; height: 50px; border: 3px solid; background: silver; font-size: 2rem; text-align: center;">
   A
 </div>
-<div class="second box">
+<div class="second box" style="margin-top: -30px;
+    margin-left: 20px;
+    background: pink;">
   B
 </div>
+<div>
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTc5MTM5MSwtMTY1ODkyMzI0OSwxMT
-U4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNywxNjAyOTQy
-MzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUxNzc2ND
-MsMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMDAsLTE2
-NTk3MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00NjExMT
-IwODYsMTQzNzU5MzM2NywxMzEyNjMzMzEwXX0=
+eyJoaXN0b3J5IjpbNjM2MjkzMzI3LC0xNjU4OTIzMjQ5LDExNT
+gwNDU0NTEsMTQ3MDUyODAwNCwtMjk5MTQ0NTE3LDE2MDI5NDIz
+NTMsMTIyNjE4MTE3MSwtMTgzOTAzMDUxMywtMTAyNTE3NzY0My
+wyMzMyNTAwMTMsLTE0NDE2NDIzODgsLTIxNDAyNjMwMCwtMTY1
+OTcyMjEwNSwxMTgyMTE1NDgxLC02NDY4OTI0NTEsLTQ2MTExMj
+A4NiwxNDM3NTkzMzY3LDEzMTI2MzMzMTBdfQ==
 -->

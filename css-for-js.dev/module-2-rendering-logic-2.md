@@ -140,8 +140,45 @@ Margins affects the position of an absolute positioned element, while padding do
 ```
 
 ### Tooltip
+#### Our attempt
 
+```html
+<!--
+Tooltip should:
+• Be at least 150px wide
+• Have a black text and border color
+• Use 400 font weight
+• Use 0.875rem font size
+-->
 
+<style>
+  .tooltip {
+    /* Hide the tooltip by default */
+    display: none;
+    background: white;
+    border: 1px solid;
+  }
+  
+  /*
+    Show the tooltip when hovering
+    over the wrapper:
+  */
+  .tooltip-trigger:hover .tooltip {
+    display: block;
+  }
+</style>
+
+<p>
+  The traditional Japanese tea ceremony centers on the preparation, serving, and drinking of
+  <a href="/" class="tooltip-trigger">
+    matcha
+    <span class="tooltip">
+      A concentrated, powdered form of green tea
+    </span>
+  </a>
+  as hot tea.
+</p>
+```
 
 ```css
 p {
@@ -169,7 +206,7 @@ p {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDg5MzA3NSwxNDcwNTI4MDA0LC0yOT
+eyJoaXN0b3J5IjpbMTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOT
 kxNDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5MDMw
 NTEzLC0xMDI1MTc3NjQzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OC
 wtMjE0MDI2MzAwLC0xNjU5NzIyMTA1LDExODIxMTU0ODEsLTY0

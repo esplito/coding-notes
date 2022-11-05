@@ -87,6 +87,7 @@ Some good suggestions on how to handle when we as developers are handed a design
 
 #### Embedded Content with Accessibility Problems
 
+
 #### Inaccessible Overlay Solutions
 
 
@@ -98,6 +99,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTM3NzAwNiw3ODkzMTAxNDYsLTQ1NT
-U1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF19
+eyJoaXN0b3J5IjpbLTE5ODg5OTE1MjQsMTYxOTM3NzAwNiw3OD
+kzMTAxNDYsLTQ1NTU1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1
+NDQyMF19
 -->

@@ -93,6 +93,8 @@ Have you ever had to add third party content on a web page? If so, you probably 
 What can you do? 
 💡 Talk to the marketing or product leadership teams about pitting potential added value vs access and compliance.
 
+>...unfortunately, the reality is that many third-party vendors don't have the knowledge, care, or time to do so. - Marcy
+
 #### Inaccessible Overlay Solutions
 
 
@@ -104,7 +106,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczNjAyODIxLDE2MTkzNzcwMDYsNzg5Mz
-EwMTQ2LC00NTU1NTc3NDAsLTE3OTEzOTMxODMsLTE5MjU3NTQ0
-MjBdfQ==
+eyJoaXN0b3J5IjpbLTczNTc4Mzc3OCwxNjE5Mzc3MDA2LDc4OT
+MxMDE0NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0
+NDIwXX0=
 -->

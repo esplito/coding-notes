@@ -99,7 +99,9 @@ What can you do?
 
 There is something called "overlay widgets" that some sites offer in an attempt to make the user experience more accessible without a lot of investment. 
 
-However, these overlays are note enough to be compliant and ofte n
+However, these overlays are note enough to be compliant and often don't fix accessibility problems. 
+
+Marcy recommends to check out the [Overlay Fact Sheet](https://overlayfactsheet.com/) if you want more information about strengths and weaknesses of overlay widgets.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -109,7 +111,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODMzNDI3OCwtNzM1NzgzNzc4LDE2MT
-kzNzcwMDYsNzg5MzEwMTQ2LC00NTU1NTc3NDAsLTE3OTEzOTMx
-ODMsLTE5MjU3NTQ0MjBdfQ==
+eyJoaXN0b3J5IjpbMzY5MDczODY0LC03MzU3ODM3NzgsMTYxOT
+M3NzAwNiw3ODkzMTAxNDYsLTQ1NTU1Nzc0MCwtMTc5MTM5MzE4
+MywtMTkyNTc1NDQyMF19
 -->

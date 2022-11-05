@@ -61,7 +61,10 @@ The outcome might be:
 #### Mobile Accessibility Issues
 > We can't fix everything with code and mobile interfaces also need to be taken into account. - Marcy
 
-Marcy mentions an example where we run into the problem that some action can only be done with swiping left or right. It would be accessib
+Marcy mentions an example where we run into the problem that some action can only be done with swiping left or right. It would be accessible to do the same actions with labeled buttons while a mobile screen reader is running, but they would have to _be designed_ into the interface -> significant change.
+
+She gives the following tip to avoid such a situation:
+>💡 **Tip** When the design team knows how to anticipate accessibility issues, these problems can be avoided before development begins. 
 
 
 #### Icon Buttons without Text Labels
@@ -79,6 +82,6 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzUxNzQzNiw3ODkzMTAxNDYsLTQ1NT
+eyJoaXN0b3J5IjpbLTgzMzE4NTgyOSw3ODkzMTAxNDYsLTQ1NT
 U1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF19
 -->

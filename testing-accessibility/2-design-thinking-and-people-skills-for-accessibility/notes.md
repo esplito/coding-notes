@@ -103,15 +103,18 @@ However, these overlays are note enough to be compliant and often don't fix acce
 
 Marcy recommends to check out the [Overlay Fact Sheet](https://overlayfactsheet.com/) if you want more information about strengths and weaknesses of overlay widgets.
 
+>As someone passionate about designing and developing inclusive sites from the beginning, the add-on culture goes against that philosophy. Bolting on a quick fix for the long term rather than architecting something accessible from within is a real shame, especially since feedback from people with disabilities has been that the quick fixes don’t work. There are multiple layers to the problem here. - Marcy
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
-- [Accessible Brand Colors by Use All Five](https://abc.useallfive.com/) 
+- [Accessible Brand Colors by Use All Five](https://abc.useallfive.com/)
+- [Overlay Fact Sheet](https://overlayfactsheet.com/) 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5MDczODY0LC03MzU3ODM3NzgsMTYxOT
-M3NzAwNiw3ODkzMTAxNDYsLTQ1NTU1Nzc0MCwtMTc5MTM5MzE4
-MywtMTkyNTc1NDQyMF19
+eyJoaXN0b3J5IjpbLTI0MjI4NTUzNSwtNzM1NzgzNzc4LDE2MT
+kzNzcwMDYsNzg5MzEwMTQ2LC00NTU1NTc3NDAsLTE3OTEzOTMx
+ODMsLTE5MjU3NTQ0MjBdfQ==
 -->

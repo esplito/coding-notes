@@ -125,7 +125,16 @@ Catching accessibility issues in the QA-phase can be extremely costly. It would 
 #### Disability impacts all of us
 > There are so many different ways that people move through the world and interact with computers. This includes people with disabilities.
 
-Some stats
+**Some stats mentioned**
+_1 in 4_ US adults has some kind of disability:
+- Vision
+- Movement
+- Hearing
+- Thinking
+- Learning
+- Communicating
+- Mental health
+- Social relationships
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -136,8 +145,8 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTQ4ODQ3NiwtODkwNTkzMjcwLC0yND
-IyODU1MzUsLTczNTc4Mzc3OCwxNjE5Mzc3MDA2LDc4OTMxMDE0
-NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0NDIwXX
-0=
+eyJoaXN0b3J5IjpbLTE3MjE3MjU5ODksLTg5MDU5MzI3MCwtMj
+QyMjg1NTM1LC03MzU3ODM3NzgsMTYxOTM3NzAwNiw3ODkzMTAx
+NDYsLTQ1NTU1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF
+19
 -->

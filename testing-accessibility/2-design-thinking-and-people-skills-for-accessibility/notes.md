@@ -136,6 +136,11 @@ _1 in 4_ US adults has some kind of disability:
 - Mental health
 - Social relationships
 
+#### Test user interfaces with People with Disabilities
+> Teams almost always have hiring biases and barriers that lead to nearly every member being non-disabled. This means that teams’ experience is limited when it comes to knowing how an inaccessible digital experience will affect disabled people. - Marcy
+
+How can w
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -145,8 +150,8 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE3MjU5ODksLTg5MDU5MzI3MCwtMj
-QyMjg1NTM1LC03MzU3ODM3NzgsMTYxOTM3NzAwNiw3ODkzMTAx
-NDYsLTQ1NTU1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF
-19
+eyJoaXN0b3J5IjpbMTkzOTEzNzk2NiwtMTcyMTcyNTk4OSwtOD
+kwNTkzMjcwLC0yNDIyODU1MzUsLTczNTc4Mzc3OCwxNjE5Mzc3
+MDA2LDc4OTMxMDE0NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC
+0xOTI1NzU0NDIwXX0=
 -->

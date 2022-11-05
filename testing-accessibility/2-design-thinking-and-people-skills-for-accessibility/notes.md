@@ -73,8 +73,11 @@ It is a common design trend to use buttons that only consist of an icon with no 
 
 There's a few problems with this:
 🚩 Not always clear to the users what the buttons do
-🚩 
+🚩 Icon button can become hard to see if it is overlapping an image or video.
 
+>Icon buttons need to ensure that their function can be clear and discoverable. - Marcy
+
+Some tips on how 
 
 #### Embedded Content with Accessibility Problems
 
@@ -89,6 +92,6 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwMDA5ODQyLDc4OTMxMDE0NiwtNDU1NT
+eyJoaXN0b3J5IjpbMTA1OTYxNzQyLDc4OTMxMDE0NiwtNDU1NT
 U3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0NDIwXX0=
 -->

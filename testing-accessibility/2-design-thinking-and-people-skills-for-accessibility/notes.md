@@ -88,7 +88,10 @@ Some good suggestions on how to handle when we as developers are handed a design
 #### Embedded Content with Accessibility Problems
 Have you ever had to add third party content on a web page? If so, you probably know that this often means adding an iframe which contains content that you have no control over.
 
-🚨 They can bring their own accessiblity issues to your websitel
+🚨 They can bring their own **accessibility issues to your website**. 🚨
+
+What can you do? 
+💡 Talk to the marketing or product leadership teams about pitting potential added value vs access and compliance.
 
 #### Inaccessible Overlay Solutions
 
@@ -101,7 +104,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDI1MzU3NSwxNjE5Mzc3MDA2LDc4OT
-MxMDE0NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0
-NDIwXX0=
+eyJoaXN0b3J5IjpbMjczNjAyODIxLDE2MTkzNzcwMDYsNzg5Mz
+EwMTQ2LC00NTU1NTc3NDAsLTE3OTEzOTMxODMsLTE5MjU3NTQ0
+MjBdfQ==
 -->

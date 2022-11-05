@@ -119,6 +119,8 @@ The stages mentioned in the lesson:
 -   Development
 -   QA
 
+Catching accessibility issues in the QA-phase can be extremely costly. 
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -128,7 +130,8 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MDU5MzI3MCwtMjQyMjg1NTM1LC03Mz
-U3ODM3NzgsMTYxOTM3NzAwNiw3ODkzMTAxNDYsLTQ1NTU1Nzc0
-MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF19
+eyJoaXN0b3J5IjpbLTI3MzM2NzgxLC04OTA1OTMyNzAsLTI0Mj
+I4NTUzNSwtNzM1NzgzNzc4LDE2MTkzNzcwMDYsNzg5MzEwMTQ2
+LC00NTU1NTc3NDAsLTE3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ
+==
 -->

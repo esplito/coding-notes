@@ -145,6 +145,8 @@ How can we solve teams' limited accessibility experience then? Marcy suggests:
 
 You can work with companies like "Fable Tech Labs" or "Access Works".
 
+### Lesson 3 - 
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -154,8 +156,8 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzU4NDg1NSwtMTcyMTcyNTk4OSwtOD
-kwNTkzMjcwLC0yNDIyODU1MzUsLTczNTc4Mzc3OCwxNjE5Mzc3
-MDA2LDc4OTMxMDE0NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC
-0xOTI1NzU0NDIwXX0=
+eyJoaXN0b3J5IjpbMTYzOTQ0MzEyNiwtODA3NTg0ODU1LC0xNz
+IxNzI1OTg5LC04OTA1OTMyNzAsLTI0MjI4NTUzNSwtNzM1Nzgz
+Nzc4LDE2MTkzNzcwMDYsNzg5MzEwMTQ2LC00NTU1NTc3NDAsLT
+E3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ==
 -->

@@ -119,7 +119,7 @@ The stages mentioned in the lesson:
 -   Development
 -   QA
 
-Catching accessibility issues in the QA-phase can be extremely costly. 
+Catching accessibility issues in the QA-phase can be extremely costly. It would be better if accessibility was thought of early in the process instead of QA having to report back to devs, designers and stakeholders that then have to rework the feature.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -130,8 +130,8 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzM2NzgxLC04OTA1OTMyNzAsLTI0Mj
-I4NTUzNSwtNzM1NzgzNzc4LDE2MTkzNzcwMDYsNzg5MzEwMTQ2
-LC00NTU1NTc3NDAsLTE3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ
-==
+eyJoaXN0b3J5IjpbMTEwMzUxNDg2NywtODkwNTkzMjcwLC0yND
+IyODU1MzUsLTczNTc4Mzc3OCwxNjE5Mzc3MDA2LDc4OTMxMDE0
+NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0NDIwXX
+0=
 -->

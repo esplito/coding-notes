@@ -60,6 +60,8 @@ The outcome might be:
 
 #### Mobile Accessibility Issues
 
+
+
 #### Icon Buttons without Text Labels
 
 #### Embedded Content with Accessibility Problems
@@ -75,6 +77,6 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5MzEwMTQ2LC00NTU1NTc3NDAsLTE3OT
-EzOTMxODMsLTE5MjU3NTQ0MjBdfQ==
+eyJoaXN0b3J5IjpbLTE1MDg0NDc4NDIsNzg5MzEwMTQ2LC00NT
+U1NTc3NDAsLTE3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ==
 -->

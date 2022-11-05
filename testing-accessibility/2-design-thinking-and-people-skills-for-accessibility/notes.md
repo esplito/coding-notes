@@ -125,6 +125,8 @@ Catching accessibility issues in the QA-phase can be extremely costly. It would 
 #### Disability impacts all of us
 > There are so many different ways that people move through the world and interact with computers. This includes people with disabilities.
 
+Some stats
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -134,7 +136,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTk4MzEwOSwtODkwNTkzMjcwLC0yND
+eyJoaXN0b3J5IjpbLTc3OTQ4ODQ3NiwtODkwNTkzMjcwLC0yND
 IyODU1MzUsLTczNTc4Mzc3OCwxNjE5Mzc3MDA2LDc4OTMxMDE0
 NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0NDIwXX
 0=

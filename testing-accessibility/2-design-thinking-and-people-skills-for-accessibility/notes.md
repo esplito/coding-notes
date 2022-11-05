@@ -145,7 +145,9 @@ How can we solve teams' limited accessibility experience then? Marcy suggests:
 
 You can work with companies like "Fable Tech Labs" or "Access Works".
 
-### Lesson 3 - 
+### Lesson 3 - Identifying & Addressing Accessibility Issues on a Website
+
+
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -156,7 +158,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTQ0MzEyNiwtODA3NTg0ODU1LC0xNz
+eyJoaXN0b3J5IjpbMTIyNTUzMzI2NSwtODA3NTg0ODU1LC0xNz
 IxNzI1OTg5LC04OTA1OTMyNzAsLTI0MjI4NTUzNSwtNzM1Nzgz
 Nzc4LDE2MTkzNzcwMDYsNzg5MzEwMTQ2LC00NTU1NTc3NDAsLT
 E3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ==

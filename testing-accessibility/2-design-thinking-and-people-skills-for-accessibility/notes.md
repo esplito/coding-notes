@@ -77,7 +77,10 @@ There's a few problems with this:
 
 >Icon buttons need to ensure that their function can be clear and discoverable. - Marcy
 
-Some tips on how 
+Some good suggestions on how to handle when we as developers are handed a design with such icons:
+💡 Talk to the design team about available options.
+💡 Test with users to make sure the icons are intuitive and usable.
+💡 
 
 #### Embedded Content with Accessibility Problems
 
@@ -92,6 +95,6 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTYxNzQyLDc4OTMxMDE0NiwtNDU1NT
-U3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0NDIwXX0=
+eyJoaXN0b3J5IjpbLTkxNzc0MzIyNiw3ODkzMTAxNDYsLTQ1NT
+U1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF19
 -->

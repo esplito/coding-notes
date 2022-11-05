@@ -105,6 +105,10 @@ Marcy recommends to check out the [Overlay Fact Sheet](https://overlayfactsheet.
 
 >As someone passionate about designing and developing inclusive sites from the beginning, the add-on culture goes against that philosophy. Bolting on a quick fix for the long term rather than architecting something accessible from within is a real shame, especially since feedback from people with disabilities has been that the quick fixes don’t work. There are multiple layers to the problem here. - Marcy
 
+### Lesson 2 - Including Accessibility from the Beginning of the Software Development Cycle
+
+This lesson revolves around m"Shift left 
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -114,7 +118,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MjI4NTUzNSwtNzM1NzgzNzc4LDE2MT
-kzNzcwMDYsNzg5MzEwMTQ2LC00NTU1NTc3NDAsLTE3OTEzOTMx
-ODMsLTE5MjU3NTQ0MjBdfQ==
+eyJoaXN0b3J5IjpbLTE0NjEyOTA1NzcsLTI0MjI4NTUzNSwtNz
+M1NzgzNzc4LDE2MTkzNzcwMDYsNzg5MzEwMTQ2LC00NTU1NTc3
+NDAsLTE3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ==
 -->

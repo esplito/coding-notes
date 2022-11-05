@@ -86,7 +86,9 @@ Some good suggestions on how to handle when we as developers are handed a design
 💡Tie the concern back to user experience and aim to validate the usability of the designs with actual users.
 
 #### Embedded Content with Accessibility Problems
+Have you ever had to add third party content on a web page? If so, you probably know that this often means adding an iframe which contains content that you have no control over.
 
+🚨 They can bring their own accessiblity issues to your websitel
 
 #### Inaccessible Overlay Solutions
 
@@ -99,7 +101,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg5OTE1MjQsMTYxOTM3NzAwNiw3OD
-kzMTAxNDYsLTQ1NTU1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1
-NDQyMF19
+eyJoaXN0b3J5IjpbMTM0MDI1MzU3NSwxNjE5Mzc3MDA2LDc4OT
+MxMDE0NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0
+NDIwXX0=
 -->

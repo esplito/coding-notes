@@ -107,6 +107,7 @@ Marcy recommends to check out the [Overlay Fact Sheet](https://overlayfactsheet.
 
 ### Lesson 2 - Including Accessibility from the Beginning of the Software Development Cycle
 
+#### "Shifting Left" in the Software Development Lifecycle
 This lesson revolves around shifting accessibility to left in the software development lifecycle, e.g. as early in the process as possible. 
 >From the early stages, it is essential to include people with disabilities as part of the audience (and project team, for that matter).
 >
@@ -121,6 +122,9 @@ The stages mentioned in the lesson:
 
 Catching accessibility issues in the QA-phase can be extremely costly. It would be better if accessibility was thought of early in the process instead of QA having to report back to devs, designers and stakeholders that then have to rework the feature.
 
+#### Disability impacts all of us
+> There are so many different ways that people move through the world and interact with computers. This includes people with disabilities.
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -130,7 +134,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzUxNDg2NywtODkwNTkzMjcwLC0yND
+eyJoaXN0b3J5IjpbLTY5NTk4MzEwOSwtODkwNTkzMjcwLC0yND
 IyODU1MzUsLTczNTc4Mzc3OCwxNjE5Mzc3MDA2LDc4OTMxMDE0
 NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0NDIwXX
 0=

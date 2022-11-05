@@ -59,7 +59,9 @@ The outcome might be:
 
 
 #### Mobile Accessibility Issues
+> We can't fix everything with code and mobile interfaces also need to be taken into account. - Marcy
 
+Marcy mentions an example where we run into the problem that some action can only be done with swiping left or right. It would be accessib
 
 
 #### Icon Buttons without Text Labels
@@ -77,6 +79,6 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDg0NDc4NDIsNzg5MzEwMTQ2LC00NT
-U1NTc3NDAsLTE3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ==
+eyJoaXN0b3J5IjpbLTUwNzUxNzQzNiw3ODkzMTAxNDYsLTQ1NT
+U1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF19
 -->

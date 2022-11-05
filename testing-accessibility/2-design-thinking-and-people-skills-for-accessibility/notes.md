@@ -83,7 +83,7 @@ Some good suggestions on how to handle when we as developers are handed a design
 💡 Make text labeling configurable.
 
 **But what if stakeholders already have signed off on a design?**
-💡
+💡Tie the concern back to user experience and aim to validate the usability of the designs with actual users.
 
 #### Embedded Content with Accessibility Problems
 
@@ -98,6 +98,6 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4NjczNzg3LDc4OTMxMDE0NiwtNDU1NT
-U3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0NDIwXX0=
+eyJoaXN0b3J5IjpbMTYxOTM3NzAwNiw3ODkzMTAxNDYsLTQ1NT
+U1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF19
 -->

@@ -139,11 +139,11 @@ _1 in 4_ US adults has some kind of disability:
 #### Test user interfaces with People with Disabilities
 > Teams almost always have hiring biases and barriers that lead to nearly every member being non-disabled. This means that teams’ experience is limited when it comes to knowing how an inaccessible digital experience will affect disabled people. - Marcy
 
-How can we solve this then? Marcy suggests:
+How can we solve teams' limited accessibility experience then? Marcy suggests:
 💡 Prioritize hiring of people with disabilities is an important start
 💡Pay people with disabilities for their time and expertise to give feedback in your design and dev process (another effective way to remove biases and challenge assumptions)
 
-
+You can work with companies like "Fable Tech Labs" or "Access Works".
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -154,8 +154,8 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwODQwNDM5LC0xNzIxNzI1OTg5LC04OT
-A1OTMyNzAsLTI0MjI4NTUzNSwtNzM1NzgzNzc4LDE2MTkzNzcw
-MDYsNzg5MzEwMTQ2LC00NTU1NTc3NDAsLTE3OTEzOTMxODMsLT
-E5MjU3NTQ0MjBdfQ==
+eyJoaXN0b3J5IjpbLTgwNzU4NDg1NSwtMTcyMTcyNTk4OSwtOD
+kwNTkzMjcwLC0yNDIyODU1MzUsLTczNTc4Mzc3OCwxNjE5Mzc3
+MDA2LDc4OTMxMDE0NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC
+0xOTI1NzU0NDIwXX0=
 -->

@@ -107,7 +107,11 @@ Marcy recommends to check out the [Overlay Fact Sheet](https://overlayfactsheet.
 
 ### Lesson 2 - Including Accessibility from the Beginning of the Software Development Cycle
 
-This lesson revolves around m"Shift left 
+This lesson revolves around shifting accessibility to left in the software development lifecycle, e.g. as early in the process as possible. 
+>From the early stages, it is essential to include people with disabilities as part of the audience (and project team, for that matter).
+>
+>We want to avoid making accessibility an afterthought. 
+> Marcy
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -118,7 +122,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjEyOTA1NzcsLTI0MjI4NTUzNSwtNz
+eyJoaXN0b3J5IjpbLTE5MTcyODk0MTMsLTI0MjI4NTUzNSwtNz
 M1NzgzNzc4LDE2MTkzNzcwMDYsNzg5MzEwMTQ2LC00NTU1NTc3
 NDAsLTE3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ==
 -->

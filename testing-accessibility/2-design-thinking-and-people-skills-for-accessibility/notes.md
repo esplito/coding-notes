@@ -69,6 +69,9 @@ She gives the following tip to avoid such a situation:
 
 #### Icon Buttons without Text Labels
 
+
+
+
 #### Embedded Content with Accessibility Problems
 
 #### Inaccessible Overlay Solutions
@@ -82,6 +85,6 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzE4NTgyOSw3ODkzMTAxNDYsLTQ1NT
+eyJoaXN0b3J5IjpbLTkwODQ1MDM1MSw3ODkzMTAxNDYsLTQ1NT
 U1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF19
 -->

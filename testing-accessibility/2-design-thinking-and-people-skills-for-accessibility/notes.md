@@ -97,6 +97,9 @@ What can you do?
 
 #### Inaccessible Overlay Solutions
 
+There is something called "overlay widgets" that some sites offer in an attempt to make the user experience more accessible without a lot of investment. 
+
+However, these overlays are note enough to be compliant and ofte n
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -106,7 +109,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTc4Mzc3OCwxNjE5Mzc3MDA2LDc4OT
-MxMDE0NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0
-NDIwXX0=
+eyJoaXN0b3J5IjpbMTQ0ODMzNDI3OCwtNzM1NzgzNzc4LDE2MT
+kzNzcwMDYsNzg5MzEwMTQ2LC00NTU1NTc3NDAsLTE3OTEzOTMx
+ODMsLTE5MjU3NTQ0MjBdfQ==
 -->

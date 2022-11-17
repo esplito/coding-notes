@@ -248,7 +248,7 @@ In order for something to be considered a stacking context the following needs t
 ```css
 header {
 	position: relative
-	z-index: 2
+	z-index: 2 /* Semver: 2.0 */
 }
 main {
 	position: relative
@@ -256,7 +256,7 @@ main {
 }
 .main-child {
 	position: absolute;
-	z-index: 999;
+	z-index: 999; /* Semver: 1.999 */
 }
 ```
 ```html
@@ -269,11 +269,11 @@ main {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4MjA3OTIzLDEyMzU4NDg5NzcsNDE0MD
-I2NjIwLDM0NDg2MTY2NSwxMDM3OTkyNTcwLC0xNjU4OTIzMjQ5
-LDExNTgwNDU0NTEsMTQ3MDUyODAwNCwtMjk5MTQ0NTE3LDE2MD
-I5NDIzNTMsMTIyNjE4MTE3MSwtMTgzOTAzMDUxMywtMTAyNTE3
-NzY0MywyMzMyNTAwMTMsLTE0NDE2NDIzODgsLTIxNDAyNjMwMC
-wtMTY1OTcyMjEwNSwxMTgyMTE1NDgxLC02NDY4OTI0NTEsLTQ2
-MTExMjA4Nl19
+eyJoaXN0b3J5IjpbLTI4NTYyMTE2NSwxMjM1ODQ4OTc3LDQxND
+AyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODkyMzI0
+OSwxMTU4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNywxNj
+AyOTQyMzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUx
+Nzc2NDMsMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMD
+AsLTE2NTk3MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00
+NjExMTIwODZdfQ==
 -->

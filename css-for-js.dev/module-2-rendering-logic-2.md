@@ -280,9 +280,15 @@ There's a whole [list of ways to create stacking contexts over at MDN](https://d
 
 Josh recommends the tool ["Stacking Contexts Inspector"](https://github.com/andreadev-it/stacking-contexts-inspector) for debugging stacking contexts. It is an extension for Chrome and Firefox.
 
+The extension answers the following questions:
+>-   Which stacking context does this element belong to?
+>-   Does it create a stacking context of its own?
+>-   If it uses the  `z-index`  property, is it having any effect? If not, why not?
+>-   Where does it sit relative to other elements in the same stacking context?
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTU0ODA3MiwtMTE3MTcxNTc5OSw2Nj
+eyJoaXN0b3J5IjpbLTY2NzE4NjA0MiwtMTE3MTcxNTc5OSw2Nj
 I4NjkwNTgsMTIzNTg0ODk3Nyw0MTQwMjY2MjAsMzQ0ODYxNjY1
 LDEwMzc5OTI1NzAsLTE2NTg5MjMyNDksMTE1ODA0NTQ1MSwxND
 cwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgx

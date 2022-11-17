@@ -244,14 +244,16 @@ In order for something to be considered a stacking context the following needs t
 - `position` must be set to anything but `static`
 - `z-index` must be set
 
+`z-index` is not global. It on
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjMxNjg5NjAsMTIzNTg0ODk3Nyw0MT
-QwMjY2MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NTg5MjMy
-NDksMTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MTcsMT
-YwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5MDMwNTEzLC0xMDI1
-MTc3NjQzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OCwtMjE0MDI2Mz
-AwLC0xNjU5NzIyMTA1LDExODIxMTU0ODEsLTY0Njg5MjQ1MSwt
-NDYxMTEyMDg2XX0=
+eyJoaXN0b3J5IjpbMzEwNzYxNzkzLDEyMzU4NDg5NzcsNDE0MD
+I2NjIwLDM0NDg2MTY2NSwxMDM3OTkyNTcwLC0xNjU4OTIzMjQ5
+LDExNTgwNDU0NTEsMTQ3MDUyODAwNCwtMjk5MTQ0NTE3LDE2MD
+I5NDIzNTMsMTIyNjE4MTE3MSwtMTgzOTAzMDUxMywtMTAyNTE3
+NzY0MywyMzMyNTAwMTMsLTE0NDE2NDIzODgsLTIxNDAyNjMwMC
+wtMTY1OTcyMjEwNSwxMTgyMTE1NDgxLC02NDY4OTI0NTEsLTQ2
+MTExMjA4Nl19
 -->

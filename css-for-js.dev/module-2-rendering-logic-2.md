@@ -219,16 +219,19 @@ In **flow layout** we rarely see it, but it can be done with negative margins.
 
 > The truth is that Flow layout isn't really built with layering in mind. Most of the time, when we want to layer elements, we'll want to use positioned layout.
 
-🚩🚩 "As a general rule, **positioned elements will always render on top of non-positioned ones**." - Josh  🔖🔖🔖
+🚩🚩 "As a general rule, **positioned elements will always render on top of non-positioned ones**." - Josh
+
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzk5MjU3MCwtMTY1ODkyMzI0OSwxMT
-U4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNywxNjAyOTQy
-MzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUxNzc2ND
-MsMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMDAsLTE2
-NTk3MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00NjExMT
-IwODYsMTQzNzU5MzM2NywxMzEyNjMzMzEwXX0=
+eyJoaXN0b3J5IjpbMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NT
+g5MjMyNDksMTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1
+MTcsMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5MDMwNTEzLC
+0xMDI1MTc3NjQzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OCwtMjE0
+MDI2MzAwLC0xNjU5NzIyMTA1LDExODIxMTU0ODEsLTY0Njg5Mj
+Q1MSwtNDYxMTEyMDg2LDE0Mzc1OTMzNjcsMTMxMjYzMzMxMF19
+
 -->

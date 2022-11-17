@@ -269,26 +269,24 @@ main {
 ```
 
 **Please note:** You can create stacking contexts in other ways too.
--   Setting  `opacity`  to a value less than  `1`
-    
--   Setting  `position`  to  `fixed`  or  `sticky`  (No z-index needed for these values!)
-    
--   Applying a  `mix-blend-mode`  other than  `normal`
-    
--   Adding a  `z-index`  to a child inside a  `display: flex`  or  `display: grid`  container
-    
--   Using  `transform`,  `filter`,  `clip-path`, or  `perspective`
-    
--   Explicitly creating a context with  `isolation: isolate`  (More on this soon!)
+>-   Setting  `opacity`  to a value less than  `1`
+>-   Setting  `position`  to  `fixed`  or  `sticky`  (No z-index needed for these values!)
+>-   Applying a  `mix-blend-mode`  other than  `normal`
+>-   Adding a  `z-index`  to a child inside a  `display: flex`  or  `display: grid`  container
+>-   Using  `transform`,  `filter`,  `clip-path`, or  `perspective`
+> -   Explicitly creating a context with  `isolation: isolate`  (More on this soon!)
+
+There's a whole [list of ways to create stacking contexts over at MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context).
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDQ0NzM3Nyw2NjI4NjkwNTgsMTIzNT
-g0ODk3Nyw0MTQwMjY2MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAs
-LTE2NTg5MjMyNDksMTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOT
-kxNDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5MDMw
-NTEzLC0xMDI1MTc3NjQzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OC
-wtMjE0MDI2MzAwLC0xNjU5NzIyMTA1LDExODIxMTU0ODEsLTY0
-Njg5MjQ1MV19
+eyJoaXN0b3J5IjpbLTExNzE3MTU3OTksNjYyODY5MDU4LDEyMz
+U4NDg5NzcsNDE0MDI2NjIwLDM0NDg2MTY2NSwxMDM3OTkyNTcw
+LC0xNjU4OTIzMjQ5LDExNTgwNDU0NTEsMTQ3MDUyODAwNCwtMj
+k5MTQ0NTE3LDE2MDI5NDIzNTMsMTIyNjE4MTE3MSwtMTgzOTAz
+MDUxMywtMTAyNTE3NzY0MywyMzMyNTAwMTMsLTE0NDE2NDIzOD
+gsLTIxNDAyNjMwMCwtMTY1OTcyMjEwNSwxMTgyMTE1NDgxLC02
+NDY4OTI0NTFdfQ==
 -->

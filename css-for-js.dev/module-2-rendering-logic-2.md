@@ -244,16 +244,27 @@ In order for something to be considered a stacking context the following needs t
 - `position` must be set to anything but `static`
 - `z-index` must be set
 
-`z-index` is not global. It on
+`z-index` is not global. It is compared within a stacking context. Example:
+```css
+header {
+	position: relative
+	z-index: 2
+}
+main {
+	position: relative
+	z-index: 1
+}
+.
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwNzYxNzkzLDEyMzU4NDg5NzcsNDE0MD
-I2NjIwLDM0NDg2MTY2NSwxMDM3OTkyNTcwLC0xNjU4OTIzMjQ5
-LDExNTgwNDU0NTEsMTQ3MDUyODAwNCwtMjk5MTQ0NTE3LDE2MD
-I5NDIzNTMsMTIyNjE4MTE3MSwtMTgzOTAzMDUxMywtMTAyNTE3
-NzY0MywyMzMyNTAwMTMsLTE0NDE2NDIzODgsLTIxNDAyNjMwMC
-wtMTY1OTcyMjEwNSwxMTgyMTE1NDgxLC02NDY4OTI0NTEsLTQ2
-MTExMjA4Nl19
+eyJoaXN0b3J5IjpbLTQwNzQ1MzI5MiwxMjM1ODQ4OTc3LDQxND
+AyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODkyMzI0
+OSwxMTU4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNywxNj
+AyOTQyMzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUx
+Nzc2NDMsMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMD
+AsLTE2NTk3MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00
+NjExMTIwODZdfQ==
 -->

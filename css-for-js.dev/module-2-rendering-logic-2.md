@@ -290,16 +290,18 @@ The extension answers the following questions:
 
 #### Strategies for managing z-index
 
-1. Swapping DOM order (⚠️ Be careful with this strategy. It can affect the user experience for keyboard users if you use this strategy on interactive elements like `button`. However, as long as it is only non-interactive elements like
+1. **Swapping DOM order**
+	- ⚠️ Be careful with this strategy. It can affect the user experience for keyboard users if you use this strategy on interactive elements like `button`. However, as long as it is only non-interactive elements like `img` it should be fine. ⚠️
+2. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3ODk1Njk2LC00NDA3NTQzNzksLTExNz
-E3MTU3OTksNjYyODY5MDU4LDEyMzU4NDg5NzcsNDE0MDI2NjIw
-LDM0NDg2MTY2NSwxMDM3OTkyNTcwLC0xNjU4OTIzMjQ5LDExNT
-gwNDU0NTEsMTQ3MDUyODAwNCwtMjk5MTQ0NTE3LDE2MDI5NDIz
-NTMsMTIyNjE4MTE3MSwtMTgzOTAzMDUxMywtMTAyNTE3NzY0My
-wyMzMyNTAwMTMsLTE0NDE2NDIzODgsLTIxNDAyNjMwMCwtMTY1
-OTcyMjEwNV19
+eyJoaXN0b3J5IjpbLTQ5NjMxNjYzMCwtNDQwNzU0Mzc5LC0xMT
+cxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4OTc3LDQxNDAyNjYy
+MCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODkyMzI0OSwxMT
+U4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNywxNjAyOTQy
+MzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUxNzc2ND
+MsMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMDAsLTE2
+NTk3MjIxMDVdfQ==
 -->

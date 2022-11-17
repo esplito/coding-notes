@@ -268,14 +268,27 @@ main {
 </main>
 ```
 
+**Please note:** You can create stacking contexts in other ways too.
+-   Setting  `opacity`  to a value less than  `1`
+    
+-   Setting  `position`  to  `fixed`  or  `sticky`  (No z-index needed for these values!)
+    
+-   Applying a  `mix-blend-mode`  other than  `normal`
+    
+-   Adding a  `z-index`  to a child inside a  `display: flex`  or  `display: grid`  container
+    
+-   Using  `transform`,  `filter`,  `clip-path`, or  `perspective`
+    
+-   Explicitly creating a context with  `isolation: isolate`  (More on this soon!)
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyODY5MDU4LDEyMzU4NDg5NzcsNDE0MD
-I2NjIwLDM0NDg2MTY2NSwxMDM3OTkyNTcwLC0xNjU4OTIzMjQ5
-LDExNTgwNDU0NTEsMTQ3MDUyODAwNCwtMjk5MTQ0NTE3LDE2MD
-I5NDIzNTMsMTIyNjE4MTE3MSwtMTgzOTAzMDUxMywtMTAyNTE3
-NzY0MywyMzMyNTAwMTMsLTE0NDE2NDIzODgsLTIxNDAyNjMwMC
-wtMTY1OTcyMjEwNSwxMTgyMTE1NDgxLC02NDY4OTI0NTEsLTQ2
-MTExMjA4Nl19
+eyJoaXN0b3J5IjpbMTU4MDQ0NzM3Nyw2NjI4NjkwNTgsMTIzNT
+g0ODk3Nyw0MTQwMjY2MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAs
+LTE2NTg5MjMyNDksMTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOT
+kxNDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5MDMw
+NTEzLC0xMDI1MTc3NjQzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OC
+wtMjE0MDI2MzAwLC0xNjU5NzIyMTA1LDExODIxMTU0ODEsLTY0
+Njg5MjQ1MV19
 -->

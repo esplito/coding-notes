@@ -226,17 +226,20 @@ Summary:
 >-   If one sibling uses positioned layout, it will appear above its non-positioned sibling, no matter what the DOM order is.
 >-   If both siblings use positioned layout, the DOM order controls which element will be on top. Unlike in Flow layout, the content does not float to the front.
 
+### z-index
 
+> `z-index` **only works with positioned elements*.** It will have no effect on an element being rendered in Flow layout.
+> *z-index can also be used with flex/grid children;
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2NjUxNzI3LDM0NDg2MTY2NSwxMDM3OT
-kyNTcwLC0xNjU4OTIzMjQ5LDExNTgwNDU0NTEsMTQ3MDUyODAw
-NCwtMjk5MTQ0NTE3LDE2MDI5NDIzNTMsMTIyNjE4MTE3MSwtMT
-gzOTAzMDUxMywtMTAyNTE3NzY0MywyMzMyNTAwMTMsLTE0NDE2
-NDIzODgsLTIxNDAyNjMwMCwtMTY1OTcyMjEwNSwxMTgyMTE1ND
-gxLC02NDY4OTI0NTEsLTQ2MTExMjA4NiwxNDM3NTkzMzY3LDEz
-MTI2MzMzMTBdfQ==
+eyJoaXN0b3J5IjpbMTI0MjE1MjM5NywzNDQ4NjE2NjUsMTAzNz
+k5MjU3MCwtMTY1ODkyMzI0OSwxMTU4MDQ1NDUxLDE0NzA1Mjgw
+MDQsLTI5OTE0NDUxNywxNjAyOTQyMzUzLDEyMjYxODExNzEsLT
+E4MzkwMzA1MTMsLTEwMjUxNzc2NDMsMjMzMjUwMDEzLC0xNDQx
+NjQyMzg4LC0yMTQwMjYzMDAsLTE2NTk3MjIxMDUsMTE4MjExNT
+Q4MSwtNjQ2ODkyNDUxLC00NjExMTIwODYsMTQzNzU5MzM2Nywx
+MzEyNjMzMzEwXX0=
 -->

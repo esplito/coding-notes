@@ -293,15 +293,17 @@ The extension answers the following questions:
 1. **Swapping DOM order**
 	- ⚠️ Be careful with this strategy. It can affect the user experience for keyboard users if you use this strategy on interactive elements like `button`. However, as long as it is only non-interactive elements like `img` it should be fine. ⚠️
 2. **Isolated stacking contexts**
+	- Use the  `isolation` property to create an isolated stacking context.
+		- This means that you don't have to set `position` or `z-index` to isolate some stacking contexts.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg2OTIyODEsLTQ0MDc1NDM3OSwtMT
-E3MTcxNTc5OSw2NjI4NjkwNTgsMTIzNTg0ODk3Nyw0MTQwMjY2
-MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NTg5MjMyNDksMT
-E1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0
-MjM1MywxMjI2MTgxMTcxLC0xODM5MDMwNTEzLC0xMDI1MTc3Nj
-QzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OCwtMjE0MDI2MzAwLC0x
-NjU5NzIyMTA1XX0=
+eyJoaXN0b3J5IjpbLTEwNjgyMDY4MDIsLTE2ODg2OTIyODEsLT
+Q0MDc1NDM3OSwtMTE3MTcxNTc5OSw2NjI4NjkwNTgsMTIzNTg0
+ODk3Nyw0MTQwMjY2MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLT
+E2NTg5MjMyNDksMTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkx
+NDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5MDMwNT
+EzLC0xMDI1MTc3NjQzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OCwt
+MjE0MDI2MzAwXX0=
 -->

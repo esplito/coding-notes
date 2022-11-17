@@ -252,19 +252,28 @@ header {
 }
 main {
 	position: relative
-	z-index: 1
+	z-index: 1 // 
 }
-.
+.main-child {
+	position: absolute;
+	z-index: 999;
+}
+```
+```html
+<header />
+<main>
+	<div class="main-child"/>
+</main>
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzQ1MzI5MiwxMjM1ODQ4OTc3LDQxND
-AyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODkyMzI0
-OSwxMTU4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNywxNj
-AyOTQyMzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUx
-Nzc2NDMsMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMD
-AsLTE2NTk3MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00
-NjExMTIwODZdfQ==
+eyJoaXN0b3J5IjpbOTQzNTQ1NTksMTIzNTg0ODk3Nyw0MTQwMj
+Y2MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NTg5MjMyNDks
+MTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMj
+k0MjM1MywxMjI2MTgxMTcxLC0xODM5MDMwNTEzLC0xMDI1MTc3
+NjQzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OCwtMjE0MDI2MzAwLC
+0xNjU5NzIyMTA1LDExODIxMTU0ODEsLTY0Njg5MjQ1MSwtNDYx
+MTEyMDg2XX0=
 -->

@@ -221,17 +221,22 @@ In **flow layout** we rarely see it, but it can be done with negative margins.
 
 🚩🚩 "As a general rule, **positioned elements will always render on top of non-positioned ones**." - Josh
 
+Summary:
+>-   When all siblings are rendered in Flow layout, the DOM order controls how the background elements overlap, but the content will always float to the front.
+>-   If one sibling uses positioned layout, it will appear above its non-positioned sibling, no matter what the DOM order is.
+>-   If both siblings use positioned layout, the DOM order controls which element will be on top. Unlike in Flow layout, the content does not float to the front.
+
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NT
-g5MjMyNDksMTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1
-MTcsMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5MDMwNTEzLC
-0xMDI1MTc3NjQzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OCwtMjE0
-MDI2MzAwLC0xNjU5NzIyMTA1LDExODIxMTU0ODEsLTY0Njg5Mj
-Q1MSwtNDYxMTEyMDg2LDE0Mzc1OTMzNjcsMTMxMjYzMzMxMF19
-
+eyJoaXN0b3J5IjpbMzg2NjUxNzI3LDM0NDg2MTY2NSwxMDM3OT
+kyNTcwLC0xNjU4OTIzMjQ5LDExNTgwNDU0NTEsMTQ3MDUyODAw
+NCwtMjk5MTQ0NTE3LDE2MDI5NDIzNTMsMTIyNjE4MTE3MSwtMT
+gzOTAzMDUxMywtMTAyNTE3NzY0MywyMzMyNTAwMTMsLTE0NDE2
+NDIzODgsLTIxNDAyNjMwMCwtMTY1OTcyMjEwNSwxMTgyMTE1ND
+gxLC02NDY4OTI0NTEsLTQ2MTExMjA4NiwxNDM3NTkzMzY3LDEz
+MTI2MzMzMTBdfQ==
 -->

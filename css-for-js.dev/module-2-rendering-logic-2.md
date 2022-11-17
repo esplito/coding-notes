@@ -237,16 +237,18 @@ When we want the layered order to be different from the DOM order.
 
 ⚠️ `z-index` does allow **negative values**, but it usually just **adds unnecessary complexity,** so Josh advices us to avoid it ⚠️
 
+### Introducing stacking contexts
 
+In order for something to be considered a stacking context the following needs to be 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTg0ODk3Nyw0MTQwMjY2MjAsMzQ0OD
-YxNjY1LDEwMzc5OTI1NzAsLTE2NTg5MjMyNDksMTE1ODA0NTQ1
-MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0MjM1MywxMj
-I2MTgxMTcxLC0xODM5MDMwNTEzLC0xMDI1MTc3NjQzLDIzMzI1
-MDAxMywtMTQ0MTY0MjM4OCwtMjE0MDI2MzAwLC0xNjU5NzIyMT
-A1LDExODIxMTU0ODEsLTY0Njg5MjQ1MSwtNDYxMTEyMDg2LDE0
-Mzc1OTMzNjddfQ==
+eyJoaXN0b3J5IjpbLTEwMzYxNDAyOSwxMjM1ODQ4OTc3LDQxND
+AyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODkyMzI0
+OSwxMTU4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNywxNj
+AyOTQyMzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUx
+Nzc2NDMsMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMD
+AsLTE2NTk3MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00
+NjExMTIwODZdfQ==
 -->

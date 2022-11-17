@@ -286,9 +286,15 @@ The extension answers the following questions:
 >-   If it uses the  `z-index`  property, is it having any effect? If not, why not?
 >-   Where does it sit relative to other elements in the same stacking context?
 
+### Managing z-index
+
+#### Strategies for managing z-index
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NzE4NjA0MiwtMTE3MTcxNTc5OSw2Nj
+eyJoaXN0b3J5IjpbLTQ0MDc1NDM3OSwtMTE3MTcxNTc5OSw2Nj
 I4NjkwNTgsMTIzNTg0ODk3Nyw0MTQwMjY2MjAsMzQ0ODYxNjY1
 LDEwMzc5OTI1NzAsLTE2NTg5MjMyNDksMTE1ODA0NTQ1MSwxND
 cwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgx

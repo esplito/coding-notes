@@ -278,15 +278,15 @@ main {
 
 There's a whole [list of ways to create stacking contexts over at MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context).
 
-
+Josh recommends the tool ["Stacking Contexts Inspector"](https://github.com/andreadev-it/stacking-contexts-inspector) for debugging stacking contexts. It
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzE3MTU3OTksNjYyODY5MDU4LDEyMz
-U4NDg5NzcsNDE0MDI2NjIwLDM0NDg2MTY2NSwxMDM3OTkyNTcw
-LC0xNjU4OTIzMjQ5LDExNTgwNDU0NTEsMTQ3MDUyODAwNCwtMj
-k5MTQ0NTE3LDE2MDI5NDIzNTMsMTIyNjE4MTE3MSwtMTgzOTAz
-MDUxMywtMTAyNTE3NzY0MywyMzMyNTAwMTMsLTE0NDE2NDIzOD
-gsLTIxNDAyNjMwMCwtMTY1OTcyMjEwNSwxMTgyMTE1NDgxLC02
-NDY4OTI0NTFdfQ==
+eyJoaXN0b3J5IjpbMTI2MzEwMTI4NywtMTE3MTcxNTc5OSw2Nj
+I4NjkwNTgsMTIzNTg0ODk3Nyw0MTQwMjY2MjAsMzQ0ODYxNjY1
+LDEwMzc5OTI1NzAsLTE2NTg5MjMyNDksMTE1ODA0NTQ1MSwxND
+cwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgx
+MTcxLC0xODM5MDMwNTEzLC0xMDI1MTc3NjQzLDIzMzI1MDAxMy
+wtMTQ0MTY0MjM4OCwtMjE0MDI2MzAwLC0xNjU5NzIyMTA1LDEx
+ODIxMTU0ODFdfQ==
 -->

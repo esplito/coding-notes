@@ -239,16 +239,19 @@ When we want the layered order to be different from the DOM order.
 
 ### Introducing stacking contexts
 
-In order for something to be considered a stacking context the following needs to be 
+In order for something to be considered a stacking context the following needs to be fulfilled:
+
+- `position` must be set to anything but `static`
+- `z-index` must be set
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzYxNDAyOSwxMjM1ODQ4OTc3LDQxND
-AyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODkyMzI0
-OSwxMTU4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNywxNj
-AyOTQyMzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUx
-Nzc2NDMsMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMD
-AsLTE2NTk3MjIxMDUsMTE4MjExNTQ4MSwtNjQ2ODkyNDUxLC00
-NjExMTIwODZdfQ==
+eyJoaXN0b3J5IjpbLTE5NjMxNjg5NjAsMTIzNTg0ODk3Nyw0MT
+QwMjY2MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NTg5MjMy
+NDksMTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MTcsMT
+YwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5MDMwNTEzLC0xMDI1
+MTc3NjQzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OCwtMjE0MDI2Mz
+AwLC0xNjU5NzIyMTA1LDExODIxMTU0ODEsLTY0Njg5MjQ1MSwt
+NDYxMTEyMDg2XX0=
 -->

@@ -302,16 +302,18 @@ The extension answers the following questions:
 			} 
 			```
 
+> Ever since discovering the `isolation` property, I've been using it a ton. Whenever a child within a component applies a `z-index` value, I add `isolation: isolate` to the component's parent element. This guarantees that we won't see weird "slip-in-between" bugs, like the one we saw with the sticky header. But it doesn't contribute at all to z-index inflation, or force me to pick a value. - Josh
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4OTgwNzMzLC0xNjg4NjkyMjgxLC00ND
-A3NTQzNzksLTExNzE3MTU3OTksNjYyODY5MDU4LDEyMzU4NDg5
-NzcsNDE0MDI2NjIwLDM0NDg2MTY2NSwxMDM3OTkyNTcwLC0xNj
-U4OTIzMjQ5LDExNTgwNDU0NTEsMTQ3MDUyODAwNCwtMjk5MTQ0
-NTE3LDE2MDI5NDIzNTMsMTIyNjE4MTE3MSwtMTgzOTAzMDUxMy
-wtMTAyNTE3NzY0MywyMzMyNTAwMTMsLTE0NDE2NDIzODgsLTIx
-NDAyNjMwMF19
+eyJoaXN0b3J5IjpbLTE5NzY0ODY5NzQsLTE2ODg2OTIyODEsLT
+Q0MDc1NDM3OSwtMTE3MTcxNTc5OSw2NjI4NjkwNTgsMTIzNTg0
+ODk3Nyw0MTQwMjY2MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLT
+E2NTg5MjMyNDksMTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkx
+NDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5MDMwNT
+EzLC0xMDI1MTc3NjQzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OCwt
+MjE0MDI2MzAwXX0=
 -->

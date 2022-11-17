@@ -235,15 +235,16 @@ When we want the layered order to be different from the DOM order.
 > `z-index` **only works with positioned elements*.** It will have no effect on an element being rendered in Flow layout.
 > *z-index can also be used with flex/grid children;
 
+?> ⚠️ `z-index` does allow **negative values**, but it usually just **adds unnecessary complexity,** so Josh advices us to avoid it ⚠️
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0MDI2NjIwLDM0NDg2MTY2NSwxMDM3OT
-kyNTcwLC0xNjU4OTIzMjQ5LDExNTgwNDU0NTEsMTQ3MDUyODAw
-NCwtMjk5MTQ0NTE3LDE2MDI5NDIzNTMsMTIyNjE4MTE3MSwtMT
-gzOTAzMDUxMywtMTAyNTE3NzY0MywyMzMyNTAwMTMsLTE0NDE2
-NDIzODgsLTIxNDAyNjMwMCwtMTY1OTcyMjEwNSwxMTgyMTE1ND
-gxLC02NDY4OTI0NTEsLTQ2MTExMjA4NiwxNDM3NTkzMzY3LDEz
-MTI2MzMzMTBdfQ==
+eyJoaXN0b3J5IjpbLTEwMDY1NjQzNzgsNDE0MDI2NjIwLDM0ND
+g2MTY2NSwxMDM3OTkyNTcwLC0xNjU4OTIzMjQ5LDExNTgwNDU0
+NTEsMTQ3MDUyODAwNCwtMjk5MTQ0NTE3LDE2MDI5NDIzNTMsMT
+IyNjE4MTE3MSwtMTgzOTAzMDUxMywtMTAyNTE3NzY0MywyMzMy
+NTAwMTMsLTE0NDE2NDIzODgsLTIxNDAyNjMwMCwtMTY1OTcyMj
+EwNSwxMTgyMTE1NDgxLC02NDY4OTI0NTEsLTQ2MTExMjA4Niwx
+NDM3NTkzMzY3XX0=
 -->

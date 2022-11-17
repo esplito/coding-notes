@@ -296,16 +296,18 @@ The extension answers the following questions:
 	- Use the  `isolation` property to create an isolated stacking context.
 		- This means that you don't have to set `position` or `z-index` to isolate some stacking contexts.
 		- Example usage: 
-		 ```css
-		.pricing  {
-			isolation: isolate;
-		} 
-	```
+			 ```css
+			.parent-that-we-want-as-a-stacking-context {
+				isolation: isolate;
+			} 
+			```
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzNzM1MjgzLC0xNjg4NjkyMjgxLC00ND
+eyJoaXN0b3J5IjpbNDI4OTgwNzMzLC0xNjg4NjkyMjgxLC00ND
 A3NTQzNzksLTExNzE3MTU3OTksNjYyODY5MDU4LDEyMzU4NDg5
 NzcsNDE0MDI2NjIwLDM0NDg2MTY2NSwxMDM3OTkyNTcwLC0xNj
 U4OTIzMjQ5LDExNTgwNDU0NTEsMTQ3MDUyODAwNCwtMjk5MTQ0

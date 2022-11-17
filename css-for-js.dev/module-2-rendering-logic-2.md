@@ -292,16 +292,16 @@ The extension answers the following questions:
 
 1. **Swapping DOM order**
 	- ⚠️ Be careful with this strategy. It can affect the user experience for keyboard users if you use this strategy on interactive elements like `button`. However, as long as it is only non-interactive elements like `img` it should be fine. ⚠️
-2. 
+2. **Isolated stacking contexts**
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjMxNjYzMCwtNDQwNzU0Mzc5LC0xMT
-cxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4OTc3LDQxNDAyNjYy
-MCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODkyMzI0OSwxMT
-U4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNywxNjAyOTQy
-MzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEwMjUxNzc2ND
-MsMjMzMjUwMDEzLC0xNDQxNjQyMzg4LC0yMTQwMjYzMDAsLTE2
-NTk3MjIxMDVdfQ==
+eyJoaXN0b3J5IjpbLTE2ODg2OTIyODEsLTQ0MDc1NDM3OSwtMT
+E3MTcxNTc5OSw2NjI4NjkwNTgsMTIzNTg0ODk3Nyw0MTQwMjY2
+MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NTg5MjMyNDksMT
+E1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0
+MjM1MywxMjI2MTgxMTcxLC0xODM5MDMwNTEzLC0xMDI1MTc3Nj
+QzLDIzMzI1MDAxMywtMTQ0MTY0MjM4OCwtMjE0MDI2MzAwLC0x
+NjU5NzIyMTA1XX0=
 -->

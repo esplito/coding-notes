@@ -228,6 +228,10 @@ Summary:
 
 ### z-index
 
+**When do you want to use `z-index`?** 
+When we want the layered order to be different from the DOM order.
+
+**When does it work?** 
 > `z-index` **only works with positioned elements*.** It will have no effect on an element being rendered in Flow layout.
 > *z-index can also be used with flex/grid children;
 
@@ -235,11 +239,11 @@ Summary:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjE1MjM5NywzNDQ4NjE2NjUsMTAzNz
-k5MjU3MCwtMTY1ODkyMzI0OSwxMTU4MDQ1NDUxLDE0NzA1Mjgw
-MDQsLTI5OTE0NDUxNywxNjAyOTQyMzUzLDEyMjYxODExNzEsLT
-E4MzkwMzA1MTMsLTEwMjUxNzc2NDMsMjMzMjUwMDEzLC0xNDQx
-NjQyMzg4LC0yMTQwMjYzMDAsLTE2NTk3MjIxMDUsMTE4MjExNT
-Q4MSwtNjQ2ODkyNDUxLC00NjExMTIwODYsMTQzNzU5MzM2Nywx
-MzEyNjMzMzEwXX0=
+eyJoaXN0b3J5IjpbNDE0MDI2NjIwLDM0NDg2MTY2NSwxMDM3OT
+kyNTcwLC0xNjU4OTIzMjQ5LDExNTgwNDU0NTEsMTQ3MDUyODAw
+NCwtMjk5MTQ0NTE3LDE2MDI5NDIzNTMsMTIyNjE4MTE3MSwtMT
+gzOTAzMDUxMywtMTAyNTE3NzY0MywyMzMyNTAwMTMsLTE0NDE2
+NDIzODgsLTIxNDAyNjMwMCwtMTY1OTcyMjEwNSwxMTgyMTE1ND
+gxLC02NDY4OTI0NTEsLTQ2MTExMjA4NiwxNDM3NTkzMzY3LDEz
+MTI2MzMzMTBdfQ==
 -->

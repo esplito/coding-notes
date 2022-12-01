@@ -351,14 +351,17 @@ For example, when working with modals, you might end up in a situation where you
 ### Incompatibility with certain CSS properties
 ⚠️ If any ancestor to our "fixed" element has the `transform` property defined, `position: fixed` will not work. ⚠️ 
 
+> By applying a transform to `.container`, it becomes the containing block for this fixed-position child. As a result, it functions like an absolutely-positioned child. - Josh
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODMzNzkxNSwzMjU0NDU3MzksLTk5NT
-c3MDAwMiw2NTAwNzgyMTAsLTE5NzY0ODY5NzQsLTE2ODg2OTIy
-ODEsLTQ0MDc1NDM3OSwtMTE3MTcxNTc5OSw2NjI4NjkwNTgsMT
-IzNTg0ODk3Nyw0MTQwMjY2MjAsMzQ0ODYxNjY1LDEwMzc5OTI1
-NzAsLTE2NTg5MjMyNDksMTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC
-0yOTkxNDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5
-MDMwNTEzXX0=
+eyJoaXN0b3J5IjpbMTkyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1Nz
+cwMDAyLDY1MDA3ODIxMCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4
+MSwtNDQwNzU0Mzc5LC0xMTcxNzE1Nzk5LDY2Mjg2OTA1OCwxMj
+M1ODQ4OTc3LDQxNDAyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3
+MCwtMTY1ODkyMzI0OSwxMTU4MDQ1NDUxLDE0NzA1MjgwMDQsLT
+I5OTE0NDUxNywxNjAyOTQyMzUzLDEyMjYxODExNzEsLTE4Mzkw
+MzA1MTNdfQ==
 -->

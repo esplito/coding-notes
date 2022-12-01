@@ -403,17 +403,17 @@ findCulprits(document.querySelector(selector));
 >  
 >2.  If you can't change the CSS, you can  [use a portal](https://courses.joshwcomeau.com/css-for-js/02-rendering-logic-2/10-portals), like we saw in the previous lesson, or otherwise find a way to move the fixed element to a different container.
 
-⚠️ Beware of iframes. If you want to use this on something that is rendered inside an iframe, you'll have to select the iframe's environ ⚠️
+⚠️ Beware of iframes. If you want to use this on something that is rendered inside an iframe, you'll have to select the iframe's environment inside your browser. ⚠️
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzMDk4MDM0LDExNzgwMDgwMjMsMTkyMD
-Q4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAyLDY1MDA3ODIxMCwt
-MTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQwNzU0Mzc5LC0xMT
-cxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4OTc3LDQxNDAyNjYy
-MCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODkyMzI0OSwxMT
-U4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNywxNjAyOTQy
-MzUzXX0=
+eyJoaXN0b3J5IjpbMTE5MjY5MzY2NSwxMTc4MDA4MDIzLDE5Mj
+A0ODMzMSwzMjU0NDU3MzksLTk5NTc3MDAwMiw2NTAwNzgyMTAs
+LTE5NzY0ODY5NzQsLTE2ODg2OTIyODEsLTQ0MDc1NDM3OSwtMT
+E3MTcxNTc5OSw2NjI4NjkwNTgsMTIzNTg0ODk3Nyw0MTQwMjY2
+MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NTg5MjMyNDksMT
+E1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0
+MjM1M119
 -->

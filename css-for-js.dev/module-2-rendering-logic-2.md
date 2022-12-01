@@ -308,13 +308,17 @@ The extension answers the following questions:
 
 ### Portals
 
+> Portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component. - [React.js docs](https://reactjs.org/docs/portals.html)
+
+For example, when working with modals, you might end up in a situation where you have conflicting z-index values. 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTc3MDAwMiw2NTAwNzgyMTAsLTE5Nz
-Y0ODY5NzQsLTE2ODg2OTIyODEsLTQ0MDc1NDM3OSwtMTE3MTcx
-NTc5OSw2NjI4NjkwNTgsMTIzNTg0ODk3Nyw0MTQwMjY2MjAsMz
-Q0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NTg5MjMyNDksMTE1ODA0
-NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0MjM1My
-wxMjI2MTgxMTcxLC0xODM5MDMwNTEzLC0xMDI1MTc3NjQzLDIz
-MzI1MDAxM119
+eyJoaXN0b3J5IjpbMjA5ODQ1MDQzMywtOTk1NzcwMDAyLDY1MD
+A3ODIxMCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQwNzU0
+Mzc5LC0xMTcxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4OTc3LD
+QxNDAyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODky
+MzI0OSwxMTU4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNy
+wxNjAyOTQyMzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEw
+MjUxNzc2NDNdfQ==
 -->

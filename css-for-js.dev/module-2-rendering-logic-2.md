@@ -337,14 +337,15 @@ For example, when working with modals, you might end up in a situation where you
 ```
 ```css
 #root {
-	isolation: isolate; /* If we use this, any z-index defined inside our react app, will not affect the stacking contex*/
+	/* If we use this, any z-index defined inside our react app, will not affect the stacking context of the modal/portal */
+	isolation: isolate; 
 }
 ``` 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTczMjcxNzAsLTk5NTc3MDAwMiw2NT
+eyJoaXN0b3J5IjpbLTE3NDgyNzY3NTQsLTk5NTc3MDAwMiw2NT
 AwNzgyMTAsLTE5NzY0ODY5NzQsLTE2ODg2OTIyODEsLTQ0MDc1
 NDM3OSwtMTE3MTcxNTc5OSw2NjI4NjkwNTgsMTIzNTg0ODk3Ny
 w0MTQwMjY2MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NTg5

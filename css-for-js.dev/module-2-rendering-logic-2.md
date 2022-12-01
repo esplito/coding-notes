@@ -405,15 +405,16 @@ findCulprits(document.querySelector(selector));
 
 ⚠️ Beware of iframes. If you want to use this on something that is rendered inside an iframe, you'll have to select the iframe's environment inside your browser. ⚠️
 
+## Exercises
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjY5MzY2NSwxMTc4MDA4MDIzLDE5Mj
-A0ODMzMSwzMjU0NDU3MzksLTk5NTc3MDAwMiw2NTAwNzgyMTAs
-LTE5NzY0ODY5NzQsLTE2ODg2OTIyODEsLTQ0MDc1NDM3OSwtMT
-E3MTcxNTc5OSw2NjI4NjkwNTgsMTIzNTg0ODk3Nyw0MTQwMjY2
-MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NTg5MjMyNDksMT
-E1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0
-MjM1M119
+eyJoaXN0b3J5IjpbLTg0MDI5MjMwMCwxMTkyNjkzNjY1LDExNz
+gwMDgwMjMsMTkyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAy
+LDY1MDA3ODIxMCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtND
+QwNzU0Mzc5LC0xMTcxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4
+OTc3LDQxNDAyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMT
+Y1ODkyMzI0OSwxMTU4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0
+NDUxN119
 -->

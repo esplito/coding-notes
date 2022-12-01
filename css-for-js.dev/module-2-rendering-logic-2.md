@@ -312,6 +312,7 @@ The extension answers the following questions:
 
 For example, when working with modals, you might end up in a situation where you have conflicting z-index values in different stacking context. This often happen when you render a modal inside the root element created by React.
 ```jsx
+<!-- Structure when you might have issues with stacking context -->
 <html>
  <div id="root">
 	 <header>My beautiful header</header>
@@ -323,6 +324,7 @@ For example, when working with modals, you might end up in a situation where you
 ```
 
 ```jsx
+<!-- Structure when using portals. Portals are added to the bottom of the DOM structure -->
 <html>
  <div id="root">
 	 <header>My beautiful header</header>
@@ -337,11 +339,11 @@ For example, when working with modals, you might end up in a situation where you
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODIyMDQwMSwtOTk1NzcwMDAyLDY1MD
-A3ODIxMCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQwNzU0
-Mzc5LC0xMTcxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4OTc3LD
-QxNDAyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODky
-MzI0OSwxMTU4MDQ1NDUxLDE0NzA1MjgwMDQsLTI5OTE0NDUxNy
-wxNjAyOTQyMzUzLDEyMjYxODExNzEsLTE4MzkwMzA1MTMsLTEw
-MjUxNzc2NDNdfQ==
+eyJoaXN0b3J5IjpbLTE1MjE5NDAyNjYsLTk5NTc3MDAwMiw2NT
+AwNzgyMTAsLTE5NzY0ODY5NzQsLTE2ODg2OTIyODEsLTQ0MDc1
+NDM3OSwtMTE3MTcxNTc5OSw2NjI4NjkwNTgsMTIzNTg0ODk3Ny
+w0MTQwMjY2MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NTg5
+MjMyNDksMTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MT
+csMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5MDMwNTEzLC0x
+MDI1MTc3NjQzXX0=
 -->

@@ -353,15 +353,15 @@ For example, when working with modals, you might end up in a situation where you
 
 > By applying a transform to `.container`, it becomes the containing block for this fixed-position child. As a result, it functions like an absolutely-positioned child. - Josh
 
-
+Josh refers to [an article by Eric Meyer](.  
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk3ODAwOTEsMTkyMDQ4MzMxLDMyNT
-Q0NTczOSwtOTk1NzcwMDAyLDY1MDA3ODIxMCwtMTk3NjQ4Njk3
-NCwtMTY4ODY5MjI4MSwtNDQwNzU0Mzc5LC0xMTcxNzE1Nzk5LD
-Y2Mjg2OTA1OCwxMjM1ODQ4OTc3LDQxNDAyNjYyMCwzNDQ4NjE2
-NjUsMTAzNzk5MjU3MCwtMTY1ODkyMzI0OSwxMTU4MDQ1NDUxLD
-E0NzA1MjgwMDQsLTI5OTE0NDUxNywxNjAyOTQyMzUzLDEyMjYx
-ODExNzFdfQ==
+eyJoaXN0b3J5IjpbMTg2OTg0OTI0NiwxOTIwNDgzMzEsMzI1ND
+Q1NzM5LC05OTU3NzAwMDIsNjUwMDc4MjEwLC0xOTc2NDg2OTc0
+LC0xNjg4NjkyMjgxLC00NDA3NTQzNzksLTExNzE3MTU3OTksNj
+YyODY5MDU4LDEyMzU4NDg5NzcsNDE0MDI2NjIwLDM0NDg2MTY2
+NSwxMDM3OTkyNTcwLC0xNjU4OTIzMjQ5LDExNTgwNDU0NTEsMT
+Q3MDUyODAwNCwtMjk5MTQ0NTE3LDE2MDI5NDIzNTMsMTIyNjE4
+MTE3MV19
 -->

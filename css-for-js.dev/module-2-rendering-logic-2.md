@@ -353,11 +353,11 @@ For example, when working with modals, you might end up in a situation where you
 
 > By applying a transform to `.container`, it becomes the containing block for this fixed-position child. As a result, it functions like an absolutely-positioned child. - Josh
 
-Josh refers to [an article by Eric Meyer](.  
+Josh refers to [an article by Eric Meyer](http://meyerweb.com/eric/thoughts/2011/09/12/un-fixing-fixed-elements-with-css-transforms/).  
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTg0OTI0NiwxOTIwNDgzMzEsMzI1ND
+eyJoaXN0b3J5IjpbMTE3ODAwODAyMywxOTIwNDgzMzEsMzI1ND
 Q1NzM5LC05OTU3NzAwMDIsNjUwMDc4MjEwLC0xOTc2NDg2OTc0
 LC0xNjg4NjkyMjgxLC00NDA3NTQzNzksLTExNzE3MTU3OTksNj
 YyODY5MDU4LDEyMzU4NDg5NzcsNDE0MDI2NjIwLDM0NDg2MTY2

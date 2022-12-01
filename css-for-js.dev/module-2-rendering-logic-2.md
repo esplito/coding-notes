@@ -314,15 +314,30 @@ For example, when working with modals, you might end up in a situation where you
 ```jsx
 <html>
  <div id="root">
-	 <di
+	 <header>My beautiful header</header>
+	 <main>
+		 <div id="modal" />
+	 </main>
  </div>
+</html>
+```
+
+```jsx
+<html>
+ <div id="root">
+	 <header>My beautiful header</header>
+	 <main>
+		 <!-- Stuff here -->
+	 </main>
+ </div>
+ <div id="modal" />
 </html>
 ```
  
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTIxMDAwOCwtOTk1NzcwMDAyLDY1MD
+eyJoaXN0b3J5IjpbMTczODIyMDQwMSwtOTk1NzcwMDAyLDY1MD
 A3ODIxMCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQwNzU0
 Mzc5LC0xMTcxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4OTc3LD
 QxNDAyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODky

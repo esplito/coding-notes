@@ -310,11 +310,19 @@ The extension answers the following questions:
 
 > Portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component. - [React.js docs](https://reactjs.org/docs/portals.html)
 
-For example, when working with modals, you might end up in a situation where you have conflicting z-index values. 
+For example, when working with modals, you might end up in a situation where you have conflicting z-index values in different stacking context. This often happen when you render a modal inside the root element created by React.
+```jsx
+<html>
+ <div id="root">
+	 <di
+ </div>
+</html>
+```
+ 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODQ1MDQzMywtOTk1NzcwMDAyLDY1MD
+eyJoaXN0b3J5IjpbMTM3OTIxMDAwOCwtOTk1NzcwMDAyLDY1MD
 A3ODIxMCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQwNzU0
 Mzc5LC0xMTcxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4OTc3LD
 QxNDAyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODky

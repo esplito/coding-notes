@@ -349,7 +349,7 @@ For example, when working with modals, you might end up in a situation where you
 ℹ️ The [centering trick](#centering-trick) that we mentioned previously, still works when using `postion: fixed`.
 
 ### Incompatibility with certain CSS properties
-⚠️ If any ancestor to our "fixed" element has the `transform` property defined, `position: fixed` will not work. ⚠️ 
+⚠️ If any ancestor to our "fixed" element has the `transform` , `will-change` or `filter` property defined, `position: fixed` will not work. ⚠️ 
 
 > By applying a transform to `.container`, it becomes the containing block for this fixed-position child. As a result, it functions like an absolutely-positioned child. - Josh
 
@@ -357,11 +357,11 @@ For example, when working with modals, you might end up in a situation where you
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1Nz
-cwMDAyLDY1MDA3ODIxMCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4
-MSwtNDQwNzU0Mzc5LC0xMTcxNzE1Nzk5LDY2Mjg2OTA1OCwxMj
-M1ODQ4OTc3LDQxNDAyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3
-MCwtMTY1ODkyMzI0OSwxMTU4MDQ1NDUxLDE0NzA1MjgwMDQsLT
-I5OTE0NDUxNywxNjAyOTQyMzUzLDEyMjYxODExNzEsLTE4Mzkw
-MzA1MTNdfQ==
+eyJoaXN0b3J5IjpbLTEwMDk3ODAwOTEsMTkyMDQ4MzMxLDMyNT
+Q0NTczOSwtOTk1NzcwMDAyLDY1MDA3ODIxMCwtMTk3NjQ4Njk3
+NCwtMTY4ODY5MjI4MSwtNDQwNzU0Mzc5LC0xMTcxNzE1Nzk5LD
+Y2Mjg2OTA1OCwxMjM1ODQ4OTc3LDQxNDAyNjYyMCwzNDQ4NjE2
+NjUsMTAzNzk5MjU3MCwtMTY1ODkyMzI0OSwxMTU4MDQ1NDUxLD
+E0NzA1MjgwMDQsLTI5OTE0NDUxNywxNjAyOTQyMzUzLDEyMjYx
+ODExNzFdfQ==
 -->

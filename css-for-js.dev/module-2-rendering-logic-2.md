@@ -344,16 +344,19 @@ For example, when working with modals, you might end up in a situation where you
 
 ## Fixed Positioning
 
-`position: fixed` works like `position: absolute`, but it sticks to the viewport so that it is always visible (even when scrolling).
+`position: fixed` works like `position: absolute`, but it sticks to the viewport so that it is always in the same position in the view, even when scrolling. The [centering](#centering-trick)
+
+### Incompatibility with certain CSS properties
+⚠️ ⚠️ 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4Nzg0MTY5NywzMjU0NDU3MzksLTk5NT
-c3MDAwMiw2NTAwNzgyMTAsLTE5NzY0ODY5NzQsLTE2ODg2OTIy
-ODEsLTQ0MDc1NDM3OSwtMTE3MTcxNTc5OSw2NjI4NjkwNTgsMT
-IzNTg0ODk3Nyw0MTQwMjY2MjAsMzQ0ODYxNjY1LDEwMzc5OTI1
-NzAsLTE2NTg5MjMyNDksMTE1ODA0NTQ1MSwxNDcwNTI4MDA0LC
-0yOTkxNDQ1MTcsMTYwMjk0MjM1MywxMjI2MTgxMTcxLC0xODM5
-MDMwNTEzXX0=
+eyJoaXN0b3J5IjpbMTcwNzg4ODMsMzI1NDQ1NzM5LC05OTU3Nz
+AwMDIsNjUwMDc4MjEwLC0xOTc2NDg2OTc0LC0xNjg4NjkyMjgx
+LC00NDA3NTQzNzksLTExNzE3MTU3OTksNjYyODY5MDU4LDEyMz
+U4NDg5NzcsNDE0MDI2NjIwLDM0NDg2MTY2NSwxMDM3OTkyNTcw
+LC0xNjU4OTIzMjQ5LDExNTgwNDU0NTEsMTQ3MDUyODAwNCwtMj
+k5MTQ0NTE3LDE2MDI5NDIzNTMsMTIyNjE4MTE3MSwtMTgzOTAz
+MDUxM119
 -->

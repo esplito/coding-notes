@@ -355,13 +355,58 @@ For example, when working with modals, you might end up in a situation where you
 
 Josh refers to [an article by Eric Meyer](http://meyerweb.com/eric/thoughts/2011/09/12/un-fixing-fixed-elements-with-css-transforms/).  
 
+Josh has created a snippet for detecting these culprits. Just change the selector to your fixed element and then paste the script in the console of your browser:
+```js
+// Replace “.the-fixed-child” for a CSS selector
+// that matches the fixed-position element:
+const selector = '.the-fixed-child';
+
+function findCulprits(elem) {
+    if (!elem) {
+        throw new Error(
+            'Could not find element with that selector'
+        );
+    }
+
+    let parent = elem.parentElement;
+
+    while (parent) {
+        const {
+            transform,
+            willChange,
+            filter,
+        } = getComputedStyle(parent);
+
+        if (
+            transform !== 'none' ||
+            willChange === 'transform' ||
+            filter !== 'none'
+        ) {
+            console.warn(
+                '🚨 Found a culprit! 🚨\n',
+                parent, {
+                    transform,
+                    willChange,
+                    filter
+                }
+            );
+        }
+        parent = parent.parentElement;
+    }
+}
+
+findCulprits(document.querySelector(selector));
+```
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODAwODAyMywxOTIwNDgzMzEsMzI1ND
-Q1NzM5LC05OTU3NzAwMDIsNjUwMDc4MjEwLC0xOTc2NDg2OTc0
-LC0xNjg4NjkyMjgxLC00NDA3NTQzNzksLTExNzE3MTU3OTksNj
-YyODY5MDU4LDEyMzU4NDg5NzcsNDE0MDI2NjIwLDM0NDg2MTY2
-NSwxMDM3OTkyNTcwLC0xNjU4OTIzMjQ5LDExNTgwNDU0NTEsMT
-Q3MDUyODAwNCwtMjk5MTQ0NTE3LDE2MDI5NDIzNTMsMTIyNjE4
-MTE3MV19
+eyJoaXN0b3J5IjpbLTE1Mjk4MzcwMywxMTc4MDA4MDIzLDE5Mj
+A0ODMzMSwzMjU0NDU3MzksLTk5NTc3MDAwMiw2NTAwNzgyMTAs
+LTE5NzY0ODY5NzQsLTE2ODg2OTIyODEsLTQ0MDc1NDM3OSwtMT
+E3MTcxNTc5OSw2NjI4NjkwNTgsMTIzNTg0ODk3Nyw0MTQwMjY2
+MjAsMzQ0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NTg5MjMyNDksMT
+E1ODA0NTQ1MSwxNDcwNTI4MDA0LC0yOTkxNDQ1MTcsMTYwMjk0
+MjM1M119
 -->

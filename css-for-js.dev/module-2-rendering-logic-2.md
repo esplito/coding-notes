@@ -349,12 +349,12 @@ For example, when working with modals, you might end up in a situation where you
 ℹ️ The [centering trick](#centering-trick) that we mentioned previously, still works when using `postion: fixed`.
 
 ### Incompatibility with certain CSS properties
-⚠️ If any ancestor to our "fixed" element has the `transform` property defined, it will break. ⚠️ 
+⚠️ If any ancestor to our "fixed" element has the `transform` property defined, `position: fixed` will not work. ⚠️ 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzk3MzQ0NCwzMjU0NDU3MzksLTk5NT
+eyJoaXN0b3J5IjpbLTYwODMzNzkxNSwzMjU0NDU3MzksLTk5NT
 c3MDAwMiw2NTAwNzgyMTAsLTE5NzY0ODY5NzQsLTE2ODg2OTIy
 ODEsLTQ0MDc1NDM3OSwtMTE3MTcxNTc5OSw2NjI4NjkwNTgsMT
 IzNTg0ODk3Nyw0MTQwMjY2MjAsMzQ0ODYxNjY1LDEwMzc5OTI1

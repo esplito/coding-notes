@@ -355,7 +355,7 @@ const Comment = z.object({
 }).extend(Id);
 ```
 
-Another solution:
+Another solution with `.extend()`:
 ```ts
 const ObjectWithId = z.object({ id: z.string().uuid() });
 
@@ -373,6 +373,30 @@ const Comment = ObjectWithId.extend({
 });
 ```
 
+Another solution with `.merge()`:
+```ts
+const ObjectWithId = z.object({ id: z.string().uuid() });
+
+const User = ObjectWithId.merge(
+  z.object({
+    name: z.string(),
+  })
+);
+
+const Post = ObjectWithId.merge(
+  z.object({
+    title: z.string(),
+    body: z.string(),
+  })
+);
+
+const Comment = ObjectWithId.merge(
+  z.object({
+    text: z.string(),
+  })
+);
+```
+
 ## 10. Transform Data from Within a Schema
 
 ### Exercise 10
@@ -381,7 +405,7 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0Nzk0MTc0LDE5NjU0OTY4MjcsLTI5MD
+eyJoaXN0b3J5IjpbNzAyMDQyNzMzLDE5NjU0OTY4MjcsLTI5MD
 c0MjM1Niw1OTE4OTMyMiwtMTI5MTg2NDAxMiwxODk4NzE0ODIz
 LDE4ODE2MzU4NDgsLTE3MDcwMzY4MjYsLTg1ODEwNDg5MSw2OD
 QxOTQwOTQsMzEwNDY0NTMwLDE1MTkwOTc3MTAsLTEwNjU1Njcz

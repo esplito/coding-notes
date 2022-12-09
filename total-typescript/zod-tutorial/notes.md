@@ -210,8 +210,16 @@ type FormType = {
 ### Exercise 6
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/06-default.problem.ts 
 
+Goal: Set a default value for `keywords` using Zod.
+
 My solution:
 ```ts
+const Form = z.object({
+  repoName: z.string(),
+  keywords: z.array(z.string()).optional().default([]),
+  //                           ^ 🕵️‍♂️
+});
+
 ```
 
 ## 7. Be Specific with Allowed Types
@@ -243,8 +251,8 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwNDY0NTMwLDE1MTkwOTc3MTAsLTEwNj
-U1NjczODksMTMyMDUxNDAwMiwtMTM1NDU3OTc0NiwyNjgzOTgy
-ODQsLTk0NDk4ODU4MCwxNzg0Njg4ODI0LDE2MTUwNjUyMDQsMz
-c5NzQ4OTAzXX0=
+eyJoaXN0b3J5IjpbLTY1NTMzNjIzMCwzMTA0NjQ1MzAsMTUxOT
+A5NzcxMCwtMTA2NTU2NzM4OSwxMzIwNTE0MDAyLC0xMzU0NTc5
+NzQ2LDI2ODM5ODI4NCwtOTQ0OTg4NTgwLDE3ODQ2ODg4MjQsMT
+YxNTA2NTIwNCwzNzk3NDg5MDNdfQ==
 -->

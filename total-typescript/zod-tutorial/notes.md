@@ -32,6 +32,8 @@ const PersonResult = z.object({
 });
 ```
 
+When you then run `PersonResult.parse(data)` it will strip away the fields that it does not recognize.
+
 
 ## 3. Create an Array of Custom Types
 
@@ -90,5 +92,6 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTA2NTIwNCwzNzk3NDg5MDNdfQ==
+eyJoaXN0b3J5IjpbLTIwOTk3OTA2OTIsMTYxNTA2NTIwNCwzNz
+k3NDg5MDNdfQ==
 -->

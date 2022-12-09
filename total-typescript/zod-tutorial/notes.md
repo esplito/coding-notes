@@ -155,6 +155,8 @@ const StarWarsPeopleResults = z.object({
 ### Exercise 4
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/04-infer.problem.ts
 
+**Goal:** Extract the type of `StarWarsPeopleResults` so that we don't get a type error when trying to map the data.
+
 My solution:
 ```ts
 import { z } from "zod";
@@ -183,7 +185,7 @@ const logStarWarsPeopleResults = (data: StarWarsPeopleResults) => {
 ### Exercise 5
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/05-optional.problem.ts
 
-Goal: Make `phoneNumber` optional.
+**Goal:** Make `phoneNumber` optional.
 
 My solution:
 ```ts
@@ -210,7 +212,7 @@ type FormType = {
 ### Exercise 6
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/06-default.problem.ts 
 
-Goal: Set a default value for `keywords` using Zod.
+**Goal:** Set a default value for `keywords` using Zod.
 
 My solution:
 ```ts
@@ -260,7 +262,7 @@ type FormOutput = {
 ### Exercise 7
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/07-union.problem.ts
 
-Goal: Make `privacyLevel` more specific than just allowing any `string`.
+**Goal:** Make `privacyLevel` more specific than just allowing any `string`.
 
 My solution:
 ```ts
@@ -300,7 +302,7 @@ const Form = z.object({
 ### Exercise 8
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/08-validations.problem.ts
 
-Goals:
+**Goals:**
 - If `phoneNumber` is passed it must be at least 5 digits and at most 20 digits
 - `email` must have a valid email format
 - If `website` is passed it must be a valid website url
@@ -335,7 +337,7 @@ const Form = z.object({
 ### Exercise 9
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/09-composing-objects.problem.ts
 
-Goal: Use the Zod apis to make the code a bit cleaner and DRY. (`type cases` should not get any type errors after refactoring)
+**Goal:** Use the Zod apis to make the code a bit cleaner and DRY. (`type cases` should not get any type errors after refactoring)
 
 My first solution:
 ```ts
@@ -434,7 +436,7 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjE5Mjk3NywtNzIwNDcyNTU0LDE5Nj
+eyJoaXN0b3J5IjpbLTM3ODI5MjY4OCwtNzIwNDcyNTU0LDE5Nj
 U0OTY4MjcsLTI5MDc0MjM1Niw1OTE4OTMyMiwtMTI5MTg2NDAx
 MiwxODk4NzE0ODIzLDE4ODE2MzU4NDgsLTE3MDcwMzY4MjYsLT
 g1ODEwNDg5MSw2ODQxOTQwOTQsMzEwNDY0NTMwLDE1MTkwOTc3

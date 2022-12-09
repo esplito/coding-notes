@@ -86,8 +86,12 @@ const StarWarsPeopleResults = z.object({
     results: StarWarsPerson.array()
 });
 ```
-
-
+**Data before parsing:**
+```js
+```
+**Data after parsing:**
+```js
+```
 
 ## 4. Extract a Type from a Parser Object
 
@@ -139,6 +143,6 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzEzMTA2NywtOTQ0OTg4NTgwLDE3OD
-Q2ODg4MjQsMTYxNTA2NTIwNCwzNzk3NDg5MDNdfQ==
+eyJoaXN0b3J5IjpbLTE2MzA2OTk5MDIsLTk0NDk4ODU4MCwxNz
+g0Njg4ODI0LDE2MTUwNjUyMDQsMzc5NzQ4OTAzXX0=
 -->

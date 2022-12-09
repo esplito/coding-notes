@@ -12,6 +12,8 @@ In this markdown file you can find my notes from when I completed Matt Pocock's 
 ### Exercise 1
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/01-number.problem.ts
 
+**Goal:** Make `toString` throw a runtime error when it is not being called with a `number`.
+
 My solution:
 ```ts
 const zodNumberParser = z.number();
@@ -27,7 +29,7 @@ export const toString = (num: unknown) => {
 ### Exercise 2
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/02-object.problem.ts
 
-Goal: Change `PersonResult` so that we can parse
+**Goal:** Change `PersonResult` so that we can parse and infer the type of the data received from the API.
 
 My solution:
 ```ts
@@ -78,7 +80,7 @@ When you then run `PersonResult.parse(data)` it will strip away the fields that 
 ### Exercise 3
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/03-array.problem.ts
 
-**Goal:** Change `StarWarsPeopleResults` so that we can parse the data from the API when it returns `results` as an array.
+**Goal:** Change `StarWarsPeopleResults` so that we can parse and infer the type of the data from the API when it returns `results` as an array.
 
 My solution:
 ```ts
@@ -440,11 +442,11 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzM5MzQ2NCwtNzIwNDcyNTU0LDE5Nj
-U0OTY4MjcsLTI5MDc0MjM1Niw1OTE4OTMyMiwtMTI5MTg2NDAx
-MiwxODk4NzE0ODIzLDE4ODE2MzU4NDgsLTE3MDcwMzY4MjYsLT
-g1ODEwNDg5MSw2ODQxOTQwOTQsMzEwNDY0NTMwLDE1MTkwOTc3
-MTAsLTEwNjU1NjczODksMTMyMDUxNDAwMiwtMTM1NDU3OTc0Ni
-wyNjgzOTgyODQsLTk0NDk4ODU4MCwxNzg0Njg4ODI0LDE2MTUw
-NjUyMDRdfQ==
+eyJoaXN0b3J5IjpbLTIwMjI3NDMzNjMsLTcyMDQ3MjU1NCwxOT
+Y1NDk2ODI3LC0yOTA3NDIzNTYsNTkxODkzMjIsLTEyOTE4NjQw
+MTIsMTg5ODcxNDgyMywxODgxNjM1ODQ4LC0xNzA3MDM2ODI2LC
+04NTgxMDQ4OTEsNjg0MTk0MDk0LDMxMDQ2NDUzMCwxNTE5MDk3
+NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3ND
+YsMjY4Mzk4Mjg0LC05NDQ5ODg1ODAsMTc4NDY4ODgyNCwxNjE1
+MDY1MjA0XX0=
 -->

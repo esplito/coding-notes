@@ -455,13 +455,32 @@ const StarWarsPerson = z
 >
 > All of this is taking place at the  `StarWarsPerson`  level instead of inside of the fetch function or elsewhere." - Matt
 
+## Extra exercises (no videos available yet)
+
+### Exercise 11 - Refine problem
+
+**Goal:** Make sure that an error is thrown (by using `z.refine()` if the passwords don't  match.
+
+My solution:
+```ts
+const Form = z
+  .object({
+    password: z.string(),
+    confirmPassword: z.string(),
+  })
+  .refine((data) => data.password === data.confirmPassword, {
+    message: "Passwords don't match",
+  });
+
+```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjg1OTE5NzIsLTIwMjI3NDMzNjMsLT
-cyMDQ3MjU1NCwxOTY1NDk2ODI3LC0yOTA3NDIzNTYsNTkxODkz
-MjIsLTEyOTE4NjQwMTIsMTg5ODcxNDgyMywxODgxNjM1ODQ4LC
-0xNzA3MDM2ODI2LC04NTgxMDQ4OTEsNjg0MTk0MDk0LDMxMDQ2
-NDUzMCwxNTE5MDk3NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQwMD
-IsLTEzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC05NDQ5ODg1ODAsMTc4
-NDY4ODgyNF19
+eyJoaXN0b3J5IjpbNzAzMjI4NzcyLC0xNDI4NTkxOTcyLC0yMD
+IyNzQzMzYzLC03MjA0NzI1NTQsMTk2NTQ5NjgyNywtMjkwNzQy
+MzU2LDU5MTg5MzIyLC0xMjkxODY0MDEyLDE4OTg3MTQ4MjMsMT
+g4MTYzNTg0OCwtMTcwNzAzNjgyNiwtODU4MTA0ODkxLDY4NDE5
+NDA5NCwzMTA0NjQ1MzAsMTUxOTA5NzcxMCwtMTA2NTU2NzM4OS
+wxMzIwNTE0MDAyLC0xMzU0NTc5NzQ2LDI2ODM5ODI4NCwtOTQ0
+OTg4NTgwXX0=
 -->

@@ -425,12 +425,14 @@ const Comment = z.object({
 ## 10. Transform Data from Within a Schema
 
 ### Exercise 10
+Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/10-transform.problem.ts
+
 My solution:
 ```ts
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjkxNzEwOSwxOTY1NDk2ODI3LC0yOT
+eyJoaXN0b3J5IjpbLTcyMDQ3MjU1NCwxOTY1NDk2ODI3LC0yOT
 A3NDIzNTYsNTkxODkzMjIsLTEyOTE4NjQwMTIsMTg5ODcxNDgy
 MywxODgxNjM1ODQ4LC0xNzA3MDM2ODI2LC04NTgxMDQ4OTEsNj
 g0MTk0MDk0LDMxMDQ2NDUzMCwxNTE5MDk3NzEwLC0xMDY1NTY3

@@ -181,6 +181,8 @@ const logStarWarsPeopleResults = (data: StarWarsPeopleResults) => {
 ## 5. Make Schemas Optional
 
 ### Exercise 5
+Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/05-optional.problem.ts
+
 My solution:
 ```ts
 ```
@@ -221,7 +223,7 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDUxNDAwMiwtMTM1NDU3OTc0NiwyNj
-gzOTgyODQsLTk0NDk4ODU4MCwxNzg0Njg4ODI0LDE2MTUwNjUy
-MDQsMzc5NzQ4OTAzXX0=
+eyJoaXN0b3J5IjpbLTEwNjU1NjczODksMTMyMDUxNDAwMiwtMT
+M1NDU3OTc0NiwyNjgzOTgyODQsLTk0NDk4ODU4MCwxNzg0Njg4
+ODI0LDE2MTUwNjUyMDQsMzc5NzQ4OTAzXX0=
 -->

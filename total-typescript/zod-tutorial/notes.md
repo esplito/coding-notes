@@ -10,6 +10,7 @@ In this markdown file you can find my notes from when I completed Matt Pocock's 
 ## 1. Runtime Type Checking with Zod
 
 ### Exercise 1
+Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/01-number.problem.ts
 My solution:
 ```ts
 const zodNumberParser = z.number();
@@ -23,9 +24,14 @@ export const toString = (num: unknown) => {
 ## 2. Verify Unknown APIs with an Object Schema
 
 ### Exercise 2
+Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/02-object.problem.ts
 My solution:
 ```ts
+const PersonResult = z.object({
+    name: z.string()
+});
 ```
+
 
 ## 3. Create an Array of Custom Types
 
@@ -84,5 +90,5 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5NzQ4OTAzXX0=
+eyJoaXN0b3J5IjpbMTYxNTA2NTIwNCwzNzk3NDg5MDNdfQ==
 -->

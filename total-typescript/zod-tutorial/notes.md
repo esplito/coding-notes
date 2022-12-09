@@ -333,6 +333,8 @@ const Form = z.object({
 ## 9. Reduce Duplicated Code by Composing Schemas
 
 ### Exercise 9
+Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/09-composing-objects.problem.ts
+
 My solution:
 ```ts
 ```
@@ -345,10 +347,10 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDc0MjM1Niw1OTE4OTMyMiwtMTI5MT
-g2NDAxMiwxODk4NzE0ODIzLDE4ODE2MzU4NDgsLTE3MDcwMzY4
-MjYsLTg1ODEwNDg5MSw2ODQxOTQwOTQsMzEwNDY0NTMwLDE1MT
-kwOTc3MTAsLTEwNjU1NjczODksMTMyMDUxNDAwMiwtMTM1NDU3
-OTc0NiwyNjgzOTgyODQsLTk0NDk4ODU4MCwxNzg0Njg4ODI0LD
-E2MTUwNjUyMDQsMzc5NzQ4OTAzXX0=
+eyJoaXN0b3J5IjpbMTY2NDMzMzk5NywtMjkwNzQyMzU2LDU5MT
+g5MzIyLC0xMjkxODY0MDEyLDE4OTg3MTQ4MjMsMTg4MTYzNTg0
+OCwtMTcwNzAzNjgyNiwtODU4MTA0ODkxLDY4NDE5NDA5NCwzMT
+A0NjQ1MzAsMTUxOTA5NzcxMCwtMTA2NTU2NzM4OSwxMzIwNTE0
+MDAyLC0xMzU0NTc5NzQ2LDI2ODM5ODI4NCwtOTQ0OTg4NTgwLD
+E3ODQ2ODg4MjQsMTYxNTA2NTIwNCwzNzk3NDg5MDNdfQ==
 -->

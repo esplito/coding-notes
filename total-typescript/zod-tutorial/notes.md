@@ -265,7 +265,16 @@ Goal: Make `privacyLevel` more specific than just allowing any `string`.
 
 My solution:
 ```ts
+const Form = z.object({
+  repoName: z.string(),
+  privacyLevel: z.enum(["public", "private"]),
+  //              ^ 🕵️‍♂️
+});
 ```
+
+**Side note:**
+The inferred type that I get for `Form` when using `z.enum()` is the fol
+
 
 ## 8. Complex Schema Validation
 
@@ -289,8 +298,9 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODEwNDg5MSw2ODQxOTQwOTQsMzEwND
-Y0NTMwLDE1MTkwOTc3MTAsLTEwNjU1NjczODksMTMyMDUxNDAw
-MiwtMTM1NDU3OTc0NiwyNjgzOTgyODQsLTk0NDk4ODU4MCwxNz
-g0Njg4ODI0LDE2MTUwNjUyMDQsMzc5NzQ4OTAzXX0=
+eyJoaXN0b3J5IjpbLTE0NjY4ODQxODYsLTg1ODEwNDg5MSw2OD
+QxOTQwOTQsMzEwNDY0NTMwLDE1MTkwOTc3MTAsLTEwNjU1Njcz
+ODksMTMyMDUxNDAwMiwtMTM1NDU3OTc0NiwyNjgzOTgyODQsLT
+k0NDk4ODU4MCwxNzg0Njg4ODI0LDE2MTUwNjUyMDQsMzc5NzQ4
+OTAzXX0=
 -->

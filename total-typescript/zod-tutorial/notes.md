@@ -301,8 +301,24 @@ const Form = z.object({
 ### Exercise 8
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/08-validations.problem.ts
 
+Goals:
+- If `phoneNumber` is passed it must be at least 5 digits and at most 20 digits
+- `email` must have a valid email format
+- If `website` is passed it 
+
 My solution:
 ```ts
+const Form = z.object({
+  name: z.string(),
+  //             ^ 🕵️‍♂️
+  phoneNumber: z.string().min(5).max(20).optional(),
+  //                    ^ 🕵️‍♂️
+  email: z.string().email(),
+  //              ^ 🕵️‍♂️
+  website: z.string().url().optional(),
+  //                ^ 🕵️‍♂️
+});
+
 ```
 
 ## 9. Reduce Duplicated Code by Composing Schemas
@@ -320,9 +336,9 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MTYzNTg0OCwtMTcwNzAzNjgyNiwtOD
-U4MTA0ODkxLDY4NDE5NDA5NCwzMTA0NjQ1MzAsMTUxOTA5Nzcx
-MCwtMTA2NTU2NzM4OSwxMzIwNTE0MDAyLC0xMzU0NTc5NzQ2LD
-I2ODM5ODI4NCwtOTQ0OTg4NTgwLDE3ODQ2ODg4MjQsMTYxNTA2
-NTIwNCwzNzk3NDg5MDNdfQ==
+eyJoaXN0b3J5IjpbLTg1NjgyMDA4OCwxODgxNjM1ODQ4LC0xNz
+A3MDM2ODI2LC04NTgxMDQ4OTEsNjg0MTk0MDk0LDMxMDQ2NDUz
+MCwxNTE5MDk3NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQwMDIsLT
+EzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC05NDQ5ODg1ODAsMTc4NDY4
+ODgyNCwxNjE1MDY1MjA0LDM3OTc0ODkwM119
 -->

@@ -495,8 +495,21 @@ const Form = z
 
 **Goal:**
 
-My solution:
+My (unnecessarily verbose) solution:
 ```ts
+const Form = z.object({
+  id: z.string().refine(async (id) => {
+    return await doesStarWarsPersonExist(id);
+  }),
+});
+
+```
+
+Matt's solution:
+```ts
+const Form = z.object({
+  id: z.string().refine(doesStarWarsPersonExist, "Not found"),
+});
 ```
 ### Exercise 13 - Lazy problem
 
@@ -514,11 +527,11 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTg2MzU0MiwtMTQyODU5MTk3MiwtMj
-AyMjc0MzM2MywtNzIwNDcyNTU0LDE5NjU0OTY4MjcsLTI5MDc0
-MjM1Niw1OTE4OTMyMiwtMTI5MTg2NDAxMiwxODk4NzE0ODIzLD
-E4ODE2MzU4NDgsLTE3MDcwMzY4MjYsLTg1ODEwNDg5MSw2ODQx
-OTQwOTQsMzEwNDY0NTMwLDE1MTkwOTc3MTAsLTEwNjU1NjczOD
-ksMTMyMDUxNDAwMiwtMTM1NDU3OTc0NiwyNjgzOTgyODQsLTk0
-NDk4ODU4MF19
+eyJoaXN0b3J5IjpbMjM2MTg2NzU1LDIwODU4NjM1NDIsLTE0Mj
+g1OTE5NzIsLTIwMjI3NDMzNjMsLTcyMDQ3MjU1NCwxOTY1NDk2
+ODI3LC0yOTA3NDIzNTYsNTkxODkzMjIsLTEyOTE4NjQwMTIsMT
+g5ODcxNDgyMywxODgxNjM1ODQ4LC0xNzA3MDM2ODI2LC04NTgx
+MDQ4OTEsNjg0MTk0MDk0LDMxMDQ2NDUzMCwxNTE5MDk3NzEwLC
+0xMDY1NTY3Mzg5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3NDYsMjY4
+Mzk4Mjg0XX0=
 -->

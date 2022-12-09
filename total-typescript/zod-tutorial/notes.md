@@ -74,6 +74,8 @@ When you then run `PersonResult.parse(data)` it will strip away the fields that 
 ## 3. Create an Array of Custom Types
 
 ### Exercise 3
+Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/03-array.problem.ts
+
 My solution:
 ```ts
 ```
@@ -128,6 +130,6 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDY4ODgyNCwxNjE1MDY1MjA0LDM3OT
-c0ODkwM119
+eyJoaXN0b3J5IjpbLTk0NDk4ODU4MCwxNzg0Njg4ODI0LDE2MT
+UwNjUyMDQsMzc5NzQ4OTAzXX0=
 -->

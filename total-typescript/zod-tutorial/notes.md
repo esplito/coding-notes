@@ -25,6 +25,7 @@ export const toString = (num: unknown) => {
 
 ### Exercise 2
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/02-object.problem.ts
+
 My solution:
 ```ts
 const PersonResult = z.object({
@@ -126,6 +127,6 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzYxOTg5MjAsMTYxNTA2NTIwNCwzNz
-k3NDg5MDNdfQ==
+eyJoaXN0b3J5IjpbLTM3NzIwNTI3NCwxNjE1MDY1MjA0LDM3OT
+c0ODkwM119
 -->

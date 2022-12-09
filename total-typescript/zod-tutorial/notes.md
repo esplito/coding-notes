@@ -78,7 +78,16 @@ Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/03-arra
 
 My solution:
 ```ts
+const StarWarsPerson = z.object({
+    name: z.string(),
+});
+
+const StarWarsPeopleResults = z.object({
+    results: StarWarsPerson.array()
+});
 ```
+
+
 
 ## 4. Extract a Type from a Parser Object
 
@@ -130,6 +139,6 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDk4ODU4MCwxNzg0Njg4ODI0LDE2MT
-UwNjUyMDQsMzc5NzQ4OTAzXX0=
+eyJoaXN0b3J5IjpbMjEyMzEzMTA2NywtOTQ0OTg4NTgwLDE3OD
+Q2ODg4MjQsMTYxNTA2NTIwNCwzNzk3NDg5MDNdfQ==
 -->

@@ -327,6 +327,8 @@ const Form = z.object({
 });
 ```
 
+> 💡 "Note that we can't use `.optional().min()` because `min` doesn't exist on the optional types. This means we have to put `.optional()` at the end after other validations." - Matt
+
 
 ## 9. Reduce Duplicated Code by Composing Schemas
 
@@ -343,10 +345,10 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkxODkzMjIsLTEyOTE4NjQwMTIsMTg5OD
-cxNDgyMywxODgxNjM1ODQ4LC0xNzA3MDM2ODI2LC04NTgxMDQ4
-OTEsNjg0MTk0MDk0LDMxMDQ2NDUzMCwxNTE5MDk3NzEwLC0xMD
-Y1NTY3Mzg5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3NDYsMjY4Mzk4
-Mjg0LC05NDQ5ODg1ODAsMTc4NDY4ODgyNCwxNjE1MDY1MjA0LD
-M3OTc0ODkwM119
+eyJoaXN0b3J5IjpbLTI5MDc0MjM1Niw1OTE4OTMyMiwtMTI5MT
+g2NDAxMiwxODk4NzE0ODIzLDE4ODE2MzU4NDgsLTE3MDcwMzY4
+MjYsLTg1ODEwNDg5MSw2ODQxOTQwOTQsMzEwNDY0NTMwLDE1MT
+kwOTc3MTAsLTEwNjU1NjczODksMTMyMDUxNDAwMiwtMTM1NDU3
+OTc0NiwyNjgzOTgyODQsLTk0NDk4ODU4MCwxNzg0Njg4ODI0LD
+E2MTUwNjUyMDQsMzc5NzQ4OTAzXX0=
 -->

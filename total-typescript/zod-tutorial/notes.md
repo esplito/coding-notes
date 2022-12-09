@@ -281,6 +281,8 @@ type Form = {
 };
 ```
 
+Matt's alternative 
+
 ## 8. Complex Schema Validation
 
 ### Exercise 8
@@ -303,9 +305,9 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTY4NDE5NywtODU4MTA0ODkxLDY4ND
-E5NDA5NCwzMTA0NjQ1MzAsMTUxOTA5NzcxMCwtMTA2NTU2NzM4
-OSwxMzIwNTE0MDAyLC0xMzU0NTc5NzQ2LDI2ODM5ODI4NCwtOT
-Q0OTg4NTgwLDE3ODQ2ODg4MjQsMTYxNTA2NTIwNCwzNzk3NDg5
-MDNdfQ==
+eyJoaXN0b3J5IjpbLTE5MjA5OTY1NDYsLTg1ODEwNDg5MSw2OD
+QxOTQwOTQsMzEwNDY0NTMwLDE1MTkwOTc3MTAsLTEwNjU1Njcz
+ODksMTMyMDUxNDAwMiwtMTM1NDU3OTc0NiwyNjgzOTgyODQsLT
+k0NDk4ODU4MCwxNzg0Njg4ODI0LDE2MTUwNjUyMDQsMzc5NzQ4
+OTAzXX0=
 -->

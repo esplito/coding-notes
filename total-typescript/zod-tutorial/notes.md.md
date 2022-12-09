@@ -62,21 +62,21 @@ My solution:
 ```ts
 ```
 
-## 8. Verify Unknown APIs with an Object Schema
+## 8. Complex Schema Validation
 
 ### Exercise 8
 My solution:
 ```ts
 ```
 
-## 9. Verify Unknown APIs with an Object Schema
+## 9. Reduce Duplicated Code by Composing Schemas
 
 ### Exercise 9
 My solution:
 ```ts
 ```
 
-## 10. Verify Unknown APIs with an Object Schema
+## 10. Transform Data from Within a Schema
 
 ### Exercise 10
 My solution:
@@ -84,5 +84,5 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDc2OTk4ODksNjkyMjI4OTg2XX0=
+eyJoaXN0b3J5IjpbMzc5NzQ4OTAzLDY5MjIyODk4Nl19
 -->

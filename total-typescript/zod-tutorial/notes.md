@@ -515,7 +515,7 @@ const Form = z.object({
 
 **Goal:**
 
-My solution:
+One solution:
 ```ts
 type MenuItemType = {
   link: string;
@@ -531,6 +531,24 @@ const MenuItem: z.ZodType<MenuItemType> = z.lazy(() =>
   })
 );
 ```
+
+Matt's solution:
+```ts
+interface MenuItemType = {
+  link: string;
+  label: string;
+  children?: MenuItemType[];
+};
+
+const MenuItem: z.ZodType<MenuItemType> = z.lazy(() =>
+  z.object({
+    link: z.string(),
+    label: z.string(),
+    children: z.array(MenuItem).default([]),
+  })
+);
+```
+
 ### Exercise 14 - Generics problem
 
 **Goal:**
@@ -540,11 +558,11 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU4MTY0NzgsMjM2MTg2NzU1LDIwOD
-U4NjM1NDIsLTE0Mjg1OTE5NzIsLTIwMjI3NDMzNjMsLTcyMDQ3
-MjU1NCwxOTY1NDk2ODI3LC0yOTA3NDIzNTYsNTkxODkzMjIsLT
-EyOTE4NjQwMTIsMTg5ODcxNDgyMywxODgxNjM1ODQ4LC0xNzA3
-MDM2ODI2LC04NTgxMDQ4OTEsNjg0MTk0MDk0LDMxMDQ2NDUzMC
-wxNTE5MDk3NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQwMDIsLTEz
-NTQ1Nzk3NDZdfQ==
+eyJoaXN0b3J5IjpbMTQ0NDc4NTc2MiwyMzYxODY3NTUsMjA4NT
+g2MzU0MiwtMTQyODU5MTk3MiwtMjAyMjc0MzM2MywtNzIwNDcy
+NTU0LDE5NjU0OTY4MjcsLTI5MDc0MjM1Niw1OTE4OTMyMiwtMT
+I5MTg2NDAxMiwxODk4NzE0ODIzLDE4ODE2MzU4NDgsLTE3MDcw
+MzY4MjYsLTg1ODEwNDg5MSw2ODQxOTQwOTQsMzEwNDY0NTMwLD
+E1MTkwOTc3MTAsLTEwNjU1NjczODksMTMyMDUxNDAwMiwtMTM1
+NDU3OTc0Nl19
 -->

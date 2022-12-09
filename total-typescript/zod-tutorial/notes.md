@@ -34,38 +34,39 @@ const PersonResult = z.object({
 
 **Data before parsing:**
 ```js
-{
-    data: {
-        name: 'C-3PO',
-        height: '167',
-        mass: '75',
-        hair_color: 'n/a',
-        skin_color: 'gold',
-        eye_color: 'yellow',
-        birth_year: '112BBY',
-        gender: 'n/a',
-        homeworld: 'https://swapi.dev/api/planets/1/',
-        films: [
-            'https://swapi.dev/api/films/1/',
-            'https://swapi.dev/api/films/2/',
-            'https://swapi.dev/api/films/3/',
-            'https://swapi.dev/api/films/4/',
-            'https://swapi.dev/api/films/5/',
-            'https://swapi.dev/api/films/6/'
-        ],
-        species: ['https://swapi.dev/api/species/2/'],
-        vehicles: [],
-        starships: [],
-        created: '2014-12-10T15:10:51.357000Z',
-        edited: '2014-12-20T21:17:50.309000Z',
-        url: 'https://swapi.dev/api/people/2/'
-    }
+data: {
+    name: 'C-3PO',
+    height: '167',
+    mass: '75',
+    hair_color: 'n/a',
+    skin_color: 'gold',
+    eye_color: 'yellow',
+    birth_year: '112BBY',
+    gender: 'n/a',
+    homeworld: 'https://swapi.dev/api/planets/1/',
+    films: [
+        'https://swapi.dev/api/films/1/',
+        'https://swapi.dev/api/films/2/',
+        'https://swapi.dev/api/films/3/',
+        'https://swapi.dev/api/films/4/',
+        'https://swapi.dev/api/films/5/',
+        'https://swapi.dev/api/films/6/'
+    ],
+    species: ['https://swapi.dev/api/species/2/'],
+    vehicles: [],
+    starships: [],
+    created: '2014-12-10T15:10:51.357000Z',
+    edited: '2014-12-20T21:17:50.309000Z',
+    url: 'https://swapi.dev/api/people/2/'
 }
 ```
 
 When you then run `PersonResult.parse(data)` it will strip away the fields that it does not recognize.
 
 **Data after parsing:**
+```js
+{ name: 'C-3PO' }
+```
 
 
 ## 3. Create an Array of Custom Types
@@ -125,6 +126,6 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyNTY0NDM0LDE2MTUwNjUyMDQsMzc5Nz
-Q4OTAzXX0=
+eyJoaXN0b3J5IjpbLTEyNzYxOTg5MjAsMTYxNTA2NTIwNCwzNz
+k3NDg5MDNdfQ==
 -->

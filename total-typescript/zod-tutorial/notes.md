@@ -157,6 +157,25 @@ Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/04-infe
 
 My solution:
 ```ts
+import { z } from "zod";
+
+const StarWarsPerson = z.object({
+  name: z.string(),
+});
+
+const StarWarsPeopleResults = z.object({
+  results: z.array(StarWarsPerson),
+});
+
+// All I needed to do to get the correct type
+type StarWarsPeopleResults = z.infer<typeof StarWarsPeopleResults>;
+
+const logStarWarsPeopleResults = (data: StarWarsPeopleResults) => {
+  //                                    ^ 🕵️‍♂️
+  data.results.map((person) => {
+    console.log(person.name);
+  });
+};
 ```
 
 ## 5. Make Schemas Optional
@@ -202,7 +221,7 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC05ND
-Q5ODg1ODAsMTc4NDY4ODgyNCwxNjE1MDY1MjA0LDM3OTc0ODkw
-M119
+eyJoaXN0b3J5IjpbMTMyMDUxNDAwMiwtMTM1NDU3OTc0NiwyNj
+gzOTgyODQsLTk0NDk4ODU4MCwxNzg0Njg4ODI0LDE2MTUwNjUy
+MDQsMzc5NzQ4OTAzXX0=
 -->

@@ -27,6 +27,8 @@ export const toString = (num: unknown) => {
 ### Exercise 2
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/02-object.problem.ts
 
+Goal: Change `PersonResult` so that we can parse
+
 My solution:
 ```ts
 const PersonResult = z.object({
@@ -75,6 +77,8 @@ When you then run `PersonResult.parse(data)` it will strip away the fields that 
 
 ### Exercise 3
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/03-array.problem.ts
+
+**Goal:** Change `StarWarsPeopleResults` so that we can parse the data from the API when it returns `results` as an array.
 
 My solution:
 ```ts
@@ -436,7 +440,7 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODI5MjY4OCwtNzIwNDcyNTU0LDE5Nj
+eyJoaXN0b3J5IjpbLTc5MzM5MzQ2NCwtNzIwNDcyNTU0LDE5Nj
 U0OTY4MjcsLTI5MDc0MjM1Niw1OTE4OTMyMiwtMTI5MTg2NDAx
 MiwxODk4NzE0ODIzLDE4ODE2MzU4NDgsLTE3MDcwMzY4MjYsLT
 g1ODEwNDg5MSw2ODQxOTQwOTQsMzEwNDY0NTMwLDE1MTkwOTc3

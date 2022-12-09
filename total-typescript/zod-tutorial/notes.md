@@ -299,6 +299,8 @@ const Form = z.object({
 ## 8. Complex Schema Validation
 
 ### Exercise 8
+Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/08-validations.problem.ts
+
 My solution:
 ```ts
 ```
@@ -318,9 +320,9 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDcwMzY4MjYsLTg1ODEwNDg5MSw2OD
-QxOTQwOTQsMzEwNDY0NTMwLDE1MTkwOTc3MTAsLTEwNjU1Njcz
-ODksMTMyMDUxNDAwMiwtMTM1NDU3OTc0NiwyNjgzOTgyODQsLT
-k0NDk4ODU4MCwxNzg0Njg4ODI0LDE2MTUwNjUyMDQsMzc5NzQ4
-OTAzXX0=
+eyJoaXN0b3J5IjpbMTg4MTYzNTg0OCwtMTcwNzAzNjgyNiwtOD
+U4MTA0ODkxLDY4NDE5NDA5NCwzMTA0NjQ1MzAsMTUxOTA5Nzcx
+MCwtMTA2NTU2NzM4OSwxMzIwNTE0MDAyLC0xMzU0NTc5NzQ2LD
+I2ODM5ODI4NCwtOTQ0OTg4NTgwLDE3ODQ2ODg4MjQsMTYxNTA2
+NTIwNCwzNzk3NDg5MDNdfQ==
 -->

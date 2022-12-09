@@ -355,7 +355,23 @@ const Comment = z.object({
 }).extend(Id);
 ```
 
+Another solution:
+```ts
+const ObjectWithId = z.object({ id: z.string().uuid() });
 
+const User = ObjectWithId.extend({
+  name: z.string(),
+});
+
+const Post = ObjectWithId.extend({
+  title: z.string(),
+  body: z.string(),
+});
+
+const Comment = ObjectWithId.extend({
+  text: z.string(),
+});
+```
 
 ## 10. Transform Data from Within a Schema
 
@@ -365,11 +381,11 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTAxNDkzMywxOTY1NDk2ODI3LC0yOT
-A3NDIzNTYsNTkxODkzMjIsLTEyOTE4NjQwMTIsMTg5ODcxNDgy
-MywxODgxNjM1ODQ4LC0xNzA3MDM2ODI2LC04NTgxMDQ4OTEsNj
-g0MTk0MDk0LDMxMDQ2NDUzMCwxNTE5MDk3NzEwLC0xMDY1NTY3
-Mzg5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC
-05NDQ5ODg1ODAsMTc4NDY4ODgyNCwxNjE1MDY1MjA0LDM3OTc0
-ODkwM119
+eyJoaXN0b3J5IjpbNDE0Nzk0MTc0LDE5NjU0OTY4MjcsLTI5MD
+c0MjM1Niw1OTE4OTMyMiwtMTI5MTg2NDAxMiwxODk4NzE0ODIz
+LDE4ODE2MzU4NDgsLTE3MDcwMzY4MjYsLTg1ODEwNDg5MSw2OD
+QxOTQwOTQsMzEwNDY0NTMwLDE1MTkwOTc3MTAsLTEwNjU1Njcz
+ODksMTMyMDUxNDAwMiwtMTM1NDU3OTc0NiwyNjgzOTgyODQsLT
+k0NDk4ODU4MCwxNzg0Njg4ODI0LDE2MTUwNjUyMDQsMzc5NzQ4
+OTAzXX0=
 -->

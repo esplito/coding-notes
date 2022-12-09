@@ -261,6 +261,8 @@ type FormOutput = {
 ### Exercise 7
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/07-union.problem.ts
 
+Goal: Make `privacyLevel` more specific than just allowing any `string`.
+
 My solution:
 ```ts
 ```
@@ -287,8 +289,8 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzA4MzkxMzQsNjg0MTk0MDk0LDMxMD
-Q2NDUzMCwxNTE5MDk3NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQw
-MDIsLTEzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC05NDQ5ODg1ODAsMT
-c4NDY4ODgyNCwxNjE1MDY1MjA0LDM3OTc0ODkwM119
+eyJoaXN0b3J5IjpbLTg1ODEwNDg5MSw2ODQxOTQwOTQsMzEwND
+Y0NTMwLDE1MTkwOTc3MTAsLTEwNjU1NjczODksMTMyMDUxNDAw
+MiwtMTM1NDU3OTc0NiwyNjgzOTgyODQsLTk0NDk4ODU4MCwxNz
+g0Njg4ODI0LDE2MTUwNjUyMDQsMzc5NzQ4OTAzXX0=
 -->

@@ -437,16 +437,31 @@ Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/10-tran
 
 **Goal:** Use zod to transform the data that we get from the API.
 
-My solution:
+My solution (same as Matt's):
 ```ts
+const StarWarsPerson = z
+  .object({
+    name: z.string(),
+  })
+  .transform((person) => ({
+    ...person,
+    nameAsArray: person.name.split(" "),
+  }));
 ```
+
+> 💡 "Inside of the  `.transform()`,  `person`  is the object from above that includes the  `name`.
+>
+>This is also where we add the  `nameAsArray`  property that satisfies the test.
+>
+> All of this is taking place at the  `StarWarsPerson`  level instead of inside of the fetch function or elsewhere." - Matt
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjI3NDMzNjMsLTcyMDQ3MjU1NCwxOT
-Y1NDk2ODI3LC0yOTA3NDIzNTYsNTkxODkzMjIsLTEyOTE4NjQw
-MTIsMTg5ODcxNDgyMywxODgxNjM1ODQ4LC0xNzA3MDM2ODI2LC
-04NTgxMDQ4OTEsNjg0MTk0MDk0LDMxMDQ2NDUzMCwxNTE5MDk3
-NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3ND
-YsMjY4Mzk4Mjg0LC05NDQ5ODg1ODAsMTc4NDY4ODgyNCwxNjE1
-MDY1MjA0XX0=
+eyJoaXN0b3J5IjpbLTE0Mjg1OTE5NzIsLTIwMjI3NDMzNjMsLT
+cyMDQ3MjU1NCwxOTY1NDk2ODI3LC0yOTA3NDIzNTYsNTkxODkz
+MjIsLTEyOTE4NjQwMTIsMTg5ODcxNDgyMywxODgxNjM1ODQ4LC
+0xNzA3MDM2ODI2LC04NTgxMDQ4OTEsNjg0MTk0MDk0LDMxMDQ2
+NDUzMCwxNTE5MDk3NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQwMD
+IsLTEzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC05NDQ5ODg1ODAsMTc4
+NDY4ODgyNF19
 -->

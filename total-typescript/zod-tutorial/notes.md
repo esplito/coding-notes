@@ -555,11 +555,31 @@ const MenuItem: z.ZodType<MenuItemType> = z.lazy(() =>
 
 My solution:
 ```ts
+const genericFetch = <T extends z.ZodSchema>(
+  url: string,
+  schema: T
+): Promise<z.infer<T>> => {
+  return fetch(url)
+    .then((res) => res.json())
+    .then((result) => schema.parse(result));
+};
+```
+
+Matt's solution:
+```ts
+const genericFetch = <ZSchema extends z.ZodSchema>(
+  url: string,
+  schema: ZSchema
+): Promise<z.infer<ZSchema>> => {
+  return fetch(url)
+    .then((res) => res.json())
+    .then((result) => schema.parse(result));
+};
 
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxMzg3MDc3LDE0NDQ3ODU3NjIsMjM2MT
+eyJoaXN0b3J5IjpbNDU4NzU5ODMwLDE0NDQ3ODU3NjIsMjM2MT
 g2NzU1LDIwODU4NjM1NDIsLTE0Mjg1OTE5NzIsLTIwMjI3NDMz
 NjMsLTcyMDQ3MjU1NCwxOTY1NDk2ODI3LC0yOTA3NDIzNTYsNT
 kxODkzMjIsLTEyOTE4NjQwMTIsMTg5ODcxNDgyMywxODgxNjM1

@@ -304,7 +304,7 @@ Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/08-vali
 Goals:
 - If `phoneNumber` is passed it must be at least 5 digits and at most 20 digits
 - `email` must have a valid email format
-- If `website` is passed it 
+- If `website` is passed it must be a valid website url
 
 My solution:
 ```ts
@@ -336,7 +336,7 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjgyMDA4OCwxODgxNjM1ODQ4LC0xNz
+eyJoaXN0b3J5IjpbMTg5ODcxNDgyMywxODgxNjM1ODQ4LC0xNz
 A3MDM2ODI2LC04NTgxMDQ4OTEsNjg0MTk0MDk0LDMxMDQ2NDUz
 MCwxNTE5MDk3NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQwMDIsLT
 EzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC05NDQ5ODg1ODAsMTc4NDY4

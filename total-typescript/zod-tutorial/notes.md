@@ -335,6 +335,8 @@ const Form = z.object({
 ### Exercise 9
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/09-composing-objects.problem.ts
 
+Goal: Use the Zod apis to make the code a bit cleaner and DRY.
+
 My solution:
 ```ts
 ```
@@ -347,7 +349,7 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDMzMzk5NywtMjkwNzQyMzU2LDU5MT
+eyJoaXN0b3J5IjpbMTk2NTQ5NjgyNywtMjkwNzQyMzU2LDU5MT
 g5MzIyLC0xMjkxODY0MDEyLDE4OTg3MTQ4MjMsMTg4MTYzNTg0
 OCwtMTcwNzAzNjgyNiwtODU4MTA0ODkxLDY4NDE5NDA5NCwzMT
 A0NjQ1MzAsMTUxOTA5NzcxMCwtMTA2NTU2NzM4OSwxMzIwNTE0

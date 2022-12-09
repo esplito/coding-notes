@@ -183,8 +183,16 @@ const logStarWarsPeopleResults = (data: StarWarsPeopleResults) => {
 ### Exercise 5
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/05-optional.problem.ts
 
+Goal: Make `phoneNumber` optional.
+
 My solution:
 ```ts
+const Form = z.object({
+  name: z.string(),
+  phoneNumber: z.string().optional(),
+  //                     ^ 🕵️‍♂️
+});
+
 ```
 
 ## 6. Set a Default Value with Zod
@@ -223,7 +231,8 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjU1NjczODksMTMyMDUxNDAwMiwtMT
-M1NDU3OTc0NiwyNjgzOTgyODQsLTk0NDk4ODU4MCwxNzg0Njg4
-ODI0LDE2MTUwNjUyMDQsMzc5NzQ4OTAzXX0=
+eyJoaXN0b3J5IjpbMTUxOTA5NzcxMCwtMTA2NTU2NzM4OSwxMz
+IwNTE0MDAyLC0xMzU0NTc5NzQ2LDI2ODM5ODI4NCwtOTQ0OTg4
+NTgwLDE3ODQ2ODg4MjQsMTYxNTA2NTIwNCwzNzk3NDg5MDNdfQ
+==
 -->

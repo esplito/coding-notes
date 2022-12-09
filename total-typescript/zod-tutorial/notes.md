@@ -396,6 +396,10 @@ const Comment = ObjectWithId.merge(
   })
 );
 ```
+**Side note:**
+> 💡Using  `.merge()`  is slightly more verbose than  `.extend()`. We have to pass in a  `z.object()`  that contains the name  `z.string()`.
+
+Merging is generally used when two different types are being combined, rather than just extending a single type.
 
 Solution 1 that Matt shows:
 ```ts
@@ -426,7 +430,7 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0NzY2OTQ2LDE5NjU0OTY4MjcsLTI5MD
+eyJoaXN0b3J5IjpbNjg1Nzg5MTIwLDE5NjU0OTY4MjcsLTI5MD
 c0MjM1Niw1OTE4OTMyMiwtMTI5MTg2NDAxMiwxODk4NzE0ODIz
 LDE4ODE2MzU4NDgsLTE3MDcwMzY4MjYsLTg1ODEwNDg5MSw2OD
 QxOTQwOTQsMzEwNDY0NTMwLDE1MTkwOTc3MTAsLTEwNjU1Njcz

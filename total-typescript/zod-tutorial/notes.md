@@ -153,6 +153,8 @@ const StarWarsPeopleResults = z.object({
 ## 4. Extract a Type from a Parser Object
 
 ### Exercise 4
+Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/04-infer.problem.ts
+
 My solution:
 ```ts
 ```
@@ -200,6 +202,7 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4Mzk4Mjg0LC05NDQ5ODg1ODAsMTc4ND
-Y4ODgyNCwxNjE1MDY1MjA0LDM3OTc0ODkwM119
+eyJoaXN0b3J5IjpbLTEzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC05ND
+Q5ODg1ODAsMTc4NDY4ODgyNCwxNjE1MDY1MjA0LDM3OTc0ODkw
+M119
 -->

@@ -256,12 +256,11 @@ type FormOutput = {
   keywords: string[];
 };
 ```
-
-
-
 ## 7. Be Specific with Allowed Types
 
 ### Exercise 7
+Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/07-union.problem.ts
+
 My solution:
 ```ts
 ```
@@ -288,8 +287,8 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0MTk0MDk0LDMxMDQ2NDUzMCwxNTE5MD
-k3NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3
-NDYsMjY4Mzk4Mjg0LC05NDQ5ODg1ODAsMTc4NDY4ODgyNCwxNj
-E1MDY1MjA0LDM3OTc0ODkwM119
+eyJoaXN0b3J5IjpbLTExNzA4MzkxMzQsNjg0MTk0MDk0LDMxMD
+Q2NDUzMCwxNTE5MDk3NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQw
+MDIsLTEzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC05NDQ5ODg1ODAsMT
+c4NDY4ODgyNCwxNjE1MDY1MjA0LDM3OTc0ODkwM119
 -->

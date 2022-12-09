@@ -427,16 +427,18 @@ const Comment = z.object({
 ### Exercise 10
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/10-transform.problem.ts
 
+**Goal:** Use zod to transform the data that we get from the API.
+
 My solution:
 ```ts
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDQ3MjU1NCwxOTY1NDk2ODI3LC0yOT
-A3NDIzNTYsNTkxODkzMjIsLTEyOTE4NjQwMTIsMTg5ODcxNDgy
-MywxODgxNjM1ODQ4LC0xNzA3MDM2ODI2LC04NTgxMDQ4OTEsNj
-g0MTk0MDk0LDMxMDQ2NDUzMCwxNTE5MDk3NzEwLC0xMDY1NTY3
-Mzg5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC
-05NDQ5ODg1ODAsMTc4NDY4ODgyNCwxNjE1MDY1MjA0LDM3OTc0
-ODkwM119
+eyJoaXN0b3J5IjpbMTU1NjE5Mjk3NywtNzIwNDcyNTU0LDE5Nj
+U0OTY4MjcsLTI5MDc0MjM1Niw1OTE4OTMyMiwtMTI5MTg2NDAx
+MiwxODk4NzE0ODIzLDE4ODE2MzU4NDgsLTE3MDcwMzY4MjYsLT
+g1ODEwNDg5MSw2ODQxOTQwOTQsMzEwNDY0NTMwLDE1MTkwOTc3
+MTAsLTEwNjU1NjczODksMTMyMDUxNDAwMiwtMTM1NDU3OTc0Ni
+wyNjgzOTgyODQsLTk0NDk4ODU4MCwxNzg0Njg4ODI0LDE2MTUw
+NjUyMDRdfQ==
 -->

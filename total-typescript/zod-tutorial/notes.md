@@ -475,22 +475,50 @@ const Form = z
 
 Matt's solution:
 ```ts
+const Form = z
+  .object({
+    password: z.string(),
+    confirmPassword: z.string(),
+  })
+  .refine(
+    ({ confirmPassword, password }) => {
+      return confirmPassword === password;
+    },
+    {
+      path: ["confirmPassword"],
+      message: "Passwords don't match",
+    }
+  );
 
 ```
 ### Exercise 12 - Async refine problem
 
-Goal:
+**Goal:**
 
 My solution:
+```ts
+```
+### Exercise 13 - Lazy problem
 
+**Goal:**
 
+My solution:
+```ts
+```
+### Exercise 14 - Generics problem
+
+**Goal:**
+
+My solution:
+```ts
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE0OTY5NzksLTE0Mjg1OTE5NzIsLT
-IwMjI3NDMzNjMsLTcyMDQ3MjU1NCwxOTY1NDk2ODI3LC0yOTA3
-NDIzNTYsNTkxODkzMjIsLTEyOTE4NjQwMTIsMTg5ODcxNDgyMy
-wxODgxNjM1ODQ4LC0xNzA3MDM2ODI2LC04NTgxMDQ4OTEsNjg0
-MTk0MDk0LDMxMDQ2NDUzMCwxNTE5MDk3NzEwLC0xMDY1NTY3Mz
-g5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC05
-NDQ5ODg1ODBdfQ==
+eyJoaXN0b3J5IjpbMjA4NTg2MzU0MiwtMTQyODU5MTk3MiwtMj
+AyMjc0MzM2MywtNzIwNDcyNTU0LDE5NjU0OTY4MjcsLTI5MDc0
+MjM1Niw1OTE4OTMyMiwtMTI5MTg2NDAxMiwxODk4NzE0ODIzLD
+E4ODE2MzU4NDgsLTE3MDcwMzY4MjYsLTg1ODEwNDg5MSw2ODQx
+OTQwOTQsMzEwNDY0NTMwLDE1MTkwOTc3MTAsLTEwNjU1NjczOD
+ksMTMyMDUxNDAwMiwtMTM1NDU3OTc0NiwyNjgzOTgyODQsLTk0
+NDk4ODU4MF19
 -->

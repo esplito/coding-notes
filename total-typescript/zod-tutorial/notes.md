@@ -11,6 +11,7 @@ In this markdown file you can find my notes from when I completed Matt Pocock's 
 
 ### Exercise 1
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/01-number.problem.ts
+
 My solution:
 ```ts
 const zodNumberParser = z.number();
@@ -127,6 +128,6 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzIwNTI3NCwxNjE1MDY1MjA0LDM3OT
+eyJoaXN0b3J5IjpbMTc4NDY4ODgyNCwxNjE1MDY1MjA0LDM3OT
 c0ODkwM119
 -->

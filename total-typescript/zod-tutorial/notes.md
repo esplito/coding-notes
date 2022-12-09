@@ -219,7 +219,6 @@ const Form = z.object({
   keywords: z.array(z.string()).optional().default([]),
   //                           ^ 🕵️‍♂️
 });
-
 ```
 
 ## 7. Be Specific with Allowed Types
@@ -251,8 +250,8 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTMzNjIzMCwzMTA0NjQ1MzAsMTUxOT
-A5NzcxMCwtMTA2NTU2NzM4OSwxMzIwNTE0MDAyLC0xMzU0NTc5
-NzQ2LDI2ODM5ODI4NCwtOTQ0OTg4NTgwLDE3ODQ2ODg4MjQsMT
-YxNTA2NTIwNCwzNzk3NDg5MDNdfQ==
+eyJoaXN0b3J5IjpbMTE1NzM0MjUyLDMxMDQ2NDUzMCwxNTE5MD
+k3NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3
+NDYsMjY4Mzk4Mjg0LC05NDQ5ODg1ODAsMTc4NDY4ODgyNCwxNj
+E1MDY1MjA0LDM3OTc0ODkwM119
 -->

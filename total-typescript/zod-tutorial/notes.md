@@ -493,7 +493,7 @@ const Form = z
 ```
 ### Exercise 12 - Async refine problem
 
-**Goal:**
+**Goal:** use refine with an async function to verify if the StarWarsPerson exists.
 
 My (unnecessarily verbose) solution:
 ```ts
@@ -513,7 +513,7 @@ const Form = z.object({
 ```
 ### Exercise 13 - Lazy problem
 
-**Goal:**
+**Goal:** Make sure that there are no type errors by using `z.lazy`
 
 One solution:
 ```ts
@@ -551,18 +551,19 @@ const MenuItem: z.ZodType<MenuItemType> = z.lazy(() =>
 
 ### Exercise 14 - Generics problem
 
-**Goal:**
+**Goal:** Make sure that the type error for `cases` is gone. Do th
 
 My solution:
 ```ts
+
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDc4NTc2MiwyMzYxODY3NTUsMjA4NT
-g2MzU0MiwtMTQyODU5MTk3MiwtMjAyMjc0MzM2MywtNzIwNDcy
-NTU0LDE5NjU0OTY4MjcsLTI5MDc0MjM1Niw1OTE4OTMyMiwtMT
-I5MTg2NDAxMiwxODk4NzE0ODIzLDE4ODE2MzU4NDgsLTE3MDcw
-MzY4MjYsLTg1ODEwNDg5MSw2ODQxOTQwOTQsMzEwNDY0NTMwLD
-E1MTkwOTc3MTAsLTEwNjU1NjczODksMTMyMDUxNDAwMiwtMTM1
-NDU3OTc0Nl19
+eyJoaXN0b3J5IjpbNDk2OTk4NTc5LDE0NDQ3ODU3NjIsMjM2MT
+g2NzU1LDIwODU4NjM1NDIsLTE0Mjg1OTE5NzIsLTIwMjI3NDMz
+NjMsLTcyMDQ3MjU1NCwxOTY1NDk2ODI3LC0yOTA3NDIzNTYsNT
+kxODkzMjIsLTEyOTE4NjQwMTIsMTg5ODcxNDgyMywxODgxNjM1
+ODQ4LC0xNzA3MDM2ODI2LC04NTgxMDQ4OTEsNjg0MTk0MDk0LD
+MxMDQ2NDUzMCwxNTE5MDk3NzEwLC0xMDY1NTY3Mzg5LDEzMjA1
+MTQwMDJdfQ==
 -->

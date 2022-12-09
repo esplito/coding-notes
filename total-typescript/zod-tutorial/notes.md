@@ -335,11 +335,27 @@ const Form = z.object({
 ### Exercise 9
 Exercise: https://github.com/total-typescript/zod-tutorial/blob/main/src/09-composing-objects.problem.ts
 
-Goal: Use the Zod apis to make the code a bit cleaner and DRY.
+Goal: Use the Zod apis to make the code a bit cleaner and DRY. (`type cases` should not get any type errors after refactoring)
 
-My solution:
+My first solution:
 ```ts
+const Id = { id: z.string().uuid()}
+
+const User = z.object({
+  name: z.string(),
+}).extend(Id);
+
+const Post = z.object({
+  title: z.string(),
+  body: z.string(),
+}).extend(Id);
+
+const Comment = z.object({
+  text: z.string(),
+}).extend(Id);
 ```
+
+
 
 ## 10. Transform Data from Within a Schema
 
@@ -349,10 +365,11 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTQ5NjgyNywtMjkwNzQyMzU2LDU5MT
-g5MzIyLC0xMjkxODY0MDEyLDE4OTg3MTQ4MjMsMTg4MTYzNTg0
-OCwtMTcwNzAzNjgyNiwtODU4MTA0ODkxLDY4NDE5NDA5NCwzMT
-A0NjQ1MzAsMTUxOTA5NzcxMCwtMTA2NTU2NzM4OSwxMzIwNTE0
-MDAyLC0xMzU0NTc5NzQ2LDI2ODM5ODI4NCwtOTQ0OTg4NTgwLD
-E3ODQ2ODg4MjQsMTYxNTA2NTIwNCwzNzk3NDg5MDNdfQ==
+eyJoaXN0b3J5IjpbLTE1OTAxNDkzMywxOTY1NDk2ODI3LC0yOT
+A3NDIzNTYsNTkxODkzMjIsLTEyOTE4NjQwMTIsMTg5ODcxNDgy
+MywxODgxNjM1ODQ4LC0xNzA3MDM2ODI2LC04NTgxMDQ4OTEsNj
+g0MTk0MDk0LDMxMDQ2NDUzMCwxNTE5MDk3NzEwLC0xMDY1NTY3
+Mzg5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC
+05NDQ5ODg1ODAsMTc4NDY4ODgyNCwxNjE1MDY1MjA0LDM3OTc0
+ODkwM119
 -->

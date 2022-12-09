@@ -217,7 +217,6 @@ My solution:
 const Form = z.object({
   repoName: z.string(),
   keywords: z.array(z.string()).optional().default([]),
-  //                           ^ 🕵️‍♂️
 });
 ```
 
@@ -310,13 +309,9 @@ My solution:
 ```ts
 const Form = z.object({
   name: z.string(),
-  //             ^ 🕵️‍♂️
   phoneNumber: z.string().min(5).max(20).optional(),
-  //                    ^ 🕵️‍♂️
   email: z.string().email(),
-  //              ^ 🕵️‍♂️
   website: z.string().url().optional(),
-  //                ^ 🕵️‍♂️
 });
 
 ```
@@ -336,9 +331,10 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODcxNDgyMywxODgxNjM1ODQ4LC0xNz
-A3MDM2ODI2LC04NTgxMDQ4OTEsNjg0MTk0MDk0LDMxMDQ2NDUz
-MCwxNTE5MDk3NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQwMDIsLT
-EzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC05NDQ5ODg1ODAsMTc4NDY4
-ODgyNCwxNjE1MDY1MjA0LDM3OTc0ODkwM119
+eyJoaXN0b3J5IjpbLTEyOTE4NjQwMTIsMTg5ODcxNDgyMywxOD
+gxNjM1ODQ4LC0xNzA3MDM2ODI2LC04NTgxMDQ4OTEsNjg0MTk0
+MDk0LDMxMDQ2NDUzMCwxNTE5MDk3NzEwLC0xMDY1NTY3Mzg5LD
+EzMjA1MTQwMDIsLTEzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC05NDQ5
+ODg1ODAsMTc4NDY4ODgyNCwxNjE1MDY1MjA0LDM3OTc0ODkwM1
+19
 -->

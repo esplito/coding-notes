@@ -551,7 +551,7 @@ const MenuItem: z.ZodType<MenuItemType> = z.lazy(() =>
 
 ### Exercise 14 - Generics problem
 
-**Goal:** Make sure that the type error for `cases` is gone. Do th
+**Goal:** Make sure that the type error for `cases` is gone. Do this by updating the types of the `genericFetch` function.
 
 My solution:
 ```ts
@@ -559,7 +559,7 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2OTk4NTc5LDE0NDQ3ODU3NjIsMjM2MT
+eyJoaXN0b3J5IjpbNDcxMzg3MDc3LDE0NDQ3ODU3NjIsMjM2MT
 g2NzU1LDIwODU4NjM1NDIsLTE0Mjg1OTE5NzIsLTIwMjI3NDMz
 NjMsLTcyMDQ3MjU1NCwxOTY1NDk2ODI3LC0yOTA3NDIzNTYsNT
 kxODkzMjIsLTEyOTE4NjQwMTIsMTg5ODcxNDgyMywxODgxNjM1

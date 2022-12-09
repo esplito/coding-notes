@@ -192,8 +192,18 @@ const Form = z.object({
   phoneNumber: z.string().optional(),
   //                     ^ 🕵️‍♂️
 });
-
 ```
+
+**Side note:**
+This is the type that `Form` gets:
+```ts
+type FormType = {
+  phoneNumber?: string | undefined;
+  name: string;
+};
+```
+> 💡 Try `type FormType = z.infer<typeof Form>` to see this.
+
 
 ## 6. Set a Default Value with Zod
 
@@ -231,8 +241,8 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTA5NzcxMCwtMTA2NTU2NzM4OSwxMz
-IwNTE0MDAyLC0xMzU0NTc5NzQ2LDI2ODM5ODI4NCwtOTQ0OTg4
-NTgwLDE3ODQ2ODg4MjQsMTYxNTA2NTIwNCwzNzk3NDg5MDNdfQ
-==
+eyJoaXN0b3J5IjpbMTYxODcyMDA1NSwxNTE5MDk3NzEwLC0xMD
+Y1NTY3Mzg5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3NDYsMjY4Mzk4
+Mjg0LC05NDQ5ODg1ODAsMTc4NDY4ODgyNCwxNjE1MDY1MjA0LD
+M3OTc0ODkwM119
 -->

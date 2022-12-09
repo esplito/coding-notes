@@ -27,14 +27,62 @@ My solution:
 ```ts
 ```
 
-## 3. Verify Unknown APIs with an Object Schema
+## 3. Create an Array of Custom Types
 
-### Exercise 2
+### Exercise 3
 My solution:
 ```ts
 ```
 
+## 4. Verify Unknown APIs with an Object Schema
+
+### Exercise 4
+My solution:
+```ts
+```
+
+## 5. Verify Unknown APIs with an Object Schema
+
+### Exercise 5
+My solution:
+```ts
+```
+
+## 6. Verify Unknown APIs with an Object Schema
+
+### Exercise 6
+My solution:
+```ts
+```
+
+## 7. Verify Unknown APIs with an Object Schema
+
+### Exercise 7
+My solution:
+```ts
+```
+
+## 8. Verify Unknown APIs with an Object Schema
+
+### Exercise 8
+My solution:
+```ts
+```
+
+## 9. Verify Unknown APIs with an Object Schema
+
+### Exercise 9
+My solution:
+```ts
+```
+
+## 10. Verify Unknown APIs with an Object Schema
+
+### Exercise 10
+My solution:
+```ts
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDc3NDYzNyw2OTIyMjg5ODZdfQ==
+eyJoaXN0b3J5IjpbLTE3NzQyNTQzNTAsNjkyMjI4OTg2XX0=
 -->

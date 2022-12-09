@@ -230,7 +230,10 @@ const Form = z.object({
 });
 ```
 
-Optional is not really needed 
+> 💡 Optional is not really needed since we set a default value.
+
+**Side note:**
+Matt mentioned that we can use `z.input` and `z.infer` to get types for our input and output in the form.
 
 
 ## 7. Be Specific with Allowed Types
@@ -262,7 +265,7 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTk1MDg0OCwzMTA0NjQ1MzAsMTUxOT
+eyJoaXN0b3J5IjpbLTI0MTI5NTU5OSwzMTA0NjQ1MzAsMTUxOT
 A5NzcxMCwtMTA2NTU2NzM4OSwxMzIwNTE0MDAyLC0xMzU0NTc5
 NzQ2LDI2ODM5ODI4NCwtOTQ0OTg4NTgwLDE3ODQ2ODg4MjQsMT
 YxNTA2NTIwNCwzNzk3NDg5MDNdfQ==

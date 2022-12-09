@@ -313,8 +313,9 @@ const Form = z.object({
   email: z.string().email(),
   website: z.string().url().optional(),
 });
-
 ```
+
+Matt also suggested to add `.min(1)` to `name` because we should not be able to.
 
 ## 9. Reduce Duplicated Code by Composing Schemas
 
@@ -331,10 +332,10 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTE4NjQwMTIsMTg5ODcxNDgyMywxOD
-gxNjM1ODQ4LC0xNzA3MDM2ODI2LC04NTgxMDQ4OTEsNjg0MTk0
-MDk0LDMxMDQ2NDUzMCwxNTE5MDk3NzEwLC0xMDY1NTY3Mzg5LD
-EzMjA1MTQwMDIsLTEzNTQ1Nzk3NDYsMjY4Mzk4Mjg0LC05NDQ5
-ODg1ODAsMTc4NDY4ODgyNCwxNjE1MDY1MjA0LDM3OTc0ODkwM1
-19
+eyJoaXN0b3J5IjpbNTQ0NTQ2MTYyLC0xMjkxODY0MDEyLDE4OT
+g3MTQ4MjMsMTg4MTYzNTg0OCwtMTcwNzAzNjgyNiwtODU4MTA0
+ODkxLDY4NDE5NDA5NCwzMTA0NjQ1MzAsMTUxOTA5NzcxMCwtMT
+A2NTU2NzM4OSwxMzIwNTE0MDAyLC0xMzU0NTc5NzQ2LDI2ODM5
+ODI4NCwtOTQ0OTg4NTgwLDE3ODQ2ODg4MjQsMTYxNTA2NTIwNC
+wzNzk3NDg5MDNdfQ==
 -->

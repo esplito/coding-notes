@@ -315,7 +315,18 @@ const Form = z.object({
 });
 ```
 
-Matt also suggested to add `.min(1)` to `name` because we should not be able to.
+Matt also suggested to add `.min(1)` to `name` because we should not be able to pass in an empty string.
+
+So the final solution would be:
+```ts
+const Form = z.object({
+  name: z.string().min(1),
+  phoneNumber: z.string().min(5).max(20).optional(),
+  email: z.string().email(),
+  website: z.string().url().optional(),
+});
+```
+
 
 ## 9. Reduce Duplicated Code by Composing Schemas
 
@@ -332,10 +343,10 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0NTQ2MTYyLC0xMjkxODY0MDEyLDE4OT
-g3MTQ4MjMsMTg4MTYzNTg0OCwtMTcwNzAzNjgyNiwtODU4MTA0
-ODkxLDY4NDE5NDA5NCwzMTA0NjQ1MzAsMTUxOTA5NzcxMCwtMT
-A2NTU2NzM4OSwxMzIwNTE0MDAyLC0xMzU0NTc5NzQ2LDI2ODM5
-ODI4NCwtOTQ0OTg4NTgwLDE3ODQ2ODg4MjQsMTYxNTA2NTIwNC
-wzNzk3NDg5MDNdfQ==
+eyJoaXN0b3J5IjpbNTkxODkzMjIsLTEyOTE4NjQwMTIsMTg5OD
+cxNDgyMywxODgxNjM1ODQ4LC0xNzA3MDM2ODI2LC04NTgxMDQ4
+OTEsNjg0MTk0MDk0LDMxMDQ2NDUzMCwxNTE5MDk3NzEwLC0xMD
+Y1NTY3Mzg5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3NDYsMjY4Mzk4
+Mjg0LC05NDQ5ODg1ODAsMTc4NDY4ODgyNCwxNjE1MDY1MjA0LD
+M3OTc0ODkwM119
 -->

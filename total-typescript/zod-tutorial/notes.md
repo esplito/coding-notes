@@ -517,6 +517,19 @@ const Form = z.object({
 
 My solution:
 ```ts
+type MenuItemType = {
+  link: string;
+  label: string;
+  children?: MenuItemType[];
+};
+
+const MenuItem: z.ZodType<MenuItemType> = z.lazy(() =>
+  z.object({
+    link: z.string(),
+    label: z.string(),
+    children: z.array(MenuItem).default([]),
+  })
+);
 ```
 ### Exercise 14 - Generics problem
 
@@ -527,11 +540,11 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2MTg2NzU1LDIwODU4NjM1NDIsLTE0Mj
-g1OTE5NzIsLTIwMjI3NDMzNjMsLTcyMDQ3MjU1NCwxOTY1NDk2
-ODI3LC0yOTA3NDIzNTYsNTkxODkzMjIsLTEyOTE4NjQwMTIsMT
-g5ODcxNDgyMywxODgxNjM1ODQ4LC0xNzA3MDM2ODI2LC04NTgx
-MDQ4OTEsNjg0MTk0MDk0LDMxMDQ2NDUzMCwxNTE5MDk3NzEwLC
-0xMDY1NTY3Mzg5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3NDYsMjY4
-Mzk4Mjg0XX0=
+eyJoaXN0b3J5IjpbLTEwOTU4MTY0NzgsMjM2MTg2NzU1LDIwOD
+U4NjM1NDIsLTE0Mjg1OTE5NzIsLTIwMjI3NDMzNjMsLTcyMDQ3
+MjU1NCwxOTY1NDk2ODI3LC0yOTA3NDIzNTYsNTkxODkzMjIsLT
+EyOTE4NjQwMTIsMTg5ODcxNDgyMywxODgxNjM1ODQ4LC0xNzA3
+MDM2ODI2LC04NTgxMDQ4OTEsNjg0MTk0MDk0LDMxMDQ2NDUzMC
+wxNTE5MDk3NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQwMDIsLTEz
+NTQ1Nzk3NDZdfQ==
 -->

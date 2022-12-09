@@ -246,6 +246,17 @@ type FormInput = {
 };
 ```
 
+```ts 
+type FormInput = z.input<typeof Form>;
+``` 
+And `FormOutput` would get:
+```ts
+type FormOutput = {
+  repoName: string;
+  keywords: string[];
+};
+```
+
 
 
 ## 7. Be Specific with Allowed Types
@@ -277,8 +288,8 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODQ5MDA2MiwzMTA0NjQ1MzAsMTUxOT
-A5NzcxMCwtMTA2NTU2NzM4OSwxMzIwNTE0MDAyLC0xMzU0NTc5
-NzQ2LDI2ODM5ODI4NCwtOTQ0OTg4NTgwLDE3ODQ2ODg4MjQsMT
-YxNTA2NTIwNCwzNzk3NDg5MDNdfQ==
+eyJoaXN0b3J5IjpbNjg0MTk0MDk0LDMxMDQ2NDUzMCwxNTE5MD
+k3NzEwLC0xMDY1NTY3Mzg5LDEzMjA1MTQwMDIsLTEzNTQ1Nzk3
+NDYsMjY4Mzk4Mjg0LC05NDQ5ODg1ODAsMTc4NDY4ODgyNCwxNj
+E1MDY1MjA0LDM3OTc0ODkwM119
 -->

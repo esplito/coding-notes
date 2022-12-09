@@ -9,9 +9,20 @@ In this markdown file you can find my notes from when I completed Matt Pocock's 
 
 ## Runtime Type Checking with Zod
 
+### Exercise 1
+My solution
+```ts
+const zodNumberParser = z.number();
+
+export const toString = (num: unknown) => {
+    zodNumberParser.parse(num)
+    return String(num);
+};
+```
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyMjI4OTg2XX0=
+eyJoaXN0b3J5IjpbNzkxNzkwMzI5LDY5MjIyODk4Nl19
 -->

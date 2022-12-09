@@ -34,28 +34,28 @@ My solution:
 ```ts
 ```
 
-## 4. Verify Unknown APIs with an Object Schema
+## 4. Extract a Type from a Parser Object
 
 ### Exercise 4
 My solution:
 ```ts
 ```
 
-## 5. Verify Unknown APIs with an Object Schema
+## 5. Make Schemas Optional
 
 ### Exercise 5
 My solution:
 ```ts
 ```
 
-## 6. Verify Unknown APIs with an Object Schema
+## 6. Set a Default Value with Zod
 
 ### Exercise 6
 My solution:
 ```ts
 ```
 
-## 7. Verify Unknown APIs with an Object Schema
+## 7. Be Specific with Allowed Types
 
 ### Exercise 7
 My solution:
@@ -84,5 +84,5 @@ My solution:
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQyNTQzNTAsNjkyMjI4OTg2XX0=
+eyJoaXN0b3J5IjpbLTEyMDc2OTk4ODksNjkyMjI4OTg2XX0=
 -->

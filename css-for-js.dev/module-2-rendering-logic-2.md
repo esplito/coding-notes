@@ -458,18 +458,20 @@ Example comment:
 
 ### Scroll Containers
 
+As soon as you set a value for `overflow` you create a scroll container, regardless of the value set.
+
 > ...an element with `overflow: hidden` is literally a scroll container without scrollbars.
 
 This means that you can tab through the overflowing content and it will scroll. (You won't see any scrollbars though and can't scroll with the mouse)
 
-As soon as you set a value for `overflow` you create a scroll container, regardless of the value set.
+> When a child is placed in a scroll container, it _guarantees_ that the child will never spill outside of it. It's on the other side of the portal! Either a child _is_ or _isn't_ in a scroll container. We can't mix and match for vertical/horizontal.
 
-> Either a child _is_ or _isn't_ in a scroll container. We can't mix and match for vertical/horizontal.
+(Josh references the TARDIS in the show *Dr. Who* when referring to "portal")
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzc4NTkzMzksNjc3MDI1MDMwLC03ND
+eyJoaXN0b3J5IjpbLTE4ODA2MDg0OTgsNjc3MDI1MDMwLC03ND
 k0NjE4MzUsMjAzNjIxNjgyMSwtODM3NTA3ODA1LC0zNDQyOTE4
 NTcsMTkyOTI2MjEyMywtMzk1NjQyMzM3LC04NDAyOTIzMDAsMT
 E5MjY5MzY2NSwxMTc4MDA4MDIzLDE5MjA0ODMzMSwzMjU0NDU3

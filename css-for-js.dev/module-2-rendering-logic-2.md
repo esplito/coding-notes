@@ -413,13 +413,17 @@ Codepen: https://codepen.io/joshwcomeau/full/KKgBmYL
 
 ## Overflow
 
+### Accepted values
 > `overflow` defaults to `visible`, which allows an element's content to extend beyond its bounds.
+
+#### Scroll
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjk4NDQ4MCwtMzk1NjQyMzM3LC04ND
+eyJoaXN0b3J5IjpbMTkyOTI2MjEyMywtMzk1NjQyMzM3LC04ND
 AyOTIzMDAsMTE5MjY5MzY2NSwxMTc4MDA4MDIzLDE5MjA0ODMz
 MSwzMjU0NDU3MzksLTk5NTc3MDAwMiw2NTAwNzgyMTAsLTE5Nz
 Y0ODY5NzQsLTE2ODg2OTIyODEsLTQ0MDc1NDM3OSwtMTE3MTcx

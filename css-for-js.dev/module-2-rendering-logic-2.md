@@ -458,16 +458,20 @@ Example comment:
 
 ### Scroll Containers
 
+> ...an element with `overflow: hidden` is literally a scroll container without scrollbars.
 
+This means that you can tab through the overflowing content and it will scroll. (You won't see any scrollbars though and can't scroll with the mouse)
+
+As soon as you set a value for `overflow` you create a scroll container, regardless of the value set.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTQ2MTgzNSwyMDM2MjE2ODIxLC04Mz
-c1MDc4MDUsLTM0NDI5MTg1NywxOTI5MjYyMTIzLC0zOTU2NDIz
-MzcsLTg0MDI5MjMwMCwxMTkyNjkzNjY1LDExNzgwMDgwMjMsMT
-kyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAyLDY1MDA3ODIx
-MCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQwNzU0Mzc5LC
-0xMTcxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4OTc3LDQxNDAy
-NjYyMF19
+eyJoaXN0b3J5IjpbNjc3MDI1MDMwLC03NDk0NjE4MzUsMjAzNj
+IxNjgyMSwtODM3NTA3ODA1LC0zNDQyOTE4NTcsMTkyOTI2MjEy
+MywtMzk1NjQyMzM3LC04NDAyOTIzMDAsMTE5MjY5MzY2NSwxMT
+c4MDA4MDIzLDE5MjA0ODMzMSwzMjU0NDU3MzksLTk5NTc3MDAw
+Miw2NTAwNzgyMTAsLTE5NzY0ODY5NzQsLTE2ODg2OTIyODEsLT
+Q0MDc1NDM3OSwtMTE3MTcxNTc5OSw2NjI4NjkwNTgsMTIzNTg0
+ODk3N119
 -->

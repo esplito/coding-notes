@@ -425,16 +425,20 @@ If you want to always display scrollbars on MacOS to see how it looks on Windows
 2. General
 3. Set "Show scroll bars" to "Always"
 
+`overflow` is a shorthand for:
+- `overflow-x`
+- `overflow-y`
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDI5MTg1NywxOTI5MjYyMTIzLC0zOT
-U2NDIzMzcsLTg0MDI5MjMwMCwxMTkyNjkzNjY1LDExNzgwMDgw
-MjMsMTkyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAyLDY1MD
-A3ODIxMCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQwNzU0
-Mzc5LC0xMTcxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4OTc3LD
-QxNDAyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODky
-MzI0OV19
+eyJoaXN0b3J5IjpbLTgzNzUwNzgwNSwtMzQ0MjkxODU3LDE5Mj
+kyNjIxMjMsLTM5NTY0MjMzNywtODQwMjkyMzAwLDExOTI2OTM2
+NjUsMTE3ODAwODAyMywxOTIwNDgzMzEsMzI1NDQ1NzM5LC05OT
+U3NzAwMDIsNjUwMDc4MjEwLC0xOTc2NDg2OTc0LC0xNjg4Njky
+MjgxLC00NDA3NTQzNzksLTExNzE3MTU3OTksNjYyODY5MDU4LD
+EyMzU4NDg5NzcsNDE0MDI2NjIwLDM0NDg2MTY2NSwxMDM3OTky
+NTcwXX0=
 -->

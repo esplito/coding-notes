@@ -444,11 +444,22 @@ When would it be feasible to use this?
 
  🚨**Josh's rule of thumb:** Always add a comment when employing this declaration. Future-you will thank you. 🚨
 
+Example comment:
+```css
+.wrapper {
+  /*
+    On mobile, we shift the lesson-content 300px to the right,
+    off-screen. I want it to be truncated, so that we only see
+    a sliver of the content when the menu is open.
+  */
+  overflow: hidden;
+}
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzk1Mjk1MSwyMDM2MjE2ODIxLC04Mz
+eyJoaXN0b3J5IjpbMTU5NjEzNzIyMywyMDM2MjE2ODIxLC04Mz
 c1MDc4MDUsLTM0NDI5MTg1NywxOTI5MjYyMTIzLC0zOTU2NDIz
 MzcsLTg0MDI5MjMwMCwxMTkyNjkzNjY1LDExNzgwMDgwMjMsMT
 kyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAyLDY1MDA3ODIx

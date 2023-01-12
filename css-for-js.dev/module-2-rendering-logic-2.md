@@ -418,13 +418,19 @@ Codepen: https://codepen.io/joshwcomeau/full/KKgBmYL
 
 #### Scroll
 
-⚠️ `overflow: scroll` behaves differently on MacOS! By default on Mac, it will only show the scrollbar when you scroll⚠️
+⚠️ `overflow: scroll` behaves differently on MacOS! By default on Mac, it will only show the scrollbar when you scroll. However on Windows & Linux, it is always shown. ⚠️
+
+If you want to always display scrollbars on MacOS to see how it looks on Windows & Linux:
+1. Go to System Preferences
+2. General
+3. Set "Show scroll bars" to "Always"
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTU2NTk2MiwxOTI5MjYyMTIzLC0zOT
+eyJoaXN0b3J5IjpbLTM0NDI5MTg1NywxOTI5MjYyMTIzLC0zOT
 U2NDIzMzcsLTg0MDI5MjMwMCwxMTkyNjkzNjY1LDExNzgwMDgw
 MjMsMTkyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAyLDY1MD
 A3ODIxMCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQwNzU0

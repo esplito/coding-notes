@@ -468,10 +468,11 @@ This means that you can tab through the overflowing content and it will scroll. 
 
 (Josh references the TARDIS in the show *Dr. Who* when referring to "portal")
 
+### Overflow: clip
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODA2MDg0OTgsNjc3MDI1MDMwLC03ND
+eyJoaXN0b3J5IjpbLTE2OTQ4MDIyOTcsNjc3MDI1MDMwLC03ND
 k0NjE4MzUsMjAzNjIxNjgyMSwtODM3NTA3ODA1LC0zNDQyOTE4
 NTcsMTkyOTI2MjEyMywtMzk1NjQyMzM3LC04NDAyOTIzMDAsMT
 E5MjY5MzY2NSwxMTc4MDA4MDIzLDE5MjA0ODMzMSwzMjU0NDU3

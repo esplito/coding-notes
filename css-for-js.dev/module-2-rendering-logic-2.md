@@ -464,14 +464,16 @@ This means that you can tab through the overflowing content and it will scroll. 
 
 As soon as you set a value for `overflow` you create a scroll container, regardless of the value set.
 
+> Either a child _is_ or _isn't_ in a scroll container. We can't mix and match for vertical/horizontal.
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3MDI1MDMwLC03NDk0NjE4MzUsMjAzNj
-IxNjgyMSwtODM3NTA3ODA1LC0zNDQyOTE4NTcsMTkyOTI2MjEy
-MywtMzk1NjQyMzM3LC04NDAyOTIzMDAsMTE5MjY5MzY2NSwxMT
-c4MDA4MDIzLDE5MjA0ODMzMSwzMjU0NDU3MzksLTk5NTc3MDAw
-Miw2NTAwNzgyMTAsLTE5NzY0ODY5NzQsLTE2ODg2OTIyODEsLT
-Q0MDc1NDM3OSwtMTE3MTcxNTc5OSw2NjI4NjkwNTgsMTIzNTg0
-ODk3N119
+eyJoaXN0b3J5IjpbLTEyNzc4NTkzMzksNjc3MDI1MDMwLC03ND
+k0NjE4MzUsMjAzNjIxNjgyMSwtODM3NTA3ODA1LC0zNDQyOTE4
+NTcsMTkyOTI2MjEyMywtMzk1NjQyMzM3LC04NDAyOTIzMDAsMT
+E5MjY5MzY2NSwxMTc4MDA4MDIzLDE5MjA0ODMzMSwzMjU0NDU3
+MzksLTk5NTc3MDAwMiw2NTAwNzgyMTAsLTE5NzY0ODY5NzQsLT
+E2ODg2OTIyODEsLTQ0MDc1NDM3OSwtMTE3MTcxNTc5OSw2NjI4
+NjkwNThdfQ==
 -->

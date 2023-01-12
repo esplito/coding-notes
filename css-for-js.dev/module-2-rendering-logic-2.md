@@ -433,16 +433,16 @@ If you want to always display scrollbars on MacOS to see how it looks on Windows
 
 > `auto` is a smart value that adds a scrollbar when one is required.
 
-
+But why would I even use `scroll` then? 🤔 Because using `auto` can cause content layout shift when the scroll is rendered in the viewport (all content is pushed a few pixels t
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjIxNjgyMSwtODM3NTA3ODA1LC0zND
-QyOTE4NTcsMTkyOTI2MjEyMywtMzk1NjQyMzM3LC04NDAyOTIz
-MDAsMTE5MjY5MzY2NSwxMTc4MDA4MDIzLDE5MjA0ODMzMSwzMj
-U0NDU3MzksLTk5NTc3MDAwMiw2NTAwNzgyMTAsLTE5NzY0ODY5
-NzQsLTE2ODg2OTIyODEsLTQ0MDc1NDM3OSwtMTE3MTcxNTc5OS
-w2NjI4NjkwNTgsMTIzNTg0ODk3Nyw0MTQwMjY2MjAsMzQ0ODYx
-NjY1XX0=
+eyJoaXN0b3J5IjpbMTUyMzk4OTYzNSwyMDM2MjE2ODIxLC04Mz
+c1MDc4MDUsLTM0NDI5MTg1NywxOTI5MjYyMTIzLC0zOTU2NDIz
+MzcsLTg0MDI5MjMwMCwxMTkyNjkzNjY1LDExNzgwMDgwMjMsMT
+kyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAyLDY1MDA3ODIx
+MCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQwNzU0Mzc5LC
+0xMTcxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4OTc3LDQxNDAy
+NjYyMF19
 -->

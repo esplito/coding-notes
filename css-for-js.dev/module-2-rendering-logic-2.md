@@ -442,16 +442,17 @@ When would it be feasible to use this?
 1. When truncating text with an ellipsis (...)
 2. When we have decorative elements that we want to partially show.
 
+> **My rule of thumb:** Always add a comment when employing this declaration. Future-you will thank you.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTU5ODEwNCwyMDM2MjE2ODIxLC04Mz
-c1MDc4MDUsLTM0NDI5MTg1NywxOTI5MjYyMTIzLC0zOTU2NDIz
-MzcsLTg0MDI5MjMwMCwxMTkyNjkzNjY1LDExNzgwMDgwMjMsMT
-kyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAyLDY1MDA3ODIx
-MCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQwNzU0Mzc5LC
-0xMTcxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4OTc3LDQxNDAy
-NjYyMF19
+eyJoaXN0b3J5IjpbLTE1NTUyMjk3NDcsMjAzNjIxNjgyMSwtOD
+M3NTA3ODA1LC0zNDQyOTE4NTcsMTkyOTI2MjEyMywtMzk1NjQy
+MzM3LC04NDAyOTIzMDAsMTE5MjY5MzY2NSwxMTc4MDA4MDIzLD
+E5MjA0ODMzMSwzMjU0NDU3MzksLTk5NTc3MDAwMiw2NTAwNzgy
+MTAsLTE5NzY0ODY5NzQsLTE2ODg2OTIyODEsLTQ0MDc1NDM3OS
+wtMTE3MTcxNTc5OSw2NjI4NjkwNTgsMTIzNTg0ODk3Nyw0MTQw
+MjY2MjBdfQ==
 -->

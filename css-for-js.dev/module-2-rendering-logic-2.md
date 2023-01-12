@@ -431,12 +431,14 @@ If you want to always display scrollbars on MacOS to see how it looks on Windows
 
 #### Auto
 
+> `auto` is a smart value that adds a scrollbar when one is required.
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTk3NjExNCwtODM3NTA3ODA1LC0zND
+eyJoaXN0b3J5IjpbMjAzNjIxNjgyMSwtODM3NTA3ODA1LC0zND
 QyOTE4NTcsMTkyOTI2MjEyMywtMzk1NjQyMzM3LC04NDAyOTIz
 MDAsMTE5MjY5MzY2NSwxMTc4MDA4MDIzLDE5MjA0ODMzMSwzMj
 U0NDU3MzksLTk5NTc3MDAwMiw2NTAwNzgyMTAsLTE5NzY0ODY5

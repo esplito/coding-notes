@@ -438,16 +438,20 @@ Because using `auto` can cause content layout shift when the scrollbar is render
 
 #### Hidden
 
+When would it be feasible to use this?
+1. When truncating text with an ellipsis (...)
+2. When we have decorative elements that we want to partially show.
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5MDAzMjg5LDIwMzYyMTY4MjEsLTgzNz
-UwNzgwNSwtMzQ0MjkxODU3LDE5MjkyNjIxMjMsLTM5NTY0MjMz
-NywtODQwMjkyMzAwLDExOTI2OTM2NjUsMTE3ODAwODAyMywxOT
-IwNDgzMzEsMzI1NDQ1NzM5LC05OTU3NzAwMDIsNjUwMDc4MjEw
-LC0xOTc2NDg2OTc0LC0xNjg4NjkyMjgxLC00NDA3NTQzNzksLT
-ExNzE3MTU3OTksNjYyODY5MDU4LDEyMzU4NDg5NzcsNDE0MDI2
-NjIwXX0=
+eyJoaXN0b3J5IjpbMTQ0OTU5ODEwNCwyMDM2MjE2ODIxLC04Mz
+c1MDc4MDUsLTM0NDI5MTg1NywxOTI5MjYyMTIzLC0zOTU2NDIz
+MzcsLTg0MDI5MjMwMCwxMTkyNjkzNjY1LDExNzgwMDgwMjMsMT
+kyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAyLDY1MDA3ODIx
+MCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQwNzU0Mzc5LC
+0xMTcxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4OTc3LDQxNDAy
+NjYyMF19
 -->

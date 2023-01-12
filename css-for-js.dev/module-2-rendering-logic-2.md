@@ -413,15 +413,17 @@ Codepen: https://codepen.io/joshwcomeau/full/KKgBmYL
 
 ## Overflow
 
+> `overflow` defaults to `visible`, which allows an element's content to extend beyond its bounds.
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTY0MjMzNywtODQwMjkyMzAwLDExOT
-I2OTM2NjUsMTE3ODAwODAyMywxOTIwNDgzMzEsMzI1NDQ1NzM5
-LC05OTU3NzAwMDIsNjUwMDc4MjEwLC0xOTc2NDg2OTc0LC0xNj
-g4NjkyMjgxLC00NDA3NTQzNzksLTExNzE3MTU3OTksNjYyODY5
-MDU4LDEyMzU4NDg5NzcsNDE0MDI2NjIwLDM0NDg2MTY2NSwxMD
-M3OTkyNTcwLC0xNjU4OTIzMjQ5LDExNTgwNDU0NTEsMTQ3MDUy
-ODAwNF19
+eyJoaXN0b3J5IjpbMTAyMjk4NDQ4MCwtMzk1NjQyMzM3LC04ND
+AyOTIzMDAsMTE5MjY5MzY2NSwxMTc4MDA4MDIzLDE5MjA0ODMz
+MSwzMjU0NDU3MzksLTk5NTc3MDAwMiw2NTAwNzgyMTAsLTE5Nz
+Y0ODY5NzQsLTE2ODg2OTIyODEsLTQ0MDc1NDM3OSwtMTE3MTcx
+NTc5OSw2NjI4NjkwNTgsMTIzNTg0ODk3Nyw0MTQwMjY2MjAsMz
+Q0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NTg5MjMyNDksMTE1ODA0
+NTQ1MV19
 -->

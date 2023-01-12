@@ -418,16 +418,17 @@ Codepen: https://codepen.io/joshwcomeau/full/KKgBmYL
 
 #### Scroll
 
+⚠️ `overflow: scroll` behaves differently on MacOS! By default on Mac, it will only show the scrollbar when you scroll⚠️
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTI2MjEyMywtMzk1NjQyMzM3LC04ND
-AyOTIzMDAsMTE5MjY5MzY2NSwxMTc4MDA4MDIzLDE5MjA0ODMz
-MSwzMjU0NDU3MzksLTk5NTc3MDAwMiw2NTAwNzgyMTAsLTE5Nz
-Y0ODY5NzQsLTE2ODg2OTIyODEsLTQ0MDc1NDM3OSwtMTE3MTcx
-NTc5OSw2NjI4NjkwNTgsMTIzNTg0ODk3Nyw0MTQwMjY2MjAsMz
-Q0ODYxNjY1LDEwMzc5OTI1NzAsLTE2NTg5MjMyNDksMTE1ODA0
-NTQ1MV19
+eyJoaXN0b3J5IjpbMTU4NTU2NTk2MiwxOTI5MjYyMTIzLC0zOT
+U2NDIzMzcsLTg0MDI5MjMwMCwxMTkyNjkzNjY1LDExNzgwMDgw
+MjMsMTkyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAyLDY1MD
+A3ODIxMCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQwNzU0
+Mzc5LC0xMTcxNzE1Nzk5LDY2Mjg2OTA1OCwxMjM1ODQ4OTc3LD
+QxNDAyNjYyMCwzNDQ4NjE2NjUsMTAzNzk5MjU3MCwtMTY1ODky
+MzI0OV19
 -->

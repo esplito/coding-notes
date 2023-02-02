@@ -483,13 +483,15 @@ This means that you can tab through the overflowing content and it will scroll. 
 
 >...scroll containers only start to scroll when the _inner size_ exceeds the _outer size_. As long as the outer size can keep on growing, that doesn't happen. - Josh
 
+### Horizontal Overflow
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2NTU1ODg0LDU1NDQ5NzM3LDEwMDgzMj
-I5MzUsLTE2OTQ4MDIyOTcsNjc3MDI1MDMwLC03NDk0NjE4MzUs
-MjAzNjIxNjgyMSwtODM3NTA3ODA1LC0zNDQyOTE4NTcsMTkyOT
-I2MjEyMywtMzk1NjQyMzM3LC04NDAyOTIzMDAsMTE5MjY5MzY2
-NSwxMTc4MDA4MDIzLDE5MjA0ODMzMSwzMjU0NDU3MzksLTk5NT
-c3MDAwMiw2NTAwNzgyMTAsLTE5NzY0ODY5NzQsLTE2ODg2OTIy
-ODFdfQ==
+eyJoaXN0b3J5IjpbNzI5NTU0OTExLDkxNjU1NTg4NCw1NTQ0OT
+czNywxMDA4MzIyOTM1LC0xNjk0ODAyMjk3LDY3NzAyNTAzMCwt
+NzQ5NDYxODM1LDIwMzYyMTY4MjEsLTgzNzUwNzgwNSwtMzQ0Mj
+kxODU3LDE5MjkyNjIxMjMsLTM5NTY0MjMzNywtODQwMjkyMzAw
+LDExOTI2OTM2NjUsMTE3ODAwODAyMywxOTIwNDgzMzEsMzI1ND
+Q1NzM5LC05OTU3NzAwMDIsNjUwMDc4MjEwLC0xOTc2NDg2OTc0
+XX0=
 -->

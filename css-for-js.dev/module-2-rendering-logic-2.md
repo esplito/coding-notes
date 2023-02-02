@@ -499,16 +499,17 @@ Josh recommends to have a look [at an article about how you can use this knowled
 
 #### Fixed positioning
 
+> In order for a child to "trigger" the overflow, it needs to be contained by it. Setting `position: relative` is enough to contain an absolute child, but _fixed_ children are only ever contained by the “initial containing block”, a box that exists outside the DOM structure.
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MjU5NzY4NSwxOTk4MDQ0ODQxLDgyOD
-Q1NjY1NSwxNjAwODk5Mzg3LDkxNjU1NTg4NCw1NTQ0OTczNywx
-MDA4MzIyOTM1LC0xNjk0ODAyMjk3LDY3NzAyNTAzMCwtNzQ5ND
-YxODM1LDIwMzYyMTY4MjEsLTgzNzUwNzgwNSwtMzQ0MjkxODU3
-LDE5MjkyNjIxMjMsLTM5NTY0MjMzNywtODQwMjkyMzAwLDExOT
-I2OTM2NjUsMTE3ODAwODAyMywxOTIwNDgzMzEsMzI1NDQ1NzM5
-XX0=
+eyJoaXN0b3J5IjpbLTE2MTI3MDAyNDYsLTU1MjU5NzY4NSwxOT
+k4MDQ0ODQxLDgyODQ1NjY1NSwxNjAwODk5Mzg3LDkxNjU1NTg4
+NCw1NTQ0OTczNywxMDA4MzIyOTM1LC0xNjk0ODAyMjk3LDY3Nz
+AyNTAzMCwtNzQ5NDYxODM1LDIwMzYyMTY4MjEsLTgzNzUwNzgw
+NSwtMzQ0MjkxODU3LDE5MjkyNjIxMjMsLTM5NTY0MjMzNywtOD
+QwMjkyMzAwLDExOTI2OTM2NjUsMTE3ODAwODAyMywxOTIwNDgz
+MzFdfQ==
 -->

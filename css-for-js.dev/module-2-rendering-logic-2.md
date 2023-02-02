@@ -485,16 +485,20 @@ This means that you can tab through the overflowing content and it will scroll. 
 
 ### Horizontal Overflow
 
-To achieve horizontally scrollable elements (for example when we have a few images of cats) we can use `white-spa`
+To achieve horizontally scrollable elements (for example when we have a few images of cats) we can use `white-space: nowrap` and `overflow: auto`. 
+
+> `white-space` is a property that lets us tweak how words and other inline/inline-block elements wrap. By setting it to `nowrap`, we instruct the container to never break lines. - Josh
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU5NzgxMDYsMTYwMDg5OTM4Nyw5MT
-Y1NTU4ODQsNTU0NDk3MzcsMTAwODMyMjkzNSwtMTY5NDgwMjI5
-Nyw2NzcwMjUwMzAsLTc0OTQ2MTgzNSwyMDM2MjE2ODIxLC04Mz
-c1MDc4MDUsLTM0NDI5MTg1NywxOTI5MjYyMTIzLC0zOTU2NDIz
-MzcsLTg0MDI5MjMwMCwxMTkyNjkzNjY1LDExNzgwMDgwMjMsMT
-kyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAyLDY1MDA3ODIx
-MF19
+eyJoaXN0b3J5IjpbMTg4NzQ0MDUyNCwxNjAwODk5Mzg3LDkxNj
+U1NTg4NCw1NTQ0OTczNywxMDA4MzIyOTM1LC0xNjk0ODAyMjk3
+LDY3NzAyNTAzMCwtNzQ5NDYxODM1LDIwMzYyMTY4MjEsLTgzNz
+UwNzgwNSwtMzQ0MjkxODU3LDE5MjkyNjIxMjMsLTM5NTY0MjMz
+NywtODQwMjkyMzAwLDExOTI2OTM2NjUsMTE3ODAwODAyMywxOT
+IwNDgzMzEsMzI1NDQ1NzM5LC05OTU3NzAwMDIsNjUwMDc4MjEw
+XX0=
 -->

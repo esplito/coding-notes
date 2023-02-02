@@ -472,11 +472,13 @@ This means that you can tab through the overflowing content and it will scroll. 
 
 `overflow: clip` works like `overflow: hidden`, but **it does not create a scroll container**! 🥳
 
+> Essentially, it acts the way most developers think `overflow: hidden`  _should_ work. It trims off any overflow, in one or both directions. - Josh
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTA0ODQzMSwtMTY5NDgwMjI5Nyw2Nz
+eyJoaXN0b3J5IjpbMTAwODMyMjkzNSwtMTY5NDgwMjI5Nyw2Nz
 cwMjUwMzAsLTc0OTQ2MTgzNSwyMDM2MjE2ODIxLC04Mzc1MDc4
 MDUsLTM0NDI5MTg1NywxOTI5MjYyMTIzLC0zOTU2NDIzMzcsLT
 g0MDI5MjMwMCwxMTkyNjkzNjY1LDExNzgwMDgwMjMsMTkyMDQ4

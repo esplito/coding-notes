@@ -470,13 +470,17 @@ This means that you can tab through the overflowing content and it will scroll. 
 
 ### Overflow: clip
 
+`overflow: clip` works like `overflow: hidden`, but **it does not create a scroll container**! 🥳
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ4MDIyOTcsNjc3MDI1MDMwLC03ND
-k0NjE4MzUsMjAzNjIxNjgyMSwtODM3NTA3ODA1LC0zNDQyOTE4
-NTcsMTkyOTI2MjEyMywtMzk1NjQyMzM3LC04NDAyOTIzMDAsMT
-E5MjY5MzY2NSwxMTc4MDA4MDIzLDE5MjA0ODMzMSwzMjU0NDU3
-MzksLTk5NTc3MDAwMiw2NTAwNzgyMTAsLTE5NzY0ODY5NzQsLT
-E2ODg2OTIyODEsLTQ0MDc1NDM3OSwtMTE3MTcxNTc5OSw2NjI4
-NjkwNThdfQ==
+eyJoaXN0b3J5IjpbMTMyOTA0ODQzMSwtMTY5NDgwMjI5Nyw2Nz
+cwMjUwMzAsLTc0OTQ2MTgzNSwyMDM2MjE2ODIxLC04Mzc1MDc4
+MDUsLTM0NDI5MTg1NywxOTI5MjYyMTIzLC0zOTU2NDIzMzcsLT
+g0MDI5MjMwMCwxMTkyNjkzNjY1LDExNzgwMDgwMjMsMTkyMDQ4
+MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAyLDY1MDA3ODIxMCwtMT
+k3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQwNzU0Mzc5LC0xMTcx
+NzE1Nzk5XX0=
 -->

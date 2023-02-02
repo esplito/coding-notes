@@ -481,15 +481,15 @@ This means that you can tab through the overflowing content and it will scroll. 
 
 > `overflow: hidden` has built-in guardrails: interactive elements like links, buttons, and form inputs will be made visible if they're focused, but we lose these guardrails with `overflow: clip`. - Josh
 
->...
+>...scroll containers only start to scroll when the _inner size_ exceeds the _outer size_. As long as the outer size can keep on growing, that doesn't happen. - Josh
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzU4MjE0MzMsNTU0NDk3MzcsMTAwOD
-MyMjkzNSwtMTY5NDgwMjI5Nyw2NzcwMjUwMzAsLTc0OTQ2MTgz
-NSwyMDM2MjE2ODIxLC04Mzc1MDc4MDUsLTM0NDI5MTg1NywxOT
-I5MjYyMTIzLC0zOTU2NDIzMzcsLTg0MDI5MjMwMCwxMTkyNjkz
-NjY1LDExNzgwMDgwMjMsMTkyMDQ4MzMxLDMyNTQ0NTczOSwtOT
-k1NzcwMDAyLDY1MDA3ODIxMCwtMTk3NjQ4Njk3NCwtMTY4ODY5
-MjI4MV19
+eyJoaXN0b3J5IjpbOTE2NTU1ODg0LDU1NDQ5NzM3LDEwMDgzMj
+I5MzUsLTE2OTQ4MDIyOTcsNjc3MDI1MDMwLC03NDk0NjE4MzUs
+MjAzNjIxNjgyMSwtODM3NTA3ODA1LC0zNDQyOTE4NTcsMTkyOT
+I2MjEyMywtMzk1NjQyMzM3LC04NDAyOTIzMDAsMTE5MjY5MzY2
+NSwxMTc4MDA4MDIzLDE5MjA0ODMzMSwzMjU0NDU3MzksLTk5NT
+c3MDAwMiw2NTAwNzgyMTAsLTE5NzY0ODY5NzQsLTE2ODg2OTIy
+ODFdfQ==
 -->

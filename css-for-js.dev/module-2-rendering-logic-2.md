@@ -491,16 +491,18 @@ To achieve horizontally scrollable elements (for example when we have a few imag
 
 ### Positioned Layout
 
-> In general, absolute positioning is ignored by standard layout algorithms, and yet `overflow: auto` treats it just like any other element! - 
+> In general, absolute positioning is ignored by standard layout algorithms, and yet `overflow: auto` treats it just like any other element! - Josh
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjAwMDE1MjksODI4NDU2NjU1LDE2MD
-A4OTkzODcsOTE2NTU1ODg0LDU1NDQ5NzM3LDEwMDgzMjI5MzUs
-LTE2OTQ4MDIyOTcsNjc3MDI1MDMwLC03NDk0NjE4MzUsMjAzNj
-IxNjgyMSwtODM3NTA3ODA1LC0zNDQyOTE4NTcsMTkyOTI2MjEy
-MywtMzk1NjQyMzM3LC04NDAyOTIzMDAsMTE5MjY5MzY2NSwxMT
-c4MDA4MDIzLDE5MjA0ODMzMSwzMjU0NDU3MzksLTk5NTc3MDAw
-Ml19
+eyJoaXN0b3J5IjpbMTk5ODA0NDg0MSw4Mjg0NTY2NTUsMTYwMD
+g5OTM4Nyw5MTY1NTU4ODQsNTU0NDk3MzcsMTAwODMyMjkzNSwt
+MTY5NDgwMjI5Nyw2NzcwMjUwMzAsLTc0OTQ2MTgzNSwyMDM2Mj
+E2ODIxLC04Mzc1MDc4MDUsLTM0NDI5MTg1NywxOTI5MjYyMTIz
+LC0zOTU2NDIzMzcsLTg0MDI5MjMwMCwxMTkyNjkzNjY1LDExNz
+gwMDgwMjMsMTkyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAy
+XX0=
 -->

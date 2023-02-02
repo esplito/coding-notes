@@ -489,16 +489,18 @@ To achieve horizontally scrollable elements (for example when we have a few imag
 
 > `white-space` is a property that lets us tweak how words and other inline/inline-block elements wrap. By setting it to `nowrap`, we instruct the container to never break lines. - Josh
 
+### Positioned Layout
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzQ0MDUyNCwxNjAwODk5Mzg3LDkxNj
-U1NTg4NCw1NTQ0OTczNywxMDA4MzIyOTM1LC0xNjk0ODAyMjk3
-LDY3NzAyNTAzMCwtNzQ5NDYxODM1LDIwMzYyMTY4MjEsLTgzNz
-UwNzgwNSwtMzQ0MjkxODU3LDE5MjkyNjIxMjMsLTM5NTY0MjMz
-NywtODQwMjkyMzAwLDExOTI2OTM2NjUsMTE3ODAwODAyMywxOT
-IwNDgzMzEsMzI1NDQ1NzM5LC05OTU3NzAwMDIsNjUwMDc4MjEw
-XX0=
+eyJoaXN0b3J5IjpbODI4NDU2NjU1LDE2MDA4OTkzODcsOTE2NT
+U1ODg0LDU1NDQ5NzM3LDEwMDgzMjI5MzUsLTE2OTQ4MDIyOTcs
+Njc3MDI1MDMwLC03NDk0NjE4MzUsMjAzNjIxNjgyMSwtODM3NT
+A3ODA1LC0zNDQyOTE4NTcsMTkyOTI2MjEyMywtMzk1NjQyMzM3
+LC04NDAyOTIzMDAsMTE5MjY5MzY2NSwxMTc4MDA4MDIzLDE5Mj
+A0ODMzMSwzMjU0NDU3MzksLTk5NTc3MDAwMiw2NTAwNzgyMTBd
+fQ==
 -->

@@ -503,11 +503,15 @@ Josh recommends to have a look [at an article about how you can use this knowled
 
 This also means that fixed-position elements are **immune** from being hidden with `overflow: hidden`. 
 
+## Sticky Positioning
+
+
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE4NjU3MSwtMTYxMjcwMDI0NiwtNT
+eyJoaXN0b3J5IjpbLTU1NDM3ODE5OSwtMTYxMjcwMDI0NiwtNT
 UyNTk3Njg1LDE5OTgwNDQ4NDEsODI4NDU2NjU1LDE2MDA4OTkz
 ODcsOTE2NTU1ODg0LDU1NDQ5NzM3LDEwMDgzMjI5MzUsLTE2OT
 Q4MDIyOTcsNjc3MDI1MDMwLC03NDk0NjE4MzUsMjAzNjIxNjgy

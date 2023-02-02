@@ -485,15 +485,16 @@ This means that you can tab through the overflowing content and it will scroll. 
 
 ### Horizontal Overflow
 
+To achieve horizontally scrollable elements (for example when we have a few images of cats) we can use `white-spa`
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDg5OTM4Nyw5MTY1NTU4ODQsNTU0ND
-k3MzcsMTAwODMyMjkzNSwtMTY5NDgwMjI5Nyw2NzcwMjUwMzAs
-LTc0OTQ2MTgzNSwyMDM2MjE2ODIxLC04Mzc1MDc4MDUsLTM0ND
-I5MTg1NywxOTI5MjYyMTIzLC0zOTU2NDIzMzcsLTg0MDI5MjMw
-MCwxMTkyNjkzNjY1LDExNzgwMDgwMjMsMTkyMDQ4MzMxLDMyNT
-Q0NTczOSwtOTk1NzcwMDAyLDY1MDA3ODIxMCwtMTk3NjQ4Njk3
-NF19
+eyJoaXN0b3J5IjpbLTE5MTU5NzgxMDYsMTYwMDg5OTM4Nyw5MT
+Y1NTU4ODQsNTU0NDk3MzcsMTAwODMyMjkzNSwtMTY5NDgwMjI5
+Nyw2NzcwMjUwMzAsLTc0OTQ2MTgzNSwyMDM2MjE2ODIxLC04Mz
+c1MDc4MDUsLTM0NDI5MTg1NywxOTI5MjYyMTIzLC0zOTU2NDIz
+MzcsLTg0MDI5MjMwMCwxMTkyNjkzNjY1LDExNzgwMDgwMjMsMT
+kyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAyLDY1MDA3ODIx
+MF19
 -->

@@ -477,16 +477,17 @@ This means that you can tab through the overflowing content and it will scroll. 
 🚨Does not work consistently across browsers and only arrived in Safari September 2022! 🚨 
 
 - ⚠️ `border-radius` breaks it in Chrome (that we know of)
-- ⚠️ Many iOS/MAc
+- ⚠️ Many iOS/MacOS users are still on older versions of Safari (in Nov 2022 20% had the needed browser version)
 
+> `overflow: hidden` has built-in guardrails: interactive elements like links, buttons, and form inputs will be made visible if they're focused, but we lose these guardrails with `overflow: clip`. - J
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTQ2ODA2MywxMDA4MzIyOTM1LC0xNj
-k0ODAyMjk3LDY3NzAyNTAzMCwtNzQ5NDYxODM1LDIwMzYyMTY4
-MjEsLTgzNzUwNzgwNSwtMzQ0MjkxODU3LDE5MjkyNjIxMjMsLT
-M5NTY0MjMzNywtODQwMjkyMzAwLDExOTI2OTM2NjUsMTE3ODAw
-ODAyMywxOTIwNDgzMzEsMzI1NDQ1NzM5LC05OTU3NzAwMDIsNj
-UwMDc4MjEwLC0xOTc2NDg2OTc0LC0xNjg4NjkyMjgxLC00NDA3
-NTQzNzldfQ==
+eyJoaXN0b3J5IjpbLTEwNDM5MDkwNzksMTAwODMyMjkzNSwtMT
+Y5NDgwMjI5Nyw2NzcwMjUwMzAsLTc0OTQ2MTgzNSwyMDM2MjE2
+ODIxLC04Mzc1MDc4MDUsLTM0NDI5MTg1NywxOTI5MjYyMTIzLC
+0zOTU2NDIzMzcsLTg0MDI5MjMwMCwxMTkyNjkzNjY1LDExNzgw
+MDgwMjMsMTkyMDQ4MzMxLDMyNTQ0NTczOSwtOTk1NzcwMDAyLD
+Y1MDA3ODIxMCwtMTk3NjQ4Njk3NCwtMTY4ODY5MjI4MSwtNDQw
+NzU0Mzc5XX0=
 -->

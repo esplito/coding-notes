@@ -491,16 +491,20 @@ To achieve horizontally scrollable elements (for example when we have a few imag
 
 ### Positioned Layout
 
+#### Overflow and containing blocks
+
 > In general, absolute positioning is ignored by standard layout algorithms, and yet `overflow: auto` treats it just like any other element! - Josh
 
 Josh recommends to have a look [at an article about how you can use this knowledge to your advantage, "Popping out Of Hidden Overflow"](https://css-tricks.com/popping-hidden-overflow/). 
+
+#### Fixed positioning
 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDI1NTE0OSwxOTk4MDQ0ODQxLDgyOD
+eyJoaXN0b3J5IjpbLTU1MjU5NzY4NSwxOTk4MDQ0ODQxLDgyOD
 Q1NjY1NSwxNjAwODk5Mzg3LDkxNjU1NTg4NCw1NTQ0OTczNywx
 MDA4MzIyOTM1LC0xNjk0ODAyMjk3LDY3NzAyNTAzMCwtNzQ5ND
 YxODM1LDIwMzYyMTY4MjEsLTgzNzUwNzgwNSwtMzQ0MjkxODU3

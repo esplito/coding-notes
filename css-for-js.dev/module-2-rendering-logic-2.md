@@ -474,12 +474,15 @@ This means that you can tab through the overflowing content and it will scroll. 
 
 > Essentially, it acts the way most developers think `overflow: hidden`  _should_ work. It trims off any overflow, in one or both directions. - Josh
 
-🚨Does no
+🚨Does not work consistently across browsers and only arrived in Safari September 2022! 🚨 
+
+- ⚠️ `border-radius` breaks it in Chrome (that we know of)
+- ⚠️ Many iOS/MAc
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODU0ODM4NiwxMDA4MzIyOTM1LC0xNj
+eyJoaXN0b3J5IjpbMTM2MTQ2ODA2MywxMDA4MzIyOTM1LC0xNj
 k0ODAyMjk3LDY3NzAyNTAzMCwtNzQ5NDYxODM1LDIwMzYyMTY4
 MjEsLTgzNzUwNzgwNSwtMzQ0MjkxODU3LDE5MjkyNjIxMjMsLT
 M5NTY0MjMzNywtODQwMjkyMzAwLDExOTI2OTM2NjUsMTE3ODAw

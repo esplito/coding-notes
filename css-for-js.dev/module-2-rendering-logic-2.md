@@ -505,17 +505,19 @@ This also means that fixed-position elements are **immune** from being hidden wi
 
 ## Sticky Positioning
 
+When you scroll it sticks. 🍝
 
+> In addition to setting `position: sticky`, you also need to pick at least one edge to stick to (top, left, right, bottom). Most commonly, this is done with `top: 0px` (or `top: 0`; the unit is optional when it's zero).
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDM3ODE5OSwtMTYxMjcwMDI0NiwtNT
-UyNTk3Njg1LDE5OTgwNDQ4NDEsODI4NDU2NjU1LDE2MDA4OTkz
-ODcsOTE2NTU1ODg0LDU1NDQ5NzM3LDEwMDgzMjI5MzUsLTE2OT
-Q4MDIyOTcsNjc3MDI1MDMwLC03NDk0NjE4MzUsMjAzNjIxNjgy
-MSwtODM3NTA3ODA1LC0zNDQyOTE4NTcsMTkyOTI2MjEyMywtMz
-k1NjQyMzM3LC04NDAyOTIzMDAsMTE5MjY5MzY2NSwxMTc4MDA4
-MDIzXX0=
+eyJoaXN0b3J5IjpbNDk3NzI1Nzg1LC01NTQzNzgxOTksLTE2MT
+I3MDAyNDYsLTU1MjU5NzY4NSwxOTk4MDQ0ODQxLDgyODQ1NjY1
+NSwxNjAwODk5Mzg3LDkxNjU1NTg4NCw1NTQ0OTczNywxMDA4Mz
+IyOTM1LC0xNjk0ODAyMjk3LDY3NzAyNTAzMCwtNzQ5NDYxODM1
+LDIwMzYyMTY4MjEsLTgzNzUwNzgwNSwtMzQ0MjkxODU3LDE5Mj
+kyNjIxMjMsLTM5NTY0MjMzNywtODQwMjkyMzAwLDExOTI2OTM2
+NjVdfQ==
 -->

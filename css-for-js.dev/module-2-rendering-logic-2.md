@@ -530,15 +530,18 @@ For sticky positioning: `top` has no effect until we start scrolling.
 
 Sticky positioning behaves a bit like static & relative, in the way that it takes up space **in-flow**. 
 
+### Horizontal stickiness
+You can also use `sticky` to stick an element when horizontally scrolling.
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjMwMzQwMSwtMzI5MjQ2MTU0LDg5OD
-k1Nzc5Nyw3Mjg5NTg0NDMsLTU1NDM3ODE5OSwtMTYxMjcwMDI0
-NiwtNTUyNTk3Njg1LDE5OTgwNDQ4NDEsODI4NDU2NjU1LDE2MD
-A4OTkzODcsOTE2NTU1ODg0LDU1NDQ5NzM3LDEwMDgzMjI5MzUs
-LTE2OTQ4MDIyOTcsNjc3MDI1MDMwLC03NDk0NjE4MzUsMjAzNj
-IxNjgyMSwtODM3NTA3ODA1LC0zNDQyOTE4NTcsMTkyOTI2MjEy
-M119
+eyJoaXN0b3J5IjpbLTE4MTM3MzI0MTYsLTMyOTI0NjE1NCw4OT
+g5NTc3OTcsNzI4OTU4NDQzLC01NTQzNzgxOTksLTE2MTI3MDAy
+NDYsLTU1MjU5NzY4NSwxOTk4MDQ0ODQxLDgyODQ1NjY1NSwxNj
+AwODk5Mzg3LDkxNjU1NTg4NCw1NTQ0OTczNywxMDA4MzIyOTM1
+LC0xNjk0ODAyMjk3LDY3NzAyNTAzMCwtNzQ5NDYxODM1LDIwMz
+YyMTY4MjEsLTgzNzUwNzgwNSwtMzQ0MjkxODU3LDE5MjkyNjIx
+MjNdfQ==
 -->

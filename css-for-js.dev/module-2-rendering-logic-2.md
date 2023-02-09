@@ -512,15 +512,15 @@ When you scroll it sticks. 🍝
 ### Stays in their box
 > An often-overlooked aspect of `position: sticky` is that the element will never follow the scroll outside of its parent container. Sticky elements only stick while their container is in view. - Josh
 
-
+Josh also showcases an interesting way of having content headings that sticks as long as the adjacent content is in view.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4OTU4NDQzLC01NTQzNzgxOTksLTE2MT
-I3MDAyNDYsLTU1MjU5NzY4NSwxOTk4MDQ0ODQxLDgyODQ1NjY1
-NSwxNjAwODk5Mzg3LDkxNjU1NTg4NCw1NTQ0OTczNywxMDA4Mz
-IyOTM1LC0xNjk0ODAyMjk3LDY3NzAyNTAzMCwtNzQ5NDYxODM1
-LDIwMzYyMTY4MjEsLTgzNzUwNzgwNSwtMzQ0MjkxODU3LDE5Mj
-kyNjIxMjMsLTM5NTY0MjMzNywtODQwMjkyMzAwLDExOTI2OTM2
-NjVdfQ==
+eyJoaXN0b3J5IjpbLTEyMTcwMzk5NTAsNzI4OTU4NDQzLC01NT
+QzNzgxOTksLTE2MTI3MDAyNDYsLTU1MjU5NzY4NSwxOTk4MDQ0
+ODQxLDgyODQ1NjY1NSwxNjAwODk5Mzg3LDkxNjU1NTg4NCw1NT
+Q0OTczNywxMDA4MzIyOTM1LC0xNjk0ODAyMjk3LDY3NzAyNTAz
+MCwtNzQ5NDYxODM1LDIwMzYyMTY4MjEsLTgzNzUwNzgwNSwtMz
+Q0MjkxODU3LDE5MjkyNjIxMjMsLTM5NTY0MjMzNywtODQwMjky
+MzAwXX0=
 -->

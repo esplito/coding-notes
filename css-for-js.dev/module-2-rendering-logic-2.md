@@ -514,6 +514,8 @@ When you scroll it sticks. 🍝
 
 Josh also showcases an interesting way of having content headings that sticks as long as the adjacent content is in view.
 
+### Offset
+
 -   With **relative positioning**, the element is shifted from its natural, in-flow position
     
 -   With **absolute positioning**, the element is distanced from its containing block's edge
@@ -524,9 +526,11 @@ Josh also showcases an interesting way of having content headings that sticks as
 
 For sticky positioning: `top` has no effect until we start scrolling.
 
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjk3NzE0Niw4OTg5NTc3OTcsNzI4OT
+eyJoaXN0b3J5IjpbLTMyOTI0NjE1NCw4OTg5NTc3OTcsNzI4OT
 U4NDQzLC01NTQzNzgxOTksLTE2MTI3MDAyNDYsLTU1MjU5NzY4
 NSwxOTk4MDQ0ODQxLDgyODQ1NjY1NSwxNjAwODk5Mzg3LDkxNj
 U1NTg4NCw1NTQ0OTczNywxMDA4MzIyOTM1LC0xNjk0ODAyMjk3

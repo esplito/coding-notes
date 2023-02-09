@@ -536,12 +536,12 @@ You can also use `sticky` to stick an element when horizontally scrolling.
 ### Sticky positioning and browser support
 🥳🥳🥳🥳 Works across all major browsers on both mobile and desktop 🥳🥳🥳🥳 
 
-## Exercises
+### Exercises
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODI4NzExNjksLTMyOTI0NjE1NCw4OT
+eyJoaXN0b3J5IjpbLTE5MjIwMDM2MzYsLTMyOTI0NjE1NCw4OT
 g5NTc3OTcsNzI4OTU4NDQzLC01NTQzNzgxOTksLTE2MTI3MDAy
 NDYsLTU1MjU5NzY4NSwxOTk4MDQ0ODQxLDgyODQ1NjY1NSwxNj
 AwODk5Mzg3LDkxNjU1NTg4NCw1NTQ0OTczNywxMDA4MzIyOTM1

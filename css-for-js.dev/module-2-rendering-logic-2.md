@@ -526,15 +526,18 @@ Josh also showcases an interesting way of having content headings that sticks as
 
 For sticky positioning: `top` has no effect until we start scrolling.
 
+###  Not incorporeal
+
+Sticky positioning behaves a bit like static & relative, in the way that it takes up space **in-flow**.
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTI0NjE1NCw4OTg5NTc3OTcsNzI4OT
-U4NDQzLC01NTQzNzgxOTksLTE2MTI3MDAyNDYsLTU1MjU5NzY4
-NSwxOTk4MDQ0ODQxLDgyODQ1NjY1NSwxNjAwODk5Mzg3LDkxNj
-U1NTg4NCw1NTQ0OTczNywxMDA4MzIyOTM1LC0xNjk0ODAyMjk3
-LDY3NzAyNTAzMCwtNzQ5NDYxODM1LDIwMzYyMTY4MjEsLTgzNz
-UwNzgwNSwtMzQ0MjkxODU3LDE5MjkyNjIxMjMsLTM5NTY0MjMz
-N119
+eyJoaXN0b3J5IjpbMTM4MzE2MTgxOSwtMzI5MjQ2MTU0LDg5OD
+k1Nzc5Nyw3Mjg5NTg0NDMsLTU1NDM3ODE5OSwtMTYxMjcwMDI0
+NiwtNTUyNTk3Njg1LDE5OTgwNDQ4NDEsODI4NDU2NjU1LDE2MD
+A4OTkzODcsOTE2NTU1ODg0LDU1NDQ5NzM3LDEwMDgzMjI5MzUs
+LTE2OTQ4MDIyOTcsNjc3MDI1MDMwLC03NDk0NjE4MzUsMjAzNj
+IxNjgyMSwtODM3NTA3ODA1LC0zNDQyOTE4NTcsMTkyOTI2MjEy
+M119
 -->

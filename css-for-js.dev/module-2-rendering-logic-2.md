@@ -514,13 +514,21 @@ When you scroll it sticks. 🍝
 
 Josh also showcases an interesting way of having content headings that sticks as long as the adjacent content is in view.
 
+-   With relative positioning, the element is shifted from its natural, in-flow position
+    
+-   With absolute positioning, the element is distanced from its containing block's edge
+    
+-   With fixed positioning, the element is adjusted based on the viewport
+    
+With sticky positioning, the value controls the  **minimum gap between the element and the edge of the viewport**  while the container is in-frame.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTcwMzk5NTAsNzI4OTU4NDQzLC01NT
-QzNzgxOTksLTE2MTI3MDAyNDYsLTU1MjU5NzY4NSwxOTk4MDQ0
-ODQxLDgyODQ1NjY1NSwxNjAwODk5Mzg3LDkxNjU1NTg4NCw1NT
-Q0OTczNywxMDA4MzIyOTM1LC0xNjk0ODAyMjk3LDY3NzAyNTAz
-MCwtNzQ5NDYxODM1LDIwMzYyMTY4MjEsLTgzNzUwNzgwNSwtMz
-Q0MjkxODU3LDE5MjkyNjIxMjMsLTM5NTY0MjMzNywtODQwMjky
-MzAwXX0=
+eyJoaXN0b3J5IjpbOTEyMTU3MzAyLDcyODk1ODQ0MywtNTU0Mz
+c4MTk5LC0xNjEyNzAwMjQ2LC01NTI1OTc2ODUsMTk5ODA0NDg0
+MSw4Mjg0NTY2NTUsMTYwMDg5OTM4Nyw5MTY1NTU4ODQsNTU0ND
+k3MzcsMTAwODMyMjkzNSwtMTY5NDgwMjI5Nyw2NzcwMjUwMzAs
+LTc0OTQ2MTgzNSwyMDM2MjE2ODIxLC04Mzc1MDc4MDUsLTM0ND
+I5MTg1NywxOTI5MjYyMTIzLC0zOTU2NDIzMzcsLTg0MDI5MjMw
+MF19
 -->

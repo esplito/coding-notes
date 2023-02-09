@@ -533,15 +533,17 @@ Sticky positioning behaves a bit like static & relative, in the way that it take
 ### Horizontal stickiness
 You can also use `sticky` to stick an element when horizontally scrolling.
 
-
+### Sticky positioning and browser support
+🥳🥳🥳🥳 Works across all major browsers on both mobile and desktop 🥳🥳🥳🥳 
+> **You can safely use sticky positioning on iOS and Android.** - Josh 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM3MzI0MTYsLTMyOTI0NjE1NCw4OT
-g5NTc3OTcsNzI4OTU4NDQzLC01NTQzNzgxOTksLTE2MTI3MDAy
-NDYsLTU1MjU5NzY4NSwxOTk4MDQ0ODQxLDgyODQ1NjY1NSwxNj
-AwODk5Mzg3LDkxNjU1NTg4NCw1NTQ0OTczNywxMDA4MzIyOTM1
-LC0xNjk0ODAyMjk3LDY3NzAyNTAzMCwtNzQ5NDYxODM1LDIwMz
-YyMTY4MjEsLTgzNzUwNzgwNSwtMzQ0MjkxODU3LDE5MjkyNjIx
-MjNdfQ==
+eyJoaXN0b3J5IjpbNTA4MzYyMTg5LC0zMjkyNDYxNTQsODk4OT
+U3Nzk3LDcyODk1ODQ0MywtNTU0Mzc4MTk5LC0xNjEyNzAwMjQ2
+LC01NTI1OTc2ODUsMTk5ODA0NDg0MSw4Mjg0NTY2NTUsMTYwMD
+g5OTM4Nyw5MTY1NTU4ODQsNTU0NDk3MzcsMTAwODMyMjkzNSwt
+MTY5NDgwMjI5Nyw2NzcwMjUwMzAsLTc0OTQ2MTgzNSwyMDM2Mj
+E2ODIxLC04Mzc1MDc4MDUsLTM0NDI5MTg1NywxOTI5MjYyMTIz
+XX0=
 -->

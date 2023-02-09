@@ -522,15 +522,15 @@ Josh also showcases an interesting way of having content headings that sticks as
     
 - With **sticky positioning**, the value controls the  **minimum gap between the element and the edge of the viewport**  while the container is in-frame.
 
-
+For sticky positioning `top` has no effect until we start scrolling.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4OTU3Nzk3LDcyODk1ODQ0MywtNTU0Mz
-c4MTk5LC0xNjEyNzAwMjQ2LC01NTI1OTc2ODUsMTk5ODA0NDg0
-MSw4Mjg0NTY2NTUsMTYwMDg5OTM4Nyw5MTY1NTU4ODQsNTU0ND
-k3MzcsMTAwODMyMjkzNSwtMTY5NDgwMjI5Nyw2NzcwMjUwMzAs
-LTc0OTQ2MTgzNSwyMDM2MjE2ODIxLC04Mzc1MDc4MDUsLTM0ND
-I5MTg1NywxOTI5MjYyMTIzLC0zOTU2NDIzMzcsLTg0MDI5MjMw
-MF19
+eyJoaXN0b3J5IjpbLTE2OTk4NjQ3ODQsODk4OTU3Nzk3LDcyOD
+k1ODQ0MywtNTU0Mzc4MTk5LC0xNjEyNzAwMjQ2LC01NTI1OTc2
+ODUsMTk5ODA0NDg0MSw4Mjg0NTY2NTUsMTYwMDg5OTM4Nyw5MT
+Y1NTU4ODQsNTU0NDk3MzcsMTAwODMyMjkzNSwtMTY5NDgwMjI5
+Nyw2NzcwMjUwMzAsLTc0OTQ2MTgzNSwyMDM2MjE2ODIxLC04Mz
+c1MDc4MDUsLTM0NDI5MTg1NywxOTI5MjYyMTIzLC0zOTU2NDIz
+MzddfQ==
 -->

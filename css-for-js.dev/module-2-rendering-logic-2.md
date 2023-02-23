@@ -674,10 +674,13 @@ findCulprits(document.querySelector(selector));
 >
 >Make sure that your sticky element has room to move within its parent container. - Josh
 
+#####
+> When using Flexbox or Grid, it's possible for a sticky element to be stretched along the cross-axis. This, in effect, makes it so that the element has no space to move in its parent container.
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjEyNzU1MCwxMTMyMDQ3NTIyLC0xOT
+eyJoaXN0b3J5IjpbLTM2NDc3ODEyNCwxMTMyMDQ3NTIyLC0xOT
 IyMDAzNjM2LC0zMjkyNDYxNTQsODk4OTU3Nzk3LDcyODk1ODQ0
 MywtNTU0Mzc4MTk5LC0xNjEyNzAwMjQ2LC01NTI1OTc2ODUsMT
 k5ODA0NDg0MSw4Mjg0NTY2NTUsMTYwMDg5OTM4Nyw5MTY1NTU4

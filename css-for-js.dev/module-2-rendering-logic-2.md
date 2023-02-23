@@ -538,7 +538,7 @@ You can also use `sticky` to stick an element when horizontally scrolling.
 
 ### Exercises
 
-#### Sticky header
+#### 1. Sticky header
 In this exercise we got the task to create a sticky header that has a bit of a cushion before it sticks to the top of the page on scroll.
 
 ```html
@@ -565,12 +565,14 @@ In this exercise we got the task to create a sticky header that has a bit of a c
 <main>
   <p>Hello world!</p>
 </main>
-
 ```
+
+#### 2. Fix the bug
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODQ1MDc1NSwtMTkyMjAwMzYzNiwtMz
+eyJoaXN0b3J5IjpbMTEzMjA0NzUyMiwtMTkyMjAwMzYzNiwtMz
 I5MjQ2MTU0LDg5ODk1Nzc5Nyw3Mjg5NTg0NDMsLTU1NDM3ODE5
 OSwtMTYxMjcwMDI0NiwtNTUyNTk3Njg1LDE5OTgwNDQ4NDEsOD
 I4NDU2NjU1LDE2MDA4OTkzODcsOTE2NTU1ODg0LDU1NDQ5NzM3

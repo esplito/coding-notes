@@ -677,14 +677,19 @@ findCulprits(document.querySelector(selector));
 ##### 3. The sticky element is stretched
 > When using Flexbox or Grid, it's possible for a sticky element to be stretched along the cross-axis. This, in effect, makes it so that the element has no space to move in its parent container.
 
+##### 4. There's a thin gap above my sticky header!
+> If you intend for an element to sit right against the edge of the viewport, you might discover a thin 1px gap between the element and the edge in Chrome.
+>
+> This is a rounding issue with fractional pixels. I've solved this issue by insetting the sticky element by a single pixel:
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjExNDYyMTQxLC0zNjQ3NzgxMjQsMTEzMj
-A0NzUyMiwtMTkyMjAwMzYzNiwtMzI5MjQ2MTU0LDg5ODk1Nzc5
-Nyw3Mjg5NTg0NDMsLTU1NDM3ODE5OSwtMTYxMjcwMDI0NiwtNT
-UyNTk3Njg1LDE5OTgwNDQ4NDEsODI4NDU2NjU1LDE2MDA4OTkz
-ODcsOTE2NTU1ODg0LDU1NDQ5NzM3LDEwMDgzMjI5MzUsLTE2OT
-Q4MDIyOTcsNjc3MDI1MDMwLC03NDk0NjE4MzUsMjAzNjIxNjgy
-MV19
+eyJoaXN0b3J5IjpbLTI3NTU1MTM5NiwtMzY0Nzc4MTI0LDExMz
+IwNDc1MjIsLTE5MjIwMDM2MzYsLTMyOTI0NjE1NCw4OTg5NTc3
+OTcsNzI4OTU4NDQzLC01NTQzNzgxOTksLTE2MTI3MDAyNDYsLT
+U1MjU5NzY4NSwxOTk4MDQ0ODQxLDgyODQ1NjY1NSwxNjAwODk5
+Mzg3LDkxNjU1NTg4NCw1NTQ0OTczNywxMDA4MzIyOTM1LC0xNj
+k0ODAyMjk3LDY3NzAyNTAzMCwtNzQ5NDYxODM1LDIwMzYyMTY4
+MjFdfQ==
 -->

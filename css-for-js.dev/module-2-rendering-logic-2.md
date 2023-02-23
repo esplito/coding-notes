@@ -541,6 +541,7 @@ You can also use `sticky` to stick an element when horizontally scrolling.
 #### 1. Sticky header
 In this exercise we got the task to create a sticky header that has a bit of a cushion before it sticks to the top of the page on scroll.
 
+##### Solution
 ```html
 <style>
   header {
@@ -568,15 +569,67 @@ In this exercise we got the task to create a sticky header that has a bit of a c
 ```
 
 #### 2. Fix the bug
+In this task there's a pink box that should stick to the top on scroll, but it does not. We have to fix it! 🛠
+
+##### Solution
+```html
+<header>
+  <div class="sticky"></div>
+</header>
+<main>
+  <p>
+    Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut labore
+    et dolore magna aliqua. Ut enim ad
+    minim veniam, quis nostrud
+    exercitation ullamco laboris nisi ut
+    aliquip ex ea commodo consequat.
+    Duis aute irure dolor in
+    reprehenderit in voluptate velit
+    esse cillum dolore eu fugiat nulla
+    pariatur. Excepteur sint occaecat
+    cupidatat non proident, sunt in
+    culpa qui officia deserunt mollit
+    anim id est laborum.
+  </p>
+</main>
+```
+
+```css
+/* Baseline decorative styles: */
+html {
+  height: 100%;
+}
+body {
+  height: 150%;
+  padding: 0;
+}
+header {
+  position: sticky;
+  top: -16px;
+}
+header,
+main {
+  padding: 16px;
+}
+
+.sticky {
+  width: 50px;
+  height: 50px;
+  background: deeppink;
+  border-radius: 4px;
+}
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjA0NzUyMiwtMTkyMjAwMzYzNiwtMz
-I5MjQ2MTU0LDg5ODk1Nzc5Nyw3Mjg5NTg0NDMsLTU1NDM3ODE5
-OSwtMTYxMjcwMDI0NiwtNTUyNTk3Njg1LDE5OTgwNDQ4NDEsOD
-I4NDU2NjU1LDE2MDA4OTkzODcsOTE2NTU1ODg0LDU1NDQ5NzM3
-LDEwMDgzMjI5MzUsLTE2OTQ4MDIyOTcsNjc3MDI1MDMwLC03ND
-k0NjE4MzUsMjAzNjIxNjgyMSwtODM3NTA3ODA1LC0zNDQyOTE4
-NTddfQ==
+eyJoaXN0b3J5IjpbMTA5NzA0MzYyMSwxMTMyMDQ3NTIyLC0xOT
+IyMDAzNjM2LC0zMjkyNDYxNTQsODk4OTU3Nzk3LDcyODk1ODQ0
+MywtNTU0Mzc4MTk5LC0xNjEyNzAwMjQ2LC01NTI1OTc2ODUsMT
+k5ODA0NDg0MSw4Mjg0NTY2NTUsMTYwMDg5OTM4Nyw5MTY1NTU4
+ODQsNTU0NDk3MzcsMTAwODMyMjkzNSwtMTY5NDgwMjI5Nyw2Nz
+cwMjUwMzAsLTc0OTQ2MTgzNSwyMDM2MjE2ODIxLC04Mzc1MDc4
+MDVdfQ==
 -->

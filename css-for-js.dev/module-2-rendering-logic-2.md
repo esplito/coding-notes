@@ -624,15 +624,16 @@ main {
 > Unfortunately, it's very common to apply `position: sticky` to an element, only for nothing to happen; the element won't stick! - Josh
 
 #### Common pitfalls
-- 
+- A parent is hiding/managing overflow
+	- 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5OTcxNjIsMTEzMjA0NzUyMiwtMTkyMj
-AwMzYzNiwtMzI5MjQ2MTU0LDg5ODk1Nzc5Nyw3Mjg5NTg0NDMs
-LTU1NDM3ODE5OSwtMTYxMjcwMDI0NiwtNTUyNTk3Njg1LDE5OT
-gwNDQ4NDEsODI4NDU2NjU1LDE2MDA4OTkzODcsOTE2NTU1ODg0
-LDU1NDQ5NzM3LDEwMDgzMjI5MzUsLTE2OTQ4MDIyOTcsNjc3MD
-I1MDMwLC03NDk0NjE4MzUsMjAzNjIxNjgyMSwtODM3NTA3ODA1
-XX0=
+eyJoaXN0b3J5IjpbLTE4NDY4NDc2MTgsMTEzMjA0NzUyMiwtMT
+kyMjAwMzYzNiwtMzI5MjQ2MTU0LDg5ODk1Nzc5Nyw3Mjg5NTg0
+NDMsLTU1NDM3ODE5OSwtMTYxMjcwMDI0NiwtNTUyNTk3Njg1LD
+E5OTgwNDQ4NDEsODI4NDU2NjU1LDE2MDA4OTkzODcsOTE2NTU1
+ODg0LDU1NDQ5NzM3LDEwMDgzMjI5MzUsLTE2OTQ4MDIyOTcsNj
+c3MDI1MDMwLC03NDk0NjE4MzUsMjAzNjIxNjgyMSwtODM3NTA3
+ODA1XX0=
 -->

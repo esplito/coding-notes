@@ -661,14 +661,22 @@ function findCulprits(elem) {
 
 findCulprits(document.querySelector(selector));
 ```
+**How do we fix it?**
+> -   If the culprit uses  `overflow: hidden`, we can switch to  `overflow: clip`. Because  `overflow: clip`  doesn't create a scroll container, it doesn't have this problem!
+>    
+>-   If the culprit uses  `auto`  or  `scroll`, you  _might_  be able to remove this property, or push it lower in the DOM. This is a tricky problem, often without a quick solution. We saw an example of this sort of restructuring in the  [solution to the last exercise](https://courses.joshwcomeau.com/css-for-js/02-rendering-logic-2/16-sticky-exercises#digit-fix-the-bug). - Josh
+
+
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDUzNjI1NzIsMTEzMjA0NzUyMiwtMT
-kyMjAwMzYzNiwtMzI5MjQ2MTU0LDg5ODk1Nzc5Nyw3Mjg5NTg0
-NDMsLTU1NDM3ODE5OSwtMTYxMjcwMDI0NiwtNTUyNTk3Njg1LD
-E5OTgwNDQ4NDEsODI4NDU2NjU1LDE2MDA4OTkzODcsOTE2NTU1
-ODg0LDU1NDQ5NzM3LDEwMDgzMjI5MzUsLTE2OTQ4MDIyOTcsNj
-c3MDI1MDMwLC03NDk0NjE4MzUsMjAzNjIxNjgyMSwtODM3NTA3
-ODA1XX0=
+eyJoaXN0b3J5IjpbMTMzNTkyNzE0NSwxMTMyMDQ3NTIyLC0xOT
+IyMDAzNjM2LC0zMjkyNDYxNTQsODk4OTU3Nzk3LDcyODk1ODQ0
+MywtNTU0Mzc4MTk5LC0xNjEyNzAwMjQ2LC01NTI1OTc2ODUsMT
+k5ODA0NDg0MSw4Mjg0NTY2NTUsMTYwMDg5OTM4Nyw5MTY1NTU4
+ODQsNTU0NDk3MzcsMTAwODMyMjkzNSwtMTY5NDgwMjI5Nyw2Nz
+cwMjUwMzAsLTc0OTQ2MTgzNSwyMDM2MjE2ODIxLC04Mzc1MDc4
+MDVdfQ==
 -->

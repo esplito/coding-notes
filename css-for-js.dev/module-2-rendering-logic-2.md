@@ -629,6 +629,8 @@ main {
 	- It does not have to be a direct parent.
 	- > Here's how to think about it: `position: sticky` can only stick in one "context". If it's within a scroll container, it can only stick within that container. - Josh
 2. The container isn't big enough
+3. The sticky element is stretched
+4. There's a thin gap above my sticky header!
 
 ##### 1. A parent is hiding/managing overflow
 ###### Script for detecting sticky-issue culprits 
@@ -675,7 +677,7 @@ findCulprits(document.querySelector(selector));
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDM0NDQ5OSwxMTMyMDQ3NTIyLC0xOT
+eyJoaXN0b3J5IjpbLTg0NjEyNzU1MCwxMTMyMDQ3NTIyLC0xOT
 IyMDAzNjM2LC0zMjkyNDYxNTQsODk4OTU3Nzk3LDcyODk1ODQ0
 MywtNTU0Mzc4MTk5LC0xNjEyNzAwMjQ2LC01NTI1OTc2ODUsMT
 k5ODA0NDg0MSw4Mjg0NTY2NTUsMTYwMDg5OTM4Nyw5MTY1NTU4

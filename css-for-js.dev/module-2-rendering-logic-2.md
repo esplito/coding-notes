@@ -681,11 +681,16 @@ findCulprits(document.querySelector(selector));
 > If you intend for an element to sit right against the edge of the viewport, you might discover a thin 1px gap between the element and the edge in Chrome.
 >
 > This is a rounding issue with fractional pixels. I've solved this issue by insetting the sticky element by a single pixel:
-
+```css
+header  {
+	position: sticky;
+	top:  -1px;  /* -1px instead of 0px */
+}
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTU1MTM5NiwtMzY0Nzc4MTI0LDExMz
+eyJoaXN0b3J5IjpbLTQ1ODg4MzI4MCwtMzY0Nzc4MTI0LDExMz
 IwNDc1MjIsLTE5MjIwMDM2MzYsLTMyOTI0NjE1NCw4OTg5NTc3
 OTcsNzI4OTU4NDQzLC01NTQzNzgxOTksLTE2MTI3MDAyNDYsLT
 U1MjU5NzY4NSwxOTk4MDQ0ODQxLDgyODQ1NjY1NSwxNjAwODk5

@@ -538,14 +538,43 @@ You can also use `sticky` to stick an element when horizontally scrolling.
 
 ### Exercises
 
+#### Sticky header
+In this exercise we got the task to create a sticky header that has a bit of a cushion before it sticks to the top of the page on scroll.
+
+```html
+<style>
+  header {
+    height: 66px;
+    background: slateblue;
+    color: white;
+    opacity: 0.96;
+    position: sticky;
+    top: -16px;
+    padding-top: 16px;
+  }
+</style>
+
+<header>
+  <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+</header>
+
+<main>
+  <p>Hello world!</p>
+</main>
+
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjIwMDM2MzYsLTMyOTI0NjE1NCw4OT
-g5NTc3OTcsNzI4OTU4NDQzLC01NTQzNzgxOTksLTE2MTI3MDAy
-NDYsLTU1MjU5NzY4NSwxOTk4MDQ0ODQxLDgyODQ1NjY1NSwxNj
-AwODk5Mzg3LDkxNjU1NTg4NCw1NTQ0OTczNywxMDA4MzIyOTM1
-LC0xNjk0ODAyMjk3LDY3NzAyNTAzMCwtNzQ5NDYxODM1LDIwMz
-YyMTY4MjEsLTgzNzUwNzgwNSwtMzQ0MjkxODU3LDE5MjkyNjIx
-MjNdfQ==
+eyJoaXN0b3J5IjpbLTM1ODQ1MDc1NSwtMTkyMjAwMzYzNiwtMz
+I5MjQ2MTU0LDg5ODk1Nzc5Nyw3Mjg5NTg0NDMsLTU1NDM3ODE5
+OSwtMTYxMjcwMDI0NiwtNTUyNTk3Njg1LDE5OTgwNDQ4NDEsOD
+I4NDU2NjU1LDE2MDA4OTkzODcsOTE2NTU1ODg0LDU1NDQ5NzM3
+LDEwMDgzMjI5MzUsLTE2OTQ4MDIyOTcsNjc3MDI1MDMwLC03ND
+k0NjE4MzUsMjAzNjIxNjgyMSwtODM3NTA3ODA1LC0zNDQyOTE4
+NTddfQ==
 -->

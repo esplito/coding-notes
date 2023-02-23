@@ -624,13 +624,14 @@ main {
 > Unfortunately, it's very common to apply `position: sticky` to an element, only for nothing to happen; the element won't stick! - Josh
 
 #### Common pitfalls
-- A parent is hiding/managing overflow
+1. A parent is hiding/managing overflow
 	- For example when it creates its own scroll container
 	- It does not have to be a direct parent.
 	- > Here's how to think about it: `position: sticky` can only stick in one "context". If it's within a scroll container, it can only stick within that container. - Josh
-- 
+2. The container isn't big enough
 
-#### Script for detecting sticky-issue culprits 
+##### 1. A parent is hiding/managing overflow
+###### Script for detecting sticky-issue culprits 
 Paste it in the browser devTools!
 ```js
 // Replace “.the-sticky-child” for a CSS selector
@@ -666,17 +667,17 @@ findCulprits(document.querySelector(selector));
 >    
 >-   If the culprit uses  `auto`  or  `scroll`, you  _might_  be able to remove this property, or push it lower in the DOM. This is a tricky problem, often without a quick solution. We saw an example of this sort of restructuring in the  [solution to the last exercise](https://courses.joshwcomeau.com/css-for-js/02-rendering-logic-2/16-sticky-exercises#digit-fix-the-bug). - Josh
 
-
+##### 2. The container isn't big enough
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTkyNzE0NSwxMTMyMDQ3NTIyLC0xOT
-IyMDAzNjM2LC0zMjkyNDYxNTQsODk4OTU3Nzk3LDcyODk1ODQ0
-MywtNTU0Mzc4MTk5LC0xNjEyNzAwMjQ2LC01NTI1OTc2ODUsMT
-k5ODA0NDg0MSw4Mjg0NTY2NTUsMTYwMDg5OTM4Nyw5MTY1NTU4
-ODQsNTU0NDk3MzcsMTAwODMyMjkzNSwtMTY5NDgwMjI5Nyw2Nz
-cwMjUwMzAsLTc0OTQ2MTgzNSwyMDM2MjE2ODIxLC04Mzc1MDc4
-MDVdfQ==
+eyJoaXN0b3J5IjpbLTE2OTA4NDY0NjgsMTEzMjA0NzUyMiwtMT
+kyMjAwMzYzNiwtMzI5MjQ2MTU0LDg5ODk1Nzc5Nyw3Mjg5NTg0
+NDMsLTU1NDM3ODE5OSwtMTYxMjcwMDI0NiwtNTUyNTk3Njg1LD
+E5OTgwNDQ4NDEsODI4NDU2NjU1LDE2MDA4OTkzODcsOTE2NTU1
+ODg0LDU1NDQ5NzM3LDEwMDgzMjI5MzUsLTE2OTQ4MDIyOTcsNj
+c3MDI1MDMwLC03NDk0NjE4MzUsMjAzNjIxNjgyMSwtODM3NTA3
+ODA1XX0=
 -->

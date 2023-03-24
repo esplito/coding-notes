@@ -760,16 +760,19 @@ In some cases you want to do some nifty visual effect, but you don't want it to 
 
 Then you can use `aria-hidden="true"`, but be careful! It won't remove any descendants from the tab order, e.g. if you have a paragraph with `aria-hidden="true"` that contains a `<a>`-tag, then the `<a>`-tag will still be focusable and still accessible to the screen reader. You could also use `inert` to avoid that, but it's not supported by Firefox! (There's a polyfill for it though: https://github.com/WICG/inert)
 
+## Workshop: Character Creator
+
+🎯 Goal: Style the character creator application! 
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQxODEwNDksMTI4MDQyNzY2MywxMT
-U5MTk4NjUxLC02MjE1NDMzMTMsMTU3MjcwNjMyOSwtMzY0Nzc4
-MTI0LDExMzIwNDc1MjIsLTE5MjIwMDM2MzYsLTMyOTI0NjE1NC
-w4OTg5NTc3OTcsNzI4OTU4NDQzLC01NTQzNzgxOTksLTE2MTI3
-MDAyNDYsLTU1MjU5NzY4NSwxOTk4MDQ0ODQxLDgyODQ1NjY1NS
-wxNjAwODk5Mzg3LDkxNjU1NTg4NCw1NTQ0OTczNywxMDA4MzIy
-OTM1XX0=
+eyJoaXN0b3J5IjpbLTE5NzAwNDA1OTksLTE3MTQxODEwNDksMT
+I4MDQyNzY2MywxMTU5MTk4NjUxLC02MjE1NDMzMTMsMTU3Mjcw
+NjMyOSwtMzY0Nzc4MTI0LDExMzIwNDc1MjIsLTE5MjIwMDM2Mz
+YsLTMyOTI0NjE1NCw4OTg5NTc3OTcsNzI4OTU4NDQzLC01NTQz
+NzgxOTksLTE2MTI3MDAyNDYsLTU1MjU5NzY4NSwxOTk4MDQ0OD
+QxLDgyODQ1NjY1NSwxNjAwODk5Mzg3LDkxNjU1NTg4NCw1NTQ0
+OTczN119
 -->

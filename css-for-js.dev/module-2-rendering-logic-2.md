@@ -719,12 +719,46 @@ But, when should I use `opacity`?
 
 ### Accessibility
 
+#### A little trick for hiding content, but still screen reader accessible
+
+```jsx
+import { Settings, HelpCircle } from 'react-feather';
+
+const visuallyHidden = {
+  position: 'absolute',
+  overflow: 'hidden',
+  clip: 'rect(0 0 0 0)',
+  height: '1px',
+  width: '1px',
+  margin: '-1px',
+  padding: 0,
+  border: 0,
+}
+
+render(<>
+  <button>
+    <span style={visuallyHidden}>
+      Contact support
+    </span>
+    <HelpCircle />
+  </button>
+  <button>
+    <span style={visuallyHidden}>
+      Access settings
+    </span>
+    <Settings />
+  </button>
+</>);
+```
+
+Josh's custom component that can display this text on keyboard input locally: https://www.joshwcomeau.com/snippets/react-components/visually-hidden/
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzA5OTU3MTUsMTI4MDQyNzY2MywxMT
+eyJoaXN0b3J5IjpbLTEyMTQ2NzQ2NTUsMTI4MDQyNzY2MywxMT
 U5MTk4NjUxLC02MjE1NDMzMTMsMTU3MjcwNjMyOSwtMzY0Nzc4
 MTI0LDExMzIwNDc1MjIsLTE5MjIwMDM2MzYsLTMyOTI0NjE1NC
 w4OTg5NTc3OTcsNzI4OTU4NDQzLC01NTQzNzgxOTksLTE2MTI3

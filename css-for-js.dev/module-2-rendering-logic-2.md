@@ -710,11 +710,19 @@ Elements hidden with opacity are still in the flow of the document . They are no
 >-   Text is still selectable
 >-   Form elements can still be focused
 
-This can introduce accessibility issues (because you can focus elements that a
+This can introduce accessibility issues (because you can focus elements that are "hidden", when you should not be able to interact with them).
+
+But, when should I use `opacity`?
+
+- When an item needs to be semi-visible
+- or when it needs to be animated (fade in / out)
+
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM1Njc0OTYsMTE1OTE5ODY1MSwtNj
+eyJoaXN0b3J5IjpbLTE4NjExODIyODYsMTE1OTE5ODY1MSwtNj
 IxNTQzMzEzLDE1NzI3MDYzMjksLTM2NDc3ODEyNCwxMTMyMDQ3
 NTIyLC0xOTIyMDAzNjM2LC0zMjkyNDYxNTQsODk4OTU3Nzk3LD
 cyODk1ODQ0MywtNTU0Mzc4MTk5LC0xNjEyNzAwMjQ2LC01NTI1

@@ -764,15 +764,17 @@ Then you can use `aria-hidden="true"`, but be careful! It won't remove any desce
 
 🎯 Goal: Style the character creator application! 
 
+https://github.com/css-for-js/character-creator
 
+My fork: https://github.com/esplito/character-creator-exercise
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzAwNDA1OTksLTE3MTQxODEwNDksMT
-I4MDQyNzY2MywxMTU5MTk4NjUxLC02MjE1NDMzMTMsMTU3Mjcw
-NjMyOSwtMzY0Nzc4MTI0LDExMzIwNDc1MjIsLTE5MjIwMDM2Mz
-YsLTMyOTI0NjE1NCw4OTg5NTc3OTcsNzI4OTU4NDQzLC01NTQz
-NzgxOTksLTE2MTI3MDAyNDYsLTU1MjU5NzY4NSwxOTk4MDQ0OD
-QxLDgyODQ1NjY1NSwxNjAwODk5Mzg3LDkxNjU1NTg4NCw1NTQ0
-OTczN119
+eyJoaXN0b3J5IjpbLTkyNDg4ODY3MSwtMTk3MDA0MDU5OSwtMT
+cxNDE4MTA0OSwxMjgwNDI3NjYzLDExNTkxOTg2NTEsLTYyMTU0
+MzMxMywxNTcyNzA2MzI5LC0zNjQ3NzgxMjQsMTEzMjA0NzUyMi
+wtMTkyMjAwMzYzNiwtMzI5MjQ2MTU0LDg5ODk1Nzc5Nyw3Mjg5
+NTg0NDMsLTU1NDM3ODE5OSwtMTYxMjcwMDI0NiwtNTUyNTk3Nj
+g1LDE5OTgwNDQ4NDEsODI4NDU2NjU1LDE2MDA4OTkzODcsOTE2
+NTU1ODg0XX0=
 -->

@@ -705,16 +705,20 @@ This means that the parent can hide all of its children, but a child can still o
 
 ### Opacity
 
-Elements hidden with opacity are still in the flow of the document . They are not 
+Elements hidden with opacity are still in the flow of the document . They are not *really* hidden 🚨:
+> -   Buttons can still be clicked
+>-   Text is still selectable
+>-   Form elements can still be focused
 
+This can introduce accessibility issues (because you can focus elements that a
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTM0MzEzLDExNTkxOTg2NTEsLTYyMT
-U0MzMxMywxNTcyNzA2MzI5LC0zNjQ3NzgxMjQsMTEzMjA0NzUy
-MiwtMTkyMjAwMzYzNiwtMzI5MjQ2MTU0LDg5ODk1Nzc5Nyw3Mj
-g5NTg0NDMsLTU1NDM3ODE5OSwtMTYxMjcwMDI0NiwtNTUyNTk3
-Njg1LDE5OTgwNDQ4NDEsODI4NDU2NjU1LDE2MDA4OTkzODcsOT
-E2NTU1ODg0LDU1NDQ5NzM3LDEwMDgzMjI5MzUsLTE2OTQ4MDIy
-OTddfQ==
+eyJoaXN0b3J5IjpbLTE1NTM1Njc0OTYsMTE1OTE5ODY1MSwtNj
+IxNTQzMzEzLDE1NzI3MDYzMjksLTM2NDc3ODEyNCwxMTMyMDQ3
+NTIyLC0xOTIyMDAzNjM2LC0zMjkyNDYxNTQsODk4OTU3Nzk3LD
+cyODk1ODQ0MywtNTU0Mzc4MTk5LC0xNjEyNzAwMjQ2LC01NTI1
+OTc2ODUsMTk5ODA0NDg0MSw4Mjg0NTY2NTUsMTYwMDg5OTM4Ny
+w5MTY1NTU4ODQsNTU0NDk3MzcsMTAwODMyMjkzNSwtMTY5NDgw
+MjI5N119
 -->

@@ -693,7 +693,7 @@ header  {
 
 ### `display: none`
 
-`display` does not render the element at all. If you hover it in the devtools you will not see it taking up space in the browser. (hint: it does not take up any space)
+`display` does not render the element at all. If you hover it in the devtools you will not see it taking up space in the browser. (hint: it does not take up any space because it is not rendered)
 
 ### `visibility: hidden`
 
@@ -701,15 +701,17 @@ header  {
 
 > There's one other really cool thing about `visibility: hidden`. **It can be selectively undone by children.**
 
+This means that the parent can hide all of its children, but a child can still opt-out of this and become visible by setting `visibility: visible`.
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwMzEyNjkzLDExNTkxOTg2NTEsLTYyMT
-U0MzMxMywxNTcyNzA2MzI5LC0zNjQ3NzgxMjQsMTEzMjA0NzUy
-MiwtMTkyMjAwMzYzNiwtMzI5MjQ2MTU0LDg5ODk1Nzc5Nyw3Mj
-g5NTg0NDMsLTU1NDM3ODE5OSwtMTYxMjcwMDI0NiwtNTUyNTk3
-Njg1LDE5OTgwNDQ4NDEsODI4NDU2NjU1LDE2MDA4OTkzODcsOT
-E2NTU1ODg0LDU1NDQ5NzM3LDEwMDgzMjI5MzUsLTE2OTQ4MDIy
-OTddfQ==
+eyJoaXN0b3J5IjpbLTEzMjM2MDM4ODEsMTE1OTE5ODY1MSwtNj
+IxNTQzMzEzLDE1NzI3MDYzMjksLTM2NDc3ODEyNCwxMTMyMDQ3
+NTIyLC0xOTIyMDAzNjM2LC0zMjkyNDYxNTQsODk4OTU3Nzk3LD
+cyODk1ODQ0MywtNTU0Mzc4MTk5LC0xNjEyNzAwMjQ2LC01NTI1
+OTc2ODUsMTk5ODA0NDg0MSw4Mjg0NTY2NTUsMTYwMDg5OTM4Ny
+w5MTY1NTU4ODQsNTU0NDk3MzcsMTAwODMyMjkzNSwtMTY5NDgw
+MjI5N119
 -->

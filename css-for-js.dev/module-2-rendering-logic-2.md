@@ -691,10 +691,14 @@ header  {
 ## Hidden content
 > There's a surprising amount of subtlety when it comes to hidden content — there are a variety of ways to hide elements in CSS, and they all come with different tradeoffs. If you're not careful, you can introduce accessibility problems, or hurt your search engine rankings! - Josh
 
-#
+### `display: none`
+
+### `visibility: hidden`
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTQ1Nzk1MCwtNjIxNTQzMzEzLDE1Nz
+eyJoaXN0b3J5IjpbMTE1OTE5ODY1MSwtNjIxNTQzMzEzLDE1Nz
 I3MDYzMjksLTM2NDc3ODEyNCwxMTMyMDQ3NTIyLC0xOTIyMDAz
 NjM2LC0zMjkyNDYxNTQsODk4OTU3Nzk3LDcyODk1ODQ0MywtNT
 U0Mzc4MTk5LC0xNjEyNzAwMjQ2LC01NTI1OTc2ODUsMTk5ODA0

@@ -690,13 +690,15 @@ header  {
 
 ## Hidden content
 > There's a surprising amount of subtlety when it comes to hidden content — there are a variety of ways to hide elements in CSS, and they all come with different tradeoffs. If you're not careful, you can introduce accessibility problems, or hurt your search engine rankings! - Josh
+
+#
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTU0MzMxMywxNTcyNzA2MzI5LC0zNj
-Q3NzgxMjQsMTEzMjA0NzUyMiwtMTkyMjAwMzYzNiwtMzI5MjQ2
-MTU0LDg5ODk1Nzc5Nyw3Mjg5NTg0NDMsLTU1NDM3ODE5OSwtMT
-YxMjcwMDI0NiwtNTUyNTk3Njg1LDE5OTgwNDQ4NDEsODI4NDU2
-NjU1LDE2MDA4OTkzODcsOTE2NTU1ODg0LDU1NDQ5NzM3LDEwMD
-gzMjI5MzUsLTE2OTQ4MDIyOTcsNjc3MDI1MDMwLC03NDk0NjE4
-MzVdfQ==
+eyJoaXN0b3J5IjpbMTkzMTQ1Nzk1MCwtNjIxNTQzMzEzLDE1Nz
+I3MDYzMjksLTM2NDc3ODEyNCwxMTMyMDQ3NTIyLC0xOTIyMDAz
+NjM2LC0zMjkyNDYxNTQsODk4OTU3Nzk3LDcyODk1ODQ0MywtNT
+U0Mzc4MTk5LC0xNjEyNzAwMjQ2LC01NTI1OTc2ODUsMTk5ODA0
+NDg0MSw4Mjg0NTY2NTUsMTYwMDg5OTM4Nyw5MTY1NTU4ODQsNT
+U0NDk3MzcsMTAwODMyMjkzNSwtMTY5NDgwMjI5Nyw2NzcwMjUw
+MzBdfQ==
 -->

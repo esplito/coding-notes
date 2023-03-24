@@ -756,16 +756,18 @@ Josh's custom component that can display this text on keyboard input locally: ht
 But what about `aria-label`? Well, apparently some automatic translation services ignore `aria-label`, but they catch visually hidden elements. Therefore Josh recommends the "visually hidden" approach. (Unless you really know what you are doing with `aria-label`)
 
 #### Hiding content from screen readers
-In some cases 
+In some cases you want to do some nifty visual effect, but you don't want it to read the content of that element to a screen reader.
+
+Then you can use `aria-hidden="true"`, but be careful! It won't remove any descendants from the tab order, e.g. a paragraph with `aria-hidden="true"` that contains a `<a>`-tag
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODgwNTM4OTMsMTI4MDQyNzY2MywxMT
-U5MTk4NjUxLC02MjE1NDMzMTMsMTU3MjcwNjMyOSwtMzY0Nzc4
-MTI0LDExMzIwNDc1MjIsLTE5MjIwMDM2MzYsLTMyOTI0NjE1NC
-w4OTg5NTc3OTcsNzI4OTU4NDQzLC01NTQzNzgxOTksLTE2MTI3
-MDAyNDYsLTU1MjU5NzY4NSwxOTk4MDQ0ODQxLDgyODQ1NjY1NS
-wxNjAwODk5Mzg3LDkxNjU1NTg4NCw1NTQ0OTczNywxMDA4MzIy
-OTM1XX0=
+eyJoaXN0b3J5IjpbNjU1NDMwODE2LDEyODA0Mjc2NjMsMTE1OT
+E5ODY1MSwtNjIxNTQzMzEzLDE1NzI3MDYzMjksLTM2NDc3ODEy
+NCwxMTMyMDQ3NTIyLC0xOTIyMDAzNjM2LC0zMjkyNDYxNTQsOD
+k4OTU3Nzk3LDcyODk1ODQ0MywtNTU0Mzc4MTk5LC0xNjEyNzAw
+MjQ2LC01NTI1OTc2ODUsMTk5ODA0NDg0MSw4Mjg0NTY2NTUsMT
+YwMDg5OTM4Nyw5MTY1NTU4ODQsNTU0NDk3MzcsMTAwODMyMjkz
+NV19
 -->

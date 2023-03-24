@@ -758,16 +758,16 @@ But what about `aria-label`? Well, apparently some automatic translation service
 #### Hiding content from screen readers
 In some cases you want to do some nifty visual effect, but you don't want it to read the content of that element to a screen reader.
 
-Then you can use `aria-hidden="true"`, but be careful! It won't remove any descendants from the tab order, e.g. a paragraph with `aria-hidden="true"` that contains a `<a>`-tag
+Then you can use `aria-hidden="true"`, but be careful! It won't remove any descendants from the tab order, e.g. if you have a paragraph with `aria-hidden="true"` that contains a `<a>`-tag, then the `<a>`-tag will still be focusable and still accessible to the screen reader. You could also use `inert` to avoid that, but it's not supported by Firefox!
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1NDMwODE2LDEyODA0Mjc2NjMsMTE1OT
-E5ODY1MSwtNjIxNTQzMzEzLDE1NzI3MDYzMjksLTM2NDc3ODEy
-NCwxMTMyMDQ3NTIyLC0xOTIyMDAzNjM2LC0zMjkyNDYxNTQsOD
-k4OTU3Nzk3LDcyODk1ODQ0MywtNTU0Mzc4MTk5LC0xNjEyNzAw
-MjQ2LC01NTI1OTc2ODUsMTk5ODA0NDg0MSw4Mjg0NTY2NTUsMT
-YwMDg5OTM4Nyw5MTY1NTU4ODQsNTU0NDk3MzcsMTAwODMyMjkz
-NV19
+eyJoaXN0b3J5IjpbMjAzNjQ3ODgyMiwxMjgwNDI3NjYzLDExNT
+kxOTg2NTEsLTYyMTU0MzMxMywxNTcyNzA2MzI5LC0zNjQ3Nzgx
+MjQsMTEzMjA0NzUyMiwtMTkyMjAwMzYzNiwtMzI5MjQ2MTU0LD
+g5ODk1Nzc5Nyw3Mjg5NTg0NDMsLTU1NDM3ODE5OSwtMTYxMjcw
+MDI0NiwtNTUyNTk3Njg1LDE5OTgwNDQ4NDEsODI4NDU2NjU1LD
+E2MDA4OTkzODcsOTE2NTU1ODg0LDU1NDQ5NzM3LDEwMDgzMjI5
+MzVdfQ==
 -->

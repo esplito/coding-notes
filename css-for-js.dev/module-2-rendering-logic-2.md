@@ -768,15 +768,16 @@ https://github.com/css-for-js/character-creator
 
 My fork: https://github.com/esplito/character-creator-exercise
 
-
+**Status**
+We got stuck on exercise 3. We need to make the buttons become hidden and the scrollbar to be active.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDMyMjY4NSwtOTI0ODg4NjcxLC0xOT
-cwMDQwNTk5LC0xNzE0MTgxMDQ5LDEyODA0Mjc2NjMsMTE1OTE5
-ODY1MSwtNjIxNTQzMzEzLDE1NzI3MDYzMjksLTM2NDc3ODEyNC
-wxMTMyMDQ3NTIyLC0xOTIyMDAzNjM2LC0zMjkyNDYxNTQsODk4
-OTU3Nzk3LDcyODk1ODQ0MywtNTU0Mzc4MTk5LC0xNjEyNzAwMj
-Q2LC01NTI1OTc2ODUsMTk5ODA0NDg0MSw4Mjg0NTY2NTUsMTYw
-MDg5OTM4N119
+eyJoaXN0b3J5IjpbNzY2OTgyNjc3LC05MjQ4ODg2NzEsLTE5Nz
+AwNDA1OTksLTE3MTQxODEwNDksMTI4MDQyNzY2MywxMTU5MTk4
+NjUxLC02MjE1NDMzMTMsMTU3MjcwNjMyOSwtMzY0Nzc4MTI0LD
+ExMzIwNDc1MjIsLTE5MjIwMDM2MzYsLTMyOTI0NjE1NCw4OTg5
+NTc3OTcsNzI4OTU4NDQzLC01NTQzNzgxOTksLTE2MTI3MDAyND
+YsLTU1MjU5NzY4NSwxOTk4MDQ0ODQxLDgyODQ1NjY1NSwxNjAw
+ODk5Mzg3XX0=
 -->

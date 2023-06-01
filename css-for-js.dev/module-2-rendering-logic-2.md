@@ -771,13 +771,15 @@ My fork: https://github.com/esplito/character-creator-exercise
 **Status**
 We are done with exercise 4. Exercise 5 we kind of managed to do, but it is not flawless.
 
+Videos: Watched 1 & 2.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzI2OTkzNCw3NjY5ODI2NzcsLTkyND
-g4ODY3MSwtMTk3MDA0MDU5OSwtMTcxNDE4MTA0OSwxMjgwNDI3
-NjYzLDExNTkxOTg2NTEsLTYyMTU0MzMxMywxNTcyNzA2MzI5LC
-0zNjQ3NzgxMjQsMTEzMjA0NzUyMiwtMTkyMjAwMzYzNiwtMzI5
-MjQ2MTU0LDg5ODk1Nzc5Nyw3Mjg5NTg0NDMsLTU1NDM3ODE5OS
-wtMTYxMjcwMDI0NiwtNTUyNTk3Njg1LDE5OTgwNDQ4NDEsODI4
-NDU2NjU1XX0=
+eyJoaXN0b3J5IjpbMTM4ODU5NDg0MSwtNDMzMjY5OTM0LDc2Nj
+k4MjY3NywtOTI0ODg4NjcxLC0xOTcwMDQwNTk5LC0xNzE0MTgx
+MDQ5LDEyODA0Mjc2NjMsMTE1OTE5ODY1MSwtNjIxNTQzMzEzLD
+E1NzI3MDYzMjksLTM2NDc3ODEyNCwxMTMyMDQ3NTIyLC0xOTIy
+MDAzNjM2LC0zMjkyNDYxNTQsODk4OTU3Nzk3LDcyODk1ODQ0My
+wtNTU0Mzc4MTk5LC0xNjEyNzAwMjQ2LC01NTI1OTc2ODUsMTk5
+ODA0NDg0MV19
 -->

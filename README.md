@@ -1,15 +1,10 @@
-# Credit
-This repo includes the following:
+Hej Emil,
+Compileit är ett mindre bolag som är grundat av två utvecklare, sök efter Jonathan Ortheden och Isak Utegård på Linkedin om du är nyfiken på vilka de är.
 
-* My own notes (and summaries) with some info quoted from [Kent C. Dodds](https://kentcdodds.com/) course [EpicReact](https://epicreact.dev/).
-* My own notes with some info quoted from [Kent C. Dodds](https://kentcdodds.com/) course [TestingJavascript](https://testingjavascript.com/)
-* My own notes and quotes from Josh Comeau's course [CSS for Javascript Developers](https://css-for-js.dev)
-* My own notes and quotes from the course ["Just Javascript"](https://justjavascript.com/credits) by [Dan Abramov](https://twitter.com/dan_abramov) & [Maggie Appleton](https://twitter.com/mappletons).
-* My own notes and quotes from the course [Testing Accessibility](https://testingaccessibility.com/) by [Marcy Sutton-Todd](https://twitter.com/marcysutton)
-* My own notes and quotes from the course [De-coding the Technical Interview Process](https://technicalinterviews.dev/) by [Emma Bostian](https://twitter.com/emmabostian)
-* Some notes from Prisma day
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQ4NDQ3MzQsMTU5NTU5Nzk2MSwtMT
-gwODIwNjcwNSwtMjAxNjMwMzcwNSwtMTU4NzEzMDA4MSwtMTM1
-ODYyODY3NywyMDU3MzIxODc1XX0=
--->
+Jag tror din erfarenhet som frontend-utvecklare skulle passa perfekt in hos oss samt dina kunskaper inom TypeScript och React.js Vi ställs dagligen inför nya problem som jag tror kan vara utmanande för någon med din bakgrund.
+
+Vad säger du om att ta ett digitalt möte med Isak (grundare & CTO) för att prata vidare?
+
+Trevlig helg!
+Allt gott, Victoria Norling
+Victoria.norling@compileit.com

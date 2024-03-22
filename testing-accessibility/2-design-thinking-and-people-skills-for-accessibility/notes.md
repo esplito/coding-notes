@@ -166,7 +166,8 @@ https://workshop-design-people-skills.testingaccessibility.com/careers-portal/in
     -   Left, right, up, and down to navigate through some form controls and custom-scripted widgets
 
 **I found the following issues:**
-🚨 I get no focus when tabbing on the page. It seems like there is two links that are focusable (because I see a link description in bottom right corner of the browser)
+🚨 I get no UI indicating focus when tabbing on the page. It seems like there is two links that are focusable (because I see a link description in bottom right corner of the browser).
+🚨 Very few elements that are focusable, but the UI seems to have lots of links that *should be focusable*. 
 
 
 ## Useful resources
@@ -178,8 +179,9 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2OTA1NDMzLC02NjU2NTU3MDQsLTgwNz
-U4NDg1NSwtMTcyMTcyNTk4OSwtODkwNTkzMjcwLC0yNDIyODU1
-MzUsLTczNTc4Mzc3OCwxNjE5Mzc3MDA2LDc4OTMxMDE0NiwtND
-U1NTU3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0NDIwXX0=
+eyJoaXN0b3J5IjpbLTIxMzcyNTk5MzcsLTY2NTY1NTcwNCwtOD
+A3NTg0ODU1LC0xNzIxNzI1OTg5LC04OTA1OTMyNzAsLTI0MjI4
+NTUzNSwtNzM1NzgzNzc4LDE2MTkzNzcwMDYsNzg5MzEwMTQ2LC
+00NTU1NTc3NDAsLTE3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ==
+
 -->

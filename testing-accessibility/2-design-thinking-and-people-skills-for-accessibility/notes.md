@@ -211,8 +211,13 @@ _How should these issues be addressed through product, design, and development?_
 >Consider the following about yourself:
 
 -   Physical abilities
+	- My answer: I'm probably quite biased since I can use a mouse & keyboard, computer screen, smartphone etc. without issues.
 -   Cognitive abilities
 -   Position and role
+
+>**For example, does your ability to use a mouse every day mean that you forget to test with the keyboard?**
+
+
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -223,7 +228,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTEzOTczNSwtNjI2ODc4MjgsLTE0MT
+eyJoaXN0b3J5IjpbMTMxNTcxMzYzMywtNjI2ODc4MjgsLTE0MT
 gyNzEwOSwtMTQyMzMxMDAsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwt
 MjEzNzI1OTkzNywtNjY1NjU1NzA0LC04MDc1ODQ4NTUsLTE3Mj
 E3MjU5ODksLTg5MDU5MzI3MCwtMjQyMjg1NTM1LC03MzU3ODM3

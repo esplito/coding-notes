@@ -172,7 +172,15 @@ https://workshop-design-people-skills.testingaccessibility.com/careers-portal/in
 With Devtools:
 🚨 It's just divs all the way. So not a surprise that the page is so inaccessible with a keyboard.
 
+#### 🛠 Challenge: Find Low Contrast Text Issues using Chrome DevTools
+>Some people with low vision have trouble distinguishing digital text and graphical objects when certain color combinations are used.
 
+>A contrast ratio measures the difference in brightness between the foreground and background colors of a web page.
+
+**For this challenge, make a list of what you suspect are color contrast issues on the Careers Portal.**
+
+**I found the following issues:**
+🚨 
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -183,9 +191,9 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTM2MzAwOSwtMjEzNzI1OTkzNywtNj
-Y1NjU1NzA0LC04MDc1ODQ4NTUsLTE3MjE3MjU5ODksLTg5MDU5
-MzI3MCwtMjQyMjg1NTM1LC03MzU3ODM3NzgsMTYxOTM3NzAwNi
-w3ODkzMTAxNDYsLTQ1NTU1Nzc0MCwtMTc5MTM5MzE4MywtMTky
-NTc1NDQyMF19
+eyJoaXN0b3J5IjpbODQ0OTU3NDY4LC0yMTM3MjU5OTM3LC02Nj
+U2NTU3MDQsLTgwNzU4NDg1NSwtMTcyMTcyNTk4OSwtODkwNTkz
+MjcwLC0yNDIyODU1MzUsLTczNTc4Mzc3OCwxNjE5Mzc3MDA2LD
+c4OTMxMDE0NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC0xOTI1
+NzU0NDIwXX0=
 -->

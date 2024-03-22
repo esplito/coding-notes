@@ -183,7 +183,7 @@ With Devtools:
 🚨 I think the links in the menu have a bit too low contrast against a white background. Same but reversed on the blue card at the bottom of the page.
 🚨 I believe the light gray descriptions have contrast issues too.
 
-**I also tested it with the accessibility audit that Lighthouse has.**
+**I also tested it with the accessibility audit that Lighthouse has and got similar issues flagged.**
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -194,7 +194,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDgwNDc2LDQyMTk0Nzg0MSw4NDQ5NT
+eyJoaXN0b3J5IjpbLTE0MjMzMTAwLDQyMTk0Nzg0MSw4NDQ5NT
 c0NjgsLTIxMzcyNTk5MzcsLTY2NTY1NTcwNCwtODA3NTg0ODU1
 LC0xNzIxNzI1OTg5LC04OTA1OTMyNzAsLTI0MjI4NTUzNSwtNz
 M1NzgzNzc4LDE2MTkzNzcwMDYsNzg5MzEwMTQ2LC00NTU1NTc3

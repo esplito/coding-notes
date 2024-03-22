@@ -185,6 +185,13 @@ With Devtools:
 
 **I also tested it with the accessibility audit that Lighthouse has and got similar issues flagged.**
 
+##### Measuring with DevTools contrast ratio (solution)
+>Notice that the styles pane shows us a contrast ratio of 2.74:1 (read as 2.74 to 1) and a “no” icon.
+
+>Compare this to the recommended WCAG AA level of 4.5:1.
+
+
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -194,9 +201,10 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjMzMTAwLDQyMTk0Nzg0MSw4NDQ5NT
-c0NjgsLTIxMzcyNTk5MzcsLTY2NTY1NTcwNCwtODA3NTg0ODU1
-LC0xNzIxNzI1OTg5LC04OTA1OTMyNzAsLTI0MjI4NTUzNSwtNz
-M1NzgzNzc4LDE2MTkzNzcwMDYsNzg5MzEwMTQ2LC00NTU1NTc3
-NDAsLTE3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ==
+eyJoaXN0b3J5IjpbMTg3NzEzNDc3NCwtMTQyMzMxMDAsNDIxOT
+Q3ODQxLDg0NDk1NzQ2OCwtMjEzNzI1OTkzNywtNjY1NjU1NzA0
+LC04MDc1ODQ4NTUsLTE3MjE3MjU5ODksLTg5MDU5MzI3MCwtMj
+QyMjg1NTM1LC03MzU3ODM3NzgsMTYxOTM3NzAwNiw3ODkzMTAx
+NDYsLTQ1NTU1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF
+19
 -->

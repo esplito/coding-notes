@@ -154,6 +154,17 @@ You can work with companies like "Fable Tech Labs" or "Access Works".
 
 >_How efficiently can someone navigate the site with only the keyboard? Would someone be able to complete their task?_
 
+###### Useful commands for navigating with keyboard ⌨
+>The following keyboard commands are fundamental to navigating the web:
+>
+>-   Tab to go forward through interactive elements
+>-   Shift + Tab to go backwards
+>-   Spacebar to scroll down (Shift + Space to scroll up)
+>-   Enter to submit forms and activate widgets
+>-   The arrow keys
+    -   Up and down to scroll the page
+    -   Left, right, up, and down to navigate through some form controls and custom-scripted widgets
+
 **I found the following issues:**
 ...
 
@@ -166,8 +177,8 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTY1NTcwNCwtODA3NTg0ODU1LC0xNz
-IxNzI1OTg5LC04OTA1OTMyNzAsLTI0MjI4NTUzNSwtNzM1Nzgz
-Nzc4LDE2MTkzNzcwMDYsNzg5MzEwMTQ2LC00NTU1NTc3NDAsLT
-E3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ==
+eyJoaXN0b3J5IjpbLTk1NzU0MDU3MCwtNjY1NjU1NzA0LC04MD
+c1ODQ4NTUsLTE3MjE3MjU5ODksLTg5MDU5MzI3MCwtMjQyMjg1
+NTM1LC03MzU3ODM3NzgsMTYxOTM3NzAwNiw3ODkzMTAxNDYsLT
+Q1NTU1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF19
 -->

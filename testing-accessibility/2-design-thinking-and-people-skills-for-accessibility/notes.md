@@ -192,6 +192,16 @@ With Devtools:
 
 **Side note:** there's also issues with neighboring colours that are very similar in the chart (different shades of green) that can difficult for some to distinguish.
 
+#### Lesson Recap
+>The main takeaway is that discovering issues is only the start: you also want to feel confident those issues will have real user impact and not land in a sea of design and technical debt. 
+
+>Part of this process involves developing your ability to communicate compelling issues with potential solutions so that they gain traction in the software development cycle.
+
+Consider:
+_What is at stake for people with disabilities when they can’t use a site or application?_
+
+_How should these issues be addressed through product, design, and development?_
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -201,10 +211,10 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTgyNzEwOSwtMTQyMzMxMDAsNDIxOT
-Q3ODQxLDg0NDk1NzQ2OCwtMjEzNzI1OTkzNywtNjY1NjU1NzA0
-LC04MDc1ODQ4NTUsLTE3MjE3MjU5ODksLTg5MDU5MzI3MCwtMj
-QyMjg1NTM1LC03MzU3ODM3NzgsMTYxOTM3NzAwNiw3ODkzMTAx
-NDYsLTQ1NTU1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF
-19
+eyJoaXN0b3J5IjpbLTEzOTY2NjkxODEsLTE0MTgyNzEwOSwtMT
+QyMzMxMDAsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwtMjEzNzI1OTkz
+NywtNjY1NjU1NzA0LC04MDc1ODQ4NTUsLTE3MjE3MjU5ODksLT
+g5MDU5MzI3MCwtMjQyMjg1NTM1LC03MzU3ODM3NzgsMTYxOTM3
+NzAwNiw3ODkzMTAxNDYsLTQ1NTU1Nzc0MCwtMTc5MTM5MzE4My
+wtMTkyNTc1NDQyMF19
 -->

@@ -224,6 +224,13 @@ Some tips from Marcy:
 >2️⃣ Hire people with disabilities on your teams.
 >3️⃣ Work with a company like  [Fable Tech Labs](https://makeitfable.com/)  or  [Access Works](https://access-works.com/).
 
+## Section 3 - Designs as prototyping
+> In this section, **you’ll learn how to review design systems, mockups, layouts, and components for potential accessibility issues**.
+
+> Additionally, you’ll learn how to approach collaborating on a design by leveraging different tools. - Marcy Sutton
+
+
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -233,10 +240,10 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzM2NjMzMTUsLTYyNjg3ODI4LC0xND
-E4MjcxMDksLTE0MjMzMTAwLDQyMTk0Nzg0MSw4NDQ5NTc0Njgs
-LTIxMzcyNTk5MzcsLTY2NTY1NTcwNCwtODA3NTg0ODU1LC0xNz
-IxNzI1OTg5LC04OTA1OTMyNzAsLTI0MjI4NTUzNSwtNzM1Nzgz
-Nzc4LDE2MTkzNzcwMDYsNzg5MzEwMTQ2LC00NTU1NTc3NDAsLT
-E3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ==
+eyJoaXN0b3J5IjpbMTYzMDE2ODIwMywtMTY3MzY2MzMxNSwtNj
+I2ODc4MjgsLTE0MTgyNzEwOSwtMTQyMzMxMDAsNDIxOTQ3ODQx
+LDg0NDk1NzQ2OCwtMjEzNzI1OTkzNywtNjY1NjU1NzA0LC04MD
+c1ODQ4NTUsLTE3MjE3MjU5ODksLTg5MDU5MzI3MCwtMjQyMjg1
+NTM1LC03MzU3ODM3NzgsMTYxOTM3NzAwNiw3ODkzMTAxNDYsLT
+Q1NTU1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF19
 -->

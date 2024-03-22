@@ -153,7 +153,7 @@ You can work with companies like "Fable Tech Labs" or "Access Works".
 >As you work through this challenge, ask yourself:
 
 >_How efficiently can someone navigate the site with only the keyboard? Would someone be able to complete their task?_
-
+https://workshop-design-people-skills.testingaccessibility.com/careers-portal/index.html
 ###### Useful commands for navigating with keyboard ⌨
 >The following keyboard commands are fundamental to navigating the web:
 >
@@ -166,7 +166,8 @@ You can work with companies like "Fable Tech Labs" or "Access Works".
     -   Left, right, up, and down to navigate through some form controls and custom-scripted widgets
 
 **I found the following issues:**
-1. I get no focus when tabbing 
+🚨 I get no focus when tabbing on the page. It seems like there is two links that are focusable (because I see a link description in bottom right corner of the browser)
+
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -177,8 +178,8 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTU1NzMwNiwtNjY1NjU1NzA0LC04MD
-c1ODQ4NTUsLTE3MjE3MjU5ODksLTg5MDU5MzI3MCwtMjQyMjg1
-NTM1LC03MzU3ODM3NzgsMTYxOTM3NzAwNiw3ODkzMTAxNDYsLT
-Q1NTU1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF19
+eyJoaXN0b3J5IjpbNDI2OTA1NDMzLC02NjU2NTU3MDQsLTgwNz
+U4NDg1NSwtMTcyMTcyNTk4OSwtODkwNTkzMjcwLC0yNDIyODU1
+MzUsLTczNTc4Mzc3OCwxNjE5Mzc3MDA2LDc4OTMxMDE0NiwtND
+U1NTU3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0NDIwXX0=
 -->

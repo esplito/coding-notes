@@ -190,7 +190,7 @@ With Devtools:
 
 >Compare this to the recommended WCAG AA level of 4.5:1.
 
-
+**Side note:** there's also issues with neighboring colours that are very similar in the chart (different shades of green) that can difficult for some to distinguish.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -201,7 +201,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzEzNDc3NCwtMTQyMzMxMDAsNDIxOT
+eyJoaXN0b3J5IjpbLTE0MTgyNzEwOSwtMTQyMzMxMDAsNDIxOT
 Q3ODQxLDg0NDk1NzQ2OCwtMjEzNzI1OTkzNywtNjY1NjU1NzA0
 LC04MDc1ODQ4NTUsLTE3MjE3MjU5ODksLTg5MDU5MzI3MCwtMj
 QyMjg1NTM1LC03MzU3ODM3NzgsMTYxOTM3NzAwNiw3ODkzMTAx

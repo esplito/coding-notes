@@ -202,6 +202,9 @@ _What is at stake for people with disabilities when they can’t use a site or a
 
 _How should these issues be addressed through product, design, and development?_
 
+**Important:**
+>Answering these questions will help you formulate a cohesive solution that can be communicated effectively across your team and organization.
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -211,10 +214,10 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTY2NjkxODEsLTE0MTgyNzEwOSwtMT
-QyMzMxMDAsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwtMjEzNzI1OTkz
-NywtNjY1NjU1NzA0LC04MDc1ODQ4NTUsLTE3MjE3MjU5ODksLT
-g5MDU5MzI3MCwtMjQyMjg1NTM1LC03MzU3ODM3NzgsMTYxOTM3
-NzAwNiw3ODkzMTAxNDYsLTQ1NTU1Nzc0MCwtMTc5MTM5MzE4My
-wtMTkyNTc1NDQyMF19
+eyJoaXN0b3J5IjpbLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0Mj
+MzMTAwLDQyMTk0Nzg0MSw4NDQ5NTc0NjgsLTIxMzcyNTk5Mzcs
+LTY2NTY1NTcwNCwtODA3NTg0ODU1LC0xNzIxNzI1OTg5LC04OT
+A1OTMyNzAsLTI0MjI4NTUzNSwtNzM1NzgzNzc4LDE2MTkzNzcw
+MDYsNzg5MzEwMTQ2LC00NTU1NTc3NDAsLTE3OTEzOTMxODMsLT
+E5MjU3NTQ0MjBdfQ==
 -->

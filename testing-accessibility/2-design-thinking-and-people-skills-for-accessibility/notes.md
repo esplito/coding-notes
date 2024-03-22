@@ -167,7 +167,11 @@ https://workshop-design-people-skills.testingaccessibility.com/careers-portal/in
 
 **I found the following issues:**
 🚨 I get no UI indicating focus when tabbing on the page. It seems like there is two links that are focusable (because I see a link description in bottom right corner of the browser).
-🚨 Very few elements that are focusable, but the UI seems to have lots of links that *should be focusable*. 
+🚨 Very few elements that are focusable, but the UI seems to have lots of links that *should be focusable*.
+
+With Devtools:
+🚨 It's just divs all the way. So not a surprise that the page is so inaccessible with a keyboard.
+
 
 
 ## Useful resources
@@ -179,9 +183,9 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzcyNTk5MzcsLTY2NTY1NTcwNCwtOD
-A3NTg0ODU1LC0xNzIxNzI1OTg5LC04OTA1OTMyNzAsLTI0MjI4
-NTUzNSwtNzM1NzgzNzc4LDE2MTkzNzcwMDYsNzg5MzEwMTQ2LC
-00NTU1NTc3NDAsLTE3OTEzOTMxODMsLTE5MjU3NTQ0MjBdfQ==
-
+eyJoaXN0b3J5IjpbMTY0MTM2MzAwOSwtMjEzNzI1OTkzNywtNj
+Y1NjU1NzA0LC04MDc1ODQ4NTUsLTE3MjE3MjU5ODksLTg5MDU5
+MzI3MCwtMjQyMjg1NTM1LC03MzU3ODM3NzgsMTYxOTM3NzAwNi
+w3ODkzMTAxNDYsLTQ1NTU1Nzc0MCwtMTc5MTM5MzE4MywtMTky
+NTc1NDQyMF19
 -->

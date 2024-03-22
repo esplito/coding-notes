@@ -166,7 +166,7 @@ You can work with companies like "Fable Tech Labs" or "Access Works".
     -   Left, right, up, and down to navigate through some form controls and custom-scripted widgets
 
 **I found the following issues:**
-...
+1. I get no focus when tabbing 
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -177,7 +177,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzU0MDU3MCwtNjY1NjU1NzA0LC04MD
+eyJoaXN0b3J5IjpbLTYxNTU1NzMwNiwtNjY1NjU1NzA0LC04MD
 c1ODQ4NTUsLTE3MjE3MjU5ODksLTg5MDU5MzI3MCwtMjQyMjg1
 NTM1LC03MzU3ODM3NzgsMTYxOTM3NzAwNiw3ODkzMTAxNDYsLT
 Q1NTU1Nzc0MCwtMTc5MTM5MzE4MywtMTkyNTc1NDQyMF19

@@ -180,7 +180,7 @@ With Devtools:
 **For this challenge, make a list of what you suspect are color contrast issues on the Careers Portal.**
 
 **I found the following issues:**
-🚨 
+🚨 I think the links 
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -191,9 +191,9 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0OTU3NDY4LC0yMTM3MjU5OTM3LC02Nj
-U2NTU3MDQsLTgwNzU4NDg1NSwtMTcyMTcyNTk4OSwtODkwNTkz
-MjcwLC0yNDIyODU1MzUsLTczNTc4Mzc3OCwxNjE5Mzc3MDA2LD
-c4OTMxMDE0NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC0xOTI1
-NzU0NDIwXX0=
+eyJoaXN0b3J5IjpbNDIxOTQ3ODQxLDg0NDk1NzQ2OCwtMjEzNz
+I1OTkzNywtNjY1NjU1NzA0LC04MDc1ODQ4NTUsLTE3MjE3MjU5
+ODksLTg5MDU5MzI3MCwtMjQyMjg1NTM1LC03MzU3ODM3NzgsMT
+YxOTM3NzAwNiw3ODkzMTAxNDYsLTQ1NTU1Nzc0MCwtMTc5MTM5
+MzE4MywtMTkyNTc1NDQyMF19
 -->

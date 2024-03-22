@@ -205,6 +205,15 @@ _How should these issues be addressed through product, design, and development?_
 **Important:**
 >Answering these questions will help you formulate a cohesive solution that can be communicated effectively across your team and organization.
 
+### Lesson 4: Identifying accessibility bias
+>Our abilities can definitely lead to biases. We want to be careful, so we're not painting our own experience as what everyone else would go through.
+
+>Consider the following about yourself:
+
+-   Physical abilities
+-   Cognitive abilities
+-   Position and role
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -214,10 +223,10 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0Mj
-MzMTAwLDQyMTk0Nzg0MSw4NDQ5NTc0NjgsLTIxMzcyNTk5Mzcs
-LTY2NTY1NTcwNCwtODA3NTg0ODU1LC0xNzIxNzI1OTg5LC04OT
-A1OTMyNzAsLTI0MjI4NTUzNSwtNzM1NzgzNzc4LDE2MTkzNzcw
-MDYsNzg5MzEwMTQ2LC00NTU1NTc3NDAsLTE3OTEzOTMxODMsLT
-E5MjU3NTQ0MjBdfQ==
+eyJoaXN0b3J5IjpbMTY3MTEzOTczNSwtNjI2ODc4MjgsLTE0MT
+gyNzEwOSwtMTQyMzMxMDAsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwt
+MjEzNzI1OTkzNywtNjY1NjU1NzA0LC04MDc1ODQ4NTUsLTE3Mj
+E3MjU5ODksLTg5MDU5MzI3MCwtMjQyMjg1NTM1LC03MzU3ODM3
+NzgsMTYxOTM3NzAwNiw3ODkzMTAxNDYsLTQ1NTU1Nzc0MCwtMT
+c5MTM5MzE4MywtMTkyNTc1NDQyMF19
 -->

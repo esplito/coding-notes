@@ -227,8 +227,9 @@ Some tips from Marcy:
 ## Section 3 - Designs as prototyping
 > In this section, **you’ll learn how to review design systems, mockups, layouts, and components for potential accessibility issues**.
 
-> Additionally, you’ll learn how to approach collaborating on a design by leveraging different tools. - Marcy Sutton
+> Additionally, you’ll learn **how to approach collaborating on a design by leveraging different tools**. - Marcy Sutton
 
+### Lesson 1: Collaborate on Designs & Prototypes
 
 
 ## Useful resources
@@ -240,7 +241,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDE2ODIwMywtMTY3MzY2MzMxNSwtNj
+eyJoaXN0b3J5IjpbMjA3Nzg5NTE5NiwtMTY3MzY2MzMxNSwtNj
 I2ODc4MjgsLTE0MTgyNzEwOSwtMTQyMzMxMDAsNDIxOTQ3ODQx
 LDg0NDk1NzQ2OCwtMjEzNzI1OTkzNywtNjY1NjU1NzA0LC04MD
 c1ODQ4NTUsLTE3MjE3MjU5ODksLTg5MDU5MzI3MCwtMjQyMjg1

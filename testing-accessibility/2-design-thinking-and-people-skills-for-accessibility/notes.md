@@ -213,8 +213,9 @@ _How should these issues be addressed through product, design, and development?_
 -   Physical abilities
 	- My answer: I'm probably quite biased since I can use a mouse & keyboard, computer screen, smartphone etc. without issues. *I sometimes forget to test with keyboard or screen reader due to this.*
 -   Cognitive abilities
-	- My answer: Cognitive abilities is something that I very rarely think about while developing, but I'm trying to learn what I can do to be more proactive with creating softw
+	- My answer: Cognitive abilities is something that I very rarely think about while developing, but I'm trying to learn what I can do to be more proactive with creating software that adheres to different cognitive abilities.
 -   Position and role
+	- My answer: I think about this quite often, that since I'm a web developer (and have used thousands of websites) I know a lot of patterns & have tools to understand w
 
 >**For example, does your ability to use a mouse every day mean that you forget to test with the keyboard?**
 
@@ -229,10 +230,10 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4MDg1OTU5LC02MjY4NzgyOCwtMTQxOD
-I3MTA5LC0xNDIzMzEwMCw0MjE5NDc4NDEsODQ0OTU3NDY4LC0y
-MTM3MjU5OTM3LC02NjU2NTU3MDQsLTgwNzU4NDg1NSwtMTcyMT
-cyNTk4OSwtODkwNTkzMjcwLC0yNDIyODU1MzUsLTczNTc4Mzc3
-OCwxNjE5Mzc3MDA2LDc4OTMxMDE0NiwtNDU1NTU3NzQwLC0xNz
-kxMzkzMTgzLC0xOTI1NzU0NDIwXX0=
+eyJoaXN0b3J5IjpbMTc5MTAzNjM2NiwtNjI2ODc4MjgsLTE0MT
+gyNzEwOSwtMTQyMzMxMDAsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwt
+MjEzNzI1OTkzNywtNjY1NjU1NzA0LC04MDc1ODQ4NTUsLTE3Mj
+E3MjU5ODksLTg5MDU5MzI3MCwtMjQyMjg1NTM1LC03MzU3ODM3
+NzgsMTYxOTM3NzAwNiw3ODkzMTAxNDYsLTQ1NTU1Nzc0MCwtMT
+c5MTM5MzE4MywtMTkyNTc1NDQyMF19
 -->

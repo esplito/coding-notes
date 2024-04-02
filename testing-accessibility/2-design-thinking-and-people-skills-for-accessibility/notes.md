@@ -243,6 +243,10 @@ Some tips from Marcy:
 >💡Tip
 Storybook offers an official [a11y addon](https://storybook.js.org/addons/@storybook/addon-a11y)  powered by Deque's [axe-core](https://github.com/dequelabs/axe-core), which can automatically catch up to [57% of WCAG issues](https://www.deque.com/blog/automated-testing-study-identifies-57-percent-of-digital-accessibility-issues/).
 
+#### Terms you might hear while collaborating 🗣
+- **Design system**:
+- **Pattern library**:
+- **Style guide**:
 
 
 ## Useful resources
@@ -254,11 +258,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5MjQ0NiwyMDc3ODk1MTk2LC0xNjczNj
-YzMzE1LC02MjY4NzgyOCwtMTQxODI3MTA5LC0xNDIzMzEwMCw0
-MjE5NDc4NDEsODQ0OTU3NDY4LC0yMTM3MjU5OTM3LC02NjU2NT
-U3MDQsLTgwNzU4NDg1NSwtMTcyMTcyNTk4OSwtODkwNTkzMjcw
-LC0yNDIyODU1MzUsLTczNTc4Mzc3OCwxNjE5Mzc3MDA2LDc4OT
-MxMDE0NiwtNDU1NTU3NzQwLC0xNzkxMzkzMTgzLC0xOTI1NzU0
-NDIwXX0=
+eyJoaXN0b3J5IjpbLTE0MzUwMDY1NDEsMjA3Nzg5NTE5NiwtMT
+Y3MzY2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNzEwOSwtMTQyMzMx
+MDAsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwtMjEzNzI1OTkzNywtNj
+Y1NjU1NzA0LC04MDc1ODQ4NTUsLTE3MjE3MjU5ODksLTg5MDU5
+MzI3MCwtMjQyMjg1NTM1LC03MzU3ODM3NzgsMTYxOTM3NzAwNi
+w3ODkzMTAxNDYsLTQ1NTU1Nzc0MCwtMTc5MTM5MzE4MywtMTky
+NTc1NDQyMF19
 -->

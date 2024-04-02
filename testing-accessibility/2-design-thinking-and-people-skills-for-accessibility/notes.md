@@ -463,7 +463,10 @@ handleReduceMotionChanged(); // trigger once on load
 💡 If you want an *opt-in approach* you can use `prefers-reduced-motion: no-preference` instead!
 
 ### Lesson 3: WCAG Success criterion for Motion
-Some motion-related WCAG guidelines that Marcy highlights
+Some motion-related WCAG guidelines that Marcy highlights:
+-   [**2.2.2 Pause, Stop, Hide**](https://www.w3.org/TR/WCAG21/#pause-stop-hide)  - Level A. *"This one is huge for people with ADHD and other conditions that make moving websites hell to navigate and use."*
+-   **[2.3.1 Three Flashes or Below Threshold](https://www.w3.org/TR/WCAG21/#three-flashes-or-below-threshold)** - Level A. There is also a Level AAA criterion with no threshold. 
+-   [**2.3.3 Animation from Interactions**](https://www.w3.org/TR/WCAG21/#animation-from-interactions)  - Level AAA. *"While a Level AAA criterion, this one typically isn’t complicated to meet by making transitions and animations respond to reduced-motion settings. So why not do it?"*
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -476,11 +479,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQ3MDU2NTgsLTkyNzk5MTMyMCwxNz
-I3MDUyNTg4LC00NzU4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1
-MDgsLTEyNzMyMzc4MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5Ni
-wtMjcyMDAwNTQxLDIwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAw
-MzYwMjMzNCwtOTgzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MD
-I1MiwxNzk1MjQzNTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYs
-LTE2NzM2NjMzMTVdfQ==
+eyJoaXN0b3J5IjpbMTkwMzE5ODI3NywtOTI3OTkxMzIwLDE3Mj
+cwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMjExNjc5MDUw
+OCwtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC
+0yNzIwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAz
+NjAyMzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgwMj
+UyLDE3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NTE5Niwt
+MTY3MzY2MzMxNV19
 -->

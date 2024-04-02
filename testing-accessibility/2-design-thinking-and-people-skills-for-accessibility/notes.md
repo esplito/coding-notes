@@ -333,6 +333,10 @@ Identify color & contrast issues in this design.
 ![Components from a design system](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1655922459%2Fdesign-and-people-skills%2Fdesigns-as-prototyping%2Fidentify-potential-accessibility-issues-in-design-systems%2FUntitled_17_ni4g9l.png&w=3840&q=100)
 
 #### **🛠** Challenge: Find Content Layout Issues
+>Your challenge is to identify possible issues with these two layouts and discuss your expectations of what you will implement as a developer or communicate with a design team.
+
+(Rich text editor + rendered article)
+![Layouts from a design system](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1655922504%2Fdesign-and-people-skills%2Fdesigns-as-prototyping%2Fidentify-potential-accessibility-issues-in-design-systems%2FUntitled_20_vhexsn.png&w=3840&q=100)
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -343,7 +347,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTEwNTE1NTgsMTIwMDU5Njg5NiwtMj
+eyJoaXN0b3J5IjpbLTE0NDU2MDYxMTcsMTIwMDU5Njg5NiwtMj
 cyMDAwNTQxLDIwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYw
 MjMzNCwtOTgzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1Mi
 wxNzk1MjQzNTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2

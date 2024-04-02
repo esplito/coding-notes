@@ -367,6 +367,9 @@ Possible fixes:
 
 Notes from solution:
 >- There is also an issue with showing additional controls on focus, which we discussed in the previous section on interactions and affordances.
+>- Labels display text throughout the interface. Adding labels to buttons, menu items, and views helps people understand the current context they are in and what they can do next. Clear text labels are essential to the overall accessibility of a design system.
+>- The form uses placeholders as labels, which means as soon as the user types a field there’s no indication of what it’s for.
+>Having a persistent text label above each input would make this form more accessible from a cognitive perspective.
 
 #### **🛠** Challenge: Find Content Layout Issues
 >Your challenge is to identify possible issues with these two layouts and discuss your expectations of what you will implement as a developer or communicate with a design team.
@@ -383,11 +386,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5NjQ0MDg5LC0xMzI5Njk1OTE4LDEyMD
-A1OTY4OTYsLTI3MjAwMDU0MSwyMDE2ODIzOTU4LC0yNDk3NTcy
-NzYsLTIwMDM2MDIzMzQsLTk4MzkxNDAxLC0xNTQwMDE5MDI4LC
-04ODAzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAwNjU0MSwyMDc3
-ODk1MTk2LC0xNjczNjYzMzE1LC02MjY4NzgyOCwtMTQxODI3MT
-A5LC0xNDIzMzEwMCw0MjE5NDc4NDEsODQ0OTU3NDY4LC0yMTM3
-MjU5OTM3XX0=
+eyJoaXN0b3J5IjpbLTEyNzMyMzc4MTAsLTEzMjk2OTU5MTgsMT
+IwMDU5Njg5NiwtMjcyMDAwNTQxLDIwMTY4MjM5NTgsLTI0OTc1
+NzI3NiwtMjAwMzYwMjMzNCwtOTgzOTE0MDEsLTE1NDAwMTkwMj
+gsLTg4MDM4MDI1MiwxNzk1MjQzNTQwLC0xNDM1MDA2NTQxLDIw
+Nzc4OTUxOTYsLTE2NzM2NjMzMTUsLTYyNjg3ODI4LC0xNDE4Mj
+cxMDksLTE0MjMzMTAwLDQyMTk0Nzg0MSw4NDQ5NTc0NjgsLTIx
+MzcyNTk5MzddfQ==
 -->

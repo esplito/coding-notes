@@ -248,6 +248,7 @@ Storybook offers an official [a11y addon](https://storybook.js.org/addons/@story
 - **Pattern library**: represents components in a design system.
 - **Style guide**: a document with rules/standards for graphic style (such as color, typography, icons, images). Also includes brand principles on how to use it.
 
+There's opportunities to highlight accessibility in the above tools. One example would be to state in your style guide how you should use headings in an accessible way.
 
 #### Takeaway🚨 
 >The main takeaway is that looking at individual components and documentation are both opportunities for accessibility to be improved, hopefully not forgotten. - Marcy Sutton
@@ -263,11 +264,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk1MDQ2MzgsMTc5NTI0MzU0MCwtMT
-QzNTAwNjU0MSwyMDc3ODk1MTk2LC0xNjczNjYzMzE1LC02MjY4
-NzgyOCwtMTQxODI3MTA5LC0xNDIzMzEwMCw0MjE5NDc4NDEsOD
-Q0OTU3NDY4LC0yMTM3MjU5OTM3LC02NjU2NTU3MDQsLTgwNzU4
-NDg1NSwtMTcyMTcyNTk4OSwtODkwNTkzMjcwLC0yNDIyODU1Mz
-UsLTczNTc4Mzc3OCwxNjE5Mzc3MDA2LDc4OTMxMDE0NiwtNDU1
-NTU3NzQwXX0=
+eyJoaXN0b3J5IjpbNDU3MDQwMTgwLDE3OTUyNDM1NDAsLTE0Mz
+UwMDY1NDEsMjA3Nzg5NTE5NiwtMTY3MzY2MzMxNSwtNjI2ODc4
+MjgsLTE0MTgyNzEwOSwtMTQyMzMxMDAsNDIxOTQ3ODQxLDg0ND
+k1NzQ2OCwtMjEzNzI1OTkzNywtNjY1NjU1NzA0LC04MDc1ODQ4
+NTUsLTE3MjE3MjU5ODksLTg5MDU5MzI3MCwtMjQyMjg1NTM1LC
+03MzU3ODM3NzgsMTYxOTM3NzAwNiw3ODkzMTAxNDYsLTQ1NTU1
+Nzc0MF19
 -->

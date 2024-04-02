@@ -377,6 +377,10 @@ Notes from solution:
 (Rich text editor + rendered article)
 ![Layouts from a design system](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1655922504%2Fdesign-and-people-skills%2Fdesigns-as-prototyping%2Fidentify-potential-accessibility-issues-in-design-systems%2FUntitled_20_vhexsn.png&w=3840&q=100)
 
+Identified issues that I would want to discuss with other developers and designers:
+1. Icons without labels in rich text editor
+2. No clear label
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -386,11 +390,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzMyMzc4MTAsLTEzMjk2OTU5MTgsMT
-IwMDU5Njg5NiwtMjcyMDAwNTQxLDIwMTY4MjM5NTgsLTI0OTc1
-NzI3NiwtMjAwMzYwMjMzNCwtOTgzOTE0MDEsLTE1NDAwMTkwMj
-gsLTg4MDM4MDI1MiwxNzk1MjQzNTQwLC0xNDM1MDA2NTQxLDIw
-Nzc4OTUxOTYsLTE2NzM2NjMzMTUsLTYyNjg3ODI4LC0xNDE4Mj
-cxMDksLTE0MjMzMTAwLDQyMTk0Nzg0MSw4NDQ5NTc0NjgsLTIx
-MzcyNTk5MzddfQ==
+eyJoaXN0b3J5IjpbLTE5MjYwNzE0NiwtMTI3MzIzNzgxMCwtMT
+MyOTY5NTkxOCwxMjAwNTk2ODk2LC0yNzIwMDA1NDEsMjAxNjgy
+Mzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAyMzM0LC05ODM5MTQwMS
+wtMTU0MDAxOTAyOCwtODgwMzgwMjUyLDE3OTUyNDM1NDAsLTE0
+MzUwMDY1NDEsMjA3Nzg5NTE5NiwtMTY3MzY2MzMxNSwtNjI2OD
+c4MjgsLTE0MTgyNzEwOSwtMTQyMzMxMDAsNDIxOTQ3ODQxLDg0
+NDk1NzQ2OF19
 -->

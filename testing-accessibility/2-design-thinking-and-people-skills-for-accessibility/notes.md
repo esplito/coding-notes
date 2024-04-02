@@ -344,6 +344,11 @@ Issues identified by myself:
 7. The dividers also fails on all checks in CCA
 8. Same goes for the text in the text boxes.
 
+Notes made from the solution:
+- (Submit button text) "... for button text larger than 24 px, it would pass with a ratio of 3:1."
+
+> Sampling colors with CCA is a useful way to get early feedback. I recommend that you share this tool with your design team so you can collaborate and learn together. - Marcy Sutton
+
 
 #### **🛠** Challenge: Find Iconography & Label Issues
 > The following challenge requires you to identify one overarching issue with iconography in the design system and another major issue with text labels.
@@ -367,11 +372,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNjYwNzg4OCwxMjAwNTk2ODk2LC0yNz
-IwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAy
-MzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgwMjUyLD
-E3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NTE5NiwtMTY3
-MzY2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNzEwOSwtMTQyMzMxMD
-AsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwtMjEzNzI1OTkzNywtNjY1
-NjU1NzA0XX0=
+eyJoaXN0b3J5IjpbLTEzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMj
+cyMDAwNTQxLDIwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYw
+MjMzNCwtOTgzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1Mi
+wxNzk1MjQzNTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2
+NzM2NjMzMTUsLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0MjMzMT
+AwLDQyMTk0Nzg0MSw4NDQ5NTc0NjgsLTIxMzcyNTk5MzcsLTY2
+NTY1NTcwNF19
 -->

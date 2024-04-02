@@ -308,7 +308,7 @@ Prerequisites:
 >(CCA) is a free color contrast checker tool that allows you to easily determine the contrast ratio of two colors using an eyedropper tool.
 > This desktop application works anywhere on your screen–not just the web browser.
 
-## WCAG Color Contrast Guidelines
+#### WCAG Color Contrast Guidelines
 
 WCAG 2 Guidelines to check when designing UI for varied color perception:
 
@@ -318,7 +318,14 @@ WCAG 2 Guidelines to check when designing UI for varied color perception:
 
 🚨 *"Encourage your design team to provide real examples of interactive elements and typography. They should also be testing combinations for contrast themselves."* - Marcy Sutton 🚨
 
-Marcy would recommend to use a contrast plugin in Figma to ensure that contrast ratio can be easily tested already in the Design phase.
+Marcy would recommend to use a contrast plugin in Figma to ensure that contrast ratio can be easily tested already in the design phase.
+
+#### **🛠** Challenge: Find Color Contrast Issues
+Identify color & contrast issues in this design.
+
+![Interactive components from a design system](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1655845415%2Fdesign-and-people-skills%2Fdesigns-as-prototyping%2Fidentify-potential-accessibility-issues-in-design-systems%2FUntitled_q6og1g.png&w=3840&q=100)
+
+
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -329,11 +336,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjE2MDEsMTIwMDU5Njg5NiwtMjcyMD
-AwNTQxLDIwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMjMz
-NCwtOTgzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNz
-k1MjQzNTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2NzM2
-NjMzMTUsLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0MjMzMTAwLD
-QyMTk0Nzg0MSw4NDQ5NTc0NjgsLTIxMzcyNTk5MzcsLTY2NTY1
-NTcwNF19
+eyJoaXN0b3J5IjpbMTYwNjE3ODI0MCwxMjAwNTk2ODk2LC0yNz
+IwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAy
+MzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgwMjUyLD
+E3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NTE5NiwtMTY3
+MzY2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNzEwOSwtMTQyMzMxMD
+AsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwtMjEzNzI1OTkzNywtNjY1
+NjU1NzA0XX0=
 -->

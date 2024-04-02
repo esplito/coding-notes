@@ -409,6 +409,15 @@ Notes from solution:
 2. See that Product Management set accessibility requirements from the start so that PMs & designers have tackled a lot of issues before the devs are involved.
 3. See that everyone uses a Contrast Ratio plugin or other accessibility plugins in Figma.
 
+## Section 4 - Using animation & motion safely
+
+>Animation can have profound accessibility implications, inducing a variety of responses in some people including motion sickness, distraction, seizure risk, and more.
+
+>In this section, we'll discuss how to use motion and animation, but most importantly, we'll discuss how to use them safely.
+
+### Lesson 1: Use animation & motion safely
+
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -418,11 +427,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNz
-MyMzc4MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcyMDAw
-NTQxLDIwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMjMzNC
-wtOTgzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNzk1
-MjQzNTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2NzM2Nj
-MzMTUsLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0MjMzMTAwLDQy
-MTk0Nzg0MV19
+eyJoaXN0b3J5IjpbLTQ3NTg4MzY0Niw3NDU0MzkyNywtMjExNj
+c5MDUwOCwtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2
+ODk2LC0yNzIwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC
+0yMDAzNjAyMzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgw
+MzgwMjUyLDE3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NT
+E5NiwtMTY3MzY2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNzEwOSwt
+MTQyMzMxMDBdfQ==
 -->

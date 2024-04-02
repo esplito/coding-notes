@@ -325,6 +325,10 @@ Identify color & contrast issues in this design.
 
 ![Interactive components from a design system](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1655845415%2Fdesign-and-people-skills%2Fdesigns-as-prototyping%2Fidentify-potential-accessibility-issues-in-design-systems%2FUntitled_q6og1g.png&w=3840&q=100)
 
+Issues identified by myself:
+1. Subscribe has 2:5:1 in contrast ratio. It fails on all checks that CCA does.
+1.4.3 (Contrast Minimum) 
+
 #### **🛠** Challenge: Find Iconography & Label Issues
 > The following challenge requires you to identify one overarching issue with iconography in the design system and another major issue with text labels.
 
@@ -347,11 +351,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDU2MDYxMTcsMTIwMDU5Njg5NiwtMj
-cyMDAwNTQxLDIwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYw
-MjMzNCwtOTgzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1Mi
-wxNzk1MjQzNTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2
-NzM2NjMzMTUsLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0MjMzMT
-AwLDQyMTk0Nzg0MSw4NDQ5NTc0NjgsLTIxMzcyNTk5MzcsLTY2
-NTY1NTcwNF19
+eyJoaXN0b3J5IjpbLTM5MjgyODQ2NSwxMjAwNTk2ODk2LC0yNz
+IwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAy
+MzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgwMjUyLD
+E3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NTE5NiwtMTY3
+MzY2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNzEwOSwtMTQyMzMxMD
+AsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwtMjEzNzI1OTkzNywtNjY1
+NjU1NzA0XX0=
 -->

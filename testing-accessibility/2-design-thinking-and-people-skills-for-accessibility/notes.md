@@ -391,6 +391,11 @@ Notes from solution:
 >💡Tip
 > Collaborating, providing feedback, and influencing design earlier in the process saves you from trying to shoehorn fixes later in the development cycle.
 
+### Lesson 4: Accessibility Feedback Loop Discussion
+> At your organization, where in the software development cycle does accessibility feedback happen?
+
+🎯 We should strive to integrate it as early as possible in the cycle. -> this means that we have to learn to collaborate with teams ac
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -400,11 +405,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTY3OTA1MDgsLTEyNzMyMzc4MTAsLT
-EzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcyMDAwNTQxLDIwMTY4
-MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMjMzNCwtOTgzOTE0MD
-EsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNzk1MjQzNTQwLC0x
-NDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2NzM2NjMzMTUsLTYyNj
-g3ODI4LC0xNDE4MjcxMDksLTE0MjMzMTAwLDQyMTk0Nzg0MSw4
-NDQ5NTc0NjhdfQ==
+eyJoaXN0b3J5IjpbLTg0MjY2OTA3MSwtMjExNjc5MDUwOCwtMT
+I3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC0yNzIw
+MDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAyMz
+M0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgwMjUyLDE3
+OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NTE5NiwtMTY3Mz
+Y2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNzEwOSwtMTQyMzMxMDAs
+NDIxOTQ3ODQxXX0=
 -->

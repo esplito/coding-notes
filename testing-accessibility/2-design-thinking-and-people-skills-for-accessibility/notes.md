@@ -398,13 +398,15 @@ Notes from solution:
 
 #### 📝 Exercise: Feedback Loop Reflection
 **Q:** When in the cycle is accessibility feedback provided to the design team? What about the dev team?
-**A:** Almost never. It only happens if a developer or designer is interested in accessibility. I try to raise accessibility issues to designers as soon as I get a Figma Design. I can count on one hand the number of times that someone has raised accessibility issues to the dev team (once or twice by the design team). I would love if both Product Management and Design
+**A:** Almost never. It only happens if a developer or designer is interested in accessibility. I try to raise accessibility issues to designers as soon as I get a Figma Design. I can count on one hand the number of times that someone has raised accessibility issues to the dev team (once or twice by the design team). I would love if Product Management, Content Management & Design raised accessibility issues to us.
 
 **Q:** How successful is the accessibility feedback loop for your current processes?
 **A:** There's no standardized feedback loop. So I would say not very successful.
 
 **Q:** What processes would you like to try?
-**A:** 
+**A:** I would like to:
+1.  Incorporate accessibility annotations in the design process in Figma.
+2. See that Product Management set accessibility 
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -415,11 +417,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTYyNTM0OTgsLTIxMTY3OTA1MDgsLT
-EyNzMyMzc4MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcy
-MDAwNTQxLDIwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMj
-MzNCwtOTgzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1Miwx
-Nzk1MjQzNTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2Nz
-M2NjMzMTUsLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0MjMzMTAw
-LDQyMTk0Nzg0MV19
+eyJoaXN0b3J5IjpbLTE5Mjg0NTI1NCwtMjExNjc5MDUwOCwtMT
+I3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC0yNzIw
+MDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAyMz
+M0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgwMjUyLDE3
+OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NTE5NiwtMTY3Mz
+Y2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNzEwOSwtMTQyMzMxMDAs
+NDIxOTQ3ODQxXX0=
 -->

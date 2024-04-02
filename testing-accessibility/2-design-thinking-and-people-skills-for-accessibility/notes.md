@@ -424,6 +424,14 @@ Marcys recommendation:
 
 📚 Recommended reading: https://source.opennews.org/articles/motion-sick/
 
+### Lesson 2: Implementing Prefers Reduced Motion
+
+>If you do have large amounts of movement that cover a lot of visual real estate, it is **strongly recommended that you offer an option to turn off, or reduce, motion.
+
+>The `prefers-reduced-motion`  [media feature](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#media_features) is used to detect if the user has requested that the system minimize the amount of motion it uses.
+
+
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -435,11 +443,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzA1MjU4OCwtNDc1ODgzNjQ2LDc0NT
-QzOTI3LC0yMTE2NzkwNTA4LC0xMjczMjM3ODEwLC0xMzI5Njk1
-OTE4LDEyMDA1OTY4OTYsLTI3MjAwMDU0MSwyMDE2ODIzOTU4LC
-0yNDk3NTcyNzYsLTIwMDM2MDIzMzQsLTk4MzkxNDAxLC0xNTQw
-MDE5MDI4LC04ODAzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAwNj
-U0MSwyMDc3ODk1MTk2LC0xNjczNjYzMzE1LC02MjY4NzgyOCwt
-MTQxODI3MTA5XX0=
+eyJoaXN0b3J5IjpbMjA0NjUzNDQ2NywxNzI3MDUyNTg4LC00Nz
+U4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMyMzc4
+MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcyMDAwNTQxLD
+IwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMjMzNCwtOTgz
+OTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNzk1MjQzNT
+QwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2NzM2NjMzMTUs
+LTYyNjg3ODI4XX0=
 -->

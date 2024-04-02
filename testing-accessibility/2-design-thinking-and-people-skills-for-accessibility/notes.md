@@ -305,6 +305,9 @@ Marcy mentions example of having other interactive elements than just swipe ("Ti
 Prerequisites:
 - Have https://www.tpgi.com/color-contrast-checker/ installed.
 
+>(CCA) is a free color contrast checker tool that allows you to easily determine the contrast ratio of two colors using an eyedropper tool.
+> This desktop application works anywhere on your screen–not just the web browser.
+
 
 
 ## Useful resources
@@ -316,11 +319,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MjAwMDU0MSwyMDE2ODIzOTU4LC0yND
-k3NTcyNzYsLTIwMDM2MDIzMzQsLTk4MzkxNDAxLC0xNTQwMDE5
-MDI4LC04ODAzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAwNjU0MS
-wyMDc3ODk1MTk2LC0xNjczNjYzMzE1LC02MjY4NzgyOCwtMTQx
-ODI3MTA5LC0xNDIzMzEwMCw0MjE5NDc4NDEsODQ0OTU3NDY4LC
-0yMTM3MjU5OTM3LC02NjU2NTU3MDQsLTgwNzU4NDg1NSwtMTcy
-MTcyNTk4OV19
+eyJoaXN0b3J5IjpbLTE5NDM5ODYxNjYsLTI3MjAwMDU0MSwyMD
+E2ODIzOTU4LC0yNDk3NTcyNzYsLTIwMDM2MDIzMzQsLTk4Mzkx
+NDAxLC0xNTQwMDE5MDI4LC04ODAzODAyNTIsMTc5NTI0MzU0MC
+wtMTQzNTAwNjU0MSwyMDc3ODk1MTk2LC0xNjczNjYzMzE1LC02
+MjY4NzgyOCwtMTQxODI3MTA5LC0xNDIzMzEwMCw0MjE5NDc4ND
+EsODQ0OTU3NDY4LC0yMTM3MjU5OTM3LC02NjU2NTU3MDQsLTgw
+NzU4NDg1NV19
 -->

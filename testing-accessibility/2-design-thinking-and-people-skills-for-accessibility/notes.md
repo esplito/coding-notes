@@ -339,9 +339,10 @@ Issues identified by myself:
 3. The controls (checkbox etc.) also get same results as submit button (3.7:1 contrast ratio).
 
 4. The slim toggle fails on the background that it sits, with a contrast ratio of 1.4:1.
-5. Zoom icon does not meet AAA-requirements when highlighted. It fails on regular text. It passes on large text though
-6. 
+5. Zoom icon does not meet AAA-requirements when highlighted. It fails on regular text. It passes on large text though.
+6. "New camp spot" text in the toolbar fails on all checks in CCA
 7. 
+8. 
 
 
 #### **🛠** Challenge: Find Iconography & Label Issues
@@ -366,7 +367,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0MTg5OTI2LDEyMDA1OTY4OTYsLTI3Mj
+eyJoaXN0b3J5IjpbNTE2NDY5OTM1LDEyMDA1OTY4OTYsLTI3Mj
 AwMDU0MSwyMDE2ODIzOTU4LC0yNDk3NTcyNzYsLTIwMDM2MDIz
 MzQsLTk4MzkxNDAxLC0xNTQwMDE5MDI4LC04ODAzODAyNTIsMT
 c5NTI0MzU0MCwtMTQzNTAwNjU0MSwyMDc3ODk1MTk2LC0xNjcz

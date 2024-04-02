@@ -358,7 +358,10 @@ Notes made from the solution:
 ![Components from a design system](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1655922459%2Fdesign-and-people-skills%2Fdesigns-as-prototyping%2Fidentify-potential-accessibility-issues-in-design-systems%2FUntitled_17_ni4g9l.png&w=3840&q=100)
 
 Identified issues:
-1. There's nothing that indicates how and when these icons should be used. The design should answer the question "What is the intent of t
+1. There's nothing that indicates how and when these icons should be used. The design should answer the questions "What is the intent of these? And can any user of this UI understand that?". This design assumes that the user knows what the icons mean and that the user can distinguish what they are.
+
+Possible fixes: 
+1. complement icons with la
 
 #### **🛠** Challenge: Find Content Layout Issues
 >Your challenge is to identify possible issues with these two layouts and discuss your expectations of what you will implement as a developer or communicate with a design team.
@@ -375,11 +378,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzc0ODc2ODYsLTEzMjk2OTU5MTgsMT
-IwMDU5Njg5NiwtMjcyMDAwNTQxLDIwMTY4MjM5NTgsLTI0OTc1
-NzI3NiwtMjAwMzYwMjMzNCwtOTgzOTE0MDEsLTE1NDAwMTkwMj
-gsLTg4MDM4MDI1MiwxNzk1MjQzNTQwLC0xNDM1MDA2NTQxLDIw
-Nzc4OTUxOTYsLTE2NzM2NjMzMTUsLTYyNjg3ODI4LC0xNDE4Mj
-cxMDksLTE0MjMzMTAwLDQyMTk0Nzg0MSw4NDQ5NTc0NjgsLTIx
-MzcyNTk5MzddfQ==
+eyJoaXN0b3J5IjpbMTIxODU1NzIzNSwtMTMyOTY5NTkxOCwxMj
+AwNTk2ODk2LC0yNzIwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3
+Mjc2LC0yMDAzNjAyMzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOC
+wtODgwMzgwMjUyLDE3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3
+Nzg5NTE5NiwtMTY3MzY2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNz
+EwOSwtMTQyMzMxMDAsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwtMjEz
+NzI1OTkzN119
 -->

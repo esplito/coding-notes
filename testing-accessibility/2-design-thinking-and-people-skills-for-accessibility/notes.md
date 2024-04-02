@@ -318,7 +318,7 @@ WCAG 2 Guidelines to check when designing UI for varied color perception:
 
 🚨 *"Encourage your design team to provide real examples of interactive elements and typography. They should also be testing combinations for contrast themselves."* - Marcy Sutton 🚨
 
-
+Marcy would recommend to use a contrast plugin in Figma to ensure that contrast ratio can be easily tested already in the Design phase.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -329,11 +329,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDU5Njg5NiwtMjcyMDAwNTQxLDIwMT
-Y4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMjMzNCwtOTgzOTE0
-MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNzk1MjQzNTQwLC
-0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2NzM2NjMzMTUsLTYy
-Njg3ODI4LC0xNDE4MjcxMDksLTE0MjMzMTAwLDQyMTk0Nzg0MS
-w4NDQ5NTc0NjgsLTIxMzcyNTk5MzcsLTY2NTY1NTcwNCwtODA3
-NTg0ODU1XX0=
+eyJoaXN0b3J5IjpbMTc2NjE2MDEsMTIwMDU5Njg5NiwtMjcyMD
+AwNTQxLDIwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMjMz
+NCwtOTgzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNz
+k1MjQzNTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2NzM2
+NjMzMTUsLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0MjMzMTAwLD
+QyMTk0Nzg0MSw4NDQ5NTc0NjgsLTIxMzcyNTk5MzcsLTY2NTY1
+NTcwNF19
 -->

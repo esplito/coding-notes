@@ -233,7 +233,10 @@ Some tips from Marcy:
 
 > The goal is to prevent access barriers from being passed on to development when they could have been tweaked or rethought earlier. This can cut down on the number of feedback loops involved with creating an accessible solution, thus saving time and money in the long run (and who doesn’t love that?). - Marcy Sutton
 
-
+#### Example of tools for collaborating on accessible code prototypes
+- Design or wireframes to get the discussion going
+- HTML, CSS & Javascript prototypes
+- 
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -244,7 +247,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjY1NDUxMSwyMDc3ODk1MTk2LC0xNj
+eyJoaXN0b3J5IjpbLTI3MDEzOTY4OSwyMDc3ODk1MTk2LC0xNj
 czNjYzMzE1LC02MjY4NzgyOCwtMTQxODI3MTA5LC0xNDIzMzEw
 MCw0MjE5NDc4NDEsODQ0OTU3NDY4LC0yMTM3MjU5OTM3LC02Nj
 U2NTU3MDQsLTgwNzU4NDg1NSwtMTcyMTcyNTk4OSwtODkwNTkz

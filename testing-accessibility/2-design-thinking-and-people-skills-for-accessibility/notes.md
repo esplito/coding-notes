@@ -288,6 +288,8 @@ Opportunities to get accessibility right in different building blocks of a desig
 
 > 💡 It answers the question:  _What actions can they take?_
 
+>💡Tip
+>Accessible affordances can help you design products with good usability. When users know how to interact with your product right away, they don’t have to spend time learning your UI and can focus on what’s important: solving their problems.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -298,11 +300,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzAxODE2MjUsLTIwMDM2MDIzMzQsLT
-k4MzkxNDAxLC0xNTQwMDE5MDI4LC04ODAzODAyNTIsMTc5NTI0
-MzU0MCwtMTQzNTAwNjU0MSwyMDc3ODk1MTk2LC0xNjczNjYzMz
-E1LC02MjY4NzgyOCwtMTQxODI3MTA5LC0xNDIzMzEwMCw0MjE5
-NDc4NDEsODQ0OTU3NDY4LC0yMTM3MjU5OTM3LC02NjU2NTU3MD
-QsLTgwNzU4NDg1NSwtMTcyMTcyNTk4OSwtODkwNTkzMjcwLC0y
-NDIyODU1MzVdfQ==
+eyJoaXN0b3J5IjpbLTI0OTc1NzI3NiwtMjAwMzYwMjMzNCwtOT
+gzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNzk1MjQz
+NTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2NzM2NjMzMT
+UsLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0MjMzMTAwLDQyMTk0
+Nzg0MSw4NDQ5NTc0NjgsLTIxMzcyNTk5MzcsLTY2NTY1NTcwNC
+wtODA3NTg0ODU1LC0xNzIxNzI1OTg5LC04OTA1OTMyNzAsLTI0
+MjI4NTUzNV19
 -->

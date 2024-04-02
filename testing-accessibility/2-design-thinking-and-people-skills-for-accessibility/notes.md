@@ -406,7 +406,8 @@ Notes from solution:
 **Q:** What processes would you like to try?
 **A:** I would like to:
 1.  Incorporate accessibility annotations in the design process in Figma.
-2. See that Product Management set accessibility 
+2. See that Product Management set accessibility requirements from the start so that PMs & designers have tackled a lot of issues before the devs are involved.
+3. See that everyone uses a Contrast Ratio plugin or other accessibility plugins in Figma.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -417,11 +418,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjg0NTI1NCwtMjExNjc5MDUwOCwtMT
-I3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC0yNzIw
-MDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAyMz
-M0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgwMjUyLDE3
-OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NTE5NiwtMTY3Mz
-Y2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNzEwOSwtMTQyMzMxMDAs
-NDIxOTQ3ODQxXX0=
+eyJoaXN0b3J5IjpbNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNz
+MyMzc4MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcyMDAw
+NTQxLDIwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMjMzNC
+wtOTgzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNzk1
+MjQzNTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2NzM2Nj
+MzMTUsLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0MjMzMTAwLDQy
+MTk0Nzg0MV19
 -->

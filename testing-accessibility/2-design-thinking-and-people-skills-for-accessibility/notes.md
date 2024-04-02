@@ -314,7 +314,8 @@ WCAG 2 Guidelines to check when designing UI for varied color perception:
 
 >-   **Body text:** with a minimum ratio of  4.5 : 1 and enhanced ratio 7 : 1
 >-   **Large-scale text (120-150% larger than body text):** minimum ratio of  3 : 1 and enhanced ratio 4.5 : 1
->-   **Active user interface components and graphical objects such as icons and graphs:** minimum ratio of  3 : 1 and enhanced ratio not defin
+>-   **Active user interface components and graphical objects such as icons and graphs:** minimum ratio of  3 : 1 and enhanced ratio not defined
+
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -325,11 +326,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzcxNzI2NjUsLTI3MjAwMDU0MSwyMD
-E2ODIzOTU4LC0yNDk3NTcyNzYsLTIwMDM2MDIzMzQsLTk4Mzkx
-NDAxLC0xNTQwMDE5MDI4LC04ODAzODAyNTIsMTc5NTI0MzU0MC
-wtMTQzNTAwNjU0MSwyMDc3ODk1MTk2LC0xNjczNjYzMzE1LC02
-MjY4NzgyOCwtMTQxODI3MTA5LC0xNDIzMzEwMCw0MjE5NDc4ND
-EsODQ0OTU3NDY4LC0yMTM3MjU5OTM3LC02NjU2NTU3MDQsLTgw
-NzU4NDg1NV19
+eyJoaXN0b3J5IjpbMjkwNzU4MzAsLTI3MjAwMDU0MSwyMDE2OD
+IzOTU4LC0yNDk3NTcyNzYsLTIwMDM2MDIzMzQsLTk4MzkxNDAx
+LC0xNTQwMDE5MDI4LC04ODAzODAyNTIsMTc5NTI0MzU0MCwtMT
+QzNTAwNjU0MSwyMDc3ODk1MTk2LC0xNjczNjYzMzE1LC02MjY4
+NzgyOCwtMTQxODI3MTA5LC0xNDIzMzEwMCw0MjE5NDc4NDEsOD
+Q0OTU3NDY4LC0yMTM3MjU5OTM3LC02NjU2NTU3MDQsLTgwNzU4
+NDg1NV19
 -->

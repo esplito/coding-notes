@@ -274,7 +274,14 @@ Opportunities to get accessibility right in different building blocks of a desig
 >  💡  **Use a minimum target size of 24 x 24 pixels.**
 >  💡 **Beware  [changes of context](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html#context-changedef "Link opens in a new window")  on focus or input.**
 >  💡  **Include ways to extend or adjust time limits.**
->  **Content shown on hover or focus must be dismissible and persistent.**
+>  💡 **Content shown on hover or focus must be dismissible and persistent.**
+
+#### Recommendations
+>Some of these items take more learning and study, so I would recommend reading up on them in the Web Content Accessibility Guidelines. At the very least, I would recommend taking “baby steps” like making sure:
+
+-   Interactive controls are keyboard focusable and operable
+-   Visible focus indicators are present
+-   Interactive touch targets are large enough for human fingers, including people with tremors
 
 
 ## Useful resources
@@ -286,11 +293,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTI0ODA0MTIsLTk4MzkxNDAxLC0xNT
-QwMDE5MDI4LC04ODAzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAw
-NjU0MSwyMDc3ODk1MTk2LC0xNjczNjYzMzE1LC02MjY4NzgyOC
-wtMTQxODI3MTA5LC0xNDIzMzEwMCw0MjE5NDc4NDEsODQ0OTU3
-NDY4LC0yMTM3MjU5OTM3LC02NjU2NTU3MDQsLTgwNzU4NDg1NS
-wtMTcyMTcyNTk4OSwtODkwNTkzMjcwLC0yNDIyODU1MzUsLTcz
-NTc4Mzc3OF19
+eyJoaXN0b3J5IjpbMzMyNjU0NTQwLC05ODM5MTQwMSwtMTU0MD
+AxOTAyOCwtODgwMzgwMjUyLDE3OTUyNDM1NDAsLTE0MzUwMDY1
+NDEsMjA3Nzg5NTE5NiwtMTY3MzY2MzMxNSwtNjI2ODc4MjgsLT
+E0MTgyNzEwOSwtMTQyMzMxMDAsNDIxOTQ3ODQxLDg0NDk1NzQ2
+OCwtMjEzNzI1OTkzNywtNjY1NjU1NzA0LC04MDc1ODQ4NTUsLT
+E3MjE3MjU5ODksLTg5MDU5MzI3MCwtMjQyMjg1NTM1LC03MzU3
+ODM3NzhdfQ==
 -->

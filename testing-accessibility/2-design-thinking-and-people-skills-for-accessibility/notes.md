@@ -255,7 +255,16 @@ A truly accessible design system would include accessibility through out.
 #### Takeaway🚨 
 >The main takeaway is that looking at individual components and documentation are both opportunities for accessibility to be improved, hopefully not forgotten. - Marcy Sutton
 
-Opportunities for
+Opportunities to get accessibility right in different building blocks of a design system:
+-   Color and design aesthetics
+-   Type readability
+-   Semantic structure within components
+-   Text alternatives
+-   Interactivity
+-   Configurability and flexibility
+-   Documentation
+
+
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -266,11 +275,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzNjQzNDMyLC04ODAzODAyNTIsMTc5NT
-I0MzU0MCwtMTQzNTAwNjU0MSwyMDc3ODk1MTk2LC0xNjczNjYz
-MzE1LC02MjY4NzgyOCwtMTQxODI3MTA5LC0xNDIzMzEwMCw0Mj
-E5NDc4NDEsODQ0OTU3NDY4LC0yMTM3MjU5OTM3LC02NjU2NTU3
-MDQsLTgwNzU4NDg1NSwtMTcyMTcyNTk4OSwtODkwNTkzMjcwLC
-0yNDIyODU1MzUsLTczNTc4Mzc3OCwxNjE5Mzc3MDA2LDc4OTMx
-MDE0Nl19
+eyJoaXN0b3J5IjpbLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNz
+k1MjQzNTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2NzM2
+NjMzMTUsLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0MjMzMTAwLD
+QyMTk0Nzg0MSw4NDQ5NTc0NjgsLTIxMzcyNTk5MzcsLTY2NTY1
+NTcwNCwtODA3NTg0ODU1LC0xNzIxNzI1OTg5LC04OTA1OTMyNz
+AsLTI0MjI4NTUzNSwtNzM1NzgzNzc4LDE2MTkzNzcwMDYsNzg5
+MzEwMTQ2XX0=
 -->

@@ -462,6 +462,9 @@ handleReduceMotionChanged(); // trigger once on load
 
 💡 If you want an *opt-in approach* you can use `prefers-reduced-motion: no-preference` instead!
 
+### Lesson 3: WCAG Success criterion for Motion
+Some motion-related WCAG guidelines that Marcy highlights
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -473,11 +476,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC00Nz
-U4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMyMzc4
-MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcyMDAwNTQxLD
-IwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMjMzNCwtOTgz
-OTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNzk1MjQzNT
-QwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2NzM2NjMzMTUs
-LTYyNjg3ODI4XX0=
+eyJoaXN0b3J5IjpbLTEyNTQ3MDU2NTgsLTkyNzk5MTMyMCwxNz
+I3MDUyNTg4LC00NzU4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1
+MDgsLTEyNzMyMzc4MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5Ni
+wtMjcyMDAwNTQxLDIwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAw
+MzYwMjMzNCwtOTgzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MD
+I1MiwxNzk1MjQzNTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYs
+LTE2NzM2NjMzMTVdfQ==
 -->

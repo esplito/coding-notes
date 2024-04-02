@@ -417,6 +417,11 @@ Notes from solution:
 
 ### Lesson 1: Use animation & motion safely
 
+Marcys recommendation:
+>-   Not making assumptions that everyone wants motion.
+>-   You can make the thing move but give users control to turn it on or off. In fact, make motion opt-in and not the default.
+>-   Your UI animations should be designed with purpose and have a reason for being there!
+
 📚 Recommended reading: https://source.opennews.org/articles/motion-sick/
 
 ## Useful resources
@@ -430,7 +435,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQ4NjM4MCwtNDc1ODgzNjQ2LDc0NT
+eyJoaXN0b3J5IjpbMTcyNzA1MjU4OCwtNDc1ODgzNjQ2LDc0NT
 QzOTI3LC0yMTE2NzkwNTA4LC0xMjczMjM3ODEwLC0xMzI5Njk1
 OTE4LDEyMDA1OTY4OTYsLTI3MjAwMDU0MSwyMDE2ODIzOTU4LC
 0yNDk3NTcyNzYsLTIwMDM2MDIzMzQsLTk4MzkxNDAxLC0xNTQw

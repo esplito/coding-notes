@@ -460,7 +460,7 @@ motionQuery.addEventListener('change', handleReduceMotionChanged);
 handleReduceMotionChanged(); // trigger once on load
 ```
 
-💡 If you want an opt-in approach you can use `prefers-reduced-motion: no-preference` instead!
+💡 If you want an *opt-in approach* you can use `prefers-reduced-motion: no-preference` instead!
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -473,7 +473,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDI2MzMwNiwxNzI3MDUyNTg4LC00Nz
+eyJoaXN0b3J5IjpbLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC00Nz
 U4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMyMzc4
 MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcyMDAwNTQxLD
 IwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMjMzNCwtOTgz

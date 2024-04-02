@@ -380,6 +380,7 @@ Notes from solution:
 Identified issues that I would want to discuss with other developers and designers:
 1. Icons without labels in rich text editor
 2. There seems to be no way in indicating/defining heading levels. What is the expected heading levels and how do I know which headings that I'm editing?
+3. There's tons of contrast issues in the rich text editor. I would suggest to have 
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -390,7 +391,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTY0OTU3NywtMTI3MzIzNzgxMCwtMT
+eyJoaXN0b3J5IjpbLTQyMDE1ODY2OCwtMTI3MzIzNzgxMCwtMT
 MyOTY5NTkxOCwxMjAwNTk2ODk2LC0yNzIwMDA1NDEsMjAxNjgy
 Mzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAyMzM0LC05ODM5MTQwMS
 wtMTU0MDAxOTAyOCwtODgwMzgwMjUyLDE3OTUyNDM1NDAsLTE0

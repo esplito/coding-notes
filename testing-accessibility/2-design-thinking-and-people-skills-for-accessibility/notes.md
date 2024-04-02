@@ -291,7 +291,7 @@ Opportunities to get accessibility right in different building blocks of a desig
 >💡Tip
 >Accessible affordances can help you design products with good usability. When users know how to interact with your product right away, they don’t have to spend time learning your UI and can focus on what’s important: solving their problems.
 
-Marcy mentions example of having other interactive elements than just swipe ("Tinder"-app for Pets had this). Swiping is problematic when using a screen reader. You need affordance in form of another type of UI element, such as 
+Marcy mentions example of having other interactive elements than just swipe ("Tinder"-app for Pets had buttons and swiping). Swiping is problematic when using a screen reader. You need affordance in form of another type of UI element, such as buttons.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -302,11 +302,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MjEyNzQsLTI0OTc1NzI3NiwtMjAwMz
-YwMjMzNCwtOTgzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1
-MiwxNzk1MjQzNTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLT
-E2NzM2NjMzMTUsLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0MjMz
-MTAwLDQyMTk0Nzg0MSw4NDQ5NTc0NjgsLTIxMzcyNTk5MzcsLT
-Y2NTY1NTcwNCwtODA3NTg0ODU1LC0xNzIxNzI1OTg5LC04OTA1
-OTMyNzBdfQ==
+eyJoaXN0b3J5IjpbMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMD
+AzNjAyMzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgw
+MjUyLDE3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NTE5Ni
+wtMTY3MzY2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNzEwOSwtMTQy
+MzMxMDAsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwtMjEzNzI1OTkzNy
+wtNjY1NjU1NzA0LC04MDc1ODQ4NTUsLTE3MjE3MjU5ODksLTg5
+MDU5MzI3MF19
 -->

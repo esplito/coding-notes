@@ -341,8 +341,8 @@ Issues identified by myself:
 4. The slim toggle fails on the background that it sits, with a contrast ratio of 1.4:1.
 5. Zoom icon does not meet AAA-requirements when highlighted. It fails on regular text. It passes on large text though.
 6. "New camp spot" text in the toolbar fails on all checks in CCA
-7. 
-8. 
+7. The dividers also fails on all checks in CCA
+8. Same goes for the text in the text boxes.
 
 
 #### **🛠** Challenge: Find Iconography & Label Issues
@@ -367,11 +367,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2NDY5OTM1LDEyMDA1OTY4OTYsLTI3Mj
-AwMDU0MSwyMDE2ODIzOTU4LC0yNDk3NTcyNzYsLTIwMDM2MDIz
-MzQsLTk4MzkxNDAxLC0xNTQwMDE5MDI4LC04ODAzODAyNTIsMT
-c5NTI0MzU0MCwtMTQzNTAwNjU0MSwyMDc3ODk1MTk2LC0xNjcz
-NjYzMzE1LC02MjY4NzgyOCwtMTQxODI3MTA5LC0xNDIzMzEwMC
-w0MjE5NDc4NDEsODQ0OTU3NDY4LC0yMTM3MjU5OTM3LC02NjU2
-NTU3MDRdfQ==
+eyJoaXN0b3J5IjpbLTYwNjYwNzg4OCwxMjAwNTk2ODk2LC0yNz
+IwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAy
+MzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgwMjUyLD
+E3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NTE5NiwtMTY3
+MzY2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNzEwOSwtMTQyMzMxMD
+AsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwtMjEzNzI1OTkzNywtNjY1
+NjU1NzA0XX0=
 -->

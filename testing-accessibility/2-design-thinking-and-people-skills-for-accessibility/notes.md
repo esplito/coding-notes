@@ -246,7 +246,11 @@ Storybook offers an official [a11y addon](https://storybook.js.org/addons/@story
 #### Terms you might hear while collaborating 🗣
 - **Design system**: a complete set of standards, principles, docs,  UI patterns and components (that help fulfill those standards).
 - **Pattern library**: represents components in a design system.
-- **Style guide**: a document with rules/standards
+- **Style guide**: a document with rules/standards for graphic style (such as color, typography, icons, images). Also includes brand principles on how to use it.
+
+#### Takeaway🚨 
+>The main takeaway is that looking at individual components and documentation are both opportunities for accessibility to be improved, hopefully not forgotten. - Marcy Sutton
+
 
 
 ## Useful resources
@@ -258,7 +262,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTgwMDczMiwtMTQzNTAwNjU0MSwyMD
+eyJoaXN0b3J5IjpbMTc5NTI0MzU0MCwtMTQzNTAwNjU0MSwyMD
 c3ODk1MTk2LC0xNjczNjYzMzE1LC02MjY4NzgyOCwtMTQxODI3
 MTA5LC0xNDIzMzEwMCw0MjE5NDc4NDEsODQ0OTU3NDY4LC0yMT
 M3MjU5OTM3LC02NjU2NTU3MDQsLTgwNzU4NDg1NSwtMTcyMTcy

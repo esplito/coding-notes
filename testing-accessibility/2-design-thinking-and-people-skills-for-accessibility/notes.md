@@ -267,6 +267,9 @@ Opportunities to get accessibility right in different building blocks of a desig
 
 ### Lesson 2: Ensuring Accessible Interactions
 
+#### 💡 Tips to approach interactivity with accessibility in mind 💡
+- 
+
 
 
 ## Useful resources
@@ -278,11 +281,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzkxNDAxLC0xNTQwMDE5MDI4LC04OD
-AzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAwNjU0MSwyMDc3ODk1
-MTk2LC0xNjczNjYzMzE1LC02MjY4NzgyOCwtMTQxODI3MTA5LC
-0xNDIzMzEwMCw0MjE5NDc4NDEsODQ0OTU3NDY4LC0yMTM3MjU5
-OTM3LC02NjU2NTU3MDQsLTgwNzU4NDg1NSwtMTcyMTcyNTk4OS
-wtODkwNTkzMjcwLC0yNDIyODU1MzUsLTczNTc4Mzc3OCwxNjE5
-Mzc3MDA2XX0=
+eyJoaXN0b3J5IjpbLTM5ODYyMDE2MSwtOTgzOTE0MDEsLTE1ND
+AwMTkwMjgsLTg4MDM4MDI1MiwxNzk1MjQzNTQwLC0xNDM1MDA2
+NTQxLDIwNzc4OTUxOTYsLTE2NzM2NjMzMTUsLTYyNjg3ODI4LC
+0xNDE4MjcxMDksLTE0MjMzMTAwLDQyMTk0Nzg0MSw4NDQ5NTc0
+NjgsLTIxMzcyNTk5MzcsLTY2NTY1NTcwNCwtODA3NTg0ODU1LC
+0xNzIxNzI1OTg5LC04OTA1OTMyNzAsLTI0MjI4NTUzNSwtNzM1
+NzgzNzc4XX0=
 -->

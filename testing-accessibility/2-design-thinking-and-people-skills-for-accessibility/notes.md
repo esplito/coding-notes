@@ -417,21 +417,24 @@ Notes from solution:
 
 ### Lesson 1: Use animation & motion safely
 
+📚 Recommended reading: https://source.opennews.org/articles/motion-sick/
 
 ## Useful resources
 TODO: Add more  useful links.
+
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [Accessible Brand Colors by Use All Five](https://abc.useallfive.com/)
 - [Overlay Fact Sheet](https://overlayfactsheet.com/) 
+- [Your Interactive Makes me Sick](https://source.opennews.org/articles/motion-sick/)
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTg4MzY0Niw3NDU0MzkyNywtMjExNj
-c5MDUwOCwtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2
-ODk2LC0yNzIwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC
-0yMDAzNjAyMzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgw
-MzgwMjUyLDE3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NT
-E5NiwtMTY3MzY2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNzEwOSwt
-MTQyMzMxMDBdfQ==
+eyJoaXN0b3J5IjpbLTE3MDQ4NjM4MCwtNDc1ODgzNjQ2LDc0NT
+QzOTI3LC0yMTE2NzkwNTA4LC0xMjczMjM3ODEwLC0xMzI5Njk1
+OTE4LDEyMDA1OTY4OTYsLTI3MjAwMDU0MSwyMDE2ODIzOTU4LC
+0yNDk3NTcyNzYsLTIwMDM2MDIzMzQsLTk4MzkxNDAxLC0xNTQw
+MDE5MDI4LC04ODAzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAwNj
+U0MSwyMDc3ODk1MTk2LC0xNjczNjYzMzE1LC02MjY4NzgyOCwt
+MTQxODI3MTA5XX0=
 -->

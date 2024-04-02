@@ -363,7 +363,7 @@ Identified issues:
 
 Possible fixes: 
 1. complement icons with text labels
-2. Add accessibility annotations to the design so that we know what the expected implemented behaviour for these components 
+2. Add accessibility annotations to the design so that we know what the expected implemented behaviour for these components is.
 
 #### **🛠** Challenge: Find Content Layout Issues
 >Your challenge is to identify possible issues with these two layouts and discuss your expectations of what you will implement as a developer or communicate with a design team.
@@ -380,7 +380,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODIxNDkxNSwtMTMyOTY5NTkxOCwxMj
+eyJoaXN0b3J5IjpbMTYyODMxNzg3MywtMTMyOTY5NTkxOCwxMj
 AwNTk2ODk2LC0yNzIwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3
 Mjc2LC0yMDAzNjAyMzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOC
 wtODgwMzgwMjUyLDE3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3

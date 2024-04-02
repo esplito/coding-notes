@@ -398,7 +398,7 @@ Notes from solution:
 
 #### 📝 Exercise: Feedback Loop Reflection
 **Q:** When in the cycle is accessibility feedback provided to the design team? What about the dev team?
-**A:** Almost never. It only happens if a developer or designer is interested in accessibility. 
+**A:** Almost never. It only happens if a developer or designer is interested in accessibility. I try to raise accessibility issues to designers as soon as I get a Figma Design. I can count on one hand the number of times that someone has raised accessibility issues to the dev team (once or twice by the design team).
 
 How successful is the accessibility feedback loop for your current processes?
 
@@ -413,7 +413,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODg4ODMxMywtMjExNjc5MDUwOCwtMT
+eyJoaXN0b3J5IjpbMjAwNDkzODc0NiwtMjExNjc5MDUwOCwtMT
 I3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC0yNzIw
 MDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAyMz
 M0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgwMjUyLDE3

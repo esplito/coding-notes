@@ -293,6 +293,11 @@ Opportunities to get accessibility right in different building blocks of a desig
 
 Marcy mentions example of having other interactive elements than just swipe ("Tinder"-app for Pets had buttons and swiping). Swiping is problematic when using a screen reader. You need affordance in form of another type of UI element, such as buttons.
 
+### Lesson 3: Identify Potential Accessibility Issues in Design Systems
+
+**Goal of this lesson 🎯**
+- Get you thinking abou
+
 ## Useful resources
 TODO: Add more  useful links.
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
@@ -302,11 +307,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMD
-AzNjAyMzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgw
-MjUyLDE3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NTE5Ni
-wtMTY3MzY2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNzEwOSwtMTQy
-MzMxMDAsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwtMjEzNzI1OTkzNy
-wtNjY1NjU1NzA0LC04MDc1ODQ4NTUsLTE3MjE3MjU5ODksLTg5
-MDU5MzI3MF19
+eyJoaXN0b3J5IjpbMzQ0OTAyMjkzLDIwMTY4MjM5NTgsLTI0OT
+c1NzI3NiwtMjAwMzYwMjMzNCwtOTgzOTE0MDEsLTE1NDAwMTkw
+MjgsLTg4MDM4MDI1MiwxNzk1MjQzNTQwLC0xNDM1MDA2NTQxLD
+IwNzc4OTUxOTYsLTE2NzM2NjMzMTUsLTYyNjg3ODI4LC0xNDE4
+MjcxMDksLTE0MjMzMTAwLDQyMTk0Nzg0MSw4NDQ5NTc0NjgsLT
+IxMzcyNTk5MzcsLTY2NTY1NTcwNCwtODA3NTg0ODU1LC0xNzIx
+NzI1OTg5XX0=
 -->

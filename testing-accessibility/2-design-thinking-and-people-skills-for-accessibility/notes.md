@@ -268,8 +268,13 @@ Opportunities to get accessibility right in different building blocks of a desig
 ### Lesson 2: Ensuring Accessible Interactions
 
 #### 💡 Tips to approach interactivity with accessibility in mind 💡
-- 
-
+> 💡 **Anything mouse users can do, keyboard and Assistive Technology users must also.**
+> 💡 **Make interactive controls obvious.**
+>  💡 **Keyboard focus indicators must be visible.**
+>  💡  **Use a minimum target size of 24 x 24 pixels.**
+>  💡 **Beware  [changes of context](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html#context-changedef "Link opens in a new window")  on focus or input.**
+>  💡  **Include ways to extend or adjust time limits.**
+>  **Content shown on hover or focus must be dismissible and persistent.**
 
 
 ## Useful resources
@@ -281,11 +286,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODYyMDE2MSwtOTgzOTE0MDEsLTE1ND
-AwMTkwMjgsLTg4MDM4MDI1MiwxNzk1MjQzNTQwLC0xNDM1MDA2
-NTQxLDIwNzc4OTUxOTYsLTE2NzM2NjMzMTUsLTYyNjg3ODI4LC
-0xNDE4MjcxMDksLTE0MjMzMTAwLDQyMTk0Nzg0MSw4NDQ5NTc0
-NjgsLTIxMzcyNTk5MzcsLTY2NTY1NTcwNCwtODA3NTg0ODU1LC
-0xNzIxNzI1OTg5LC04OTA1OTMyNzAsLTI0MjI4NTUzNSwtNzM1
-NzgzNzc4XX0=
+eyJoaXN0b3J5IjpbLTExOTI0ODA0MTIsLTk4MzkxNDAxLC0xNT
+QwMDE5MDI4LC04ODAzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAw
+NjU0MSwyMDc3ODk1MTk2LC0xNjczNjYzMzE1LC02MjY4NzgyOC
+wtMTQxODI3MTA5LC0xNDIzMzEwMCw0MjE5NDc4NDEsODQ0OTU3
+NDY4LC0yMTM3MjU5OTM3LC02NjU2NTU3MDQsLTgwNzU4NDg1NS
+wtMTcyMTcyNTk4OSwtODkwNTkzMjcwLC0yNDIyODU1MzUsLTcz
+NTc4Mzc3OF19
 -->

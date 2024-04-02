@@ -265,7 +265,8 @@ Opportunities to get accessibility right in different building blocks of a desig
 	- That designs are modular and responsive
 -   Documentation
 
-### Lesson 2: Collaborate on Designs & Prototypes
+### Lesson 2: Ensuring Accessible Interactions
+
 
 
 ## Useful resources
@@ -277,11 +278,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzYwNDI1MCwtMTU0MDAxOTAyOCwtOD
-gwMzgwMjUyLDE3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5
-NTE5NiwtMTY3MzY2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNzEwOS
-wtMTQyMzMxMDAsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwtMjEzNzI1
-OTkzNywtNjY1NjU1NzA0LC04MDc1ODQ4NTUsLTE3MjE3MjU5OD
-ksLTg5MDU5MzI3MCwtMjQyMjg1NTM1LC03MzU3ODM3NzgsMTYx
-OTM3NzAwNl19
+eyJoaXN0b3J5IjpbLTk4MzkxNDAxLC0xNTQwMDE5MDI4LC04OD
+AzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAwNjU0MSwyMDc3ODk1
+MTk2LC0xNjczNjYzMzE1LC02MjY4NzgyOCwtMTQxODI3MTA5LC
+0xNDIzMzEwMCw0MjE5NDc4NDEsODQ0OTU3NDY4LC0yMTM3MjU5
+OTM3LC02NjU2NTU3MDQsLTgwNzU4NDg1NSwtMTcyMTcyNTk4OS
+wtODkwNTkzMjcwLC0yNDIyODU1MzUsLTczNTc4Mzc3OCwxNjE5
+Mzc3MDA2XX0=
 -->

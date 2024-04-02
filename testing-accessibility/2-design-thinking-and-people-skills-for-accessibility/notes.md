@@ -336,7 +336,9 @@ Issues identified by myself:
 1.4.6 (Contrast Enhanced) AAA: ❌
 1.4.11 (Non-text Contrast) AA:  ✅
 
-3. The 
+3. The controls (checkbox etc.) also get same results as submit button (3.7:1 contrast ratio).
+
+4. The slim toggle fails on the background that it sits, with a co
 
 
 #### **🛠** Challenge: Find Iconography & Label Issues
@@ -361,7 +363,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjA5NDA1MywxMjAwNTk2ODk2LC0yNz
+eyJoaXN0b3J5IjpbMTAxNDAwOTk0MCwxMjAwNTk2ODk2LC0yNz
 IwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAy
 MzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgwMjUyLD
 E3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NTE5NiwtMTY3

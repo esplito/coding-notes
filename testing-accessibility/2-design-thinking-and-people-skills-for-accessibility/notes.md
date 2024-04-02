@@ -385,7 +385,11 @@ Identified issues that I would want to discuss with other developers and designe
 5. There's no way to describe the images with alt text.
 
 Notes from solution:
-- 
+>- For the rendered version of the article, it would be unclear to users if the three boxes are static content or if they are interactive. Some subtle treatments could be added to make it more evident that they are interactive, without relying on a hover and focus state to indicate as such
+>- The editor layout contains several contrast issues. Testing and increasing the contrast of this main heading, subheading, and the `H1` would be beneficial. All of these texts look very faint. 
+
+>💡Tip
+> Collaborating, providing feedback, and influencing design earlier in the process saves you from trying to shoehorn fixes later in the development cycle.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -396,7 +400,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTA0NjAxODUsLTEyNzMyMzc4MTAsLT
+eyJoaXN0b3J5IjpbLTIxMTY3OTA1MDgsLTEyNzMyMzc4MTAsLT
 EzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcyMDAwNTQxLDIwMTY4
 MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMjMzNCwtOTgzOTE0MD
 EsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNzk1MjQzNTQwLC0x

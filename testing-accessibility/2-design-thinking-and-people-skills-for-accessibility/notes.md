@@ -283,6 +283,8 @@ Opportunities to get accessibility right in different building blocks of a desig
 >-   Visible focus indicators are present
 >-   Interactive touch targets are large enough for human fingers, including people with tremors
 
+#### Affordances in Interaction Design
+
 
 
 ## Useful resources
@@ -294,11 +296,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDM2MDIzMzQsLTk4MzkxNDAxLC0xNT
-QwMDE5MDI4LC04ODAzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAw
-NjU0MSwyMDc3ODk1MTk2LC0xNjczNjYzMzE1LC02MjY4NzgyOC
-wtMTQxODI3MTA5LC0xNDIzMzEwMCw0MjE5NDc4NDEsODQ0OTU3
-NDY4LC0yMTM3MjU5OTM3LC02NjU2NTU3MDQsLTgwNzU4NDg1NS
-wtMTcyMTcyNTk4OSwtODkwNTkzMjcwLC0yNDIyODU1MzUsLTcz
-NTc4Mzc3OF19
+eyJoaXN0b3J5IjpbMTE3NzAwNjY0MywtMjAwMzYwMjMzNCwtOT
+gzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNzk1MjQz
+NTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2NzM2NjMzMT
+UsLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0MjMzMTAwLDQyMTk0
+Nzg0MSw4NDQ5NTc0NjgsLTIxMzcyNTk5MzcsLTY2NTY1NTcwNC
+wtODA3NTg0ODU1LC0xNzIxNzI1OTg5LC04OTA1OTMyNzAsLTI0
+MjI4NTUzNV19
 -->

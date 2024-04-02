@@ -302,6 +302,9 @@ Marcy mentions example of having other interactive elements than just swipe ("Ti
 - practice structuring feedback
 - highlighting accessibility problems before they get baked into implementations.
 
+Prerequisites:
+- Have https://www.tpgi.com/color-contrast-checker/ installed.
+
 
 
 ## Useful resources
@@ -313,11 +316,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ2Njg5NTgsMjAxNjgyMzk1OCwtMj
-Q5NzU3Mjc2LC0yMDAzNjAyMzM0LC05ODM5MTQwMSwtMTU0MDAx
-OTAyOCwtODgwMzgwMjUyLDE3OTUyNDM1NDAsLTE0MzUwMDY1ND
-EsMjA3Nzg5NTE5NiwtMTY3MzY2MzMxNSwtNjI2ODc4MjgsLTE0
-MTgyNzEwOSwtMTQyMzMxMDAsNDIxOTQ3ODQxLDg0NDk1NzQ2OC
-wtMjEzNzI1OTkzNywtNjY1NjU1NzA0LC04MDc1ODQ4NTUsLTE3
-MjE3MjU5ODldfQ==
+eyJoaXN0b3J5IjpbLTI3MjAwMDU0MSwyMDE2ODIzOTU4LC0yND
+k3NTcyNzYsLTIwMDM2MDIzMzQsLTk4MzkxNDAxLC0xNTQwMDE5
+MDI4LC04ODAzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAwNjU0MS
+wyMDc3ODk1MTk2LC0xNjczNjYzMzE1LC02MjY4NzgyOCwtMTQx
+ODI3MTA5LC0xNDIzMzEwMCw0MjE5NDc4NDEsODQ0OTU3NDY4LC
+0yMTM3MjU5OTM3LC02NjU2NTU3MDQsLTgwNzU4NDg1NSwtMTcy
+MTcyNTk4OV19
 -->

@@ -284,7 +284,9 @@ Opportunities to get accessibility right in different building blocks of a desig
 >-   Interactive touch targets are large enough for human fingers, including people with tremors
 
 #### Affordances in Interaction Design
+> 📖 An  _affordance_  is a term for what a user can do with an object based on their capabilities.
 
+> 💡 It answers the question:  _What actions can they take?_
 
 
 ## Useful resources
@@ -296,11 +298,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzAwNjY0MywtMjAwMzYwMjMzNCwtOT
-gzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNzk1MjQz
-NTQwLC0xNDM1MDA2NTQxLDIwNzc4OTUxOTYsLTE2NzM2NjMzMT
-UsLTYyNjg3ODI4LC0xNDE4MjcxMDksLTE0MjMzMTAwLDQyMTk0
-Nzg0MSw4NDQ5NTc0NjgsLTIxMzcyNTk5MzcsLTY2NTY1NTcwNC
-wtODA3NTg0ODU1LC0xNzIxNzI1OTg5LC04OTA1OTMyNzAsLTI0
-MjI4NTUzNV19
+eyJoaXN0b3J5IjpbLTEzMzAxODE2MjUsLTIwMDM2MDIzMzQsLT
+k4MzkxNDAxLC0xNTQwMDE5MDI4LC04ODAzODAyNTIsMTc5NTI0
+MzU0MCwtMTQzNTAwNjU0MSwyMDc3ODk1MTk2LC0xNjczNjYzMz
+E1LC02MjY4NzgyOCwtMTQxODI3MTA5LC0xNDIzMzEwMCw0MjE5
+NDc4NDEsODQ0OTU3NDY4LC0yMTM3MjU5OTM3LC02NjU2NTU3MD
+QsLTgwNzU4NDg1NSwtMTcyMTcyNTk4OSwtODkwNTkzMjcwLC0y
+NDIyODU1MzVdfQ==
 -->

@@ -308,7 +308,13 @@ Prerequisites:
 >(CCA) is a free color contrast checker tool that allows you to easily determine the contrast ratio of two colors using an eyedropper tool.
 > This desktop application works anywhere on your screen–not just the web browser.
 
+## WCAG Color Contrast Guidelines
 
+WCAG 2 Guidelines to check when designing UI for varied color perception:
+
+>-   **Body text:** with a minimum ratio of  4.5 : 1 and enhanced ratio 7 : 1
+>-   **Large-scale text (120-150% larger than body text):** minimum ratio of  3 : 1 and enhanced ratio 4.5 : 1
+>-   **Active user interface components and graphical objects such as icons and graphs:** minimum ratio of  3 : 1 and enhanced ratio not defin
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -319,7 +325,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDM5ODYxNjYsLTI3MjAwMDU0MSwyMD
+eyJoaXN0b3J5IjpbLTEyNzcxNzI2NjUsLTI3MjAwMDU0MSwyMD
 E2ODIzOTU4LC0yNDk3NTcyNzYsLTIwMDM2MDIzMzQsLTk4Mzkx
 NDAxLC0xNTQwMDE5MDI4LC04ODAzODAyNTIsMTc5NTI0MzU0MC
 wtMTQzNTAwNjU0MSwyMDc3ODk1MTk2LC0xNjczNjYzMzE1LC02

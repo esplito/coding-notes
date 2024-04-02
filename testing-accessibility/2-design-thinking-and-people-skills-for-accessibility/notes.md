@@ -394,7 +394,15 @@ Notes from solution:
 ### Lesson 4: Accessibility Feedback Loop Discussion
 > At your organization, where in the software development cycle does accessibility feedback happen?
 
-🎯 We should strive to integrate it as early as possible in the cycle. -> this means that we have to learn to collaborate with teams ac
+🎯 We should strive to integrate it as early as possible in the cycle. -> this means that we have to learn to collaborate with teams across the organization.
+
+#### 📝 Exercise: Feedback Loop Reflection
+**Q:** When in the cycle is accessibility feedback provided to the design team? What about the dev team?
+**A:** Almost never. It only happens if a developer or designer is interested in accessibility. 
+
+How successful is the accessibility feedback loop for your current processes?
+
+What processes would you like to try?
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -405,7 +413,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MjY2OTA3MSwtMjExNjc5MDUwOCwtMT
+eyJoaXN0b3J5IjpbMTMwODg4ODMxMywtMjExNjc5MDUwOCwtMT
 I3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC0yNzIw
 MDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAyMz
 M0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgwMjUyLDE3

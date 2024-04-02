@@ -296,7 +296,10 @@ Marcy mentions example of having other interactive elements than just swipe ("Ti
 ### Lesson 3: Identify Potential Accessibility Issues in Design Systems
 
 **Goal of this lesson 🎯**
-- Get you thinking abou
+- Get you thinking about *potential accessibility issues* when reviewing design systems, mockups, layouts, and components.
+
+**Includes challenges that provides opportunity to:**
+- 
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -307,7 +310,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0OTAyMjkzLDIwMTY4MjM5NTgsLTI0OT
+eyJoaXN0b3J5IjpbNzkzODk4NzQyLDIwMTY4MjM5NTgsLTI0OT
 c1NzI3NiwtMjAwMzYwMjMzNCwtOTgzOTE0MDEsLTE1NDAwMTkw
 MjgsLTg4MDM4MDI1MiwxNzk1MjQzNTQwLC0xNDM1MDA2NTQxLD
 IwNzc4OTUxOTYsLTE2NzM2NjMzMTUsLTYyNjg3ODI4LC0xNDE4

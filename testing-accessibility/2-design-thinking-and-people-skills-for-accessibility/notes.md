@@ -326,12 +326,14 @@ Identify color & contrast issues in this design.
 ![Interactive components from a design system](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1655845415%2Fdesign-and-people-skills%2Fdesigns-as-prototyping%2Fidentify-potential-accessibility-issues-in-design-systems%2FUntitled_q6og1g.png&w=3840&q=100)
 
 Issues identified by myself:
-1. Subscribe has 2:5:1 in contrast ratio. It fails on all checks that CCA does.
+1. Subscribe has 2.5:1 in contrast ratio. It fails on all checks that CCA does.
 1.4.3 (Contrast Minimum) AA: ❌
 1.4.6 (Contrast Enhanced) AAA: ❌
 1.4.11 (Non-text Contrast) AA:  ❌
 
-2. 
+2. Submit button fails on some checks. Has contrast ratio 3.4:1.
+
+
 
 #### **🛠** Challenge: Find Iconography & Label Issues
 > The following challenge requires you to identify one overarching issue with iconography in the design system and another major issue with text labels.
@@ -355,7 +357,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTI5MzAyNywxMjAwNTk2ODk2LC0yNz
+eyJoaXN0b3J5IjpbMjExODMxMjAyOSwxMjAwNTk2ODk2LC0yNz
 IwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAy
 MzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgwMjUyLD
 E3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NTE5NiwtMTY3

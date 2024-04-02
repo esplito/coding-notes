@@ -362,8 +362,11 @@ Identified issues:
 2. There's nothing that indicates how and when these icons should be used.
 
 Possible fixes: 
-1. complement icons with text labels
-2. Add accessibility annotations to the design so that we know what the expected implemented behaviour for these components is.
+3. complement icons with text labels
+4. Add accessibility annotations to the design so that we know what the expected implemented behaviour for these components is.
+
+Notes from solution:
+>- There is also an issue with showing additional controls on focus, which we discussed in the previous section on interactions and affordances.
 
 #### **🛠** Challenge: Find Content Layout Issues
 >Your challenge is to identify possible issues with these two layouts and discuss your expectations of what you will implement as a developer or communicate with a design team.
@@ -380,11 +383,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODMxNzg3MywtMTMyOTY5NTkxOCwxMj
-AwNTk2ODk2LC0yNzIwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3
-Mjc2LC0yMDAzNjAyMzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOC
-wtODgwMzgwMjUyLDE3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3
-Nzg5NTE5NiwtMTY3MzY2MzMxNSwtNjI2ODc4MjgsLTE0MTgyNz
-EwOSwtMTQyMzMxMDAsNDIxOTQ3ODQxLDg0NDk1NzQ2OCwtMjEz
-NzI1OTkzN119
+eyJoaXN0b3J5IjpbODY5NjQ0MDg5LC0xMzI5Njk1OTE4LDEyMD
+A1OTY4OTYsLTI3MjAwMDU0MSwyMDE2ODIzOTU4LC0yNDk3NTcy
+NzYsLTIwMDM2MDIzMzQsLTk4MzkxNDAxLC0xNTQwMDE5MDI4LC
+04ODAzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAwNjU0MSwyMDc3
+ODk1MTk2LC0xNjczNjYzMzE1LC02MjY4NzgyOCwtMTQxODI3MT
+A5LC0xNDIzMzEwMCw0MjE5NDc4NDEsODQ0OTU3NDY4LC0yMTM3
+MjU5OTM3XX0=
 -->

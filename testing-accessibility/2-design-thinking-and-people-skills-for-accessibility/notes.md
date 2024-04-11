@@ -625,6 +625,7 @@ In this lesson we get to learn and try some strategies for finding answers to di
 ##### The CampSpots Checkout Process
 Test here: https://workshop-design-people-skills.testingaccessibility.com/plan-your-trip/passes.html
 
+****
 
 
 ## Useful resources
@@ -638,11 +639,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDMyMjU4MywtMTIyOTUwMzMxOCwtMT
-k2NDgzMjA3NSw5ODk5NjU0LDEzNTQ5NjEyOCwxODkwNjY0OTU1
-LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OT
-g1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4
-MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkxMzIwLD
-E3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMjExNjc5
-MDUwOF19
+eyJoaXN0b3J5IjpbLTE0MTAxMTM2MjMsLTEyMjk1MDMzMTgsLT
+E5NjQ4MzIwNzUsOTg5OTY1NCwxMzU0OTYxMjgsMTg5MDY2NDk1
+NSwxMTAzODI2NDQ3LC04NjY4MTI5ODgsMTMzNjIxOTkyOSwtNj
+k4NTk0NjEwLDExNzc2NjkyMTksLTEwMTA5NjY5NjAsLTkxOTQ3
+ODIxNiwtNDIwNjc2ODUxLDE5MDMxOTgyNzcsLTkyNzk5MTMyMC
+wxNzI3MDUyNTg4LC00NzU4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3
+OTA1MDhdfQ==
 -->

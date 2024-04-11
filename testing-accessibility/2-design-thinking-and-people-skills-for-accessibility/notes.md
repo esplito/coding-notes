@@ -475,7 +475,8 @@ Some motion-related WCAG guidelines that Marcy highlights:
 **Q: What would be the impact on people when things are moving/animating on the screen?**
 A: 
 - You might get overwhelmed and have difficulties seeing the actual content that you are interested in. 
-- 
+- There are no controls for pausing/playing the video that is in the hero.
+- The rotating sun is distracting and can't be stopped either.
 
 **Q: How should these issues be addressed?**
 A: 
@@ -493,7 +494,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MjczOTQxNSwxOTAzMTk4Mjc3LC05Mj
+eyJoaXN0b3J5IjpbLTQyMDY3Njg1MSwxOTAzMTk4Mjc3LC05Mj
 c5OTEzMjAsMTcyNzA1MjU4OCwtNDc1ODgzNjQ2LDc0NTQzOTI3
 LC0yMTE2NzkwNTA4LC0xMjczMjM3ODEwLC0xMzI5Njk1OTE4LD
 EyMDA1OTY4OTYsLTI3MjAwMDU0MSwyMDE2ODIzOTU4LC0yNDk3

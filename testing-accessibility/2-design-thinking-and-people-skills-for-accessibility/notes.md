@@ -616,6 +616,12 @@ Marcy suggests to look at Deque's resource “[Manage Accessibility through Orga
 
 ### Lesson 4: Strategies for finding answers to accessibility issues
 
+In this lesson we get to learn and try some strategies for finding answers to different accessibility issues.
+
+> Whatever the information source, you need to be discerning in what you take in. You also need to be diligent in testing and validating a proposed solution to ensure that what you found actually solves a user-impacting problem.
+
+
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -627,7 +633,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTcxMTQ1MCwtMTIyOTUwMzMxOCwtMT
+eyJoaXN0b3J5IjpbMTEyOTAzODk5MiwtMTIyOTUwMzMxOCwtMT
 k2NDgzMjA3NSw5ODk5NjU0LDEzNTQ5NjEyOCwxODkwNjY0OTU1
 LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OT
 g1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4

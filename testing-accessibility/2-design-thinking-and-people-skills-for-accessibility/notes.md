@@ -489,6 +489,8 @@ Under WCAG guidelines, any media that autoplays should have controls that allow 
 
 Page tested: https://workshop-design-people-skills.testingaccessibility.com/plan-your-trip/events.html
 
+#### 🛠️ Challenge: Add Prefers Reduced Motion to a Video
+
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -501,11 +503,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTQ3ODIxNiwtNDIwNjc2ODUxLDE5MD
-MxOTgyNzcsLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC00NzU4ODM2
-NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMyMzc4MTAsLT
-EzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcyMDAwNTQxLDIwMTY4
-MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMjMzNCwtOTgzOTE0MD
-EsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNzk1MjQzNTQwLC0x
-NDM1MDA2NTQxXX0=
+eyJoaXN0b3J5IjpbLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNiwtND
+IwNjc2ODUxLDE5MDMxOTgyNzcsLTkyNzk5MTMyMCwxNzI3MDUy
+NTg4LC00NzU4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLT
+EyNzMyMzc4MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcy
+MDAwNTQxLDIwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMj
+MzNCwtOTgzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1Miwx
+Nzk1MjQzNTQwXX0=
 -->

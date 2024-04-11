@@ -558,6 +558,13 @@ Marcy suggested to just add this (which would work in regular CSS too):
 ## Section 5 - Finding answers to accessibility issues
 > This module focuses on developing strategies for finding answers to accessibility issues and how to feel confident in those answers. You will also learn how to build that accessibility "muscle" to understand user impact and solutions.
 
+### Lesson 1: Finding answers to accessibility issues
+> The big caveat here is that we all have our own biases, as discussed earlier.
+> Part of finding answers is “knowing what you don't know” and not automatically assuming that everything you find will be correct.
+
+Marcy suggest to do the following when "
+
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -569,7 +576,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzYyODU2OSwxODkwNjY0OTU1LDExMD
+eyJoaXN0b3J5IjpbLTY0NjA5Nzc4NCwxODkwNjY0OTU1LDExMD
 M4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OTg1OTQ2
 MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4MjE2LC
 00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkxMzIwLDE3Mjcw

@@ -763,7 +763,9 @@ Title: Modal does not receive focus when opened with keyboard
 Expected outcome: After ticket is solved -> Modal receives focus when opening it with keyboard.
 Actual outcome: ?
 User impact: Keyboard users will be able to tab in the modal instead of the content behind it when they open the modal.
-
+WCAG Success criterion: 
+- [2.4.3 Focus Order](https://www.w3.org/TR/WCAG22/#focus-order)
+	- You read more about it here: https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -777,11 +779,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTUzMTQ4MSw4Mjk2NjAxOTAsMTUwOT
-I5NjAwMSwtMzIzMzA4NTI5LDE2NzU4OTg2MjMsMTUxNTk0OTE0
-MSwtNTUwODM5NzEwLDQ4NjMzNTEwMywzNjY3MjY1MCwtMTM3OD
-I0MDYxLC0yMDc0OTU0OTA3LC0xMjI5NTAzMzE4LC0xOTY0ODMy
-MDc1LDk4OTk2NTQsMTM1NDk2MTI4LDE4OTA2NjQ5NTUsMTEwMz
-gyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5MjksLTY5ODU5NDYx
-MF19
+eyJoaXN0b3J5IjpbLTMwMTY1NjU2OSwxODg1NTMxNDgxLDgyOT
+Y2MDE5MCwxNTA5Mjk2MDAxLC0zMjMzMDg1MjksMTY3NTg5ODYy
+MywxNTE1OTQ5MTQxLC01NTA4Mzk3MTAsNDg2MzM1MTAzLDM2Nj
+cyNjUwLC0xMzc4MjQwNjEsLTIwNzQ5NTQ5MDcsLTEyMjk1MDMz
+MTgsLTE5NjQ4MzIwNzUsOTg5OTY1NCwxMzU0OTYxMjgsMTg5MD
+Y2NDk1NSwxMTAzODI2NDQ3LC04NjY4MTI5ODgsMTMzNjIxOTky
+OV19
 -->

@@ -756,6 +756,9 @@ Lack of keyboard access is a typical level A that you should prioritize.
 - user impact
 - any relevant WCAG Success Criteria
 
+>_Suggestion: keyboard and screen reader accessibility in the  [membership form](https://workshop-design-people-skills.testingaccessibility.com/plan-your-trip/passes.html)._
+>
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -768,7 +771,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3MjU0OTkwLDE1MDkyOTYwMDEsLTMyMz
+eyJoaXN0b3J5IjpbMjU3NTUxNTE2LDE1MDkyOTYwMDEsLTMyMz
 MwODUyOSwxNjc1ODk4NjIzLDE1MTU5NDkxNDEsLTU1MDgzOTcx
 MCw0ODYzMzUxMDMsMzY2NzI2NTAsLTEzNzgyNDA2MSwtMjA3ND
 k1NDkwNywtMTIyOTUwMzMxOCwtMTk2NDgzMjA3NSw5ODk5NjU0

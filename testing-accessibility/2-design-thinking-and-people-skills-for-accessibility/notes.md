@@ -601,7 +601,13 @@ List of links with tools: https://workshop-resources.testingaccessibility.com/#w
 **Step 2: Develop a systematic testing plan**
 - Plan on testing often
 	- Make sure that it fits into the workflow of your teams
-- Build in the possibility to review accessibility processes
+- Build in the possibility to review accessibility processes regularly
+	- 🎯 This can help ensure adequate coverage for manual & automated testing
+
+> For example: in retrospectives or quarterly reviews, revisit whether your testing plan is working
+
+🚨🚨Important to think about🚨🚨
+> Accessibility testing is not a “one and done” situation!
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -614,11 +620,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MzAxMjM4NSw5ODk5NjU0LDEzNTQ5Nj
-EyOCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwx
-MzM2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMD
-k2Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3
-NywtOTI3OTkxMzIwLDE3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3ND
-U0MzkyNywtMjExNjc5MDUwOCwtMTI3MzIzNzgxMCwtMTMyOTY5
-NTkxOF19
+eyJoaXN0b3J5IjpbNDkxMDIxNDAsOTg5OTY1NCwxMzU0OTYxMj
+gsMTg5MDY2NDk1NSwxMTAzODI2NDQ3LC04NjY4MTI5ODgsMTMz
+NjIxOTkyOSwtNjk4NTk0NjEwLDExNzc2NjkyMTksLTEwMTA5Nj
+Y5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2ODUxLDE5MDMxOTgyNzcs
+LTkyNzk5MTMyMCwxNzI3MDUyNTg4LC00NzU4ODM2NDYsNzQ1ND
+M5MjcsLTIxMTY3OTA1MDgsLTEyNzMyMzc4MTAsLTEzMjk2OTU5
+MThdfQ==
 -->

@@ -691,6 +691,13 @@ This is a list of things of what it it would mean to consider accessibility thro
 
 💡 Marcy suggested to look at this video: [Engaging in Disability as a Creative Practice](https://vimeo.com/345622392) (Seems like I have to log in to Vimeo to watch it, so I think I found a similar one on youtube: [Engaging in Disability as a Creative Practice | Liz Jackson | Bend Design 2019](https://www.youtube.com/watch?v=-DK4SBCUXXU&ab_channel=Scalehouse))
 
+#### “Is Our Website WCAG Compliant?”
+
+There is not really a yes or no answer to this question. You can always strive for to meet WCAG and do more. 
+
+> Being “compliant” (also called “conforming”) is a hard thing to answer! The people asking are typically looking for a quick  _yes/no_  response.
+> Not to make you feel overwhelmed, but there's always more you can do. “We aim to meet WCAG” with an open dialogue for user feedback, and a legitimate and timely process to handle issues is likely more realistic.
+
 
 
 ## Useful resources
@@ -705,11 +712,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDgzOTcxMCw0ODYzMzUxMDMsMzY2Nz
-I2NTAsLTEzNzgyNDA2MSwtMjA3NDk1NDkwNywtMTIyOTUwMzMx
-OCwtMTk2NDgzMjA3NSw5ODk5NjU0LDEzNTQ5NjEyOCwxODkwNj
-Y0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5
-LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOT
-E5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkx
-MzIwXX0=
+eyJoaXN0b3J5IjpbLTY2MjU5Mjg2MiwtNTUwODM5NzEwLDQ4Nj
+MzNTEwMywzNjY3MjY1MCwtMTM3ODI0MDYxLC0yMDc0OTU0OTA3
+LC0xMjI5NTAzMzE4LC0xOTY0ODMyMDc1LDk4OTk2NTQsMTM1ND
+k2MTI4LDE4OTA2NjQ5NTUsMTEwMzgyNjQ0NywtODY2ODEyOTg4
+LDEzMzYyMTk5MjksLTY5ODU5NDYxMCwxMTc3NjY5MjE5LC0xMD
+EwOTY2OTYwLC05MTk0NzgyMTYsLTQyMDY3Njg1MSwxOTAzMTk4
+Mjc3XX0=
 -->

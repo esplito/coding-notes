@@ -761,6 +761,9 @@ Lack of keyboard access is a typical level A that you should prioritize.
 **My "imaginary jira ticket"**
 Title: Modal does not receive focus when opened with keyboard
 Expected outcome: After ticket is solved -> Modal receives focus when opening it with keyboard.
+Actual outcome: ?
+User impact: Keyboard users will be able to tab in the modal instead of the content behind it when they open the modal.
+
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -774,7 +777,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjQxNDUwNCw4Mjk2NjAxOTAsMTUwOT
+eyJoaXN0b3J5IjpbMTg4NTUzMTQ4MSw4Mjk2NjAxOTAsMTUwOT
 I5NjAwMSwtMzIzMzA4NTI5LDE2NzU4OTg2MjMsMTUxNTk0OTE0
 MSwtNTUwODM5NzEwLDQ4NjMzNTEwMywzNjY3MjY1MCwtMTM3OD
 I0MDYxLC0yMDc0OTU0OTA3LC0xMjI5NTAzMzE4LC0xOTY0ODMy

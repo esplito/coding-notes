@@ -614,6 +614,8 @@ WCAG is a good starting point, but it is not always "the best" and it does not a
 
 Marcy suggests to look at Deque's resource “[Manage Accessibility through Organizational Policy](https://dequeuniversity.com/tips/manage-accessibility)”
 
+### Lesson 4: Strategies for finding answers to accessibility issues
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -625,11 +627,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjk1MDMzMTgsLTE5NjQ4MzIwNzUsOT
-g5OTY1NCwxMzU0OTYxMjgsMTg5MDY2NDk1NSwxMTAzODI2NDQ3
-LC04NjY4MTI5ODgsMTMzNjIxOTkyOSwtNjk4NTk0NjEwLDExNz
-c2NjkyMTksLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2
-ODUxLDE5MDMxOTgyNzcsLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC
-00NzU4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMy
-Mzc4MTBdfQ==
+eyJoaXN0b3J5IjpbLTQ0OTcxMTQ1MCwtMTIyOTUwMzMxOCwtMT
+k2NDgzMjA3NSw5ODk5NjU0LDEzNTQ5NjEyOCwxODkwNjY0OTU1
+LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OT
+g1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4
+MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkxMzIwLD
+E3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMjExNjc5
+MDUwOF19
 -->

@@ -587,13 +587,18 @@ List of links with tools: https://workshop-resources.testingaccessibility.com/#w
 
 ### Lesson 3: Using WCAG in an Organization
 
-- **Step 1: Decide on WCAG Standard & Level**
-	-   [WCAG 2.2](https://www.w3.org/TR/WCAG22/)  was published on 5 October 2023.
-		- It's backwards compatible with 2.1 & 2.0
-	- [WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/) got published on 24 July 2023.
-	- Decision to make 🤝:
-		- Does the organization strive for level AA or AAA?
-		- 
+**Step 1: Decide on WCAG Standard & Level**
+-   [WCAG 2.2](https://www.w3.org/TR/WCAG22/)  was published on 5 October 2023.
+	- It's backwards compatible with 2.1 & 2.0
+- [WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/) got published on 24 July 2023.
+- Decision to make 🤝:
+	- Does the organization strive for level AA or AAA?
+
+> 💡 These decisions can impact your _Definition of Done_ as your team works through issues in JIRA, GitHub, or a similar tracking system.
+
+🚨 You all need to work towards the same standard in order to effectively prioritize issues. 🚨 
+
+**Step 2: Develop a systematic testing p**
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -606,11 +611,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTQyNjAyMSw5ODk5NjU0LDEzNTQ5Nj
-EyOCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwx
-MzM2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMD
-k2Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3
-NywtOTI3OTkxMzIwLDE3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3ND
-U0MzkyNywtMjExNjc5MDUwOCwtMTI3MzIzNzgxMCwtMTMyOTY5
-NTkxOF19
+eyJoaXN0b3J5IjpbLTEwMzUyODMzMzcsOTg5OTY1NCwxMzU0OT
+YxMjgsMTg5MDY2NDk1NSwxMTAzODI2NDQ3LC04NjY4MTI5ODgs
+MTMzNjIxOTkyOSwtNjk4NTk0NjEwLDExNzc2NjkyMTksLTEwMT
+A5NjY5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2ODUxLDE5MDMxOTgy
+NzcsLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC00NzU4ODM2NDYsNz
+Q1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMyMzc4MTAsLTEzMjk2
+OTU5MThdfQ==
 -->

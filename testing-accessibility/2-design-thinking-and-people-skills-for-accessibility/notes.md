@@ -610,7 +610,9 @@ List of links with tools: https://workshop-resources.testingaccessibility.com/#w
 > Accessibility testing is not a “one and done” situation!
 
 **Step 3: Look beyond the standards**
+WCAG is a good starting point, but it is not always "the best" and it does not always mean that things will be user-friendly. Look for other ways of improving accessibility beyond the standards.
 
+Marcy suggests to look at Deque's resource “[Manage Accessibility through Organizational Policy](https://dequeuniversity.com/tips/manage-accessibility)”
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -623,11 +625,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQ4MzIwNzUsOTg5OTY1NCwxMzU0OT
-YxMjgsMTg5MDY2NDk1NSwxMTAzODI2NDQ3LC04NjY4MTI5ODgs
-MTMzNjIxOTkyOSwtNjk4NTk0NjEwLDExNzc2NjkyMTksLTEwMT
-A5NjY5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2ODUxLDE5MDMxOTgy
-NzcsLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC00NzU4ODM2NDYsNz
-Q1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMyMzc4MTAsLTEzMjk2
-OTU5MThdfQ==
+eyJoaXN0b3J5IjpbLTEyMjk1MDMzMTgsLTE5NjQ4MzIwNzUsOT
+g5OTY1NCwxMzU0OTYxMjgsMTg5MDY2NDk1NSwxMTAzODI2NDQ3
+LC04NjY4MTI5ODgsMTMzNjIxOTkyOSwtNjk4NTk0NjEwLDExNz
+c2NjkyMTksLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2
+ODUxLDE5MDMxOTgyNzcsLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC
+00NzU4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMy
+Mzc4MTBdfQ==
 -->

@@ -585,6 +585,9 @@ Marcy recommends the following tools & processes:
 
 List of links with tools: https://workshop-resources.testingaccessibility.com/#workshops-testing
 
+### Lesson 3: Using WCAG in an Organization
+
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -596,11 +599,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1NTIzMDI1LDEzNTQ5NjEyOCwxODkwNj
-Y0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5
-LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOT
-E5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkx
-MzIwLDE3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMj
-ExNjc5MDUwOCwtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAw
-NTk2ODk2XX0=
+eyJoaXN0b3J5IjpbOTg5OTY1NCwxMzU0OTYxMjgsMTg5MDY2ND
+k1NSwxMTAzODI2NDQ3LC04NjY4MTI5ODgsMTMzNjIxOTkyOSwt
+Njk4NTk0NjEwLDExNzc2NjkyMTksLTEwMTA5NjY5NjAsLTkxOT
+Q3ODIxNiwtNDIwNjc2ODUxLDE5MDMxOTgyNzcsLTkyNzk5MTMy
+MCwxNzI3MDUyNTg4LC00NzU4ODM2NDYsNzQ1NDM5MjcsLTIxMT
+Y3OTA1MDgsLTEyNzMyMzc4MTAsLTEzMjk2OTU5MTgsMTIwMDU5
+Njg5Nl19
 -->

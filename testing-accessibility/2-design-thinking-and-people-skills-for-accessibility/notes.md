@@ -640,7 +640,8 @@ Test here: https://workshop-design-people-skills.testingaccessibility.com/plan-y
 > 
 The problem is that if I want to donate 3 $ and select that with the arrow keys, after I've done that and press tab to go to the next things to select, it changes my selection to the custom text input. So how can that be solved?
 
-Note: I tried to find an answer, but could not find a good one.
+Note: I tried to find an answer, but could not find a good one. I'll have to check how Marcy found a solution 😄
+
 
 
 ## Useful resources
@@ -654,7 +655,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTQ0MTMyOCwtMjA3NDk1NDkwNywtMT
+eyJoaXN0b3J5IjpbLTM3MjIwODc4NiwtMjA3NDk1NDkwNywtMT
 IyOTUwMzMxOCwtMTk2NDgzMjA3NSw5ODk5NjU0LDEzNTQ5NjEy
 OCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMz
 M2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2

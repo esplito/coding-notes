@@ -740,7 +740,7 @@ Marcy's suggestion on how to break that issue down:
 
 🚨 **Takeaway:** _"Your prioritization process should have you doing the more user-impacting things first."_ 🚨
 
-Lack of keyboard access is a typical level A 
+Lack of keyboard access is a typical level A that you should prioritize. 
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -754,11 +754,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODk4MzAyNzUsLTMyMzMwODUyOSwxNj
-c1ODk4NjIzLDE1MTU5NDkxNDEsLTU1MDgzOTcxMCw0ODYzMzUx
-MDMsMzY2NzI2NTAsLTEzNzgyNDA2MSwtMjA3NDk1NDkwNywtMT
-IyOTUwMzMxOCwtMTk2NDgzMjA3NSw5ODk5NjU0LDEzNTQ5NjEy
-OCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMz
-M2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2
-Njk2MF19
+eyJoaXN0b3J5IjpbMTUwOTI5NjAwMSwtMzIzMzA4NTI5LDE2Nz
+U4OTg2MjMsMTUxNTk0OTE0MSwtNTUwODM5NzEwLDQ4NjMzNTEw
+MywzNjY3MjY1MCwtMTM3ODI0MDYxLC0yMDc0OTU0OTA3LC0xMj
+I5NTAzMzE4LC0xOTY0ODMyMDc1LDk4OTk2NTQsMTM1NDk2MTI4
+LDE4OTA2NjQ5NTUsMTEwMzgyNjQ0NywtODY2ODEyOTg4LDEzMz
+YyMTk5MjksLTY5ODU5NDYxMCwxMTc3NjY5MjE5LC0xMDEwOTY2
+OTYwXX0=
 -->

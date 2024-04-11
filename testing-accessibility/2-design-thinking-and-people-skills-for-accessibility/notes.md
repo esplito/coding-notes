@@ -675,6 +675,15 @@ Marcy's recommendation:
 - Impact areas that you can influence
 - Talk to your manager and encourage them to highlight the importance of accessibility this further up the chain
 
+#### What Accessibility Looks Like Day-to-Day
+This is a list of things of what it it would mean to consider accessibility throughout the software development lifecycle on day-to-day basis:
+>-   Asking questions about accessibility early in a project.
+>-   Advocating for input from people with disabilities.
+-   Giving people credit for their feedback and ideas.
+-   Pushing back when a design needs to be rethought.
+-   Highlighting accessibility guidelines and best practices.
+-   Making accessibility part of the “definition of done.”
+-   Holding people accountable for ableism.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -688,11 +697,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2MzM1MTAzLDM2NjcyNjUwLC0xMzc4Mj
-QwNjEsLTIwNzQ5NTQ5MDcsLTEyMjk1MDMzMTgsLTE5NjQ4MzIw
-NzUsOTg5OTY1NCwxMzU0OTYxMjgsMTg5MDY2NDk1NSwxMTAzOD
-I2NDQ3LC04NjY4MTI5ODgsMTMzNjIxOTkyOSwtNjk4NTk0NjEw
-LDExNzc2NjkyMTksLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNiwtND
-IwNjc2ODUxLDE5MDMxOTgyNzcsLTkyNzk5MTMyMCwxNzI3MDUy
-NTg4XX0=
+eyJoaXN0b3J5IjpbLTMzMTMwNjk1LDQ4NjMzNTEwMywzNjY3Mj
+Y1MCwtMTM3ODI0MDYxLC0yMDc0OTU0OTA3LC0xMjI5NTAzMzE4
+LC0xOTY0ODMyMDc1LDk4OTk2NTQsMTM1NDk2MTI4LDE4OTA2Nj
+Q5NTUsMTEwMzgyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5Mjks
+LTY5ODU5NDYxMCwxMTc3NjY5MjE5LC0xMDEwOTY2OTYwLC05MT
+k0NzgyMTYsLTQyMDY3Njg1MSwxOTAzMTk4Mjc3LC05Mjc5OTEz
+MjBdfQ==
 -->

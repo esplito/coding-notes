@@ -507,8 +507,26 @@ const video = document.querySelector('video')
 
 setAutoplayBasedOnPreference(video);
 ```
-I also realized now that this will not respond to if I change preferences and do not reload the page. The solution suggested by Marcy would be better I believe:
+I also realized now that this will not respond to if I change preferences and do not reload the page. [The solution suggested by Marcy](https://codepen.io/marcysutton/pen/WNzjBwg) would be better I believe (using eventlisteners):
 ```js
+const video = document.querySelector('video')
+
+var motionQuery = matchMedia('(prefers-reduced-motion: no-preference)');
+
+function handleReduceMotionChanged() {
+    if (motionQuery.matches) {
+        /* standard motion */
+        video.setAttribute('autoplay', '')
+    } else {
+        /* do not show motion */
+        video.removeAttribute('autoplay')
+    }
+}
+
+motionQuery.addEventListener("change", handleReduceMotionChanged)
+
+handleReduceMotionChanged(); // trigger once on load
+```
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -521,11 +539,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1MjA3OTUxLC02OTg1OTQ2MTAsMTE3Nz
-Y2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4
-NTEsMTkwMzE5ODI3NywtOTI3OTkxMzIwLDE3MjcwNTI1ODgsLT
-Q3NTg4MzY0Niw3NDU0MzkyNywtMjExNjc5MDUwOCwtMTI3MzIz
-NzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC0yNzIwMDA1ND
-EsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAyMzM0LC05
-ODM5MTQwMV19
+eyJoaXN0b3J5IjpbMjcwNTMwODksLTY5ODU5NDYxMCwxMTc3Nj
+Y5MjE5LC0xMDEwOTY2OTYwLC05MTk0NzgyMTYsLTQyMDY3Njg1
+MSwxOTAzMTk4Mjc3LC05Mjc5OTEzMjAsMTcyNzA1MjU4OCwtND
+c1ODgzNjQ2LDc0NTQzOTI3LC0yMTE2NzkwNTA4LC0xMjczMjM3
+ODEwLC0xMzI5Njk1OTE4LDEyMDA1OTY4OTYsLTI3MjAwMDU0MS
+wyMDE2ODIzOTU4LC0yNDk3NTcyNzYsLTIwMDM2MDIzMzQsLTk4
+MzkxNDAxXX0=
 -->

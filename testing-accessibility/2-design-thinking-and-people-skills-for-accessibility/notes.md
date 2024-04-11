@@ -620,6 +620,11 @@ In this lesson we get to learn and try some strategies for finding answers to di
 
 > Whatever the information source, you need to be discerning in what you take in. You also need to be diligent in testing and validating a proposed solution to ensure that what you found actually solves a user-impacting problem.
 
+#### Finding an Answer to a Problem Demo
+
+##### The CampSpots Checkout Process
+Test here: https://workshop-design-people-skills.testingaccessibility.com/plan-your-trip/passes.html
+
 
 
 ## Useful resources
@@ -633,7 +638,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTAzODk5MiwtMTIyOTUwMzMxOCwtMT
+eyJoaXN0b3J5IjpbMjA3NDMyMjU4MywtMTIyOTUwMzMxOCwtMT
 k2NDgzMjA3NSw5ODk5NjU0LDEzNTQ5NjEyOCwxODkwNjY0OTU1
 LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OT
 g1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4

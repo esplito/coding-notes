@@ -758,7 +758,9 @@ Lack of keyboard access is a typical level A that you should prioritize.
 
 >_Suggestion: keyboard and screen reader accessibility in the  [membership form](https://workshop-design-people-skills.testingaccessibility.com/plan-your-trip/passes.html)._
 
-
+**My "imaginary jira ticket"**
+Title: Modal does not receive focus when opened with keyboard
+Expected outcome: After ticket is solved -> Modal receives focus when opening it with keyboard.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -772,11 +774,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5NjYwMTkwLDE1MDkyOTYwMDEsLTMyMz
-MwODUyOSwxNjc1ODk4NjIzLDE1MTU5NDkxNDEsLTU1MDgzOTcx
-MCw0ODYzMzUxMDMsMzY2NzI2NTAsLTEzNzgyNDA2MSwtMjA3ND
-k1NDkwNywtMTIyOTUwMzMxOCwtMTk2NDgzMjA3NSw5ODk5NjU0
-LDEzNTQ5NjEyOCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2Nj
-gxMjk4OCwxMzM2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIx
-OV19
+eyJoaXN0b3J5IjpbMTEwMjQxNDUwNCw4Mjk2NjAxOTAsMTUwOT
+I5NjAwMSwtMzIzMzA4NTI5LDE2NzU4OTg2MjMsMTUxNTk0OTE0
+MSwtNTUwODM5NzEwLDQ4NjMzNTEwMywzNjY3MjY1MCwtMTM3OD
+I0MDYxLC0yMDc0OTU0OTA3LC0xMjI5NTAzMzE4LC0xOTY0ODMy
+MDc1LDk4OTk2NTQsMTM1NDk2MTI4LDE4OTA2NjQ5NTUsMTEwMz
+gyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5MjksLTY5ODU5NDYx
+MF19
 -->

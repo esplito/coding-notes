@@ -735,9 +735,12 @@ Marcy's suggestion on how to break that issue down:
 #### **Prioritizing Accessibility Issues**
 > This prioritization task could happen when you open the issue, or it could be something you visit later as a team scoping exercise. Either way, it can help to reference WCAG when figuring out prioritization. Doing a quick search for “WCAG modal dialog focus”, for example, you’ll find **[Modal Dialog Example | WAI-ARIA Authoring Practices 1.2](https://w3c.github.io/aria-practices/examples/dialog-modal/dialog.html).**
 
-1. Search WCAG
-2. If you find a matching WCAG Success Critera, take note of which level it should be (A, AA, AAA). (You could then 
-3. 
+1. Search & reference WCAG
+2. If you find a matching WCAG Success Critera, take note of which level it should be (A, AA, AAA). (You could then prioritize level A first, AA second, AAA third)
+
+🚨 **Takeaway:** _"Your prioritization process should have you doing the more user-impacting things first."_ 🚨
+
+Lack of keyboard access is a typical level A 
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -751,11 +754,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2MzI1NDQ5LC0zMjMzMDg1MjksMTY3NT
-g5ODYyMywxNTE1OTQ5MTQxLC01NTA4Mzk3MTAsNDg2MzM1MTAz
-LDM2NjcyNjUwLC0xMzc4MjQwNjEsLTIwNzQ5NTQ5MDcsLTEyMj
-k1MDMzMTgsLTE5NjQ4MzIwNzUsOTg5OTY1NCwxMzU0OTYxMjgs
-MTg5MDY2NDk1NSwxMTAzODI2NDQ3LC04NjY4MTI5ODgsMTMzNj
-IxOTkyOSwtNjk4NTk0NjEwLDExNzc2NjkyMTksLTEwMTA5NjY5
-NjBdfQ==
+eyJoaXN0b3J5IjpbLTE0ODk4MzAyNzUsLTMyMzMwODUyOSwxNj
+c1ODk4NjIzLDE1MTU5NDkxNDEsLTU1MDgzOTcxMCw0ODYzMzUx
+MDMsMzY2NzI2NTAsLTEzNzgyNDA2MSwtMjA3NDk1NDkwNywtMT
+IyOTUwMzMxOCwtMTk2NDgzMjA3NSw5ODk5NjU0LDEzNTQ5NjEy
+OCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMz
+M2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2
+Njk2MF19
 -->

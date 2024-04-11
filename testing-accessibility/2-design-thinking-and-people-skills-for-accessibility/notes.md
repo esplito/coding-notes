@@ -566,7 +566,8 @@ Marcy suggest to do the following when "building your accessibility muscles" �
 - 🧪 **Test, test, test!** Test & validate with people with disabilities so that you know whether something is a problem or not.
 - 📚 Reference the [WebAIM mailing list](https://webaim.org/discussion/) & use it as a resource to find answers! 
 - Pay attention to [WCAG success criteria](https://www.w3.org/TR/WCAG21/) + [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/) documentation + [“How to Meet” quick reference](https://www.w3.org/WAI/WCAG21/quickref/).
-- Look for reputable bl
+- Look for reputable blogs (check Twitter/X, mailing lists & a11y slack) & be sure to do some fact checking first. The advice might be obsolete or incorrect
+-   Read a11y tool docs and issue trackers on GitHub, for example  [NVDA issue tracker](https://github.com/nvaccess/nvda/issues)  and  [WebKit bug tracker](https://bugs.webkit.org/).
 
 
 ## Useful resources
@@ -580,11 +581,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzIxNzEyNywxODkwNjY0OTU1LDExMD
-M4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OTg1OTQ2
-MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4MjE2LC
-00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkxMzIwLDE3Mjcw
-NTI1ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMjExNjc5MDUwOC
-wtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC0y
-NzIwMDA1NDFdfQ==
+eyJoaXN0b3J5IjpbLTEzMzcyMDEzNDAsMTg5MDY2NDk1NSwxMT
+AzODI2NDQ3LC04NjY4MTI5ODgsMTMzNjIxOTkyOSwtNjk4NTk0
+NjEwLDExNzc2NjkyMTksLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNi
+wtNDIwNjc2ODUxLDE5MDMxOTgyNzcsLTkyNzk5MTMyMCwxNzI3
+MDUyNTg4LC00NzU4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MD
+gsLTEyNzMyMzc4MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5Niwt
+MjcyMDAwNTQxXX0=
 -->

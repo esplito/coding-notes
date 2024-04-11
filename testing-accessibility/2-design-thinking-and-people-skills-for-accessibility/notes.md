@@ -700,7 +700,12 @@ There is not really a yes or no answer to this question. You can always strive f
 
 Marcys general suggestion to do:
 1. Highlight existing accessibility issues (to leadership)  that needs fixing as a first response
-2. After identifying known issues and developing a plan for fixing them (and of course also while continusly testing
+2. After identifying known issues and developing a plan for fixing them (and of course also while continuously testing for new issues), it will be easier to answer the compliance question.
+
+#### Qualities For Creating a Culture of Accessibility
+> It requires bravery to challenge the status quo. Pushing for accessibility within your team, organization, and the community at large is not easy.
+
+Marcy lists a couple of qualities that might help when pus
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -714,11 +719,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTcxMDUyMywtNTUwODM5NzEwLDQ4Nj
-MzNTEwMywzNjY3MjY1MCwtMTM3ODI0MDYxLC0yMDc0OTU0OTA3
-LC0xMjI5NTAzMzE4LC0xOTY0ODMyMDc1LDk4OTk2NTQsMTM1ND
-k2MTI4LDE4OTA2NjQ5NTUsMTEwMzgyNjQ0NywtODY2ODEyOTg4
-LDEzMzYyMTk5MjksLTY5ODU5NDYxMCwxMTc3NjY5MjE5LC0xMD
-EwOTY2OTYwLC05MTk0NzgyMTYsLTQyMDY3Njg1MSwxOTAzMTk4
-Mjc3XX0=
+eyJoaXN0b3J5IjpbLTE4MTI2NTE2MTIsLTU1MDgzOTcxMCw0OD
+YzMzUxMDMsMzY2NzI2NTAsLTEzNzgyNDA2MSwtMjA3NDk1NDkw
+NywtMTIyOTUwMzMxOCwtMTk2NDgzMjA3NSw5ODk5NjU0LDEzNT
+Q5NjEyOCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4
+OCwxMzM2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMT
+AxMDk2Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5
+ODI3N119
 -->

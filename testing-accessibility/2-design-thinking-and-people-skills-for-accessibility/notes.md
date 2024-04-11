@@ -480,11 +480,15 @@ A:
 
 **Q: How should these issues be addressed?**
 A: 
-- Add controls to the video-element
+- Add controls to the video-element and do not make it autoplay by default.
 - implement `prefers-reduced-motion` so that no animations are running when that is turned on (such as the rotating sun)
-- 
+
+From solution:
+>💡Tip
+Under WCAG guidelines, any media that autoplays should have controls that allow the user to pause or stop playback. A best practice is to not make content autoplay at all.
 
 Page tested: https://workshop-design-people-skills.testingaccessibility.com/plan-your-trip/events.html
+
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -497,11 +501,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjc0MDQ5MjIsLTQyMDY3Njg1MSwxOT
-AzMTk4Mjc3LC05Mjc5OTEzMjAsMTcyNzA1MjU4OCwtNDc1ODgz
-NjQ2LDc0NTQzOTI3LC0yMTE2NzkwNTA4LC0xMjczMjM3ODEwLC
-0xMzI5Njk1OTE4LDEyMDA1OTY4OTYsLTI3MjAwMDU0MSwyMDE2
-ODIzOTU4LC0yNDk3NTcyNzYsLTIwMDM2MDIzMzQsLTk4MzkxND
-AxLC0xNTQwMDE5MDI4LC04ODAzODAyNTIsMTc5NTI0MzU0MCwt
-MTQzNTAwNjU0MV19
+eyJoaXN0b3J5IjpbLTkxOTQ3ODIxNiwtNDIwNjc2ODUxLDE5MD
+MxOTgyNzcsLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC00NzU4ODM2
+NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMyMzc4MTAsLT
+EzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcyMDAwNTQxLDIwMTY4
+MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMjMzNCwtOTgzOTE0MD
+EsLTE1NDAwMTkwMjgsLTg4MDM4MDI1MiwxNzk1MjQzNTQwLC0x
+NDM1MDA2NTQxXX0=
 -->

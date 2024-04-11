@@ -556,7 +556,7 @@ Marcy suggested to just add this (which would work in regular CSS too):
 ```
 
 ## Section 5 - Finding answers to accessibility issues
-
+> This module focuses on developing strategies for finding answers to accessibility issues and how to feel confident in those answers. You will also learn how to build that accessibility "muscle" to understand user impact and solutions.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -569,11 +569,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MDY2NDk1NSwxMTAzODI2NDQ3LC04Nj
-Y4MTI5ODgsMTMzNjIxOTkyOSwtNjk4NTk0NjEwLDExNzc2Njky
-MTksLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2ODUxLD
-E5MDMxOTgyNzcsLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC00NzU4
-ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMyMzc4MT
-AsLTEzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcyMDAwNTQxLDIw
-MTY4MjM5NThdfQ==
+eyJoaXN0b3J5IjpbLTk5MzYyODU2OSwxODkwNjY0OTU1LDExMD
+M4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OTg1OTQ2
+MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4MjE2LC
+00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkxMzIwLDE3Mjcw
+NTI1ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMjExNjc5MDUwOC
+wtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC0y
+NzIwMDA1NDFdfQ==
 -->

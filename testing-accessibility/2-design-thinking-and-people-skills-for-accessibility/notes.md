@@ -546,7 +546,14 @@ I just updated the selector targeting the SVG to have this content instead (addi
 ```
 
 Marcy suggested to just add this (which would work in regular CSS too):
-`
+```css
+@media (prefers-reduced-motion: reduce) {
+    .page-events svg {
+	    animation: none;
+	    transition: none;
+	}
+}
+```
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -559,11 +566,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk3NjE1NTAsLTg2NjgxMjk4OCwxMz
-M2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2
-Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3Ny
-wtOTI3OTkxMzIwLDE3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0
-MzkyNywtMjExNjc5MDUwOCwtMTI3MzIzNzgxMCwtMTMyOTY5NT
-kxOCwxMjAwNTk2ODk2LC0yNzIwMDA1NDEsMjAxNjgyMzk1OCwt
-MjQ5NzU3Mjc2XX0=
+eyJoaXN0b3J5IjpbMTEwMzgyNjQ0NywtODY2ODEyOTg4LDEzMz
+YyMTk5MjksLTY5ODU5NDYxMCwxMTc3NjY5MjE5LC0xMDEwOTY2
+OTYwLC05MTk0NzgyMTYsLTQyMDY3Njg1MSwxOTAzMTk4Mjc3LC
+05Mjc5OTEzMjAsMTcyNzA1MjU4OCwtNDc1ODgzNjQ2LDc0NTQz
+OTI3LC0yMTE2NzkwNTA4LC0xMjczMjM3ODEwLC0xMzI5Njk1OT
+E4LDEyMDA1OTY4OTYsLTI3MjAwMDU0MSwyMDE2ODIzOTU4LC0y
+NDk3NTcyNzZdfQ==
 -->

@@ -474,10 +474,13 @@ Some motion-related WCAG guidelines that Marcy highlights:
 
 **Q: What would be the impact on people when things are moving/animating on the screen?**
 A: 
+- You might get overwhelmed and have difficulties seeing the actual content that you are interested in. 
+- 
 
 **Q: How should these issues be addressed?**
 A: 
 
+Page tested: https://workshop-design-people-skills.testingaccessibility.com/plan-your-trip/events.html
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -490,11 +493,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjg4MTg2MjQsMTkwMzE5ODI3NywtOT
-I3OTkxMzIwLDE3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0Mzky
-NywtMjExNjc5MDUwOCwtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOC
-wxMjAwNTk2ODk2LC0yNzIwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5
-NzU3Mjc2LC0yMDAzNjAyMzM0LC05ODM5MTQwMSwtMTU0MDAxOT
-AyOCwtODgwMzgwMjUyLDE3OTUyNDM1NDAsLTE0MzUwMDY1NDEs
-MjA3Nzg5NTE5Nl19
+eyJoaXN0b3J5IjpbMTY4MjczOTQxNSwxOTAzMTk4Mjc3LC05Mj
+c5OTEzMjAsMTcyNzA1MjU4OCwtNDc1ODgzNjQ2LDc0NTQzOTI3
+LC0yMTE2NzkwNTA4LC0xMjczMjM3ODEwLC0xMzI5Njk1OTE4LD
+EyMDA1OTY4OTYsLTI3MjAwMDU0MSwyMDE2ODIzOTU4LC0yNDk3
+NTcyNzYsLTIwMDM2MDIzMzQsLTk4MzkxNDAxLC0xNTQwMDE5MD
+I4LC04ODAzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAwNjU0MSwy
+MDc3ODk1MTk2XX0=
 -->

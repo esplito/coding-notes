@@ -673,7 +673,7 @@ The radio button keyboard issue would probably fail the [2.1.1 Keyboard Success 
 Marcy's recommendation:
 - Start by doing what you can
 - Impact areas that you can influence
-- Talk to 
+- Talk to your manager and encourage them to highlight the importance of accessibility this further up the chain
 
 
 ## Useful resources
@@ -688,11 +688,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDczMDg1MywzNjY3MjY1MCwtMTM3OD
-I0MDYxLC0yMDc0OTU0OTA3LC0xMjI5NTAzMzE4LC0xOTY0ODMy
-MDc1LDk4OTk2NTQsMTM1NDk2MTI4LDE4OTA2NjQ5NTUsMTEwMz
-gyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5MjksLTY5ODU5NDYx
-MCwxMTc3NjY5MjE5LC0xMDEwOTY2OTYwLC05MTk0NzgyMTYsLT
-QyMDY3Njg1MSwxOTAzMTk4Mjc3LC05Mjc5OTEzMjAsMTcyNzA1
-MjU4OF19
+eyJoaXN0b3J5IjpbNDg2MzM1MTAzLDM2NjcyNjUwLC0xMzc4Mj
+QwNjEsLTIwNzQ5NTQ5MDcsLTEyMjk1MDMzMTgsLTE5NjQ4MzIw
+NzUsOTg5OTY1NCwxMzU0OTYxMjgsMTg5MDY2NDk1NSwxMTAzOD
+I2NDQ3LC04NjY4MTI5ODgsMTMzNjIxOTkyOSwtNjk4NTk0NjEw
+LDExNzc2NjkyMTksLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNiwtND
+IwNjc2ODUxLDE5MDMxOTgyNzcsLTkyNzk5MTMyMCwxNzI3MDUy
+NTg4XX0=
 -->

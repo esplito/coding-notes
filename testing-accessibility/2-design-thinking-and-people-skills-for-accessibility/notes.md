@@ -650,9 +650,15 @@ The radio button keyboard issue would probably fail the [2.1.1 Keyboard Success 
 > "As you're exploring, trying to find answers, know that sometimes code, if you're finding that you're really having to hack at it, a redesign could be warranted." - Marcy
 
 ## Section 6 - Establish a culture of accessibility
+> 💡Tip
+> Focus on accessibility because it’s the right thing to do.
 
+> This section will teach you how to encourage a culture of accessibility across your team and your organization.
+> 
+>Ableism is discrimination in favor of able-bodied people. As you progress through this section, you'll learn how to start designing ableism out of systems.
 
-
+What will I learn in this section?
+🎯 How to encourage a culture of accessibility across your team and your organization.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -666,11 +672,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTc1MDUyOSwzNjY3MjY1MCwtMTM3OD
-I0MDYxLC0yMDc0OTU0OTA3LC0xMjI5NTAzMzE4LC0xOTY0ODMy
-MDc1LDk4OTk2NTQsMTM1NDk2MTI4LDE4OTA2NjQ5NTUsMTEwMz
-gyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5MjksLTY5ODU5NDYx
-MCwxMTc3NjY5MjE5LC0xMDEwOTY2OTYwLC05MTk0NzgyMTYsLT
-QyMDY3Njg1MSwxOTAzMTk4Mjc3LC05Mjc5OTEzMjAsMTcyNzA1
-MjU4OF19
+eyJoaXN0b3J5IjpbLTIwNjMyODY3ODEsMzY2NzI2NTAsLTEzNz
+gyNDA2MSwtMjA3NDk1NDkwNywtMTIyOTUwMzMxOCwtMTk2NDgz
+MjA3NSw5ODk5NjU0LDEzNTQ5NjEyOCwxODkwNjY0OTU1LDExMD
+M4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OTg1OTQ2
+MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4MjE2LC
+00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkxMzIwLDE3Mjcw
+NTI1ODhdfQ==
 -->

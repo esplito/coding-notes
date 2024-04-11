@@ -562,9 +562,9 @@ Marcy suggested to just add this (which would work in regular CSS too):
 > The big caveat here is that we all have our own biases, as discussed earlier.
 > Part of finding answers is “knowing what you don't know” and not automatically assuming that everything you find will be correct.
 
-Marcy suggest to do the following when "building your accessibility muscles":
-- **Test, test, test!** Test & validate with people with disabilities so that you know whether something is a problem or not.
-- 
+Marcy suggest to do the following when "building your accessibility muscles" 💪:
+-  **Test, test, test!** Test & validate with people with disabilities so that you know whether something is a problem or not.
+- Reference the [WebAIM mailing list](https://webaim.org/discussion/) & use it as a resource to find answers! 
 
 
 ## Useful resources
@@ -578,11 +578,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MjI1NywxODkwNjY0OTU1LDExMDM4Mj
-Y0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OTg1OTQ2MTAs
-MTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4MjE2LC00Mj
-A2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkxMzIwLDE3MjcwNTI1
-ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMjExNjc5MDUwOCwtMT
-I3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC0yNzIw
-MDA1NDFdfQ==
+eyJoaXN0b3J5IjpbMTQ2Nzc1NzExMiwxODkwNjY0OTU1LDExMD
+M4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OTg1OTQ2
+MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4MjE2LC
+00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkxMzIwLDE3Mjcw
+NTI1ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMjExNjc5MDUwOC
+wtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC0y
+NzIwMDA1NDFdfQ==
 -->

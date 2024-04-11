@@ -555,6 +555,9 @@ Marcy suggested to just add this (which would work in regular CSS too):
 }
 ```
 
+## Section 5 - Finding answers to accessibility issues
+
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -566,11 +569,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzgyNjQ0NywtODY2ODEyOTg4LDEzMz
-YyMTk5MjksLTY5ODU5NDYxMCwxMTc3NjY5MjE5LC0xMDEwOTY2
-OTYwLC05MTk0NzgyMTYsLTQyMDY3Njg1MSwxOTAzMTk4Mjc3LC
-05Mjc5OTEzMjAsMTcyNzA1MjU4OCwtNDc1ODgzNjQ2LDc0NTQz
-OTI3LC0yMTE2NzkwNTA4LC0xMjczMjM3ODEwLC0xMzI5Njk1OT
-E4LDEyMDA1OTY4OTYsLTI3MjAwMDU0MSwyMDE2ODIzOTU4LC0y
-NDk3NTcyNzZdfQ==
+eyJoaXN0b3J5IjpbMTg5MDY2NDk1NSwxMTAzODI2NDQ3LC04Nj
+Y4MTI5ODgsMTMzNjIxOTkyOSwtNjk4NTk0NjEwLDExNzc2Njky
+MTksLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2ODUxLD
+E5MDMxOTgyNzcsLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC00NzU4
+ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMyMzc4MT
+AsLTEzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcyMDAwNTQxLDIw
+MTY4MjM5NThdfQ==
 -->

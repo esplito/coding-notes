@@ -717,7 +717,12 @@ Marcy lists a couple of qualities that might help when pushing for accessibility
 ### Lesson 2: Scope & Prioritize Accessibility issues
 
 #### Scoping accessibility issues
-Questions that you might ask yourself when trying to figure out a specific accessibility problem and you want to scope an issue so that the rest of the team can act upon it. 
+Questions that you might ask yourself when trying to figure out a specific accessibility problem and you want to scope an issue so that the rest of the team can act upon it.
+
+Marcy suggests that you can break down user stories in various different ways:
+-	By the user’s input modality, such as keyboard, screen reader, or voice navigation
+-   By component or component state
+-   By WCAG success criteria 
 
 
 ## Useful resources
@@ -732,11 +737,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTg5ODYyMywxNTE1OTQ5MTQxLC01NT
-A4Mzk3MTAsNDg2MzM1MTAzLDM2NjcyNjUwLC0xMzc4MjQwNjEs
-LTIwNzQ5NTQ5MDcsLTEyMjk1MDMzMTgsLTE5NjQ4MzIwNzUsOT
-g5OTY1NCwxMzU0OTYxMjgsMTg5MDY2NDk1NSwxMTAzODI2NDQ3
-LC04NjY4MTI5ODgsMTMzNjIxOTkyOSwtNjk4NTk0NjEwLDExNz
-c2NjkyMTksLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2
-ODUxXX0=
+eyJoaXN0b3J5IjpbLTIxMTkwNzU0MzEsMTY3NTg5ODYyMywxNT
+E1OTQ5MTQxLC01NTA4Mzk3MTAsNDg2MzM1MTAzLDM2NjcyNjUw
+LC0xMzc4MjQwNjEsLTIwNzQ5NTQ5MDcsLTEyMjk1MDMzMTgsLT
+E5NjQ4MzIwNzUsOTg5OTY1NCwxMzU0OTYxMjgsMTg5MDY2NDk1
+NSwxMTAzODI2NDQ3LC04NjY4MTI5ODgsMTMzNjIxOTkyOSwtNj
+k4NTk0NjEwLDExNzc2NjkyMTksLTEwMTA5NjY5NjAsLTkxOTQ3
+ODIxNl19
 -->

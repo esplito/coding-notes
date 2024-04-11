@@ -747,6 +747,11 @@ Lack of keyboard access is a typical level A that you should prioritize.
 - What don't we know yet?
 > It's hard to answer what don't we know yet. I don't know, but if you can anticipate things like folks you need to talk to maybe your leadership can help answer that question of what you don't know yet. Are there competing deadlines that we need to think about? Is this getting redesigned is this in a code base that hasn't been shipped to all users yet? - Marcy
 
+### Lesson 3: Qualify & Quantify Accessibility issues
+
+#### 🛠️ Challenge: Qualify and Quantify an Accessibility Issue
+🎯 Write a JIRA issue that descr
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -759,7 +764,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTA2MDUxNCwxNTA5Mjk2MDAxLC0zMj
+eyJoaXN0b3J5IjpbMTc5NzcyNzk5MCwxNTA5Mjk2MDAxLC0zMj
 MzMDg1MjksMTY3NTg5ODYyMywxNTE1OTQ5MTQxLC01NTA4Mzk3
 MTAsNDg2MzM1MTAzLDM2NjcyNjUwLC0xMzc4MjQwNjEsLTIwNz
 Q5NTQ5MDcsLTEyMjk1MDMzMTgsLTE5NjQ4MzIwNzUsOTg5OTY1

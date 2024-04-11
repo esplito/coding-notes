@@ -492,7 +492,7 @@ Page tested: https://workshop-design-people-skills.testingaccessibility.com/plan
 #### 🛠️ Challenge: Add Prefers Reduced Motion to a Video
 > Your challenge is to write a JavaScript function that will conditionally apply the `autoplay` attribute to the video player based on whether or not the user has indicated they want to reduce motion.
 
-I created the following and I've tested by emulating `prefers-reduced-motion` in Chrome. (I could possibly have done it the other way around set `prefers-reduced-motion: no-preference)` and instead `if(media.matches)`)
+I created the following (quickly) and I've tested by emulating `prefers-reduced-motion` in Chrome. (I could possibly have done it the other way around set `prefers-reduced-motion: no-preference)` and instead `if(media.matches)`)
 ```js
 function setAutoplayBasedOnPreference (videoElement) {
   const media = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -507,6 +507,8 @@ const video = document.querySelector('video')
 
 setAutoplayBasedOnPreference(video);
 ```
+I also realized now that this will not respond to if I change preferences and do not reload the page. The solution suggested by Marcy would be better I believe:
+```js
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -519,11 +521,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODU5NDYxMCwxMTc3NjY5MjE5LC0xMD
-EwOTY2OTYwLC05MTk0NzgyMTYsLTQyMDY3Njg1MSwxOTAzMTk4
-Mjc3LC05Mjc5OTEzMjAsMTcyNzA1MjU4OCwtNDc1ODgzNjQ2LD
-c0NTQzOTI3LC0yMTE2NzkwNTA4LC0xMjczMjM3ODEwLC0xMzI5
-Njk1OTE4LDEyMDA1OTY4OTYsLTI3MjAwMDU0MSwyMDE2ODIzOT
-U4LC0yNDk3NTcyNzYsLTIwMDM2MDIzMzQsLTk4MzkxNDAxLC0x
-NTQwMDE5MDI4XX0=
+eyJoaXN0b3J5IjpbNTY1MjA3OTUxLC02OTg1OTQ2MTAsMTE3Nz
+Y2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4
+NTEsMTkwMzE5ODI3NywtOTI3OTkxMzIwLDE3MjcwNTI1ODgsLT
+Q3NTg4MzY0Niw3NDU0MzkyNywtMjExNjc5MDUwOCwtMTI3MzIz
+NzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC0yNzIwMDA1ND
+EsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAzNjAyMzM0LC05
+ODM5MTQwMV19
 -->

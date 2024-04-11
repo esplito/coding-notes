@@ -700,7 +700,7 @@ There is not really a yes or no answer to this question. You can always strive f
 
 Marcys general suggestion to do:
 1. Highlight existing accessibility issues (to leadership)  that needs fixing as a first response
-2. After identifying
+2. After identifying known issues and developing a plan for fixing them (and of course also while continusly testing
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -714,7 +714,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzcyODA0MSwtNTUwODM5NzEwLDQ4Nj
+eyJoaXN0b3J5IjpbMTkxNTcxMDUyMywtNTUwODM5NzEwLDQ4Nj
 MzNTEwMywzNjY3MjY1MCwtMTM3ODI0MDYxLC0yMDc0OTU0OTA3
 LC0xMjI5NTAzMzE4LC0xOTY0ODMyMDc1LDk4OTk2NTQsMTM1ND
 k2MTI4LDE4OTA2NjQ5NTUsMTEwMzgyNjQ0NywtODY2ODEyOTg4

@@ -606,8 +606,11 @@ List of links with tools: https://workshop-resources.testingaccessibility.com/#w
 
 > For example: in retrospectives or quarterly reviews, revisit whether your testing plan is working
 
-🚨🚨Important to think about🚨🚨
+🚨🚨 **Important!** 🚨🚨
 > Accessibility testing is not a “one and done” situation!
+
+**Step 3: Look beyond the standards**
+
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -620,11 +623,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxMDIxNDAsOTg5OTY1NCwxMzU0OTYxMj
-gsMTg5MDY2NDk1NSwxMTAzODI2NDQ3LC04NjY4MTI5ODgsMTMz
-NjIxOTkyOSwtNjk4NTk0NjEwLDExNzc2NjkyMTksLTEwMTA5Nj
-Y5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2ODUxLDE5MDMxOTgyNzcs
-LTkyNzk5MTMyMCwxNzI3MDUyNTg4LC00NzU4ODM2NDYsNzQ1ND
-M5MjcsLTIxMTY3OTA1MDgsLTEyNzMyMzc4MTAsLTEzMjk2OTU5
-MThdfQ==
+eyJoaXN0b3J5IjpbLTE5NjQ4MzIwNzUsOTg5OTY1NCwxMzU0OT
+YxMjgsMTg5MDY2NDk1NSwxMTAzODI2NDQ3LC04NjY4MTI5ODgs
+MTMzNjIxOTkyOSwtNjk4NTk0NjEwLDExNzc2NjkyMTksLTEwMT
+A5NjY5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2ODUxLDE5MDMxOTgy
+NzcsLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC00NzU4ODM2NDYsNz
+Q1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMyMzc4MTAsLTEzMjk2
+OTU5MThdfQ==
 -->

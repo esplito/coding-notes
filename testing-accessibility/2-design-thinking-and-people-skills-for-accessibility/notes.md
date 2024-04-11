@@ -563,8 +563,10 @@ Marcy suggested to just add this (which would work in regular CSS too):
 > Part of finding answers is “knowing what you don't know” and not automatically assuming that everything you find will be correct.
 
 Marcy suggest to do the following when "building your accessibility muscles" 💪:
--  **Test, test, test!** Test & validate with people with disabilities so that you know whether something is a problem or not.
-- Reference the [WebAIM mailing list](https://webaim.org/discussion/) & use it as a resource to find answers! 
+- 🧪 **Test, test, test!** Test & validate with people with disabilities so that you know whether something is a problem or not.
+- 📚 Reference the [WebAIM mailing list](https://webaim.org/discussion/) & use it as a resource to find answers! 
+- Pay attention to [WCAG success criteria](https://www.w3.org/TR/WCAG21/) + [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/) documentation + [“How to Meet” quick reference](https://www.w3.org/WAI/WCAG21/quickref/).
+- Look for reputable bl
 
 
 ## Useful resources
@@ -578,7 +580,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2Nzc1NzExMiwxODkwNjY0OTU1LDExMD
+eyJoaXN0b3J5IjpbMTkwMzIxNzEyNywxODkwNjY0OTU1LDExMD
 M4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OTg1OTQ2
 MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4MjE2LC
 00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkxMzIwLDE3Mjcw

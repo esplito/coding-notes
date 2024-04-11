@@ -583,6 +583,7 @@ Marcy recommends the following tools & processes:
 > 💡Tip
 >There’s lots more on these topics in the Manual Testing workshop!
 
+List of links with tools: https://workshop-resources.testingaccessibility.com/#workshops-testing
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -595,11 +596,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDk2MTI4LDE4OTA2NjQ5NTUsMTEwMz
-gyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5MjksLTY5ODU5NDYx
-MCwxMTc3NjY5MjE5LC0xMDEwOTY2OTYwLC05MTk0NzgyMTYsLT
-QyMDY3Njg1MSwxOTAzMTk4Mjc3LC05Mjc5OTEzMjAsMTcyNzA1
-MjU4OCwtNDc1ODgzNjQ2LDc0NTQzOTI3LC0yMTE2NzkwNTA4LC
-0xMjczMjM3ODEwLC0xMzI5Njk1OTE4LDEyMDA1OTY4OTYsLTI3
-MjAwMDU0MV19
+eyJoaXN0b3J5IjpbNzc1NTIzMDI1LDEzNTQ5NjEyOCwxODkwNj
+Y0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5
+LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOT
+E5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkx
+MzIwLDE3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMj
+ExNjc5MDUwOCwtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAw
+NTk2ODk2XX0=
 -->

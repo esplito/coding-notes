@@ -750,7 +750,11 @@ Lack of keyboard access is a typical level A that you should prioritize.
 ### Lesson 3: Qualify & Quantify Accessibility issues
 
 #### 🛠️ Challenge: Qualify and Quantify an Accessibility Issue
-🎯 Write a JIRA issue that descr
+🎯 Write a JIRA issue that describes and accessibility problem including:
+- expected outcome
+- actual outcome
+- user impact
+- any relevant WCAG Success Criteria
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -764,11 +768,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzcyNzk5MCwxNTA5Mjk2MDAxLC0zMj
-MzMDg1MjksMTY3NTg5ODYyMywxNTE1OTQ5MTQxLC01NTA4Mzk3
-MTAsNDg2MzM1MTAzLDM2NjcyNjUwLC0xMzc4MjQwNjEsLTIwNz
-Q5NTQ5MDcsLTEyMjk1MDMzMTgsLTE5NjQ4MzIwNzUsOTg5OTY1
-NCwxMzU0OTYxMjgsMTg5MDY2NDk1NSwxMTAzODI2NDQ3LC04Nj
-Y4MTI5ODgsMTMzNjIxOTkyOSwtNjk4NTk0NjEwLDExNzc2Njky
-MTldfQ==
+eyJoaXN0b3J5IjpbMjI3MjU0OTkwLDE1MDkyOTYwMDEsLTMyMz
+MwODUyOSwxNjc1ODk4NjIzLDE1MTU5NDkxNDEsLTU1MDgzOTcx
+MCw0ODYzMzUxMDMsMzY2NzI2NTAsLTEzNzgyNDA2MSwtMjA3ND
+k1NDkwNywtMTIyOTUwMzMxOCwtMTk2NDgzMjA3NSw5ODk5NjU0
+LDEzNTQ5NjEyOCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2Nj
+gxMjk4OCwxMzM2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIx
+OV19
 -->

@@ -642,6 +642,8 @@ The problem is that if I want to donate 3 $ and select that with the arrow keys,
 
 Note: I tried to find an answer, but could not find a good one. I'll have to check how Marcy found a solution 😄
 
+##### 🛠️ Solution: Finding an Answer to a Problem
+
 
 
 ## Useful resources
@@ -655,11 +657,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjIwODc4NiwtMjA3NDk1NDkwNywtMT
-IyOTUwMzMxOCwtMTk2NDgzMjA3NSw5ODk5NjU0LDEzNTQ5NjEy
-OCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMz
-M2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2
-Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3Ny
-wtOTI3OTkxMzIwLDE3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0
-MzkyN119
+eyJoaXN0b3J5IjpbLTE0MTkxMjgzNDksLTIwNzQ5NTQ5MDcsLT
+EyMjk1MDMzMTgsLTE5NjQ4MzIwNzUsOTg5OTY1NCwxMzU0OTYx
+MjgsMTg5MDY2NDk1NSwxMTAzODI2NDQ3LC04NjY4MTI5ODgsMT
+MzNjIxOTkyOSwtNjk4NTk0NjEwLDExNzc2NjkyMTksLTEwMTA5
+NjY5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2ODUxLDE5MDMxOTgyNz
+csLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC00NzU4ODM2NDYsNzQ1
+NDM5MjddfQ==
 -->

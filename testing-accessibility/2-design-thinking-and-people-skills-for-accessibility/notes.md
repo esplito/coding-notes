@@ -769,6 +769,12 @@ WCAG Success criterion:
 
 #### 🛠️ Solution: Qualify and Quantify an Accessibility Issue
 Marcy highlights the issue of inputs without adjacent labels. They just have placeholder text that disappears as you start typing.
+>For the expected outcome, the ideal solution would be adding a visible text label. This might require going back to the design team, which isn’t always easy to do. From a cognitive accessibility perspective, though, having no visually persistent label is a problem. This cognitive burden would be considered the actual outcome.
+> For WCAG Success Criteria, the placeholder attributes on the inputs technically expose accessible names to Assistive Technologies. This means the criterion for 4.1.2 Name, Role, Value, is satisfied even though it is a best practice to use a `<label>` element. But there is still an issue for cognitive users that could fall under 2.4.6 Headings and Labels (Level AA).
+
+🚨**Takeaway**: _"Include as much context in your ticket/issue as you can to encourage it gets picked up and addressed in a timely fashion."_ 🚨
+
+I really like Marcy appro
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -782,7 +788,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2Mzk2NTIzMCwxODg1NTMxNDgxLDgyOT
+eyJoaXN0b3J5IjpbLTUzMzIyMzY1OSwxODg1NTMxNDgxLDgyOT
 Y2MDE5MCwxNTA5Mjk2MDAxLC0zMjMzMDg1MjksMTY3NTg5ODYy
 MywxNTE1OTQ5MTQxLC01NTA4Mzk3MTAsNDg2MzM1MTAzLDM2Nj
 cyNjUwLC0xMzc4MjQwNjEsLTIwNzQ5NTQ5MDcsLTEyMjk1MDMz

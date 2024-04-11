@@ -726,6 +726,9 @@ Marcy suggests that you can break down user stories in various different ways:
 -   By component or component state
 -   By WCAG success criteria 
 
+One issue you can look at is that the modal is not focused when it is opened on: https://workshop-design-people-skills.testingaccessibility.com/plan-your-trip/passes.html 
+
+
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -739,11 +742,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTYwMjc1LDE2NzU4OTg2MjMsMTUxNT
-k0OTE0MSwtNTUwODM5NzEwLDQ4NjMzNTEwMywzNjY3MjY1MCwt
-MTM3ODI0MDYxLC0yMDc0OTU0OTA3LC0xMjI5NTAzMzE4LC0xOT
-Y0ODMyMDc1LDk4OTk2NTQsMTM1NDk2MTI4LDE4OTA2NjQ5NTUs
-MTEwMzgyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5MjksLTY5OD
-U5NDYxMCwxMTc3NjY5MjE5LC0xMDEwOTY2OTYwLC05MTk0Nzgy
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTMyMzMwODUyOSwxNjc1ODk4NjIzLDE1MT
+U5NDkxNDEsLTU1MDgzOTcxMCw0ODYzMzUxMDMsMzY2NzI2NTAs
+LTEzNzgyNDA2MSwtMjA3NDk1NDkwNywtMTIyOTUwMzMxOCwtMT
+k2NDgzMjA3NSw5ODk5NjU0LDEzNTQ5NjEyOCwxODkwNjY0OTU1
+LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OT
+g1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4
+MjE2XX0=
 -->

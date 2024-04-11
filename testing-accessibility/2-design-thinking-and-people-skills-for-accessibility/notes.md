@@ -468,6 +468,9 @@ Some motion-related WCAG guidelines that Marcy highlights:
 -   **[2.3.1 Three Flashes or Below Threshold](https://www.w3.org/TR/WCAG21/#three-flashes-or-below-threshold)** - Level A. There is also a Level AAA criterion with no threshold. 
 -   [**2.3.3 Animation from Interactions**](https://www.w3.org/TR/WCAG21/#animation-from-interactions)  - Level AAA. *"While a Level AAA criterion, this one typically isn’t complicated to meet by making transitions and animations respond to reduced-motion settings. So why not do it?"*
 
+### Lesson 4: Motion on website challenges
+## 🛠️ Challenge: Identify Accessibility Issues Related to Motion
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -479,11 +482,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzE5ODI3NywtOTI3OTkxMzIwLDE3Mj
-cwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMjExNjc5MDUw
-OCwtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC
-0yNzIwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0yMDAz
-NjAyMzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwtODgwMzgwMj
-UyLDE3OTUyNDM1NDAsLTE0MzUwMDY1NDEsMjA3Nzg5NTE5Niwt
-MTY3MzY2MzMxNV19
+eyJoaXN0b3J5IjpbLTE4OTQ1NDQ0MywxOTAzMTk4Mjc3LC05Mj
+c5OTEzMjAsMTcyNzA1MjU4OCwtNDc1ODgzNjQ2LDc0NTQzOTI3
+LC0yMTE2NzkwNTA4LC0xMjczMjM3ODEwLC0xMzI5Njk1OTE4LD
+EyMDA1OTY4OTYsLTI3MjAwMDU0MSwyMDE2ODIzOTU4LC0yNDk3
+NTcyNzYsLTIwMDM2MDIzMzQsLTk4MzkxNDAxLC0xNTQwMDE5MD
+I4LC04ODAzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAwNjU0MSwy
+MDc3ODk1MTk2XX0=
 -->

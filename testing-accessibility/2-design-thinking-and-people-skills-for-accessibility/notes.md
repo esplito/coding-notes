@@ -714,6 +714,12 @@ Marcy lists a couple of qualities that might help when pushing for accessibility
 >-   **Kindness**  to yourself that organizational friction can be very difficult to navigate.
 >-   **Acceptance**  that accessibility is often a thankless job.
 
+### Lesson 2: Scope & Prioritize Accessibility issues
+
+#### Scoping accessibility issues
+Questions that you might ask yourself
+
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -726,11 +732,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTk0OTE0MSwtNTUwODM5NzEwLDQ4Nj
-MzNTEwMywzNjY3MjY1MCwtMTM3ODI0MDYxLC0yMDc0OTU0OTA3
-LC0xMjI5NTAzMzE4LC0xOTY0ODMyMDc1LDk4OTk2NTQsMTM1ND
-k2MTI4LDE4OTA2NjQ5NTUsMTEwMzgyNjQ0NywtODY2ODEyOTg4
-LDEzMzYyMTk5MjksLTY5ODU5NDYxMCwxMTc3NjY5MjE5LC0xMD
-EwOTY2OTYwLC05MTk0NzgyMTYsLTQyMDY3Njg1MSwxOTAzMTk4
-Mjc3XX0=
+eyJoaXN0b3J5IjpbLTU0NTM5Mzk3NCwxNTE1OTQ5MTQxLC01NT
+A4Mzk3MTAsNDg2MzM1MTAzLDM2NjcyNjUwLC0xMzc4MjQwNjEs
+LTIwNzQ5NTQ5MDcsLTEyMjk1MDMzMTgsLTE5NjQ4MzIwNzUsOT
+g5OTY1NCwxMzU0OTYxMjgsMTg5MDY2NDk1NSwxMTAzODI2NDQ3
+LC04NjY4MTI5ODgsMTMzNjIxOTkyOSwtNjk4NTk0NjEwLDExNz
+c2NjkyMTksLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2
+ODUxXX0=
 -->

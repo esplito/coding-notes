@@ -629,7 +629,11 @@ Test here: https://workshop-design-people-skills.testingaccessibility.com/plan-y
 - Radio buttons in modal when clicking on a subscription, has keyboard access issues.
 > The custom text field associated with the last radio button steals focus and removes the current selection from any other radio button. There is also no visible outline to indicate where focus is.
 
+> 💡Tip
+> Potential fixes can be code or design focused. Don’t rule either out!
 
+##### 🛠️ Challenge: Finding an Answer to a Problem
+🎯 Search the web for sol
 
 
 ## Useful resources
@@ -643,11 +647,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2MjExNzIxLC0xMjI5NTAzMzE4LC0xOT
-Y0ODMyMDc1LDk4OTk2NTQsMTM1NDk2MTI4LDE4OTA2NjQ5NTUs
-MTEwMzgyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5MjksLTY5OD
-U5NDYxMCwxMTc3NjY5MjE5LC0xMDEwOTY2OTYwLC05MTk0Nzgy
-MTYsLTQyMDY3Njg1MSwxOTAzMTk4Mjc3LC05Mjc5OTEzMjAsMT
-cyNzA1MjU4OCwtNDc1ODgzNjQ2LDc0NTQzOTI3LC0yMTE2Nzkw
-NTA4XX0=
+eyJoaXN0b3J5IjpbLTE2Mzk5NjMzNjksLTEyMjk1MDMzMTgsLT
+E5NjQ4MzIwNzUsOTg5OTY1NCwxMzU0OTYxMjgsMTg5MDY2NDk1
+NSwxMTAzODI2NDQ3LC04NjY4MTI5ODgsMTMzNjIxOTkyOSwtNj
+k4NTk0NjEwLDExNzc2NjkyMTksLTEwMTA5NjY5NjAsLTkxOTQ3
+ODIxNiwtNDIwNjc2ODUxLDE5MDMxOTgyNzcsLTkyNzk5MTMyMC
+wxNzI3MDUyNTg4LC00NzU4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3
+OTA1MDhdfQ==
 -->

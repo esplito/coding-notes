@@ -643,7 +643,9 @@ The problem is that if I want to donate 3 $ and select that with the arrow keys,
 Note: I tried to find an answer, but could not find a good one. I'll have to check how Marcy found a solution 😄
 
 ##### 🛠️ Solution: Finding an Answer to a Problem
-The radio button keyboard issue would probably fail the 
+The radio button keyboard issue would probably fail the [2.1.1 Keyboard Success criterion](https://www.w3.org/TR/WCAG22/#keyboard) so while investigating you could say that you are trying to fix a bug related to that criterion.
+
+
 
 
 ## Useful resources
@@ -657,11 +659,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3ODg2OTg0LC0yMDc0OTU0OTA3LC0xMj
-I5NTAzMzE4LC0xOTY0ODMyMDc1LDk4OTk2NTQsMTM1NDk2MTI4
-LDE4OTA2NjQ5NTUsMTEwMzgyNjQ0NywtODY2ODEyOTg4LDEzMz
-YyMTk5MjksLTY5ODU5NDYxMCwxMTc3NjY5MjE5LC0xMDEwOTY2
-OTYwLC05MTk0NzgyMTYsLTQyMDY3Njg1MSwxOTAzMTk4Mjc3LC
-05Mjc5OTEzMjAsMTcyNzA1MjU4OCwtNDc1ODgzNjQ2LDc0NTQz
-OTI3XX0=
+eyJoaXN0b3J5IjpbLTEzNzgyNDA2MSwtMjA3NDk1NDkwNywtMT
+IyOTUwMzMxOCwtMTk2NDgzMjA3NSw5ODk5NjU0LDEzNTQ5NjEy
+OCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMz
+M2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2
+Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3Ny
+wtOTI3OTkxMzIwLDE3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0
+MzkyN119
 -->

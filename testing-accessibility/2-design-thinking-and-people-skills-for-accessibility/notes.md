@@ -668,7 +668,12 @@ The radio button keyboard issue would probably fail the [2.1.1 Keyboard Success 
 **What will I learn in this lesson?**
 🎯 How to get started with making a change across your team and your organization.
 
+> We need leadership to be on board so we can get adequate time to address accessibility.
 
+Marcy's recommendation:
+- Start by doing what you can
+- Impact areas that you can influence
+- Talk to 
 
 
 ## Useful resources
@@ -683,7 +688,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDE0OTkyOCwzNjY3MjY1MCwtMTM3OD
+eyJoaXN0b3J5IjpbLTUzMDczMDg1MywzNjY3MjY1MCwtMTM3OD
 I0MDYxLC0yMDc0OTU0OTA3LC0xMjI5NTAzMzE4LC0xOTY0ODMy
 MDc1LDk4OTk2NTQsMTM1NDk2MTI4LDE4OTA2NjQ5NTUsMTEwMz
 gyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5MjksLTY5ODU5NDYx

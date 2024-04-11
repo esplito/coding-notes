@@ -702,10 +702,17 @@ Marcys general suggestion to do:
 1. Highlight existing accessibility issues (to leadership)  that needs fixing as a first response
 2. After identifying known issues and developing a plan for fixing them (and of course also while continuously testing for new issues), it will be easier to answer the compliance question.
 
-#### Qualities For Creating a Culture of Accessibility
+#### Qualities For Creating a Culture of Accessibility 🌟
 > It requires bravery to challenge the status quo. Pushing for accessibility within your team, organization, and the community at large is not easy.
 
-Marcy lists a couple of qualities that might help when pus
+Marcy lists a couple of qualities that might help when pushing for accessibility:
+>-   **Curiosity**  to learn about disabled people's experiences.
+>-   **Humility**  to recognize you don't know everything.
+>-   **Patience**  when persuading colleagues to get on board.
+>-   **Frankness**  to acknowledge what's really at stake for people with disabilities.
+>-   **Bravery**  to challenge ableism and the status quo.
+>-   **Kindness**  to yourself that organizational friction can be very difficult to navigate.
+>-   **Acceptance**  that accessibility is often a thankless job.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -719,11 +726,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTI2NTE2MTIsLTU1MDgzOTcxMCw0OD
-YzMzUxMDMsMzY2NzI2NTAsLTEzNzgyNDA2MSwtMjA3NDk1NDkw
-NywtMTIyOTUwMzMxOCwtMTk2NDgzMjA3NSw5ODk5NjU0LDEzNT
-Q5NjEyOCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4
-OCwxMzM2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMT
-AxMDk2Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5
-ODI3N119
+eyJoaXN0b3J5IjpbMTUxNTk0OTE0MSwtNTUwODM5NzEwLDQ4Nj
+MzNTEwMywzNjY3MjY1MCwtMTM3ODI0MDYxLC0yMDc0OTU0OTA3
+LC0xMjI5NTAzMzE4LC0xOTY0ODMyMDc1LDk4OTk2NTQsMTM1ND
+k2MTI4LDE4OTA2NjQ5NTUsMTEwMzgyNjQ0NywtODY2ODEyOTg4
+LDEzMzYyMTk5MjksLTY5ODU5NDYxMCwxMTc3NjY5MjE5LC0xMD
+EwOTY2OTYwLC05MTk0NzgyMTYsLTQyMDY3Njg1MSwxOTAzMTk4
+Mjc3XX0=
 -->

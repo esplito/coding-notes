@@ -490,7 +490,7 @@ Under WCAG guidelines, any media that autoplays should have controls that allow 
 Page tested: https://workshop-design-people-skills.testingaccessibility.com/plan-your-trip/events.html
 
 #### 🛠️ Challenge: Add Prefers Reduced Motion to a Video
-
+> Your challenge is to write a JavaScript function that will conditionally apply the `autoplay` attribute to the video player based on whether or not the user has indicated they want to reduce motion.
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -503,11 +503,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNiwtND
-IwNjc2ODUxLDE5MDMxOTgyNzcsLTkyNzk5MTMyMCwxNzI3MDUy
-NTg4LC00NzU4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLT
-EyNzMyMzc4MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcy
-MDAwNTQxLDIwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMj
-MzNCwtOTgzOTE0MDEsLTE1NDAwMTkwMjgsLTg4MDM4MDI1Miwx
-Nzk1MjQzNTQwXX0=
+eyJoaXN0b3J5IjpbMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOT
+E5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkx
+MzIwLDE3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMj
+ExNjc5MDUwOCwtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAw
+NTk2ODk2LC0yNzIwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mj
+c2LC0yMDAzNjAyMzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwt
+ODgwMzgwMjUyXX0=
 -->

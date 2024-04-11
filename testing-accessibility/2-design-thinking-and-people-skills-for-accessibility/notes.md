@@ -528,6 +528,10 @@ motionQuery.addEventListener("change", handleReduceMotionChanged)
 handleReduceMotionChanged(); // trigger once on load
 ```
 
+#### 🛠️ Challenge: Add Prefers Reduced Motion to an SVG
+> Your challenge is to remove the spinning animation from the sun SVG.
+
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -539,11 +543,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwNTMwODksLTY5ODU5NDYxMCwxMTc3Nj
-Y5MjE5LC0xMDEwOTY2OTYwLC05MTk0NzgyMTYsLTQyMDY3Njg1
-MSwxOTAzMTk4Mjc3LC05Mjc5OTEzMjAsMTcyNzA1MjU4OCwtND
-c1ODgzNjQ2LDc0NTQzOTI3LC0yMTE2NzkwNTA4LC0xMjczMjM3
-ODEwLC0xMzI5Njk1OTE4LDEyMDA1OTY4OTYsLTI3MjAwMDU0MS
-wyMDE2ODIzOTU4LC0yNDk3NTcyNzYsLTIwMDM2MDIzMzQsLTk4
-MzkxNDAxXX0=
+eyJoaXN0b3J5IjpbMTMzNjIxOTkyOSwtNjk4NTk0NjEwLDExNz
+c2NjkyMTksLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2
+ODUxLDE5MDMxOTgyNzcsLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC
+00NzU4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMy
+Mzc4MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5NiwtMjcyMDAwNT
+QxLDIwMTY4MjM5NTgsLTI0OTc1NzI3NiwtMjAwMzYwMjMzNCwt
+OTgzOTE0MDFdfQ==
 -->

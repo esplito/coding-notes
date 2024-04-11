@@ -645,6 +645,9 @@ Note: I tried to find an answer, but could not find a good one. I'll have to che
 ##### 🛠️ Solution: Finding an Answer to a Problem
 The radio button keyboard issue would probably fail the [2.1.1 Keyboard Success criterion](https://www.w3.org/TR/WCAG22/#keyboard) so while investigating you could say that you are trying to fix a bug related to that criterion.
 
+> "As you're exploring, trying to find answers, know that sometimes code, if you're finding that you're really having to hack at it, a redesign could be warranted." 
+
+
 
 
 
@@ -659,11 +662,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzgyNDA2MSwtMjA3NDk1NDkwNywtMT
-IyOTUwMzMxOCwtMTk2NDgzMjA3NSw5ODk5NjU0LDEzNTQ5NjEy
-OCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwxMz
-M2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2
-Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3Ny
-wtOTI3OTkxMzIwLDE3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0
-MzkyN119
+eyJoaXN0b3J5IjpbMzY2NzI2NTAsLTEzNzgyNDA2MSwtMjA3ND
+k1NDkwNywtMTIyOTUwMzMxOCwtMTk2NDgzMjA3NSw5ODk5NjU0
+LDEzNTQ5NjEyOCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2Nj
+gxMjk4OCwxMzM2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIx
+OSwtMTAxMDk2Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4NTEsMT
+kwMzE5ODI3NywtOTI3OTkxMzIwLDE3MjcwNTI1ODgsLTQ3NTg4
+MzY0Nl19
 -->

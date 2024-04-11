@@ -591,6 +591,9 @@ List of links with tools: https://workshop-resources.testingaccessibility.com/#w
 	-   [WCAG 2.2](https://www.w3.org/TR/WCAG22/)  was published on 5 October 2023.
 		- It's backwards compatible with 2.1 & 2.0
 	- [WCAG 3 Working Draft](https://www.w3.org/TR/wcag-3.0/) got published on 24 July 2023.
+	- Decision to make 🤝:
+		- Does the organization strive for level AA or AAA?
+		- 
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -603,7 +606,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjYzMzY5OCw5ODk5NjU0LDEzNTQ5Nj
+eyJoaXN0b3J5IjpbMTUxMTQyNjAyMSw5ODk5NjU0LDEzNTQ5Nj
 EyOCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2NjgxMjk4OCwx
 MzM2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMD
 k2Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3

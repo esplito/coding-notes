@@ -717,7 +717,7 @@ Marcy lists a couple of qualities that might help when pushing for accessibility
 ### Lesson 2: Scope & Prioritize Accessibility issues
 
 #### Scoping accessibility issues
-Questions that you might ask yourself
+Questions that you might ask yourself when trying to figure out a specific accessibility problem and you want to scope an issue so that the rest of the team can act upon it. 
 
 
 ## Useful resources
@@ -732,7 +732,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTM5Mzk3NCwxNTE1OTQ5MTQxLC01NT
+eyJoaXN0b3J5IjpbMTY3NTg5ODYyMywxNTE1OTQ5MTQxLC01NT
 A4Mzk3MTAsNDg2MzM1MTAzLDM2NjcyNjUwLC0xMzc4MjQwNjEs
 LTIwNzQ5NTQ5MDcsLTEyMjk1MDMzMTgsLTE5NjQ4MzIwNzUsOT
 g5OTY1NCwxMzU0OTYxMjgsMTg5MDY2NDk1NSwxMTAzODI2NDQ3

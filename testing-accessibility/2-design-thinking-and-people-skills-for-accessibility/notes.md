@@ -649,6 +649,7 @@ The radio button keyboard issue would probably fail the [2.1.1 Keyboard Success 
 
 > "As you're exploring, trying to find answers, know that sometimes code, if you're finding that you're really having to hack at it, a redesign could be warranted." - Marcy
 
+## Section 6 - Establish a culture of accessibility
 
 
 
@@ -656,6 +657,7 @@ The radio button keyboard issue would probably fail the [2.1.1 Keyboard Success 
 ## Useful resources
 TODO: Add more  useful links.
 
+- [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)
 - [The Web Content Accessibility Guidelines v. 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [Accessible Brand Colors by Use All Five](https://abc.useallfive.com/)
 - [Overlay Fact Sheet](https://overlayfactsheet.com/) 
@@ -664,7 +666,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTEyODMyMiwzNjY3MjY1MCwtMTM3OD
+eyJoaXN0b3J5IjpbLTE1NTc1MDUyOSwzNjY3MjY1MCwtMTM3OD
 I0MDYxLC0yMDc0OTU0OTA3LC0xMjI5NTAzMzE4LC0xOTY0ODMy
 MDc1LDk4OTk2NTQsMTM1NDk2MTI4LDE4OTA2NjQ5NTUsMTEwMz
 gyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5MjksLTY5ODU5NDYx

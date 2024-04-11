@@ -480,6 +480,9 @@ A:
 
 **Q: How should these issues be addressed?**
 A: 
+- Add controls to the video-element
+- implement `prefers-reduced-motion` so that no animations are running when that is turned on (such as the rotating sun)
+- 
 
 Page tested: https://workshop-design-people-skills.testingaccessibility.com/plan-your-trip/events.html
 
@@ -494,11 +497,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDY3Njg1MSwxOTAzMTk4Mjc3LC05Mj
-c5OTEzMjAsMTcyNzA1MjU4OCwtNDc1ODgzNjQ2LDc0NTQzOTI3
-LC0yMTE2NzkwNTA4LC0xMjczMjM3ODEwLC0xMzI5Njk1OTE4LD
-EyMDA1OTY4OTYsLTI3MjAwMDU0MSwyMDE2ODIzOTU4LC0yNDk3
-NTcyNzYsLTIwMDM2MDIzMzQsLTk4MzkxNDAxLC0xNTQwMDE5MD
-I4LC04ODAzODAyNTIsMTc5NTI0MzU0MCwtMTQzNTAwNjU0MSwy
-MDc3ODk1MTk2XX0=
+eyJoaXN0b3J5IjpbLTExNjc0MDQ5MjIsLTQyMDY3Njg1MSwxOT
+AzMTk4Mjc3LC05Mjc5OTEzMjAsMTcyNzA1MjU4OCwtNDc1ODgz
+NjQ2LDc0NTQzOTI3LC0yMTE2NzkwNTA4LC0xMjczMjM3ODEwLC
+0xMzI5Njk1OTE4LDEyMDA1OTY4OTYsLTI3MjAwMDU0MSwyMDE2
+ODIzOTU4LC0yNDk3NTcyNzYsLTIwMDM2MDIzMzQsLTk4MzkxND
+AxLC0xNTQwMDE5MDI4LC04ODAzODAyNTIsMTc5NTI0MzU0MCwt
+MTQzNTAwNjU0MV19
 -->

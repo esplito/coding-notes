@@ -491,6 +491,7 @@ Page tested: https://workshop-design-people-skills.testingaccessibility.com/plan
 
 #### 🛠️ Challenge: Add Prefers Reduced Motion to a Video
 > Your challenge is to write a JavaScript function that will conditionally apply the `autoplay` attribute to the video player based on whether or not the user has indicated they want to reduce motion.
+> 
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -503,11 +504,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOT
-E5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkx
-MzIwLDE3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMj
-ExNjc5MDUwOCwtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAw
-NTk2ODk2LC0yNzIwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mj
-c2LC0yMDAzNjAyMzM0LC05ODM5MTQwMSwtMTU0MDAxOTAyOCwt
-ODgwMzgwMjUyXX0=
+eyJoaXN0b3J5IjpbNDM4MjMxODMxLDExNzc2NjkyMTksLTEwMT
+A5NjY5NjAsLTkxOTQ3ODIxNiwtNDIwNjc2ODUxLDE5MDMxOTgy
+NzcsLTkyNzk5MTMyMCwxNzI3MDUyNTg4LC00NzU4ODM2NDYsNz
+Q1NDM5MjcsLTIxMTY3OTA1MDgsLTEyNzMyMzc4MTAsLTEzMjk2
+OTU5MTgsMTIwMDU5Njg5NiwtMjcyMDAwNTQxLDIwMTY4MjM5NT
+gsLTI0OTc1NzI3NiwtMjAwMzYwMjMzNCwtOTgzOTE0MDEsLTE1
+NDAwMTkwMjhdfQ==
 -->

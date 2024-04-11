@@ -645,7 +645,9 @@ Note: I tried to find an answer, but could not find a good one. I'll have to che
 ##### 🛠️ Solution: Finding an Answer to a Problem
 The radio button keyboard issue would probably fail the [2.1.1 Keyboard Success criterion](https://www.w3.org/TR/WCAG22/#keyboard) so while investigating you could say that you are trying to fix a bug related to that criterion.
 
-> "As you're exploring, trying to find answers, know that sometimes code, if you're finding that you're really having to hack at it, a redesign could be warranted." 
+> "For this one, making it so that tab does not, like maybe this text input shouldn't be in the tab order if I haven't selected that radio button. That could be a potential solution. Add some JavaScript that makes that basically a read-only input until I use the arrow keys on, make the radio buttons the only thing that's interactive? And if I hit tab, if I haven't selected this particular radio button, let me skip by that text input. That's probably what I would recommend." - Marcy
+
+> "As you're exploring, trying to find answers, know that sometimes code, if you're finding that you're really having to hack at it, a redesign could be warranted." - Marcy
 
 
 
@@ -662,11 +664,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2NzI2NTAsLTEzNzgyNDA2MSwtMjA3ND
-k1NDkwNywtMTIyOTUwMzMxOCwtMTk2NDgzMjA3NSw5ODk5NjU0
-LDEzNTQ5NjEyOCwxODkwNjY0OTU1LDExMDM4MjY0NDcsLTg2Nj
-gxMjk4OCwxMzM2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIx
-OSwtMTAxMDk2Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4NTEsMT
-kwMzE5ODI3NywtOTI3OTkxMzIwLDE3MjcwNTI1ODgsLTQ3NTg4
-MzY0Nl19
+eyJoaXN0b3J5IjpbMTExMTEyODMyMiwzNjY3MjY1MCwtMTM3OD
+I0MDYxLC0yMDc0OTU0OTA3LC0xMjI5NTAzMzE4LC0xOTY0ODMy
+MDc1LDk4OTk2NTQsMTM1NDk2MTI4LDE4OTA2NjQ5NTUsMTEwMz
+gyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5MjksLTY5ODU5NDYx
+MCwxMTc3NjY5MjE5LC0xMDEwOTY2OTYwLC05MTk0NzgyMTYsLT
+QyMDY3Njg1MSwxOTAzMTk4Mjc3LC05Mjc5OTEzMjAsMTcyNzA1
+MjU4OF19
 -->

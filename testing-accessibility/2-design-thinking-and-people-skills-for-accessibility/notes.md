@@ -774,7 +774,17 @@ Marcy highlights the issue of inputs without adjacent labels. They just have pla
 
 🚨**Takeaway**: _"Include as much context in your ticket/issue as you can to encourage it gets picked up and addressed in a timely fashion."_ 🚨
 
-I really like Marcy appro
+I really like Marcy approach to writing these JIRA tickets:
+_"The objective is to have a professional, supportive voice in your tickets to encourage people to pick them up. Try to make it a cool thing to do and not a punishment."_
+
+##### Marcys "template"
+-   Description
+-   Expected Outcome
+-   Actual Outcome
+-   Screenshots
+-   Testing Steps to Reproduce
+-   Files
+-   Tasks
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -788,11 +798,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzIyMzY1OSwxODg1NTMxNDgxLDgyOT
-Y2MDE5MCwxNTA5Mjk2MDAxLC0zMjMzMDg1MjksMTY3NTg5ODYy
-MywxNTE1OTQ5MTQxLC01NTA4Mzk3MTAsNDg2MzM1MTAzLDM2Nj
-cyNjUwLC0xMzc4MjQwNjEsLTIwNzQ5NTQ5MDcsLTEyMjk1MDMz
-MTgsLTE5NjQ4MzIwNzUsOTg5OTY1NCwxMzU0OTYxMjgsMTg5MD
-Y2NDk1NSwxMTAzODI2NDQ3LC04NjY4MTI5ODgsMTMzNjIxOTky
-OV19
+eyJoaXN0b3J5IjpbLTEwODA1NDAxNjYsMTg4NTUzMTQ4MSw4Mj
+k2NjAxOTAsMTUwOTI5NjAwMSwtMzIzMzA4NTI5LDE2NzU4OTg2
+MjMsMTUxNTk0OTE0MSwtNTUwODM5NzEwLDQ4NjMzNTEwMywzNj
+Y3MjY1MCwtMTM3ODI0MDYxLC0yMDc0OTU0OTA3LC0xMjI5NTAz
+MzE4LC0xOTY0ODMyMDc1LDk4OTk2NTQsMTM1NDk2MTI4LDE4OT
+A2NjQ5NTUsMTEwMzgyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5
+MjldfQ==
 -->

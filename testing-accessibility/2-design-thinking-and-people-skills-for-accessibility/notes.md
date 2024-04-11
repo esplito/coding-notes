@@ -574,7 +574,10 @@ Marcy suggest to do the following when "building your accessibility muscles" �
 Marcy recommends the following tools & processes:
 - Render in a web browser 🌐
 - Test controls with the keyboard ⌨️
-- Use accessibility browser extensions 
+- Use accessibility browser extensions 🔌
+- Check color contrast (for example with CCA) 
+	- using (if you are on Windows) Windows High Contrast Mode can also highlight improvements
+- Zoom in and out
 
 ## Useful resources
 TODO: Add more  useful links.
@@ -587,11 +590,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjIzMDQ2NjUsMTg5MDY2NDk1NSwxMT
-AzODI2NDQ3LC04NjY4MTI5ODgsMTMzNjIxOTkyOSwtNjk4NTk0
-NjEwLDExNzc2NjkyMTksLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNi
-wtNDIwNjc2ODUxLDE5MDMxOTgyNzcsLTkyNzk5MTMyMCwxNzI3
-MDUyNTg4LC00NzU4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MD
-gsLTEyNzMyMzc4MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5Niwt
-MjcyMDAwNTQxXX0=
+eyJoaXN0b3J5IjpbMTE1NTg5NzkxNSwxODkwNjY0OTU1LDExMD
+M4MjY0NDcsLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OTg1OTQ2
+MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4MjE2LC
+00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkxMzIwLDE3Mjcw
+NTI1ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMjExNjc5MDUwOC
+wtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2ODk2LC0y
+NzIwMDA1NDFdfQ==
 -->

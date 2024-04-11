@@ -531,7 +531,7 @@ handleReduceMotionChanged(); // trigger once on load
 #### 🛠️ Challenge: Add Prefers Reduced Motion to an SVG
 > Your challenge is to remove the spinning animation from the sun SVG.
 
-I just updated the class targeting the SVG to look like this:
+I just updated the selector targeting the SVG to have this content instead (adding the media query inside the selector is possible due to SCSS):
 ```scss
 .page-events svg {
   animation: rotation 10s linear infinite;
@@ -545,6 +545,9 @@ I just updated the class targeting the SVG to look like this:
 }
 ```
 
+Marcy suggested to just add this (which would work in regular CSS too):
+`
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -556,11 +559,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjgxMjk4OCwxMzM2MjE5OTI5LC02OT
-g1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2Njk2MCwtOTE5NDc4
-MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3NywtOTI3OTkxMzIwLD
-E3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0MzkyNywtMjExNjc5
-MDUwOCwtMTI3MzIzNzgxMCwtMTMyOTY5NTkxOCwxMjAwNTk2OD
-k2LC0yNzIwMDA1NDEsMjAxNjgyMzk1OCwtMjQ5NzU3Mjc2LC0y
-MDAzNjAyMzM0XX0=
+eyJoaXN0b3J5IjpbLTE5Nzk3NjE1NTAsLTg2NjgxMjk4OCwxMz
+M2MjE5OTI5LC02OTg1OTQ2MTAsMTE3NzY2OTIxOSwtMTAxMDk2
+Njk2MCwtOTE5NDc4MjE2LC00MjA2NzY4NTEsMTkwMzE5ODI3Ny
+wtOTI3OTkxMzIwLDE3MjcwNTI1ODgsLTQ3NTg4MzY0Niw3NDU0
+MzkyNywtMjExNjc5MDUwOCwtMTI3MzIzNzgxMCwtMTMyOTY5NT
+kxOCwxMjAwNTk2ODk2LC0yNzIwMDA1NDEsMjAxNjgyMzk1OCwt
+MjQ5NzU3Mjc2XX0=
 -->

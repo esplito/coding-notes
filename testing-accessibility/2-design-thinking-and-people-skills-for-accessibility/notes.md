@@ -580,6 +580,8 @@ Marcy recommends the following tools & processes:
 - Zoom in and out 🔎
 - Test with screen readers 🔊
 
+> 💡Tip
+>There’s lots more on these topics in the Manual Testing workshop!
 
 
 ## Useful resources
@@ -593,11 +595,11 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzkyODE3MjYsMTg5MDY2NDk1NSwxMT
-AzODI2NDQ3LC04NjY4MTI5ODgsMTMzNjIxOTkyOSwtNjk4NTk0
-NjEwLDExNzc2NjkyMTksLTEwMTA5NjY5NjAsLTkxOTQ3ODIxNi
-wtNDIwNjc2ODUxLDE5MDMxOTgyNzcsLTkyNzk5MTMyMCwxNzI3
-MDUyNTg4LC00NzU4ODM2NDYsNzQ1NDM5MjcsLTIxMTY3OTA1MD
-gsLTEyNzMyMzc4MTAsLTEzMjk2OTU5MTgsMTIwMDU5Njg5Niwt
-MjcyMDAwNTQxXX0=
+eyJoaXN0b3J5IjpbMTM1NDk2MTI4LDE4OTA2NjQ5NTUsMTEwMz
+gyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5MjksLTY5ODU5NDYx
+MCwxMTc3NjY5MjE5LC0xMDEwOTY2OTYwLC05MTk0NzgyMTYsLT
+QyMDY3Njg1MSwxOTAzMTk4Mjc3LC05Mjc5OTEzMjAsMTcyNzA1
+MjU4OCwtNDc1ODgzNjQ2LDc0NTQzOTI3LC0yMTE2NzkwNTA4LC
+0xMjczMjM3ODEwLC0xMzI5Njk1OTE4LDEyMDA1OTY4OTYsLTI3
+MjAwMDU0MV19
 -->

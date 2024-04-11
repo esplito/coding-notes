@@ -675,16 +675,21 @@ Marcy's recommendation:
 - Impact areas that you can influence
 - Talk to your manager and encourage them to highlight the importance of accessibility this further up the chain
 
+ℹ️ **Ableism** is social prejudice and discrimination against people with disabilities.
+
+> If we're not building things with accessibility in mind, we are perpetuating this system.
+
 #### What Accessibility Looks Like Day-to-Day
 This is a list of things of what it it would mean to consider accessibility throughout the software development lifecycle on day-to-day basis:
 >-   Asking questions about accessibility early in a project.
 >-   Advocating for input from people with disabilities.
--   Giving people credit for their feedback and ideas.
--   Pushing back when a design needs to be rethought.
--   Highlighting accessibility guidelines and best practices.
--   Making accessibility part of the “definition of done.”
--   Holding people accountable for ableism.
+>-   Giving people credit for their feedback and ideas.
+>-   Pushing back when a design needs to be rethought.
+>-   Highlighting accessibility guidelines and best practices.
+>-   Making accessibility part of the “definition of done.”
+>-   Holding people accountable for ableism.
 
+💡 Marcy suggested to look at this video: [Engaging in Disability as a Creative Practice](https://vimeo.com/345622392)
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -697,7 +702,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTMwNjk1LDQ4NjMzNTEwMywzNjY3Mj
+eyJoaXN0b3J5IjpbMzcxMDA2NjY2LDQ4NjMzNTEwMywzNjY3Mj
 Y1MCwtMTM3ODI0MDYxLC0yMDc0OTU0OTA3LC0xMjI5NTAzMzE4
 LC0xOTY0ODMyMDc1LDk4OTk2NTQsMTM1NDk2MTI4LDE4OTA2Nj
 Q5NTUsMTEwMzgyNjQ0NywtODY2ODEyOTg4LDEzMzYyMTk5Mjks

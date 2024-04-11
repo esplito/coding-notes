@@ -767,6 +767,9 @@ WCAG Success criterion:
 - [2.4.3 Focus Order](https://www.w3.org/TR/WCAG22/#focus-order)
 	- You read more about it here: https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html
 
+#### 🛠️ Solution: Qualify and Quantify an Accessibility Issue
+Marcy highlights the issue of inputs without adjacent labels. They just have placeholder text that disappears as you start typing.
+
 ## Useful resources
 TODO: Add more  useful links.
 
@@ -779,7 +782,7 @@ TODO: Add more  useful links.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTY1NjU2OSwxODg1NTMxNDgxLDgyOT
+eyJoaXN0b3J5IjpbLTU2Mzk2NTIzMCwxODg1NTMxNDgxLDgyOT
 Y2MDE5MCwxNTA5Mjk2MDAxLC0zMjMzMDg1MjksMTY3NTg5ODYy
 MywxNTE1OTQ5MTQxLC01NTA4Mzk3MTAsNDg2MzM1MTAzLDM2Nj
 cyNjUwLC0xMzc4MjQwNjEsLTIwNzQ5NTQ5MDcsLTEyMjk1MDMz

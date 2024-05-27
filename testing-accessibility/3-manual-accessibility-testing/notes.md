@@ -69,6 +69,8 @@ We also need to swap the elements in the mega menu from `div` to `button` to mak
 
 ### Lesson 2 - Fix Focus and Operability Issues for Keyboard Interactivity
 
+**Issue 1:** Update the stylesheet so that focus styles are visible. The styles can be found at `scss/_defaults.scss`.
+
 
 
 ## Useful resources
@@ -79,8 +81,8 @@ We also need to swap the elements in the mega menu from `div` to `button` to mak
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzM0OTM2NiwtMTU2OTgwNDAzNCw4Nz
-AwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4MDgsODI4Nzg5MTMw
-LDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQyNyw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbMzE5NTk1NTcwLDE0NjMzNDkzNjYsLTE1Nj
+k4MDQwMzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0xMTk1MzY4ODA4
+LDgyODc4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4LDE1OTkzNj
+k0MjcsNzMwOTk4MTE2XX0=
 -->

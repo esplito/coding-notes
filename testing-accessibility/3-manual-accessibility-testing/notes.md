@@ -69,7 +69,12 @@ We also need to swap the elements in the mega menu from `div` to `button` to mak
 
 ### Lesson 2 - Fix Focus and Operability Issues for Keyboard Interactivity
 
+#### Issues that need fixing
 **Issue 1:** Update the stylesheet so that focus styles are visible. The styles can be found at `scss/_defaults.scss`.
+**Issue 2:** The MegaNav needs its items to be replaced with a semantic element that is focusable and operable. The markup can be found at `_includes/header.html`
+**Issue 3:** The links inside of the MegaNav sections should not be focusable when the menu is closed.
+
+#### My solutions to the issues
 
 
 
@@ -81,8 +86,8 @@ We also need to swap the elements in the mega menu from `div` to `button` to mak
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5NTk1NTcwLDE0NjMzNDkzNjYsLTE1Nj
-k4MDQwMzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0xMTk1MzY4ODA4
-LDgyODc4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4LDE1OTkzNj
-k0MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OT
+gwNDAzNCw4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4MDgs
+ODI4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OT
+QyNyw3MzA5OTgxMTZdfQ==
 -->

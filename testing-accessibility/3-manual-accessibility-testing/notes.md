@@ -43,7 +43,7 @@ document.body.addEventListener('focusin', () => console.log(document.activeEleme
 #### 🛠 Challenge: Search for Issues by Hitting Tab
 
 Issues found:
--  When focusing items in the menu I don't get a hint to what page they are pointing towards
+-  When focusing items in the menu I don't get
 - Several links only have a `#` tag, which makes sense if you are not done with defining links on the page.
 
 #### 🛠 Solution: The Issues Found
@@ -63,7 +63,7 @@ Issues found:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwMDc0OTE4LDM3Mzk3ODUxLC0xMTk1Mz
-Y4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4LDE1
-OTkzNjk0MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTM4NDcwMTc1Miw4NzAwNzQ5MTgsMzczOT
+c4NTEsLTExOTUzNjg4MDgsODI4Nzg5MTMwLDkxNTc5NjkwMyw0
+MjM3MDE5ODgsMTU5OTM2OTQyNyw3MzA5OTgxMTZdfQ==
 -->

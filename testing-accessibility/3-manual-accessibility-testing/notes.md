@@ -60,7 +60,7 @@ Issues found:
 >_A typical workflow is to identify a few problems, examine markup in DevTools, then jump over to the code to remediate the issues._
 
 - Use dev tools in browser to investigate them
-	- Check focus styles by forcing their interactive states
+	- Check focus styles by forcing their interactive states (example: `a`-tags can  give us a hint)
 	- 
 
 ## Useful resources
@@ -71,7 +71,7 @@ Issues found:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTEyMjQxMSw4NzAwNzQ5MTgsMzczOT
-c4NTEsLTExOTUzNjg4MDgsODI4Nzg5MTMwLDkxNTc5NjkwMyw0
-MjM3MDE5ODgsMTU5OTM2OTQyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTkxMzkxODY2LDg3MDA3NDkxOCwzNzM5Nz
+g1MSwtMTE5NTM2ODgwOCw4Mjg3ODkxMzAsOTE1Nzk2OTAzLDQy
+MzcwMTk4OCwxNTk5MzY5NDI3LDczMDk5ODExNl19
 -->

@@ -90,6 +90,9 @@ to
 }
 ```
 
+Solution 2: Update `megamenu-navitem` divs to be `button` instead and apply the styling suggested by Marcy (just to fix the default styles applied by the browser).
+
+Solution 3: Ensure that they h
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -99,8 +102,8 @@ to
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzND
-kzNjYsLTE1Njk4MDQwMzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0x
-MTk1MzY4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOT
-g4LDE1OTkzNjk0MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNzQ0MjEzNTYzLDk4MTE2OTUxNCw3NDc5NT
+c5NywxNDYzMzQ5MzY2LC0xNTY5ODA0MDM0LDg3MDA3NDkxOCwz
+NzM5Nzg1MSwtMTE5NTM2ODgwOCw4Mjg3ODkxMzAsOTE1Nzk2OT
+AzLDQyMzcwMTk4OCwxNTk5MzY5NDI3LDczMDk5ODExNl19
 -->

@@ -45,9 +45,12 @@
 - [ ] Test with screen readers 🗣
 	- [ ] NVDA in Chrome (Windows)
 	- [ ] VoiceOver (Mac)
+	- [ ] Lists announced properly
+	- [ ] Headings announced properly
+	- [ ] Can user efficiently complete their task?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDgzMDY3OSwxNTEyODM3NTIwLC0xNj
+eyJoaXN0b3J5IjpbMTk0NjYwMDE3OCwxNTEyODM3NTIwLC0xNj
 MzMDQxNDMyXX0=
 -->

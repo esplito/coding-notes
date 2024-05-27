@@ -19,7 +19,8 @@
 - [ ] Keyboard testing
 - [ ] Check heading and landmark structure
 - [ ] Scan each page with Axe Devtools
-	- [ ] Take notes of any issues it finds
+	- [ ] Take notes of any issues it finds (especially critical ones)
+		- [ ] For the found issues: include links to relevant guideline documentation
 - [ ] Check colour contrast (with Colour Contrast Analyzer)
 - [ ] Repeat the user flow at different viewport sizes
 	- [ ] Take screenshots of pages at device widths where things could be improved (use developer tools to simulate different viewports)
@@ -30,5 +31,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1NDExNTIyXX0=
+eyJoaXN0b3J5IjpbLTE2MzMwNDE0MzJdfQ==
 -->

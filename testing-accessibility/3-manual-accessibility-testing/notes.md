@@ -61,7 +61,9 @@ Issues found:
 
 - Use dev tools in browser to investigate them
 	- Check focus styles by forcing their interactive states (example: `a`-tags can  give us a hint)
-	- 
+	- Check HTML
+
+By investigating we can find that
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -71,7 +73,7 @@ Issues found:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzkxODY2LDg3MDA3NDkxOCwzNzM5Nz
+eyJoaXN0b3J5IjpbLTMxODUwODI4LDg3MDA3NDkxOCwzNzM5Nz
 g1MSwtMTE5NTM2ODgwOCw4Mjg3ODkxMzAsOTE1Nzk2OTAzLDQy
 MzcwMTk4OCwxNTk5MzY5NDI3LDczMDk5ODExNl19
 -->

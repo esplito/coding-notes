@@ -125,7 +125,9 @@ When hovered or active:
 
 ### Lesson 3 - Toggle the Menu and add Escape Key Handling with JavaScript
 
-The handling of adding the `active` class was already in the local `menu.js` file, so I simply read through the lesson material and watched the videos. Most of this stuff is handled automagically anyway when using libraries like react-router etc. for navigation elements. Good however to refresh my memory regarding how to
+The handling of adding the `active` class was already in the local `menu.js` file, so I simply read through the lesson material and watched the videos. Most of this stuff is handled automagically anyway when using libraries like react-router etc. for navigation elements. Good however to refresh my memory regarding how to write this in vanilla JS 😄
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -135,9 +137,9 @@ The handling of adding the `active` class was already in the local `menu.js` fil
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI4MjEwOTUsLTE0NzQ5NjMwNjcsOT
-gxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkzNjYsLTE1Njk4MDQw
-MzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0xMTk1MzY4ODA4LDgyOD
-c4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4LDE1OTkzNjk0Mjcs
-NzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTQzODA2OTAyMCwtMTQ3NDk2MzA2Nyw5OD
+ExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgwNDAz
+NCw4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4MDgsODI4Nz
+g5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQyNyw3
+MzA5OTgxMTZdfQ==
 -->

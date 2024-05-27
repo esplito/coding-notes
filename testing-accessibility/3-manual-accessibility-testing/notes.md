@@ -37,7 +37,7 @@ _**It’s the fastest way to start determining if something was built with acces
 
 Use `focusin` event to easier see which html element that is being focused. Marcy adds this to the developer console:
 ```js
-document.body.addEventListener('focusin', () => console.log(document.activeElement)
+document.body.addEventListener('focusin', () => console.log(document.activeElement))
 ```
 
 #### 🛠 Challenge: Search for Issues by Hitting Tab
@@ -53,7 +53,7 @@ Issues found:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3Mjg1MzY0LC0xMTk1MzY4ODA4LDgyOD
-c4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4LDE1OTkzNjk0Mjcs
-NzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMzczOTc4NTEsLTExOTUzNjg4MDgsODI4Nz
+g5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQyNyw3
+MzA5OTgxMTZdfQ==
 -->

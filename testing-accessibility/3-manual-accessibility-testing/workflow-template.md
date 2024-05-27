@@ -17,6 +17,10 @@
 
 - [ ] Identify user flows
 - [ ] Keyboard testing
+	- [ ] Tab through each step in the user flow
+	- [ ] Is everything that can be done with a mouse also focusable and operable with keyboard?
+	- [ ] Can you see visible focus indicators?
+	- [ ] Include screensh
 - [ ] Check heading and landmark structure
 	- [ ] Use accessibility tab in Firefox
 	- [ ] Also use Accessibility Insights Heading and Landmark tools
@@ -34,6 +38,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk0MzU0OTIsLTE2MzMwNDE0MzJdfQ
+eyJoaXN0b3J5IjpbLTExNjA0NjU0MjEsLTE2MzMwNDE0MzJdfQ
 ==
 -->

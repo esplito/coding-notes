@@ -31,7 +31,7 @@ I've tried to summarize the workflow that Marcy suggests and you can find it in 
 
 ### Lesson 1 - Identify issues by hitting Tab
 
-
+Us
 
 
 ## Useful resources
@@ -42,7 +42,7 @@ I've tried to summarize the workflow that Marcy suggests and you can find it in 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTUzNjg4MDgsODI4Nzg5MTMwLDkxNT
-c5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQyNyw3MzA5OTgxMTZd
-fQ==
+eyJoaXN0b3J5IjpbLTE1NTU4MTk4MTgsLTExOTUzNjg4MDgsOD
+I4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQy
+Nyw3MzA5OTgxMTZdfQ==
 -->

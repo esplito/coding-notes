@@ -19,15 +19,16 @@
 - [ ] Keyboard testing
 - [ ] Check heading and landmark structure
 - [ ] Scan each page with Axe Devtools
-- [ ] Check colour contrast
+	- [ ] Take notes of any issues it finds
+- [ ] Check colour contrast (with Colour Contrast Analyzer)
 - [ ] Repeat the user flow at different viewport sizes
-	- [ ] Take screenshots of pages at device widths where things could be improved
-	- [ ] Test on actual mobile browser 
+	- [ ] Take screenshots of pages at device widths where things could be improved (use developer tools to simulate different viewports)
+	- [ ] Test on actual mobile device browser (if you can)
 - [ ] Test with screen readers
 	- [ ] NVDA in Chrome (Windows)
 	- [ ] VoiceOver (Mac)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODUyMzE1MTFdfQ==
+eyJoaXN0b3J5IjpbNzg1NDExNTIyXX0=
 -->

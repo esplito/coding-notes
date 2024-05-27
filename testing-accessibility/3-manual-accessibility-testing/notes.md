@@ -132,6 +132,8 @@ Most of this stuff is handled automagically anyway when using libraries like rea
 >💡Tip
 >There’s  [an entire Focus Management module](https://testingaccessibility.com/learn/interactions-and-mechanics/focus-management)  in the Coding Accessible Interactions & Mechanics workshop.
 
+### Lesson 4 - Fix Additional Keyboard Interactivity Issues
+
 
 
 ## Useful resources
@@ -142,9 +144,9 @@ Most of this stuff is handled automagically anyway when using libraries like rea
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjk1MTQ5MSwzODE1OTUzMTQsLTE0Nz
-Q5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkzNjYs
-LTE1Njk4MDQwMzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0xMTk1Mz
-Y4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4LDE1
-OTkzNjk0MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTc0MzM5Mzc5LDM4MTU5NTMxNCwtMTQ3ND
+k2MzA2Nyw5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2Niwt
+MTU2OTgwNDAzNCw4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNj
+g4MDgsODI4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5
+OTM2OTQyNyw3MzA5OTgxMTZdfQ==
 -->

@@ -97,27 +97,17 @@ Solution 3: Ensure that they have `display: none` instead of just `opacity: 0` a
 When **not** hovered or active:
 ```scss
 .megamenu-submenu {
-
-background-color: var(--bgcolor-menu);
-
-color: var(--color-primary-light);
-
-display: none;
-
-opacity: 0;
-
-font-size: 0.85rem;
-
-height: 0;
-
-left: 0;
-
-max-width: var(--width-wide);
-
-overflow: hidden;
-
-position: absolute;
-width: 100%;
+	background-color: var(--bgcolor-menu);
+	color: var(--color-primary-light);
+	display: none;
+	opacity: 0;
+	font-size: 0.85rem;
+	height: 0;
+	left: 0;
+	max-width: var(--width-wide);
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
 }
 ```
 
@@ -133,6 +123,8 @@ When hovered or active:
 }
 ```
 
+
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -141,9 +133,9 @@ When hovered or active:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2ODU3MDY0NSw5ODExNjk1MTQsNzQ3OT
-U3OTcsMTQ2MzM0OTM2NiwtMTU2OTgwNDAzNCw4NzAwNzQ5MTgs
-MzczOTc4NTEsLTExOTUzNjg4MDgsODI4Nzg5MTMwLDkxNTc5Nj
-kwMyw0MjM3MDE5ODgsMTU5OTM2OTQyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE0NzQ5NjMwNjcsOTgxMTY5NTE0LDc0Nz
+k1Nzk3LDE0NjMzNDkzNjYsLTE1Njk4MDQwMzQsODcwMDc0OTE4
+LDM3Mzk3ODUxLC0xMTk1MzY4ODA4LDgyODc4OTEzMCw5MTU3OT
+Y5MDMsNDIzNzAxOTg4LDE1OTkzNjk0MjcsNzMwOTk4MTE2XX0=
 
 -->

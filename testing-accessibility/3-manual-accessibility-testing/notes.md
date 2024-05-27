@@ -44,7 +44,16 @@ document.body.addEventListener('focusin', () => console.log(document.activeEleme
 
 Issues found:
 -  When focusing items in the menu I don't get a hint to what page they are pointing towards
-- Several lin
+- Several links only have a `#` tag, which makes sense if you are not done with defining links on the page.
+
+#### 🛠 Solution: The Issues Found
+
+>When tabbing through the CampSpots app, here are some issues you should find:
+>
+>-   There isn’t much of a visual indication to where you are >focused on the page.
+>-   Several links have the only  `#`  symbol, but this isn't a huge deal at the moment since this is a prototype app.
+>-   The Browser status bar sometimes shows that you have selected a link to a different page, but it doesn’t open a nav menu and you can’t see where you are visually in the mega menu ("Plan Your Trip", "Ways to Stay", "Resources").
+>-   You could Tab into the form fields on both pages but hitting Tab again skips over the Submit button. Skipping the submit button with the Tab key could be acceptable if the form Submit was disabled until required fields were filled.
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -54,7 +63,7 @@ Issues found:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3MTM1NDUsMzczOTc4NTEsLTExOTUzNj
-g4MDgsODI4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5
-OTM2OTQyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODcwMDc0OTE4LDM3Mzk3ODUxLC0xMTk1Mz
+Y4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4LDE1
+OTkzNjk0MjcsNzMwOTk4MTE2XX0=
 -->

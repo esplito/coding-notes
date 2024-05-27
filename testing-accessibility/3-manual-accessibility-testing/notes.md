@@ -127,6 +127,9 @@ When hovered or active:
 
 The handling of adding the `active` class was already in the local `menu.js` file, so I simply read through the lesson material and watched the videos. Most of this stuff is handled automagically anyway when using libraries like react-router etc. for navigation elements. Good however to refresh my memory regarding how to write this in vanilla JS 😄
 
+>💡Tip
+>There’s  [an entire Focus Management module](https://testingaccessibility.com/learn/interactions-and-mechanics/focus-management)  in the Coding Accessible Interactions & Mechanics workshop.
+
 
 
 ## Useful resources
@@ -137,9 +140,9 @@ The handling of adding the `active` class was already in the local `menu.js` fil
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODA2OTAyMCwtMTQ3NDk2MzA2Nyw5OD
-ExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgwNDAz
-NCw4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4MDgsODI4Nz
-g5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQyNyw3
-MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMzgxNTk1MzE0LC0xNDc0OTYzMDY3LDk4MT
+E2OTUxNCw3NDc5NTc5NywxNDYzMzQ5MzY2LC0xNTY5ODA0MDM0
+LDg3MDA3NDkxOCwzNzM5Nzg1MSwtMTE5NTM2ODgwOCw4Mjg3OD
+kxMzAsOTE1Nzk2OTAzLDQyMzcwMTk4OCwxNTk5MzY5NDI3LDcz
+MDk5ODExNl19
 -->

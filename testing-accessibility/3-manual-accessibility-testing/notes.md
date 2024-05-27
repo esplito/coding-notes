@@ -65,9 +65,11 @@ Issues found:
 
 By investigating we can find that we need to remove the `outline: none` that is being applied to all elements.
 
-We also need to swap the elements in the mega menu from `div` to `button`.
+We also need to swap the elements in the mega menu from `div` to `button` to make them focusable.
 
-### Less
+### Lesson 2 - Fix Focus and Operability Issues for Keyboard Interactivity
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -77,8 +79,8 @@ We also need to swap the elements in the mega menu from `div` to `button`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwMjE2NTYsLTE1Njk4MDQwMzQsODcwMD
-c0OTE4LDM3Mzk3ODUxLC0xMTk1MzY4ODA4LDgyODc4OTEzMCw5
-MTU3OTY5MDMsNDIzNzAxOTg4LDE1OTkzNjk0MjcsNzMwOTk4MT
-E2XX0=
+eyJoaXN0b3J5IjpbMTQ2MzM0OTM2NiwtMTU2OTgwNDAzNCw4Nz
+AwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4MDgsODI4Nzg5MTMw
+LDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQyNyw3MzA5OT
+gxMTZdfQ==
 -->

@@ -125,7 +125,8 @@ When hovered or active:
 
 ### Lesson 3 - Toggle the Menu and add Escape Key Handling with JavaScript
 
-The handling of adding the `active` class was already in the local `menu.js` file, so I simply read through the lesson material and watched the videos. I also implemented the Escape key handling in my local env. Most of this stuff is handled automagically anyway when using libraries like react-router etc. for navigation elements. Good however to refresh my memory regarding how to write this in vanilla JS 😄
+The handling of adding the `active` class was already in the local `menu.js` file, so I simply read through the lesson material and watched the videos. I also implemented the Escape key handling in my local env. 
+Most of this stuff is handled automagically anyway when using libraries like react-router etc. for navigation elements. Good however to refresh my memory regarding how to write this in vanilla JS 😄
 
 >💡Tip
 >There’s  [an entire Focus Management module](https://testingaccessibility.com/learn/interactions-and-mechanics/focus-management)  in the Coding Accessible Interactions & Mechanics workshop.
@@ -140,9 +141,9 @@ The handling of adding the `active` class was already in the local `menu.js` fil
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3MzA0ODU3LDM4MTU5NTMxNCwtMTQ3ND
-k2MzA2Nyw5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2Niwt
-MTU2OTgwNDAzNCw4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNj
-g4MDgsODI4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5
-OTM2OTQyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTI4OTg4MDM2MywzODE1OTUzMTQsLTE0Nz
+Q5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkzNjYs
+LTE1Njk4MDQwMzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0xMTk1Mz
+Y4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4LDE1
+OTkzNjk0MjcsNzMwOTk4MTE2XX0=
 -->

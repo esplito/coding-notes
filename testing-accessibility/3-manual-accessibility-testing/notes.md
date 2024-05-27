@@ -59,6 +59,10 @@ Issues found:
 
 >_A typical workflow is to identify a few problems, examine markup in DevTools, then jump over to the code to remediate the issues._
 
+- Use dev tools in browser to investigate them
+	- Check focus styles by forcing their interactive states
+	- 
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -67,7 +71,7 @@ Issues found:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MzY4Njg1MSw4NzAwNzQ5MTgsMzczOT
+eyJoaXN0b3J5IjpbLTU1NTEyMjQxMSw4NzAwNzQ5MTgsMzczOT
 c4NTEsLTExOTUzNjg4MDgsODI4Nzg5MTMwLDkxNTc5NjkwMyw0
 MjM3MDE5ODgsMTU5OTM2OTQyNyw3MzA5OTgxMTZdfQ==
 -->

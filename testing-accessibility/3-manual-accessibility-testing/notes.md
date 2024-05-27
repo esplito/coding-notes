@@ -126,6 +126,7 @@ When hovered or active:
 ### Lesson 3 - Toggle the Menu and add Escape Key Handling with JavaScript
 
 The handling of adding the `active` class was already in the local `menu.js` file, so I simply read through the lesson material and watched the videos. I also implemented the Escape key handling in my local env. 
+
 Most of this stuff is handled automagically anyway when using libraries like react-router etc. for navigation elements. Good however to refresh my memory regarding how to write this in vanilla JS 😄
 
 >💡Tip
@@ -141,7 +142,7 @@ Most of this stuff is handled automagically anyway when using libraries like rea
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTg4MDM2MywzODE1OTUzMTQsLTE0Nz
+eyJoaXN0b3J5IjpbLTYzNjk1MTQ5MSwzODE1OTUzMTQsLTE0Nz
 Q5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkzNjYs
 LTE1Njk4MDQwMzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0xMTk1Mz
 Y4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4LDE1

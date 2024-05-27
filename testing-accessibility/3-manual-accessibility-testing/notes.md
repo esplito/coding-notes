@@ -43,7 +43,8 @@ document.body.addEventListener('focusin', () => console.log(document.activeEleme
 #### 🛠 Challenge: Search for Issues by Hitting Tab
 
 Issues found:
--  
+-  When focusing items in the menu I don't get a hint to what page they are pointing towards
+- Several lin
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -53,7 +54,7 @@ Issues found:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczOTc4NTEsLTExOTUzNjg4MDgsODI4Nz
-g5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQyNyw3
-MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbOTE3MTM1NDUsMzczOTc4NTEsLTExOTUzNj
+g4MDgsODI4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5
+OTM2OTQyNyw3MzA5OTgxMTZdfQ==
 -->

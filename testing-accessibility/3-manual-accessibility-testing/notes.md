@@ -30,9 +30,10 @@ Regarding WCAG:
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
 - [“How to Meet”](https://www.w3.org/WAI/WCAG21/quickref/) 
+- [Workshop resour
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1Nzk2OTAzLDQyMzcwMTk4OCwxNTk5Mz
-Y5NDI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEzMTA5MDkyODgsOTE1Nzk2OTAzLDQyMz
+cwMTk4OCwxNTk5MzY5NDI3LDczMDk5ODExNl19
 -->

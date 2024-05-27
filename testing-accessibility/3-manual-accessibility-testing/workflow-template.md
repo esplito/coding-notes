@@ -21,11 +21,13 @@
 - [ ] Scan each page with Axe Devtools
 - [ ] Check colour contrast
 - [ ] Repeat the user flow at different viewport sizes
+	- [ ] Take screenshots of pages at device widths where things could be improved
+	- [ ] Test on actual mobile browser 
 - [ ] Test with screen readers
-	- [ ] NVDA in Chrome Windows)
-	- [ ] VoiceOver 
+	- [ ] NVDA in Chrome (Windows)
+	- [ ] VoiceOver (Mac)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODk1NTkzXX0=
+eyJoaXN0b3J5IjpbLTE3ODUyMzE1MTFdfQ==
 -->

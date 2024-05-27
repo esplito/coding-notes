@@ -29,6 +29,10 @@ I've tried to summarize the workflow that Marcy suggests and you can find it in 
 
 ## Section 2 - Keyboard Testing
 
+### Lesson 1 - Identify issues by hitting Tab
+
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -38,7 +42,7 @@ I've tried to summarize the workflow that Marcy suggests and you can find it in 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MzY2OTYwMCw4Mjg3ODkxMzAsOTE1Nz
-k2OTAzLDQyMzcwMTk4OCwxNTk5MzY5NDI3LDczMDk5ODExNl19
-
+eyJoaXN0b3J5IjpbLTExOTUzNjg4MDgsODI4Nzg5MTMwLDkxNT
+c5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQyNyw3MzA5OTgxMTZd
+fQ==
 -->

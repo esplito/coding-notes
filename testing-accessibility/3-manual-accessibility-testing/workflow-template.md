@@ -5,8 +5,8 @@
 >Whether you’re responsible for mitigating issues or not, the test report you compile will help you prioritize fixes and ship a more accessible application.
 
 ## Workflow
-1. Identify user flows
-2. Keyboard testing
+1. Identify user flows 🕵️‍♂️
+2. Keyboard testing ⌨️
 3. Check heading and landmark structure
 4. Scan each page with Axe Devtools
 5. Check colour contrast
@@ -15,16 +15,19 @@
 
 ## Checklist
 
-- [ ] Identify user flows
+- [ ] Identify user flows 🕵️‍♂️
 	- [ ] Which user flow are you testing?
+	- [ ] Which pages on the site will be visited?
 	- [ ] Which components are most critical?
-- [ ] Keyboard testing
+
+- [ ] Keyboard testing ⌨️
 	- [ ] Tab through each step in the user flow
 	- [ ] Is everything that can be done with a mouse also focusable and operable with keyboard?
 	- [ ] Can you see visible focus indicators?
 	- [ ] Include screenshot from [Accessibility Insights Tab Stops tool](https://accessibilityinsights.io/downloads/).
 	- [ ] Check for divs that should be `button`
-- [ ] Check heading and landmark structure
+
+- [ ] Check heading and landmark structure 
 	- [ ] Use accessibility tab in Firefox
 	- [ ] Also use Accessibility Insights Heading and Landmark tools
 	- [ ] Include screenshots from [Accessibility Insights Heading and Landmark tools](https://accessibilityinsights.io/downloads/).
@@ -41,5 +44,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMjgzNzUyMCwtMTYzMzA0MTQzMl19
+eyJoaXN0b3J5IjpbNzY1MDAzODUxLDE1MTI4Mzc1MjAsLTE2Mz
+MwNDE0MzJdfQ==
 -->

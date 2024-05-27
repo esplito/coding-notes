@@ -55,6 +55,7 @@ Issues found:
 >-   The Browser status bar sometimes shows that you have selected a link to a different page, but it doesn’t open a nav menu and you can’t see where you are visually in the mega menu ("Plan Your Trip", "Ways to Stay", "Resources").
 >-   You could Tab into the form fields on both pages but hitting Tab again skips over the Submit button. Skipping the submit button with the Tab key could be acceptable if the form Submit was disabled until required fields were filled.
 
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -63,7 +64,7 @@ Issues found:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTkzMTY4MTAsODcwMDc0OTE4LDM3Mz
-k3ODUxLC0xMTk1MzY4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMs
-NDIzNzAxOTg4LDE1OTkzNjk0MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODcwNTE4NjAwLDg3MDA3NDkxOCwzNzM5Nz
+g1MSwtMTE5NTM2ODgwOCw4Mjg3ODkxMzAsOTE1Nzk2OTAzLDQy
+MzcwMTk4OCwxNTk5MzY5NDI3LDczMDk5ODExNl19
 -->

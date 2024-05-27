@@ -63,7 +63,9 @@ Issues found:
 	- Check focus styles by forcing their interactive states (example: `a`-tags can  give us a hint)
 	- Check HTML
 
-By investigating we can find that
+By investigating we can find that we need to remove the `outline: none` that is being applied to all elements.
+
+We also need to swap the elements in the mega menu from `div` to `button`.
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -73,7 +75,7 @@ By investigating we can find that
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODUwODI4LDg3MDA3NDkxOCwzNzM5Nz
-g1MSwtMTE5NTM2ODgwOCw4Mjg3ODkxMzAsOTE1Nzk2OTAzLDQy
-MzcwMTk4OCwxNTk5MzY5NDI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE1Njk4MDQwMzQsODcwMDc0OTE4LDM3Mz
+k3ODUxLC0xMTk1MzY4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMs
+NDIzNzAxOTg4LDE1OTkzNjk0MjcsNzMwOTk4MTE2XX0=
 -->

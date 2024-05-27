@@ -67,6 +67,8 @@ By investigating we can find that we need to remove the `outline: none` that is 
 
 We also need to swap the elements in the mega menu from `div` to `button`.
 
+### Less
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -75,7 +77,8 @@ We also need to swap the elements in the mega menu from `div` to `button`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njk4MDQwMzQsODcwMDc0OTE4LDM3Mz
-k3ODUxLC0xMTk1MzY4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMs
-NDIzNzAxOTg4LDE1OTkzNjk0MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNTAwMjE2NTYsLTE1Njk4MDQwMzQsODcwMD
+c0OTE4LDM3Mzk3ODUxLC0xMTk1MzY4ODA4LDgyODc4OTEzMCw5
+MTU3OTY5MDMsNDIzNzAxOTg4LDE1OTkzNjk0MjcsNzMwOTk4MT
+E2XX0=
 -->

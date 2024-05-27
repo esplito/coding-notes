@@ -25,6 +25,10 @@ Regarding WCAG:
 
 >If at any point you are confused about a guideline, search for related content on the web or ask in digital accessibility communities such as the [WebAIM mailing list](https://webaim.org/discussion/). The official [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/) and [“How to Meet”](https://www.w3.org/WAI/WCAG21/quickref/) documents are also useful for providing an additional context where success criteria are a bit vague.
 
+I've tried to summarize the workflow that Marcy suggests and you can find it in the [workflow-template.md file](./workflow-template.md)
+
+## Section 2 - Keyboard Testing
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -34,6 +38,7 @@ Regarding WCAG:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MD
-E5ODgsMTU5OTM2OTQyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTY3MzY2OTYwMCw4Mjg3ODkxMzAsOTE1Nz
+k2OTAzLDQyMzcwMTk4OCwxNTk5MzY5NDI3LDczMDk5ODExNl19
+
 -->

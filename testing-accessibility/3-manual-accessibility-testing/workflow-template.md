@@ -7,10 +7,10 @@
 ## Workflow
 1. Identify user flows 🕵️‍♂️
 2. Keyboard testing ⌨️
-3. Check heading and landmark structure
-4. Scan each page with Axe Devtools
-5. Check colour contrast
-6. Repeat the user flow at different viewport sizes
+3. Check heading and landmark structure 🏞
+4. Scan each page with Axe Devtools 🧐
+5. Check colour contrast 🎨
+6. Repeat the user flow at different viewport sizes 📱
 7. Test with screen readers
 
 ## Checklist
@@ -27,23 +27,27 @@
 	- [ ] Include screenshot from [Accessibility Insights Tab Stops tool](https://accessibilityinsights.io/downloads/).
 	- [ ] Check for divs that should be `button`
 
-- [ ] Check heading and landmark structure 
+- [ ] Check heading and landmark structure 🏞
 	- [ ] Use accessibility tab in Firefox
 	- [ ] Also use Accessibility Insights Heading and Landmark tools
 	- [ ] Include screenshots from [Accessibility Insights Heading and Landmark tools](https://accessibilityinsights.io/downloads/).
-- [ ] Scan each page with Axe Devtools
+
+- [ ] Scan each page with Axe Devtools 🧐
 	- [ ] Take notes of any issues it finds (especially critical ones)
 		- [ ] For the found issues: include links to relevant guideline documentation
-- [ ] Check colour contrast (with Colour Contrast Analyzer)
-- [ ] Repeat the user flow at different viewport sizes
+
+- [ ] Check colour contrast (with Colour Contrast Analyzer) 🎨
+
+- [ ] Repeat the user flow at different viewport sizes 📱
 	- [ ] Take screenshots of pages at device widths where things could be improved (use developer tools to simulate different viewports)
 	- [ ] Test on actual mobile device browser (if you can)
-- [ ] Test with screen readers
+
+- [ ] Test with screen readers 🗣
 	- [ ] NVDA in Chrome (Windows)
 	- [ ] VoiceOver (Mac)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1MDAzODUxLDE1MTI4Mzc1MjAsLTE2Mz
+eyJoaXN0b3J5IjpbLTM4MTIyOTAxLDE1MTI4Mzc1MjAsLTE2Mz
 MwNDE0MzJdfQ==
 -->

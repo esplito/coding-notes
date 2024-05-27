@@ -43,7 +43,7 @@ document.body.addEventListener('focusin', () => console.log(document.activeEleme
 #### 🛠 Challenge: Search for Issues by Hitting Tab
 
 Issues found:
--  When focusing items in the menu I don't get
+-  When focusing items in the menu I don't get focus indicators and I can't see the submenu.
 - Several links only have a `#` tag, which makes sense if you are not done with defining links on the page.
 
 #### 🛠 Solution: The Issues Found
@@ -63,7 +63,7 @@ Issues found:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDcwMTc1Miw4NzAwNzQ5MTgsMzczOT
-c4NTEsLTExOTUzNjg4MDgsODI4Nzg5MTMwLDkxNTc5NjkwMyw0
-MjM3MDE5ODgsMTU5OTM2OTQyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE0OTkzMTY4MTAsODcwMDc0OTE4LDM3Mz
+k3ODUxLC0xMTk1MzY4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMs
+NDIzNzAxOTg4LDE1OTkzNjk0MjcsNzMwOTk4MTE2XX0=
 -->

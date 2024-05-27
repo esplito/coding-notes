@@ -21,13 +21,18 @@ This summarizes what this module is all about:
 >Another member of the dev team has opened a Pull Request with an initial prototype build of the site. It is your responsibility to test the accessibility of the application. As you find issues with the application, share details about the issues along with how you would implement the fixes.
 >The fixes you make to the application should meet or exceed WCAG 2.1 AA success criteria. For example, the app should be keyboard accessible and provide a good screen reader experience.
 
+Regarding WCAG:
+
+>If at any point you are confused about a guideline, search for related content on the web or ask in digital accessibility communities such as the [WebAIM mailing list](https://webaim.org/discussion/). The official [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/) and [“How to Meet”](https://www.w3.org/WAI/WCAG21/quickref/) documents are also useful for providing an additional context where success criteria are a bit vague.
 
 
 ## Useful resources
-- 
+- [WebAIM mailing list](https://webaim.org/discussion/)
+- [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
+- [“How to Meet”](https://www.w3.org/WAI/WCAG21/quickref/) 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzNzAxOTg4LDE1OTkzNjk0MjcsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbOTE1Nzk2OTAzLDQyMzcwMTk4OCwxNTk5Mz
+Y5NDI3LDczMDk5ODExNl19
 -->

@@ -76,6 +76,19 @@ We also need to swap the elements in the mega menu from `div` to `button` to mak
 
 #### My solutions to the issues
 
+Solution 1: Update styles from 
+```scss
+* {
+	box-sizing: border-box;
+	outline: 0;
+}
+```
+to
+```scss
+* {
+	box-sizing: border-box;
+}
+```
 
 
 ## Useful resources
@@ -86,8 +99,8 @@ We also need to swap the elements in the mega menu from `div` to `button` to mak
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OT
-gwNDAzNCw4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4MDgs
-ODI4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OT
-QyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzND
+kzNjYsLTE1Njk4MDQwMzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0x
+MTk1MzY4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOT
+g4LDE1OTkzNjk0MjcsNzMwOTk4MTE2XX0=
 -->

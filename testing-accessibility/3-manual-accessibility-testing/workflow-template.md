@@ -19,6 +19,7 @@
 - [ ] Keyboard testing
 - [ ] Check heading and landmark structure
 	- [ ] Use accessibility tab in Firefox
+	- [ ] Also use Accessibility Insights Heading and Landmark tools
 	- [ ] Include screenshots from [Accessibility Insights Heading and Landmark tools](https://accessibilityinsights.io/downloads/).
 - [ ] Scan each page with Axe Devtools
 	- [ ] Take notes of any issues it finds (especially critical ones)
@@ -33,5 +34,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjM2OTUwMCwtMTYzMzA0MTQzMl19
+eyJoaXN0b3J5IjpbLTIwMDk0MzU0OTIsLTE2MzMwNDE0MzJdfQ
+==
 -->

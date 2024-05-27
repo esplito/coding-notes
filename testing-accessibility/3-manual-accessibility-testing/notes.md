@@ -123,6 +123,8 @@ When hovered or active:
 }
 ```
 
+### Lesson 3 - Toggle the Menu and add Escape Key Handling with JavaScript
+
 
 
 ## Useful resources
@@ -133,9 +135,9 @@ When hovered or active:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQ5NjMwNjcsOTgxMTY5NTE0LDc0Nz
-k1Nzk3LDE0NjMzNDkzNjYsLTE1Njk4MDQwMzQsODcwMDc0OTE4
-LDM3Mzk3ODUxLC0xMTk1MzY4ODA4LDgyODc4OTEzMCw5MTU3OT
-Y5MDMsNDIzNzAxOTg4LDE1OTkzNjk0MjcsNzMwOTk4MTE2XX0=
-
+eyJoaXN0b3J5IjpbLTE0MDU1MDM1MjQsLTE0NzQ5NjMwNjcsOT
+gxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkzNjYsLTE1Njk4MDQw
+MzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0xMTk1MzY4ODA4LDgyOD
+c4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4LDE1OTkzNjk0Mjcs
+NzMwOTk4MTE2XX0=
 -->

@@ -6,7 +6,11 @@
 
 ## Workflow
 1. Identify user flows
-2. 
+2. Keyboard testing
+3. Check heading and landmark structure
+4. Scan each page with Axe Devtools
+5. Check colour contrast
+6. Repeat the user flow on different viewport sizes
 
 ## Checklist
 
@@ -15,5 +19,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg3MzQ1NzVdfQ==
+eyJoaXN0b3J5IjpbLTMwMzc5ODYzNF19
 -->

@@ -10,14 +10,22 @@
 3. Check heading and landmark structure
 4. Scan each page with Axe Devtools
 5. Check colour contrast
-6. Repeat the user flow on different viewport sizes
+6. Repeat the user flow at different viewport sizes
+7. Test with screen readers
 
 ## Checklist
 
 - [ ] Identify user flows
-- [ ]  
+- [ ] Keyboard testing
+- [ ] Check heading and landmark structure
+- [ ] Scan each page with Axe Devtools
+- [ ] Check colour contrast
+- [ ] Repeat the user flow at different viewport sizes
+- [ ] Test with screen readers
+	- [ ] NVDA in Chrome Windows)
+	- [ ] VoiceOver 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzc5ODYzNF19
+eyJoaXN0b3J5IjpbMTE1ODk1NTkzXX0=
 -->

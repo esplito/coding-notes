@@ -31,6 +31,8 @@ I've tried to summarize the workflow that Marcy suggests and you can find it in 
 
 ### Lesson 1 - Identify issues by hitting Tab
 
+>_The first step in testing keyboard accessibility is to start hitting the Tab key to see what interactive items you can and can't reach._
+
 Use `focusin` event to easier see which html element that is being focused. Marcy adds this to the developer console:
 ```js
 document.body.addEventListener('focusin', () => console.log(document.activeElement)
@@ -45,7 +47,7 @@ document.body.addEventListener('focusin', () => console.log(document.activeEleme
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjkyMzk4MCwtMTE5NTM2ODgwOCw4Mj
-g3ODkxMzAsOTE1Nzk2OTAzLDQyMzcwMTk4OCwxNTk5MzY5NDI3
-LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE5Mzk4NDc3MTYsLTExOTUzNjg4MDgsOD
+I4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQy
+Nyw3MzA5OTgxMTZdfQ==
 -->

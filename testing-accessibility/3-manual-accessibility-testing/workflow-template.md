@@ -11,7 +11,7 @@
 4. Scan each page with Axe Devtools 🧐
 5. Check colour contrast 🎨
 6. Repeat the user flow at different viewport sizes 📱
-7. Test with screen readers
+7. Test with screen readers 🗣
 
 ## Checklist
 
@@ -48,6 +48,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MTIyOTAxLDE1MTI4Mzc1MjAsLTE2Mz
-MwNDE0MzJdfQ==
+eyJoaXN0b3J5IjpbMTQ0MDgzMDY3OSwxNTEyODM3NTIwLC0xNj
+MzMDQxNDMyXX0=
 -->

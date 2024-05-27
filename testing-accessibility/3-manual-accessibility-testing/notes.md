@@ -33,6 +33,8 @@ I've tried to summarize the workflow that Marcy suggests and you can find it in 
 
 >_The first step in testing keyboard accessibility is to start hitting the Tab key to see what interactive items you can and can't reach._
 
+_**It’s the fastest way to start determining if something was built with accessibility in mind.**_
+
 Use `focusin` event to easier see which html element that is being focused. Marcy adds this to the developer console:
 ```js
 document.body.addEventListener('focusin', () => console.log(document.activeElement)
@@ -47,7 +49,7 @@ document.body.addEventListener('focusin', () => console.log(document.activeEleme
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzk4NDc3MTYsLTExOTUzNjg4MDgsOD
+eyJoaXN0b3J5IjpbLTE0OTI2OTk1NjUsLTExOTUzNjg4MDgsOD
 I4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQy
 Nyw3MzA5OTgxMTZdfQ==
 -->

@@ -40,6 +40,10 @@ Use `focusin` event to easier see which html element that is being focused. Marc
 document.body.addEventListener('focusin', () => console.log(document.activeElement)
 ```
 
+#### 🛠 Challenge: Search for Issues by Hitting Tab
+
+Issues found:
+-  
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -49,7 +53,7 @@ document.body.addEventListener('focusin', () => console.log(document.activeEleme
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTI2OTk1NjUsLTExOTUzNjg4MDgsOD
-I4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQy
-Nyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODc3Mjg1MzY0LC0xMTk1MzY4ODA4LDgyOD
+c4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4LDE1OTkzNjk0Mjcs
+NzMwOTk4MTE2XX0=
 -->

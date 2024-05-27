@@ -16,11 +16,14 @@
 ## Checklist
 
 - [ ] Identify user flows
+	- [ ] Which user flow are you testing?
+	- [ ] Which components are most critical?
 - [ ] Keyboard testing
 	- [ ] Tab through each step in the user flow
 	- [ ] Is everything that can be done with a mouse also focusable and operable with keyboard?
 	- [ ] Can you see visible focus indicators?
-	- [ ] Include screensh
+	- [ ] Include screenshot from [Accessibility Insights Tab Stops tool](https://accessibilityinsights.io/downloads/).
+	- [ ] Check for divs that should be `button`
 - [ ] Check heading and landmark structure
 	- [ ] Use accessibility tab in Firefox
 	- [ ] Also use Accessibility Insights Heading and Landmark tools
@@ -38,6 +41,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjA0NjU0MjEsLTE2MzMwNDE0MzJdfQ
-==
+eyJoaXN0b3J5IjpbMTUxMjgzNzUyMCwtMTYzMzA0MTQzMl19
 -->

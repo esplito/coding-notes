@@ -125,7 +125,7 @@ When hovered or active:
 
 ### Lesson 3 - Toggle the Menu and add Escape Key Handling with JavaScript
 
-
+The handling of adding the `active` class was already in the local `menu.js` file, s
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -135,7 +135,7 @@ When hovered or active:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDU1MDM1MjQsLTE0NzQ5NjMwNjcsOT
+eyJoaXN0b3J5IjpbLTE2NjkyNjM0ODQsLTE0NzQ5NjMwNjcsOT
 gxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkzNjYsLTE1Njk4MDQw
 MzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0xMTk1MzY4ODA4LDgyOD
 c4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4LDE1OTkzNjk0Mjcs

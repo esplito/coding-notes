@@ -296,7 +296,7 @@ Example of it from the home page in the example website:
 ![Tab stop visualization on camp sports homepage](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1657563632%2F01-manual-testing%2F03-testing-with-devtools%2F05-visualize-tab-stops-headings-and-landmark-regions-with-accessibility-insights%2Fcf105fab-28c0-4193-84fb-a15da0efee22_udi1wu.png&w=3840&q=100)
 
 Tab stops tool before our fixes to the menu:
-![Tab stop visualization on camp sports homepage - before fixing the menu](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1657563833%2F01-manual-testing%2F03-testing-with-devtools%2F05-visualize-tab-stops-headings-and-landmark-regions-with-accessibility-insights%2F4f05916a-fc5a-4f91-a26a-1b213ed75029_mzsyab.png&w=3840&q=100)
+![Tab stop visualization on camp sports homepage - before fixing the menu. had a messy focus pattern.](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1657563833%2F01-manual-testing%2F03-testing-with-devtools%2F05-visualize-tab-stops-headings-and-landmark-regions-with-accessibility-insights%2F4f05916a-fc5a-4f91-a26a-1b213ed75029_mzsyab.png&w=3840&q=100)
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -307,7 +307,7 @@ Tab stops tool before our fixes to the menu:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5OTk5MjU0LDE1OTM5NDY1NTYsLTIwND
+eyJoaXN0b3J5IjpbOTE3MDQyMTEzLDE1OTM5NDY1NTYsLTIwND
 QyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMs
 MTUyMjQwNzMzNCwxMDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMD
 cxMTk2NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3

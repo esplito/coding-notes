@@ -311,6 +311,9 @@ Tab stops tool before our fixes to the menu:
 >Similar to the Headings tool, the Landmarks tool will highlight and label the page's landmarks.
 >This is useful for visualizing the landmarks you currently have and determining what on your page might work well in a region.
 
+#### Accessibility Insights Assessment
+
+The Assessment tool is an awesome guided tool that has you work through the WCAG AA success criteria, including things that can't be automated.
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -321,7 +324,7 @@ Tab stops tool before our fixes to the menu:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODEzMTY1MSwxNTkzOTQ2NTU2LC0yMD
+eyJoaXN0b3J5IjpbLTc2NzE5MjM5MSwxNTkzOTQ2NTU2LC0yMD
 Q0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMz
 LDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMD
 A3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjcz

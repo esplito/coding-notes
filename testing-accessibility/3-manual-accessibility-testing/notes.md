@@ -249,7 +249,13 @@ She also warns about some limitation to what Axe Dev Tools scans:
 
 Marcy suggest we focus on `wcag412` and the corresponding guideline, [WCAG Section 4.1.2 - Name, Role, Value](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html), which is level A and therefore critical.
 
-We can find more info about the issue found by axe by pressing "more information" in the devtool. In this case we get redirected to https://dequeuniversity.com/rules/axe/4.9/button-name?application=AxeChrome where we
+We can find more info about the issue found by axe by pressing "more information" in the devtool. In this case we get redirected to https://dequeuniversity.com/rules/axe/4.9/button-name?application=AxeChrome where we can see:
+- User impact (minor to critical)
+- Disabilities Affected
+- Standards related to it
+-  WCAG success criteria (2.0, 2.1, 2.2)
+- Related guidelines
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -260,11 +266,11 @@ We can find more info about the issue found by axe by pressing "more information
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzgyMDk0NjEsMTIzMjE0MzM5LDQzOD
-A4NTY5NSwxODYyNjE3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1
-NCwyMDg0NTEwMDg4LC0xMDA3MTE5NjY3LC05ODU3MTAzNywtMT
-c0ODI3OTM2OSwtMjEzMjczNzUwOSwtMTQ4NzIwODI3Miw5NDQ3
-NjYxMjIsMzgxNTk1MzE0LC0xNDc0OTYzMDY3LDk4MTE2OTUxNC
-w3NDc5NTc5NywxNDYzMzQ5MzY2LC0xNTY5ODA0MDM0LDg3MDA3
-NDkxOF19
+eyJoaXN0b3J5IjpbNDgwODg1NDExLDEyMzIxNDMzOSw0MzgwOD
+U2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0LDEwOTQzNTI0NTQs
+MjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOTg1NzEwMzcsLTE3ND
+gyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2
+MTIyLDM4MTU5NTMxNCwtMTQ3NDk2MzA2Nyw5ODExNjk1MTQsNz
+Q3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgwNDAzNCw4NzAwNzQ5
+MThdfQ==
 -->

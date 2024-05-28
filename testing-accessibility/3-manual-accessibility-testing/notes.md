@@ -315,6 +315,10 @@ Tab stops tool before our fixes to the menu:
 >The Assessment tool is an awesome guided tool that has you work through the WCAG AA success criteria, including things that can't be automated.
 >Each section provides information about what you need to do in order to test your application. Once you've performed the test, you self-report whether it passed or failed.
 
+### Lesson 6 - Challenge: Fixing Issues Found with Lighthouse & Axe DevTools
+
+
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -324,11 +328,11 @@ Tab stops tool before our fixes to the menu:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU2MzIwNjksMTU5Mzk0NjU1NiwtMj
-A0NDIwMzAzLDEyMzIxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEz
-MywxNTIyNDA3MzM0LDEwOTQzNTI0NTQsMjA4NDUxMDA4OCwtMT
-AwNzExOTY2NywtOTg1NzEwMzcsLTE3NDgyNzkzNjksLTIxMzI3
-Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2MTIyLDM4MTU5NTMxNC
-wtMTQ3NDk2MzA2Nyw5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0
-OTM2Nl19
+eyJoaXN0b3J5IjpbNjI4OTgyMzU1LC0xMjM1NjMyMDY5LDE1OT
+M5NDY1NTYsLTIwNDQyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1
+LDE4NjI2MTcxMzMsMTUyMjQwNzMzNCwxMDk0MzUyNDU0LDIwOD
+Q1MTAwODgsLTEwMDcxMTk2NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5
+MzY5LC0yMTMyNzM3NTA5LC0xNDg3MjA4MjcyLDk0NDc2NjEyMi
+wzODE1OTUzMTQsLTE0NzQ5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1
+Nzk3XX0=
 -->

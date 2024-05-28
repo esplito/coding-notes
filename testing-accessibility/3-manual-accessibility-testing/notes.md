@@ -186,7 +186,8 @@ In `CSS Overview` in Chrome it now passed their contrast ratio check and it also
 #### Install axe-linter
 > If you are a VSCode user, I suggest installing the axe Accessibility Linter extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter). Similar to tools like ESLint, axe-linter will highlight common accessibility issues in your project files and suggest fixes.
 
-#### 
+#### Image Alt tags
+When we open up `header.html` we can see that axe-linter tells us that w
 
 
 ## Useful resources
@@ -197,7 +198,7 @@ In `CSS Overview` in Chrome it now passed their contrast ratio check and it also
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNTU3NDI3MSwyMDg0NTEwMDg4LC0xMD
+eyJoaXN0b3J5IjpbMjAzMzMwNjYwMCwyMDg0NTEwMDg4LC0xMD
 A3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjcz
 NzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC
 0xNDc0OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5

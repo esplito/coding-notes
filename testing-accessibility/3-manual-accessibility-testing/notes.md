@@ -262,6 +262,8 @@ Marcy says this about Web Developer Toolbar:
 > This is one of my favorite tools for checking the structure of a page. Ideally, browsers would build this tooling feature in for us. But for now, this classic add-on is very helpful.
 
 🚨 **Note about the tool:** 🚨
+> Note: you may encounter issues with Web Developer Toolbar occasionally where headings are shown even though they aren’t readable with Assistive Technologies. For example, content marked with `aria-hidden="true"` or as part of Web Components templates may be listed even though they shouldn’t. Be sure to test in a screen reader to verify user impact before filing any issues stemming from this tool!
+
 
 
 ## Useful resources
@@ -273,11 +275,11 @@ Marcy says this about Web Developer Toolbar:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1Mzg0MDg2MCwxMjMyMTQzMzksNDM4MD
-g1Njk1LDE4NjI2MTcxMzMsMTUyMjQwNzMzNCwxMDk0MzUyNDU0
-LDIwODQ1MTAwODgsLTEwMDcxMTk2NjcsLTk4NTcxMDM3LC0xNz
-Q4Mjc5MzY5LC0yMTMyNzM3NTA5LC0xNDg3MjA4MjcyLDk0NDc2
-NjEyMiwzODE1OTUzMTQsLTE0NzQ5NjMwNjcsOTgxMTY5NTE0LD
-c0Nzk1Nzk3LDE0NjMzNDkzNjYsLTE1Njk4MDQwMzQsODcwMDc0
-OTE4XX0=
+eyJoaXN0b3J5IjpbODg5MTczMjQyLDEyMzIxNDMzOSw0MzgwOD
+U2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0LDEwOTQzNTI0NTQs
+MjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOTg1NzEwMzcsLTE3ND
+gyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2
+MTIyLDM4MTU5NTMxNCwtMTQ3NDk2MzA2Nyw5ODExNjk1MTQsNz
+Q3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgwNDAzNCw4NzAwNzQ5
+MThdfQ==
 -->

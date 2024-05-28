@@ -135,8 +135,23 @@ Most of this stuff is handled automagically anyway when using libraries like rea
 ### Lesson 4 - Fix Additional Keyboard Interactivity Issues
 
 
-Change
+Changed so that button is the following (instead of a div):
+```html
+<button  class="btn-submit btn-lookingglass">
+	<span  class="icon-lookingglass-white"></span>
+</button>
+```
 
+And so that the form has the following for now (since we don't have search implemented):
+```html
+<form
+class="main-search form-wrap layout"
+id="home-form"
+onsubmit="javascript: event.preventDefault(); alert('submitted form');"
+>
+<!--- more content here --->
+</form>
+```
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -146,9 +161,9 @@ Change
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODYyOTM5MTMsMzgxNTk1MzE0LC0xND
-c0OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5MzY2
-LC0xNTY5ODA0MDM0LDg3MDA3NDkxOCwzNzM5Nzg1MSwtMTE5NT
-M2ODgwOCw4Mjg3ODkxMzAsOTE1Nzk2OTAzLDQyMzcwMTk4OCwx
-NTk5MzY5NDI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTQ0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3ND
+k2MzA2Nyw5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2Niwt
+MTU2OTgwNDAzNCw4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNj
+g4MDgsODI4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5
+OTM2OTQyNyw3MzA5OTgxMTZdfQ==
 -->

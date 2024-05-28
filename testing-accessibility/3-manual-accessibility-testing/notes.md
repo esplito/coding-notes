@@ -233,9 +233,12 @@ Marcy's comment on this tool:
 >For general issue scanning, my go-to tool is Axe Developer Tools. 
 
 She also warns about some limitation to what Axe Dev Tools scans:
-⚠️Caution
+>⚠️**Caution**
+>
+>Axe DevTools **will only scan what has been rendered on the page, not what is hidden or inactive**!
 
-Axe DevTools will only scan what has been rendered on the page, not what is hidden or inactive!
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -246,11 +249,11 @@ Axe DevTools will only scan what has been rendered on the page, not what is hidd
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzA0OTE5MywxODYyNjE3MTMzLDE1Mj
-I0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMDA3MTE5
-NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjczNzUwOS
-wtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC0xNDc0
-OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5MzY2LC
-0xNTY5ODA0MDM0LDg3MDA3NDkxOCwzNzM5Nzg1MSwtMTE5NTM2
-ODgwOF19
+eyJoaXN0b3J5IjpbNDM4MDg1Njk1LDE4NjI2MTcxMzMsMTUyMj
+QwNzMzNCwxMDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMDcxMTk2
+NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3NTA5LC
+0xNDg3MjA4MjcyLDk0NDc2NjEyMiwzODE1OTUzMTQsLTE0NzQ5
+NjMwNjcsOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkzNjYsLT
+E1Njk4MDQwMzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0xMTk1MzY4
+ODA4XX0=
 -->

@@ -237,7 +237,7 @@ She also warns about some limitation to what Axe Dev Tools scans:
 >
 >Axe DevTools **will only scan what has been rendered on the page, not what is hidden or inactive**!
 
-
+![screenshot of the button issue found by ](https://github.com/esplito/coding-notes/blob/master/axe-devtools-example.png?raw=true)
 
 
 ## Useful resources
@@ -249,11 +249,11 @@ She also warns about some limitation to what Axe Dev Tools scans:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4MDg1Njk1LDE4NjI2MTcxMzMsMTUyMj
-QwNzMzNCwxMDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMDcxMTk2
-NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3NTA5LC
-0xNDg3MjA4MjcyLDk0NDc2NjEyMiwzODE1OTUzMTQsLTE0NzQ5
-NjMwNjcsOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkzNjYsLT
-E1Njk4MDQwMzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0xMTk1MzY4
-ODA4XX0=
+eyJoaXN0b3J5IjpbMzk0NzY5OTczLDQzODA4NTY5NSwxODYyNj
+E3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4
+LC0xMDA3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMj
+EzMjczNzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1
+MzE0LC0xNDc0OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxND
+YzMzQ5MzY2LC0xNTY5ODA0MDM0LDg3MDA3NDkxOCwzNzM5Nzg1
+MV19
 -->

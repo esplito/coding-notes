@@ -225,7 +225,7 @@ Marcy thoughts on it:
 >
 >If you are on a machine that is pretty locked down and won’t let you install third-party tools or browser extensions, Lighthouse could be a good alternative.
 
-It's not my go-to tool either. I always aim to have 100 in accessibility score, but I know that it is not indicative of whether the application is actually accessible. There's often a ton of work left even if you get 100 in score.
+My comment on it: It's not my go-to tool either. I always aim to have 100 in accessibility score, but I know that it is not indicative of whether the application is actually accessible. There's often a ton of work left even if you get 100 in score.
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -236,11 +236,11 @@ It's not my go-to tool either. I always aim to have 100 in accessibility score, 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzOTgyNjM0LDE1MjI0MDczMzQsMTA5ND
-M1MjQ1NCwyMDg0NTEwMDg4LC0xMDA3MTE5NjY3LC05ODU3MTAz
-NywtMTc0ODI3OTM2OSwtMjEzMjczNzUwOSwtMTQ4NzIwODI3Mi
-w5NDQ3NjYxMjIsMzgxNTk1MzE0LC0xNDc0OTYzMDY3LDk4MTE2
-OTUxNCw3NDc5NTc5NywxNDYzMzQ5MzY2LC0xNTY5ODA0MDM0LD
-g3MDA3NDkxOCwzNzM5Nzg1MSwtMTE5NTM2ODgwOCw4Mjg3ODkx
-MzBdfQ==
+eyJoaXN0b3J5IjpbMTg2MjYxNzEzMywxNTIyNDA3MzM0LDEwOT
+QzNTI0NTQsMjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOTg1NzEw
+MzcsLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcyMDgyNz
+IsOTQ0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3NDk2MzA2Nyw5ODEx
+Njk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgwNDAzNC
+w4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4MDgsODI4Nzg5
+MTMwXX0=
 -->

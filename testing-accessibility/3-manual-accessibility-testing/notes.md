@@ -290,6 +290,10 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 
 >The Accessibility Insights FastPass is similar to what we've seen with Axe DevTools, so we won't go into that part further.
 
+Marcy recommends the "Ad hoc" tools in Accessibility Insights. There's a tab stops tool that visualizes the focus order when you tab through a page.
+
+Example of it from the home page in the example website:
+![Tab stop on camp sports homepage](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1657563632%2F01-manual-testing%2F03-testing-with-devtools%2F05-visualize-tab-stops-headings-and-landmark-regions-with-accessibility-insights%2Fcf105fab-28c0-4193-84fb-a15da0efee22_udi1wu.png&w=3840&q=100)
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -300,11 +304,11 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTU0NTIzNiwxNTkzOTQ2NTU2LC0yMD
-Q0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMz
-LDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMD
-A3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjcz
-NzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC
-0xNDc0OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5
-MzY2XX0=
+eyJoaXN0b3J5IjpbLTEyMjA1Nzk5MjQsMTU5Mzk0NjU1NiwtMj
+A0NDIwMzAzLDEyMzIxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEz
+MywxNTIyNDA3MzM0LDEwOTQzNTI0NTQsMjA4NDUxMDA4OCwtMT
+AwNzExOTY2NywtOTg1NzEwMzcsLTE3NDgyNzkzNjksLTIxMzI3
+Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2MTIyLDM4MTU5NTMxNC
+wtMTQ3NDk2MzA2Nyw5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0
+OTM2Nl19
 -->

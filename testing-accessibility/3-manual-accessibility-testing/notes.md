@@ -284,7 +284,9 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 >💡Tip
 >Don’t use headings for their font sizes. That’s what CSS is for!
 
-### Lesson 
+### Lesson 5 - Visualize Tab Stops, Headings, and Landmark Regions with Accessibility Insights
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -295,11 +297,11 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwNzQ5MjA2LC0yMDQ0MjAzMDMsMTIzMj
-E0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMzLDE1MjI0MDczMzQs
-MTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMDA3MTE5NjY3LC05OD
-U3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjczNzUwOSwtMTQ4NzIw
-ODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC0xNDc0OTYzMDY3LD
-k4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5MzY2LC0xNTY5ODA0
-MDM0XX0=
+eyJoaXN0b3J5IjpbMTU5Mzk0NjU1NiwtMjA0NDIwMzAzLDEyMz
+IxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0
+LDEwOTQzNTI0NTQsMjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOT
+g1NzEwMzcsLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcy
+MDgyNzIsOTQ0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3NDk2MzA2Ny
+w5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgw
+NDAzNF19
 -->

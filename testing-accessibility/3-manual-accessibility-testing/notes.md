@@ -281,6 +281,8 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 **Remember the following! 🚨**
 >... the important thing to keep in mind is that you should always pick the correct heading level for the content within an overall semantic page structure. **A proper semantic structure is one the most important things in accessibility.**
 
+>💡Tip
+>Don’t use headings for their font sizes. That’s what CSS is for!
 
 
 
@@ -293,11 +295,11 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3NzgxOTkyLDEyMzIxNDMzOSw0MzgwOD
-U2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0LDEwOTQzNTI0NTQs
-MjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOTg1NzEwMzcsLTE3ND
-gyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2
-MTIyLDM4MTU5NTMxNCwtMTQ3NDk2MzA2Nyw5ODExNjk1MTQsNz
-Q3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgwNDAzNCw4NzAwNzQ5
-MThdfQ==
+eyJoaXN0b3J5IjpbLTIwNDQyMDMwMywxMjMyMTQzMzksNDM4MD
+g1Njk1LDE4NjI2MTcxMzMsMTUyMjQwNzMzNCwxMDk0MzUyNDU0
+LDIwODQ1MTAwODgsLTEwMDcxMTk2NjcsLTk4NTcxMDM3LC0xNz
+Q4Mjc5MzY5LC0yMTMyNzM3NTA5LC0xNDg3MjA4MjcyLDk0NDc2
+NjEyMiwzODE1OTUzMTQsLTE0NzQ5NjMwNjcsOTgxMTY5NTE0LD
+c0Nzk1Nzk3LDE0NjMzNDkzNjYsLTE1Njk4MDQwMzQsODcwMDc0
+OTE4XX0=
 -->

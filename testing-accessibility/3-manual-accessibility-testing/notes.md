@@ -159,7 +159,7 @@ onsubmit="javascript: event.preventDefault(); alert('submitted form');"
 I did the same thing on the form on about page. 
 
 #### Summarizing the keyboard testing module
-i 
+I believe that this module has demonstrated how much difference simply focusing on keyboard testing does. By ensuring that things are focusable and operable with a keyboard, we improve the accessibility of an application quite drastically. It forces us to "use 
 
 >With every feature and Pull Request that comes in, chip away at making your application accessible by doing some keyboard testing.
 
@@ -171,7 +171,7 @@ i
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDk3OTI4NCwtMTQ4NzIwODI3Miw5ND
+eyJoaXN0b3J5IjpbLTQ0MTE4MjMyOSwtMTQ4NzIwODI3Miw5ND
 Q3NjYxMjIsMzgxNTk1MzE0LC0xNDc0OTYzMDY3LDk4MTE2OTUx
 NCw3NDc5NTc5NywxNDYzMzQ5MzY2LC0xNTY5ODA0MDM0LDg3MD
 A3NDkxOCwzNzM5Nzg1MSwtMTE5NTM2ODgwOCw4Mjg3ODkxMzAs

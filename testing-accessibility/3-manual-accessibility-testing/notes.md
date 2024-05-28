@@ -174,7 +174,9 @@ I like the following that Marcy said at the end of the module:
 -   [Web Developer Toolbar](https://chrispederick.com/work/web-developer/)  (Chrome or Firefox)
 -   [axe-linter for VSCode](https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter)
 
-### Lesson 1 -
+### Lesson 1 - Identify Color Contrast Issues with Color Contrast Analyzer & Chrome DevTools
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -184,10 +186,10 @@ I like the following that Marcy said at the end of the module:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI3Mzc1MDksLTE0ODcyMDgyNzIsOT
-Q0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3NDk2MzA2Nyw5ODExNjk1
-MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgwNDAzNCw4Nz
-AwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4MDgsODI4Nzg5MTMw
-LDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQyNyw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLT
+E0ODcyMDgyNzIsOTQ0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3NDk2
+MzA2Nyw5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMT
+U2OTgwNDAzNCw4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4
+MDgsODI4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OT
+M2OTQyNyw3MzA5OTgxMTZdfQ==
 -->

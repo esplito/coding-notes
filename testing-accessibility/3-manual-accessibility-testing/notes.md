@@ -284,7 +284,7 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 >💡Tip
 >Don’t use headings for their font sizes. That’s what CSS is for!
 
-
+### Lesson 
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -295,11 +295,11 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQyMDMwMywxMjMyMTQzMzksNDM4MD
-g1Njk1LDE4NjI2MTcxMzMsMTUyMjQwNzMzNCwxMDk0MzUyNDU0
-LDIwODQ1MTAwODgsLTEwMDcxMTk2NjcsLTk4NTcxMDM3LC0xNz
-Q4Mjc5MzY5LC0yMTMyNzM3NTA5LC0xNDg3MjA4MjcyLDk0NDc2
-NjEyMiwzODE1OTUzMTQsLTE0NzQ5NjMwNjcsOTgxMTY5NTE0LD
-c0Nzk1Nzk3LDE0NjMzNDkzNjYsLTE1Njk4MDQwMzQsODcwMDc0
-OTE4XX0=
+eyJoaXN0b3J5IjpbMzMwNzQ5MjA2LC0yMDQ0MjAzMDMsMTIzMj
+E0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMzLDE1MjI0MDczMzQs
+MTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMDA3MTE5NjY3LC05OD
+U3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjczNzUwOSwtMTQ4NzIw
+ODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC0xNDc0OTYzMDY3LD
+k4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5MzY2LC0xNTY5ODA0
+MDM0XX0=
 -->

@@ -295,6 +295,8 @@ Marcy recommends the "Ad hoc" tools in Accessibility Insights. There's a tab sto
 Example of it from the home page in the example website:
 ![Tab stop visualization on camp sports homepage](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1657563632%2F01-manual-testing%2F03-testing-with-devtools%2F05-visualize-tab-stops-headings-and-landmark-regions-with-accessibility-insights%2Fcf105fab-28c0-4193-84fb-a15da0efee22_udi1wu.png&w=3840&q=100)
 
+Tab stops tool before our fixes to the menu:
+![Tab stop visualization on camp sports homepage - before fixing the menu](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1657563833%2F01-manual-testing%2F03-testing-with-devtools%2F05-visualize-tab-stops-headings-and-landmark-regions-with-accessibility-insights%2F4f05916a-fc5a-4f91-a26a-1b213ed75029_mzsyab.png&w=3840&q=100)
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -305,11 +307,11 @@ Example of it from the home page in the example website:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NzQ1NDc1NCwxNTkzOTQ2NTU2LC0yMD
-Q0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMz
-LDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMD
-A3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjcz
-NzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC
-0xNDc0OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5
-MzY2XX0=
+eyJoaXN0b3J5IjpbMzk5OTk5MjU0LDE1OTM5NDY1NTYsLTIwND
+QyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMs
+MTUyMjQwNzMzNCwxMDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMD
+cxMTk2NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3
+NTA5LC0xNDg3MjA4MjcyLDk0NDc2NjEyMiwzODE1OTUzMTQsLT
+E0NzQ5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkz
+NjZdfQ==
 -->

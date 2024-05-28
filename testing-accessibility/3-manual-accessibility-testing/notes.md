@@ -313,6 +313,7 @@ Tab stops tool before our fixes to the menu:
 
 #### Accessibility Insights Assessment
 >The Assessment tool is an awesome guided tool that has you work through the WCAG AA success criteria, including things that can't be automated.
+>Each section provides information about what you need to do in order to test your application. Once you've performed the test, you self-report whether it passed or failed.
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -323,11 +324,11 @@ Tab stops tool before our fixes to the menu:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTY1NzUzLDE1OTM5NDY1NTYsLTIwND
-QyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMs
-MTUyMjQwNzMzNCwxMDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMD
-cxMTk2NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3
-NTA5LC0xNDg3MjA4MjcyLDk0NDc2NjEyMiwzODE1OTUzMTQsLT
-E0NzQ5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkz
-NjZdfQ==
+eyJoaXN0b3J5IjpbLTEyMzU2MzIwNjksMTU5Mzk0NjU1NiwtMj
+A0NDIwMzAzLDEyMzIxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEz
+MywxNTIyNDA3MzM0LDEwOTQzNTI0NTQsMjA4NDUxMDA4OCwtMT
+AwNzExOTY2NywtOTg1NzEwMzcsLTE3NDgyNzkzNjksLTIxMzI3
+Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2MTIyLDM4MTU5NTMxNC
+wtMTQ3NDk2MzA2Nyw5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0
+OTM2Nl19
 -->

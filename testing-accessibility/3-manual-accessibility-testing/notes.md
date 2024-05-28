@@ -286,6 +286,9 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 
 ### Lesson 5 - Visualize Tab Stops, Headings, and Landmark Regions with Accessibility Insights
 
+#### Accessibility Insights
+
+>The Accessibility Insights FastPass is similar to what we've seen with Axe DevTools, so we won't go into that part further.
 
 
 ## Useful resources
@@ -297,11 +300,11 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5Mzk0NjU1NiwtMjA0NDIwMzAzLDEyMz
-IxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0
-LDEwOTQzNTI0NTQsMjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOT
-g1NzEwMzcsLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcy
-MDgyNzIsOTQ0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3NDk2MzA2Ny
-w5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgw
-NDAzNF19
+eyJoaXN0b3J5IjpbMTgxNTU0NTIzNiwxNTkzOTQ2NTU2LC0yMD
+Q0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMz
+LDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMD
+A3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjcz
+NzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC
+0xNDc0OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5
+MzY2XX0=
 -->

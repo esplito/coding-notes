@@ -166,7 +166,15 @@ I like the following that Marcy said at the end of the module:
 
 ## Section 3 - Testing with Tools & Browser Extensions
 
+**🧰 Developer Tools to Install:**
 
+-   Developer Tools to Install:  [axe Developer Tools Browser Extension](https://www.deque.com/axe/browser-extensions/)  (Chrome or Firefox)
+-   [Colour Contrast Analyser](https://www.tpgi.com/color-contrast-checker/)  (Mac or Windows desktop)
+-   [Accessibility Insights](https://accessibilityinsights.io/)  (Chrome or Firefox)
+-   [Web Developer Toolbar](https://chrispederick.com/work/web-developer/)  (Chrome or Firefox)
+-   [axe-linter for VSCode](https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter)
+
+### Lesson 1 -
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -176,7 +184,7 @@ I like the following that Marcy said at the end of the module:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTMzMTA5OTcsLTE0ODcyMDgyNzIsOT
+eyJoaXN0b3J5IjpbLTIxMzI3Mzc1MDksLTE0ODcyMDgyNzIsOT
 Q0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3NDk2MzA2Nyw5ODExNjk1
 MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgwNDAzNCw4Nz
 AwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4MDgsODI4Nzg5MTMw

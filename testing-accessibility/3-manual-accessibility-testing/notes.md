@@ -290,13 +290,22 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 
 >The Accessibility Insights FastPass is similar to what we've seen with Axe DevTools, so we won't go into that part further.
 
-Marcy recommends the "Ad hoc" tools in Accessibility Insights. There's a tab stops tool that visualizes the focus order when you tab through a page.
+Marcy recommends the "Ad hoc" tools in Accessibility Insights:
+- Tab Stops Tool
+- Headings Tool
+- Landmarks Tool
+
+##### Tab Stops tool
+ There's a tab stops tool that visualizes the focus order when you tab through a page.
 
 Example of it from the home page in the example website:
 ![Tab stop visualization on camp sports homepage](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1657563632%2F01-manual-testing%2F03-testing-with-devtools%2F05-visualize-tab-stops-headings-and-landmark-regions-with-accessibility-insights%2Fcf105fab-28c0-4193-84fb-a15da0efee22_udi1wu.png&w=3840&q=100)
 
 Tab stops tool before our fixes to the menu:
 ![Tab stop visualization on camp sports homepage - before fixing the menu. had a messy focus pattern.](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1657563833%2F01-manual-testing%2F03-testing-with-devtools%2F05-visualize-tab-stops-headings-and-landmark-regions-with-accessibility-insights%2F4f05916a-fc5a-4f91-a26a-1b213ed75029_mzsyab.png&w=3840&q=100)
+
+##### Heading tool
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -307,11 +316,11 @@ Tab stops tool before our fixes to the menu:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3MDQyMTEzLDE1OTM5NDY1NTYsLTIwND
-QyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMs
-MTUyMjQwNzMzNCwxMDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMD
-cxMTk2NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3
-NTA5LC0xNDg3MjA4MjcyLDk0NDc2NjEyMiwzODE1OTUzMTQsLT
-E0NzQ5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkz
-NjZdfQ==
+eyJoaXN0b3J5IjpbLTIwNzI4MDg1MzYsMTU5Mzk0NjU1NiwtMj
+A0NDIwMzAzLDEyMzIxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEz
+MywxNTIyNDA3MzM0LDEwOTQzNTI0NTQsMjA4NDUxMDA4OCwtMT
+AwNzExOTY2NywtOTg1NzEwMzcsLTE3NDgyNzkzNjksLTIxMzI3
+Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2MTIyLDM4MTU5NTMxNC
+wtMTQ3NDk2MzA2Nyw5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0
+OTM2Nl19
 -->

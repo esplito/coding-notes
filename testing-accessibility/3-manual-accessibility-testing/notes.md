@@ -264,6 +264,9 @@ Marcy says this about Web Developer Toolbar:
 🚨 **Note about the tool:** 🚨
 > Note: you may encounter issues with Web Developer Toolbar occasionally where headings are shown even though they aren’t readable with Assistive Technologies. For example, content marked with `aria-hidden="true"` or as part of Web Components templates may be listed even though they shouldn’t. Be sure to test in a screen reader to verify user impact before filing any issues stemming from this tool!
 
+I open up the Web Developer Toolbar, press `Information`, then press `View Document Outline`.
+
+We are missing a `h1` & `h2` on start page.
 
 
 ## Useful resources
@@ -275,7 +278,7 @@ Marcy says this about Web Developer Toolbar:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5MTczMjQyLDEyMzIxNDMzOSw0MzgwOD
+eyJoaXN0b3J5IjpbMTE2MTg4MzIxLDEyMzIxNDMzOSw0MzgwOD
 U2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0LDEwOTQzNTI0NTQs
 MjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOTg1NzEwMzcsLTE3ND
 gyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2

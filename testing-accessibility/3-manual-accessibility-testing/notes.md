@@ -305,6 +305,11 @@ Tab stops tool before our fixes to the menu:
 ![Tab stop visualization on camp sports homepage - before fixing the menu. had a messy focus pattern.](https://testingaccessibility.com/_next/image?url=http%3A%2F%2Fres.cloudinary.com%2Ftesting-accessibility%2Fimage%2Fupload%2Fv1657563833%2F01-manual-testing%2F03-testing-with-devtools%2F05-visualize-tab-stops-headings-and-landmark-regions-with-accessibility-insights%2F4f05916a-fc5a-4f91-a26a-1b213ed75029_mzsyab.png&w=3840&q=100)
 
 ##### Heading tool
+> Toggling on the Headings function, Accessibility Insights will draw colored boxes around the headings and include an indicator of their level.
+
+##### Landmark tool
+>Similar to the Headings tool, the Landmarks tool will highlight and label the page's landmarks.
+>This is useful for visualizing the landmarks you currently have and determining what on your page might work well in a region.
 
 
 ## Useful resources
@@ -316,11 +321,11 @@ Tab stops tool before our fixes to the menu:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzI4MDg1MzYsMTU5Mzk0NjU1NiwtMj
-A0NDIwMzAzLDEyMzIxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEz
-MywxNTIyNDA3MzM0LDEwOTQzNTI0NTQsMjA4NDUxMDA4OCwtMT
-AwNzExOTY2NywtOTg1NzEwMzcsLTE3NDgyNzkzNjksLTIxMzI3
-Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2MTIyLDM4MTU5NTMxNC
-wtMTQ3NDk2MzA2Nyw5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0
-OTM2Nl19
+eyJoaXN0b3J5IjpbMjA5ODEzMTY1MSwxNTkzOTQ2NTU2LC0yMD
+Q0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMz
+LDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMD
+A3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjcz
+NzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC
+0xNDc0OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5
+MzY2XX0=
 -->

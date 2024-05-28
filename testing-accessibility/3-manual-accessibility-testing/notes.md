@@ -247,7 +247,8 @@ She also warns about some limitation to what Axe Dev Tools scans:
 >-   `ACT`  is related to Automated Conformance Testing (ACT), a standard for writing automated accessibility testing rules.
 >-   `cat.name-role-value`  is a category tag used internally by the axe-core API.
 
-Marcy suggest we focus on `wcag412` and the corresponding guideline which is level A and therefore critical.
+Marcy suggest we focus on `wcag412` and the corresponding guideline, [WCAG Section 4.1.2 - Name, Role, Value](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html), which is level A and therefore critical.
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -258,11 +259,11 @@ Marcy suggest we focus on `wcag412` and the corresponding guideline which is lev
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzk5NTE0NCw0MzgwODU2OTUsMTg2Mj
-YxNzEzMywxNTIyNDA3MzM0LDEwOTQzNTI0NTQsMjA4NDUxMDA4
-OCwtMTAwNzExOTY2NywtOTg1NzEwMzcsLTE3NDgyNzkzNjksLT
-IxMzI3Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2MTIyLDM4MTU5
-NTMxNCwtMTQ3NDk2MzA2Nyw5ODExNjk1MTQsNzQ3OTU3OTcsMT
-Q2MzM0OTM2NiwtMTU2OTgwNDAzNCw4NzAwNzQ5MTgsMzczOTc4
-NTFdfQ==
+eyJoaXN0b3J5IjpbMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNj
+E3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4
+LC0xMDA3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMj
+EzMjczNzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1
+MzE0LC0xNDc0OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxND
+YzMzQ5MzY2LC0xNTY5ODA0MDM0LDg3MDA3NDkxOCwzNzM5Nzg1
+MV19
 -->

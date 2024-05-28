@@ -194,21 +194,30 @@ axe-linter (image-alt): Ensures <img> elements have alternate text or a role of 
 
 Marcy recommends using W3C's [alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/) for creating useful image descriptions in the alt tag.
 
+The questions from that alt tree:
+- **Does the image contain text?**
+- **Is the image used in a link or a button, and would it be hard or impossible to understand what the link or the button does, if the image wasn’t there?**
+- **Does the image contribute meaning to the current page or context?**
+- **Is the image purely decorative or not intended for users?**
+- **Is the image’s use not listed above or it’s unclear what  `alt`  text to provide?** 
+
+
 
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
 - [“How to Meet”](https://www.w3.org/WAI/WCAG21/quickref/) 
+- [alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)
 - [Workshop resources with links](https://workshop-resources.testingaccessibility.com/#workshops-testing)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTM2MDY3NCwyMDg0NTEwMDg4LC0xMD
-A3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjcz
-NzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC
-0xNDc0OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5
-MzY2LC0xNTY5ODA0MDM0LDg3MDA3NDkxOCwzNzM5Nzg1MSwtMT
-E5NTM2ODgwOCw4Mjg3ODkxMzAsOTE1Nzk2OTAzLDQyMzcwMTk4
-OF19
+eyJoaXN0b3J5IjpbNDg0MTEzNDA3LDIwODQ1MTAwODgsLTEwMD
+cxMTk2NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3
+NTA5LC0xNDg3MjA4MjcyLDk0NDc2NjEyMiwzODE1OTUzMTQsLT
+E0NzQ5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkz
+NjYsLTE1Njk4MDQwMzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0xMT
+k1MzY4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4
+XX0=
 -->

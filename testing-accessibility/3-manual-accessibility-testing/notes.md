@@ -270,6 +270,13 @@ We are missing a `h1` & `h2` on homepage.
 
 We are missing `h1`, `h3`, `h4`, `h5` on about page.
 
+#### Deciding Heading Levels Based on Design
+>Sometimes you'll receive a design that lacks a visual heading for a major content section.
+>If this happens, what should you do?
+**Options:**
+- Talk to your design team about adding a visual heading that describes the section for everyone to see and use.
+- 
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -280,7 +287,7 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTcwNTMyNTQsMTIzMjE0MzM5LDQzOD
+eyJoaXN0b3J5IjpbLTE5NjA4OTYyMjYsMTIzMjE0MzM5LDQzOD
 A4NTY5NSwxODYyNjE3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1
 NCwyMDg0NTEwMDg4LC0xMDA3MTE5NjY3LC05ODU3MTAzNywtMT
 c0ODI3OTM2OSwtMjEzMjczNzUwOSwtMTQ4NzIwODI3Miw5NDQ3

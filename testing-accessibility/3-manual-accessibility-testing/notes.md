@@ -256,6 +256,9 @@ We can find more info about the issue found by axe by pressing "more information
 -  WCAG success criteria (2.0, 2.1, 2.2)
 - Related guidelines
 
+### Lesson 4 - Check Heading Structure with Web Developer Toolbar
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -266,7 +269,7 @@ We can find more info about the issue found by axe by pressing "more information
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwODg1NDExLDEyMzIxNDMzOSw0MzgwOD
+eyJoaXN0b3J5IjpbNjgxNTM5NjMzLDEyMzIxNDMzOSw0MzgwOD
 U2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0LDEwOTQzNTI0NTQs
 MjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOTg1NzEwMzcsLTE3ND
 gyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2

@@ -220,12 +220,22 @@ There's a `tents.jpg` on the home page that actually adds context and Marcy sugg
 
 #### Google Lighthouse
 
-Marcy thoughts on it: 
+Marcy's thoughts on it: 
 >It’s nice that Lighthouse points out that not every accessibility issue can be automatically detected as well as a suggested list of things to test manually, but it’s not my go-to tool.
 >
 >If you are on a machine that is pretty locked down and won’t let you install third-party tools or browser extensions, Lighthouse could be a good alternative.
 
 My comment on it: It's not my go-to tool either. I always aim to have 100 in accessibility score, but I know that it is not indicative of whether the application is actually accessible. There's often a ton of work left even if you get 100 in score.
+
+#### Axe Developer Tools
+
+Marcy's comment on this tool:
+>For general issue scanning, my go-to tool is Axe Developer Tools. 
+
+She also warns about some limitation to what Axe Dev Tools scans:
+⚠️Caution
+
+Axe DevTools will only scan what has been rendered on the page, not what is hidden or inactive!
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -236,11 +246,11 @@ My comment on it: It's not my go-to tool either. I always aim to have 100 in acc
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjYxNzEzMywxNTIyNDA3MzM0LDEwOT
-QzNTI0NTQsMjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOTg1NzEw
-MzcsLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcyMDgyNz
-IsOTQ0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3NDk2MzA2Nyw5ODEx
-Njk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgwNDAzNC
-w4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4MDgsODI4Nzg5
-MTMwXX0=
+eyJoaXN0b3J5IjpbMTk4MzA0OTE5MywxODYyNjE3MTMzLDE1Mj
+I0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMDA3MTE5
+NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjczNzUwOS
+wtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC0xNDc0
+OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5MzY2LC
+0xNTY5ODA0MDM0LDg3MDA3NDkxOCwzNzM5Nzg1MSwtMTE5NTM2
+ODgwOF19
 -->

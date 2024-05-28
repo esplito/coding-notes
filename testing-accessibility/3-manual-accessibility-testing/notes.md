@@ -158,6 +158,10 @@ onsubmit="javascript: event.preventDefault(); alert('submitted form');"
 ```
 I did the same thing on the form on about page. 
 
+#### Summarizing the keyboard testing module
+i 
+
+>With every feature and Pull Request that comes in, chip away at making your application accessible by doing some keyboard testing.
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -167,9 +171,10 @@ I did the same thing on the form on about page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODcyMDgyNzIsOTQ0NzY2MTIyLDM4MT
-U5NTMxNCwtMTQ3NDk2MzA2Nyw5ODExNjk1MTQsNzQ3OTU3OTcs
-MTQ2MzM0OTM2NiwtMTU2OTgwNDAzNCw4NzAwNzQ5MTgsMzczOT
-c4NTEsLTExOTUzNjg4MDgsODI4Nzg5MTMwLDkxNTc5NjkwMyw0
-MjM3MDE5ODgsMTU5OTM2OTQyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTU3NDk3OTI4NCwtMTQ4NzIwODI3Miw5ND
+Q3NjYxMjIsMzgxNTk1MzE0LC0xNDc0OTYzMDY3LDk4MTE2OTUx
+NCw3NDc5NTc5NywxNDYzMzQ5MzY2LC0xNTY5ODA0MDM0LDg3MD
+A3NDkxOCwzNzM5Nzg1MSwtMTE5NTM2ODgwOCw4Mjg3ODkxMzAs
+OTE1Nzk2OTAzLDQyMzcwMTk4OCwxNTk5MzY5NDI3LDczMDk5OD
+ExNl19
 -->

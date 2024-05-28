@@ -266,7 +266,9 @@ Marcy says this about Web Developer Toolbar:
 
 I open up the Web Developer Toolbar, press `Information`, then press `View Document Outline`.
 
-We are missing a `h1` & `h2` on start page.
+We are missing a `h1` & `h2` on homepage.
+
+We are missing `h1`, `h3`, `h4`, `h5` on about page.
 
 
 ## Useful resources
@@ -278,11 +280,11 @@ We are missing a `h1` & `h2` on start page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTg4MzIxLDEyMzIxNDMzOSw0MzgwOD
-U2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0LDEwOTQzNTI0NTQs
-MjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOTg1NzEwMzcsLTE3ND
-gyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2
-MTIyLDM4MTU5NTMxNCwtMTQ3NDk2MzA2Nyw5ODExNjk1MTQsNz
-Q3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgwNDAzNCw4NzAwNzQ5
-MThdfQ==
+eyJoaXN0b3J5IjpbLTEwMTcwNTMyNTQsMTIzMjE0MzM5LDQzOD
+A4NTY5NSwxODYyNjE3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1
+NCwyMDg0NTEwMDg4LC0xMDA3MTE5NjY3LC05ODU3MTAzNywtMT
+c0ODI3OTM2OSwtMjEzMjczNzUwOSwtMTQ4NzIwODI3Miw5NDQ3
+NjYxMjIsMzgxNTk1MzE0LC0xNDc0OTYzMDY3LDk4MTE2OTUxNC
+w3NDc5NTc5NywxNDYzMzQ5MzY2LC0xNTY5ODA0MDM0LDg3MDA3
+NDkxOF19
 -->

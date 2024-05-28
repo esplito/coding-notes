@@ -237,7 +237,16 @@ She also warns about some limitation to what Axe Dev Tools scans:
 >
 >Axe DevTools **will only scan what has been rendered on the page, not what is hidden or inactive**!
 
-![screenshot of the button issue found by ](https://github.com/esplito/coding-notes/blob/master/axe-devtools-example.png?raw=true)
+![screenshot of the button issue found by axe dev tools](https://github.com/esplito/coding-notes/blob/master/axe-devtools-example.png?raw=true)
+
+>There are several Issue Tags present that point us to places we can go to learn more.
+>
+>-   `wcag2a`  is pointing us to WCAG 2.0 level A, which is included in WCAG 2.1.
+>-   `wcag412`  is pointing us to WCAG success criterion 4.1.2.
+>-   `section508`  and  `section508.22.a`  are related to US Government standards.
+>-   `ACT`  is related to Automated Conformance Testing (ACT), a standard for writing automated accessibility testing rules.
+>-   `cat.name-role-value`  is a category tag used internally by the axe-core API.
+
 
 
 ## Useful resources
@@ -249,7 +258,7 @@ She also warns about some limitation to what Axe Dev Tools scans:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0NzY5OTczLDQzODA4NTY5NSwxODYyNj
+eyJoaXN0b3J5IjpbLTc0MjQzMDY1LDQzODA4NTY5NSwxODYyNj
 E3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4
 LC0xMDA3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMj
 EzMjczNzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1

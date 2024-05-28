@@ -201,7 +201,11 @@ The questions from that alt tree:
 - **Is the image purely decorative or not intended for users?**
 - **Is the image’s use not listed above or it’s unclear what  `alt`  text to provide?** 
 
+Here's what Marcy thinks about the image descriptions in the header:
+> For these nav menu images, it could be argued either way if they contribute to the content of the menu. If you think a person using a screen reader would benefit from a description of the images in the MegaNav, add some alt text. Otherwise, set the alt to a blank string and the screen reader won’t announce it.
 
+> 💡Tip
+>For now, don’t worry about alt text on SVG images. There’s more on this in the Accessible Naming module in the Semantic Markup workshop.
 
 
 ## Useful resources
@@ -213,11 +217,11 @@ The questions from that alt tree:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MTEzNDA3LDIwODQ1MTAwODgsLTEwMD
-cxMTk2NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3
-NTA5LC0xNDg3MjA4MjcyLDk0NDc2NjEyMiwzODE1OTUzMTQsLT
-E0NzQ5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkz
-NjYsLTE1Njk4MDQwMzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0xMT
-k1MzY4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4
-XX0=
+eyJoaXN0b3J5IjpbMTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMD
+A3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjcz
+NzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC
+0xNDc0OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5
+MzY2LC0xNTY5ODA0MDM0LDg3MDA3NDkxOCwzNzM5Nzg1MSwtMT
+E5NTM2ODgwOCw4Mjg3ODkxMzAsOTE1Nzk2OTAzLDQyMzcwMTk4
+OF19
 -->

@@ -312,8 +312,7 @@ Tab stops tool before our fixes to the menu:
 >This is useful for visualizing the landmarks you currently have and determining what on your page might work well in a region.
 
 #### Accessibility Insights Assessment
-
-The Assessment tool is an awesome guided tool that has you work through the WCAG AA success criteria, including things that can't be automated.
+>The Assessment tool is an awesome guided tool that has you work through the WCAG AA success criteria, including things that can't be automated.
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -324,11 +323,11 @@ The Assessment tool is an awesome guided tool that has you work through the WCAG
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzE5MjM5MSwxNTkzOTQ2NTU2LC0yMD
-Q0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMz
-LDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMD
-A3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjcz
-NzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC
-0xNDc0OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5
-MzY2XX0=
+eyJoaXN0b3J5IjpbLTUxOTY1NzUzLDE1OTM5NDY1NTYsLTIwND
+QyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMs
+MTUyMjQwNzMzNCwxMDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMD
+cxMTk2NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3
+NTA5LC0xNDg3MjA4MjcyLDk0NDc2NjEyMiwzODE1OTUzMTQsLT
+E0NzQ5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkz
+NjZdfQ==
 -->

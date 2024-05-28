@@ -179,7 +179,8 @@ I like the following that Marcy said at the end of the module:
 #### 🛠 Challenge: Fix MegaNav Contrast Issues
 Changed header color to `--color-accent-dark` and it seems to work :)
 
-In `CSS Overview` in Chrome it now passed their contrast ratio check and it also passes when using CCA
+In `CSS Overview` in Chrome it now passed their contrast ratio check and it also passes when using CCA.
+
 
 
 ## Useful resources
@@ -190,11 +191,11 @@ In `CSS Overview` in Chrome it now passed their contrast ratio check and it also
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTg4MDM0MjAsLTEwMDcxMTk2NjcsLT
-k4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3NTA5LC0xNDg3
-MjA4MjcyLDk0NDc2NjEyMiwzODE1OTUzMTQsLTE0NzQ5NjMwNj
-csOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0NjMzNDkzNjYsLTE1Njk4
-MDQwMzQsODcwMDc0OTE4LDM3Mzk3ODUxLC0xMTk1MzY4ODA4LD
-gyODc4OTEzMCw5MTU3OTY5MDMsNDIzNzAxOTg4LDE1OTkzNjk0
-MjddfQ==
+eyJoaXN0b3J5IjpbMjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOT
+g1NzEwMzcsLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcy
+MDgyNzIsOTQ0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3NDk2MzA2Ny
+w5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgw
+NDAzNCw4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4MDgsOD
+I4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQy
+N119
 -->

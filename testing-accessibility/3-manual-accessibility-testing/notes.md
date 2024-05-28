@@ -134,8 +134,12 @@ Most of this stuff is handled automagically anyway when using libraries like rea
 
 ### Lesson 4 - Fix Additional Keyboard Interactivity Issues
 
+#### 🛠 Challenge: Update Submit Buttons on Home & About Pages
 
-Changed so that button is the following (instead of a div):
+>Both the Homepage and the About page have forms with div-based submit buttons.
+>Update the markup on both buttons to enable them to be keyboard focusable and operable.
+
+I changed so that button is the following (instead of a div):
 ```html
 <button  class="btn-submit btn-lookingglass">
 	<span  class="icon-lookingglass-white"></span>
@@ -152,6 +156,8 @@ onsubmit="javascript: event.preventDefault(); alert('submitted form');"
 <!--- more content here --->
 </form>
 ```
+I did the same thing on the form on about page. 
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -161,9 +167,9 @@ onsubmit="javascript: event.preventDefault(); alert('submitted form');"
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3ND
-k2MzA2Nyw5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2Niwt
-MTU2OTgwNDAzNCw4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNj
-g4MDgsODI4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5
-OTM2OTQyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE0ODcyMDgyNzIsOTQ0NzY2MTIyLDM4MT
+U5NTMxNCwtMTQ3NDk2MzA2Nyw5ODExNjk1MTQsNzQ3OTU3OTcs
+MTQ2MzM0OTM2NiwtMTU2OTgwNDAzNCw4NzAwNzQ5MTgsMzczOT
+c4NTEsLTExOTUzNjg4MDgsODI4Nzg5MTMwLDkxNTc5NjkwMyw0
+MjM3MDE5ODgsMTU5OTM2OTQyNyw3MzA5OTgxMTZdfQ==
 -->

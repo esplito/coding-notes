@@ -216,6 +216,7 @@ There's a `tents.jpg` on the home page that actually adds context and Marcy sugg
 >You don't need to add "Photo of..." to your alt text descriptions. When a screen reader sees the img tag, it will already announce it as an image.
 
 
+### Lesson 3 - Scan a Page for Issues with Lighthouse & Axe Developer Tools
 
 
 ## Useful resources
@@ -227,11 +228,11 @@ There's a `tents.jpg` on the home page that actually adds context and Marcy sugg
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMjQwNzMzNCwxMDk0MzUyNDU0LDIwOD
-Q1MTAwODgsLTEwMDcxMTk2NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5
-MzY5LC0yMTMyNzM3NTA5LC0xNDg3MjA4MjcyLDk0NDc2NjEyMi
-wzODE1OTUzMTQsLTE0NzQ5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1
-Nzk3LDE0NjMzNDkzNjYsLTE1Njk4MDQwMzQsODcwMDc0OTE4LD
-M3Mzk3ODUxLC0xMTk1MzY4ODA4LDgyODc4OTEzMCw5MTU3OTY5
-MDNdfQ==
+eyJoaXN0b3J5IjpbMTQxMDAwOTIwMiwxNTIyNDA3MzM0LDEwOT
+QzNTI0NTQsMjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOTg1NzEw
+MzcsLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcyMDgyNz
+IsOTQ0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3NDk2MzA2Nyw5ODEx
+Njk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgwNDAzNC
+w4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4MDgsODI4Nzg5
+MTMwXX0=
 -->

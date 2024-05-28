@@ -177,7 +177,9 @@ I like the following that Marcy said at the end of the module:
 ### Lesson 1 - Identify Color Contrast Issues with Color Contrast Analyzer & Chrome DevTools
 
 #### 🛠 Challenge: Fix MegaNav Contrast Issues
-Changed header color to `--color-accent-dark` and it seem
+Changed header color to `--color-accent-dark` and it seems to work :)
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -187,10 +189,11 @@ Changed header color to `--color-accent-dark` and it seem
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMT
-MyNzM3NTA5LC0xNDg3MjA4MjcyLDk0NDc2NjEyMiwzODE1OTUz
-MTQsLTE0NzQ5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1Nzk3LDE0Nj
-MzNDkzNjYsLTE1Njk4MDQwMzQsODcwMDc0OTE4LDM3Mzk3ODUx
-LC0xMTk1MzY4ODA4LDgyODc4OTEzMCw5MTU3OTY5MDMsNDIzNz
-AxOTg4LDE1OTkzNjk0MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEwMDcxMTk2NjcsLTk4NTcxMDM3LC0xNz
+Q4Mjc5MzY5LC0yMTMyNzM3NTA5LC0xNDg3MjA4MjcyLDk0NDc2
+NjEyMiwzODE1OTUzMTQsLTE0NzQ5NjMwNjcsOTgxMTY5NTE0LD
+c0Nzk1Nzk3LDE0NjMzNDkzNjYsLTE1Njk4MDQwMzQsODcwMDc0
+OTE4LDM3Mzk3ODUxLC0xMTk1MzY4ODA4LDgyODc4OTEzMCw5MT
+U3OTY5MDMsNDIzNzAxOTg4LDE1OTkzNjk0MjcsNzMwOTk4MTE2
+XX0=
 -->

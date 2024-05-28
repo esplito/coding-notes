@@ -275,6 +275,8 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 >If this happens, what should you do?
 **Options:**
 - Talk to your design team about adding a visual heading that describes the section for everyone to see and use.
+- Sometimes a heading should be a label -> change it semantically, but keep the visuals
+- Last resort if you encounter a lot of resistance regarding changing a visual heading: _"add a heading of the correct level using visually-hidden CSS as a last resort."_
 - 
 
 
@@ -287,11 +289,11 @@ We are missing `h1`, `h3`, `h4`, `h5` on about page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA4OTYyMjYsMTIzMjE0MzM5LDQzOD
-A4NTY5NSwxODYyNjE3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1
-NCwyMDg0NTEwMDg4LC0xMDA3MTE5NjY3LC05ODU3MTAzNywtMT
-c0ODI3OTM2OSwtMjEzMjczNzUwOSwtMTQ4NzIwODI3Miw5NDQ3
-NjYxMjIsMzgxNTk1MzE0LC0xNDc0OTYzMDY3LDk4MTE2OTUxNC
-w3NDc5NTc5NywxNDYzMzQ5MzY2LC0xNTY5ODA0MDM0LDg3MDA3
-NDkxOF19
+eyJoaXN0b3J5IjpbMjAzMjQxMzI1NiwxMjMyMTQzMzksNDM4MD
+g1Njk1LDE4NjI2MTcxMzMsMTUyMjQwNzMzNCwxMDk0MzUyNDU0
+LDIwODQ1MTAwODgsLTEwMDcxMTk2NjcsLTk4NTcxMDM3LC0xNz
+Q4Mjc5MzY5LC0yMTMyNzM3NTA5LC0xNDg3MjA4MjcyLDk0NDc2
+NjEyMiwzODE1OTUzMTQsLTE0NzQ5NjMwNjcsOTgxMTY5NTE0LD
+c0Nzk1Nzk3LDE0NjMzNDkzNjYsLTE1Njk4MDQwMzQsODcwMDc0
+OTE4XX0=
 -->

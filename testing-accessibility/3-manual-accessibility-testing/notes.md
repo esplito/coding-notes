@@ -192,7 +192,8 @@ When we open up `header.html` we can see that axe-linter tells us that we are mi
 axe-linter (image-alt): Ensures <img> elements have alternate text or a role of none or presentationaxe-linter[image-alt](https://dequeuniversity.com/rules/axe/4.9/image-alt?application%3Daxe-linter)
 ```
 
-Marcy recommends using W3C's 
+Marcy recommends using W3C's [alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/) for creating useful image descriptions in the alt tag.
+
 
 
 ## Useful resources
@@ -203,7 +204,7 @@ Marcy recommends using W3C's
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODQwMDQxMywyMDg0NTEwMDg4LC0xMD
+eyJoaXN0b3J5IjpbMjAwOTM2MDY3NCwyMDg0NTEwMDg4LC0xMD
 A3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjcz
 NzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC
 0xNDc0OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5

@@ -209,11 +209,12 @@ Here's what Marcy thinks about the image descriptions in the header:
 >For now, don’t worry about alt text on SVG images. There’s more on this in the Accessible Naming module in the Semantic Markup workshop.
 
 ##### Homepage
-There's a `tents.jpg` on the home page that actually adds context. 
+There's a `tents.jpg` on the home page that actually adds context and Marcy suggests "A festival of tents at sunset".
 
 >💡Tip
 >
 >You don't need to add "Photo of..." to your alt text descriptions. When a screen reader sees the img tag, it will already announce it as an image.
+
 
 
 
@@ -226,7 +227,7 @@ There's a `tents.jpg` on the home page that actually adds context.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjgzNDEyOSwxMDk0MzUyNDU0LDIwOD
+eyJoaXN0b3J5IjpbMTUyMjQwNzMzNCwxMDk0MzUyNDU0LDIwOD
 Q1MTAwODgsLTEwMDcxMTk2NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5
 MzY5LC0yMTMyNzM3NTA5LC0xNDg3MjA4MjcyLDk0NDc2NjEyMi
 wzODE1OTUzMTQsLTE0NzQ5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1

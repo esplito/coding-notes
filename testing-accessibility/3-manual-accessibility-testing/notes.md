@@ -181,6 +181,7 @@ Changed header color to `--color-accent-dark` and it seems to work :)
 
 In `CSS Overview` in Chrome it now passed their contrast ratio check and it also passes when using CCA.
 
+###
 
 
 ## Useful resources
@@ -191,11 +192,11 @@ In `CSS Overview` in Chrome it now passed their contrast ratio check and it also
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOT
-g1NzEwMzcsLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcy
-MDgyNzIsOTQ0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3NDk2MzA2Ny
-w5ODExNjk1MTQsNzQ3OTU3OTcsMTQ2MzM0OTM2NiwtMTU2OTgw
-NDAzNCw4NzAwNzQ5MTgsMzczOTc4NTEsLTExOTUzNjg4MDgsOD
-I4Nzg5MTMwLDkxNTc5NjkwMyw0MjM3MDE5ODgsMTU5OTM2OTQy
-N119
+eyJoaXN0b3J5IjpbLTMzNDkzODY2NywyMDg0NTEwMDg4LC0xMD
+A3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjcz
+NzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC
+0xNDc0OTYzMDY3LDk4MTE2OTUxNCw3NDc5NTc5NywxNDYzMzQ5
+MzY2LC0xNTY5ODA0MDM0LDg3MDA3NDkxOCwzNzM5Nzg1MSwtMT
+E5NTM2ODgwOCw4Mjg3ODkxMzAsOTE1Nzk2OTAzLDQyMzcwMTk4
+OF19
 -->

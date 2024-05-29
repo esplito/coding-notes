@@ -351,6 +351,8 @@ My fixes (on homepage):
 
 No issues with axe dev tools after that and 100 accessibility score in Lighthouse.
 
+
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -360,11 +362,11 @@ No issues with axe dev tools after that and 100 accessibility score in Lighthous
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc1MzU1NjgsMjQ3MTAzMzE1LDc0NT
-M2NDA5MCwxNDY0MjkwMTM0LDcwOTcxOTg1OSw3MDM0MTY3MDgs
-NjI4OTgyMzU1LC0xMjM1NjMyMDY5LDE1OTM5NDY1NTYsLTIwND
-QyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMs
-MTUyMjQwNzMzNCwxMDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMD
-cxMTk2NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3
-NTA5XX0=
+eyJoaXN0b3J5IjpbMTQwNDE0NTU0OCwtMTMwNzUzNTU2OCwyND
+cxMDMzMTUsNzQ1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5ODU5
+LDcwMzQxNjcwOCw2Mjg5ODIzNTUsLTEyMzU2MzIwNjksMTU5Mz
+k0NjU1NiwtMjA0NDIwMzAzLDEyMzIxNDMzOSw0MzgwODU2OTUs
+MTg2MjYxNzEzMywxNTIyNDA3MzM0LDEwOTQzNTI0NTQsMjA4ND
+UxMDA4OCwtMTAwNzExOTY2NywtOTg1NzEwMzcsLTE3NDgyNzkz
+NjldfQ==
 -->

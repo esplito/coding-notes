@@ -375,10 +375,10 @@ Fixes:
 
 #### Labeling a form without a visible label
 
-It's always best to have a visible label for a form, but there are situations and designs where you might not have that option. There are a couple different ways you could go about working through this scenario:
-
--   Use  `aria-label`  on the input itself.
--   Add a paired  `<label>`  element with a custom  `visually-hidden`  (but rendered) CSS class.
+>It's always best to have a visible label for a form, but there are situations and designs where you might not have that option. There are a couple different ways you could go about working through this scenario:
+>
+>-   Use  `aria-label`  on the input itself.
+>-   Add a paired  `<label>`  element with a custom  `visually-hidden`  (but rendered) CSS class.
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -389,7 +389,7 @@ It's always best to have a visible label for a form, but there are situations an
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjU0NDcyOSwtNTIwODc5ODYyLC04OD
+eyJoaXN0b3J5IjpbMTUwMTYzODI3NywtNTIwODc5ODYyLC04OD
 k4MjQ5MjIsLTEzMDc1MzU1NjgsMjQ3MTAzMzE1LDc0NTM2NDA5
 MCwxNDY0MjkwMTM0LDcwOTcxOTg1OSw3MDM0MTY3MDgsNjI4OT
 gyMzU1LC0xMjM1NjMyMDY5LDE1OTM5NDY1NTYsLTIwNDQyMDMw

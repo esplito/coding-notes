@@ -319,8 +319,12 @@ Tab stops tool before our fixes to the menu:
 
 #### 🛠 Challenge: Fix the Homepage Search Button Issue
 
-
-
+I decided to go with aria-label since the button performs an action when pressed. It would not make sense to "hide" it from screen readers etc. I believe it would be even better to have vis
+```html
+<button  class="btn-submit btn-lookingglass"  aria-label="Search">
+	<span  class="icon-lookingglass-white"></span>
+</button>
+```
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -330,11 +334,11 @@ Tab stops tool before our fixes to the menu:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNT
-YzMjA2OSwxNTkzOTQ2NTU2LC0yMDQ0MjAzMDMsMTIzMjE0MzM5
-LDQzODA4NTY5NSwxODYyNjE3MTMzLDE1MjI0MDczMzQsMTA5ND
-M1MjQ1NCwyMDg0NTEwMDg4LC0xMDA3MTE5NjY3LC05ODU3MTAz
-NywtMTc0ODI3OTM2OSwtMjEzMjczNzUwOSwtMTQ4NzIwODI3Mi
-w5NDQ3NjYxMjIsMzgxNTk1MzE0LC0xNDc0OTYzMDY3LDk4MTE2
-OTUxNF19
+eyJoaXN0b3J5IjpbLTU0MTAwMTcxNiw3MDM0MTY3MDgsNjI4OT
+gyMzU1LC0xMjM1NjMyMDY5LDE1OTM5NDY1NTYsLTIwNDQyMDMw
+MywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMsMTUyMj
+QwNzMzNCwxMDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMDcxMTk2
+NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3NTA5LC
+0xNDg3MjA4MjcyLDk0NDc2NjEyMiwzODE1OTUzMTQsLTE0NzQ5
+NjMwNjddfQ==
 -->

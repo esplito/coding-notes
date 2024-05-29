@@ -342,7 +342,10 @@ I decided to go with aria-label since the button performs an action when pressed
 
 >When you’re confident in your fixes, run Lighthouse and Axe DevTools again to check your scores.
 
-I
+My fixes:
+- I wrapped the logo + "Campspot" link text in h1.
+- I added an h2 above the form with the content "Find your camp spot"
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -353,11 +356,11 @@ I
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0NjgwNDcsNzQ1MzY0MDkwLDE0NjQyOT
-AxMzQsNzA5NzE5ODU5LDcwMzQxNjcwOCw2Mjg5ODIzNTUsLTEy
-MzU2MzIwNjksMTU5Mzk0NjU1NiwtMjA0NDIwMzAzLDEyMzIxND
-MzOSw0MzgwODU2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0LDEw
-OTQzNTI0NTQsMjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOTg1Nz
-EwMzcsLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcyMDgy
-NzJdfQ==
+eyJoaXN0b3J5IjpbLTE5ODIxNTUzNTksNzQ1MzY0MDkwLDE0Nj
+QyOTAxMzQsNzA5NzE5ODU5LDcwMzQxNjcwOCw2Mjg5ODIzNTUs
+LTEyMzU2MzIwNjksMTU5Mzk0NjU1NiwtMjA0NDIwMzAzLDEyMz
+IxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0
+LDEwOTQzNTI0NTQsMjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOT
+g1NzEwMzcsLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcy
+MDgyNzJdfQ==
 -->

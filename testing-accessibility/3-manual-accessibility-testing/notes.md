@@ -346,7 +346,8 @@ My fixes:
 - I wrapped the logo + "Campspot" link text in h1.
 - I added an h2 above the form with the content "Find your camp spot"
 - changed header from `div` to `header`
-- change footer from `div` to `footer`
+- changed footer from `div` to `footer`
+- changed `<div id="main">` to `<main id="main">`
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -357,7 +358,7 @@ My fixes:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxNTAwMDE1LDc0NTM2NDA5MCwxNDY0Mj
+eyJoaXN0b3J5IjpbMjQ3MTAzMzE1LDc0NTM2NDA5MCwxNDY0Mj
 kwMTM0LDcwOTcxOTg1OSw3MDM0MTY3MDgsNjI4OTgyMzU1LC0x
 MjM1NjMyMDY5LDE1OTM5NDY1NTYsLTIwNDQyMDMwMywxMjMyMT
 QzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMsMTUyMjQwNzMzNCwx

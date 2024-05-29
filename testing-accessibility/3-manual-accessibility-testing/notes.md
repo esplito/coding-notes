@@ -345,7 +345,8 @@ I decided to go with aria-label since the button performs an action when pressed
 My fixes:
 - I wrapped the logo + "Campspot" link text in h1.
 - I added an h2 above the form with the content "Find your camp spot"
-
+- changed header from `div` to `header`
+- change footer from `div` to `footer`
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -356,11 +357,11 @@ My fixes:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODIxNTUzNTksNzQ1MzY0MDkwLDE0Nj
-QyOTAxMzQsNzA5NzE5ODU5LDcwMzQxNjcwOCw2Mjg5ODIzNTUs
-LTEyMzU2MzIwNjksMTU5Mzk0NjU1NiwtMjA0NDIwMzAzLDEyMz
-IxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0
-LDEwOTQzNTI0NTQsMjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOT
-g1NzEwMzcsLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcy
-MDgyNzJdfQ==
+eyJoaXN0b3J5IjpbNDAxNTAwMDE1LDc0NTM2NDA5MCwxNDY0Mj
+kwMTM0LDcwOTcxOTg1OSw3MDM0MTY3MDgsNjI4OTgyMzU1LC0x
+MjM1NjMyMDY5LDE1OTM5NDY1NTYsLTIwNDQyMDMwMywxMjMyMT
+QzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMsMTUyMjQwNzMzNCwx
+MDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMDcxMTk2NjcsLTk4NT
+cxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3NTA5LC0xNDg3MjA4
+MjcyXX0=
 -->

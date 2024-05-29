@@ -361,6 +361,12 @@ No issues with axe dev tools after that and 100 accessibility score in Lighthous
 `<div>` -> `form`
 
 #### About placeholders
+>In our example above, the input has a placeholder of "Type your message here" and is paired with a label element and for attribute that matches its  `id`  of "message".
+>
+>Pairing with a visible label element is the best method of conveying the purpose of a  `textarea`,  `input`, or other form control.
+>
+>In this case, the placeholder is a redundant description that will be fine to disappear visually when the field is focused.
+
 
 
 ## Useful resources
@@ -372,7 +378,7 @@ No issues with axe dev tools after that and 100 accessibility score in Lighthous
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzE0NTMyNCwtODg5ODI0OTIyLC0xMz
+eyJoaXN0b3J5IjpbLTQ3MjczMTkxNSwtODg5ODI0OTIyLC0xMz
 A3NTM1NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5MDEz
 NCw3MDk3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNT
 YzMjA2OSwxNTkzOTQ2NTU2LC0yMDQ0MjAzMDMsMTIzMjE0MzM5

@@ -327,6 +327,12 @@ I decided to go with aria-label since the button performs an action when pressed
 	<span  class="icon-lookingglass-white"></span>
 </button>
 ```
+
+#### 📝 Exercise: Fix More Axe DevTools Issues
+
+- Added `<html lang="en">`
+- Fixed som SVG alt tags to be empty string since they provide no context
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -336,11 +342,11 @@ I decided to go with aria-label since the button performs an action when pressed
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5NzE5ODU5LDcwMzQxNjcwOCw2Mjg5OD
-IzNTUsLTEyMzU2MzIwNjksMTU5Mzk0NjU1NiwtMjA0NDIwMzAz
-LDEyMzIxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEzMywxNTIyND
-A3MzM0LDEwOTQzNTI0NTQsMjA4NDUxMDA4OCwtMTAwNzExOTY2
-NywtOTg1NzEwMzcsLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLT
-E0ODcyMDgyNzIsOTQ0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3NDk2
-MzA2N119
+eyJoaXN0b3J5IjpbLTc1OTc1MTgzMiw3MDk3MTk4NTksNzAzND
+E2NzA4LDYyODk4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOTQ2NTU2
+LC0yMDQ0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNj
+E3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4
+LC0xMDA3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMj
+EzMjczNzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1
+MzE0XX0=
 -->

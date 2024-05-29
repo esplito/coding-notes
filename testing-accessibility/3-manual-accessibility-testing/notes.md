@@ -356,7 +356,7 @@ My fixes (on about page):
 
 No issues with axe dev tools after that and 100 accessibility score in Lighthouse.
 
-
+##
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -367,11 +367,11 @@ No issues with axe dev tools after that and 100 accessibility score in Lighthous
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTgyNDkyMiwtMTMwNzUzNTU2OCwyND
-cxMDMzMTUsNzQ1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5ODU5
-LDcwMzQxNjcwOCw2Mjg5ODIzNTUsLTEyMzU2MzIwNjksMTU5Mz
-k0NjU1NiwtMjA0NDIwMzAzLDEyMzIxNDMzOSw0MzgwODU2OTUs
-MTg2MjYxNzEzMywxNTIyNDA3MzM0LDEwOTQzNTI0NTQsMjA4ND
-UxMDA4OCwtMTAwNzExOTY2NywtOTg1NzEwMzcsLTE3NDgyNzkz
-NjldfQ==
+eyJoaXN0b3J5IjpbLTkzNDY1NjU3MCwtODg5ODI0OTIyLC0xMz
+A3NTM1NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5MDEz
+NCw3MDk3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNT
+YzMjA2OSwxNTkzOTQ2NTU2LC0yMDQ0MjAzMDMsMTIzMjE0MzM5
+LDQzODA4NTY5NSwxODYyNjE3MTMzLDE1MjI0MDczMzQsMTA5ND
+M1MjQ1NCwyMDg0NTEwMDg4LC0xMDA3MTE5NjY3LC05ODU3MTAz
+N119
 -->

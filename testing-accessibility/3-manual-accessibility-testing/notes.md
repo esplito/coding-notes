@@ -333,6 +333,7 @@ I decided to go with aria-label since the button performs an action when pressed
 - Added `<html lang="en">`
 - Fixed som SVG alt tags to be empty string since they provide no context
 
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -342,7 +343,7 @@ I decided to go with aria-label since the button performs an action when pressed
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTc1MTgzMiw3MDk3MTk4NTksNzAzND
+eyJoaXN0b3J5IjpbMTQ2NDI5MDEzNCw3MDk3MTk4NTksNzAzND
 E2NzA4LDYyODk4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOTQ2NTU2
 LC0yMDQ0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNj
 E3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4

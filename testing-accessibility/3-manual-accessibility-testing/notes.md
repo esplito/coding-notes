@@ -356,7 +356,9 @@ My fixes (on about page):
 
 No issues with axe dev tools after that and 100 accessibility score in Lighthouse.
 
-##
+### Lesson 8 - Update a Form to be Semantic (Tools Can’t Catch Everything)
+- Update the Contact Form to be Semantic on about page
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -367,7 +369,7 @@ No issues with axe dev tools after that and 100 accessibility score in Lighthous
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDY1NjU3MCwtODg5ODI0OTIyLC0xMz
+eyJoaXN0b3J5IjpbLTIyMzI4Mjc2NSwtODg5ODI0OTIyLC0xMz
 A3NTM1NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5MDEz
 NCw3MDk3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNT
 YzMjA2OSwxNTkzOTQ2NTU2LC0yMDQ0MjAzMDMsMTIzMjE0MzM5

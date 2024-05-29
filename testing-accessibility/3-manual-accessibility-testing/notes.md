@@ -342,7 +342,7 @@ I decided to go with aria-label since the button performs an action when pressed
 
 >When you’re confident in your fixes, run Lighthouse and Axe DevTools again to check your scores.
 
-My fixes:
+My fixes (on homepage):
 - I wrapped the logo + "Campspot" link text in h1.
 - I added an h2 above the form with the content "Find your camp spot"
 - changed header from `div` to `header`
@@ -358,11 +358,11 @@ My fixes:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3MTAzMzE1LDc0NTM2NDA5MCwxNDY0Mj
-kwMTM0LDcwOTcxOTg1OSw3MDM0MTY3MDgsNjI4OTgyMzU1LC0x
-MjM1NjMyMDY5LDE1OTM5NDY1NTYsLTIwNDQyMDMwMywxMjMyMT
-QzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMsMTUyMjQwNzMzNCwx
-MDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMDcxMTk2NjcsLTk4NT
-cxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3NTA5LC0xNDg3MjA4
-MjcyXX0=
+eyJoaXN0b3J5IjpbNjc1NTUxMzE3LDI0NzEwMzMxNSw3NDUzNj
+QwOTAsMTQ2NDI5MDEzNCw3MDk3MTk4NTksNzAzNDE2NzA4LDYy
+ODk4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOTQ2NTU2LC0yMDQ0Mj
+AzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMzLDE1
+MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMDA3MT
+E5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjczNzUw
+OV19
 -->

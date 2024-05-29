@@ -342,7 +342,7 @@ I decided to go with aria-label since the button performs an action when pressed
 
 >When you’re confident in your fixes, run Lighthouse and Axe DevTools again to check your scores.
 
-
+I
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -353,11 +353,11 @@ I decided to go with aria-label since the button performs an action when pressed
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1MzY0MDkwLDE0NjQyOTAxMzQsNzA5Nz
-E5ODU5LDcwMzQxNjcwOCw2Mjg5ODIzNTUsLTEyMzU2MzIwNjks
-MTU5Mzk0NjU1NiwtMjA0NDIwMzAzLDEyMzIxNDMzOSw0MzgwOD
-U2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0LDEwOTQzNTI0NTQs
-MjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOTg1NzEwMzcsLTE3ND
-gyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2
-MTIyXX0=
+eyJoaXN0b3J5IjpbNTQ0NjgwNDcsNzQ1MzY0MDkwLDE0NjQyOT
+AxMzQsNzA5NzE5ODU5LDcwMzQxNjcwOCw2Mjg5ODIzNTUsLTEy
+MzU2MzIwNjksMTU5Mzk0NjU1NiwtMjA0NDIwMzAzLDEyMzIxND
+MzOSw0MzgwODU2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0LDEw
+OTQzNTI0NTQsMjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOTg1Nz
+EwMzcsLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcyMDgy
+NzJdfQ==
 -->

@@ -319,7 +319,7 @@ Tab stops tool before our fixes to the menu:
 
 #### 🛠 Challenge: Fix the Homepage Search Button Issue
 
-I decided to go with aria-label since the button performs an action when pressed. It would not make sense to "hide" it from screen readers etc. I believe it would be even better to have vis
+I decided to go with aria-label since the button performs an action when pressed. It would not make sense to "hide" it from screen readers etc. I believe it would be even better to have the text visually next to the "looking glass", but that would require (in a work scenario) to discuss it with UX/UI designer.
 ```html
 <button  class="btn-submit btn-lookingglass"  aria-label="Search">
 	<span  class="icon-lookingglass-white"></span>
@@ -334,11 +334,11 @@ I decided to go with aria-label since the button performs an action when pressed
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTAwMTcxNiw3MDM0MTY3MDgsNjI4OT
-gyMzU1LC0xMjM1NjMyMDY5LDE1OTM5NDY1NTYsLTIwNDQyMDMw
-MywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMsMTUyMj
-QwNzMzNCwxMDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMDcxMTk2
-NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3NTA5LC
-0xNDg3MjA4MjcyLDk0NDc2NjEyMiwzODE1OTUzMTQsLTE0NzQ5
-NjMwNjddfQ==
+eyJoaXN0b3J5IjpbLTE2Njk4MDkzMzgsNzAzNDE2NzA4LDYyOD
+k4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOTQ2NTU2LC0yMDQ0MjAz
+MDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMzLDE1Mj
+I0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMDA3MTE5
+NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjczNzUwOS
+wtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC0xNDc0
+OTYzMDY3XX0=
 -->

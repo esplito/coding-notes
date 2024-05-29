@@ -367,6 +367,8 @@ No issues with axe dev tools after that and 100 accessibility score in Lighthous
 >
 >In this case, the placeholder is a redundant description that will be fine to disappear visually when the field is focused.
 
+>💡Tip
+>Automated tools don’t take issue with inputs that have placeholders, but it’s not the most accessible user experience!
 
 
 ## Useful resources
@@ -378,7 +380,7 @@ No issues with axe dev tools after that and 100 accessibility score in Lighthous
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjczMTkxNSwtODg5ODI0OTIyLC0xMz
+eyJoaXN0b3J5IjpbLTUyMDg3OTg2MiwtODg5ODI0OTIyLC0xMz
 A3NTM1NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5MDEz
 NCw3MDk3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNT
 YzMjA2OSwxNTkzOTQ2NTU2LC0yMDQ0MjAzMDMsMTIzMjE0MzM5

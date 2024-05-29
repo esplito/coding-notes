@@ -358,7 +358,10 @@ No issues with axe dev tools after that and 100 accessibility score in Lighthous
 
 ### Lesson 8 - Update a Form to be Semantic (Tools Can’t Catch Everything)
 - Update the Contact Form to be Semantic on about page
+
+Fixes:
 `<div>` -> `form`
+`span` -> `label` (and add `for` to `label` and `id` to `input` or `textarea`)
 
 #### About placeholders
 >In our example above, the input has a placeholder of "Type your message here" and is paired with a label element and for attribute that matches its  `id`  of "message".
@@ -380,11 +383,11 @@ No issues with axe dev tools after that and 100 accessibility score in Lighthous
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDg3OTg2MiwtODg5ODI0OTIyLC0xMz
-A3NTM1NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5MDEz
-NCw3MDk3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNT
-YzMjA2OSwxNTkzOTQ2NTU2LC0yMDQ0MjAzMDMsMTIzMjE0MzM5
-LDQzODA4NTY5NSwxODYyNjE3MTMzLDE1MjI0MDczMzQsMTA5ND
-M1MjQ1NCwyMDg0NTEwMDg4LC0xMDA3MTE5NjY3LC05ODU3MTAz
-N119
+eyJoaXN0b3J5IjpbLTIyMDMyMzQyNywtNTIwODc5ODYyLC04OD
+k4MjQ5MjIsLTEzMDc1MzU1NjgsMjQ3MTAzMzE1LDc0NTM2NDA5
+MCwxNDY0MjkwMTM0LDcwOTcxOTg1OSw3MDM0MTY3MDgsNjI4OT
+gyMzU1LC0xMjM1NjMyMDY5LDE1OTM5NDY1NTYsLTIwNDQyMDMw
+MywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMsMTUyMj
+QwNzMzNCwxMDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMDcxMTk2
+NjddfQ==
 -->

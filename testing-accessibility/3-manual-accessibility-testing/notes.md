@@ -349,6 +349,8 @@ My fixes (on homepage):
 - changed footer from `div` to `footer`
 - changed `<div id="main">` to `<main id="main">`
 
+No issues with axe dev tools after that and 100 accessibility score in Lighthouse.
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -358,11 +360,11 @@ My fixes (on homepage):
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1NTUxMzE3LDI0NzEwMzMxNSw3NDUzNj
-QwOTAsMTQ2NDI5MDEzNCw3MDk3MTk4NTksNzAzNDE2NzA4LDYy
-ODk4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOTQ2NTU2LC0yMDQ0Mj
-AzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMzLDE1
-MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMDA3MT
-E5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjczNzUw
-OV19
+eyJoaXN0b3J5IjpbLTEzMDc1MzU1NjgsMjQ3MTAzMzE1LDc0NT
+M2NDA5MCwxNDY0MjkwMTM0LDcwOTcxOTg1OSw3MDM0MTY3MDgs
+NjI4OTgyMzU1LC0xMjM1NjMyMDY5LDE1OTM5NDY1NTYsLTIwND
+QyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMs
+MTUyMjQwNzMzNCwxMDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMD
+cxMTk2NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5MzY5LC0yMTMyNzM3
+NTA5XX0=
 -->

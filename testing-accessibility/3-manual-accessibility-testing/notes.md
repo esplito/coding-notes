@@ -384,7 +384,7 @@ Fixes:
 
 >Our web applications should remain usable no matter the zoom level or viewport size. It just so happens that designing and developing for people with low vision goes right along with responsive web design!
 
-
+### Lesson 1 - Testing Zoom in the Browser
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -395,11 +395,11 @@ Fixes:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzM0NjQ4MSwtNTIwODc5ODYyLC04OD
-k4MjQ5MjIsLTEzMDc1MzU1NjgsMjQ3MTAzMzE1LDc0NTM2NDA5
-MCwxNDY0MjkwMTM0LDcwOTcxOTg1OSw3MDM0MTY3MDgsNjI4OT
-gyMzU1LC0xMjM1NjMyMDY5LDE1OTM5NDY1NTYsLTIwNDQyMDMw
-MywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzMsMTUyMj
-QwNzMzNCwxMDk0MzUyNDU0LDIwODQ1MTAwODgsLTEwMDcxMTk2
-NjddfQ==
+eyJoaXN0b3J5IjpbODA5Nzg0NTc3LC01MjA4Nzk4NjIsLTg4OT
+gyNDkyMiwtMTMwNzUzNTU2OCwyNDcxMDMzMTUsNzQ1MzY0MDkw
+LDE0NjQyOTAxMzQsNzA5NzE5ODU5LDcwMzQxNjcwOCw2Mjg5OD
+IzNTUsLTEyMzU2MzIwNjksMTU5Mzk0NjU1NiwtMjA0NDIwMzAz
+LDEyMzIxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEzMywxNTIyND
+A3MzM0LDEwOTQzNTI0NTQsMjA4NDUxMDA4OCwtMTAwNzExOTY2
+N119
 -->

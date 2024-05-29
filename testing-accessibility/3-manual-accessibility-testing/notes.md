@@ -333,6 +333,16 @@ I decided to go with aria-label since the button performs an action when pressed
 - Added `<html lang="en">`
 - Fixed som SVG alt tags to be empty string since they provide no context
 
+### Lesson 7 - Challenge: Fixing Structural Issues with Headings and Landmarks
+
+> Work through fixing these issues on the Home and About pages, checking with the Web Developer Toolbar and Accessibility Insights as you go.
+
+>💡Tip
+>When you adjust heading levels you’ll usually need to update the styling as well.
+
+>When you’re confident in your fixes, run Lighthouse and Axe DevTools again to check your scores.
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -343,11 +353,11 @@ I decided to go with aria-label since the button performs an action when pressed
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDI5MDEzNCw3MDk3MTk4NTksNzAzND
-E2NzA4LDYyODk4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOTQ2NTU2
-LC0yMDQ0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNj
-E3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4
-LC0xMDA3MTE5NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMj
-EzMjczNzUwOSwtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1
-MzE0XX0=
+eyJoaXN0b3J5IjpbNzQ1MzY0MDkwLDE0NjQyOTAxMzQsNzA5Nz
+E5ODU5LDcwMzQxNjcwOCw2Mjg5ODIzNTUsLTEyMzU2MzIwNjks
+MTU5Mzk0NjU1NiwtMjA0NDIwMzAzLDEyMzIxNDMzOSw0MzgwOD
+U2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0LDEwOTQzNTI0NTQs
+MjA4NDUxMDA4OCwtMTAwNzExOTY2NywtOTg1NzEwMzcsLTE3ND
+gyNzkzNjksLTIxMzI3Mzc1MDksLTE0ODcyMDgyNzIsOTQ0NzY2
+MTIyXX0=
 -->

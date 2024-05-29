@@ -317,6 +317,8 @@ Tab stops tool before our fixes to the menu:
 
 ### Lesson 6 - Challenge: Fixing Issues Found with Lighthouse & Axe DevTools
 
+#### 🛠 Challenge: Fix the Homepage Search Button Issue
+
 
 
 ## Useful resources
@@ -328,11 +330,11 @@ Tab stops tool before our fixes to the menu:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4OTgyMzU1LC0xMjM1NjMyMDY5LDE1OT
-M5NDY1NTYsLTIwNDQyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1
-LDE4NjI2MTcxMzMsMTUyMjQwNzMzNCwxMDk0MzUyNDU0LDIwOD
-Q1MTAwODgsLTEwMDcxMTk2NjcsLTk4NTcxMDM3LC0xNzQ4Mjc5
-MzY5LC0yMTMyNzM3NTA5LC0xNDg3MjA4MjcyLDk0NDc2NjEyMi
-wzODE1OTUzMTQsLTE0NzQ5NjMwNjcsOTgxMTY5NTE0LDc0Nzk1
-Nzk3XX0=
+eyJoaXN0b3J5IjpbNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNT
+YzMjA2OSwxNTkzOTQ2NTU2LC0yMDQ0MjAzMDMsMTIzMjE0MzM5
+LDQzODA4NTY5NSwxODYyNjE3MTMzLDE1MjI0MDczMzQsMTA5ND
+M1MjQ1NCwyMDg0NTEwMDg4LC0xMDA3MTE5NjY3LC05ODU3MTAz
+NywtMTc0ODI3OTM2OSwtMjEzMjczNzUwOSwtMTQ4NzIwODI3Mi
+w5NDQ3NjYxMjIsMzgxNTk1MzE0LC0xNDc0OTYzMDY3LDk4MTE2
+OTUxNF19
 -->

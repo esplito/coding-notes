@@ -349,12 +349,14 @@ My fixes (on homepage):
 - changed footer from `div` to `footer`
 - changed `<div id="main">` to `<main id="main">`
 
-No issues with axe dev tools after that and 100 accessibility score in Lighthouse.
-
 My fixes (on about page):
 - changed `<div id="main">` to `<main id="main">`
 - changed `h4` to `h3`
 - changed `h6` to `label`
+
+No issues with axe dev tools after that and 100 accessibility score in Lighthouse.
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -365,7 +367,7 @@ My fixes (on about page):
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzY1MTU3MiwtMTMwNzUzNTU2OCwyND
+eyJoaXN0b3J5IjpbLTg4OTgyNDkyMiwtMTMwNzUzNTU2OCwyND
 cxMDMzMTUsNzQ1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5ODU5
 LDcwMzQxNjcwOCw2Mjg5ODIzNTUsLTEyMzU2MzIwNjksMTU5Mz
 k0NjU1NiwtMjA0NDIwMzAzLDEyMzIxNDMzOSw0MzgwODU2OTUs

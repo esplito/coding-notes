@@ -319,6 +319,8 @@ Tab stops tool before our fixes to the menu:
 
 #### 🛠 Challenge: Fix the Homepage Search Button Issue
 
+>The Axe DevTools scan found an issue with the Search icon button on the homepage not having discernible text. This button accompanies two form fields for searching camp locations and dates.
+>
 I decided to go with aria-label since the button performs an action when pressed. It would not make sense to "hide" it from screen readers etc. I believe it would be even better to have the text visually next to the "looking glass", but that would require (in a work scenario) to discuss it with UX/UI designer.
 ```html
 <button  class="btn-submit btn-lookingglass"  aria-label="Search">
@@ -334,11 +336,11 @@ I decided to go with aria-label since the button performs an action when pressed
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njk4MDkzMzgsNzAzNDE2NzA4LDYyOD
-k4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOTQ2NTU2LC0yMDQ0MjAz
-MDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMzLDE1Mj
-I0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4LC0xMDA3MTE5
-NjY3LC05ODU3MTAzNywtMTc0ODI3OTM2OSwtMjEzMjczNzUwOS
-wtMTQ4NzIwODI3Miw5NDQ3NjYxMjIsMzgxNTk1MzE0LC0xNDc0
-OTYzMDY3XX0=
+eyJoaXN0b3J5IjpbNzA5NzE5ODU5LDcwMzQxNjcwOCw2Mjg5OD
+IzNTUsLTEyMzU2MzIwNjksMTU5Mzk0NjU1NiwtMjA0NDIwMzAz
+LDEyMzIxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEzMywxNTIyND
+A3MzM0LDEwOTQzNTI0NTQsMjA4NDUxMDA4OCwtMTAwNzExOTY2
+NywtOTg1NzEwMzcsLTE3NDgyNzkzNjksLTIxMzI3Mzc1MDksLT
+E0ODcyMDgyNzIsOTQ0NzY2MTIyLDM4MTU5NTMxNCwtMTQ3NDk2
+MzA2N119
 -->

@@ -542,6 +542,10 @@ Links to shortcuts for NVDA, VoiceOver Desktop and VoiceOver iOS can be found in
 >💡Tip
 >You can hit CTRL at any time to get VoiceOver to stop reading.
 
+`CTRL + Option` is the VoiceOver key.
+
+Example: `CTRL + Option + H` will read out headings on a page.
+
 
 
 ## Useful resources
@@ -553,7 +557,7 @@ Links to shortcuts for NVDA, VoiceOver Desktop and VoiceOver iOS can be found in
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDY1MjA3NSwtMjEwOTc4MzAxNiwxNT
+eyJoaXN0b3J5IjpbLTQzNDI5MDQ4OCwtMjEwOTc4MzAxNiwxNT
 YxMjA3MDM0LC0xODI1ODIzMzY2LDE1NTU0MzY4NDEsMTk2MTM5
 MzU1LC03NTIwNDg5NzIsNDE2ODAxNTIyLC02MjQ2NzUyMjEsLT
 cxNTIyODkxLC0xNTYzODg0NTA4LDgwOTc4NDU3NywtNTIwODc5

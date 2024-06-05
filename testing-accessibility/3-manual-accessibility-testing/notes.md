@@ -423,6 +423,8 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 >💡Tip
 >Some users may use Operating System-level zooming to enlarge the content they’re viewing. This will not trigger media queries or adjust the layout of your pages.
 
+### Lesson 2 - Testing responsiveness with DevTools
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -433,11 +435,11 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM3MTEwODEsLTYyNDY3NTIyMSwtNz
-E1MjI4OTEsLTE1NjM4ODQ1MDgsODA5Nzg0NTc3LC01MjA4Nzk4
-NjIsLTg4OTgyNDkyMiwtMTMwNzUzNTU2OCwyNDcxMDMzMTUsNz
-Q1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5ODU5LDcwMzQxNjcw
-OCw2Mjg5ODIzNTUsLTEyMzU2MzIwNjksMTU5Mzk0NjU1NiwtMj
-A0NDIwMzAzLDEyMzIxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEz
-M119
+eyJoaXN0b3J5IjpbMjEyMjg0MjE5NiwtNjI0Njc1MjIxLC03MT
+UyMjg5MSwtMTU2Mzg4NDUwOCw4MDk3ODQ1NzcsLTUyMDg3OTg2
+MiwtODg5ODI0OTIyLC0xMzA3NTM1NTY4LDI0NzEwMzMxNSw3ND
+UzNjQwOTAsMTQ2NDI5MDEzNCw3MDk3MTk4NTksNzAzNDE2NzA4
+LDYyODk4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOTQ2NTU2LC0yMD
+Q0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMz
+XX0=
 -->

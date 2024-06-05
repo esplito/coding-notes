@@ -517,8 +517,12 @@ I did the following fixes:
     grid-template-columns: 5fr 5fr 1fr;
   }
 }
-
 ```
+
+## Section 5 - Screen reader testing
+
+### Lesson 1 - An Overview of Screen Reader Software
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -529,11 +533,11 @@ I did the following fixes:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTM5MzU1LC03NTIwNDg5NzIsNDE2OD
-AxNTIyLC02MjQ2NzUyMjEsLTcxNTIyODkxLC0xNTYzODg0NTA4
-LDgwOTc4NDU3NywtNTIwODc5ODYyLC04ODk4MjQ5MjIsLTEzMD
-c1MzU1NjgsMjQ3MTAzMzE1LDc0NTM2NDA5MCwxNDY0MjkwMTM0
-LDcwOTcxOTg1OSw3MDM0MTY3MDgsNjI4OTgyMzU1LC0xMjM1Nj
-MyMDY5LDE1OTM5NDY1NTYsLTIwNDQyMDMwMywxMjMyMTQzMzld
-fQ==
+eyJoaXN0b3J5IjpbMTU1NTQzNjg0MSwxOTYxMzkzNTUsLTc1Mj
+A0ODk3Miw0MTY4MDE1MjIsLTYyNDY3NTIyMSwtNzE1MjI4OTEs
+LTE1NjM4ODQ1MDgsODA5Nzg0NTc3LC01MjA4Nzk4NjIsLTg4OT
+gyNDkyMiwtMTMwNzUzNTU2OCwyNDcxMDMzMTUsNzQ1MzY0MDkw
+LDE0NjQyOTAxMzQsNzA5NzE5ODU5LDcwMzQxNjcwOCw2Mjg5OD
+IzNTUsLTEyMzU2MzIwNjksMTU5Mzk0NjU1NiwtMjA0NDIwMzAz
+XX0=
 -->

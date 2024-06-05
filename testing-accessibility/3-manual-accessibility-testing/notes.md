@@ -403,6 +403,19 @@ Ask yourself:
 	- Some of the content on both home and about ends up outside the frame so I have to side scroll. Not ideal.
 		- Example: Search on home page
 
+##### Marcy's observations
+On home page:
+>-   The MegaNav has changed its layout in order to fit. The images that are inside the “Plan Your Trip” section disappear at 300% zoom.
+>-   There’s a large gap between the navigation menu and the search form.
+>-   The search form is still landscape format and runs off the side of the screen horizontally.
+>-   The tents image is pretty large.
+>-   The “Rest and relaxation” text fits well.
+>-   The three colorful cards stay in landscape format and scroll off the screen.
+
+On about page:
+>-   The image next to the “About” text in the hero section gets scrolled off the side of the page.
+>-   The Contact form also scrolls off the side of the page.
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -412,11 +425,11 @@ Ask yourself:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTIyODkxLC0xNTYzODg0NTA4LDgwOT
-c4NDU3NywtNTIwODc5ODYyLC04ODk4MjQ5MjIsLTEzMDc1MzU1
-NjgsMjQ3MTAzMzE1LDc0NTM2NDA5MCwxNDY0MjkwMTM0LDcwOT
-cxOTg1OSw3MDM0MTY3MDgsNjI4OTgyMzU1LC0xMjM1NjMyMDY5
-LDE1OTM5NDY1NTYsLTIwNDQyMDMwMywxMjMyMTQzMzksNDM4MD
-g1Njk1LDE4NjI2MTcxMzMsMTUyMjQwNzMzNCwxMDk0MzUyNDU0
+eyJoaXN0b3J5IjpbLTYyNDY3NTIyMSwtNzE1MjI4OTEsLTE1Nj
+M4ODQ1MDgsODA5Nzg0NTc3LC01MjA4Nzk4NjIsLTg4OTgyNDky
+MiwtMTMwNzUzNTU2OCwyNDcxMDMzMTUsNzQ1MzY0MDkwLDE0Nj
+QyOTAxMzQsNzA5NzE5ODU5LDcwMzQxNjcwOCw2Mjg5ODIzNTUs
+LTEyMzU2MzIwNjksMTU5Mzk0NjU1NiwtMjA0NDIwMzAzLDEyMz
+IxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEzMywxNTIyNDA3MzM0
 XX0=
 -->

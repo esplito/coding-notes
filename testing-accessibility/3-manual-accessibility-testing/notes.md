@@ -529,8 +529,8 @@ Marcy suggests the following regading screen readers:
 She also recommends [Parallels](https://www.parallels.com/) for running Windows on Mac.
 
 >💡Tip
+>For more information on popularity of various screen readers, browsers, and platforms, check out the [WebAIM Screen Reader Survey](https://webaim.org/projects/screenreadersurvey9/).
 
-For more information on popularity of various screen readers, browsers, and platforms, check out the [WebAIM Screen Reader Survey](https://webaim.org/projects/screenreadersurvey9/).
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -541,7 +541,7 @@ For more information on popularity of various screen readers, browsers, and plat
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzg5ODAzNTIsMTU1NTQzNjg0MSwxOT
+eyJoaXN0b3J5IjpbLTE4MjU4MjMzNjYsMTU1NTQzNjg0MSwxOT
 YxMzkzNTUsLTc1MjA0ODk3Miw0MTY4MDE1MjIsLTYyNDY3NTIy
 MSwtNzE1MjI4OTEsLTE1NjM4ODQ1MDgsODA5Nzg0NTc3LC01Mj
 A4Nzk4NjIsLTg4OTgyNDkyMiwtMTMwNzUzNTU2OCwyNDcxMDMz

@@ -425,6 +425,9 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 
 ### Lesson 2 - Testing responsiveness with DevTools
 
+- Turn on the responsive feature in Chrome Devtools
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -435,7 +438,7 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjg0MjE5NiwtNjI0Njc1MjIxLC03MT
+eyJoaXN0b3J5IjpbMTc0NTUxNTI2OSwtNjI0Njc1MjIxLC03MT
 UyMjg5MSwtMTU2Mzg4NDUwOCw4MDk3ODQ1NzcsLTUyMDg3OTg2
 MiwtODg5ODI0OTIyLC0xMzA3NTM1NTY4LDI0NzEwMzMxNSw3ND
 UzNjQwOTAsMTQ2NDI5MDEzNCw3MDk3MTk4NTksNzAzNDE2NzA4

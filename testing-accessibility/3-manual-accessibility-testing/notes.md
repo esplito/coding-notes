@@ -435,7 +435,9 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 <meta name="viewport" content="initial-scale=1" />
 ```
 
+>⚠️Caution
 
+Do not disable user-scaling in the viewport meta tag! This will disallow pinch and zoom, which is a critical accessibility feature.
 
 
 ## Useful resources
@@ -447,11 +449,11 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2ODAxNTIyLC02MjQ2NzUyMjEsLTcxNT
-IyODkxLC0xNTYzODg0NTA4LDgwOTc4NDU3NywtNTIwODc5ODYy
-LC04ODk4MjQ5MjIsLTEzMDc1MzU1NjgsMjQ3MTAzMzE1LDc0NT
-M2NDA5MCwxNDY0MjkwMTM0LDcwOTcxOTg1OSw3MDM0MTY3MDgs
-NjI4OTgyMzU1LC0xMjM1NjMyMDY5LDE1OTM5NDY1NTYsLTIwND
-QyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzNd
-fQ==
+eyJoaXN0b3J5IjpbLTIwNjU3ODAzNzksNDE2ODAxNTIyLC02Mj
+Q2NzUyMjEsLTcxNTIyODkxLC0xNTYzODg0NTA4LDgwOTc4NDU3
+NywtNTIwODc5ODYyLC04ODk4MjQ5MjIsLTEzMDc1MzU1NjgsMj
+Q3MTAzMzE1LDc0NTM2NDA5MCwxNDY0MjkwMTM0LDcwOTcxOTg1
+OSw3MDM0MTY3MDgsNjI4OTgyMzU1LC0xMjM1NjMyMDY5LDE1OT
+M5NDY1NTYsLTIwNDQyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1
+XX0=
 -->

@@ -442,7 +442,7 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 
 I did the following fixes:
 - Add ```<meta  name="viewport"  content="width=device-width, initial-scale=1" />``` to `index.html`
-- Change in `header.scss` to 
+- Change in `_header.scss` to 
  ```scss
 #header {
 	color: var(--color-accent-dark);
@@ -454,8 +454,39 @@ I did the following fixes:
 	}
 }
 ```
-- Change in
+- Change in `_layouts.scss` to
+```scss
+.layout {
+  margin: 0em auto;
+  padding: 1em 0.5em;
+  width: 100%;
 
+  @media screen and (min-width: 768px) {
+    padding: 4em 0.5em;
+    width: var(--width-inset);
+  }
+}
+
+.two-parts-50-50 {
+  grid-template-columns: 1fr;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.three-parts {
+  display: grid;
+  gap: 1em;
+  text-align: center;
+  grid-template-columns: 1fr;
+
+  @media screen and (min-width: 1440px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+```
+- Change in `_about.sc`
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -466,11 +497,11 @@ I did the following fixes:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyOTE3NTY0LC03NTIwNDg5NzIsNDE2OD
-AxNTIyLC02MjQ2NzUyMjEsLTcxNTIyODkxLC0xNTYzODg0NTA4
-LDgwOTc4NDU3NywtNTIwODc5ODYyLC04ODk4MjQ5MjIsLTEzMD
-c1MzU1NjgsMjQ3MTAzMzE1LDc0NTM2NDA5MCwxNDY0MjkwMTM0
-LDcwOTcxOTg1OSw3MDM0MTY3MDgsNjI4OTgyMzU1LC0xMjM1Nj
-MyMDY5LDE1OTM5NDY1NTYsLTIwNDQyMDMwMywxMjMyMTQzMzld
-fQ==
+eyJoaXN0b3J5IjpbMTQ4ODI5NzI0OCwtNzUyMDQ4OTcyLDQxNj
+gwMTUyMiwtNjI0Njc1MjIxLC03MTUyMjg5MSwtMTU2Mzg4NDUw
+OCw4MDk3ODQ1NzcsLTUyMDg3OTg2MiwtODg5ODI0OTIyLC0xMz
+A3NTM1NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5MDEz
+NCw3MDk3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNT
+YzMjA2OSwxNTkzOTQ2NTU2LC0yMDQ0MjAzMDMsMTIzMjE0MzM5
+XX0=
 -->

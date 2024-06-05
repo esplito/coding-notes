@@ -427,6 +427,15 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 
 - Turn on the responsive feature in Chrome Devtools
 
+>If after changing device sizes and zoom levels you still don’t see any reflow changes, the site you’re on might be missing the  [viewport meta tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag)  in the HTML document  `<head>`.
+>
+>The viewport meta tag tells the browser on your user’s device how to render the page. There are multiple options you can set to make a page function better on a mobile device.
+>
+```
+<meta name="viewport" content="initial-scale=1" />
+```
+
+
 
 
 ## Useful resources
@@ -438,11 +447,11 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTUxNTI2OSwtNjI0Njc1MjIxLC03MT
-UyMjg5MSwtMTU2Mzg4NDUwOCw4MDk3ODQ1NzcsLTUyMDg3OTg2
-MiwtODg5ODI0OTIyLC0xMzA3NTM1NTY4LDI0NzEwMzMxNSw3ND
-UzNjQwOTAsMTQ2NDI5MDEzNCw3MDk3MTk4NTksNzAzNDE2NzA4
-LDYyODk4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOTQ2NTU2LC0yMD
-Q0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNjE3MTMz
-XX0=
+eyJoaXN0b3J5IjpbNDE2ODAxNTIyLC02MjQ2NzUyMjEsLTcxNT
+IyODkxLC0xNTYzODg0NTA4LDgwOTc4NDU3NywtNTIwODc5ODYy
+LC04ODk4MjQ5MjIsLTEzMDc1MzU1NjgsMjQ3MTAzMzE1LDc0NT
+M2NDA5MCwxNDY0MjkwMTM0LDcwOTcxOTg1OSw3MDM0MTY3MDgs
+NjI4OTgyMzU1LC0xMjM1NjMyMDY5LDE1OTM5NDY1NTYsLTIwND
+QyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzNd
+fQ==
 -->

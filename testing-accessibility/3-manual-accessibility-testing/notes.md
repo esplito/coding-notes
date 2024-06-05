@@ -565,7 +565,16 @@ Added some headings, unordered lists, list items, aria-expanded & aria-haspopup 
 
 ### Lesson 4 - Using NVDA to Read a Page
 
-`Tab` and `Arrow` keys work similarly in NVDA as in VoiceOver. There's differences though. If you go to the form in the exercise you'll hear a "cash register" sound in NVDA. This indicates that you went from "browse mode" to "focus mode". 
+`Tab` and `Arrow` keys work similarly in NVDA as in VoiceOver. There's differences though. If you go to the form in the exercise you'll hear a "cash register" sound in NVDA. This indicates that you went from "browse mode" to "focus mode" (a.k.a. "forms mode").
+
+>While in Focus mode, any key you type will be passed directly through the browser to the currently focused element. For example, hitting “H” on the keyboard will type an H value into the input.
+>
+>On a Windows keyboard, hitting **`Insert + SPACE`** will toggle between interaction modes. On a Mac laptop keyboard, **`Fn + Enter + Space`** will do the same action.
+>
+>In contrast to Focus mode, hitting “H” on the keyboard in NVDA’s Browse mode jumps you to the next heading. 
+
+These modes affect the interaction:
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -576,11 +585,11 @@ Added some headings, unordered lists, list items, aria-expanded & aria-haspopup 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ1NTI1NDEyLDIxODk1ODcyMywtMTk3Nj
-Q4MDkwNiwtMjEwOTc4MzAxNiwxNTYxMjA3MDM0LC0xODI1ODIz
-MzY2LDE1NTU0MzY4NDEsMTk2MTM5MzU1LC03NTIwNDg5NzIsND
-E2ODAxNTIyLC02MjQ2NzUyMjEsLTcxNTIyODkxLC0xNTYzODg0
-NTA4LDgwOTc4NDU3NywtNTIwODc5ODYyLC04ODk4MjQ5MjIsLT
-EzMDc1MzU1NjgsMjQ3MTAzMzE1LDc0NTM2NDA5MCwxNDY0Mjkw
-MTM0XX0=
+eyJoaXN0b3J5IjpbMjA1NTM0MDQwMCwyMTg5NTg3MjMsLTE5Nz
+Y0ODA5MDYsLTIxMDk3ODMwMTYsMTU2MTIwNzAzNCwtMTgyNTgy
+MzM2NiwxNTU1NDM2ODQxLDE5NjEzOTM1NSwtNzUyMDQ4OTcyLD
+QxNjgwMTUyMiwtNjI0Njc1MjIxLC03MTUyMjg5MSwtMTU2Mzg4
+NDUwOCw4MDk3ODQ1NzcsLTUyMDg3OTg2MiwtODg5ODI0OTIyLC
+0xMzA3NTM1NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5
+MDEzNF19
 -->

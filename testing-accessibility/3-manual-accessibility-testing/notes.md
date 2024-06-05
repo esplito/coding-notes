@@ -535,6 +535,7 @@ Always check your analytics to get an idea of which browsers and devices that yo
 
 
 
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -544,11 +545,11 @@ Always check your analytics to get an idea of which browsers and devices that yo
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTIwNzAzNCwtMTgyNTgyMzM2NiwxNT
-U1NDM2ODQxLDE5NjEzOTM1NSwtNzUyMDQ4OTcyLDQxNjgwMTUy
-MiwtNjI0Njc1MjIxLC03MTUyMjg5MSwtMTU2Mzg4NDUwOCw4MD
-k3ODQ1NzcsLTUyMDg3OTg2MiwtODg5ODI0OTIyLC0xMzA3NTM1
-NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5MDEzNCw3MD
-k3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNTYzMjA2
-OV19
+eyJoaXN0b3J5IjpbLTE0NzcyMzM1NjAsMTU2MTIwNzAzNCwtMT
+gyNTgyMzM2NiwxNTU1NDM2ODQxLDE5NjEzOTM1NSwtNzUyMDQ4
+OTcyLDQxNjgwMTUyMiwtNjI0Njc1MjIxLC03MTUyMjg5MSwtMT
+U2Mzg4NDUwOCw4MDk3ODQ1NzcsLTUyMDg3OTg2MiwtODg5ODI0
+OTIyLC0xMzA3NTM1NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMT
+Q2NDI5MDEzNCw3MDk3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1
+NV19
 -->

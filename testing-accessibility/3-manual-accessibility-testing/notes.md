@@ -579,6 +579,10 @@ These modes affect the interaction:
 >
 >For situations where you’ve built a custom interactive component that uses Arrow keys–such as our date picker–the behavior in a Windows screen reader might not be what you expect. There is much more on this in the Coding Accessible Interactions & Mechanics workshop.
 
+>💡Tip
+>
+>Check out WebAIM’s [NVDA keyboard shortcut cheat sheet](https://webaim.org/resources/shortcuts/nvda) for more.
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -588,11 +592,11 @@ These modes affect the interaction:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0NTM5MDIzLDIxODk1ODcyMywtMTk3Nj
-Q4MDkwNiwtMjEwOTc4MzAxNiwxNTYxMjA3MDM0LC0xODI1ODIz
-MzY2LDE1NTU0MzY4NDEsMTk2MTM5MzU1LC03NTIwNDg5NzIsND
-E2ODAxNTIyLC02MjQ2NzUyMjEsLTcxNTIyODkxLC0xNTYzODg0
-NTA4LDgwOTc4NDU3NywtNTIwODc5ODYyLC04ODk4MjQ5MjIsLT
-EzMDc1MzU1NjgsMjQ3MTAzMzE1LDc0NTM2NDA5MCwxNDY0Mjkw
-MTM0XX0=
+eyJoaXN0b3J5IjpbMTAyNzgzMzEyMCwyMTg5NTg3MjMsLTE5Nz
+Y0ODA5MDYsLTIxMDk3ODMwMTYsMTU2MTIwNzAzNCwtMTgyNTgy
+MzM2NiwxNTU1NDM2ODQxLDE5NjEzOTM1NSwtNzUyMDQ4OTcyLD
+QxNjgwMTUyMiwtNjI0Njc1MjIxLC03MTUyMjg5MSwtMTU2Mzg4
+NDUwOCw4MDk3ODQ1NzcsLTUyMDg3OTg2MiwtODg5ODI0OTIyLC
+0xMzA3NTM1NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5
+MDEzNF19
 -->

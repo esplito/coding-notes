@@ -438,7 +438,9 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 >⚠️Caution
 >Do not disable user-scaling in the viewport meta tag! This will disallow pinch and zoom, which is a critical accessibility feature.
 
-##
+### Lesson 3 - Challenge: Fix Zoom Issues with CSS
+
+
 
 
 ## Useful resources
@@ -450,7 +452,7 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDM0MDU0Nyw0MTY4MDE1MjIsLTYyND
+eyJoaXN0b3J5IjpbLTc1MjA0ODk3Miw0MTY4MDE1MjIsLTYyND
 Y3NTIyMSwtNzE1MjI4OTEsLTE1NjM4ODQ1MDgsODA5Nzg0NTc3
 LC01MjA4Nzk4NjIsLTg4OTgyNDkyMiwtMTMwNzUzNTU2OCwyND
 cxMDMzMTUsNzQ1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5ODU5

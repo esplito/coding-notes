@@ -559,6 +559,7 @@ Example: `CTRL + Option + H` will read out headings on a page.
 ### Lesson 3 - Challenge: Improving VoiceOver Announcements
 
 - Add additional structure to the MegaNav
+- Update the `menu.js` logic to find the correct parent node.
 - 
 
 ## Useful resources
@@ -570,11 +571,11 @@ Example: `CTRL + Option + H` will read out headings on a page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Mzg3NTI1MSwtMTk3NjQ4MDkwNiwtMj
-EwOTc4MzAxNiwxNTYxMjA3MDM0LC0xODI1ODIzMzY2LDE1NTU0
-MzY4NDEsMTk2MTM5MzU1LC03NTIwNDg5NzIsNDE2ODAxNTIyLC
-02MjQ2NzUyMjEsLTcxNTIyODkxLC0xNTYzODg0NTA4LDgwOTc4
-NDU3NywtNTIwODc5ODYyLC04ODk4MjQ5MjIsLTEzMDc1MzU1Nj
-gsMjQ3MTAzMzE1LDc0NTM2NDA5MCwxNDY0MjkwMTM0LDcwOTcx
-OTg1OV19
+eyJoaXN0b3J5IjpbMjE4OTU4NzIzLC0xOTc2NDgwOTA2LC0yMT
+A5NzgzMDE2LDE1NjEyMDcwMzQsLTE4MjU4MjMzNjYsMTU1NTQz
+Njg0MSwxOTYxMzkzNTUsLTc1MjA0ODk3Miw0MTY4MDE1MjIsLT
+YyNDY3NTIyMSwtNzE1MjI4OTEsLTE1NjM4ODQ1MDgsODA5Nzg0
+NTc3LC01MjA4Nzk4NjIsLTg4OTgyNDkyMiwtMTMwNzUzNTU2OC
+wyNDcxMDMzMTUsNzQ1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5
+ODU5XX0=
 -->

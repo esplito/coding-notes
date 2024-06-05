@@ -535,6 +535,9 @@ Always check your analytics to get an idea of which browsers and devices that yo
 
 Links to shortcuts for NVDA, VoiceOver Desktop and VoiceOver iOS can be found in the [course github repo](https://github.com/testing-accessibility/workshop-manual-a11y-testing/tree/main/exercise5-screenreader#screen-reader-testing).
 
+### Lesson 2 - Using VoiceOver to Read & Audit a Page
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -545,11 +548,11 @@ Links to shortcuts for NVDA, VoiceOver Desktop and VoiceOver iOS can be found in
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwMDU2NTAwLDE1NjEyMDcwMzQsLTE4Mj
-U4MjMzNjYsMTU1NTQzNjg0MSwxOTYxMzkzNTUsLTc1MjA0ODk3
-Miw0MTY4MDE1MjIsLTYyNDY3NTIyMSwtNzE1MjI4OTEsLTE1Nj
-M4ODQ1MDgsODA5Nzg0NTc3LC01MjA4Nzk4NjIsLTg4OTgyNDky
-MiwtMTMwNzUzNTU2OCwyNDcxMDMzMTUsNzQ1MzY0MDkwLDE0Nj
-QyOTAxMzQsNzA5NzE5ODU5LDcwMzQxNjcwOCw2Mjg5ODIzNTVd
-fQ==
+eyJoaXN0b3J5IjpbLTIxMDk3ODMwMTYsMTU2MTIwNzAzNCwtMT
+gyNTgyMzM2NiwxNTU1NDM2ODQxLDE5NjEzOTM1NSwtNzUyMDQ4
+OTcyLDQxNjgwMTUyMiwtNjI0Njc1MjIxLC03MTUyMjg5MSwtMT
+U2Mzg4NDUwOCw4MDk3ODQ1NzcsLTUyMDg3OTg2MiwtODg5ODI0
+OTIyLC0xMzA3NTM1NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMT
+Q2NDI5MDEzNCw3MDk3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1
+NV19
 -->

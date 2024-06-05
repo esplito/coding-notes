@@ -418,6 +418,12 @@ On about page:
 
 Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 
+>Referencing WCAG suggests solving reflow issues with CSS media queries (as one technique), which we’ll look at further in the next lesson.
+
+>💡Tip
+>Some users may use Operating System-level zooming to enlarge the content they’re viewing. This will not trigger media queries or adjust the layout of your pages.
+
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -427,11 +433,11 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3NDQxNjE5LC02MjQ2NzUyMjEsLTcxNT
-IyODkxLC0xNTYzODg0NTA4LDgwOTc4NDU3NywtNTIwODc5ODYy
-LC04ODk4MjQ5MjIsLTEzMDc1MzU1NjgsMjQ3MTAzMzE1LDc0NT
-M2NDA5MCwxNDY0MjkwMTM0LDcwOTcxOTg1OSw3MDM0MTY3MDgs
-NjI4OTgyMzU1LC0xMjM1NjMyMDY5LDE1OTM5NDY1NTYsLTIwND
-QyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1LDE4NjI2MTcxMzNd
-fQ==
+eyJoaXN0b3J5IjpbLTIxNDM3MTEwODEsLTYyNDY3NTIyMSwtNz
+E1MjI4OTEsLTE1NjM4ODQ1MDgsODA5Nzg0NTc3LC01MjA4Nzk4
+NjIsLTg4OTgyNDkyMiwtMTMwNzUzNTU2OCwyNDcxMDMzMTUsNz
+Q1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5ODU5LDcwMzQxNjcw
+OCw2Mjg5ODIzNTUsLTEyMzU2MzIwNjksMTU5Mzk0NjU1NiwtMj
+A0NDIwMzAzLDEyMzIxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEz
+M119
 -->

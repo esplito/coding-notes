@@ -440,7 +440,7 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 
 ### Lesson 3 - Challenge: Fix Zoom Issues with CSS
 
-
+I
 
 
 ## Useful resources
@@ -452,11 +452,11 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjA0ODk3Miw0MTY4MDE1MjIsLTYyND
-Y3NTIyMSwtNzE1MjI4OTEsLTE1NjM4ODQ1MDgsODA5Nzg0NTc3
-LC01MjA4Nzk4NjIsLTg4OTgyNDkyMiwtMTMwNzUzNTU2OCwyND
-cxMDMzMTUsNzQ1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5ODU5
-LDcwMzQxNjcwOCw2Mjg5ODIzNTUsLTEyMzU2MzIwNjksMTU5Mz
-k0NjU1NiwtMjA0NDIwMzAzLDEyMzIxNDMzOSw0MzgwODU2OTVd
-fQ==
+eyJoaXN0b3J5IjpbLTE0ODYzMTg5MjcsLTc1MjA0ODk3Miw0MT
+Y4MDE1MjIsLTYyNDY3NTIyMSwtNzE1MjI4OTEsLTE1NjM4ODQ1
+MDgsODA5Nzg0NTc3LC01MjA4Nzk4NjIsLTg4OTgyNDkyMiwtMT
+MwNzUzNTU2OCwyNDcxMDMzMTUsNzQ1MzY0MDkwLDE0NjQyOTAx
+MzQsNzA5NzE5ODU5LDcwMzQxNjcwOCw2Mjg5ODIzNTUsLTEyMz
+U2MzIwNjksMTU5Mzk0NjU1NiwtMjA0NDIwMzAzLDEyMzIxNDMz
+OV19
 -->

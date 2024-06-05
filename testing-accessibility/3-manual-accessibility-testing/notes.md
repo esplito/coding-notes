@@ -401,6 +401,7 @@ Ask yourself:
 	- 
 - What behavior or layout changes need to be made on each page?
 	- Some of the content on both home and about ends up outside the frame so I have to side scroll. Not ideal.
+		- Example: Search on home page
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -411,11 +412,11 @@ Ask yourself:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjUyNjI0MSwtMTU2Mzg4NDUwOCw4MD
-k3ODQ1NzcsLTUyMDg3OTg2MiwtODg5ODI0OTIyLC0xMzA3NTM1
-NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5MDEzNCw3MD
-k3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNTYzMjA2
-OSwxNTkzOTQ2NTU2LC0yMDQ0MjAzMDMsMTIzMjE0MzM5LDQzOD
-A4NTY5NSwxODYyNjE3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1
-NF19
+eyJoaXN0b3J5IjpbLTcxNTIyODkxLC0xNTYzODg0NTA4LDgwOT
+c4NDU3NywtNTIwODc5ODYyLC04ODk4MjQ5MjIsLTEzMDc1MzU1
+NjgsMjQ3MTAzMzE1LDc0NTM2NDA5MCwxNDY0MjkwMTM0LDcwOT
+cxOTg1OSw3MDM0MTY3MDgsNjI4OTgyMzU1LC0xMjM1NjMyMDY5
+LDE1OTM5NDY1NTYsLTIwNDQyMDMwMywxMjMyMTQzMzksNDM4MD
+g1Njk1LDE4NjI2MTcxMzMsMTUyMjQwNzMzNCwxMDk0MzUyNDU0
+XX0=
 -->

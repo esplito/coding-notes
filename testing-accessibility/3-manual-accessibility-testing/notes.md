@@ -523,6 +523,12 @@ I did the following fixes:
 
 ### Lesson 1 - An Overview of Screen Reader Software
 
+Marcy suggests the following regading screen readers:
+>I highly suggest making NVDA testing part of your regular process, as there are times when VoiceOver on a Mac might work as expected but NVDA won't. This is often because Windows screen readers have different [interaction modes](https://tink.uk/understanding-screen-reader-interaction-modes/) than VoiceOver does.
+
+She also recommends [Parallels](https://www.parallels.com/) for running Windows on Mac.
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -533,11 +539,11 @@ I did the following fixes:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTQzNjg0MSwxOTYxMzkzNTUsLTc1Mj
-A0ODk3Miw0MTY4MDE1MjIsLTYyNDY3NTIyMSwtNzE1MjI4OTEs
-LTE1NjM4ODQ1MDgsODA5Nzg0NTc3LC01MjA4Nzk4NjIsLTg4OT
-gyNDkyMiwtMTMwNzUzNTU2OCwyNDcxMDMzMTUsNzQ1MzY0MDkw
-LDE0NjQyOTAxMzQsNzA5NzE5ODU5LDcwMzQxNjcwOCw2Mjg5OD
-IzNTUsLTEyMzU2MzIwNjksMTU5Mzk0NjU1NiwtMjA0NDIwMzAz
+eyJoaXN0b3J5IjpbLTU3MDcwMjkwOCwxNTU1NDM2ODQxLDE5Nj
+EzOTM1NSwtNzUyMDQ4OTcyLDQxNjgwMTUyMiwtNjI0Njc1MjIx
+LC03MTUyMjg5MSwtMTU2Mzg4NDUwOCw4MDk3ODQ1NzcsLTUyMD
+g3OTg2MiwtODg5ODI0OTIyLC0xMzA3NTM1NTY4LDI0NzEwMzMx
+NSw3NDUzNjQwOTAsMTQ2NDI5MDEzNCw3MDk3MTk4NTksNzAzND
+E2NzA4LDYyODk4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOTQ2NTU2
 XX0=
 -->

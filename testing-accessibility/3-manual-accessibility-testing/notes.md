@@ -397,7 +397,7 @@ Marcy's suggestion:
 
 Ask yourself:
 - Which elements of the page act like you'd expect?
-- 
+	- The navigation looks like it should and I can still easily y
 - What behavior or layout changes need to be made on each page?
 
 ## Useful resources
@@ -409,11 +409,11 @@ Ask yourself:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjM4ODQ1MDgsODA5Nzg0NTc3LC01Mj
-A4Nzk4NjIsLTg4OTgyNDkyMiwtMTMwNzUzNTU2OCwyNDcxMDMz
-MTUsNzQ1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5ODU5LDcwMz
-QxNjcwOCw2Mjg5ODIzNTUsLTEyMzU2MzIwNjksMTU5Mzk0NjU1
-NiwtMjA0NDIwMzAzLDEyMzIxNDMzOSw0MzgwODU2OTUsMTg2Mj
-YxNzEzMywxNTIyNDA3MzM0LDEwOTQzNTI0NTQsMjA4NDUxMDA4
-OF19
+eyJoaXN0b3J5IjpbLTM1NzQ4MjI1MiwtMTU2Mzg4NDUwOCw4MD
+k3ODQ1NzcsLTUyMDg3OTg2MiwtODg5ODI0OTIyLC0xMzA3NTM1
+NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5MDEzNCw3MD
+k3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNTYzMjA2
+OSwxNTkzOTQ2NTU2LC0yMDQ0MjAzMDMsMTIzMjE0MzM5LDQzOD
+A4NTY5NSwxODYyNjE3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1
+NF19
 -->

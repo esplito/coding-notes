@@ -436,8 +436,8 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 ```
 
 >⚠️Caution
+>Do not disable user-scaling in the viewport meta tag! This will disallow pinch and zoom, which is a critical accessibility feature.
 
-Do not disable user-scaling in the viewport meta tag! This will disallow pinch and zoom, which is a critical accessibility feature.
 
 
 ## Useful resources
@@ -449,7 +449,7 @@ Do not disable user-scaling in the viewport meta tag! This will disallow pinch a
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU3ODAzNzksNDE2ODAxNTIyLC02Mj
+eyJoaXN0b3J5IjpbLTE2NTM5NDMxNzksNDE2ODAxNTIyLC02Mj
 Q2NzUyMjEsLTcxNTIyODkxLC0xNTYzODg0NTA4LDgwOTc4NDU3
 NywtNTIwODc5ODYyLC04ODk4MjQ5MjIsLTEzMDc1MzU1NjgsMj
 Q3MTAzMzE1LDc0NTM2NDA5MCwxNDY0MjkwMTM0LDcwOTcxOTg1

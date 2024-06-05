@@ -432,7 +432,7 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 >The viewport meta tag tells the browser on your user’s device how to render the page. There are multiple options you can set to make a page function better on a mobile device.
 >
 ```
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="initial-scale=1" />
 ```
 
 >⚠️Caution
@@ -449,11 +449,11 @@ Responsiveness relates to 1.4.10 "Reflow" in WCAG.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2ODA5NjQ3LDQxNjgwMTUyMiwtNjI0Nj
-c1MjIxLC03MTUyMjg5MSwtMTU2Mzg4NDUwOCw4MDk3ODQ1Nzcs
-LTUyMDg3OTg2MiwtODg5ODI0OTIyLC0xMzA3NTM1NTY4LDI0Nz
-EwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5MDEzNCw3MDk3MTk4NTks
-NzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOT
-Q2NTU2LC0yMDQ0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NV19
-
+eyJoaXN0b3J5IjpbLTE2NTM5NDMxNzksNDE2ODAxNTIyLC02Mj
+Q2NzUyMjEsLTcxNTIyODkxLC0xNTYzODg0NTA4LDgwOTc4NDU3
+NywtNTIwODc5ODYyLC04ODk4MjQ5MjIsLTEzMDc1MzU1NjgsMj
+Q3MTAzMzE1LDc0NTM2NDA5MCwxNDY0MjkwMTM0LDcwOTcxOTg1
+OSw3MDM0MTY3MDgsNjI4OTgyMzU1LC0xMjM1NjMyMDY5LDE1OT
+M5NDY1NTYsLTIwNDQyMDMwMywxMjMyMTQzMzksNDM4MDg1Njk1
+XX0=
 -->

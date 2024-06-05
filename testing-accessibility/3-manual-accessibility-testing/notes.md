@@ -556,6 +556,9 @@ Example: `CTRL + Option + H` will read out headings on a page.
 >
 >If there are multiple items featured in the current window of the VoiceOver Rotor, use the up and down arrows to cycle through them and the Enter key to move to that piece of content on the page.
 
+### Lesson 3 - Challenge: Improving VoiceOver Announcements
+
+
 
 
 ## Useful resources
@@ -567,11 +570,11 @@ Example: `CTRL + Option + H` will read out headings on a page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY0ODA5MDYsLTIxMDk3ODMwMTYsMT
-U2MTIwNzAzNCwtMTgyNTgyMzM2NiwxNTU1NDM2ODQxLDE5NjEz
-OTM1NSwtNzUyMDQ4OTcyLDQxNjgwMTUyMiwtNjI0Njc1MjIxLC
-03MTUyMjg5MSwtMTU2Mzg4NDUwOCw4MDk3ODQ1NzcsLTUyMDg3
-OTg2MiwtODg5ODI0OTIyLC0xMzA3NTM1NTY4LDI0NzEwMzMxNS
-w3NDUzNjQwOTAsMTQ2NDI5MDEzNCw3MDk3MTk4NTksNzAzNDE2
-NzA4XX0=
+eyJoaXN0b3J5IjpbLTc3NjE2NDU3OSwtMTk3NjQ4MDkwNiwtMj
+EwOTc4MzAxNiwxNTYxMjA3MDM0LC0xODI1ODIzMzY2LDE1NTU0
+MzY4NDEsMTk2MTM5MzU1LC03NTIwNDg5NzIsNDE2ODAxNTIyLC
+02MjQ2NzUyMjEsLTcxNTIyODkxLC0xNTYzODg0NTA4LDgwOTc4
+NDU3NywtNTIwODc5ODYyLC04ODk4MjQ5MjIsLTEzMDc1MzU1Nj
+gsMjQ3MTAzMzE1LDc0NTM2NDA5MCwxNDY0MjkwMTM0LDcwOTcx
+OTg1OV19
 -->

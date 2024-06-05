@@ -537,7 +537,11 @@ Links to shortcuts for NVDA, VoiceOver Desktop and VoiceOver iOS can be found in
 
 ### Lesson 2 - Using VoiceOver to Read & Audit a Page
 
+>Open up the CampSpots homepage, then launch VoiceOver by using **`Fn + CMD + F5`**  (On a Mac desktop keyboard, you can omit the **`Fn`**  key.)
 
+💡Tip
+
+You can hit CTRL at any time to get VoiceOver to stop reading.
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -548,11 +552,11 @@ Links to shortcuts for NVDA, VoiceOver Desktop and VoiceOver iOS can be found in
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDk3ODMwMTYsMTU2MTIwNzAzNCwtMT
-gyNTgyMzM2NiwxNTU1NDM2ODQxLDE5NjEzOTM1NSwtNzUyMDQ4
-OTcyLDQxNjgwMTUyMiwtNjI0Njc1MjIxLC03MTUyMjg5MSwtMT
-U2Mzg4NDUwOCw4MDk3ODQ1NzcsLTUyMDg3OTg2MiwtODg5ODI0
-OTIyLC0xMzA3NTM1NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMT
-Q2NDI5MDEzNCw3MDk3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1
-NV19
+eyJoaXN0b3J5IjpbOTc2MTk4NzA1LC0yMTA5NzgzMDE2LDE1Nj
+EyMDcwMzQsLTE4MjU4MjMzNjYsMTU1NTQzNjg0MSwxOTYxMzkz
+NTUsLTc1MjA0ODk3Miw0MTY4MDE1MjIsLTYyNDY3NTIyMSwtNz
+E1MjI4OTEsLTE1NjM4ODQ1MDgsODA5Nzg0NTc3LC01MjA4Nzk4
+NjIsLTg4OTgyNDkyMiwtMTMwNzUzNTU2OCwyNDcxMDMzMTUsNz
+Q1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5ODU5LDcwMzQxNjcw
+OF19
 -->

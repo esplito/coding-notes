@@ -531,6 +531,9 @@ She also recommends [Parallels](https://www.parallels.com/) for running Windows 
 >💡Tip
 >For more information on popularity of various screen readers, browsers, and platforms, check out the [WebAIM Screen Reader Survey](https://webaim.org/projects/screenreadersurvey9/).
 
+Always check your analytics to get an idea of which browsers and devices that your users use. You might be testing with VoiceOver on desktop, but in fact, 80% of your users are navigating to the page on iPhone. Then you should probably test with VoiceOver on an iPhone.
+
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -541,11 +544,11 @@ She also recommends [Parallels](https://www.parallels.com/) for running Windows 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjU4MjMzNjYsMTU1NTQzNjg0MSwxOT
-YxMzkzNTUsLTc1MjA0ODk3Miw0MTY4MDE1MjIsLTYyNDY3NTIy
-MSwtNzE1MjI4OTEsLTE1NjM4ODQ1MDgsODA5Nzg0NTc3LC01Mj
-A4Nzk4NjIsLTg4OTgyNDkyMiwtMTMwNzUzNTU2OCwyNDcxMDMz
-MTUsNzQ1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5ODU5LDcwMz
-QxNjcwOCw2Mjg5ODIzNTUsLTEyMzU2MzIwNjksMTU5Mzk0NjU1
-Nl19
+eyJoaXN0b3J5IjpbMTU2MTIwNzAzNCwtMTgyNTgyMzM2NiwxNT
+U1NDM2ODQxLDE5NjEzOTM1NSwtNzUyMDQ4OTcyLDQxNjgwMTUy
+MiwtNjI0Njc1MjIxLC03MTUyMjg5MSwtMTU2Mzg4NDUwOCw4MD
+k3ODQ1NzcsLTUyMDg3OTg2MiwtODg5ODI0OTIyLC0xMzA3NTM1
+NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5MDEzNCw3MD
+k3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNTYzMjA2
+OV19
 -->

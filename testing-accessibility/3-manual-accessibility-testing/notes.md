@@ -549,6 +549,11 @@ Example: `CTRL + Option + H` will read out headings on a page.
 >💡Tip
 >The  [VoiceOver Shortcut Cheatsheet](https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts)  from Deque University is a handy resource to bookmark and/or print out for your work station.
 
+#### VoiceOver Rotor
+>With VoiceOver running, hit  `CTRL + Option + U`  on your keyboard to open the VoiceOver Rotor.
+>
+>With the VoiceOver Rotor open, use the right Arrow key to navigate to the next window of options for reading.
+
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -559,11 +564,11 @@ Example: `CTRL + Option + H` will read out headings on a page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODU5MDUzNCwtMjEwOTc4MzAxNiwxNT
-YxMjA3MDM0LC0xODI1ODIzMzY2LDE1NTU0MzY4NDEsMTk2MTM5
-MzU1LC03NTIwNDg5NzIsNDE2ODAxNTIyLC02MjQ2NzUyMjEsLT
-cxNTIyODkxLC0xNTYzODg0NTA4LDgwOTc4NDU3NywtNTIwODc5
-ODYyLC04ODk4MjQ5MjIsLTEzMDc1MzU1NjgsMjQ3MTAzMzE1LD
-c0NTM2NDA5MCwxNDY0MjkwMTM0LDcwOTcxOTg1OSw3MDM0MTY3
-MDhdfQ==
+eyJoaXN0b3J5IjpbMTAyMjE0Mjk2LC0yMTA5NzgzMDE2LDE1Nj
+EyMDcwMzQsLTE4MjU4MjMzNjYsMTU1NTQzNjg0MSwxOTYxMzkz
+NTUsLTc1MjA0ODk3Miw0MTY4MDE1MjIsLTYyNDY3NTIyMSwtNz
+E1MjI4OTEsLTE1NjM4ODQ1MDgsODA5Nzg0NTc3LC01MjA4Nzk4
+NjIsLTg4OTgyNDkyMiwtMTMwNzUzNTU2OCwyNDcxMDMzMTUsNz
+Q1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5ODU5LDcwMzQxNjcw
+OF19
 -->

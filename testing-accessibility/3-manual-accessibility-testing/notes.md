@@ -391,7 +391,11 @@ Marcy's suggestion:
 
 > **Pay attention to how menus, text content, images, and interactive behavior changes as you zoom in and out.**
 
+#### 📝 Exercise: Identify Behavior when Zooming
 
+- Zoom in and navigate around home & about page on the CampSport website.
+
+Ak
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -402,7 +406,7 @@ Marcy's suggestion:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzExNTM3Niw4MDk3ODQ1NzcsLTUyMD
+eyJoaXN0b3J5IjpbLTE5ODc3NTg3OCw4MDk3ODQ1NzcsLTUyMD
 g3OTg2MiwtODg5ODI0OTIyLC0xMzA3NTM1NTY4LDI0NzEwMzMx
 NSw3NDUzNjQwOTAsMTQ2NDI5MDEzNCw3MDk3MTk4NTksNzAzND
 E2NzA4LDYyODk4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOTQ2NTU2

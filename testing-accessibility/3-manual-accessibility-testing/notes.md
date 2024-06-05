@@ -553,6 +553,9 @@ Example: `CTRL + Option + H` will read out headings on a page.
 >With VoiceOver running, hit  `CTRL + Option + U`  on your keyboard to open the VoiceOver Rotor.
 >
 >With the VoiceOver Rotor open, use the right Arrow key to navigate to the next window of options for reading.
+>
+>If there are multiple items featured in the current window of the VoiceOver Rotor, use the up and down arrows to cycle through them and the Enter key to move to that piece of content on the page.
+
 
 
 ## Useful resources
@@ -564,11 +567,11 @@ Example: `CTRL + Option + H` will read out headings on a page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjE0Mjk2LC0yMTA5NzgzMDE2LDE1Nj
-EyMDcwMzQsLTE4MjU4MjMzNjYsMTU1NTQzNjg0MSwxOTYxMzkz
-NTUsLTc1MjA0ODk3Miw0MTY4MDE1MjIsLTYyNDY3NTIyMSwtNz
-E1MjI4OTEsLTE1NjM4ODQ1MDgsODA5Nzg0NTc3LC01MjA4Nzk4
-NjIsLTg4OTgyNDkyMiwtMTMwNzUzNTU2OCwyNDcxMDMzMTUsNz
-Q1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5ODU5LDcwMzQxNjcw
-OF19
+eyJoaXN0b3J5IjpbLTE5NzY0ODA5MDYsLTIxMDk3ODMwMTYsMT
+U2MTIwNzAzNCwtMTgyNTgyMzM2NiwxNTU1NDM2ODQxLDE5NjEz
+OTM1NSwtNzUyMDQ4OTcyLDQxNjgwMTUyMiwtNjI0Njc1MjIxLC
+03MTUyMjg5MSwtMTU2Mzg4NDUwOCw4MDk3ODQ1NzcsLTUyMDg3
+OTg2MiwtODg5ODI0OTIyLC0xMzA3NTM1NTY4LDI0NzEwMzMxNS
+w3NDUzNjQwOTAsMTQ2NDI5MDEzNCw3MDk3MTk4NTksNzAzNDE2
+NzA4XX0=
 -->

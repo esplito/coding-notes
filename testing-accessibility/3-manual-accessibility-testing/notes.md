@@ -395,7 +395,10 @@ Marcy's suggestion:
 
 - Zoom in and navigate around home & about page on the CampSport website.
 
-Ak
+Ask yourself:
+- Which elements of the page act like you'd expect?
+- 
+- What behavior or layout changes need to be made on each page?
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -406,11 +409,11 @@ Ak
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODc3NTg3OCw4MDk3ODQ1NzcsLTUyMD
-g3OTg2MiwtODg5ODI0OTIyLC0xMzA3NTM1NTY4LDI0NzEwMzMx
-NSw3NDUzNjQwOTAsMTQ2NDI5MDEzNCw3MDk3MTk4NTksNzAzND
-E2NzA4LDYyODk4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOTQ2NTU2
-LC0yMDQ0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNj
-E3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4
-XX0=
+eyJoaXN0b3J5IjpbLTE1NjM4ODQ1MDgsODA5Nzg0NTc3LC01Mj
+A4Nzk4NjIsLTg4OTgyNDkyMiwtMTMwNzUzNTU2OCwyNDcxMDMz
+MTUsNzQ1MzY0MDkwLDE0NjQyOTAxMzQsNzA5NzE5ODU5LDcwMz
+QxNjcwOCw2Mjg5ODIzNTUsLTEyMzU2MzIwNjksMTU5Mzk0NjU1
+NiwtMjA0NDIwMzAzLDEyMzIxNDMzOSw0MzgwODU2OTUsMTg2Mj
+YxNzEzMywxNTIyNDA3MzM0LDEwOTQzNTI0NTQsMjA4NDUxMDA4
+OF19
 -->

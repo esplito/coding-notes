@@ -397,8 +397,10 @@ Marcy's suggestion:
 
 Ask yourself:
 - Which elements of the page act like you'd expect?
-	- The navigation looks like it should and I can still easily y
+	- The navigation looks like it should and I can still easily use it.
+	- 
 - What behavior or layout changes need to be made on each page?
+	- Some of the content on both home and about ends up outside the frame so I have to side scroll. Not ideal.
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -409,7 +411,7 @@ Ask yourself:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzQ4MjI1MiwtMTU2Mzg4NDUwOCw4MD
+eyJoaXN0b3J5IjpbMTYwNjUyNjI0MSwtMTU2Mzg4NDUwOCw4MD
 k3ODQ1NzcsLTUyMDg3OTg2MiwtODg5ODI0OTIyLC0xMzA3NTM1
 NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5MDEzNCw3MD
 k3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNTYzMjA2

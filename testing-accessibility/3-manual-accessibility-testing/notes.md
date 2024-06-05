@@ -546,6 +546,8 @@ Links to shortcuts for NVDA, VoiceOver Desktop and VoiceOver iOS can be found in
 
 Example: `CTRL + Option + H` will read out headings on a page.
 
+>💡Tip
+>The  [VoiceOver Shortcut Cheatsheet](https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts)  from Deque University is a handy resource to bookmark and/or print out for your work station.
 
 
 ## Useful resources
@@ -557,7 +559,7 @@ Example: `CTRL + Option + H` will read out headings on a page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDI5MDQ4OCwtMjEwOTc4MzAxNiwxNT
+eyJoaXN0b3J5IjpbLTk2ODU5MDUzNCwtMjEwOTc4MzAxNiwxNT
 YxMjA3MDM0LC0xODI1ODIzMzY2LDE1NTU0MzY4NDEsMTk2MTM5
 MzU1LC03NTIwNDg5NzIsNDE2ODAxNTIyLC02MjQ2NzUyMjEsLT
 cxNTIyODkxLC0xNTYzODg0NTA4LDgwOTc4NDU3NywtNTIwODc5

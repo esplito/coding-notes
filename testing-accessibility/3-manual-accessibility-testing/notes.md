@@ -558,8 +558,8 @@ Example: `CTRL + Option + H` will read out headings on a page.
 
 ### Lesson 3 - Challenge: Improving VoiceOver Announcements
 
-
-
+- Add additional structure to the MegaNav
+- 
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -570,7 +570,7 @@ Example: `CTRL + Option + H` will read out headings on a page.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjE2NDU3OSwtMTk3NjQ4MDkwNiwtMj
+eyJoaXN0b3J5IjpbLTM3Mzg3NTI1MSwtMTk3NjQ4MDkwNiwtMj
 EwOTc4MzAxNiwxNTYxMjA3MDM0LC0xODI1ODIzMzY2LDE1NTU0
 MzY4NDEsMTk2MTM5MzU1LC03NTIwNDg5NzIsNDE2ODAxNTIyLC
 02MjQ2NzUyMjEsLTcxNTIyODkxLC0xNTYzODg0NTA4LDgwOTc4

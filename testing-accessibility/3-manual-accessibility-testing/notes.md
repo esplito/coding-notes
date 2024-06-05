@@ -486,7 +486,39 @@ I did the following fixes:
   }
 }
 ```
-- Change in `_about.sc`
+- Change in `_about.scss` to
+```scss
+.page-about  #header {
+	min-height: 140px;
+}
+```
+- Change in `_home.scss` to
+```scss
+.page-home #header {
+  background: url(/images/backpacking1.jpg) no-repeat;
+  background-position: top center;
+  background-size: cover;
+  min-height: 240px;
+
+  @media screen and (min-width: 1440px) {
+    min-height: 640px;
+    background-size: contain;
+  }
+}
+
+.page-home .form-wrap {
+  align-items: end;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr;
+  margin: 0 auto 0;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 5fr 5fr 1fr;
+  }
+}
+
+```
 
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
@@ -497,11 +529,11 @@ I did the following fixes:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODI5NzI0OCwtNzUyMDQ4OTcyLDQxNj
-gwMTUyMiwtNjI0Njc1MjIxLC03MTUyMjg5MSwtMTU2Mzg4NDUw
-OCw4MDk3ODQ1NzcsLTUyMDg3OTg2MiwtODg5ODI0OTIyLC0xMz
-A3NTM1NTY4LDI0NzEwMzMxNSw3NDUzNjQwOTAsMTQ2NDI5MDEz
-NCw3MDk3MTk4NTksNzAzNDE2NzA4LDYyODk4MjM1NSwtMTIzNT
-YzMjA2OSwxNTkzOTQ2NTU2LC0yMDQ0MjAzMDMsMTIzMjE0MzM5
-XX0=
+eyJoaXN0b3J5IjpbMTk2MTM5MzU1LC03NTIwNDg5NzIsNDE2OD
+AxNTIyLC02MjQ2NzUyMjEsLTcxNTIyODkxLC0xNTYzODg0NTA4
+LDgwOTc4NDU3NywtNTIwODc5ODYyLC04ODk4MjQ5MjIsLTEzMD
+c1MzU1NjgsMjQ3MTAzMzE1LDc0NTM2NDA5MCwxNDY0MjkwMTM0
+LDcwOTcxOTg1OSw3MDM0MTY3MDgsNjI4OTgyMzU1LC0xMjM1Nj
+MyMDY5LDE1OTM5NDY1NTYsLTIwNDQyMDMwMywxMjMyMTQzMzld
+fQ==
 -->

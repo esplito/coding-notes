@@ -533,7 +533,7 @@ She also recommends [Parallels](https://www.parallels.com/) for running Windows 
 
 Always check your analytics to get an idea of which browsers and devices that your users use. You might be testing with VoiceOver on desktop, but in fact, 80% of your users are navigating to the page on iPhone. Then you should probably test with VoiceOver on an iPhone.
 
-Links to shortcuts for NVDA, VoiceOver Desktoo and VoiceOver iOS can be found in the [course github repo](https://github.com/testing-accessibility/workshop-manual-a11y-testing/tree/main/exercise5-screenreader#screen-reader-testing).
+Links to shortcuts for NVDA, VoiceOver Desktop and VoiceOver iOS can be found in the [course github repo](https://github.com/testing-accessibility/workshop-manual-a11y-testing/tree/main/exercise5-screenreader#screen-reader-testing).
 
 
 ## Useful resources
@@ -545,7 +545,7 @@ Links to shortcuts for NVDA, VoiceOver Desktoo and VoiceOver iOS can be found in
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NDg2NjEzLDE1NjEyMDcwMzQsLTE4Mj
+eyJoaXN0b3J5IjpbNjMwMDU2NTAwLDE1NjEyMDcwMzQsLTE4Mj
 U4MjMzNjYsMTU1NTQzNjg0MSwxOTYxMzkzNTUsLTc1MjA0ODk3
 Miw0MTY4MDE1MjIsLTYyNDY3NTIyMSwtNzE1MjI4OTEsLTE1Nj
 M4ODQ1MDgsODA5Nzg0NTc3LC01MjA4Nzk4NjIsLTg4OTgyNDky

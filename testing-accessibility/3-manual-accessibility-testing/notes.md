@@ -386,6 +386,13 @@ Fixes:
 
 ### Lesson 1 - Testing Zoom in the Browser
 
+Marcy's suggestion:
+>*"zoom in to at least the 200% level (if not all the way to 500%) to see how the page layout reacts."*
+
+> **Pay attention to how menus, text content, images, and interactive behavior changes as you zoom in and out.**
+
+
+
 ## Useful resources
 - [WebAIM mailing list](https://webaim.org/discussion/)
 - [“Understanding”](https://www.w3.org/WAI/WCAG21/Understanding/)
@@ -395,11 +402,11 @@ Fixes:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5Nzg0NTc3LC01MjA4Nzk4NjIsLTg4OT
-gyNDkyMiwtMTMwNzUzNTU2OCwyNDcxMDMzMTUsNzQ1MzY0MDkw
-LDE0NjQyOTAxMzQsNzA5NzE5ODU5LDcwMzQxNjcwOCw2Mjg5OD
-IzNTUsLTEyMzU2MzIwNjksMTU5Mzk0NjU1NiwtMjA0NDIwMzAz
-LDEyMzIxNDMzOSw0MzgwODU2OTUsMTg2MjYxNzEzMywxNTIyND
-A3MzM0LDEwOTQzNTI0NTQsMjA4NDUxMDA4OCwtMTAwNzExOTY2
-N119
+eyJoaXN0b3J5IjpbMTk1NzExNTM3Niw4MDk3ODQ1NzcsLTUyMD
+g3OTg2MiwtODg5ODI0OTIyLC0xMzA3NTM1NTY4LDI0NzEwMzMx
+NSw3NDUzNjQwOTAsMTQ2NDI5MDEzNCw3MDk3MTk4NTksNzAzND
+E2NzA4LDYyODk4MjM1NSwtMTIzNTYzMjA2OSwxNTkzOTQ2NTU2
+LC0yMDQ0MjAzMDMsMTIzMjE0MzM5LDQzODA4NTY5NSwxODYyNj
+E3MTMzLDE1MjI0MDczMzQsMTA5NDM1MjQ1NCwyMDg0NTEwMDg4
+XX0=
 -->

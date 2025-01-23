@@ -18,6 +18,56 @@ In this workshop we are working on the campsports application again, but it is n
 
 >This site is built in React so you’ll get a chance to see what techniques and patterns come up when building out features and pages in a JavaScript-heavy environment (an area where accessibility is frequently forgotten or missed). - Marcy sutton
 
+Note on the work in this workshop:
+
+>A majority of our time working with semantics and ARIA will be on the Listing Detail page. - Marcy Sutton
+
+## Section 2 - Build Page Structure Through Headings and Semantic Landmark Elements
+
+> In this section, we will look at how to analyze the structure of a page and improve it to be more accessible to users.
+### Lesson 1 - Analyze Heading Structure
+
+Use [Accessibility Insights extension for Chrome](https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni) and [Web Developer Toolbar](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US) to analyze the heading structure.
+
+> 💡Tip
+>
+>As an exercise, open up a page you work on or visit often and analyze the heading structure. What potential heading candidates do you see and how does that compare to what you find running these tools? 
 
 
+### Lesson 2 -  Implement Semantic Headings for Page Listing Detail
+
+> The important thing to take away here is that different components can have their own heading levels that are independent from those in other components. When various components come together on a rendered page, we need to pay attention to the overall outline. - Marcy Sutton
+
+#### 🛠 Challenge: Add Heading Structure to Page Listing Detail
+
+> Your challenge is to build a heading structure for Listing Detail page template in `page-listing-detail.js` that represents the visual content hierarchy of the page.
+
+
+> At the top of every page’s structure should be a single H1.
+>
+> We’ve seen that our site is missing an H1, and we know that it needs to be above the H2s in the MegaNav.
+> 
+> This means that even though Cranberry Lake visually looks like a page title, it can’t be the page’s H1. - Marcy Sutton
+
+What I did:
+- Changed listing name to `h2`
+```jsx
+	<h2 className='listing-name'>{data.listingName}</h2>
+```
+- Changed description, amenities and calendar to `h3`
+```jsx
+<h3>Description</h3>
+...
+
+<h3>Amenities</h3>
+...
+
+<h3>Calendar</h3>
+```
+
+🚨 Note: Menu structure is subjective. Marcy chose to mark the MegaNav menu items as headings because they contribute major areas to the page structure. They also have buttons nested inside for interactivity which means that they both contribute to semantic structure and keyboard/screen reader operability for the MegaNav navigation. 🚨
+
+> No matter which approach you take in your own projects, make a healthy heading structure a priority for pages, and remember to test with a screen reader! - Marcy Sutton
+
+### Lesson 3 - Inject a Page Heading with a React Portal
 

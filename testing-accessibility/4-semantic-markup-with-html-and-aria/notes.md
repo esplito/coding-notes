@@ -71,3 +71,48 @@ What I did:
 
 ### Lesson 3 - Inject a Page Heading with a React Portal
 
+Each page needs a **single h1** that describes the most important piece of content on the page.
+
+It could:
+- introduce the overall site
+- the most important content on a page
+
+The decision is subjective!
+
+In this exercise we use React Portal to inject a visually hidden h1 outside the current component's DOM structure.
+
+##### 🛠️ Challenge: Add an H1 with React Portal
+I added the following inside the `Listing` component in `page-listing-detail.js`:
+```jsx
+<HeaderPortal>
+<h1 className='visually-hidden'>Camp Spots - {data.listingName}</h1>
+</HeaderPortal>
+```
+
+CSS for `visually-hidden`:
+```css
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+```
+
+#### Summary
+
+What does a good heading structure?
+- Ensures that screen reader users are able to navigate our page efficiently
+
+Note: Talk to other team members since there are subjective decisions about what should be headings. 
+
+You might need input from different perspectives:
+- SEO
+- Marketing
+- Information Architecture
+
+### Lesson 4 - Implement Semantic HTML5 Landmark Elements
+

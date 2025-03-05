@@ -116,3 +116,6 @@ You might need input from different perspectives:
 
 ### Lesson 4 - Implement Semantic HTML5 Landmark Elements
 
+> ... landmark elements create signposts around major sections of our page content and are a great alternative to using only generic divs! - Marcy
+
+

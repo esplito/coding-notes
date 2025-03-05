@@ -119,3 +119,91 @@ You might need input from different perspectives:
 > ... landmark elements create signposts around major sections of our page content and are a great alternative to using only generic divs! - Marcy
 
 
+In this lesson we should add top-level landmarks, which are landmarks that are not nested inside any other landmark. 
+
+Examples:
+- `header`
+- `main`
+- `footer`
+- `aside`
+
+`header` and `footer` can however be used for content nested inside `main` and `section`.
+
+ℹ️ In this exercise Axe Devtools flags the `h1` as being rendered outside of a landmark even though we have wrapped the `header`around it. This is because it is rendered in a portal outside of the natural DOM order.
+
+Marcy's take on it:
+>As noted earlier, it is technically not a violation for an H1 to not have a landmark wrapped around it (even though axe DevTools classifies it as a best practice and “moderate”).
+>
+>We know our site has a healthy heading structure, which has a user impact that I think is more important than doing something to satisfy a tool.
+
+ 🤩 Remember this:
+>Ultimately, the decision is up to you! You might need to get creative with solutions when faced with architecture constraints. Consider user impact and test with screen reader users to know for sure whether a solution poses a problem or not.
+
+### Lesson 5 - Challenge: Implement Semantic Landmarks in Page Listing Detail
+
+💡**Note about section **💡
+
+> In some ways, `section` is the new div– it’s become overused in markup and won’t necessarily be announced in a screen reader by default as a result.
+>
+> To get the most out of the `section` element, we need to add an accessible name that will add it to the document outline and identify this particular section in Assistive Technology. We can use an `aria-label` with an arbitrary string or an `aria-labelledby` attribute pointing to an ID on another element to accomplish this. - Marcy
+
+My markup after the exercise:
+```jsx
+<BodyClassName className="header-overlap page-listing-detail">
+  <>
+    <HeaderPortal>
+      <h1 className="visually-hidden">Camp Spots - {data.listingName}</h1>
+    </HeaderPortal>
+    <article>
+      <header
+        className="page-header"
+        style={{ backgroundImage: `url(${headerImageUrl}` }}
+      >
+        <div className="page-header-content wide-layout">
+          <h2 className="listing-name">{data.listingName}</h2>
+          <p className="location">{data.location}</p>
+        </div>
+      </header>
+      <section
+        className="wide-layout two-parts-70-30"
+        aria-label="Site description and calendar"
+      >
+        <div>
+          <h3 className="h4-style">Description</h3>
+          <div
+            className="description-text"
+            dangerouslySetInnerHTML={{
+              __html: sanitizeHtml(data.description),
+            }}
+          />
+          <h3 className="h4-style">Amenities</h3>
+          <div className="amenity-icons grid">
+            {data.amenities.map((amenity, index) => {
+              return (
+                <div key={index}>
+                  <Icon name={amenity} showText={true} />
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <div>
+          <h3 className="h4-style">Calendar</h3>
+          <DatePicker />
+        </div>
+      </section>
+      <section className="wide-layout" aria-label="Image gallery">
+        <div className="detail-images">
+          {data.detailImages.map((image, index) => {
+            let detailImageUrl = LoadedImageUrl(imageURLs, image.imageSrc);
+            return (
+              <img key={index} src={detailImageUrl} alt={image.imageAlt} />
+            );
+          })}
+        </div>
+      </section>
+    </article>
+  </>
+</BodyClassName>
+```
+

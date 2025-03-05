@@ -154,7 +154,7 @@ My markup after the exercise:
     <HeaderPortal>
       <h1 className="visually-hidden">Camp Spots - {data.listingName}</h1>
     </HeaderPortal>
-    <article>
+    <main>
       <header
         className="page-header"
         style={{ backgroundImage: `url(${headerImageUrl}` }}
@@ -202,8 +202,10 @@ My markup after the exercise:
           })}
         </div>
       </section>
-    </article>
+    </main>
   </>
 </BodyClassName>
 ```
+
+### Lesson 6 - Check Page Listing Detail Accessibility with Voice Over
 

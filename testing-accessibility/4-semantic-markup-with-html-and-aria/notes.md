@@ -376,10 +376,93 @@ The spec, [Accessible Name and Description Computation](https://www.w3.org/TR/ac
 - If an input has an associated `label` (using `for` on the label and `id` on the input) then the text of the `label` will become the accessible name instead of the placeholder of the `input`. 
 	- Note: The placeholder will be read aloud as a description (can be configured as a screen reader setting).
 
+There has previously been issues with buttons labeled with aria-label and only containing an svg, in Safari with VoiceOver. It was not possible to navigate to it with the Arrow keys, which should be possible. So... 💡 **Even if everything looks right, test it anyways!**
 
+Issue still sort of exist so a fix you can do is to add `aria-label` and `role="img"` to the svg and you will be able to navigate to it with arrow keys in Safari when using VoiceOver.
 
+>💡Tip: Recall from the accessible name computation rules that adding an aria-label will apply it as the name without searching inside the element for text content or labels from child elements.
+
+A list of different approaches can be find in [the excerise README.md](https://github.com/testing-accessibility/workshop-semantics-html-aria/tree/main/exercise3-accessible-names#exercise-write-accessible-names-for-icons-and-buttons).
+
+📝**Exercise**
+
+>Experiment with the search button markup by applying names using the various techniques above. How does the end result compare? What feels most ergonomic?
+
+To me it felt best to add a visually-hidden span-tag with the text content. Then I could navigate to the search button with arrow keys and also step trough the letters if I wanted. Also simply always adding a visually hidden element within an svg of a shared button component would be easy to set up. 
+
+### Lesson 3 - Challenge: Implement Proper Accessible Names for Next and Previous Month Buttons
+> Your challenge is to expose an accessible names for the next and previous month buttons that will give proper context to a screen reader user.
+> 
+>Draw upon the techniques we’ve used so far in the workshop and check your work in a screen reader.
+
+I tested the following:
+- Updated the css for :before and :after `content: ' >' / '';`. This made it not announcing "greater than" etc. in Firefox and Chrome, but it did not work for Safari.
+	- Also added a visually hidden span that contained text "Previous month" and "next month" and that worked fine after making the `span:before` and `span:after` more specific.
+- My best solution was to completely remove the `:before` and `:after` css and replace the empty span + adding a visually hidden span with text. This also worked in Safari using VoiceOver. See code below:
+
+```jsx
+<header>
+  <button
+    className="btn-month btn-prev"
+    disabled={isPrevMonthAvailable() ? "" : "disabled"}
+    onClick={setPrevMonth}
+  >
+    <span aria-hidden>{`<`}&nbsp;</span>
+    <span className="visually-hidden">Previous month, </span>
+    {dayjs(activeDate).subtract(1, "month").format("MMM")}
+  </button>
+  <h4>{dayjs(activeDate).format("MMMM YYYY")}</h4>
+  <button className="btn-month btn-next" onClick={setNextMonth}>
+    {dayjs(activeDate).add(1, "month").format("MMM")}
+    <span aria-hidden>&nbsp;{`>`}</span>
+    <span className="visually-hidden">, next month</span>
+  </button>
+</header>
+```
+
+**But this was obviously overly complicated** 😅 I could simply add an aria-label to button....
+
+```jsx
+<button
+  className="btn-month btn-prev"
+  disabled={isPrevMonthAvailable() ? "" : "disabled"}
+  onClick={setPrevMonth}
+  aria-label={`Previous month ${dayjs(activeDate)
+    .subtract(1, "month")
+    .format("MMMM")}`}
+>
+  <span></span>
+  {dayjs(activeDate).subtract(1, "month").format("MMM")}
+</button>
+```
+
+```jsx
+<button
+  className="btn-month btn-next"
+  onClick={setNextMonth}
+  aria-label={`Next month ${dayjs(activeDate).add(1, "month").format("MMM")}`}
+>
+  {dayjs(activeDate).add(1, "month").format("MMM")}
+  <span></span>
+</button>
+```
+
+#### Other exercises
+>📝Exercise
+>
+>There are other icons in use in the CampSpots app, including icons for the amenities offered at each location. Examine the accessible names for the icons. Are they as good as they could be? Set new accessible names as appropriate.
+
+>📝Exercise
+>
+>Implement accessible names in your own application
 
 ## Section 5 - Programmatic Accessibility Information with ARIA
+
+>Accessibility has a cool benefit of making your pages machine readable, and ARIA has a big part to play in that. In this section you'll learn how to plumb accessibility information through areas of your application to create programmatic associations and support Assistive Technologies.
+>
+>In this section, we’ll refactor our date picker to have a structure where the relationships between the elements are machine readable.
+
+### Lesson 1 - Structure Markup for Programmatic Accessibility
 
 To be completed.
 

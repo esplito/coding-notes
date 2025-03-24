@@ -248,3 +248,17 @@ More resources regarding ARIA here: https://workshop-resources.testingaccessibil
 
 There's a [community-driven website called a11ysupport.io](https://a11ysupport.io/) that publishes support of different ARIA features in different browsers
 
+### Lesson 2 - Add Implicit ARIA Roles to the Date Picker
+
+#### Exercise: Interact with the Date Picker
+
+- Can you reach and operate everything? 
+	- **No I can't even reach the date picker** or reserve button when tabbing through the page.
+- How are the months and dates announced?
+	- There's no connection between months, dates or days when using VoiceOver. 
+	- It also announces both "Monday" and the abbreviation "M". 
+		- However, at least is says that they are a part of group, but I get no indication of what they are grouped with.
+- Is it clear when a date is selected or already booked?
+	- No, it says nothing about it when I use VoiceOver.
+
+

@@ -209,3 +209,42 @@ My markup after the exercise:
 
 ### Lesson 6 - Check Page Listing Detail Accessibility with Voice Over
 
+#### Some tips
+> 💡 Hit `Fn + CMD + F5` to activate VoiceOver (`Cmd + F5` on a desktop keyboard).
+
+> 💡 Hit `CTRL + Option + U` to show the VoiceOver Rotor. (Cycle through with left and right arrow keys. Up and down navigates through items. Enter or space will select one.)
+
+> 💡 Hit `CTRL` if you want VoiceOver to stop reading.
+
+Important note about the use of `section` and screen readers:
+>In order to have a section landmark show up in the screen reader, it needs to have an accessible name. The `aria-label` technique is one approach, but we’ll go more into this topic again later. - Marcy Sutton
+
+### Lesson 7 - Explore More Semantic Landmark Element Options
+
+Example of other semantic structures that provide additonal information:
+- `ul` combined with `li` will read out something like "`<text of item>`item 1 out of 4 "
+
+Marcy suggests to bookmark this page: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+> I will caution that MDN and other docs aren’t always on top of current accessibility gotchas, so it is important to do your own testing to ensure pages work as expected with Assistive Technology. - Marcy Sutton
+
+## Section 3 - Add Accessibility Information through ARIA
+
+### Lesson 1 - What is ARIA and when to use it?
+
+💡Tip: Bookmark and read more about the [ARIA 1.2 specification at w3.org](https://www.w3.org/TR/wai-aria-1.2/)
+
+> The first rule of ARIA (Accessible Rich Internet Applications) is essentially "Don't use ARIA". Use native HTML elements first, instead.
+>
+> When the time comes and you do need it, you'll want to know you're doing it right.
+
+There's additional information and rules at the following page: https://www.w3.org/TR/using-aria/
+
+> When you apply ARIA, you have to test and make sure it works with Assistive Technology. Plenty of teams have learned about ARIA, then started adding it to everything without realizing that under the hood it was having a negative impact on accessibility.
+
+**End goal of ARIA**: 🎯 Add accessibility information that is beneficial for screen reader users so that they can interact with a page and understand it. 🎯
+
+More resources regarding ARIA here: https://workshop-resources.testingaccessibility.com/#workshop-semantic-html-aria
+
+There's a [community-driven website called a11ysupport.io](https://a11ysupport.io/) that publishes support of different ARIA features in different browsers
+

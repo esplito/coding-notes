@@ -261,4 +261,128 @@ There's a [community-driven website called a11ysupport.io](https://a11ysupport.i
 - Is it clear when a date is selected or already booked?
 	- No, it says nothing about it when I use VoiceOver.
 
+#### Implicit ARIA Roles
 
+When you use elements like `<button>` you get implicit aria roles and other accessibility benefits. In this case `role` equals `button`. If I were to build the same thing with a `div` I would have to explicitly add `role="button"` and add interactive functionality that I get automatically when using `<button>`.
+
+### Lesson 3 - Add ARIA States, Roles, and Properties to the Date Picker
+
+#### 🛠️ Challenge: Implement ARIA Role, State, and Property for Date Picker Grid Items
+
+> Your challenge is to increase the accessibility of the dates in the date picker grid. This can be accomplished by working through these three tasks:
+>
+>	- Each of the dates should be focusable and given a proper ARIA role.
+>	- An ARIA state should be added that indicates whether or not a date has been chosen.
+>	- Add an ARIA label property that enables the screen reader to announce the full date instead of just the number shown visually.
+
+Read through [ARIA widget attributes](https://www.w3.org/TR/wai-aria-1.1/#attrs_widgets) to get a sense of what to use. `aria-pressed` can be used for buttons.
+
+>💡Tip: Always verify the ARIA role, state or property that you’ve chosen to use is intended for the use-case that you have in mind.
+
+Code after fixes:
+```jsx
+return <button 
+aria-label={
+          `${dayjs(day.date).format('MMMM D')}${isDaySelected(day) ? ' selected' : ''}`
+      }
+      aria-pressed={
+          isDaySelected(day) ? 'true' : 'false' 
+      }
+      className={...}
+      key={index}
+      onClick={() => selectDay(day)}
+
+	<time date-time={day.date}>{day.dayOfMonth}</time>
+	<span className='icon' aria-hidden='true'></span>
+</button>
+```
+
+##### 🛠 Challenge: Fix Date Picker Key Markup
+
+- Update the "Booked", "Available", "Selected" info elements to use semantic elements.
+
+Code after fixes:
+```jsx
+<ul className="date-key">
+    <li className="date-key-item-wrap">
+      <span className="date-key-item booked">
+        <span className="icon" aria-hidden="true"></span>
+      </span>
+
+      <span className="date-key-text">Booked</span>
+    </li>
+
+    <li className="date-key-item-wrap">
+      <span className="date-key-item available">
+        <span className="icon" aria-hidden="true"></span>
+      </span>
+
+      <span className="date-key-text">Available</span>
+    </li>
+
+    <li className="date-key-item-wrap">
+      <span className="date-key-item selected">
+        <span className="icon" aria-hidden="true"></span>
+      </span>
+
+      <span className="date-key-text">Selected</span>
+    </li>
+  </ul>
+
+  <button className="reserve-btn">Reserve</button>
+```
+
+### Lesson 4 - Test Date Picker Accessibility with a Screen Reader
+
+There's still some issues:
+- Previous and next months are announced as "less than June" etc.
+- Toggling a date does not give immediate feedback
+
+>The important thing is that we now have introduced programmatic accessibility information into the date picker.
+
+>💡Tip: In the Coding Accessible Interactions & Mechanics workshop, you’ll learn techniques for enhancing the functionality and user experience of the date picker without sacrificing its accessibility features!
+
+In Safari and VoiceOver the semantic information about the list that we added is stripped away. To fix that we need to add `role="list"` to the `ul`.
+
+_Why is VoiceOver doing this in Safari?_ 
+Because it’s relying on the presence of bullet styles, which we don’t have.
+
+🚨 Note the following! 🚨
+>There is a chance that after making this change that some accessibility testing tools will tell us that we’ve added an explicit role that we don’t need. But it’s better to have the screen reader work as intended than it is to leave it off to make a tool happy. 
+
+
+## Section 4 - Craft Accessible Names to Expose the Purpose of Elements on a Page
+
+>In this section, you'll learn the about crafting accessible names and descriptions for Assistive Technology. We will also discuss the best approach to working with labels and placeholders for forms, with gotchas that come up along the way.
+
+### Lesson 1 - What is an Accessible Name?
+
+Accessible names are used to label elements so that people using Assistive technologies can be informed of the purpose of those elements.
+
+**Some ways to add accessible names**:
+- `aria-label`
+- `aria-labelledby`
+- `title` ⚠
+	> Adding a `title` creates a description that will be optionally read aloud after an accessible name (meaning it can create redundancy). It can also contribute to an accessible name as a fallback and is commonly used to label iframes. But it will only show up visually for mouse users. If you use `title`, be sure to test it.
+	
+
+
+The spec, [Accessible Name and Description Computation](https://www.w3.org/TR/accname-1.1/#h-mapping_additional_nd_te), for deciding which attribute should be the accessible name (if you have provided multiple) can be [found at W3C](https://www.w3.org/TR/accname-1.1/#terminology).
+
+### Lesson 2 - Analyzing Accessible Names in the Search Form
+
+#### Accessible names for Forms
+
+- If an input has an associated `label` (using `for` on the label and `id` on the input) then the text of the `label` will become the accessible name instead of the placeholder of the `input`. 
+	- Note: The placeholder will be read aloud as a description (can be configured as a screen reader setting).
+
+
+
+
+## Section 5 - Programmatic Accessibility Information with ARIA
+
+To be completed.
+
+## Section 6 - Accessibility Object Model (AOM)
+
+To be completed.

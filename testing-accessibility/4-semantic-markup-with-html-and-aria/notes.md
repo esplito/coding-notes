@@ -464,8 +464,164 @@ I tested the following:
 
 ### Lesson 1 - Structure Markup for Programmatic Accessibility
 
-To be completed.
+####  🛠️ Challenge: Convert the Date Picker to Use a Table for Programmatic Accessibility
 
+> Your challenge is to convert the date picker from a div element to using an HTML data table that builds in additional accessibility information.
+
+>- The head of the table should be a row that sets up columns for each day of the week.
+>- Use the array of days to create an array of weeks that can then be mapped over to populate the table’s body.
+
+The solution with `table` and also a fix where the current month in `h4` will provide the accessible name for the table, e.g. "May 2025" if you are at May 2025 in the calendar: 
+```jsx
+<div className="date-picker">
+  <header>
+    <button
+      className="btn-month btn-prev"
+      disabled={isPrevMonthAvailable() ? "" : "disabled"}
+      onClick={setPrevMonth}
+      aria-label={`Previous month ${dayjs(activeDate)
+        .subtract(1, "month")
+        .format("MMMM")}`}
+    >
+      <span></span>
+      {dayjs(activeDate).subtract(1, "month").format("MMM")}
+    </button>
+    <h4 id="month">{dayjs(activeDate).format("MMMM YYYY")}</h4>
+    <button
+      className="btn-month btn-next"
+      onClick={setNextMonth}
+      aria-label={`Next month ${dayjs(activeDate)
+        .add(1, "month")
+        .format("MMM")}`}
+    >
+      {dayjs(activeDate).add(1, "month").format("MMM")}
+      <span></span>
+    </button>
+  </header>
+  <table aria-labelledby="month">
+    <thead>
+      <tr className="days-of-week">
+        <th scope="col">
+          <span title="Sunday">S</span>
+        </th>
+        <th scope="col">
+          <span title="Monday">M</span>
+        </th>
+        <th scope="col">
+          <span title="Tuesday">T</span>
+        </th>
+        <th scope="col">
+          <span title="Wednesday">W</span>
+        </th>
+        <th scope="col">
+          <span title="Thursday">T</span>
+        </th>
+        <th scope="col">
+          <span title="Friday">F</span>
+        </th>
+        <th scope="col">
+          <span title="Saturday">S</span>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {tableRows(days, 7, (week, weekNum) => (
+        <tr className="date-grid" key={weekNum}>
+          {week.map((day, index) => (
+            <td key={index}>
+              <button
+                className={[
+                  "grid-btn",
+                  day.isBooked ? "booked" : "",
+                  day.isCurrentMonth ? "currentMonth" : "",
+                  isDaySelected(day) ? "selected" : "",
+                ]
+                  .join(" ")
+                  .trim()}
+                key={index}
+                onClick={() => selectDay(day)}
+                aria-pressed={isDaySelected(day) ? "true" : "false"}
+                aria-label={`${dayjs(day.date).format("MMMM D")}${
+                  isDaySelected(day) ? " selected" : ""
+                }`}
+              >
+                <time date-time={day.date}>{day.dayOfMonth}</time>
+                <span className="icon" aria-hidden="true"></span>
+              </button>
+            </td>
+          ))}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <ul className="date-key" role="list">
+    <li className="date-key-item-wrap">
+      <span className="date-key-item booked">
+        <span className="icon" aria-hidden="true"></span>
+      </span>
+      <span className="date-key-text">Booked</span>
+    </li>
+    <li className="date-key-item-wrap">
+      <span className="date-key-item available">
+        <span className="icon" aria-hidden="true"></span>
+      </span>
+      <span className="date-key-text">Available</span>
+    </li>
+    <li className="date-key-item-wrap">
+      <span className="date-key-item selected">
+        <span className="icon" aria-hidden="true"></span>
+      </span>
+      <span className="date-key-text">Selected</span>
+    </li>
+  </ul>
+  <button className="reserve-btn">Reserve</button>
+</div>
+```
+
+>💡Tip: The [table caption element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption)could also be used to add information, as long as it is visible and the first descendant of the table. Be sure to test table markup with Assistive Technologies! - Marcy
+
+The `tableRows` function:
+
+```js
+const tableRows = (daysArray, sliceSize, sliceFunc) => {
+  const weeks = [];
+
+  for (var i = 0; i < daysArray.length; i += sliceSize) {
+    const slice = daysArray.slice(i, i + sliceSize);
+    weeks.push(sliceFunc(slice, i));
+  }
+  return weeks;
+};
+```
+
+### Lesson 2 - Selective Announcements in Screen Readers
+
+Affects Safari + VoiceOver (not Chrome):
+>Something that could be handled better is the header with the days of the week.
+>
+>As of right now, VoiceOver announces only the first letter of the day. It would be more informative for the screen reader to announce the day’s full name. - Marcy
+
+We'll change it so that the single letters are not announced and that we have a visually hidden full text that is announced by screen readers:
+
+```html
+<th scope="col">
+  <span aria-hidden="true" role="presentation">
+    S
+  </span>
+  <span className="visually-hidden">Sunday</span>
+</th>
+```
+
+>💡Tip: Since the title on the span wasn’t being announced, it’s probably unnecessary to add role="presentation". But just to be safe… - Marcy
+
+#### Testing with NVDA on Windows
+>One of the most popular combinations reported in the WebAIM Screen Reader Survey was NVDA with Chrome on Windows.
+
+>Interacting with the date picker in NVDA works great. There’s even the nice feature of it announcing when the button select status changed, which is something that VoiceOver doesn’t support.
+
+Marcy uses [Parallels](https://www.parallels.com/se/products/desktop/) to run Windows + NVDA on her mac.
 ## Section 6 - Accessibility Object Model (AOM)
+
+### Lesson 1 - Understand AOM Properties and Attribute Reflection
 
 To be completed.

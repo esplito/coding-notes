@@ -707,6 +707,6 @@ document.querySelector('#header-logo > a').ariaCurrent
 
 >We just implemented functionality that sets `ariaCurrent` for the home page link in `header.js` as an AOM property. However, this will only work for users who have enabled additional browser configuration.
 >
->This was an exercise to experiment with setting an AOM property and seeing it reflected in the DOM. But in order to ensure the functionality works for everyone, we should really implement `aria-current` as an HTML attribute instead.
+>This was an exercise to experiment with setting an AOM property and seeing it reflected in the DOM. But in order to ensure the functionality works for everyone, we should really implement `aria-current` as an HTML attribute instead. - Marcy
 
 To be completed.

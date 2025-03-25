@@ -624,4 +624,37 @@ Marcy uses [Parallels](https://www.parallels.com/se/products/desktop/) to run Wi
 
 ### Lesson 1 - Understand AOM Properties and Attribute Reflection
 
-To be completed.
+>The Accessibility Object Model is a set of APIs being designed by the [Web Incubator Community Group](https://wicg.io/) with the goal of allowing JavaScript developers to modify and explore the accessibility tree for a web page. - Marcy
+
+>⚠️Caution
+>The AOM is currently under development, and is subject to change. The purpose of this section is to show you what is available now, and what might be available in the future. - Marcy
+
+
+Status of the project can be found here: https://github.com/WICG/aom/blob/gh-pages/explainer.md#accessibility-object-model
+
+🎯 The **goal of AOM** is to expose a raw JavaScript access point to that accessibility information that allows developers to bypass the HTML step. 🎯 
+
+#### Enable AOM Support in Chrome or Firefox
+
+>Because the AOM is experimental there are a couple steps that you need to take to actually use it in Chrome or Firefox. - Marcy
+
+ℹ️ Safari includes AOM support without additional config.
+
+##### Chrome
+1. Go to `chrome://flags` and enable ‘Experimental Web Platform Features.’
+
+##### Firefox
+1. You will need to navigate to `about:config` and search for accessibility.
+2. There are two options that need to be flipped on, `accessibility.AOM.enabled` and `accessibility.ARIAReflection.enabled`.
+
+After enabling it we can access aria attributes like this for example:
+```js
+document.querySelector('button').ariaLabel;
+```
+
+ℹ️ **Note: Currently the AOM only recognizes explicitly added roles.**  So accessing `.role` will only work if the element has it explicitly set.
+
+>AOM gives us the promise of a property-driven approach to get and set our site’s accessibility features directly through an object. - Marcy
+
+
+

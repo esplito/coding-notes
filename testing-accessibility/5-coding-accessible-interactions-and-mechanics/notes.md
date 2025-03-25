@@ -1,4 +1,4 @@
-**Coding Accessible Interactions and Mechanics** 
+# Coding Accessible Interactions and Mechanics
 
 Github repo: https://github.com/testing-accessibility/workshop-interactions-mechanics
 

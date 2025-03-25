@@ -654,6 +654,8 @@ document.querySelector('button').ariaLabel;
 
 ℹ️ **Note: Currently the AOM only recognizes explicitly added roles.**  So accessing `.role` will only work if the element has it explicitly set.
 
+>This is called attribute reflection. - Marcy
+
 >AOM gives us the promise of a property-driven approach to get and set our site’s accessibility features directly through an object. - Marcy
 
 

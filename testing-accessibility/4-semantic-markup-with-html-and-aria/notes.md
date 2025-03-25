@@ -658,5 +658,55 @@ document.querySelector('button').ariaLabel;
 
 >AOM gives us the promise of a property-driven approach to get and set our site’s accessibility features directly through an object. - Marcy
 
+### Lesson 2 - Implement aria-current as an AOM Property
+
+>The [aria-current](https://www.w3.org/TR/wai-aria-1.1/#aria-current) [property](https://www.w3.org/TR/wai-aria-1.1/#aria-current) is used to tell Assistive Technology which page the user is currently on when it is included as an option in a menu or other collection of elements. Usually, we’d use the `aria-current` attribute in our HTML. But the AOM also supports working with `ariaCurrent` today, albeit behind a flag.
+>
+>Either way, this would be a nice thing to add to the MegaNav as there are a lot of different pages where the user could navigate.
+
+Implementation using AOM to set `ariaCurrent` on a link:
+```jsx
+const Header = () => {
+  const linkRef = useRef(null);
+
+  useEffect(() => {
+    if (document.location.pathname === "/") {
+      linkRef.current.ariaCurrent = "page";
+    }
+  }, []);
+  return (
+    <header id="header">
+      <div id="header-nav">
+        <div id="header-logo">
+          <a href="/" className="header-main-item" ref={linkRef}>
+            <span className="logo-img">
+              <img src={CampSpotsLogo} alt="" />
+            </span>
+            <span className="logo-text">CampSpots</span>
+          </a>
+        </div>
+        <MegaNav />
+        <div id="header-login">
+          <a href="#">Login</a>
+        </div>
+      </div>
+    </header>
+  );
+};
+```
 
 
+The following will work in the console on the home page:
+```terminal
+document.querySelector('#header-logo > a').ariaCurrent  
+
+"page"
+```
+
+### Lesson 3 - Implement aria-current in the MegaNav as an HTML Attribute
+
+>We just implemented functionality that sets `ariaCurrent` for the home page link in `header.js` as an AOM property. However, this will only work for users who have enabled additional browser configuration.
+>
+>This was an exercise to experiment with setting an AOM property and seeing it reflected in the DOM. But in order to ensure the functionality works for everyone, we should really implement `aria-current` as an HTML attribute instead.
+
+To be completed.

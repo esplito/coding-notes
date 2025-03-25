@@ -709,4 +709,44 @@ document.querySelector('#header-logo > a').ariaCurrent
 >
 >This was an exercise to experiment with setting an AOM property and seeing it reflected in the DOM. But in order to ensure the functionality works for everyone, we should really implement `aria-current` as an HTML attribute instead. - Marcy
 
-To be completed.
+#### 🛠️ Challenge: Implement `aria-current` in the MegaNav as a DOM Element Attribute
+
+My solution (could not properly test because Parcel's hot reload fails to update the HTML when I navigate between pages):
+```jsx
+const SubNavLinkGroup = ({ headerText = "", items = [] }) => {
+  const [currentPathname, setCurrentPathname] = useState(null);
+
+  useEffect(() => {
+    if (document.location.pathname) {
+      setCurrentPathname(document.location.pathname);
+    }
+  }, [document.location.pathname]);
+  return (
+    <div className="megamenu-submenu-group">
+      <h3 className="megamenu-submenu-header">{headerText}</h3>
+      <ul>
+        {items.map((item, index) => (
+          <li className="megamenu-submenu-link" key={index}>
+            <a
+              className="nav-link"
+              data-testid={`link-${index}`}
+              href={item.url}
+              aria-current={currentPathname === item.url ? "page" : null}
+            >
+              {item.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+```
+
+### Lesson 4 - Check aria-current with a Screen Reader and AOM as a Promising Technology
+
+📣 **Remember the following!** 📣
+
+> The whole reason to add accessibility information is for tools like screen readers to use them and make the user experience better.
+
+> ... remember that **the key is always to test with Assistive Technolog**y and go with whatever provides the best user experience.

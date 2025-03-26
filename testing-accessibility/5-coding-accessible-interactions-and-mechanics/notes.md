@@ -175,10 +175,82 @@ const Header = () => {
 The skip link in browser:
 !["skip to main content" button rendered above the campspots header](./skip-link-testingaccessibility-workshop.png)
 
+>**Further Consideration**
+>There are some considerations to make for both the visual style of the skip link and its placement, particularly when looking at smaller viewport sizes. However, functionally we have something that works and suits our purposes for now. - Marcy
 
+##### 🛠 Challenge: Add a “Back to Top” Link to the Footer
+
+>Following a similar process to what I did above, add an instance of the `SkipLinks` component to the footer that allows the user to jump back to the top of the page.
+
+Updated CSS + SkipLinks component to also render another background color for the footer skip link just to show that we can style them differently if needed.
+
+```jsx
+<footer id="footer">
+  <SkipLinks variant="footer">
+    <li>
+      <a href="#header">Skip to top</a>
+    </li>
+  </SkipLinks>
+  <div className="layout">
+    <div id="footer-logo">
+      <img src={imgFooterLogo} alt="CampSpots" />
+    </div>
+  </div>
+</footer>
+```
+
+```scss
+.skip-links {
+  list-style: none;
+  margin: 0 auto;
+  max-width: var(--width-wide);
+  padding: 0;
+  position: relative;
+  z-index: 2;
+
+  & li a:focus-visible,
+  & li a:focus {
+    opacity: 1;
+  }
+
+  &.header {
+    transform: translateY(-1em);
+  }
+  &.footer li a {
+    background-color: crimson;
+  }
+
+  li a {
+    background-color: var(--color-accent-secondary);
+    color: var(--color-primary-light);
+    font-weight: bold;
+    padding: 0.5em;
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+    opacity: 0;
+  }
+}
+
+```
+
+Skip link in browser:
+!["skip to top" button rendered above the footer](./skip-link-to-top-of-page.png)
+
+>There are multiple ways to build skip links but the functionality should be the same.
+>
+>We want something that’s in the tab order that becomes visible to sighted keyboard users and screen reader users alike. A link should move the user’s focus point to another part of the page when activated.
+>
+>Using our CSS visibility techniques allows us to render our skip links, make them visible on focus, and read them aloud in a screen reader. 
+>
+>For more practice with Skip Links, add them to your own project! - Marcy
 ## Section 3 - Focus Management
 
-To be completed.
+### Lesson 1 - Overview of Focus Management
+
+>Being able to programmatically move focus to different parts of your application is a necessary skill when building interactive web applications. - Marcy
+
+
 
 ## Section 4 - Check your work with screen readers
 

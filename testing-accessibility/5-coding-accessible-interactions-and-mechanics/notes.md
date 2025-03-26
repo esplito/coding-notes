@@ -101,8 +101,48 @@ A **skip link can**:
 A **skip link should**:
 - Be visible to all keyboard users
 	- and **not be visually-hidden for screen reader use only** (this was common previously)
+#### 🛠 Challenge: Add a Skip Link
+>Your challenge is to add a skip link to the CampSpots app that allows a keyboard user to skip past the header and straight to the main content of the page.
 
+My solution:
 
+```jsx
+// Component
+const SkipLinks = ({ children }) => {
+  return <ul className="skip-links">{children}</ul>;
+};
+
+// Usage in header
+const Header = () => {
+  return (
+    <header id="header">
+      <SkipLinks>
+        <li>
+          <a href="#main">Skip to main content</a>
+        </li>
+      </SkipLinks>
+      <div id="header-nav">
+        <div id="header-logo">
+          <a href="/" className="header-main-item">
+            <span className="logo-img">
+              <img src={CampSpotsLogo} alt="" />
+            </span>
+            <span className="logo-text">CampSpots</span>
+          </a>
+        </div>
+        <MegaNav />
+        <div id="header-login">
+          <a href="#">Login</a>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+```
+
+The skip link in browser:
+!["skip to main content" button rendered above the campspots header](./skip-link-testingaccessibility-workshop.png)
 
 
 ## Section 3 - Focus Management

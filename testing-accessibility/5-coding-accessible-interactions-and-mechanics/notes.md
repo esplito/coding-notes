@@ -106,6 +106,37 @@ A **skip link should**:
 
 My solution:
 
+```scss
+.skip-links {
+  list-style: none;
+  margin: 0 auto;
+  max-width: var(--width-wide);
+  padding: 0;
+  position: relative;
+  z-index: 2;
+
+  & li a:focus-visible,
+  & li a:focus {
+    opacity: 1;
+  }
+
+  &.header {
+    transform: translateY(-1em);
+  }
+  li a {
+    background-color: var(--color-accent-secondary);
+    color: var(--color-primary-light);
+    font-weight: bold;
+    padding: 0.5em;
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+    opacity: 0;
+  }
+}
+
+```
+
 ```jsx
 // Component
 const SkipLinks = ({ children }) => {

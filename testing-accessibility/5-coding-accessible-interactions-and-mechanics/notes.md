@@ -36,6 +36,7 @@ Useful resources to help us test and implement keyboard-friendly web application
 	- "Whenever you’re building a web application, it’s helpful to follow patterns." - Marcy
 	- "... a wealth of information about the conventions behind the most common controls used in web development. Each of the patterns they outline include a description of expected keyboard interactions." - Marcy
 	- When building custom components compare it to [the list of patterns](https://www.w3.org/WAI/ARIA/apg/patterns/)
+		- 🚨 It is not production-ready patterns. You have to test them too! 🚨
 
 ## Section 3 - Focus Management
 
